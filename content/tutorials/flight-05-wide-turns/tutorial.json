@@ -1,0 +1,46 @@
+{
+  "map": "hangar-c03-demo",
+  "track": "hangar-c03-demo-first-flight",
+  "id": "flight-05-wide-turns",
+  "name": "Plan a wide turn",
+  "topic": "Cornering",
+  "order": 50,
+  "description": "Look ahead, leave clearance and link three original Hangar gates.",
+  "steps": [
+    {
+      "text": "Follow the original Hangar gates. Before a corner, reduce speed and look toward the next opening. Bank with roll and guide the nose with yaw.",
+      "objective": "manual",
+      "target": 0,
+      "duration": 0,
+      "title": "Plan the corner"
+    },
+    {
+      "text": "Fly through gate 1. Approach its centre with room to turn afterwards.",
+      "objective": "gate",
+      "target": 0,
+      "duration": 0,
+      "title": "Approach gate 1"
+    },
+    {
+      "text": "Turn toward gate 2. Use a gentle bank; avoid sliding into the outside wall.",
+      "objective": "gate",
+      "target": 1,
+      "duration": 0,
+      "title": "Bank toward gate 2"
+    },
+    {
+      "text": "Link the turn into gate 3. Follow the next-gate marker instead of staring at the gate behind you.",
+      "objective": "gate",
+      "target": 2,
+      "duration": 0,
+      "title": "Link the turn into gate 3"
+    },
+    {
+      "text": "Choose an open floor area, level out and land gently.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2,
+      "title": "Land in an open area"
+    }
+  ]
+}

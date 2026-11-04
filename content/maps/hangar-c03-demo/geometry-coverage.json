@@ -1,0 +1,35 @@
+{
+  "input": "data/hangar-c03-demo-recovery/model.glb",
+  "output": "data/hangar-c03-demo-recovery/audit-delivery.glb",
+  "deliverySha256": "ee5fd37ff400af47f0bf232af86840083f4ccbabe9e22d683bd99cbd2ced4ba7",
+  "sourceTriangles": 4484657,
+  "surfaceProbes": 25392,
+  "gridSpacingMetres": 21,
+  "sampling": "deterministic spatial grid; not exhaustive surface coverage",
+  "levels": [
+    {
+      "lod": 0,
+      "triangles": 4463663,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    },
+    {
+      "lod": 1,
+      "triangles": 4463663,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    },
+    {
+      "lod": 2,
+      "triangles": 4463652,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    }
+  ]
+}

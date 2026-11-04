@@ -1,0 +1,86 @@
+{
+  "input": "data/liftoff-pine-valley-recovery/liftoff-pine-valley-demo-liftoff-04-props.glb",
+  "output": "content/races/liftoff-pine-valley-demo-liftoff-04/props.glb",
+  "trianglesBeforeInstancing": 79616,
+  "meshPrimitives": 99,
+  "materials": 7,
+  "textures": [
+    {
+      "name": "texture-b476f85888b26eff",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-a1b7328c9ec17e1a-metallic-34",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-2212a94401c97050",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-23db06da04ae8c05",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-ad1655d59df2ec9d",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-174a25a7ea340943",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-05fd98925dd27078",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-7e99a6beb182fbec-metallic-44",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-8a3e3994723340b5",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_materials_emissive_strength",
+    "KHR_texture_basisu",
+    "EXT_meshopt_compression"
+  ]
+}

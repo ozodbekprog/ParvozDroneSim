@@ -1,0 +1,238 @@
+{
+  "input": "content/drones/dquad-addiction/far.glb",
+  "output": "content/drones/dquad-addiction/far-delivery.glb",
+  "trianglesBeforeInstancing": 2585,
+  "meshPrimitives": 20,
+  "materials": 10,
+  "textures": [
+    {
+      "name": "texture-de78c4fb60515451",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-5",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-2de385222c320d77",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-985488e5fbd701a9-metallic-15",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-72d8d0b5610bd5d2",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-c54e0ffb55ee3144",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-bec1f502ed27f399",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-10",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-9185b0b1bb8f971a",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-37f58abd4131aba2-metallic-7",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-cf3673b9db496b7b",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-aa79913f5ed287f5",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-e2a26dc2555c094c",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-14",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-18894c74e7fdaf0d",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-097ea88b57d1266a",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-41",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-89b90367403ae81c",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-6f8a53f3ad17fda4",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-42",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-498a3960c3788089",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-6c2e9d4c5359b583",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-33",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-02bb1e034231195f",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-6b7bfdb0dd59952c",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-18",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-365b627b945868c6",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-37",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_texture_basisu",
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "source": "Actual Parvoz game framebuffer captured with QA controls via Browser, not generated art",
+  "sourceContent": "Liftoff: FPV Drone Racing — LuGus Studios and credited content providers",
+  "permissionConfirmed": false,
+  "scope": "Previously authorized online multiplayer test",
+  "captures": [
+    {
+      "map": "liftoff-pine-valley-demo",
+      "track": "liftoff-pine-valley-demo-liftoff-01",
+      "quality": "ultra",
+      "angle": "reverse",
+      "hardware": {
+        "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F99) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "memoryGB": 16,
+        "mobile": false
+      },
+      "backend": "WebGL2",
+      "framebuffer": [
+        1920,
+        1080
+      ],
+      "adaptiveResolution": false,
+      "position": [
+        -568.0458984375,
+        15.26908016204834,
+        787.4556884765625
+      ],
+      "quaternion": [
+        -0.11754852873982716,
+        0.33775455529641146,
+        0.042558437210915234,
+        0.9328949475636525
+      ],
+      "fov": 72,
+      "capturedAt": "2026-10-18T16:02:06.979Z",
+      "file": "pine-valley.jpg",
+      "sha256": "9301c15e9343f2e8aa704377c2769a3e32d953362e13712fd48ed9f06867c401"
+    },
+    {
+      "map": "liftoff-the-green-demo",
+      "track": "liftoff-the-green-demo-liftoff-01",
+      "quality": "ultra",
+      "angle": "course",
+      "hardware": {
+        "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F99) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "memoryGB": 16,
+        "mobile": false
+      },
+      "backend": "WebGL2",
+      "framebuffer": [
+        1920,
+        1080
+      ],
+      "adaptiveResolution": false,
+      "position": [
+        -462.5599082708359,
+        11.937908366322517,
+        547.5682986974716
+      ],
+      "quaternion": [
+        -0.08583086181965158,
+        0.2228049103926338,
+        0.01969716892176014,
+        0.970877467346263
+      ],
+      "fov": 72,
+      "capturedAt": "2026-10-18T15:51:52.626Z",
+      "file": "the-green.jpg",
+      "sha256": "cd1255e3e65262e82a2270ade63961eaaed5856d87baf0044c37d5df515db762"
+    },
+    {
+      "map": "minus-two-demo",
+      "track": "minus-two-demo-liftoff-01",
+      "quality": "ultra",
+      "angle": "course",
+      "hardware": {
+        "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F99) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "memoryGB": 16,
+        "mobile": false
+      },
+      "backend": "WebGL2",
+      "framebuffer": [
+        1920,
+        1080
+      ],
+      "adaptiveResolution": false,
+      "position": [
+        -15.349785322872986,
+        0.774857497215271,
+        -21.87388204783434
+      ],
+      "quaternion": [
+        0.0036617656259978976,
+        0.9560347442667317,
+        0.011948567631263712,
+        -0.292987015000505
+      ],
+      "fov": 72,
+      "capturedAt": "2026-10-18T15:57:18.306Z",
+      "file": "minus-two.jpg",
+      "sha256": "18d349f1c21a25245109be751c81421ccf5c87dfe9a77701704c50f3b6d5c2e4"
+    }
+  ]
+}

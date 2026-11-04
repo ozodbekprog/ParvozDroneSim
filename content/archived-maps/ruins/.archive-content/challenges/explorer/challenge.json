@@ -1,0 +1,8 @@
+{
+  "id": "explorer",
+  "name": "Beyond the Walls",
+  "map": "ruins",
+  "track": "ruins-route",
+  "target": 280,
+  "reward": 150
+}

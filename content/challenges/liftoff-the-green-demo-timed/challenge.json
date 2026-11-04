@@ -1,0 +1,10 @@
+{
+  "id": "liftoff-the-green-demo-timed",
+  "name": "The Green: Timed Course",
+  "description": "Complete an original The Green racing route.",
+  "target": 240,
+  "reward": 200,
+  "hints": [],
+  "map": "liftoff-the-green-demo",
+  "track": "liftoff-the-green-demo-liftoff-01"
+}

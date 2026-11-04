@@ -1,0 +1,45 @@
+{
+  "id": "canyon",
+  "name": "Redline",
+  "region": "Canyon Race",
+  "theme": "custom",
+  "seed": 333,
+  "description": "A fast desert run above stone shelves and wind-carved ravines.",
+  "sky": "#92b8d4",
+  "fog": "#c9bca7",
+  "ground": "#b58d6e",
+  "sun": "#fff0c7",
+  "sunPosition": [
+    65,
+    35,
+    81
+  ],
+  "cloudColor": "#f4dfc1",
+  "wind": [
+    2.5,
+    0,
+    -0.8
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "canyon",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.39,
+      -440
+    ],
+    "max": [
+      440,
+      60.27,
+      440
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+import {cpSync,readFileSync,writeFileSync,existsSync,readdirSync,statSync} from 'node:fs';
+import {join,resolve} from 'node:path';
+import {createHash} from 'node:crypto';
+import {syncContent} from './content-packages.js';
+import {NETWORK_PROTOCOL} from '../shared/network-flight.js';
+const root=resolve(import.meta.dirname,'..'),target=join(root,'data/menu-qa/release-20261010');
+const record=JSON.parse(readFileSync(join(target,'RELEASE.json')));
+if(record.status!=='staged-not-deployed')throw new Error('Do not change a deployed release.');
+if(record.obsolete)throw new Error('This historical candidate is archived. Prepare a new licensed release instead of overwriting it.');
+for(const path of ['src','shared','server','public/runtime','public/content/recipes.js','index.html','package.json','package-lock.json','tools/content-packages.js','tools/glb-content.js','tools/content-worker.js','tools/validate-content.js','tools/check-public.js','tools/verify-backup.js','tools/backup-remote.js'])cpSync(join(root,path),join(target,path),{recursive:true});
+const assetsOnly=path=>!path.endsWith('.blend')&&!path.endsWith('.blend1');
+const drones=readdirSync(join(root,'content/drones')).filter(id=>{
+  const source=join(root,'content/drones',id,'SOURCE.json');
+  return !existsSync(source)||JSON.parse(readFileSync(source)).permissionConfirmed!==false;
+});
+for(const id of drones)cpSync(join(root,'content/drones',id),join(target,'content/drones',id),{recursive:true,filter:assetsOnly});
+for(const path of ['content/parts','content/maps/ironworks-v2','content/shared-assets/workbench'])cpSync(join(root,path),join(target,path),{recursive:true,filter:assetsOnly});
+const publicMapPath=join(target,'content/maps/ironworks-v2/map.json');
+const publicMap=JSON.parse(readFileSync(publicMapPath));
+if(publicMap.garage?.localOnly){delete publicMap.garage;writeFileSync(publicMapPath,JSON.stringify(publicMap,null,2)+'\n');}
+const {catalog}=syncContent(target);
+if(catalog.maps.length!==1||catalog.maps[0].id!=='ironworks-v2')throw new Error('Only licensed Ironworks may ship');
+if(catalog.drones.some(drone=>!drones.includes(drone.id)))throw new Error('Unlicensed drone in release stage');
+record.revision=catalog.revision;record.protocol=NETWORK_PROTOCOL;
+record.browserVerified=false;record.buildVerified=false;record.contentVerified=false;
+record.date=new Date().toISOString().slice(0,10);
+record.excluded=['Imported Liftoff maps and drones','archived content','QA assets','databases','env files','Blender sources'];
+let bytes=0;const walk=dir=>{for(const entry of readdirSync(dir,{withFileTypes:true})){const path=join(dir,entry.name);if(entry.isDirectory())walk(path);else{if(/\.sqlite(?:-wal|-shm)?$|\.db$|\.env$/.test(path))throw new Error('Private data in release stage');bytes+=statSync(path).size;}}};walk(target);record.bytes=bytes;
+for(const file of ['public/runtime/basis/basis_transcoder.js','public/runtime/basis/basis_transcoder.wasm'])if(!existsSync(join(target,file)))throw new Error('Missing release decoder: '+file);
+record.clientSourceSha256=createHash('sha256').update(readFileSync(join(target,'src/main.js'))).digest('hex');
+writeFileSync(join(target,'RELEASE.json'),JSON.stringify(record,null,2)+'\n');
+console.log('Final source, repaired models, collision sidecars and decoders staged.');

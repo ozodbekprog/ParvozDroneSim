@@ -1,0 +1,72 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "at": 33014.59999999963,
+  "probe": {
+    "start": 1792699819246,
+    "tasks": [
+      {
+        "at": 484.90000000037253,
+        "ms": 248
+      },
+      {
+        "at": 737.0999999996275,
+        "ms": 53
+      },
+      {
+        "at": 1436.800000000745,
+        "ms": 271
+      },
+      {
+        "at": 2313.800000000745,
+        "ms": 181
+      },
+      {
+        "at": 2790.5,
+        "ms": 61
+      },
+      {
+        "at": 3616.5999999996275,
+        "ms": 121
+      }
+    ],
+    "errors": [],
+    "marks": [],
+    "ready": 5658.699999999255
+  },
+  "view": "Подготовка полёта\n\nПодключение к серверу…\n\nPARVOZ\nDRONE SIMULATOR\n\nГотово\n\n100%\nИграть\nВойти",
+  "resources": [
+    {
+      "url": "/assets/index-7TSF7k3X.js",
+      "start": 296,
+      "ms": 0,
+      "bytes": 0,
+      "encoded": 783025,
+      "decoded": 8727791,
+      "cache": "cache",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/catalog?knownRevision=2132caf43c0e38df",
+      "start": 902.1999999992549,
+      "ms": 168.80000000074506,
+      "bytes": 517,
+      "encoded": 217,
+      "decoded": 217,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/me",
+      "start": 1072.800000000745,
+      "ms": 232.59999999962747,
+      "bytes": 1005,
+      "encoded": 705,
+      "decoded": 1467,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    }
+  ]
+}

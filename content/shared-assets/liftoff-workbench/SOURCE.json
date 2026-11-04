@@ -1,0 +1,22 @@
+{
+  "author": "LuGus Studios and original asset creators",
+  "source": "Installed Liftoff: DroneEditor and DroneSelector",
+  "permissionConfirmed": false,
+  "usage": "Local verification only; exclude from public release",
+  "sceneFiles": [
+    "Liftoff_Data/level3",
+    "Liftoff_Data/level4"
+  ],
+  "sourceProps": [
+    "PicnicTable01",
+    "DroneCharger01",
+    "SolderingIron01"
+  ],
+  "spares": "Original Luma 5 battery, Hypetrain motor and Gemfan propeller, from preserved local import",
+  "tools": [
+    "AssetRipper Free 2.0.0",
+    "Blender 5.1.0"
+  ],
+  "changes": "Authored meshes, UVs and proportions retained; centered table and arranged original tools and spare parts; prepared PBR/KTX2 textures",
+  "repairs20261013": "Original atlas UV orientation restored; original props retained"
+}

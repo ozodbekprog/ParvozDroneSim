@@ -1,0 +1,27 @@
+{
+  "sourceTriangles": 336760,
+  "surfaceProbes": 7823,
+  "levels": [
+    {
+      "lod": 0,
+      "triangles": 336711,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": []
+    },
+    {
+      "lod": 1,
+      "triangles": 336711,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": []
+    },
+    {
+      "lod": 2,
+      "triangles": 336079,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": []
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "height": 144,
+    "id": "original:armattan-chameleon",
+    "index": 0,
+    "name": "Armattan Chameleon 5\"",
+    "width": 256,
+    "source": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/armattan-chameleon/thumbnail-18db4e5afc46b458.png"
+  },
+  {
+    "height": 144,
+    "id": "original:armattan-gecko",
+    "index": 1,
+    "name": "Armattan Gecko 3″",
+    "width": 256,
+    "source": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/armattan-gecko/thumbnail-bd595666b18ef47c.png"
+  },
+  {
+    "height": 144,
+    "id": "original:dquad-addiction",
+    "index": 2,
+    "name": "Dquad Addiction",
+    "width": 256,
+    "source": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/dquad-addiction/thumbnail-ea0186cc6a4e8ec4.png"
+  },
+  {
+    "height": 144,
+    "id": "original:kestrel",
+    "index": 3,
+    "name": "Kestrel 5",
+    "width": 256,
+    "source": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/kestrel/thumbnail-602d58ee87e1b714.png"
+  },
+  {
+    "height": 144,
+    "id": "original:luma-5",
+    "index": 4,
+    "name": "Luma 5",
+    "width": 256,
+    "source": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/luma-5/thumbnail-6098bac019b24ee7.png"
+  },
+  {
+    "height": 144,
+    "id": "modified:luma-5:1",
+    "index": 5,
+    "name": "Luma 5 Copy 1",
+    "width": 256,
+    "source": "Current public Hangar img data URL; saved as 06.png"
+  }
+]

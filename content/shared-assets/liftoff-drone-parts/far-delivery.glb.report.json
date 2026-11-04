@@ -1,0 +1,438 @@
+{
+  "input": "content/shared-assets/liftoff-drone-parts/far-source.glb",
+  "output": "content/shared-assets/liftoff-drone-parts/far-delivery.glb",
+  "trianglesBeforeInstancing": 4981,
+  "meshPrimitives": 32,
+  "materials": 21,
+  "textures": [
+    {
+      "name": "texture-d2abad7a20f4e65f",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-40",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-a6df6a9cdac860c2",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-1b5d7fca3fe5b258-metallic-2",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-0b83bc497bf18c3e",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-7c1b4c0fc336c9a0",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-92d25f88a28220db-metallic-9",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-a6076b02812e4933",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-7db6c6954e19b3b1",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-b63b9aa7ef4b93df-metallic-12",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-7612d4c84af5aa30",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-c71d84171a7553f0",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-38",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-d3babbae2e13d553",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-3be0058e1b3a4edc",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-19",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-765cb1b870fc4bcc",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-824fb390b8c4524b",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-23",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-0e3f41e89b15768a",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-0960049a6f65ee7e",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-25",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-36d0a92f105102d8",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-60336360c9931289",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-24",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-64f6c26d7e8823c4",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-8ed5de241dcc83d3",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-27",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-934cc3ba728544d7",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-534b1891142b454d",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-28",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-324ae0689e90c983",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-32",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-445eb7bc6e48d9dc",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-fdcd9b75e18b1ed3",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-34",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-2b6424cb876d4859",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-35",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-1daac15fb4a1057d",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-7147dc4faf30516f-metallic-42",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-94966b263cb494de",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-acb2f0b6bfda3ec9",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-ab674fd6e2271ebb-metallic-43",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-6147cb1a3df9892a",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-b6f46bd379d5bea6",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-fac13a101582e0b9",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-44",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-4a6b6292ebfe67cb",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-ea2e9a0fee353f2b",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-45",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-56da2fea981d1ee4",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-2634ee57fb72a70a",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-46",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_texture_basisu",
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ]
+}

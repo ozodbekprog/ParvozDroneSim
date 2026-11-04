@@ -1,0 +1,20 @@
+[
+  {
+    "map": "minus-two-demo",
+    "material": "TornPosters01",
+    "object": "TornPosters01_7898_0",
+    "review": "Repaired authored primary atlas, three unlit diagnostic views; game Low checked separately"
+  },
+  {
+    "map": "hangar-c03-demo",
+    "material": "TrafficSignStop01",
+    "object": "Stop_44686_50",
+    "review": "Repaired authored primary atlas, three unlit diagnostic views; game Low checked separately"
+  },
+  {
+    "map": "liftoff-arena-demo",
+    "material": "BannerArena02",
+    "object": "SingleMesh BannerVertical03_57884_0",
+    "review": "Repaired authored primary atlas, three unlit diagnostic views; game Low checked separately"
+  }
+]

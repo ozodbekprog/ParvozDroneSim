@@ -1,0 +1,26 @@
+{
+  "levels": {
+    "1": {
+      "before": 11544852,
+      "after": 4543510,
+      "meshes": 5299
+    },
+    "2": {
+      "before": 11544852,
+      "after": 1400065,
+      "meshes": 5299
+    }
+  },
+  "maxReportedError": 0.02484377846121788,
+  "fullDetailBefore": "38d5e55b517f9f1c386a617b38475959e4678279f460ef0b27d0406f0908310a",
+  "strategy": "Derived from original UV/material topology at both reduced levels; no triangle-by-triangle baked atlas at distance.",
+  "fullDetailAfter": "38d5e55b517f9f1c386a617b38475959e4678279f460ef0b27d0406f0908310a",
+  "textureBytesUnchanged": true,
+  "status": "verified",
+  "input": "public/content/assets/maps/liftoff-pine-valley-demo/model-b17ef7862351e2bb.glb",
+  "output": "public/content/assets/qa/pine-lod-cards-20261018.glb",
+  "ms": 37416.4632,
+  "sourceSha256": "b17ef7862351e2bb4bdaf15f1524fb0853b0f56ceb01452c338a269843635342",
+  "deliverySha256": "caac846413aa05ae6744ffc0af6ff3c361561bdf3f2c59707543c89f22fa4beb",
+  "deliveryBytes": 285782364
+}

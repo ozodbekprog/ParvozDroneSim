@@ -1,0 +1,17 @@
+{
+  "name": "Minus Two",
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+  "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+  "permissionConfirmed": false,
+  "unityVersion": "2022.3.62f3",
+  "trackResource": "MinusTwoTrack04_0001",
+  "raceResource": "MinusTwoRace04_0001",
+  "sourceTrackId": "107f2629-e6fc-42a5-8898-affc6c85ffa5",
+  "sourceRaceId": "4ecef08b-d27a-4b93-8216-2a7174f097aa",
+  "conversion": "Original checkpoint graph, positions, prefab trigger bounds and spawn preserved. Source Start is folded into Finish once per lap; our countdown begins at spawn. Gate normal sign follows the ordered route. Visuals use our existing gate renderer; source decorative track props are imported separately.",
+  "trackProps": "Original visible prefab geometry, PBR materials and blueprint transforms. Non-trigger collision retained; source repair/charge logic is not implemented. Checkpoint trigger renderers remain hidden.",
+  "materialAudit": "material-audit.json",
+  "lod": "Original prefab LODGroups preserved with separate 16 m cells; exactly one LOD per cell is visible."
+}

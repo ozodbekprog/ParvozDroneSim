@@ -1,0 +1,112 @@
+{
+  "map": "liftoff-arena-demo",
+  "shadowOnlySourceObjects": 1,
+  "previewSourceHierarchy": "FreezeFrameFinish",
+  "removedPrimitives": 15,
+  "repairedDistanceCells": 12,
+  "models": [
+    {
+      "file": "content/maps/liftoff-arena-demo/model.glb",
+      "neutralized": [
+        "LuGusStoneLogoOFF01",
+        "PostersLiftoffArena01",
+        "VideoWallScreensNoLogo",
+        "AirflagLiftoffFinishDark01",
+        "StadiumScreenLiftoff01",
+        "StadiumScreenLiftoffSlogan01"
+      ],
+      "bytesBefore": 169463094,
+      "bytesAfter": 167513286,
+      "removedImages": 12
+    },
+    {
+      "file": "content/races/liftoff-arena-demo-liftoff-02/props.glb",
+      "neutralized": [
+        "LiftoffFlagCrowdControlBarrier01",
+        "InflatableArchBrandless01"
+      ],
+      "bytesBefore": 23922238,
+      "bytesAfter": 23996528,
+      "removedImages": 1,
+      "additionalBrandingPass": {
+        "file": "content/races/liftoff-arena-demo-liftoff-02/props.glb",
+        "neutralized": [
+          "InflatableArchBrandless01"
+        ],
+        "bytesBefore": 24063190,
+        "bytesAfter": 23603790,
+        "removedImages": 4
+      }
+    },
+    {
+      "file": "content/races/liftoff-arena-demo-liftoff-03/props.glb",
+      "neutralized": [
+        "AirflagLiftoffSlalomDark01",
+        "LiftoffFlagCrowdControlBarrier01",
+        "InflatableArchBrandless01"
+      ],
+      "bytesBefore": 18228350,
+      "bytesAfter": 17695092,
+      "removedImages": 4,
+      "additionalBrandingPass": {
+        "file": "content/races/liftoff-arena-demo-liftoff-03/props.glb",
+        "neutralized": [
+          "InflatableArchBrandless01"
+        ],
+        "bytesBefore": 17818950,
+        "bytesAfter": 17359550,
+        "removedImages": 4
+      }
+    },
+    {
+      "file": "content/races/liftoff-arena-demo-liftoff-04/props.glb",
+      "neutralized": [
+        "AirflagLiftoffSlalomDark01",
+        "InflatableArchBrandless01"
+      ],
+      "bytesBefore": 9717318,
+      "bytesAfter": 9292180,
+      "removedImages": 3,
+      "additionalBrandingPass": {
+        "file": "content/races/liftoff-arena-demo-liftoff-04/props.glb",
+        "neutralized": [
+          "InflatableArchBrandless01"
+        ],
+        "bytesBefore": 9456930,
+        "bytesAfter": 8997530,
+        "removedImages": 4
+      }
+    },
+    {
+      "file": "content/races/liftoff-arena-demo-liftoff-05/props.glb",
+      "neutralized": [
+        "AirflagLiftoffFinishDark01",
+        "AirflagLiftoffSlalomWhite01",
+        "AirPylon01"
+      ],
+      "bytesBefore": 11333318,
+      "bytesAfter": 9875366,
+      "removedImages": 7
+    },
+    {
+      "file": "content/races/liftoff-arena-demo-liftoff-06/props.glb",
+      "neutralized": [
+        "AirflagLiftoffFinishDark01",
+        "AirflagLiftoffSlalomWhite01",
+        "AirPylon01"
+      ],
+      "bytesBefore": 13402578,
+      "bytesAfter": 11944618,
+      "removedImages": 7
+    },
+    {
+      "file": "content/races/liftoff-arena-demo-liftoff-01/props.glb",
+      "neutralized": [
+        "InflatableArchBrandless01"
+      ],
+      "bytesBefore": 29476998,
+      "bytesAfter": 29017546,
+      "removedImages": 4
+    }
+  ]
+}

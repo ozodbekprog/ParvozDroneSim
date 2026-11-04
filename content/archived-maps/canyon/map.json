@@ -1,0 +1,201 @@
+{
+  "id": "canyon",
+  "name": "Redline",
+  "region": "Canyon Race",
+  "theme": "custom",
+  "seed": 333,
+  "description": "A fast desert run above stone shelves and wind-carved ravines.",
+  "sky": "#92b8d4",
+  "fog": "#c9bca7",
+  "ground": "#b58d6e",
+  "sun": "#fff0c7",
+  "sunPosition": [
+    65,
+    35,
+    81
+  ],
+  "cloudColor": "#f4dfc1",
+  "wind": [
+    2.5,
+    0,
+    -0.8
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "canyon",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.39,
+      -440
+    ],
+    "max": [
+      440,
+      60.27,
+      440
+    ]
+  },
+  "tracks": [
+    {
+      "id": "canyon-run",
+      "name": "Ridge Run",
+      "laps": 2,
+      "gates": [
+        {
+          "position": [
+            0,
+            6.75,
+            36
+          ],
+          "yaw": 1.025141,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            56,
+            9.45,
+            70
+          ],
+          "yaw": 1.935998,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            124,
+            13.5,
+            44
+          ],
+          "yaw": 2.770701,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            152,
+            9.45,
+            -28
+          ],
+          "yaw": -2.289626,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            88,
+            6.75,
+            -84
+          ],
+          "yaw": -1.735945,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            4,
+            10.8,
+            -98
+          ],
+          "yaw": -0.988443,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -78,
+            14.85,
+            -44
+          ],
+          "yaw": 0.130827,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -68,
+            8.1,
+            32
+          ],
+          "yaw": 1.51204,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ],
+      "spawn": {
+        "position": [
+          -20.5149,
+          6.75,
+          23.544519
+        ],
+        "yaw": 1.025141
+      }
+    }
+  ],
+  "bundledChallenges": [
+    {
+      "id": "sprinter",
+      "name": "Redline Run",
+      "map": "canyon",
+      "track": "canyon-run",
+      "target": 289,
+      "reward": 180
+    }
+  ],
+  "bundledTutorials": []
+}

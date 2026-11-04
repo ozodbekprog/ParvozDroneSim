@@ -1,0 +1,112 @@
+{
+  "id": "ridgeway-bridge-run",
+  "name": "Ridgeway Bridge Run",
+  "map": "ridgeway",
+  "laps": 1,
+  "spawn": {
+    "position": [
+      -93.980003,
+      5.4,
+      -37.360001
+    ],
+    "yaw": 2.8023
+  },
+  "gates": [
+    {
+      "position": [
+        -86.0,
+        5.4,
+        -60.0
+      ],
+      "yaw": 2.8023,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -14.0,
+        6.75,
+        -34.0
+      ],
+      "yaw": 1.292497,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        40.0,
+        6.75,
+        -24.0
+      ],
+      "yaw": 1.161359,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        92.0,
+        6.75,
+        12.0
+      ],
+      "yaw": 0.023805,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        42.0,
+        5.4,
+        60.0
+      ],
+      "yaw": -1.195156,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -50.0,
+        5.4,
+        68.0
+      ],
+      "yaw": -2.323948,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ]
+}

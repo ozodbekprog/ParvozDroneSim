@@ -1,0 +1,227 @@
+{
+  "id": "harborworks",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "a334f9d54876c4817a6964be3b09e9914d5a8ede7b13f12692b998db895670d8"
+    },
+    {
+      "file": "build_model.py",
+      "sha256": "49a529c9e98ba38d29b12571a8fb0c225f8b19869024cb03f69218ce34e59423"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "81da2935b33f027e6aee05b131956aaad0e65d114c70b6f50f6ba0adb5304bc7"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "a537cfc002965568f4ee5023c5b68f0c8b3fbc21e181ad60b6540b700cc06bcf"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "b495e6c9e69fd6effdaa8596202632b0d0e63ca54dd22563b87a60432c5add23"
+    },
+    {
+      "file": "map.json",
+      "sha256": "2757bdd06b58ef5e8dcc2f274d0fd2e8d784402ab6a5e275ec36a86d0f8e1c2a"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "104f6bc3d670cdf82b6512a1caf98b8fb56ffc014fa03d25729e37b37f57ffb9"
+    },
+    {
+      "file": "textures/blender-painted/asphalt-color.png",
+      "sha256": "2483ddef0fa2f5ba89fc00d8e44830a3ace07e5a2d87ebf8514c4bb0fe1330af"
+    },
+    {
+      "file": "textures/blender-painted/asphalt-normal.png",
+      "sha256": "9ad98bb0b88d0ac52f923d13c52e90a8b66a2e6a71e010a0f306e685e1d37dc8"
+    },
+    {
+      "file": "textures/blender-painted/concrete-color.png",
+      "sha256": "4ca0c1246e9988c1b8c365d94ee5e103c8506bafafefbb7d21e02880d6ea583f"
+    },
+    {
+      "file": "textures/blender-painted/concrete-normal.png",
+      "sha256": "c7a81e88b74f2e03257306ba429982da4269238950c40ce11cf6bb1bd4003171"
+    },
+    {
+      "file": "textures/blender-painted/dark-concrete-color.png",
+      "sha256": "8d237b6e7afec8083695a100032d5ae3f6c15e8e5f5c96b2fdce3033ff13309c"
+    },
+    {
+      "file": "textures/blender-painted/dark-concrete-normal.png",
+      "sha256": "045e2bdd449d0523a7ba5bb4f3ccaa7f8b2e8c90e47f4287597a345226415446"
+    },
+    {
+      "file": "textures/blender-painted/expansion-asphalt-color.png",
+      "sha256": "31b5768229d0ab6c2d17a0c62d004d00fd7e39d8f24272d92147c5be6ef26efd"
+    },
+    {
+      "file": "textures/blender-painted/expansion-asphalt-normal.png",
+      "sha256": "b94db89a4f5557f02858252b5d7d1980b5fa0bd64452a98addf21bed159df64a"
+    },
+    {
+      "file": "textures/blender-painted/expansion-blue-steel-color.png",
+      "sha256": "560baf77fa4702338073426fd8b4314b7f4a157bb996d6091c105c7b0240e3db"
+    },
+    {
+      "file": "textures/blender-painted/expansion-blue-steel-normal.png",
+      "sha256": "2a08fd6460a1a192f6a868935d3de51bb74d3f65382f15ee92faceb040d162c5"
+    },
+    {
+      "file": "textures/blender-painted/expansion-concrete-color.png",
+      "sha256": "ac0e57ca57af4d578f2311d6a9661a8bcdbdc9e9bb46a2294fbf85d21968c3cc"
+    },
+    {
+      "file": "textures/blender-painted/expansion-concrete-normal.png",
+      "sha256": "fcdb19ed391a7e3c93ce1b3bd6ca020f5d2aa391e51d1c0e9b039b4ddb5af295"
+    },
+    {
+      "file": "textures/blender-painted/expansion-crate-timber-color.png",
+      "sha256": "d00631943c72f84ee0e7558cde035f5afab3707d89f752aa8e7c4aba13d6e190"
+    },
+    {
+      "file": "textures/blender-painted/expansion-crate-timber-normal.png",
+      "sha256": "2b9506f53909ba5bfb384f1847c9b461e023d7f23ad990e1617dcfbf5cb45689"
+    },
+    {
+      "file": "textures/blender-painted/expansion-oxide-red-color.png",
+      "sha256": "2d8f391291b441854b8d2d560c7f3b723f570ee142110e335f86ab21bd917076"
+    },
+    {
+      "file": "textures/blender-painted/expansion-oxide-red-normal.png",
+      "sha256": "a68f9ffed548d708f607fb4fa8927b5cc3f5fab3c4926184a1a3227cbd9285db"
+    },
+    {
+      "file": "textures/blender-painted/expansion-wall-ivory-color.png",
+      "sha256": "849db2a37c40957c22925d6cfe2f4247c8d7d361278902a5e0d368dbad7aa303"
+    },
+    {
+      "file": "textures/blender-painted/expansion-wall-ivory-normal.png",
+      "sha256": "9e614c465cf321c98c8bca581e48e3c10a3a60db65610aed503ed1e707386918"
+    },
+    {
+      "file": "textures/blender-painted/expansion-workshop-teal-color.png",
+      "sha256": "58c159d7cc59d6d3bc454ab7fd5502be394483019fb01b4d4100580816f496ec"
+    },
+    {
+      "file": "textures/blender-painted/expansion-workshop-teal-normal.png",
+      "sha256": "699005caa2abf0cfb59a36e069afa224317d8296ba6da5cc920a8b929f54b27f"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-harborworks-color.png",
+      "sha256": "5365d8cd3e5206c96f4f7e9dc44b0adac6bc3f5f27fd9ebf4b208e368b6bc3f0"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-harborworks-normal.png",
+      "sha256": "145355316a7dddd2a3d463a249ffc0e6cfef4a5688dcbf0e48010d2b71dff53e"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-harborworks-color.png",
+      "sha256": "ddc4ee7007adeb60527017668b45e76d5f219f5abd55a3bb62ded45bf8d2a9cc"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-harborworks-normal.png",
+      "sha256": "71c78e3218429718a9c6a97c149a23da737ad1b1c8c90656aeb39630b49982b8"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---brick-color.png",
+      "sha256": "8f03dd7499e2a95fc8dd32b6f1ce59f2fdaf404d230fecc50c88a34aaa43dbcf"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---brick-normal.png",
+      "sha256": "e00d5594438316b04d68c558384b4a8a4dcf38e0f511c7791cdd5523579f2e41"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---concrete-color.png",
+      "sha256": "d33df83c599a833e3917f0e28c7cf49e30ca0d1c27a1ec8326564e60896fa734"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---concrete-normal.png",
+      "sha256": "ec4022d4274219ab86f9b3977f0a8fb3d916190c13263130f1b6c71cd2c5d9e4"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---roof-color.png",
+      "sha256": "659b4dc97188291afd5226505e30929fca02aa7cb29a8abf15e66b3ac44c5129"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---roof-normal.png",
+      "sha256": "56da965a913adfa3af5d5697409bea5f97759c3d9ba837653e0998738c21bafc"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---steel-color.png",
+      "sha256": "785c16c156e39bcddd0bdd837ddc8a2187f6f6b7a994780f8b2e942a32c6850d"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---steel-normal.png",
+      "sha256": "5dd2ba863d4ebd0c076f11b09342073d1a6d2913022b6c49c470272de4266201"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---teal-color.png",
+      "sha256": "08eabda703fab95263aecc724379b185194955e936c27dd7426b323a58881d97"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---teal-normal.png",
+      "sha256": "cde0b5b43c3ac45c072aafd84f7344c7934c167e0b6168f8c469e3febf0b63b6"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---wood-color.png",
+      "sha256": "5884b4d2b40b051b0cfbf1d9c28defe8602858634b01eb156d7b0501a2fcd95e"
+    },
+    {
+      "file": "textures/blender-painted/hw-workshop---wood-normal.png",
+      "sha256": "8b7289379b1db004e57939f5a6b45e5ec8e9c513ec60ffd4dd28c2f0de0ed959"
+    },
+    {
+      "file": "textures/blender-painted/oxide-color.png",
+      "sha256": "70494d4483cef24d76e4c14cf6bdf8936fc17674b5862a6277bb136660dc4cc6"
+    },
+    {
+      "file": "textures/blender-painted/oxide-normal.png",
+      "sha256": "eb9fd80b03b840e9ece0bea86b4f27865ddad413ca8c0762bcc84d7cee1f45e7"
+    },
+    {
+      "file": "textures/blender-painted/steel-color.png",
+      "sha256": "b9c15bb2b4b9ba041491a46e8404dea0695d8a404e974fe7a974d9923e11cacd"
+    },
+    {
+      "file": "textures/blender-painted/steel-normal.png",
+      "sha256": "acb22d5f276271d7ffcb68af3a38eeff1d35c4b9e3dd50ce1e91cb1efa78e516"
+    },
+    {
+      "file": "textures/blender-painted/teal-color.png",
+      "sha256": "3293b766b13e24805c90a074ef5958cdc2671c0ca1142ef621010923afd5e8f7"
+    },
+    {
+      "file": "textures/blender-painted/teal-normal.png",
+      "sha256": "c51021aa572adb073c04f555abcd042722243573b68736ceb5d80d5bff6ba615"
+    },
+    {
+      "file": "textures/blender-painted/timber-color.png",
+      "sha256": "d646580850828ad9e1f003159dbb99a873f3e8d4f84044097ec8886b1b8daf9e"
+    },
+    {
+      "file": "textures/blender-painted/timber-normal.png",
+      "sha256": "ea7e7c0e3e1a3189ebb9a78e810a15b4f75d8ed76dbf37aeb598332cc5808e81"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "55f2197173b85fc92033355ba57f9946039e456bb4ea77ff5ecbbe7e5ac77d92"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "ae3e5aec9d03e1e125eea42258bb4baaee5ea607462a22203a2f824757162552"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "harborworks-dock-circuit",
+      "harborworks-high-tide"
+    ],
+    "challenges": [],
+    "tutorials": []
+  },
+  "restore": "Copy this entire folder to content/maps/harborworks, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

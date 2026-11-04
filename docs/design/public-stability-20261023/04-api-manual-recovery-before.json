@@ -1,0 +1,297 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "at": 154128.40000000037,
+  "probe": {
+    "start": 1792699934164,
+    "tasks": [
+      {
+        "at": 262.5,
+        "ms": 216
+      },
+      {
+        "at": 52461.199999999255,
+        "ms": 312
+      },
+      {
+        "at": 53421.40000000037,
+        "ms": 172
+      },
+      {
+        "at": 54632.199999999255,
+        "ms": 114
+      },
+      {
+        "at": 55214.5,
+        "ms": 95
+      },
+      {
+        "at": 60690.59999999963,
+        "ms": 122
+      }
+    ],
+    "errors": [],
+    "marks": [
+      {
+        "name": "manual-retry-after-online",
+        "at": 51556.90000000037
+      }
+    ],
+    "ready": 56881.79999999888
+  },
+  "view": "PARVOZ\nDRONE SIMULATOR\nG\nGuest 4483\nПолёт\nМультиплеер\nАнгар\nКарьера\nЛётная школа\nИспытание недели\nПовторы\nНастройки\nMinus Two\nПодземная парковка\nЗагрузки",
+  "resources": [
+    {
+      "url": "/assets/index-7TSF7k3X.js",
+      "start": 200.5,
+      "ms": 0,
+      "bytes": 0,
+      "encoded": 783025,
+      "decoded": 8727791,
+      "cache": "cache",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/catalog?knownRevision=2132caf43c0e38df",
+      "start": 589.6999999992549,
+      "ms": 0,
+      "bytes": 0,
+      "encoded": 0,
+      "decoded": 0,
+      "cache": "",
+      "protocol": "",
+      "status": 0
+    },
+    {
+      "url": "/api/catalog?knownRevision=2132caf43c0e38df",
+      "start": 51977.5,
+      "ms": 194.59999999962747,
+      "bytes": 517,
+      "encoded": 217,
+      "decoded": 217,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/me",
+      "start": 52173.90000000037,
+      "ms": 168.39999999850988,
+      "bytes": 1005,
+      "encoded": 705,
+      "decoded": 1467,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 60485.29999999888,
+      "ms": 203.30000000074506,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 65485.199999999255,
+      "ms": 182.2000000011176,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 70481.5,
+      "ms": 200.69999999925494,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 75479.29999999888,
+      "ms": 178.30000000074506,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 80479.40000000037,
+      "ms": 168.19999999925494,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 85481.19999999925,
+      "ms": 719.5999999996275,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 90478.90000000037,
+      "ms": 179.5,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 95481.29999999888,
+      "ms": 167.7000000011176,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 100475.69999999925,
+      "ms": 167.40000000037253,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 105478.90000000037,
+      "ms": 167.19999999925494,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 110478.79999999888,
+      "ms": 194.40000000037253,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 115478.59999999963,
+      "ms": 167.5,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 120478.90000000037,
+      "ms": 172.2999999988824,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 125484.29999999888,
+      "ms": 167.5,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 130478.59999999963,
+      "ms": 172.69999999925494,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 135478.29999999888,
+      "ms": 167.10000000149012,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 140478.40000000037,
+      "ms": 170.09999999962747,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 145478.40000000037,
+      "ms": 169.5,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 150478.29999999888,
+      "ms": 200.60000000149012,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    }
+  ]
+}

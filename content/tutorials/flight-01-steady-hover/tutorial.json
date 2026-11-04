@@ -1,0 +1,47 @@
+{
+  "map": "hangar-c03-demo",
+  "track": "hangar-c03-demo-first-flight",
+  "id": "flight-01-steady-hover",
+  "name": "Steady hover",
+  "topic": "Throttle control",
+  "order": 10,
+  "description": "Find hover throttle and stay inside a target without drifting.",
+  "steps": [
+    {
+      "text": "Use Angle mode for this exercise. Throttle controls lift; small roll and pitch corrections stop drift.",
+      "objective": "manual",
+      "target": 0,
+      "duration": 0,
+      "title": "Understand lift and Angle mode"
+    },
+    {
+      "text": "Take off and hold inside the marker for four seconds. Stay below 1 m/s; passing through it quickly does not count.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 4,
+      "position": [
+        -88.40730285644531,
+        1.71,
+        0.7091341614723206
+      ],
+      "radius": 1.5,
+      "maxSpeed": 1,
+      "flightMode": "angle",
+      "title": "Hold a steady hover",
+      "airborne": true
+    },
+    {
+      "text": "Return to the start marker. Level the drone, lower throttle gently and hold a stopped landing for two seconds.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        -0.03999900817871094,
+        0.7091341614723206
+      ],
+      "radius": 3,
+      "title": "Land at the start"
+    }
+  ]
+}

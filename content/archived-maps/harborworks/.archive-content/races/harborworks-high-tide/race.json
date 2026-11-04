@@ -1,0 +1,240 @@
+{
+  "id": "harborworks-high-tide",
+  "name": "High Tide Technical",
+  "map": "harborworks",
+  "laps": 2,
+  "spawn": {
+    "position": [
+      14.30912,
+      6.75,
+      -111.07988
+    ],
+    "yaw": -2.222666
+  },
+  "gates": [
+    {
+      "position": [
+        0.0,
+        6.75,
+        -122.0
+      ],
+      "yaw": -2.222666,
+      "width": 6.0,
+      "height": 4.2,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -38.0,
+        8.1,
+        -126.0
+      ],
+      "yaw": -1.643396,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -110.0,
+        10.8,
+        -130.0
+      ],
+      "yaw": -0.880996,
+      "width": 6.0,
+      "height": 4.2,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -118.0,
+        9.45,
+        -60.0
+      ],
+      "yaw": 0.463648,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -72.0,
+        8.1,
+        -54.0
+      ],
+      "yaw": 0.807617,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -72.0,
+        8.1,
+        -16.0
+      ],
+      "yaw": 0.0,
+      "width": 6.0,
+      "height": 4.2,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -72.0,
+        8.1,
+        54.0
+      ],
+      "yaw": 0.54042,
+      "width": 6.0,
+      "height": 4.2,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -30.0,
+        9.45,
+        54.0
+      ],
+      "yaw": 1.390943,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        16.0,
+        9.45,
+        70.0
+      ],
+      "yaw": 1.292497,
+      "width": 6.0,
+      "height": 4.2,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        40.0,
+        18.9,
+        74.0
+      ],
+      "yaw": 1.319106,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        86.0,
+        21.6,
+        88.0
+      ],
+      "yaw": 2.310771,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "roof",
+        "baseY": 12.15
+      }
+    },
+    {
+      "position": [
+        86.0,
+        28.35,
+        32.0
+      ],
+      "yaw": -3.141593,
+      "width": 6.0,
+      "height": 4.2,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "roof",
+        "baseY": 25.0425
+      }
+    },
+    {
+      "position": [
+        86.0,
+        28.35,
+        -36.0
+      ],
+      "yaw": -2.694073,
+      "width": 6.0,
+      "height": 4.2,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "roof",
+        "baseY": 25.0425
+      }
+    },
+    {
+      "position": [
+        38.0,
+        10.8,
+        -68.0
+      ],
+      "yaw": -2.356194,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "proof": {
+    "started": 574101,
+    "readyAt": 578424.6000000089,
+    "stages": [
+      {
+        "at": 574742,
+        "text": "Загрузка ресурсов"
+      },
+      {
+        "at": 577559.200000003,
+        "text": "Обработка моделей"
+      },
+      {
+        "at": 578372.6000000089,
+        "text": "Подготовка графики"
+      }
+    ]
+  },
+  "longTasks": [
+    {
+      "startTime": 577584.799999997,
+      "duration": 111
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "startTime": 574753.400000006,
+      "duration": 2802.5999999940395,
+      "transferSize": 10517200,
+      "encodedBodySize": 10516900,
+      "decodedBodySize": 10516900,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "startTime": 574753.5,
+      "duration": 2772.4000000059605,
+      "transferSize": 10299548,
+      "encodedBodySize": 10299248,
+      "decodedBodySize": 10299248,
+      "deliveryType": ""
+    }
+  ]
+}

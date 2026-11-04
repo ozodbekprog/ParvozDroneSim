@@ -1,0 +1,2045 @@
+{
+  "id": "liftoff-the-green-demo-liftoff-04",
+  "blueprints": 405,
+  "visibleInstances": 402,
+  "meshes": 564,
+  "colliders": 1334,
+  "inventory": [
+    {
+      "instance": "3",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "4",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "5",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "6",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "8",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "14",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "15",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "29",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "30",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "31",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "40",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "41",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "42",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "43",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "44",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "45",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "46",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "47",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "48",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "49",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "50",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "51",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "52",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "53",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "54",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "55",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "56",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "57",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "58",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "59",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "60",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "61",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "62",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "64",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "65",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "66",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "67",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "68",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "69",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "70",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "74",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "88",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "103",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "107",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "111",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "112",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "113",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "114",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "115",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "116",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "131",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "132",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "133",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "134",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "135",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "136",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "150",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "151",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "152",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "153",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "154",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "155",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "156",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "157",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "158",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "159",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "160",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "161",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "162",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "163",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "164",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "165",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "166",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "167",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "168",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "169",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "170",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "730",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "229",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "230",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "231",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "232",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "233",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "234",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "235",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "236",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "237",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "238",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "239",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "240",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "241",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "242",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "243",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "244",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "245",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "246",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "247",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "248",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "249",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "250",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "251",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "252",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "254",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "255",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "256",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "257",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "258",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "259",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "260",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "262",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "264",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "269",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "270",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "271",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "272",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "273",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "274",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "275",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "276",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "277",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "278",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "279",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "280",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "281",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "282",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "283",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "284",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "285",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "286",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "287",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "288",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "289",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "290",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "291",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "292",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "293",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "294",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "295",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "296",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "297",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "298",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "299",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "300",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "301",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "302",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "303",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "304",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "305",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "306",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "307",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "308",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "309",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "310",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "311",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "312",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "313",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "314",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "315",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "316",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "317",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "318",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "319",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "320",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "321",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "322",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "323",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "324",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "325",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "326",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "328",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "329",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "330",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "331",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "332",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "333",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "334",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "335",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "336",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "337",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "338",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "355",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "356",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "357",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "358",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "359",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "360",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "361",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "362",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "363",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "364",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "365",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "366",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "367",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "368",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "370",
+      "prefab": "ConcreteBarrier01",
+      "meshes": 3
+    },
+    {
+      "instance": "371",
+      "prefab": "LightConeRed01",
+      "meshes": 1
+    },
+    {
+      "instance": "372",
+      "prefab": "LightConeRed01",
+      "meshes": 1
+    },
+    {
+      "instance": "373",
+      "prefab": "SpawnPointSingle01",
+      "meshes": 0
+    },
+    {
+      "instance": "383",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "384",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "385",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "386",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "387",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "388",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "389",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "390",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "391",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "392",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "393",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "394",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "395",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "396",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "397",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "398",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "399",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "400",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "401",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "402",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "403",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "404",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "405",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "406",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "407",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "408",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "409",
+      "prefab": "TlTrackLight01",
+      "meshes": 1
+    },
+    {
+      "instance": "418",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "419",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "420",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "421",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "422",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "423",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "424",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "425",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "426",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "427",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "428",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "429",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "430",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "431",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "432",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "433",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "434",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "435",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "436",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "437",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "438",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "439",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "440",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "441",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "442",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "443",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "444",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "445",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "446",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "447",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "448",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "449",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "450",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "451",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "452",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "453",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "454",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "455",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "456",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "457",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "458",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "459",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "460",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "461",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "462",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "463",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "464",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "465",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "466",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "467",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "468",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "469",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "470",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "471",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "472",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "473",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "474",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "475",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "476",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "477",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "478",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "479",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "480",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "481",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "482",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "483",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "484",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "485",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "486",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "487",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "488",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "489",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "490",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "491",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "492",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "493",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "494",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "495",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "497",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "498",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "499",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "500",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "501",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "502",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "503",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "504",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "505",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "508",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "509",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "510",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "511",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "512",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "513",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "514",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "515",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "516",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "517",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "518",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "519",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "520",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "521",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "522",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "523",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "524",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "525",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "526",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "529",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "530",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "531",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "532",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "537",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "538",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "539",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "540",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "541",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "542",
+      "prefab": "LightConeRed01",
+      "meshes": 1
+    },
+    {
+      "instance": "543",
+      "prefab": "LightConeRed01",
+      "meshes": 1
+    },
+    {
+      "instance": "544",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "545",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "546",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "547",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "548",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "549",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "550",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "551",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "553",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "554",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "555",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "556",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "557",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "558",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "560",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "561",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "562",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "563",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "564",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "565",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "566",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "567",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "568",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "569",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "570",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "571",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "572",
+      "prefab": "AirflagLiftoffSlalomDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "578",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "579",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "580",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "581",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "582",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "583",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "584",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "585",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "701",
+      "prefab": "NoticeBoardBattery01",
+      "meshes": 6
+    },
+    {
+      "instance": "706",
+      "prefab": "NoticeBoardRepair01",
+      "meshes": 6
+    },
+    {
+      "instance": "731",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "732",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "708",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "709",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "710",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "711",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "712",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "713",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "714",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "715",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "716",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "717",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "718",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "719",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "720",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "721",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "722",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "723",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "724",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "725",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "726",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "727",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "728",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "729",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "734",
+      "prefab": "TriggerBox_RepairPropellers_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "735",
+      "prefab": "TriggerBox_ChargeBattery_1mX1m01",
+      "meshes": 0
+    }
+  ],
+  "lodTriangles": [
+    306672,
+    296624,
+    294964
+  ],
+  "cells": 77,
+  "propMeshes": 562,
+  "ribbonMeshes": 2,
+  "ribbonTriangles": 386
+}

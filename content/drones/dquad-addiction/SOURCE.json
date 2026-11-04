@@ -1,0 +1,21 @@
+{
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "LuGus Studios and original credited drone manufacturers",
+  "license": "Proprietary game content; redistribution permission unconfirmed",
+  "permissionConfirmed": false,
+  "testAuthorization": {
+    "date": "2026-10-14",
+    "scope": "User explicitly requested Gecko, Dquad and component customization, including them in the Oracle multiplayer test."
+  },
+  "changes": "Recovered authored meshes, mounting transforms and specifications; Blender assembly, texture-preserving PBR conversion and LOD export. Aerodynamics are calibrated simulation estimates, not manufacturer thrust measurements.",
+  "airframe": "Dquad Addiction",
+  "stockPartIds": {
+    "frame": "DquadAddictionFrame01",
+    "camera": "CameraRedotSplitMini01",
+    "battery": "TattuRline4SBattery01",
+    "motors": "HypetrainVanover2207Motor01",
+    "propellers": "DAL5040CycloneTriPropeller01"
+  },
+  "blueprintSha256": "65fe80bfbae39926e3b696b387d51b2d94d70cca1e05d38be9888e59caa2e38c"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "barrel_03",
+  "title": "Barrel 03",
+  "authors": {
+    "Serhii Khromov": "All"
+  },
+  "source": "https://polyhaven.com/a/barrel_03",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "include": {
+      "textures/barrel_03_diff_1k.jpg": {
+        "size": 149997,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/barrel_03/barrel_03_diff_1k.jpg",
+        "md5": "6e77dc1af60c48787fd80dbbcf125040"
+      },
+      "textures/barrel_03_rough_1k.jpg": {
+        "size": 253614,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/barrel_03/barrel_03_rough_1k.jpg",
+        "md5": "51fe0321a4a0cee1777c1b27febdfebd"
+      },
+      "textures/barrel_03_nor_gl_1k.exr": {
+        "size": 1343612,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/barrel_03/barrel_03_nor_gl_1k.exr",
+        "md5": "13bc19b08bcc23d16838eb9f8bda633e"
+      },
+      "textures/barrel_03_metal_1k.exr": {
+        "size": 239711,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/barrel_03/barrel_03_metal_1k.exr",
+        "md5": "248d1b8cdb632b8b56651112071538ce"
+      }
+    },
+    "size": 156635,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/barrel_03/barrel_03_1k.blend",
+    "md5": "339aaaf78553c1f765d6f3811f5acecf"
+  }
+}

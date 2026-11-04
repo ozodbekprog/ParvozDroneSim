@@ -1,0 +1,6 @@
+{
+  "clothPrefixes": ["AirflagLiftoff", "AirgateLiftoff", "HerasFencingClothLiftoff", "LiftoffFlagCrowdControlBarrier", "InflatatableGateLiftoff"],
+  "clothNames": ["AirPylon01", "AirgateBig240H300B01luGusStudios01", "TrussGateFinishGenericFlag01", "InflatableArchBrandless01"],
+  "displayNames": ["PostersLiftoffArena01", "StadiumScreenLiftoff01", "StadiumScreenLiftoffSlogan01", "VideoWallScreensPCLogo01", "VideoWallScreensNoLogo"],
+  "plaqueNames": ["LuGusStoneLogoOFF01"]
+}

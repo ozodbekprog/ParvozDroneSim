@@ -1,0 +1,430 @@
+{
+  "id": "pinecrest",
+  "name": "Pinecrest Reserve",
+  "region": "Forest Lookout",
+  "theme": "custom",
+  "sky": "#a2c9c1",
+  "fog": "#a7c0b2",
+  "ground": "#61785f",
+  "sun": "#fff0c5",
+  "sunPosition": [
+    -35,
+    85,
+    -40
+  ],
+  "wind": [
+    0.7,
+    0,
+    1.1
+  ],
+  "description": "A wooded loop around a ranger station, fire tower and clear creek crossing.",
+  "seed": 1019,
+  "cloudColor": "#a7c0b2",
+  "gravity": 1,
+  "model": "model.glb",
+  "colliders": [],
+  "objects": [],
+  "collisionFile": "collision.json",
+  "environment": "pinecrest",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.54,
+      -440
+    ],
+    "max": [
+      440,
+      34,
+      440
+    ]
+  },
+  "tracks": [
+    {
+      "id": "pinecrest-canopy-loop",
+      "name": "Pinecrest Canopy Loop",
+      "laps": 2,
+      "spawn": {
+        "position": [
+          -107.160004,
+          5.4,
+          -64.760002
+        ],
+        "yaw": 2.657814
+      },
+      "gates": [
+        {
+          "position": [
+            -96,
+            5.4,
+            -86
+          ],
+          "yaw": 2.657814,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -32,
+            6.75,
+            -102
+          ],
+          "yaw": 1.611869,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            50,
+            6.75,
+            -92
+          ],
+          "yaw": 1.177098,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            98,
+            8.1,
+            -48
+          ],
+          "yaw": 0.396081,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            96,
+            8.1,
+            18
+          ],
+          "yaw": -0.335968,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            54,
+            6.75,
+            78
+          ],
+          "yaw": -1.013672,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -26,
+            5.4,
+            94
+          ],
+          "yaw": -1.967505,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -94,
+            5.4,
+            16
+          ],
+          "yaw": -2.770701,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pinecrest-creek-run",
+      "name": "Pinecrest Creek Run",
+      "laps": 1,
+      "spawn": {
+        "position": [
+          -78.519997,
+          5.4,
+          -43.66
+        ],
+        "yaw": -2.440109
+      },
+      "gates": [
+        {
+          "position": [
+            -94,
+            5.4,
+            -62
+          ],
+          "yaw": -2.440109,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -40,
+            5.4,
+            -38
+          ],
+          "yaw": 1.213884,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            24,
+            5.4,
+            -18
+          ],
+          "yaw": 1.370143,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            78,
+            6.75,
+            -14
+          ],
+          "yaw": 0.965252,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            102,
+            6.75,
+            36
+          ],
+          "yaw": -0.214061,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            58,
+            5.4,
+            78
+          ],
+          "yaw": -2.034444,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    }
+  ],
+  "bundledChallenges": [
+    {
+      "id": "pinecrest-creek-crossing",
+      "name": "Creek Crossing",
+      "map": "pinecrest",
+      "track": "pinecrest-creek-run",
+      "target": 245,
+      "reward": 230,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Use the clear creek line as a visual anchor."
+        },
+        {
+          "afterGate": 2,
+          "text": "Pass the ranger station with space for its roof and the nearby pines."
+        },
+        {
+          "afterGate": 4,
+          "text": "Look for the fire tower before committing to the return turn."
+        }
+      ]
+    },
+    {
+      "id": "pinecrest-forest-sprint",
+      "name": "Forest Sprint",
+      "map": "pinecrest",
+      "track": "pinecrest-creek-run",
+      "target": 201,
+      "reward": 350,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Use the clear creek line as a visual anchor."
+        },
+        {
+          "afterGate": 2,
+          "text": "Pass the ranger station with space for its roof and the nearby pines."
+        },
+        {
+          "afterGate": 4,
+          "text": "Look for the fire tower before committing to the return turn."
+        }
+      ]
+    },
+    {
+      "id": "pinecrest-lookout-line",
+      "name": "Lookout Line",
+      "map": "pinecrest",
+      "track": "pinecrest-canopy-loop",
+      "target": 359,
+      "reward": 310,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Use the clear creek line as a visual anchor."
+        },
+        {
+          "afterGate": 2,
+          "text": "Pass the ranger station with space for its roof and the nearby pines."
+        },
+        {
+          "afterGate": 5,
+          "text": "Look for the fire tower before committing to the return turn."
+        }
+      ]
+    },
+    {
+      "id": "pinecrest-ranger-patrol",
+      "name": "Ranger Patrol",
+      "map": "pinecrest",
+      "track": "pinecrest-canopy-loop",
+      "target": 464,
+      "reward": 180,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Use the clear creek line as a visual anchor."
+        },
+        {
+          "afterGate": 2,
+          "text": "Pass the ranger station with space for its roof and the nearby pines."
+        },
+        {
+          "afterGate": 5,
+          "text": "Look for the fire tower before committing to the return turn."
+        }
+      ]
+    }
+  ],
+  "bundledTutorials": [
+    {
+      "id": "pinecrest-landmark-flight",
+      "name": "Landmark Flight",
+      "map": "pinecrest",
+      "track": "pinecrest-creek-run",
+      "steps": [
+        {
+          "text": "Use the creek, ranger station and fire tower to keep your bearings. Select NEXT STEP when ready.",
+          "objective": "manual",
+          "target": 0,
+          "duration": 0
+        },
+        {
+          "text": "Fly through the first gate in its forward direction.",
+          "objective": "gate",
+          "target": 0,
+          "duration": 0
+        },
+        {
+          "text": "Keep the landmark in view and pass the second gate.",
+          "objective": "gate",
+          "target": 1,
+          "duration": 0
+        },
+        {
+          "text": "Continue to the third gate and stabilize.",
+          "objective": "gate",
+          "target": 2,
+          "duration": 0
+        },
+        {
+          "text": "Reduce speed and land clear of structures.",
+          "objective": "land",
+          "target": 0,
+          "duration": 2
+        }
+      ]
+    }
+  ]
+}

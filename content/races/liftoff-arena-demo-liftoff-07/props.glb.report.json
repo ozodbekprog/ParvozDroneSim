@@ -1,0 +1,125 @@
+{
+  "input": "C:\\DroneLiftoffUz\\data\\liftoff-arena-demo-recovery\\liftoff-arena-demo-liftoff-07-props.glb",
+  "output": "C:\\DroneLiftoffUz\\content\\races\\liftoff-arena-demo-liftoff-07\\props.glb",
+  "trianglesBeforeInstancing": 15624,
+  "meshPrimitives": 72,
+  "materials": 9,
+  "textures": [
+    {
+      "name": "texture-3b5ddb172d5e6fb5",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-6",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-998a20b7286c72ee",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-4f80796a20d94fb0-metallic-1",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-5a69eac616c78555",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-85e8e25ca24aa8f1",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-1603bef518af7e60",
+      "mimeType": "image/ktx2",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "texture-7e42e90431f1f65f-metallic-22",
+      "mimeType": "image/ktx2",
+      "size": [
+        64,
+        512
+      ]
+    },
+    {
+      "name": "texture-2d72380b22b99e34",
+      "mimeType": "image/ktx2",
+      "size": [
+        64,
+        512
+      ]
+    },
+    {
+      "name": "texture-0b13617ec7230d7f",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-32",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-2450e4b2f678374f",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-831e790d22565fbe",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-33",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_texture_basisu",
+    "EXT_meshopt_compression"
+  ]
+}

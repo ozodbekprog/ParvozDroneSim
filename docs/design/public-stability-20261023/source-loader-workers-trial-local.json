@@ -1,0 +1,51 @@
+{
+  "scope": "Source-loader experiment only; not controlled public acceptance",
+  "models": [
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "parses": 1,
+      "cacheHits": 138,
+      "readMs": 148.70000000018626,
+      "parseMs": 1090.6000000000931,
+      "lookupMs": 0.5000000004656613,
+      "cloneMs": 17.99999999953434,
+      "clones": 139
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "parses": 1,
+      "cacheHits": 0,
+      "readMs": 52,
+      "parseMs": 731.8000000002794,
+      "lookupMs": 0,
+      "cloneMs": 0.8000000002793968,
+      "clones": 1
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 11,
+      "readMs": 453,
+      "parseMs": 311.29999999981374,
+      "lookupMs": 0,
+      "cloneMs": 1.4999999995343387,
+      "clones": 12
+    }
+  ],
+  "tasks": [
+    {
+      "at": 20517.299999999814,
+      "ms": 138
+    },
+    {
+      "at": 21527.19999999972,
+      "ms": 190
+    },
+    {
+      "at": 21717.69999999972,
+      "ms": 424
+    }
+  ],
+  "workers": 2,
+  "busy": null
+}

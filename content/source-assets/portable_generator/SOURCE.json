@@ -1,0 +1,47 @@
+{
+  "id": "portable_generator",
+  "title": "Portable Generator",
+  "authors": {
+    "James Ray Cock": "All"
+  },
+  "source": "https://polyhaven.com/a/portable_generator",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/portable_generator/portable_generator_1k.blend",
+    "md5": "21853d18cc35b0a11e641c0ccd83116f",
+    "size": 789699,
+    "include": {
+      "textures/portable_generator_alpha_1k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/portable_generator/portable_generator_alpha_1k.png",
+        "md5": "5e66992234b814ad5ffcbd92f004bee7",
+        "size": 134342
+      },
+      "textures/portable_generator_diff_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_diff_1k.jpg",
+        "md5": "3d572e1716148ca5d641d8a199fe9192",
+        "size": 755079
+      },
+      "textures/portable_generator_metal_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/portable_generator/portable_generator_metal_1k.exr",
+        "md5": "fd9b609198d41fcc6336652956d12d31",
+        "size": 795306
+      },
+      "textures/portable_generator_nor_gl_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/portable_generator/portable_generator_nor_gl_1k.exr",
+        "md5": "d6e2a886135cc8868861b19159d1c590",
+        "size": 1772190
+      },
+      "textures/portable_generator_rough_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/portable_generator/portable_generator_rough_1k.exr",
+        "md5": "a9e241c16a67401faa051d23a502193e",
+        "size": 767846
+      },
+      "textures/portable_generator_spec_1k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/portable_generator/portable_generator_spec_1k.png",
+        "md5": "a758db046b624c9813fe40f1b84162f6",
+        "size": 20913
+      }
+    }
+  }
+}

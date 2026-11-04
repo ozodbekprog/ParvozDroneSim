@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-23T04:01:21.986Z",
+  "url": "https://parvoz-drone-sim.duckdns.org",
+  "script": "/assets/index-7TSF7k3X.js",
+  "clientSHA256": "8763faa9ef0601327fce7d54ed9f52199ea698e7a44d86af84fa222f65cf21be",
+  "health": "ok",
+  "protocol": 13,
+  "revision": "2132caf43c0e38df",
+  "catalogDecodedBytes": 217,
+  "contentUnchanged": true,
+  "limits": null,
+  "observation": "Read-only HTTP checks; this is not a browser flight or candidate release acceptance."
+}

@@ -1,0 +1,15 @@
+{
+  "name": "The Green",
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+  "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+  "permissionConfirmed": false,
+  "unityVersion": "2022.3.62f3",
+  "trackResource": "TheGreenTrack05_0001",
+  "raceResource": "TheGreenRace05_0001",
+  "sourceTrackId": "29ccf0d4-4883-4656-9242-4ab82ea7becc",
+  "sourceRaceId": "058bc513-24fd-45c8-9de0-2cb412a0f81d",
+  "conversion": "Original checkpoint graph, positions, prefab trigger bounds and spawn preserved. Empty builtin mesh bounds are recovered from the exported source geometry. Source Start is folded into Finish once per lap; our countdown begins at spawn. Gate normal sign follows the ordered route. Authored track props must be imported before activation.",
+  "trackProps": "Original visible prefab geometry, PBR materials and blueprint transforms. Non-trigger collision retained; source repair/charge logic is not implemented. Checkpoint trigger renderers remain hidden."
+}

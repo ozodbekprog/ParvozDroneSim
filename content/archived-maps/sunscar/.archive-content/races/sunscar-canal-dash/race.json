@@ -1,0 +1,112 @@
+{
+  "id": "sunscar-canal-dash",
+  "name": "Sunscar Canal Dash",
+  "map": "sunscar",
+  "laps": 1,
+  "spawn": {
+    "position": [
+      -90.440002,
+      5.4,
+      15.92
+    ],
+    "yaw": -2.189224
+  },
+  "gates": [
+    {
+      "position": [
+        -110.0,
+        5.4,
+        2.0
+      ],
+      "yaw": -2.189224,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -60.0,
+        5.4,
+        40.0
+      ],
+      "yaw": 1.199087,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        8.0,
+        5.4,
+        48.0
+      ],
+      "yaw": 1.542233,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        80.0,
+        5.4,
+        44.0
+      ],
+      "yaw": 1.004067,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        74.0,
+        5.4,
+        90.0
+      ],
+      "yaw": -0.475011,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        44.0,
+        5.4,
+        114.0
+      ],
+      "yaw": -2.016902,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ]
+}

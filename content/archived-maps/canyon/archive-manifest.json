@@ -1,0 +1,136 @@
+{
+  "id": "canyon",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "0b2ee7ee2ea56f1c3cf055ab324d1858274323c7ca84a0fae5bc4de8692512f5"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "73e269d09be0fcccd0d2418b33819dbdd61cd909c975387893bc80dc142d0d28"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "018b836bf36131fe583ab79b313d12dd566c0340a5efa12d25737e89f8702ecb"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "7bf58e037637b79ae057e488763c781183d641948e24f50279ba3ffdefc76d16"
+    },
+    {
+      "file": "map.json",
+      "sha256": "71c825dd81a8d466d28f86ce5ca6d5a3f0328250a0faa3dd451a64f18542d669"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "de904804dc375316c4ceeeb417fcaae1bc88c88842c246249800e6195036581d"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-canyon-color.png",
+      "sha256": "ed1f8b07e02f116bd4da37e74068306de4cf6278f0ac8c9041aeab3db563663e"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-canyon-normal.png",
+      "sha256": "c2b96d8e994bd319efce8bc9918bf0e41385a40087fda22a7d97741ad552c9f2"
+    },
+    {
+      "file": "textures/blender-painted/fpv-natural-stone-canyon-color.png",
+      "sha256": "34e3d2846e7c7b5f3f9efca117a6dccb0385812f16f957ed3741d4ba888f3b42"
+    },
+    {
+      "file": "textures/blender-painted/fpv-natural-stone-canyon-normal.png",
+      "sha256": "deda9d7b017e96f0e6370ccdf4c3b3e8cd2332e1e3c04f6ff3e9d24f0aedc5f9"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-canyon-color.png",
+      "sha256": "c056d001f5279b1f2330f9a7578acd6967f00b3d630358214c42f9a513a2ade8"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-canyon-normal.png",
+      "sha256": "8149c27f8fd83fff0e8b4e63b9333459f9cd72194388e25d498371deed0d4d06"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-brushed-steel-color.png",
+      "sha256": "45ea3e09f46a31333cf00dffeb3e0f3b1fc6843654219775c83c2f2d4d159f54"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-brushed-steel-normal.png",
+      "sha256": "03115871b06b9ba02c9a6c38977111dd3f12a3a6ee7dadab05d5107698cf22e7"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-cut-timber-color.png",
+      "sha256": "7634500192ec23f2cf3e8e93f47ed780e444b905ef580942fe20ffb268e86395"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-cut-timber-normal.png",
+      "sha256": "e054a098c1d01583f3f2695736c425ae6d8b1d65677a3f6b5032991e67cf55ce"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-natural-stone-color.png",
+      "sha256": "65b436820f2433cb72ed4e57a2111ee7e6a56462d82b922d9757bdf9faefc20f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-natural-stone-normal.png",
+      "sha256": "1c8e55c7ee6c958c9230f60366d88bc0b134a664c5b42a2df036f92d2406d0bb"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-pale-stone-stratum-color.png",
+      "sha256": "7990e04e9bf463c2f4ea62df6368318ccb1382fbb585d047626a6d6725148d7e"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-pale-stone-stratum-normal.png",
+      "sha256": "34f30011e124e270710b3db7654aed5226375b2a2394de67223892581112a004"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-rubber-and-asphalt-color.png",
+      "sha256": "7bec2d02feab030c4f41769d9627969c84a1db0016cafcadd0a90fa71d456e10"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-rubber-and-asphalt-normal.png",
+      "sha256": "182d0e1c07bca1c8f61461dd47af1cd10495bb2582211997e9b83c4fb59b5059"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-sandstone-stratum-color.png",
+      "sha256": "562607e6e828e5b8d87f767d16ed59c0e3e8e151d6687f0655a88f03e584a95a"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-sandstone-stratum-normal.png",
+      "sha256": "bb1539c48cf9a7edf4260697a173035b46db3a2425bbbf077ee0ebcb6cb01636"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-timber-color.png",
+      "sha256": "3dccc7f102b08f24fa57c5fcbb36acca9e00ef098189c8ad96f66ff7a11a4914"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-timber-normal.png",
+      "sha256": "42cf016509a78d434fd3d9524432d4112bc496c6992acfb04e63e429aa69a1bf"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-warm-plaster-color.png",
+      "sha256": "3d55958c7a96f19b3bac00ca6189fbbf06a3de8e4e9ca5d72d501b255dbe2313"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-canyon-warm-plaster-normal.png",
+      "sha256": "144d1269baafd5cf77cc79aaeea42cad1ca6be9d842af1ad2c6aa201cbf4ff6d"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "b524e36b68f19d448bbe4b66e3d9acd0295ba706038ec8ff140329fe8c6b3680"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "1b62ecb8719221a6e5902b6d12b074b90111023130cb2aa030cd92693f9fea3b"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "canyon-run"
+    ],
+    "challenges": [
+      "sprinter"
+    ],
+    "tutorials": []
+  },
+  "restore": "Copy this entire folder to content/maps/canyon, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+ <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0C141D"/><stop offset="1" stop-color="#1C2935"/></linearGradient><pattern id="grid" width="90" height="90" patternUnits="userSpaceOnUse"><path d="M90 0H0V90" stroke="#B5CAD5" stroke-opacity=".045" fill="none"/></pattern></defs>
+ <rect width="1080" height="1350" fill="url(#bg)"/><rect width="1080" height="1350" fill="url(#grid)"/>
+ <path d="M1080 175L778 175L535 418" stroke="#F2AB6E" opacity=".2" stroke-width="2" fill="none"/>
+ <g transform="translate(76 76) scale(.24)">
+  <title>Parvoz — flowing quadcopter</title>
+  <g fill="#f5f2ed">
+    <path d="M260 94C225 94 181 69 130 42C99 25 78 30 66 40C55 49 63 57 79 61L105 78C66 68 47 56 54 40C62 20 100 11 126 23L191 62C223 81 242 88 260 88C278 88 297 81 329 62L394 23C420 11 458 20 466 40C473 56 454 68 415 78L441 61C457 57 465 49 454 40C442 30 421 25 390 42C339 69 295 94 260 94Z"/>
+    <path fill-rule="evenodd" d="M95 49C147 62 204 91 260 94C316 91 373 62 425 49C388 69 347 95 305 124C337 139 382 154 450 174C485 184 501 198 495 216C490 237 465 243 438 230L292 163L287 185L282 224Q280 235 270 237H250Q240 235 238 224L233 185L228 163L82 230C55 243 30 237 25 216C19 198 35 184 70 174C138 154 183 139 215 124C173 95 132 69 95 49ZM203 151L79 190C62 195 51 205 56 211C61 219 75 215 87 209ZM317 151L433 209C445 215 459 219 464 211C469 205 458 195 441 190ZM250 166L240 184L245 220Q246 229 253 230H267Q274 229 275 220L280 184L270 166Z"/>
+  </g>
+  <g fill="#eea462">
+    <path d="M54 42C48 56 66 68 105 78L86 61L77 44L86 39C72 36 61 37 54 42ZM466 42C472 56 454 68 415 78L434 61L443 44L434 39C448 36 459 37 466 42Z"/>
+    <path d="M26 210C32 227 52 234 75 224L139 203L99 228C61 253 27 239 25 220ZM494 210C488 227 468 234 445 224L381 203L421 228C459 253 493 239 495 220Z"/>
+    <path d="M260 182C251 197 251 205 260 214C269 205 269 197 260 182Z"/>
+  </g>
+
+</g>
+ <g font-family="Arial, sans-serif" fill="#F5F3ED">
+ <text x="228" y="118" font-size="27" letter-spacing="4">DRONE SIMULATOR</text>
+ <rect x="76" y="275" width="254" height="43" rx="21" fill="#F2AB6E"/>
+ <text x="100" y="304" fill="#12202C" font-size="20" font-weight="700" letter-spacing="2">ДНЕВНИК № 01</text>
+ <text x="68" y="475" font-size="162" letter-spacing="-8" font-weight="800">PARVOZ</text>
+ <text x="76" y="558" font-size="44">FPV в браузере.</text>
+ <text x="76" y="624" font-size="44" fill="#A9B7C3">Делаем первый полёт проще.</text>
+ <path d="M76 714H1004" stroke="#91A3B1" stroke-opacity=".25"/>
+ <g transform="translate(76 806)">
+ <text font-size="20" fill="#F2AB6E" letter-spacing="3">СЕЙЧАС В РАБОТЕ</text>
+ <text y="79" font-size="42">01  Стабильный вход</text>
+ <text y="157" font-size="42">02  Понятная загрузка</text>
+ <text y="235" font-size="42">03  Первый учебный полёт</text>
+ </g>
+ <text x="76" y="1194" font-size="19" fill="#A9B7C3">Дневник разработки · 23.10.2026</text>
+ <text x="76" y="1258" font-size="25" fill="#F2AB6E" letter-spacing="4">В РАЗРАБОТКЕ</text>
+ <text x="1004" y="1258" text-anchor="end" font-size="20" fill="#A9B7C3">PARVOZ / DEVLOG</text>
+ </g></svg>

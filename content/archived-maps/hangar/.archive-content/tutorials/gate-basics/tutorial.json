@@ -1,0 +1,38 @@
+{
+  "id": "gate-basics",
+  "name": "Reading a race line",
+  "map": "hangar",
+  "track": "hangar-cadet",
+  "steps": [
+    {
+      "text": "Gold points to your current gate; blue points to the following gate. Lift off when ready, then choose NEXT STEP.",
+      "objective": "manual",
+      "target": 0,
+      "duration": 0
+    },
+    {
+      "text": "Fly through the first gate in the arrow's direction.",
+      "objective": "gate",
+      "target": 0,
+      "duration": 0
+    },
+    {
+      "text": "Turn right and pass the second gate.",
+      "objective": "gate",
+      "target": 1,
+      "duration": 0
+    },
+    {
+      "text": "Finish the line through the final gate.",
+      "objective": "gate",
+      "target": 2,
+      "duration": 0
+    },
+    {
+      "text": "Reduce speed, descend carefully and land.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2
+    }
+  ]
+}

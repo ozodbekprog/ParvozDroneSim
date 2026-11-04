@@ -1,0 +1,262 @@
+{
+  "input": "content/drones/luma-5/far.glb",
+  "output": "content/drones/luma-5/far-delivery.glb",
+  "trianglesBeforeInstancing": 2580,
+  "meshPrimitives": 25,
+  "materials": 11,
+  "textures": [
+    {
+      "name": "texture-87cc92ce2eabeeb2",
+      "mimeType": "image/ktx2",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "texture-4766f60ce62ab2c0-metallic-3",
+      "mimeType": "image/ktx2",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "texture-576804314a3b89d0",
+      "mimeType": "image/ktx2",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "texture-630d77a14c438179",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-fbdce1a7acf9091e-metallic-4",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-22a0c89536fae02c",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-493698a08d6ae0bf",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-5",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-2b54e74db3299a57",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-fd10d8cf2a41861b",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-6",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-969d05fd69e79300",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-d4df27d21753282c-metallic-7",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-14adeea5bc458482",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-4690e17efa71aa52",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-bfecf52d6902cd7e",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-26",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-1e7c0bf335c1730b",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-c4622239e77a5e0c",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-18",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-7c933744c4283d04",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-38baf0b53ccf309f",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-19",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-d3a12cf683fe9ce0",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-69660383765e1215-metallic-25",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-f6ee699d5c7a2c43",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-f3357641fa55bd0e",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-50053adfbfd519d9-metallic-2",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-b97aae85a7629cc1",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-116ab450f2391248",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-23",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_texture_basisu",
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ]
+}

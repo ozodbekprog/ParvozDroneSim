@@ -1,0 +1,2408 @@
+{
+  "map": "hangar-c03-demo",
+  "model": "data/hangar-c03-demo-recovery/model.glb",
+  "checked": 165,
+  "failures": [],
+  "materials": [
+    {
+      "name": "AirflagLiftoffFinishDark01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Atlas_Set_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "BargeAlpha01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "BargeDeck01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "BargeProps01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "BargeTiling01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "BargeUnique01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Barrier_Gate_Set_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Branches_0",
+      "shader": "Nature/SpeedTree",
+      "adapter": "Static PBR with source alpha cutout and baked bark detail; secondary detail UV and wind approximated",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_DetailTex"
+      ],
+      "approximations": [
+        "Bark detail baked using UV0; original secondary UV detail and animated wind are approximated."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Branches_1",
+      "shader": "Nature/SpeedTree",
+      "adapter": "Static PBR with source alpha cutout and baked bark detail; secondary detail UV and wind approximated",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_DetailTex"
+      ],
+      "approximations": [
+        "Bark detail baked using UV0; original secondary UV detail and animated wind are approximated."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "BuoyBottom01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "BuoyLight01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "BuoyMarkerSmall01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "BuoyPanels01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "BuoyTop01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Catwalk_01_AlphaMat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [
+        {
+          "slot": "_MetallicRoughnessMap",
+          "reason": "Uniform map folded into equivalent PBR factors",
+          "ranges": [
+            [
+              255,
+              255
+            ],
+            [
+              115,
+              115
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        }
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "CeilingLightsOn01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "CementStacksWrap01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ChinaScaffolding01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ChinaWood01",
+      "shader": "Shader Forge/StandardShaderUV3Occlusion",
+      "adapter": "PBR with baked lighting; UV3 occlusion approximated",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "CinderStack_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Concrete_01_Blend_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ConcreteBarrier02",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ConcreteFloorBare01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Construction_fence_01a_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_ParallaxMap"
+      ],
+      "approximations": [
+        "Parallax height approximated by a baked micro-normal; view-dependent UV displacement is not reproduced."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Construction_tarp_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ConstructionBoxesIndustrial01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ConstructionPillar01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ConstructionPylons_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ConstructionSiteSigns01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Container_Trim_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ContainerCrane01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ContainerGrip01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ContainerShippingBlue01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ContainerShippingGreen01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ContainerShippingRed01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ContainerTank01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ContainerTankFloor01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_ParallaxMap"
+      ],
+      "approximations": [
+        "Parallax height approximated by a baked micro-normal; view-dependent UV displacement is not reproduced."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ContainerView01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Crane_02_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "CraneEngines01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "CraneRail_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "CraneRail_Stopper_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Crates_01a_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Decal_Grime_03_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Decal_Rust_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [
+        {
+          "slot": "_MetallicRoughnessMap",
+          "reason": "Uniform map folded into equivalent PBR factors",
+          "ranges": [
+            [
+              255,
+              255
+            ],
+            [
+              191,
+              191
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        }
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Decal_Rust_02_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Decal_Text_Cranes_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 3,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Default-Material",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "DirtMound01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "DockQuayWall01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "DroneDummy01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 0.403,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Excavator01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ExcavatorWindows01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "FacingLeaves_4",
+      "shader": "Nature/SpeedTree",
+      "adapter": "Static PBR with source alpha cutout and baked bark detail; secondary detail UV and wind approximated",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "FenceConcreteSquares02",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "FenceMetalRustedChain01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "FenceMetalRustedPole01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "FireCase01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "FireHose01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "FloorArrows01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Forklift01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Frames_Set_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Fronds_2",
+      "shader": "Nature/SpeedTree",
+      "adapter": "Static PBR with source alpha cutout and baked bark detail; secondary detail UV and wind approximated",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "GantryCrane_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Glass_Set_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [
+        {
+          "slot": "_BumpMap",
+          "reason": "Flat/disabled normal map",
+          "ranges": [
+            [
+              127,
+              128
+            ],
+            [
+              126,
+              128
+            ],
+            [
+              254,
+              254
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        }
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "GolfBall01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarC03HorizonDisplacement01",
+      "shader": "Horizon[ON]/Horizon[ON] Displacement",
+      "adapter": "Source base terrain color on authored UVs; world projection and shader displacement approximated",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_BaseColormap"
+      ],
+      "approximations": [
+        "Base terrain color uses authored UVs; source world-space projection and shader displacement are approximated."
+      ],
+      "ignoredShaderSlots": {
+        "_BaseNormalmap": "Source normal-map toggle is disabled",
+        "_BlendColorMap1": "Source layer/detail/water toggle is disabled",
+        "_BlendColormap2": "Source layer/detail/water toggle is disabled",
+        "_BlendColormap3": "Source layer/detail/water toggle is disabled",
+        "_BlendNormalmap1": "Source layer/detail/water toggle is disabled",
+        "_BlendNormalmap2": "Source layer/detail/water toggle is disabled",
+        "_BlendNormalmap3": "Source layer/detail/water toggle is disabled",
+        "_DetailColormap": "Source layer/detail/water toggle is disabled",
+        "_DetailNormalmap": "Source layer/detail/water toggle is disabled",
+        "_MaskRBlend1GBlend2BBlend3AWater": "Source layer/detail/water toggle is disabled",
+        "_WaterNormalmap": "Source layer/detail/water toggle is disabled",
+        "_ParallaxMap": "Shader vertex displacement is not reproduced; recovered mesh geometry is retained"
+      },
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarC03SeaBottom01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarC03WaterOpaque01",
+      "shader": "Shader Forge/WaterShaderOpaque",
+      "adapter": "Static source tint and combined normals; scrolling, depth fade and reflections approximated",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_NormalMap2"
+      ],
+      "approximations": [
+        "Static source water tint and combined normals; scrolling, depth fade and custom reflections are not reproduced."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarC03WaterTransparent01",
+      "shader": "Shader Forge/WaterShader",
+      "adapter": "Static source tint and combined normals; scrolling, depth fade and reflections approximated",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_NormalMap2"
+      ],
+      "approximations": [
+        "Static source water tint and combined normals; scrolling, depth fade and custom reflections are not reproduced."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarGateMetal01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarGlass01",
+      "shader": "Standard Double Sided",
+      "adapter": "PBR with original textures and both faces",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarGlassOpaque01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarNamePlate01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarOpenGray01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarOpenGreen01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HangarT01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Industrial_Trim_Set_01_Blue_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Industrial_Trim_Set_01_Grey_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Industrial_Trim_Set_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Industrial_Trim_Set_01_Metal_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Industrial_Trim_Set_01_Red_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Industrial_Trim_Set_01_Yellow_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "LeakingDecalLong01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Leaves_3",
+      "shader": "Nature/SpeedTree",
+      "adapter": "Static PBR with source alpha cutout and baked bark detail; secondary detail UV and wind approximated",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "LuGusStoneLogoOFF01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Metal_Diamond_Plate_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Metal_Painted_Industrial_01_Blue_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Metal_Painted_Industrial_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Metal_Painted_Industrial_01_Red_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Metal_Painted_Industrial_01_Yellow_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Metal_Painted_Plank_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Metal_Painted_Plank_02_Red_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Metal_Painted_Plank_03_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "OilBarrel01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "OilSilo_Set_Painted_02_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "PaintLines",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ParcelBox01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Pipe_Set_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "PipingRed01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Plastic_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "PlasticBarreL_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "PlayerDummy01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "PortableWaterTank_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Portapotty_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Portapotty_02_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "PowerBox01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "RebarTiling01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [
+        {
+          "slot": "_MetallicRoughnessMap",
+          "reason": "Uniform map folded into equivalent PBR factors",
+          "ranges": [
+            [
+              255,
+              255
+            ],
+            [
+              223,
+              223
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        }
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "RoadblockIndustrial01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "RoadClean01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "RoadHangarBorders01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Shutter_01_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "SignsParkingLot01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "SkidMarks01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "SkidMarks03",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "SkidMarks04",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "SkylineDistance01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 1,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Smudge01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Smudge02",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Smudge03",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "StreetLightHighMast01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "StreetLightHighMastGlass01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 2,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TireCar01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Trafficbarrier_Mat",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrafficCone01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrafficLightGreen01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrafficSignHeightLimit01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrafficSignNoParking01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrafficSignStand01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrafficSignStop01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrafficSignYield01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrashBag01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrashCanLiner01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrashCanMetalBig01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckBody01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckBody02",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckBody03",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckBody04",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckGlass01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 3,
+      "alpha": 0.42745098,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckHeadlights01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckTaillight01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckTrailer01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckTrailer02",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckTrailer04",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TruckWheels01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "Ufo01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "UfoBottom01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "VehicleVanBody01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "VehicleVanInterior01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "VehicleVanLight01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "VehicleVanMisc01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "VehicleVanPaint01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "VehicleVanWheel01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "VehicleVanWindows01",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 3,
+      "alpha": 0.56078434,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [
+        {
+          "slot": "_BumpMap",
+          "reason": "Flat/disabled normal map",
+          "ranges": [
+            [
+              126,
+              127
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              254,
+              254
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        }
+      ],
+      "adaptedSlots": [
+        "_SpecGlossMap"
+      ],
+      "approximations": [
+        "Source gloss alpha retained as roughness; colored specular reflectance approximated by dielectric PBR."
+      ],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "WarningLight01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "WarningSignSmall",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "WaterDrain01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "WheelBarrow01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "WireGuider01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "WoodTiled02",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "WoodTiled03",
+      "shader": "Standard (Specular setup)",
+      "adapter": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "WorkContainer01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "WorkContainer02",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "WorkContainerStairs01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "equivalentBindings": [],
+      "unsupported": [],
+      "errors": []
+    }
+  ],
+  "excludedShaderMaterials": [
+    {
+      "name": "MineSteelFloorPlate01",
+      "shader": "Shader Forge/StandardTriplanarWorldSpace"
+    }
+  ]
+}

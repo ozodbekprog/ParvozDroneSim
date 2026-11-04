@@ -1,0 +1,253 @@
+{
+  "input": "data/liftoff-pine-valley-recovery/liftoff-pine-valley-demo-liftoff-05-props.glb",
+  "output": "content/races/liftoff-pine-valley-demo-liftoff-05/props.glb",
+  "trianglesBeforeInstancing": 309939,
+  "meshPrimitives": 276,
+  "materials": 18,
+  "textures": [
+    {
+      "name": "texture-b476f85888b26eff",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-a1b7328c9ec17e1a-metallic-34",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-d8ff33f89686e677",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-2212a94401c97050",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-220841e2fb6e1c74",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-89ee8a276b0de926",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-11",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-7007ad8a809ef16a",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-5368951f4956bec4-metallic-28",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-c81bc2d0f955204b",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-3d17aae87769f411",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "metallic-40",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "texture-f3aba01ad0e59363",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-8e2fe9f2f3d0f3de-metallic-46",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-cdf168a01480aa84",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-66b69add3e37b336",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-58c5c92f9bc496ab",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-65be6fce9ff00335",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-48",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-5b979c6c098db3b1",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-1f92aaee7aaaefa0",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-47",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-a5708d5a7c0bd826",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-f83fcf184b0890df",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-edd142319af34296",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "metallic-18",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "texture-3879fe3f7d99d6c5",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-199424a5700d7888",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-871890b2799f0b67",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-16f2a9efcd9aa429",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_texture_basisu",
+    "EXT_meshopt_compression"
+  ]
+}

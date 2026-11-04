@@ -1,0 +1,38 @@
+{
+  "id": "minus-two-demo-basics",
+  "name": "Minus Two: Takeoff, Gates and Landing",
+  "map": "minus-two-demo",
+  "track": "minus-two-demo-first-flight",
+  "steps": [
+    {
+      "text": "Raise throttle gently. Hold above 1 m for 2 seconds.",
+      "objective": "altitude",
+      "target": 1,
+      "duration": 2
+    },
+    {
+      "text": "Follow the arrow through gate 1. Leave clearance from walls and overhead obstacles.",
+      "objective": "gate",
+      "target": 0,
+      "duration": 0
+    },
+    {
+      "text": "Follow the arrow through gate 2. Leave clearance from walls and overhead obstacles.",
+      "objective": "gate",
+      "target": 1,
+      "duration": 0
+    },
+    {
+      "text": "Follow the arrow through gate 3. Leave clearance from walls and overhead obstacles.",
+      "objective": "gate",
+      "target": 2,
+      "duration": 0
+    },
+    {
+      "text": "Slow down in an open area, lower throttle and hold a safe landing for two seconds.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2
+    }
+  ]
+}

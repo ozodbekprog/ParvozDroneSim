@@ -1,0 +1,41 @@
+{$GAME_DOMAIN} {
+  encode zstd gzip
+  log {
+    output stdout
+    format json
+  }
+  @private path /api/internal /api/internal/* /editor /editor/*
+  handle @private {
+    respond 404
+  }
+
+  handle /content/assets/* {
+    @preparedCollision path *.pcol
+    header @preparedCollision Content-Type application/octet-stream
+    encode @preparedCollision zstd gzip {
+      match {
+        header Content-Type application/octet-stream*
+      }
+    }
+    root * /srv/public
+    header Cache-Control "public, max-age=31536000, immutable"
+    file_server
+  }
+
+  handle /assets/* {
+    root * /srv/dist
+    header Cache-Control "public, max-age=31536000, immutable"
+    file_server
+  }
+
+  handle /runtime/* {
+    root * /srv/public
+    file_server
+  }
+
+  handle {
+    reverse_proxy game:2567 {
+      header_up X-Forwarded-For {remote_host}
+    }
+  }
+}

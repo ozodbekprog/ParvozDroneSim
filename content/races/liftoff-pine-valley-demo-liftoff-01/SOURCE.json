@@ -1,0 +1,20 @@
+{
+  "name": "Pine Valley",
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+  "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+  "permissionConfirmed": false,
+  "unityVersion": "2022.3.62f3",
+  "trackResource": "PineValleyTrack01_0001",
+  "raceResource": "PineValleyRace01_0001",
+  "sourceTrackId": "5f303597-2e00-401c-a656-ed44a590e95f",
+  "sourceRaceId": "58e6df20-7715-47ca-814d-05c57406a454",
+  "conversion": "Original checkpoint graph, positions, prefab trigger bounds and spawn preserved. Empty builtin mesh bounds are recovered from the exported source geometry. Source Start is folded into Finish once per lap; our countdown begins at spawn. Gate normal sign follows the ordered route. Authored track props must be imported before activation.",
+  "spawnSource": {
+    "gameObject": "StartPoint",
+    "id": "724",
+    "adaptation": "Original level default position and yaw; 0.25 metre clearance and level starting attitude."
+  },
+  "trackProps": "Original visible prefab geometry, PBR materials and blueprint transforms. Non-trigger collision retained; source repair/charge logic is not implemented. Checkpoint trigger renderers remain hidden."
+}

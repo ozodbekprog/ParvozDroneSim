@@ -1,0 +1,39 @@
+{
+  "name": "Minus Two",
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+  "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+  "permissionConfirmed": false,
+  "unityVersion": "2022.3.62f3",
+  "installedSource": "D:\\Programs\\Liftoff",
+  "scene": "Assets/Scenes/Environments/MinusTwo/MinusTwo.unity",
+  "recoveredOn": "2026-10-09",
+  "tools": [
+    "AssetRipper Free 2.0.0",
+    "Blender 5.1.0",
+    "Microsoft DirectXTex 2026.5",
+    "KTX-Software 4.4.2"
+  ],
+  "sceneBundleSha256": "c8e1a8609fa0ff1aa0b9bd91fb76612fa245c05e292492e194267636582340da",
+  "changes": "Original scene layout and authored meshes retained; X handedness and UV orientation converted, HDR lightmaps sampled into vertex lighting with brighter indoor ambient adaptation, ceiling lamp emission enabled, browser PBR and KTX2 prepared. Spatial material LODs use 24 metre cells. Surface geometry retained at all levels; no decimation. Seasonal event hierarchies excluded. Floor UVs retained at distance; small transparent overlays fade at the far LOD. Our original course and missions remain; imported Liftoff races have their own SOURCE records. Glass alpha and BLEND restored; occlusion and baked detail layers retained. CombinedCharacter and player/drone placeholders removed. Original visible props for five races are separate packages with source LODs and collision.",
+  "limitations": [
+    "Appearance is adapted rather than lossless.",
+    "Source sphere/capsule colliders currently use conservative oriented boxes.",
+    "Target FPS on UHD 620 has not been measured.",
+    "WheelStop01 triplanar shader is adapted to PBR using original UVs; original world-space blending is approximate."
+  ],
+  "recovery": {
+    "objects": 2953,
+    "sourceTriangles": 338100,
+    "totalTrianglesAcrossLods": 1011069,
+    "colliders": 1449,
+    "bundles": 39,
+    "modelBytes": 26328504
+  },
+  "materialAudit": {
+    "file": "material-audit.json",
+    "checked": 49,
+    "failures": 0
+  }
+}

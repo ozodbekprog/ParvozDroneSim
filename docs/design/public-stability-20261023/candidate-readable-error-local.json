@@ -1,0 +1,16 @@
+{
+  "capturedAt": "2026-10-23T10:18:00.090Z",
+  "client": "http://127.0.0.1:2569/assets/index-D31s-vkZ.js",
+  "error": "Загрузка прервалась. Проверьте подключение и повторите попытку.",
+  "hasRetry": true,
+  "scope": "Local implementation QA only",
+  "blockedRequests": 3,
+  "recoveredToFlight": true,
+  "loadingVisible": false,
+  "framebuffer": [
+    [
+      1248,
+      564
+    ]
+  ]
+}

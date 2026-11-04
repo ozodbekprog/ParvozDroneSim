@@ -1,0 +1,79 @@
+{
+  "map": "hangar-c03-demo",
+  "track": "hangar-c03-demo-first-flight",
+  "id": "flight-07-acro-basics",
+  "name": "First steps in Acro",
+  "topic": "Acro control",
+  "order": 70,
+  "description": "Learn that releasing the stick stops rotation, rather than automatically levelling the drone.",
+  "steps": [
+    {
+      "text": "Switch to Acro with M or your mapped flight-mode control. Use small taps: centre sticks stop rotation, but you must level the drone yourself.",
+      "objective": "manual",
+      "target": 0,
+      "duration": 0,
+      "title": "Understand Acro mode"
+    },
+    {
+      "text": "In Acro, settle inside the hover marker. Correct the tilt yourself and keep speed below 1 m/s.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 3,
+      "position": [
+        -88.40730285644531,
+        1.71,
+        0.7091341614723206
+      ],
+      "radius": 1.5,
+      "maxSpeed": 1,
+      "flightMode": "acro",
+      "title": "Hover with manual levelling",
+      "airborne": true
+    },
+    {
+      "text": "Move to the nearby marker in Acro. Counter the tilt, brake and hold position.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 3,
+      "position": [
+        -96.39243582145326,
+        1.71,
+        0.22163900134935138
+      ],
+      "radius": 1.5,
+      "maxSpeed": 1,
+      "flightMode": "acro",
+      "title": "Move and brake in Acro",
+      "airborne": true
+    },
+    {
+      "text": "Return to the start marker in Acro and settle before landing.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 3,
+      "position": [
+        -88.40730285644531,
+        1.71,
+        0.7091341614723206
+      ],
+      "radius": 1.5,
+      "maxSpeed": 1,
+      "flightMode": "acro",
+      "title": "Return and settle",
+      "airborne": true
+    },
+    {
+      "text": "Return to the start marker. Level the drone, lower throttle gently and hold a stopped landing for two seconds.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        -0.03999900817871094,
+        0.7091341614723206
+      ],
+      "radius": 3,
+      "title": "Land at the start"
+    }
+  ]
+}

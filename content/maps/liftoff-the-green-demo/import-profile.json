@@ -1,0 +1,279 @@
+{
+  "adapter": "liftoff-unity-2022",
+  "id": "liftoff-the-green-demo",
+  "nodePrefix": "TheGreen",
+  "staging": "data/liftoff-the-green-recovery",
+  "source": "D:/Programs/Liftoff",
+  "catalogPath": "Liftoff_Data/StreamingAssets/aa/catalog.json",
+  "bundlesPath": "Liftoff_Data/StreamingAssets/aa/StandaloneWindows64",
+  "roots": [
+    "Assets/Scenes/Environments/TheGreen/TheGreen.unity"
+  ],
+  "assetRipperUrl": "http://127.0.0.1:2581",
+  "blender": "D:/Programs/Blender Foundation/Blender 5.1/blender.exe",
+  "textureSize": 512,
+  "materialAdapters": {
+    "Standard": "PBR",
+    "Shader Forge/StandardTriplanarWorldSpace": "PBR using authored UVs; world-space triplanar blending is approximated",
+    "Horizon[ON]/Horizon[ON] Displacement": "Source base terrain color on authored UVs; world projection and shader displacement approximated",
+    "Nature/SpeedTree": "Static PBR with source alpha cutout and baked bark detail; secondary detail UV and wind approximated",
+    "Standard (Specular setup)": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+    "Standard Double Sided": "PBR with original textures and both faces",
+    "Shader Forge/StandardShaderUV3Occlusion": "PBR with baked lighting; UV3 occlusion approximated",
+    "Shader Forge/WaterShader": "Static source tint and combined normals; scrolling, depth fade and reflections approximated",
+    "Shader Forge/WaterShaderOpaque": "Static source tint and combined normals; scrolling, depth fade and reflections approximated",
+    "Bakery/Light": "Static emissive source color",
+    "Project/Standard/StandardTriplanarWorldSpaceNew": "PBR on source UVs; world triplanar projection approximated",
+    "Grass Surface Shader (no zwrite)": "Static main atlas and source mesh; procedural grass, world tint and wind approximated",
+    "GrassRenderDepth": "Redundant depth-only pass hidden; source grass uses its own alpha-tested depth",
+    "Horizon[ON]/Horizon[ON] TransitionTerrain": "Source base color on authored UVs; terrain transition/world projection approximated",
+    "Shader Forge/TreeCreatorReplacement": "Static source diffuse and mesh normals; packed normal/specular shading and wind approximated",
+    "Shader Forge/TreeCreatorLeavesReplacement": "Static source diffuse/cutout and mesh normals; packed normal/specular shading and wind approximated",
+    "Shader Forge/VideoWall": "Static source overlay; runtime video not reproduced",
+    "Unity Terrain (baked source splat layers)": "Authored heightmap geometry with diffuse, normal, metalness and roughness baked from source terrain layer weights, tiling and textures; wind approximated",
+    "Unity Terrain Detail (static source billboard)": "Source grass atlas and authored density retained; static crossed billboards, deterministic scatter, tint and far-LOD fade adapt Unity procedural grass and wind.",
+    "Shader Forge/StandardTriplanarWorldSpaceAO": "Source PBR textures on authored UVs; world-space triplanar blending and secondary AO coordinates approximated",
+    "Shader Forge/PBRTriplanarVertexOcclusion": "Source diffuse and normals on authored UVs; triplanar blending, gloss multiplier and vertex AO approximated",
+    "Shader Forge/LiftoffFoliageTranslucent": "Source diffuse, normal and alpha semantics retained; noise-driven motion and custom light transmission approximated by static browser PBR",
+    "4ik0/FakeWindow/FakeWindow": "Source diffuse, normal and authored mesh retained; view-dependent fake depth/parallax approximated by static browser PBR",
+    "Shader Forge/StandardShaderUV3OcclusionCutoff": "Source PBR textures and alpha cutout; custom UV3 occlusion approximated",
+    "Shader Forge/PBRTriplanarAdjustable": "Source diffuse and normals on authored UVs; custom world-space projection and shader layer/wetness effects approximated"
+  },
+  "excludeObjectPrefixes": [
+    "Christmas",
+    "Halloween",
+    "Easter",
+    "Valentines",
+    "StPatrick",
+    "SaintPatrick",
+    "Snowman",
+    "Heart",
+    "GoldenEgg",
+    "PotofGold",
+    "Rainbow",
+    "AprilFools",
+    "CombinedCharacter",
+    "PlayerDummy",
+    "DroneDummy",
+    "RCSignal",
+    "StartPoint",
+    "PowerBox",
+    "power_box-9"
+  ],
+  "probe": {
+    "position": [
+      -457.812653,
+      5.74056244,
+      597.814453
+    ],
+    "target": [
+      -465.812653,
+      5.74056244,
+      607.814453
+    ],
+    "radius": 35
+  },
+  "lod": {
+    "cellSize": 64,
+    "ratios": [
+      0.6,
+      0.3
+    ],
+    "distances": [
+      0,
+      16,
+      22
+    ],
+    "lowLod": 1,
+    "preserveGeometry": true,
+    "planarDissolve": true,
+    "texturedFarMaterials": [
+      "Floor",
+      "Horizon",
+      "Terrain",
+      "Grass",
+      "Water",
+      "Field"
+    ],
+    "floatPositions": true,
+    "instanceVegetation": true,
+    "terrainNormalSize": 256
+  },
+  "map": {
+    "name": "The Green",
+    "region": "Open countryside",
+    "theme": "custom",
+    "environment": "forest",
+    "description": "Original Liftoff countryside environment and authored courses.",
+    "sky": "#9cb7cd",
+    "fog": "#b9c7d0",
+    "ground": "#868d8f",
+    "sun": "#ffffff",
+    "sunPosition": [
+      -20,
+      35,
+      25
+    ],
+    "ambientIntensity": 1.4,
+    "sunIntensity": 1.6,
+    "wind": [
+      0,
+      0,
+      0
+    ],
+    "gravity": 1,
+    "fogDensity": 0,
+    "groundPlane": false,
+    "indoor": false,
+    "menuCamera": {
+      "position": [
+        -457.812653,
+        7.74056244,
+        597.814453
+      ],
+      "target": [
+        -465.812653,
+        5.74056244,
+        607.814453
+      ]
+    },
+    "floorY": -10.074678792687763,
+    "garage": {
+      "model": "../../shared-assets/liftoff-workbench/delivery.glb",
+      "localOnly": true,
+      "position": [
+        -464.812653,
+        4.0583117485702385,
+        600.814453
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "anchor": [
+        -464.812653,
+        4.860695111817156,
+        600.814453
+      ],
+      "selectionDistance": 2.7,
+      "cameraShots": {
+        "selection": {
+          "azimuth": 0.72,
+          "elevation": 0.4,
+          "zoom": 1
+        },
+        "workbench": {
+          "azimuth": 0.72,
+          "elevation": 0.4,
+          "zoom": 1
+        }
+      }
+    }
+  },
+  "course": {
+    "id": "liftoff-the-green-demo-liftoff-01",
+    "name": "The Green: Original Course",
+    "laps": 1,
+    "spawn": {
+      "position": [
+        -465.812653,
+        3.74056244,
+        607.814453
+      ],
+      "yaw": -3.191134644712401
+    },
+    "gridBounds": [
+      -1000,
+      0,
+      0,
+      1000
+    ],
+    "floorY": -9.074678792687763,
+    "clearanceHeight": 1.3,
+    "gateY": 1.2,
+    "width": 2.8,
+    "height": 1.6,
+    "minimumGates": 5,
+    "waypoints": [],
+    "practiceId": "liftoff-the-green-demo-first-flight",
+    "practiceName": "The Green: Practice",
+    "practiceCount": 3
+  },
+  "tutorial": {
+    "id": "liftoff-the-green-demo-basics",
+    "name": "The Green: First Flight",
+    "altitude": 1,
+    "duration": 2,
+    "steps": [
+      {
+        "text": "Take off gently and hold inside the marker. Keep speed below 1 m/s for two seconds.",
+        "title": "Take off and hold",
+        "objective": "reach",
+        "target": 0,
+        "duration": 2,
+        "position": [
+          -465.812653,
+          5.74056244,
+          607.814453
+        ],
+        "radius": 1.5,
+        "maxSpeed": 1,
+        "airborne": true
+      },
+      {
+        "text": "Follow the next-gate marker through original gate 1. Look ahead and leave room to turn.",
+        "title": "Pass original gate 1",
+        "objective": "gate",
+        "target": 0,
+        "duration": 0
+      },
+      {
+        "text": "Follow the next-gate marker through original gate 2. Look ahead and leave room to turn.",
+        "title": "Pass original gate 2",
+        "objective": "gate",
+        "target": 1,
+        "duration": 0
+      },
+      {
+        "text": "Follow the next-gate marker through original gate 3. Look ahead and leave room to turn.",
+        "title": "Pass original gate 3",
+        "objective": "gate",
+        "target": 2,
+        "duration": 0
+      },
+      {
+        "text": "Choose a clear patch of terrain, level the drone and lower throttle gently until grounded for two seconds.",
+        "title": "Land gently",
+        "objective": "land",
+        "target": 0,
+        "duration": 2
+      }
+    ]
+  },
+  "challenge": {
+    "id": "liftoff-the-green-demo-timed",
+    "name": "The Green: Timed Course",
+    "description": "Complete an original The Green racing route.",
+    "target": 240,
+    "reward": 200,
+    "hints": []
+  },
+  "provenance": {
+    "name": "The Green",
+    "sourceGame": "Liftoff: FPV Drone Racing",
+    "source": "https://www.liftoff-game.com/",
+    "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+    "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+    "permissionConfirmed": false,
+    "unityVersion": "2022.3.62f3"
+  },
+  "sourceTextureBudgetMiB": 2000,
+  "trackOptions": {
+    "linearBranches": true,
+    "adaptSpawnClearance": true,
+    "adaptCheckpointRespawn": true
+  },
+  "terrainPatchSamples": 32
+}

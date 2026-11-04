@@ -1,0 +1,76 @@
+{
+  "map": "liftoff-pine-valley-demo",
+  "shadowOnlySourceObjects": 0,
+  "previewSourceHierarchy": "FreezeFrameFinish",
+  "removedPrimitives": 1,
+  "repairedDistanceCells": 8,
+  "models": [
+    {
+      "file": "content/maps/liftoff-pine-valley-demo/model.glb",
+      "neutralized": [
+        "LuGusStoneLogoOFF01",
+        "AirflagLiftoffFinishDark01"
+      ],
+      "bytesBefore": 191664282,
+      "bytesAfter": 190169842,
+      "removedImages": 7
+    },
+    {
+      "file": "content/races/liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "neutralized": [
+        "AirgateLiftoffFinishWhite01",
+        "AirgateLiftoffWhite01"
+      ],
+      "bytesBefore": 4021578,
+      "bytesAfter": 3556738,
+      "removedImages": 4
+    },
+    {
+      "file": "content/races/liftoff-pine-valley-demo-liftoff-02/props.glb",
+      "neutralized": [
+        "AirflagLiftoffFinishDark01",
+        "AirflagLiftoffFinishWhite01",
+        "AirgateLiftoffFinishWhite01",
+        "AirPylon01"
+      ],
+      "bytesBefore": 6365414,
+      "bytesAfter": 4599634,
+      "removedImages": 10
+    },
+    {
+      "file": "content/races/liftoff-pine-valley-demo-liftoff-04/props.glb",
+      "neutralized": [
+        "AirflagLiftoffFinishWhite01"
+      ],
+      "bytesBefore": 3620614,
+      "bytesAfter": 3053414,
+      "removedImages": 3
+    },
+    {
+      "file": "content/races/liftoff-pine-valley-demo-liftoff-05/props.glb",
+      "neutralized": [
+        "AirflagLiftoffFinishDark01",
+        "AirflagLiftoffFinishWhite01",
+        "AirgateBig240H300B01luGusStudios01",
+        "AirflagLiftoffSlalomDark01",
+        "AirflagLiftoffSlalomWhite01",
+        "HerasFencingClothLiftoffWhite01",
+        "AirflagLiftoffTurnDark01",
+        "AirgateLiftoffDark01",
+        "AirgateLiftoffWhite01"
+      ],
+      "bytesBefore": 8624118,
+      "bytesAfter": 6443214,
+      "removedImages": 11
+    },
+    {
+      "file": "content/races/liftoff-pine-valley-demo-liftoff-03/props.glb",
+      "neutralized": [
+        "InflatableArchBrandless01"
+      ],
+      "bytesBefore": 12636734,
+      "bytesAfter": 12177290,
+      "removedImages": 4
+    }
+  ]
+}

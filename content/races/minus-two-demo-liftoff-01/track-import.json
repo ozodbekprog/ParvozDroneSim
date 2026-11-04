@@ -1,0 +1,865 @@
+{
+  "id": "minus-two-demo-liftoff-01",
+  "blueprints": 169,
+  "visibleInstances": 167,
+  "meshes": 381,
+  "colliders": 529,
+  "inventory": [
+    {
+      "instance": "8",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "9",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "334",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "12",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "13",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "14",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "38",
+      "prefab": "AirgateLiftoffFinishWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "40",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "44",
+      "prefab": "TrafficCone01",
+      "meshes": 1
+    },
+    {
+      "instance": "45",
+      "prefab": "TrafficCone01",
+      "meshes": 1
+    },
+    {
+      "instance": "53",
+      "prefab": "DirectionArrowWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "78",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "79",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "84",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "89",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "90",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "91",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "92",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "93",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "94",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "95",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "96",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "98",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "99",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "101",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "102",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "103",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "104",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "105",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "106",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "107",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "108",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "109",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "110",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "112",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "113",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "114",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "118",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "119",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "120",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "131",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "132",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "134",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "135",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "136",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "145",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "147",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "150",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "151",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "152",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "153",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "161",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "163",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "164",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "165",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "167",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "168",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "169",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "170",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "171",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "172",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "174",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "175",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "178",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "179",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "180",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "186",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "187",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "188",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "205",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "209",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "211",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "212",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "213",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "217",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "220",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "221",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "225",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "226",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "227",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "229",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "232",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "236",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "238",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "239",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "240",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "242",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "243",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "244",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "246",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "287",
+      "prefab": "AirgateLiftoffWhite01",
+      "meshes": 2
+    },
+    {
+      "instance": "248",
+      "prefab": "TriggerBox_RepairPropellers_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "249",
+      "prefab": "TriggerBox_ChargeBattery_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "250",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "251",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "252",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "253",
+      "prefab": "NoticeBoardBattery01",
+      "meshes": 6
+    },
+    {
+      "instance": "254",
+      "prefab": "NoticeBoardRepair01",
+      "meshes": 6
+    },
+    {
+      "instance": "262",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "263",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "255",
+      "prefab": "TrafficCone01",
+      "meshes": 1
+    },
+    {
+      "instance": "256",
+      "prefab": "TrafficCone01",
+      "meshes": 1
+    },
+    {
+      "instance": "257",
+      "prefab": "TrafficCone01",
+      "meshes": 1
+    },
+    {
+      "instance": "258",
+      "prefab": "TrafficCone01",
+      "meshes": 1
+    },
+    {
+      "instance": "259",
+      "prefab": "TrafficCone01",
+      "meshes": 1
+    },
+    {
+      "instance": "260",
+      "prefab": "TrafficCone01",
+      "meshes": 1
+    },
+    {
+      "instance": "261",
+      "prefab": "TrafficCone01",
+      "meshes": 1
+    },
+    {
+      "instance": "274",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "285",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "286",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "290",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "291",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "298",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "299",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "304",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "305",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "306",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "307",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "308",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "311",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "312",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "313",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "314",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "322",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "318",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "319",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "320",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "324",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "326",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "327",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "331",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "332",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "335",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "336",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "348",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "353",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "354",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "355",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "358",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "360",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "361",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "373",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "374",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "379",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "380",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "381",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "382",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "383",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "384",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "386",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "387",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "388",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "389",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "390",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "391",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "392",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "400",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "402",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "403",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "404",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "405",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "406",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "407",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "408",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "412",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "413",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "414",
+      "prefab": "LedFlagGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "416",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    },
+    {
+      "instance": "417",
+      "prefab": "ConstructionFencingLiftoffBlack01",
+      "meshes": 2
+    }
+  ],
+  "lodTriangles": [
+    111573,
+    92565,
+    87185
+  ],
+  "cells": 44,
+  "propMeshes": 379,
+  "ribbonMeshes": 2,
+  "ribbonTriangles": 96
+}

@@ -1,0 +1,682 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Tashkent",
+  "artifact": "hangar-refinement.png",
+  "size": [
+    1920,
+    1080
+  ],
+  "tokens": {
+    "panel": "#23262b",
+    "card": "#292e35",
+    "line": "#59616d",
+    "text": "#f0f1f1",
+    "muted": "#adb1b7",
+    "accent": "#eea462",
+    "ink": "#1b1e23",
+    "track": "#4b535d",
+    "fill": "#c7cdd4",
+    "selected": "#3a3029",
+    "danger": "#ed9c95"
+  },
+  "sourceScene": "../variants/assets/hangar.png",
+  "sourceSha256": "946781fccc9951c42e75651bd4ee399e20d874e203c11ceb349240c9cb8175f9",
+  "protectedRect": [
+    375,
+    320,
+    1340,
+    800
+  ],
+  "changedPixelsInProtectedRect": 0,
+  "thumbnails": [
+    {
+      "name": "Armattan Chameleon 5″",
+      "file": "drone-01.png",
+      "fallback": false,
+      "alphaCrop": [
+        79,
+        56,
+        174,
+        99
+      ]
+    },
+    {
+      "name": "Armattan Gecko 3″",
+      "file": "drone-02.png",
+      "fallback": false,
+      "alphaCrop": [
+        84,
+        51,
+        175,
+        106
+      ]
+    },
+    {
+      "name": "Dquad Addiction",
+      "file": "drone-03.png",
+      "fallback": false,
+      "alphaCrop": [
+        80,
+        47,
+        172,
+        93
+      ]
+    },
+    {
+      "name": "Kestrel 5",
+      "file": "drone-04.png",
+      "fallback": false,
+      "alphaCrop": [
+        69,
+        54,
+        175,
+        105
+      ]
+    },
+    {
+      "name": "Luma 5",
+      "file": "drone-05.png",
+      "fallback": false,
+      "alphaCrop": [
+        86,
+        50,
+        175,
+        105
+      ]
+    },
+    {
+      "name": "Luma 5 Copy 1",
+      "file": "drone-05.png",
+      "fallback": true,
+      "alphaCrop": [
+        86,
+        50,
+        175,
+        105
+      ]
+    }
+  ],
+  "contrast": [
+    {
+      "element": "Body text / panel",
+      "foreground": "#f0f1f1",
+      "background": "#23262b",
+      "ratio": 13.412423142807143,
+      "required": 4.5,
+      "pass": true
+    },
+    {
+      "element": "Secondary text / panel",
+      "foreground": "#adb1b7",
+      "background": "#23262b",
+      "ratio": 7.046491892537877,
+      "required": 4.5,
+      "pass": true
+    },
+    {
+      "element": "Secondary text / card",
+      "foreground": "#adb1b7",
+      "background": "#292e35",
+      "ratio": 6.34529673353105,
+      "required": 4.5,
+      "pass": true
+    },
+    {
+      "element": "Secondary text / selected card",
+      "foreground": "#adb1b7",
+      "background": "#3a3029",
+      "ratio": 5.96405108308263,
+      "required": 4.5,
+      "pass": true
+    },
+    {
+      "element": "Accent text / panel",
+      "foreground": "#eea462",
+      "background": "#23262b",
+      "ratio": 7.315716647734101,
+      "required": 4.5,
+      "pass": true
+    },
+    {
+      "element": "Primary button text / accent",
+      "foreground": "#1b1e23",
+      "background": "#eea462",
+      "ratio": 8.055172721291525,
+      "required": 4.5,
+      "pass": true
+    },
+    {
+      "element": "Delete copy / panel",
+      "foreground": "#ed9c95",
+      "background": "#23262b",
+      "ratio": 7.075975962879341,
+      "required": 4.5,
+      "pass": true
+    },
+    {
+      "element": "Scale fill / track",
+      "foreground": "#c7cdd4",
+      "background": "#4b535d",
+      "ratio": 4.866011248125673,
+      "required": 3.0,
+      "pass": true
+    },
+    {
+      "element": "Selected border / selected card",
+      "foreground": "#eea462",
+      "background": "#3a3029",
+      "ratio": 6.191919108379171,
+      "required": 3.0,
+      "pass": true
+    }
+  ],
+  "textBounds": [
+    {
+      "text": "Ангар",
+      "box": [
+        43,
+        34,
+        133,
+        63
+      ],
+      "size": 34
+    },
+    {
+      "text": "Выбор дрона",
+      "box": [
+        44,
+        74,
+        141,
+        92
+      ],
+      "size": 17
+    },
+    {
+      "text": "В главное меню",
+      "box": [
+        1712.0,
+        41,
+        1852.0,
+        54
+      ],
+      "size": 20
+    },
+    {
+      "text": "Изменённый",
+      "box": [
+        1536,
+        128,
+        1633,
+        141
+      ],
+      "size": 17
+    },
+    {
+      "text": "Luma 5 Copy 1",
+      "box": [
+        1536,
+        158,
+        1734,
+        185
+      ],
+      "size": 32
+    },
+    {
+      "text": "5″ · Фристайл",
+      "box": [
+        1536,
+        201,
+        1655,
+        220
+      ],
+      "size": 20
+    },
+    {
+      "text": "На основе Luma 5",
+      "box": [
+        1536,
+        230,
+        1666,
+        242
+      ],
+      "size": 17
+    },
+    {
+      "text": "Характеристики",
+      "box": [
+        1536,
+        283,
+        1681,
+        300
+      ],
+      "size": 20
+    },
+    {
+      "text": "Вес",
+      "box": [
+        1536,
+        322,
+        1567,
+        335
+      ],
+      "size": 20
+    },
+    {
+      "text": "595 г",
+      "box": [
+        1822.0,
+        321,
+        1868.0,
+        335
+      ],
+      "size": 22
+    },
+    {
+      "text": "0",
+      "box": [
+        1536,
+        367,
+        1543,
+        376
+      ],
+      "size": 14
+    },
+    {
+      "text": "1200 г",
+      "box": [
+        1831.0,
+        367,
+        1868.0,
+        376
+      ],
+      "size": 14
+    },
+    {
+      "text": "Отклик моторов",
+      "box": [
+        1536,
+        402,
+        1680,
+        419
+      ],
+      "size": 20
+    },
+    {
+      "text": "35 мс",
+      "box": [
+        1818.0,
+        401,
+        1868.0,
+        415
+      ],
+      "size": 22
+    },
+    {
+      "text": "0",
+      "box": [
+        1536,
+        447,
+        1543,
+        456
+      ],
+      "size": 14
+    },
+    {
+      "text": "200 мс",
+      "box": [
+        1829.0,
+        447,
+        1869.0,
+        456
+      ],
+      "size": 14
+    },
+    {
+      "text": "Энергия батареи",
+      "box": [
+        1536,
+        482,
+        1684,
+        502
+      ],
+      "size": 20
+    },
+    {
+      "text": "28,9 Вт·ч",
+      "box": [
+        1784.0,
+        481,
+        1868.0,
+        500
+      ],
+      "size": 22
+    },
+    {
+      "text": "0",
+      "box": [
+        1536,
+        527,
+        1543,
+        536
+      ],
+      "size": 14
+    },
+    {
+      "text": "60 Вт·ч",
+      "box": [
+        1827.0,
+        527,
+        1868.0,
+        536
+      ],
+      "size": 14
+    },
+    {
+      "text": "Тяга / вес",
+      "box": [
+        1536,
+        565,
+        1603,
+        579
+      ],
+      "size": 16
+    },
+    {
+      "text": "5,6×",
+      "box": [
+        1536,
+        590,
+        1579,
+        611
+      ],
+      "size": 24
+    },
+    {
+      "text": "Полёт ≈",
+      "box": [
+        1650,
+        565,
+        1704,
+        576
+      ],
+      "size": 16
+    },
+    {
+      "text": "6 мин",
+      "box": [
+        1650,
+        590,
+        1711,
+        606
+      ],
+      "size": 24
+    },
+    {
+      "text": "Камера",
+      "box": [
+        1770,
+        565,
+        1822,
+        580
+      ],
+      "size": 16
+    },
+    {
+      "text": "105°",
+      "box": [
+        1770,
+        590,
+        1814,
+        606
+      ],
+      "size": 24
+    },
+    {
+      "text": "Отклик и время полёта — оценки симуляции.",
+      "box": [
+        1536,
+        624,
+        1815,
+        636
+      ],
+      "size": 14
+    },
+    {
+      "text": "Выбран для полёта",
+      "box": [
+        1536,
+        650,
+        1694,
+        667
+      ],
+      "size": 18
+    },
+    {
+      "text": "Открыть мастерскую",
+      "box": [
+        1607.5,
+        688,
+        1796.5,
+        705
+      ],
+      "size": 20
+    },
+    {
+      "text": "Удалить копию",
+      "box": [
+        1536,
+        750,
+        1650,
+        765
+      ],
+      "size": 17
+    },
+    {
+      "text": "−",
+      "box": [
+        61.0,
+        787,
+        71.0,
+        795
+      ],
+      "size": 20
+    },
+    {
+      "text": "+",
+      "box": [
+        117.0,
+        787,
+        127.0,
+        798
+      ],
+      "size": 20
+    },
+    {
+      "text": "Сбросить ракурс",
+      "box": [
+        175.5,
+        787,
+        322.5,
+        807
+      ],
+      "size": 20
+    },
+    {
+      "text": "Все  6",
+      "box": [
+        60,
+        858,
+        108,
+        871
+      ],
+      "size": 19
+    },
+    {
+      "text": "Оригинал  5",
+      "box": [
+        180,
+        858,
+        282,
+        875
+      ],
+      "size": 19
+    },
+    {
+      "text": "Изменённый  1",
+      "box": [
+        348,
+        858,
+        474,
+        873
+      ],
+      "size": 19
+    },
+    {
+      "text": "6 дронов",
+      "box": [
+        1804.0,
+        860,
+        1876.0,
+        876
+      ],
+      "size": 18
+    },
+    {
+      "text": "Armattan Chameleon 5″",
+      "box": [
+        57,
+        984,
+        263,
+        998
+      ],
+      "size": 20
+    },
+    {
+      "text": "5″ · Фристайл",
+      "box": [
+        58,
+        1012,
+        146,
+        1027
+      ],
+      "size": 15
+    },
+    {
+      "text": "Armattan Gecko 3″",
+      "box": [
+        364,
+        984,
+        526,
+        998
+      ],
+      "size": 20
+    },
+    {
+      "text": "3″ · Манёвренный",
+      "box": [
+        365,
+        1012,
+        479,
+        1027
+      ],
+      "size": 15
+    },
+    {
+      "text": "Dquad Addiction",
+      "box": [
+        672,
+        984,
+        813,
+        1002
+      ],
+      "size": 20
+    },
+    {
+      "text": "5″ · Гоночный",
+      "box": [
+        672,
+        1012,
+        760,
+        1024
+      ],
+      "size": 15
+    },
+    {
+      "text": "Kestrel 5",
+      "box": [
+        979,
+        984,
+        1053,
+        998
+      ],
+      "size": 20
+    },
+    {
+      "text": "5″ · Фристайл",
+      "box": [
+        979,
+        1012,
+        1067,
+        1027
+      ],
+      "size": 15
+    },
+    {
+      "text": "Luma 5",
+      "box": [
+        1286,
+        984,
+        1348,
+        997
+      ],
+      "size": 20
+    },
+    {
+      "text": "5″ · Фристайл",
+      "box": [
+        1286,
+        1012,
+        1374,
+        1027
+      ],
+      "size": 15
+    },
+    {
+      "text": "Luma 5 Copy 1",
+      "box": [
+        1593,
+        984,
+        1717,
+        1001
+      ],
+      "size": 20
+    },
+    {
+      "text": "Копия · 5″ · Фристайл",
+      "box": [
+        1593,
+        1012,
+        1732,
+        1027
+      ],
+      "size": 15
+    },
+    {
+      "text": "Выбран",
+      "box": [
+        1815.0,
+        915,
+        1864.0,
+        929
+      ],
+      "size": 14
+    }
+  ],
+  "textOverlaps": [],
+  "browserAttempt": "Local browser use is disabled in Work settings",
+  "limitations": [
+    "Static raster study, no functioning game controls",
+    "No fresh public-browser or accessibility-technology test",
+    "No approval of palette, layout or implementation"
+  ]
+}

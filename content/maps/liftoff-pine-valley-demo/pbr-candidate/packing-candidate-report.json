@@ -1,0 +1,13 @@
+{
+  "fullDetailBefore": "38d5e55b517f9f1c386a617b38475959e4678279f460ef0b27d0406f0908310a",
+  "fullDetailAfter": "38d5e55b517f9f1c386a617b38475959e4678279f460ef0b27d0406f0908310a",
+  "roots": 2216,
+  "positionBits": 16,
+  "uvAndNormals": "unchanged",
+  "strategy": "Mesh-local 16-bit reduced positions with compensating node/instance transforms; original LOD0 floats preserved.",
+  "status": "verified",
+  "input": "public/content/assets/qa/pine-lod-pbr-a81b308b30d7fc2a.glb",
+  "output": "public/content/assets/qa/pine-lod-packed-20261018.glb",
+  "deliveryBytes": 278903824,
+  "deliverySha256": "da39aad474385012e40547ba2af8993d99c17c96b3bcee321cd5d8188e050365"
+}

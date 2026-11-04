@@ -1,0 +1,35 @@
+{
+  "name": "The Green",
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+  "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+  "permissionConfirmed": false,
+  "unityVersion": "2022.3.62f3",
+  "trackResource": "TheGreenTrack04_0001",
+  "raceResource": "TheGreenRace04_0001",
+  "sourceTrackId": "ef537674-41ab-45c6-9fb2-2a8f094052b5",
+  "sourceRaceId": "c470450a-a136-4bb5-abd1-a375874d98a5",
+  "conversion": "Original checkpoint graph, positions, prefab trigger bounds and horizontal spawn/heading preserved; vertical Kestrel clearance is recorded separately. Empty builtin mesh bounds are recovered from the exported source geometry. Source Start is folded into Finish once per lap; our countdown begins at spawn. Gate normal sign follows the ordered route. Authored track props must be imported before activation.",
+  "trackProps": "Original visible prefab geometry, PBR materials and blueprint transforms. Non-trigger collision retained; source repair/charge logic is not implemented. Checkpoint trigger renderers remain hidden.",
+  "spawnClearance": {
+    "sourceSpawn": {
+      "position": [
+        -665.1635131835938,
+        3.3420801162719727,
+        513.6483154296875
+      ],
+      "yaw": -2.6449940703871535
+    },
+    "deliveredSpawn": {
+      "position": [
+        -665.1635131835938,
+        3.3620801162719727,
+        513.6483154296875
+      ],
+      "yaw": -2.6449940703871535
+    },
+    "liftMetres": 0.02,
+    "rule": "Height-only clearance for the Kestrel compound collision and a 0.18 metre centre probe; source X/Z and yaw retained. Search step 0.01 m, maximum 0.5 m."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "release": "20261023-stability-03",
+  "runtimeSource": "78fb1f8da1559fc4ec8ef519724637f5bfabdf7f",
+  "productionActivatedAt": "2026-10-23T10:58:00.742Z",
+  "image": "sha256:a9c840316ead73e0aa170ec75ab0c76fa648e617748ab8ee7aa48b5c09485a69",
+  "public": {
+    "checkedAt": "2026-10-23T11:02:56.899Z",
+    "https": true,
+    "revision": "2132caf43c0e38df",
+    "protocol": 13,
+    "assets": 132,
+    "bytes": 1789800866,
+    "clientSHA256": "a7fea3bf1d7635a9cea5f81575c40cfc4b2e7709f05bf1ce352910f6e3cf7807",
+    "admission": 20,
+    "catalogReuseBytes": 217
+  },
+  "playerState": {
+    "tables": {
+      "achievements": {
+        "rows": 4,
+        "sha256": "eccc28256af2e242df4204d1b543344092e1a8c6008152f51d375f72e51c0a51"
+      },
+      "career": {
+        "rows": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "cup_scores": {
+        "rows": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "drone_fleets": {
+        "rows": 1,
+        "sha256": "714d1e1756e10adc8ec3a9740de339ae389f21f932de4c11523db8ea28d26757"
+      },
+      "freestyle_scores": {
+        "rows": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "owned_parts": {
+        "rows": 0,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "records": {
+        "rows": 5,
+        "sha256": "7d97ef33b2538f9cae0304957774055e73b6126c73186df0c8c3c20c2e5dcdc0"
+      },
+      "replays": {
+        "rows": 2,
+        "sha256": "138eeb6582370397976f59503e2fc49d9feb2331c6395b0a16e81a376d20e476"
+      },
+      "users": {
+        "rows": 4,
+        "sha256": "f78345575c1f5a56d2f78efbba4f8cc48b1bde375d7c43bac14d1bc2545098f0"
+      },
+      "weekly_records": {
+        "rows": 1,
+        "sha256": "f8bbec4b3dde4ecd1ddc3841ab1c4cc7cf885ca99f42ecce2c7558e31479c7ce"
+      }
+    },
+    "originalPlayerRowsPreserved": true,
+    "sessionsExcluded": true
+  },
+  "backup": {
+    "postBackupRestored": true,
+    "originalPlayerRowsPreserved": true,
+    "postBackupSHA256": "06f935471637be99036af92e50af384189386e1352597f427f9d448bdfa7c28a",
+    "postBackupVerifiedAt": "2026-10-23T11:40:20.912Z",
+    "freeBytes": 1700663296
+  },
+  "finalized": false,
+  "remainingBrowserScenarios": [
+    5,
+    6
+  ]
+}

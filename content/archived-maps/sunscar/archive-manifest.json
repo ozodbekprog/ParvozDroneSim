@@ -1,0 +1,140 @@
+{
+  "id": "sunscar",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "df44dfb65c24558f989ea362406ee2ec8a01f62497c9ad50db9cbbb668c4b7e5"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "39f80053ed01c285452bcaa51c2cae21779faf3219ae84e22f4418bfbe37f145"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "5aed09f19c4b52a636b0db0998d91a3f01afd2b853d225cb2c3857d101336201"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "b44aa947efc0b4a3518b32e5792f5e86e5e5e7ef39b9fc23eacc8bbb4abcb7df"
+    },
+    {
+      "file": "map.json",
+      "sha256": "12c582edffee892fc45de3c166070f65940cfcad73ff0f88d4062c8eb2fe4457"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "32436963a79dbb1c439d79244cfcf3e8ec9a9712cd1f113915f4c5d2dfbf2ef1"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-sunscar-color.png",
+      "sha256": "36187826718adbd0645b0f6d1107f8f3bace18d2a031ac13fb97288cf3c318de"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-sunscar-normal.png",
+      "sha256": "6286dd2f4eb0d90896aa98d8240fffa0b4c3960756cf6cbb21cd860cb7a447e5"
+    },
+    {
+      "file": "textures/blender-painted/fpv-natural-stone-sunscar-color.png",
+      "sha256": "da150782d330169127c8ae87c616427ec4e2a3f1c5649f02a6969e96401c45ab"
+    },
+    {
+      "file": "textures/blender-painted/fpv-natural-stone-sunscar-normal.png",
+      "sha256": "8335244c11ab9838799a1eef3544bd50b7f69ef6bc713ce9b55a4f432a094ddb"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-sunscar-color.png",
+      "sha256": "6c6220b4ecfdc3966a1ee9cd6f6a7f00f920de3ed3eb5e1183d30f17af961c26"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-sunscar-normal.png",
+      "sha256": "d666108ceb856fb268a8240db1ef4653cf523284de6265817912addb8e8a3f37"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-brushed-steel-color.png",
+      "sha256": "37987da7fa8b279f6fed2a0d207908519e9ead66e76c115a9ddc301b118b5073"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-brushed-steel-normal.png",
+      "sha256": "1ad2648b6c0908d5b4bef50eb7efe1de08e9087cf5f50c2748037422ea3374ae"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-cut-timber-color.png",
+      "sha256": "367f37038596938a658300423b228c51f7dbae2aa7240885312f791dc2185223"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-cut-timber-normal.png",
+      "sha256": "95d12e22c917cdeea4340e4b862670c1121f280f9ce49e31031bc4676a4995e6"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-natural-stone-color.png",
+      "sha256": "ea1c9225ba7489f696033520b3ce4496945a8efc698a46bc08b1c03e34373b78"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-natural-stone-normal.png",
+      "sha256": "ca84e6e04aec8ebaf2b26593af082c489c97eae3031bf946d8e7de660fb1c4e8"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-pale-stone-stratum-color.png",
+      "sha256": "4cf13624aefda6f789e034e6c9e6fdb523042a88389088225a471b415dde2447"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-pale-stone-stratum-normal.png",
+      "sha256": "97f8341626786b04fae9f4b226b92588a157e1abf4b2e58806e4600e20e9ce07"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-rubber-and-asphalt-color.png",
+      "sha256": "851e5ae767265d5463dc72998ff0e37819bae2720bc5924867e802ea97b640f2"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-rubber-and-asphalt-normal.png",
+      "sha256": "39e160512aa5a4c710fb02f04d34a924ec670c058869c1623e4dcff2561d7d9d"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-sandstone-stratum-color.png",
+      "sha256": "5a4b70b99fcef3d79f62b4841d3058275f515f269d5e8fd369eee2bb20a2d822"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-sandstone-stratum-normal.png",
+      "sha256": "4fa5dea2c08447959bc326b8951211e8aca796fe1e8edbca8c81c85e1d6de0f5"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-timber-color.png",
+      "sha256": "d61f39f44d8dcfac945ebec6b112f02939f1879561f2166e122500d0b465acd2"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-timber-normal.png",
+      "sha256": "e5992da8d57d584d796727f7d99bf2a40b043369cdf9b937cc06fbe0f465c1ab"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-warm-plaster-color.png",
+      "sha256": "78d6c99b6019e2fa32fb3a30e2c7fb67ea7852b9d0e307f68c065aead03c5570"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-sunscar-warm-plaster-normal.png",
+      "sha256": "d1964ffbd2af9a1d060ae8030944bf94a0104f4a145e49daa125a5d3e19857c1"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "b524e36b68f19d448bbe4b66e3d9acd0295ba706038ec8ff140329fe8c6b3680"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "0752884ceac21b78c394fc0dddf26ceee7e80b5948a300af43b237930a4704b1"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "sunscar-array-loop",
+      "sunscar-canal-dash"
+    ],
+    "challenges": [
+      "sunscar-array-survey",
+      "sunscar-canal-crossing",
+      "sunscar-golden-hour",
+      "sunscar-heat-run"
+    ],
+    "tutorials": []
+  },
+  "restore": "Copy this entire folder to content/maps/sunscar, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

@@ -1,0 +1,91 @@
+{
+  "mounts": {
+    "frame": [
+      "Mount_frame"
+    ],
+    "camera": [
+      "Mount_camera"
+    ],
+    "battery": [
+      "Mount_battery"
+    ],
+    "motors": [
+      "Mount_motors_0",
+      "Mount_motors_1",
+      "Mount_motors_2",
+      "Mount_motors_3"
+    ],
+    "propellers": [
+      "Mount_propellers_0",
+      "Mount_propellers_1",
+      "Mount_propellers_2",
+      "Mount_propellers_3"
+    ]
+  },
+  "partBindings": {
+    "frame": [
+      "Frame_Default"
+    ],
+    "camera": [
+      "Camera_Default"
+    ],
+    "battery": [
+      "Battery_Default"
+    ],
+    "motors": [
+      "Motors_Default_0",
+      "Motors_Default_1",
+      "Motors_Default_2",
+      "Motors_Default_3"
+    ],
+    "propellers": [
+      "Propellers_Default_0",
+      "Propellers_Default_1",
+      "Propellers_Default_2",
+      "Propellers_Default_3"
+    ]
+  },
+  "motorBindings": [
+    "Rotor_0",
+    "Rotor_1",
+    "Rotor_2",
+    "Rotor_3"
+  ],
+  "cameraFaces": "+Z",
+  "levels": [
+    {
+      "name": "hangar",
+      "assembledTriangles": 37780
+    },
+    {
+      "name": "low",
+      "assembledTriangles": 10411
+    },
+    {
+      "name": "far",
+      "assembledTriangles": 2916
+    }
+  ],
+  "variants": [
+    "SCOUT",
+    "HUNTER"
+  ],
+  "colorBindings": {
+    "body": [
+      "Frame_Finish_HUNTER_Template",
+      "Frame_Finish_SCOUT",
+      "Frame_Finish_SCOUT_Template",
+      "Frame_HUNTER_Template",
+      "Frame_SCOUT",
+      "Frame_SCOUT_Template"
+    ],
+    "led": [
+      "Motors_Decal_SCOUT_Template",
+      "Motors_Decal_HUNTER_Template",
+      "Motors_Decal_SCOUT_Default_0",
+      "Motors_Decal_SCOUT_Default_1",
+      "Motors_Decal_SCOUT_Default_2",
+      "Motors_Decal_SCOUT_Default_3"
+    ]
+  }
+}

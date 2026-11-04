@@ -1,0 +1,144 @@
+{
+  "id": "sunscar-array-loop",
+  "name": "Sunscar Array Loop",
+  "map": "sunscar",
+  "laps": 2,
+  "spawn": {
+    "position": [
+      -124.419998,
+      5.4,
+      -70.5
+    ],
+    "yaw": 2.387763
+  },
+  "gates": [
+    {
+      "position": [
+        -108.0,
+        5.4,
+        -88.0
+      ],
+      "yaw": 2.387763,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -30.0,
+        5.4,
+        -108.0
+      ],
+      "yaw": 1.61622,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        68.0,
+        6.75,
+        -96.0
+      ],
+      "yaw": 1.075245,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        118.0,
+        6.75,
+        -28.0
+      ],
+      "yaw": 0.045423,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        76.0,
+        5.4,
+        80.0
+      ],
+      "yaw": -0.610726,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        20.0,
+        6.75,
+        112.0
+      ],
+      "yaw": -1.633215,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -84.0,
+        5.4,
+        70.0
+      ],
+      "yaw": -2.280581,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -122.0,
+        5.4,
+        -10.0
+      ],
+      "yaw": -2.990846,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "LuGus Studios and originally credited manufacturers",
+  "license": "Proprietary game content; redistribution permission unconfirmed",
+  "permissionConfirmed": false,
+  "localOnly": true,
+  "testAuthorization": {
+    "date": "2026-10-15",
+    "scope": "Existing imported aircraft and additive details for the previously authorized Oracle multiplayer test only"
+  },
+  "changes": "Restored authored procedural electrical paths and native camera meshes/UVs from preserved prefabs; extended battery lead ends to matching frame terminals. Camera placement adapters for Kestrel and Gecko are authored arrangements of the preserved camera and strap, not new source extraction."
+}

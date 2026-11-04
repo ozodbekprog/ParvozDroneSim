@@ -1,0 +1,35 @@
+{
+  "input": "data/liftoff-pine-valley-recovery/model.glb",
+  "output": "data/liftoff-pine-valley-recovery/audit-delivery.glb",
+  "deliverySha256": "b17ef7862351e2bb4bdaf15f1524fb0853b0f56ceb01452c338a269843635342",
+  "sourceTriangles": 1903230,
+  "surfaceProbes": 36836,
+  "gridSpacingMetres": 10,
+  "sampling": "deterministic spatial grid; not exhaustive surface coverage",
+  "levels": [
+    {
+      "lod": 0,
+      "triangles": 1902041,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    },
+    {
+      "lod": 1,
+      "triangles": 1902041,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    },
+    {
+      "lod": 2,
+      "triangles": 1902041,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "check": "High preset Hangar rendered; functional check only, no High FPS acceptance",
+  "started": 1263524.900000006,
+  "ended": 1337538.400000006,
+  "longTasks": [
+    {
+      "startTime": 1263895.299999997,
+      "duration": 167
+    },
+    {
+      "startTime": 1264732.200000003,
+      "duration": 64
+    }
+  ]
+}

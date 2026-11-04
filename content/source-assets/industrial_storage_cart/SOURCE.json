@@ -1,0 +1,37 @@
+{
+  "id": "industrial_storage_cart",
+  "title": "Industrial Storage Cart",
+  "authors": {
+    "Jule Bielitz": "All"
+  },
+  "source": "https://polyhaven.com/a/industrial_storage_cart",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/industrial_storage_cart/industrial_storage_cart_1k.blend",
+    "md5": "c445676b52005f1b50266146d262eb3e",
+    "size": 390860,
+    "include": {
+      "textures/industrial_storage_cart_diff_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_storage_cart/industrial_storage_cart_diff_1k.jpg",
+        "md5": "ed9ac3076458572e50418a76b8742e9f",
+        "size": 553691
+      },
+      "textures/industrial_storage_cart_metal_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/industrial_storage_cart/industrial_storage_cart_metal_1k.exr",
+        "md5": "a91f74b10c3d4367f0c38275c9f6933b",
+        "size": 955590
+      },
+      "textures/industrial_storage_cart_nor_gl_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/industrial_storage_cart/industrial_storage_cart_nor_gl_1k.exr",
+        "md5": "6152871c3faa5440724f9150506fc20d",
+        "size": 1359217
+      },
+      "textures/industrial_storage_cart_rough_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/industrial_storage_cart/industrial_storage_cart_rough_1k.exr",
+        "md5": "db0098b104422a0b7d354ac9e9427a3f",
+        "size": 682996
+      }
+    }
+  }
+}

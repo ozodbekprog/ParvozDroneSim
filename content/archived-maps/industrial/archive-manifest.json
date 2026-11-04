@@ -1,0 +1,128 @@
+{
+  "id": "industrial",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "3bce57b36164e585f7135c76e5060dc85a2174d6261003fff85a695d97b899fe"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "ad70de8d26db6d9ff5db513d69a8036b7f6854e8a3c1ce32d654700822d83e5a"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "85e19b861e815d6cbde80eaf457205b3f84664f5a4ab7cfccbc5f81fb1990a06"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "2bb12abaedee1f0d6076eaf852af4a4d3cc310aa9c75eb887fcc4691a5076526"
+    },
+    {
+      "file": "map.json",
+      "sha256": "e76c9656324f6059c682d2c3841776e0c62a649138619ab1d645eec0a559e377"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "1fc6056bde4e63893bf51303356a925279cccc73989513e20ce3d8dcafa050bb"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-industrial-color.png",
+      "sha256": "6c12cb784f76aa89ceb0f990b67706346dab2f064cd28a66ff3369034ed1b3f9"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-industrial-normal.png",
+      "sha256": "65a8a45037612cd1d2372a75463822c6ded02049cb0ef84a7a8f63659a3eca9d"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-industrial-color.png",
+      "sha256": "325292e6fc4037b03c1f70b825c38a1a789562dd14579893d46f4bd4d5e5459d"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-industrial-normal.png",
+      "sha256": "cab89432b13da20de81d5e9e0708d4ffa51f70dd077b087bb036f7ffc69fccf2"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-brushed-steel-color.png",
+      "sha256": "2d006865e10cbd0ff0543efb428183874dc755bc621d4d23ec1fea88731e1110"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-brushed-steel-normal.png",
+      "sha256": "e1ea5792b1d663b64573c1e9126b7920c81e154e6ba3080aa2f20364d151d5b8"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-cut-timber-color.png",
+      "sha256": "e4d239d9c757dd9a7cbd3e06529cddc922067e63ee7c428cf6140a9228404d26"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-cut-timber-normal.png",
+      "sha256": "6cc0507147b75b68af685e890992a42d307721e3fa7a820d89219fbf87aa226e"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-natural-stone-color.png",
+      "sha256": "ca68735677ee87bb49ab3de18e6de995f301363c4e90904dfb764874dc7d4db7"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-natural-stone-normal.png",
+      "sha256": "ad61bbebdf0941c8e46d013fdea3e0a4b8ea5816f1c9309fd0147ca87aceb196"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-pale-stone-stratum-color.png",
+      "sha256": "6b413477cc2c0c0701aa59be189bc6c5698186ff6af98660f41cab3ba17106e2"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-pale-stone-stratum-normal.png",
+      "sha256": "22ea588f2b9a74db005bdc9083c772a47c5c64194887c9eba6763f5e6db0480f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-rubber-and-asphalt-color.png",
+      "sha256": "c18045ae4d40aec89dbdfde36657526104b4cb2ef8221e7da95719656415906b"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-rubber-and-asphalt-normal.png",
+      "sha256": "45fb4a4eb82b6c534a1291c5ddc0d191e0e94afabb923588d8db92a04962625f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-sandstone-stratum-color.png",
+      "sha256": "4b2b7ea8f4e7509336034b8844a7ec95ba07880c61d96d8878401fc955111cec"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-sandstone-stratum-normal.png",
+      "sha256": "74ed0b1b1420ad1b5a7c15b12ec1b4af44ac0b4769e93cfea56acc9fd58e81e3"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-timber-color.png",
+      "sha256": "a1fa9b8c7c2d69956962bcfef8ec9ba11d2507e83dc41e61652258054dff709f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-timber-normal.png",
+      "sha256": "b3bcaa8d78b1091fa6d2101285e5a03d0133f42075a7a5d9125c44d510859432"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-warm-plaster-color.png",
+      "sha256": "f5b3442c0a2873554f9e5e993e17967b8a4a284bacf80f2050c2b9af5a4015b8"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-industrial-warm-plaster-normal.png",
+      "sha256": "772ba303c6b42f282084c756f013211e2ce6df9a7faf77beb207d75d3aa39fd2"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "55f2197173b85fc92033355ba57f9946039e456bb4ea77ff5ecbbe7e5ac77d92"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "5341105941ca044ab3b1757271d1418d0fe99f3eee49463eb1a33053fd14b1b7"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "industrial-loop"
+    ],
+    "challenges": [
+      "technician"
+    ],
+    "tutorials": []
+  },
+  "restore": "Copy this entire folder to content/maps/industrial, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

@@ -1,0 +1,112 @@
+{
+  "id": "pinecrest-creek-run",
+  "name": "Pinecrest Creek Run",
+  "map": "pinecrest",
+  "laps": 1,
+  "spawn": {
+    "position": [
+      -78.519997,
+      5.4,
+      -43.66
+    ],
+    "yaw": -2.440109
+  },
+  "gates": [
+    {
+      "position": [
+        -94.0,
+        5.4,
+        -62.0
+      ],
+      "yaw": -2.440109,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -40.0,
+        5.4,
+        -38.0
+      ],
+      "yaw": 1.213884,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        24.0,
+        5.4,
+        -18.0
+      ],
+      "yaw": 1.370143,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        78.0,
+        6.75,
+        -14.0
+      ],
+      "yaw": 0.965252,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        102.0,
+        6.75,
+        36.0
+      ],
+      "yaw": -0.214061,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        58.0,
+        5.4,
+        78.0
+      ],
+      "yaw": -2.034444,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ]
+}

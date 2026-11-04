@@ -1,0 +1,128 @@
+{
+  "race": "liftoff-arena-demo-liftoff-07",
+  "sourceTrack": "LiftoffArenaTrack07_0001.xml",
+  "representation": "Static strips retain source attachment positions, width, tiling and materials. Source rope dynamics are not simulated.",
+  "ribbons": [
+    {
+      "blueprintIndex": 36,
+      "instance": "-1",
+      "prefab": "TapeYellowBlack01",
+      "attachments": [
+        [
+          -50.39633560180664,
+          4.422445297241211,
+          -58.31816864013672
+        ],
+        [
+          -51.550819396972656,
+          4.427337646484375,
+          -56.72433853149414
+        ]
+      ],
+      "width": 0.2,
+      "length": 1.9680323059193603,
+      "triangles": 20
+    },
+    {
+      "blueprintIndex": 37,
+      "instance": "-1",
+      "prefab": "TapeWhiteRed01",
+      "attachments": [
+        [
+          -51.587364196777344,
+          4.4253950119018555,
+          -56.674007415771484
+        ],
+        [
+          -52.75798416137695,
+          4.408110618591309,
+          -55.07900619506836
+        ]
+      ],
+      "width": 0.2,
+      "length": 1.9785547310562135,
+      "triangles": 20
+    },
+    {
+      "blueprintIndex": 38,
+      "instance": "-1",
+      "prefab": "TapeYellowBlack01",
+      "attachments": [
+        [
+          -50.407344818115234,
+          4.443944454193115,
+          -58.37211227416992
+        ],
+        [
+          -52.44793701171875,
+          4.476625919342041,
+          -59.88306427001953
+        ]
+      ],
+      "width": 0.2,
+      "length": 2.5393031945676023,
+      "triangles": 26
+    },
+    {
+      "blueprintIndex": 39,
+      "instance": "-1",
+      "prefab": "TapeYellowBlack01",
+      "attachments": [
+        [
+          -52.541526794433594,
+          4.427923679351807,
+          -59.869354248046875
+        ],
+        [
+          -53.672149658203125,
+          4.418264389038086,
+          -58.30160903930664
+        ]
+      ],
+      "width": 0.2,
+      "length": 1.9329320425928436,
+      "triangles": 20
+    },
+    {
+      "blueprintIndex": 40,
+      "instance": "-1",
+      "prefab": "TapeWhiteRed01",
+      "attachments": [
+        [
+          -53.71440505981445,
+          4.410638332366943,
+          -58.23041915893555
+        ],
+        [
+          -54.87367248535156,
+          4.429305076599121,
+          -56.654327392578125
+        ]
+      ],
+      "width": 0.2,
+      "length": 1.9566079475852047,
+      "triangles": 20
+    },
+    {
+      "blueprintIndex": 41,
+      "instance": "-1",
+      "prefab": "TapeWhiteRed01",
+      "attachments": [
+        [
+          -54.8811149597168,
+          4.413147926330566,
+          -56.58960723876953
+        ],
+        [
+          -52.77623748779297,
+          4.354904651641846,
+          -55.076107025146484
+        ]
+      ],
+      "width": 0.2,
+      "length": 2.59318031811042,
+      "triangles": 26
+    }
+  ],
+  "triangles": 132
+}

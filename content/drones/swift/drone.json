@@ -1,0 +1,63 @@
+{
+  "id": "swift",
+  "name": "Swift 3",
+  "class": "three",
+  "mass": 0.42,
+  "arm": 0.084,
+  "thrustToWeight": 6.4,
+  "motorTau": 0.023,
+  "drag": [
+    0.027,
+    0.037,
+    0.017
+  ],
+  "angularDrag": 0.095,
+  "batterySeconds": 290,
+  "color": "#45d4f4",
+  "unlock": "starter",
+  "materials": [],
+  "collision": {
+    "spheres": [
+      {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "radius": 0.0936
+      },
+      {
+        "position": [
+          -0.1584,
+          0.0216,
+          -0.1584
+        ],
+        "radius": 0.049
+      },
+      {
+        "position": [
+          -0.1584,
+          0.0216,
+          0.1584
+        ],
+        "radius": 0.049
+      },
+      {
+        "position": [
+          0.1584,
+          0.0216,
+          -0.1584
+        ],
+        "radius": 0.049
+      },
+      {
+        "position": [
+          0.1584,
+          0.0216,
+          0.1584
+        ],
+        "radius": 0.049
+      }
+    ]
+  }
+}

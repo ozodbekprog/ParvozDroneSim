@@ -1,0 +1,26 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "condition": {
+    "browser": "Edge",
+    "httpCacheCleared": true,
+    "optionalEncodedCacheDeleted": true,
+    "retainedCacheObservedEmpty": true,
+    "downloadLimitBytesPerSecond": 625000,
+    "emulatedLatencyMs": 160,
+    "driverShaderCacheReset": false
+  },
+  "lastObserved": {
+    "documentElapsedMs": 63919.300000000745,
+    "loadingElapsedDisplayed": "0:54",
+    "displayedLoadedMiB": 2.4,
+    "displayedTotalMiB": 39.9,
+    "displayedFilesDone": 0,
+    "displayedFilesTotal": 4,
+    "ready": false
+  },
+  "source": "Last browser tool observation before the interrupted session; not an exported completed capture",
+  "completed": false,
+  "acceptedAsPassingRun": false,
+  "interruption": "REPL state reset; browser tool then reported Local browser use is disabled in Work settings",
+  "cleanupPending": "Reset temporary network emulation on the test tab if it still exists"
+}

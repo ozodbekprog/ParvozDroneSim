@@ -1,0 +1,84 @@
+{
+  "visualDetails": {
+    "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+    "modelLods": [
+      {
+        "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+        "distance": 0
+      },
+      {
+        "model": "../../shared-assets/drone-details/low-delivery.glb",
+        "distance": 12
+      },
+      {
+        "model": "../../shared-assets/drone-details/far-delivery.glb",
+        "distance": 40
+      }
+    ],
+    "lowLod": 1,
+    "frameNode": "armattan_gecko_ElectricalFrame",
+    "batteryNodes": {
+      "lf-amp-age-battery01": "armattan_gecko_ElectricalBattery_lf_amp_age_battery01",
+      "lf-hyperion-battery2s01": "armattan_gecko_ElectricalBattery_lf_hyperion_battery2s01"
+    },
+    "localOnly": true,
+    "attributionFile": "../../shared-assets/drone-details/SOURCE.json"
+  },
+  "accessories": {
+    "actionCamera": {
+      "id": "session-action-camera",
+      "name": "Session action camera",
+      "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+      "modelLods": [
+        {
+          "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+          "distance": 0,
+          "modelNode": "armattan_gecko_ActionCamera"
+        },
+        {
+          "model": "../../shared-assets/drone-details/low-delivery.glb",
+          "distance": 12,
+          "modelNode": "armattan_gecko_ActionCamera"
+        },
+        {
+          "model": "../../shared-assets/drone-details/far-delivery.glb",
+          "distance": 40,
+          "modelNode": "armattan_gecko_ActionCamera"
+        }
+      ],
+      "lowLod": 1,
+      "modelNode": "armattan_gecko_ActionCamera",
+      "mountMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "mass": 0.074,
+      "dragArea": 0.0018,
+      "centerOfMass": [
+        -0.0011356044560670853,
+        0.05241762101650238,
+        0.038589928299188614
+      ],
+      "cosmeticOnly": true,
+      "assetLicense": "Proprietary game content; redistribution permission unconfirmed",
+      "assetCredit": "LuGus Studios and originally credited manufacturers",
+      "assetSource": "https://www.liftoff-game.com/",
+      "localOnly": true,
+      "attributionFile": "../../shared-assets/drone-details/SOURCE.json"
+    }
+  }
+}

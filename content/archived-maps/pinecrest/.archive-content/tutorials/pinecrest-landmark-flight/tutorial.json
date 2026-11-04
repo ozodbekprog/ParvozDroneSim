@@ -1,0 +1,38 @@
+{
+  "id": "pinecrest-landmark-flight",
+  "name": "Landmark Flight",
+  "map": "pinecrest",
+  "track": "pinecrest-creek-run",
+  "steps": [
+    {
+      "text": "Use the creek, ranger station and fire tower to keep your bearings. Select NEXT STEP when ready.",
+      "objective": "manual",
+      "target": 0,
+      "duration": 0
+    },
+    {
+      "text": "Fly through the first gate in its forward direction.",
+      "objective": "gate",
+      "target": 0,
+      "duration": 0
+    },
+    {
+      "text": "Keep the landmark in view and pass the second gate.",
+      "objective": "gate",
+      "target": 1,
+      "duration": 0
+    },
+    {
+      "text": "Continue to the third gate and stabilize.",
+      "objective": "gate",
+      "target": 2,
+      "duration": 0
+    },
+    {
+      "text": "Reduce speed and land clear of structures.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2
+    }
+  ]
+}

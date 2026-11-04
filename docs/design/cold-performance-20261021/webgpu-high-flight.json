@@ -1,0 +1,226 @@
+{
+  "phases": [
+    {
+      "name": "Map download, parse, assembly and collisions",
+      "ms": 3765.3999999910593,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "surfaceMs": 0,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "maxRenderSliceMs": 0,
+      "slowRenders": [],
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Aircraft download, parse and assembly",
+      "ms": 1445.7000000029802,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "surfaceMs": 0,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "maxRenderSliceMs": 0,
+      "slowRenders": [],
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Surface and reflection preparation",
+      "ms": 14.5,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "surfaceMs": 14.5,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "maxRenderSliceMs": 0,
+      "slowRenders": [],
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Geometry shader compilation",
+      "ms": 1577.3999999910593,
+      "renderMs": 0,
+      "projectMs": 105.90000000596046,
+      "submitMs": 1236.8999999910593,
+      "surfaceMs": 0,
+      "compileCalls": 65,
+      "maxCompileSliceMs": 105.59999999403954,
+      "maxRenderSliceMs": 0,
+      "slowRenders": [],
+      "draws": 0,
+      "triangles": 0
+    },
+    {
+      "name": "First rendered frame and post effects",
+      "ms": 57.29999999701977,
+      "renderMs": 55.599999994039536,
+      "projectMs": 0.7999999970197678,
+      "submitMs": 52.79999999701977,
+      "surfaceMs": 0,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "maxRenderSliceMs": 55.599999994039536,
+      "slowRenders": [
+        {
+          "start": 101204,
+          "ms": 55.599999994039536,
+          "object": "Scene"
+        }
+      ],
+      "draws": 293,
+      "triangles": 415799
+    },
+    {
+      "name": "First frame pipeline detail",
+      "pipelines": 1,
+      "pipelineMs": 0.20000000298023224,
+      "objects": 178,
+      "top": [
+        {
+          "name": "",
+          "material": "Renderer_output",
+          "ms": 3
+        },
+        {
+          "name": "Runtime_HerasFencingClothLiftoffBlack01034",
+          "material": "HerasFencingClothLiftoffBlack01",
+          "ms": 2.5
+        },
+        {
+          "name": "Runtime_LEDFlagGreen01029",
+          "material": "LEDFlagGreen01",
+          "ms": 1.2000000029802322
+        },
+        {
+          "name": "Runtime_AirgateLiftoffWhite01025",
+          "material": "AirgateLiftoffWhite01",
+          "ms": 1.0999999940395355
+        },
+        {
+          "name": "Runtime_HerasFencing01053",
+          "material": "HerasFencing01",
+          "ms": 0.9000000059604645
+        },
+        {
+          "name": "Runtime_LEDFlagGreen01021",
+          "material": "LEDFlagGreen01",
+          "ms": 0.8999999910593033
+        },
+        {
+          "name": "Runtime_HerasFencing01059",
+          "material": "HerasFencing01",
+          "ms": 0.8999999910593033
+        },
+        {
+          "name": "Runtime_AirgatePlasticFeet01034",
+          "material": "AirgatePlasticFeet01",
+          "ms": 0.7000000029802322
+        },
+        {
+          "name": "Runtime_AirgateLiftoffWhite01023",
+          "material": "AirgateLiftoffWhite01",
+          "ms": 0.7000000029802322
+        },
+        {
+          "name": "Runtime_DiscConeYellow01038",
+          "material": "DiscConeYellow01",
+          "ms": 0.7000000029802322
+        },
+        {
+          "name": "Runtime_LEDFlagGreen01020",
+          "material": "LEDFlagGreen01",
+          "ms": 0.6000000089406967
+        },
+        {
+          "name": "Runtime_AirgateLiftoffWhite01045",
+          "material": "AirgateLiftoffWhite01",
+          "ms": 0.5999999940395355
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "gpu": "nvidia turing",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "low",
+  "surface": {
+    "normalMaps": false,
+    "textureSize": 256
+  },
+  "batches": {
+    "meshes": 1130,
+    "batches": 109,
+    "ms": 305.59999999403954
+  },
+  "cache": {
+    "idleBytes": 0,
+    "maxIdleBytes": 100663296,
+    "idleEntries": 0,
+    "entries": 5
+  },
+  "models": [
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "parses": 1,
+      "cacheHits": 138,
+      "readMs": 1238.300000011921,
+      "parseMs": 2018.7999999970198,
+      "lookupMs": 1.800000011920929,
+      "cloneMs": 47.29999999701977,
+      "clones": 139
+    },
+    {
+      "url": "/content/assets/races/minus-two-demo-liftoff-01/props-bf67bda0f4a4e5a6.glb",
+      "parses": 1,
+      "cacheHits": 131,
+      "readMs": 355,
+      "parseMs": 2044.1000000089407,
+      "lookupMs": 0.4000000059604645,
+      "cloneMs": 13.999999970197678,
+      "clones": 132
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 126.5,
+      "parseMs": 916.9000000059605,
+      "lookupMs": 0.09999999403953552,
+      "cloneMs": 2.600000038743019,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 180,
+      "parseMs": 1247.7999999970198,
+      "lookupMs": 0,
+      "cloneMs": 2.7999999672174454,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 57.099999994039536,
+      "parseMs": 695.2000000029802,
+      "lookupMs": 0,
+      "cloneMs": 2.6000000089406967,
+      "clones": 34
+    }
+  ],
+  "backend": "WebGPU",
+  "framebuffer": [
+    1280,
+    720
+  ]
+}

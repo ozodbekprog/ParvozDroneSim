@@ -1,0 +1,14 @@
+{
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "LuGus Studios and original credited drone manufacturers",
+  "license": "Proprietary game content; redistribution permission unconfirmed",
+  "permissionConfirmed": false,
+  "testAuthorization": {
+    "date": "2026-10-14",
+    "scope": "User explicitly requested Gecko, Dquad and component customization, including them in the Oracle multiplayer test."
+  },
+  "changes": "Four preserved native antenna prefabs exported in Blender, with original materials. Native frame PartSlot/SnapPoint transforms and restrictions drive mounting and selection.",
+  "specificationsSha256": "3c54cfe0466c3a028b3e65464fe6b591ccb52a64a327e5bf22297a1b4c495fc6",
+  "prefabsSha256": "65db2dbdfbb4e53503c5b2af81f6a44ba39a17d11c318f0ba50259b09e89a78b"
+}

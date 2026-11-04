@@ -1,0 +1,29 @@
+{
+  "input": "C:\\DroneLiftoffUz\\data\\map-repair-20261031\\ribbon-delivery-inputs\\liftoff-pine-valley-demo-liftoff-02.glb",
+  "output": "content/races/liftoff-pine-valley-demo-liftoff-02/ribbons.glb",
+  "trianglesBeforeInstancing": 16490,
+  "meshPrimitives": 150,
+  "materials": 2,
+  "textures": [
+    {
+      "name": "TapeWhiteRed01",
+      "mimeType": "image/ktx2",
+      "size": [
+        256,
+        1024
+      ]
+    },
+    {
+      "name": "TapeYellowBlack01",
+      "mimeType": "image/ktx2",
+      "size": [
+        256,
+        1024
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_texture_basisu",
+    "EXT_meshopt_compression"
+  ]
+}

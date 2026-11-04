@@ -1,0 +1,30 @@
+{
+  "map": "liftoff-the-green-demo",
+  "track": "liftoff-the-green-demo-first-flight",
+  "quality": "low",
+  "angle": "overview",
+  "hardware": {
+    "gpu": "intel gen-9",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "backend": "WebGPU",
+  "framebuffer": [
+    1280,
+    720
+  ],
+  "adaptiveResolution": false,
+  "position": [
+    -482.91900634765625,
+    19.156296730041504,
+    520.571044921875
+  ],
+  "quaternion": [
+    0.06321005778574243,
+    0.9198173282275723,
+    0.1662550511537032,
+    -0.34971392487702463
+  ],
+  "fov": 72,
+  "capturedAt": "2026-10-19T17:28:15.968Z"
+}

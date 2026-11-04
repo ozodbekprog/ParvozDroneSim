@@ -1,0 +1,37 @@
+{
+  "id": "concrete_floor_worn_001",
+  "title": "Concrete Floor Worn 001",
+  "authors": {
+    "Dimitrios Savva": "Photography",
+    "Rico Cilliers": "Processing"
+  },
+  "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "diff": {
+      "name": "concrete_floor_worn_001_diff_1k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_worn_001/concrete_floor_worn_001_diff_1k.png",
+      "size": 5252392,
+      "md5": "8fb2856c11f46acb31699ad9e10b43f1"
+    },
+    "nor_gl": {
+      "name": "concrete_floor_worn_001_nor_gl_1k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_1k.png",
+      "size": 5535944,
+      "md5": "f51224b2c70a60429eeb2b536fed0151"
+    },
+    "rough": {
+      "name": "concrete_floor_worn_001_rough_1k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_worn_001/concrete_floor_worn_001_rough_1k.png",
+      "size": 2495282,
+      "md5": "eb0d189fe1aea3f82edfbb5034a9f3b8"
+    },
+    "ao": {
+      "name": "concrete_floor_worn_001_ao_1k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_worn_001/concrete_floor_worn_001_ao_1k.png",
+      "size": 1809816,
+      "md5": "78db59332edc720fc985bc9d130c64d6"
+    }
+  }
+}

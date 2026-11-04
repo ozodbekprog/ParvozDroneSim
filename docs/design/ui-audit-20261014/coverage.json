@@ -1,0 +1,28 @@
+{
+  "reviewedAt": "2026-10-15",
+  "status": "reviewed-with-documented-exclusions",
+  "summary": "Primary player menus and requested changes reviewed from real FHD screenshots; baseline and candidate/public release are identified separately.",
+  "groups": {
+    "Access, account, recovery": ["after/pilot-access.jpg", "screenshots/24-profile-account.jpg", "screenshots/26-password-recovery.jpg"],
+    "Main menu": ["after/main.jpg"],
+    "Flight setup and activity selection": ["screenshots/02-flight-setup.jpg", "after/race-setup.jpg", "screenshots/04-time-trial.jpg", "screenshots/05-freestyle-setup.jpg"],
+    "Five original aircraft and native workshop": ["after/kestrel-low.jpg", "after/luma-stock-low.jpg", "after/chameleon-stock-low.jpg", "after/gecko-stock-low.jpg", "after/dquad-stock-low.jpg", "after/gecko-propellers-2blade-low.jpg", "after/dquad-battery-6s-low.jpg"],
+    "Appearance, tuning, performance and unsaved changes": ["after/workbench-appearance-orange.jpg", "after/workbench-tuning.jpg", "after/flight-performance.jpg", "after/unsaved-changes.jpg"],
+    "Controls, camera and graphics": ["after/settings-controls.jpg", "after/settings-camera.jpg", "after/settings-graphics.jpg"],
+    "Career, lessons and weekly": ["after/career.jpg", "after/flight-school.jpg", "after/tutorial-hud.jpg", "screenshots/19-weekly-challenge.jpg"],
+    "Profile, achievements and rankings": ["screenshots/21-pilot-profile.jpg", "screenshots/22-profile-achievements.jpg", "screenshots/23-profile-rankings.jpg"],
+    "Help and attribution": ["screenshots/27-controls-help.jpg", "screenshots/28-model-credits.jpg"],
+    "Replay library, playback and dialogs": ["screenshots/44-replay-library.jpg", "screenshots/45-replay-viewer.jpg", "after/save-replay.jpg", "after/replay-rename.jpg", "after/replay-delete-confirmation.jpg"],
+    "Multiplayer browser, creation, championship and lobby": ["screenshots/29-multiplayer-browser.jpg", "screenshots/31-create-room.jpg", "screenshots/30-championship.jpg", "after/multiplayer-lobby-two-pilots.jpg"],
+    "Loading, recovery and countdown": ["after/flight-loading-slow-fixture.jpg", "after/loading-error-fixture.jpg", "after/solo-countdown.jpg"],
+    "Solo and multiplayer flight, chat and pause": ["after/gecko-flight-low-720.jpg", "after/dquad-flight-low.jpg", "after/multiplayer-nameplates.jpg", "after/multiplayer-chat-open.jpg", "after/multiplayer-pause.jpg", "screenshots/41-solo-pause.jpg"],
+    "Results": ["after/solo-results.jpg", "after/multiplayer-results.jpg", "after/public-multiplayer-results.jpg"],
+    "Published release": ["after/public-gecko-selection.jpg", "after/public-gecko-workbench.jpg", "after/public-multiplayer-chat.jpg", "after/public-multiplayer-results.jpg"]
+  },
+  "exclusions": [
+    "USB-radio permissions/calibration require hardware and are not acceptance-tested.",
+    "Real account creation, password/recovery changes and ranked matchmaking were not submitted; their account/guest UI is represented by baseline captures.",
+    "Full manual completion of every native route, championship round, lesson step and all network/storage failure permutations is outside this screenshot review.",
+    "Manufacturer-calibrated handling, final artistic approval, target UHD 620 performance and 100-player capacity remain unconfirmed."
+  ]
+}

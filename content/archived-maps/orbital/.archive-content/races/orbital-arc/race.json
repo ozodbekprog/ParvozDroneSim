@@ -1,0 +1,128 @@
+{
+  "id": "orbital-arc",
+  "name": "Orbital Arc",
+  "laps": 2,
+  "gates": [
+    {
+      "position": [
+        0.0,
+        9.45,
+        36.0
+      ],
+      "yaw": 1.292497,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        56.0,
+        14.85,
+        52.0
+      ],
+      "yaw": 2.589938,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        88.0,
+        20.25,
+        0.0
+      ],
+      "yaw": -2.560836,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        46.0,
+        12.15,
+        -64.0
+      ],
+      "yaw": -1.653938,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -26.0,
+        16.200001,
+        -70.0
+      ],
+      "yaw": -0.730907,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -78.0,
+        22.950001,
+        -12.0
+      ],
+      "yaw": 0.450661,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -48.0,
+        13.5,
+        50.0
+      ],
+      "yaw": 1.85459,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ],
+  "spawn": {
+    "position": [
+      -23.076571,
+      9.45,
+      29.406691
+    ],
+    "yaw": 1.292497
+  },
+  "map": "orbital"
+}

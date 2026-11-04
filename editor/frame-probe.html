@@ -1,0 +1,15 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>Диагностика частоты кадров Chrome</title>
+<style>body{margin:20px;background:#10171b;color:white;font:16px system-ui}canvas{display:block;width:min(900px,100%);aspect-ratio:16/9}pre{white-space:pre-wrap}</style>
+<h1>Пустой WebGL2: диагностика планировщика кадров</h1>
+<p>Без моделей, текстур, Three.js и физики. Этот контрольный экран не является тестом игры.</p>
+<canvas width="1280" height="720"></canvas><pre id="result">Загрузка…</pre>
+<script>
+const canvas=document.querySelector('canvas'),gl=canvas.getContext('webgl2'),output=document.querySelector('#result');
+let last=0,samples=[],timerCount=0,start=performance.now();setInterval(()=>timerCount++,16);
+let renderer='WebGL2 недоступен';if(gl){const debug=gl.getExtension('WEBGL_debug_renderer_info');renderer=gl.getParameter(debug?debug.UNMASKED_RENDERER_WEBGL:gl.RENDERER);}
+function frame(now){if(last)samples.push(now-last);last=now;if(samples.length>120)samples.shift();
+if(gl){gl.clearColor(.12,.23,.28,1);gl.clear(gl.COLOR_BUFFER_BIT);}
+const sorted=[...samples].sort((a,b)=>a-b),median=sorted[Math.floor(sorted.length/2)];
+output.textContent=JSON.stringify({renderer,framebuffer:[canvas.width,canvas.height],visibility:document.visibilityState,focused:document.hasFocus(),frames:samples.length,medianMs:median,rafFps:1000*samples.length/samples.reduce((a,b)=>a+b,0),timerFps:1000*timerCount/(now-start)},null,2);requestAnimationFrame(frame);}
+requestAnimationFrame(frame);
+</script></html>

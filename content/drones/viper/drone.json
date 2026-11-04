@@ -1,0 +1,63 @@
+{
+  "id": "viper",
+  "name": "Viper R",
+  "class": "five",
+  "mass": 0.61,
+  "arm": 0.11,
+  "thrustToWeight": 7.1,
+  "motorTau": 0.025,
+  "drag": [
+    0.029,
+    0.04,
+    0.018
+  ],
+  "angularDrag": 0.095,
+  "batterySeconds": 270,
+  "color": "#a38bff",
+  "unlock": "career-6",
+  "materials": [],
+  "collision": {
+    "spheres": [
+      {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "radius": 0.13
+      },
+      {
+        "position": [
+          -0.22,
+          0.03,
+          -0.22
+        ],
+        "radius": 0.068
+      },
+      {
+        "position": [
+          -0.22,
+          0.03,
+          0.22
+        ],
+        "radius": 0.068
+      },
+      {
+        "position": [
+          0.22,
+          0.03,
+          -0.22
+        ],
+        "radius": 0.068
+      },
+      {
+        "position": [
+          0.22,
+          0.03,
+          0.22
+        ],
+        "radius": 0.068
+      }
+    ]
+  }
+}

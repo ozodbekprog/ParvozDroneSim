@@ -1,0 +1,399 @@
+{
+  "id": "liftoff-arena-demo-liftoff-07",
+  "blueprints": 75,
+  "visibleInstances": 55,
+  "meshes": 97,
+  "colliders": 170,
+  "inventory": [
+    {
+      "instance": "0",
+      "prefab": "SpawnPointSingle02",
+      "meshes": 0
+    },
+    {
+      "instance": "1",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "2",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "3",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "4",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "5",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "6",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "7",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "8",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "9",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "10",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "11",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "12",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "13",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "14",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "15",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "16",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "17",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "18",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "19",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "20",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "21",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "22",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "23",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "27",
+      "prefab": "OSB10001",
+      "meshes": 1
+    },
+    {
+      "instance": "28",
+      "prefab": "OSB10001",
+      "meshes": 1
+    },
+    {
+      "instance": "29",
+      "prefab": "HangingFlagGeneric01",
+      "meshes": 1
+    },
+    {
+      "instance": "30",
+      "prefab": "HangingFlagGeneric01",
+      "meshes": 1
+    },
+    {
+      "instance": "31",
+      "prefab": "OSB10001",
+      "meshes": 1
+    },
+    {
+      "instance": "32",
+      "prefab": "OSB10001",
+      "meshes": 1
+    },
+    {
+      "instance": "33",
+      "prefab": "OSB10001",
+      "meshes": 1
+    },
+    {
+      "instance": "34",
+      "prefab": "OSB10001",
+      "meshes": 1
+    },
+    {
+      "instance": "35",
+      "prefab": "TriggerBox_ChargeBattery_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "36",
+      "prefab": "TriggerBox_RepairPropellers_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "37",
+      "prefab": "AdvertBoardRepair01",
+      "meshes": 6
+    },
+    {
+      "instance": "38",
+      "prefab": "AdvertBoardBattery01",
+      "meshes": 6
+    },
+    {
+      "instance": "-1",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "-1",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "-1",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "-1",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "-1",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "-1",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "39",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "40",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "41",
+      "prefab": "CheckpointBox5mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "42",
+      "prefab": "CheckpointBox5mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "43",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "44",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "45",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "46",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "47",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "48",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "49",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "50",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "51",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "52",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "53",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "74",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "57",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "58",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "59",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "60",
+      "prefab": "DiscConeRed01",
+      "meshes": 3
+    },
+    {
+      "instance": "61",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "62",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "63",
+      "prefab": "DiscConeRed01",
+      "meshes": 3
+    },
+    {
+      "instance": "64",
+      "prefab": "DiscConeRed01",
+      "meshes": 3
+    },
+    {
+      "instance": "65",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "66",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "67",
+      "prefab": "DiscConeRed01",
+      "meshes": 3
+    },
+    {
+      "instance": "68",
+      "prefab": "DiscConeRed01",
+      "meshes": 3
+    },
+    {
+      "instance": "69",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "70",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "71",
+      "prefab": "DiscConeRed01",
+      "meshes": 3
+    },
+    {
+      "instance": "75",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "76",
+      "prefab": "DiscConeRed01",
+      "meshes": 3
+    }
+  ],
+  "lodTriangles": [
+    8352,
+    4192,
+    3080
+  ],
+  "cells": 11,
+  "propMeshes": 91,
+  "ribbonMeshes": 6,
+  "ribbonTriangles": 132
+}

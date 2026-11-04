@@ -1,0 +1,22 @@
+{
+  "id": "nightgrid-high-line",
+  "name": "High Line",
+  "map": "nightgrid",
+  "track": "nightgrid-rooftop",
+  "target": 263,
+  "reward": 240,
+  "hints": [
+    {
+      "afterGate": 0,
+      "text": "Follow the lit street corridor through the first blocks."
+    },
+    {
+      "afterGate": 2,
+      "text": "The transit shelter marks the return corner; watch the vans."
+    },
+    {
+      "afterGate": 4,
+      "text": "For the high line, hold altitude above the street gates."
+    }
+  ]
+}

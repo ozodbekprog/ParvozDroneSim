@@ -1,0 +1,58 @@
+{
+  "race": "minus-two-demo-liftoff-01",
+  "sourceTrack": "MinusTwoTrack01_0001.xml",
+  "representation": "Static strips retain source attachment positions, width, tiling and materials. Source rope dynamics are not simulated.",
+  "ribbons": [
+    {
+      "blueprintIndex": 98,
+      "instance": "262",
+      "prefab": "TapeYellowBlack01",
+      "attachments": [
+        [
+          -3.868603467941284,
+          0.0310823917388916,
+          -34.902976989746094
+        ],
+        [
+          -3.884458303451538,
+          2.1635093688964844,
+          -34.83054733276367
+        ],
+        [
+          -3.7669548988342285,
+          2.1635093688964844,
+          -32.37896728515625
+        ]
+      ],
+      "width": 0.2,
+      "length": 4.588110050915758,
+      "triangles": 48
+    },
+    {
+      "blueprintIndex": 99,
+      "instance": "263",
+      "prefab": "TapeWhiteRed01",
+      "attachments": [
+        [
+          -3.8819522857666016,
+          1.1920928955078125e-07,
+          -35.34858703613281
+        ],
+        [
+          -3.848862886428833,
+          2.0826165676116943,
+          -35.296470642089844
+        ],
+        [
+          -3.8148980140686035,
+          2.1635096073150635,
+          -37.707759857177734
+        ]
+      ],
+      "width": 0.2,
+      "length": 4.496415894117846,
+      "triangles": 48
+    }
+  ],
+  "triangles": 96
+}

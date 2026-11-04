@@ -1,0 +1,4945 @@
+{
+  "id": "liftoff-pine-valley-demo-first-flight",
+  "name": "Pine Valley: Practice",
+  "map": "liftoff-pine-valley-demo",
+  "laps": 1,
+  "spawn": {
+    "position": [
+      -630.4897,
+      5.2868,
+      670.2133
+    ],
+    "yaw": -0.28739645942666847
+  },
+  "gates": [
+    {
+      "position": [
+        -651.6336059570312,
+        7.8320441246032715,
+        719.0465087890625
+      ],
+      "axes": {
+        "right": [
+          -0.9742053747177124,
+          -0.06990230828523636,
+          -0.21456369757652283
+        ],
+        "up": [
+          -0.07066014409065247,
+          0.9974918365478516,
+          -0.0041455612517893314
+        ],
+        "normal": [
+          -0.21431532502174377,
+          -0.011122473515570164,
+          0.9767012000083923
+        ]
+      },
+      "width": 3.5427246621657105,
+      "height": 2.2397671115901248,
+      "aperture": "rectangle",
+      "sourceCheckpoint": {
+        "instanceId": "1",
+        "itemId": "AirgateBigLiftoffWhite01",
+        "subId": "",
+        "passageId": "253eca20-6137-424a-bda7-a4af58f4f0e3",
+        "directionality": "RightToLeft",
+        "passageType": "Pass"
+      },
+      "yaw": -0.21600438651872086,
+      "gateClass": "open",
+      "frameThickness": 0.05,
+      "support": {
+        "type": "none",
+        "baseY": 0
+      },
+      "frameSource": "track"
+    },
+    {
+      "position": [
+        -620.7607421875,
+        10.620659828186035,
+        764.4738159179688
+      ],
+      "axes": {
+        "right": [
+          -0.4445129930973053,
+          0,
+          0.8957724571228027
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "normal": [
+          0.8957724571228027,
+          0,
+          0.4445129632949829
+        ]
+      },
+      "width": 9.999999523162831,
+      "height": 5,
+      "aperture": "rectangle",
+      "sourceCheckpoint": {
+        "instanceId": "6",
+        "itemId": "CheckpointBox10mX5m01",
+        "subId": "",
+        "passageId": "d71f24e6-acba-4c6f-b3d5-cc16cf591d46",
+        "directionality": "RightToLeft",
+        "passageType": "Pass"
+      },
+      "yaw": 1.1101658624436102,
+      "gateClass": "open",
+      "frameThickness": 0.05,
+      "support": {
+        "type": "none",
+        "baseY": 0
+      },
+      "frameSource": "track"
+    },
+    {
+      "position": [
+        -578.0458984375,
+        11.26908016204834,
+        775.4556884765625
+      ],
+      "axes": {
+        "right": [
+          0.4837987720966339,
+          0,
+          -0.8751793503761292
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "normal": [
+          0.8751792907714844,
+          0,
+          0.4837987422943115
+        ]
+      },
+      "width": 10.000001049041693,
+      "height": 10,
+      "aperture": "rectangle",
+      "sourceCheckpoint": {
+        "instanceId": "13",
+        "itemId": "CheckpointBox10mX10m01",
+        "subId": "",
+        "passageId": "7d3d4f02-3604-4e8c-a539-8c200b23659d",
+        "directionality": "RightToLeft",
+        "passageType": "Pass"
+      },
+      "yaw": 1.0658062692720365,
+      "gateClass": "open",
+      "frameThickness": 0.05,
+      "support": {
+        "type": "none",
+        "baseY": 0
+      },
+      "frameSource": "track"
+    }
+  ],
+  "objects": [
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-47_-49_0_LOD0",
+      "position": [
+        -744,
+        8,
+        776
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-47_-49_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-47_-49_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-47_-49_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-46_-50_0_LOD0",
+      "position": [
+        -728,
+        8,
+        792
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-46_-50_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-46_-50_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-46_-50_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-45_-52_0_LOD0",
+      "position": [
+        -712,
+        8,
+        824
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-45_-52_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-45_-52_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-45_-52_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-45_-46_0_LOD0",
+      "position": [
+        -712,
+        8,
+        728
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-45_-46_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-45_-46_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-45_-46_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-42_-47_0_LOD0",
+      "position": [
+        -664,
+        8,
+        744
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-42_-47_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-42_-47_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-42_-47_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-42_-46_0_LOD0",
+      "position": [
+        -664,
+        8,
+        728
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-42_-46_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-42_-46_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-42_-46_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-41_-51_0_LOD0",
+      "position": [
+        -648,
+        8,
+        808
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-41_-51_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-41_-51_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-41_-51_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-41_-45_0_LOD0",
+      "position": [
+        -648,
+        8,
+        712
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-41_-45_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-41_-45_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-41_-45_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-40_-44_0_LOD0",
+      "position": [
+        -632,
+        8,
+        696
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-40_-44_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-40_-44_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-40_-44_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-40_-43_0_LOD0",
+      "position": [
+        -632,
+        8,
+        680
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-40_-43_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-40_-43_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-40_-43_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-39_-51_0_LOD0",
+      "position": [
+        -616,
+        8,
+        808
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-39_-51_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-39_-51_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-39_-51_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-39_-43_0_LOD0",
+      "position": [
+        -616,
+        8,
+        680
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-39_-43_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-39_-43_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-39_-43_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-39_-40_0_LOD0",
+      "position": [
+        -616,
+        8,
+        632
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-39_-40_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-39_-40_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-39_-40_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-38_-50_0_LOD0",
+      "position": [
+        -600,
+        8,
+        792
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-38_-50_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-38_-50_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-38_-50_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-38_-40_0_LOD0",
+      "position": [
+        -600,
+        8,
+        632
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-38_-40_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-38_-40_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-38_-40_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-37_-54_0_LOD0",
+      "position": [
+        -584,
+        8,
+        856
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-54_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-54_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-54_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-37_-54_1_LOD0",
+      "position": [
+        -584,
+        24,
+        856
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-54_1_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-54_1_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-54_1_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-37_-50_0_LOD0",
+      "position": [
+        -584,
+        8,
+        792
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-50_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-50_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-50_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-37_-49_0_LOD0",
+      "position": [
+        -584,
+        8,
+        776
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-49_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-49_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-37_-49_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-36_-50_0_LOD0",
+      "position": [
+        -568,
+        8,
+        792
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-36_-50_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-36_-50_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-36_-50_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-36_-49_0_LOD0",
+      "position": [
+        -568,
+        8,
+        776
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-36_-49_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-36_-49_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-36_-49_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-36_-47_0_LOD0",
+      "position": [
+        -568,
+        8,
+        744
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-36_-47_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-36_-47_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-36_-47_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-35_-44_0_LOD0",
+      "position": [
+        -552,
+        8,
+        696
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-35_-44_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-35_-44_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-35_-44_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+      "modelNode": "TrackCell_-35_-42_0_LOD0",
+      "position": [
+        -552,
+        8,
+        664
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "modelLods": [
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-35_-42_0_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-35_-42_0_LOD1",
+          "distance": 24
+        },
+        {
+          "model": "../liftoff-pine-valley-demo-liftoff-01/props.glb",
+          "modelNode": "TrackCell_-35_-42_0_LOD2",
+          "distance": 55
+        }
+      ],
+      "lowLod": 1
+    },
+    {
+      "model": "../liftoff-pine-valley-demo-liftoff-01/ribbons.glb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    }
+  ],
+  "colliders": [
+    {
+      "position": [
+        -653.1686401367188,
+        7.050753593444824,
+        718.7017211914062
+      ],
+      "size": [
+        0.3334086537361145,
+        0.2064657360315323,
+        0.042434241622686386
+      ],
+      "rotation": [
+        0.011387,
+        -0.215991,
+        0.853303
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -653.02880859375,
+        7.800674915313721,
+        718.7409057617188
+      ],
+      "size": [
+        0.3722452223300934,
+        1.3516125679016113,
+        0.042434241622686386
+      ],
+      "rotation": [
+        0.011387,
+        -0.215991,
+        -0.16474
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -652.7002563476562,
+        8.705501556396484,
+        718.8233032226562
+      ],
+      "size": [
+        0.22783483564853668,
+        0.7382553219795227,
+        0.042434241622686386
+      ],
+      "rotation": [
+        0.011387,
+        -0.215991,
+        -0.80047
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -652.0791015625,
+        9.030792236328125,
+        718.9633178710938
+      ],
+      "size": [
+        0.22783486545085907,
+        0.7960271835327148,
+        0.042434241622686386
+      ],
+      "rotation": [
+        0.011387,
+        -0.215991,
+        -1.345317
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -651.3571166992188,
+        9.082596778869629,
+        719.122314453125
+      ],
+      "size": [
+        0.22783488035202026,
+        0.7960273027420044,
+        0.042434245347976685
+      ],
+      "rotation": [
+        -3.130205,
+        0.215995,
+        1.651467
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -650.6963500976562,
+        8.849289894104004,
+        719.2647705078125
+      ],
+      "size": [
+        0.22783488035202026,
+        0.7382554411888123,
+        0.042434245347976685
+      ],
+      "rotation": [
+        -3.130205,
+        0.215995,
+        2.196313
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -650.2435913085938,
+        8.000526428222656,
+        719.3543701171875
+      ],
+      "size": [
+        0.37224525213241577,
+        1.3516126871109009,
+        0.042434245347976685
+      ],
+      "rotation": [
+        -3.130205,
+        0.215995,
+        2.832044
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -649.9994506835938,
+        7.27815055847168,
+        719.399658203125
+      ],
+      "size": [
+        0.3334087133407593,
+        0.20646575093269348,
+        0.042434245347976685
+      ],
+      "rotation": [
+        -3.130205,
+        0.215995,
+        -2.433098
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -656.2429809570312,
+        8.030799865722656,
+        730.8309326171875
+      ],
+      "size": [
+        0.24912573397159576,
+        0.09999998956918699,
+        0.01
+      ],
+      "rotation": [
+        0.852286,
+        1.527188,
+        -0.141879
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -656.2465209960938,
+        7.924142360687256,
+        730.8357543945312
+      ],
+      "size": [
+        0.249125704273494,
+        0.09999999552965155,
+        0.01
+      ],
+      "rotation": [
+        0.85229,
+        1.527191,
+        -1.654372
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -656.23486328125,
+        7.965658187866211,
+        730.506591796875
+      ],
+      "size": [
+        0.6154637795133766,
+        0.01,
+        0.27876405246471947
+      ],
+      "rotation": [
+        1.525423,
+        -0.034102,
+        -1.543615
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -660.691650390625,
+        7.083799362182617,
+        743.401611328125
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        3.141591,
+        -0.000003,
+        -2.385349
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -660.691650390625,
+        6.976970195770264,
+        743.401611328125
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        3.14159,
+        -0.000003,
+        2.385348
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -661.018798828125,
+        7.033741474151611,
+        743.4006958007812
+      ],
+      "size": [
+        0.6154639262513939,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        1.570796,
+        0,
+        3.141589
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -563.6218872070312,
+        9.734369277954102,
+        789.7861938476562
+      ],
+      "size": [
+        0.2491257191225449,
+        0.09999997764825785,
+        0.01
+      ],
+      "rotation": [
+        1.250699,
+        -1.537079,
+        -1.003135
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -563.6254272460938,
+        9.840218544006348,
+        789.772216796875
+      ],
+      "size": [
+        0.24912567457539225,
+        0.09999998956918699,
+        0.01
+      ],
+      "rotation": [
+        1.250687,
+        -1.537075,
+        -2.515628
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -563.62646484375,
+        9.741003036499023,
+        789.455322265625
+      ],
+      "size": [
+        0.6154637795133766,
+        0.01,
+        0.27876401923345284
+      ],
+      "rotation": [
+        -1.702218,
+        -0.033128,
+        1.577121
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -562.1409912109375,
+        9.376328468322754,
+        780.6004028320312
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000001341104525,
+        0.01
+      ],
+      "rotation": [
+        -1.575127,
+        -1.557003,
+        2.396397
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -562.1394653320312,
+        9.482858657836914,
+        780.5925903320312
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -1.575126,
+        -1.557007,
+        0.883914
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -562.1414794921875,
+        9.402178764343262,
+        780.2705078125
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        -1.644484,
+        0.013762,
+        1.571753
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -583.0994262695312,
+        13.171473503112793,
+        850.5078735351562
+      ],
+      "size": [
+        0.24912576366969752,
+        0.10000001341104525,
+        0.01
+      ],
+      "rotation": [
+        -3.141591,
+        -0.000008,
+        0.915512
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -583.0824584960938,
+        13.27695083618164,
+        850.5078735351562
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -3.141591,
+        -0.000008,
+        -0.596976
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -582.7684936523438,
+        13.169015884399414,
+        850.5069580078125
+      ],
+      "size": [
+        0.6154638161978809,
+        0.01,
+        0.2787641023116194
+      ],
+      "rotation": [
+        -1.570798,
+        0.159268,
+        0.000009
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -735.5060424804688,
+        5.083611965179443,
+        784.0335693359375
+      ],
+      "size": [
+        0.24912573397159576,
+        0.09999999552965155,
+        0.01
+      ],
+      "rotation": [
+        1.854515,
+        1.517873,
+        2.043722
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -735.5006103515625,
+        5.190303325653076,
+        784.0335693359375
+      ],
+      "size": [
+        0.24912573397159576,
+        0.09999998956918699,
+        0.01
+      ],
+      "rotation": [
+        1.854515,
+        1.517873,
+        0.531232
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -735.4977416992188,
+        5.133307456970215,
+        784.3606567382812
+      ],
+      "size": [
+        0.6154638161978809,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        -1.570775,
+        0.050815,
+        -1.555989
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -744.0775756835938,
+        4.158960819244385,
+        768.8206176757812
+      ],
+      "size": [
+        0.24912576366969752,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        1.928162,
+        1.506468,
+        1.95735
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -744.0711669921875,
+        4.265588760375977,
+        768.8192749023438
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        1.928166,
+        1.506469,
+        0.444859
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -744.0661010742188,
+        4.212673664093018,
+        769.14697265625
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        -1.583818,
+        0.059978,
+        -1.547525
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -551.6956787109375,
+        14.288325309753418,
+        698.3224487304688
+      ],
+      "size": [
+        0.2491257191225449,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        2.181991,
+        -1.495309,
+        2.995331
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -551.6893310546875,
+        14.181865692138672,
+        698.3286743164062
+      ],
+      "size": [
+        0.24912573397159576,
+        0.09999999552965155,
+        0.01
+      ],
+      "rotation": [
+        2.18199,
+        -1.495309,
+        1.482843
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -551.7088623046875,
+        14.25658130645752,
+        698.6515502929688
+      ],
+      "size": [
+        0.6154638161978809,
+        0.01,
+        0.27876405246471947
+      ],
+      "rotation": [
+        1.512312,
+        0.059225,
+        1.617627
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -634.5245971679688,
+        5.447625637054443,
+        688.5549926757812
+      ],
+      "size": [
+        0.27000001072883606,
+        0.26999994874000777,
+        0.02832034433958852
+      ],
+      "rotation": [
+        -1.574961,
+        -0.02916,
+        0
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -638.15283203125,
+        5.333337306976318,
+        687.4799194335938
+      ],
+      "size": [
+        0.27000001072883606,
+        0.26999994874000777,
+        0.02832034433958852
+      ],
+      "rotation": [
+        -1.583287,
+        -0.037484,
+        0
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -638.0134887695312,
+        5.781851291656494,
+        687.7720947265625
+      ],
+      "size": [
+        0.3334086537361145,
+        0.2064657360315323,
+        0.042434245347976685
+      ],
+      "rotation": [
+        0.005323,
+        -0.314481,
+        0.811562
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -637.8477172851562,
+        6.525247097015381,
+        687.8299560546875
+      ],
+      "size": [
+        0.3722452223300934,
+        1.3516126871109009,
+        0.042434245347976685
+      ],
+      "rotation": [
+        0.005323,
+        -0.314481,
+        -0.206481
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -637.4921875,
+        7.415500164031982,
+        687.9503784179688
+      ],
+      "size": [
+        0.22783483564853668,
+        0.7382553219795227,
+        0.042434245347976685
+      ],
+      "rotation": [
+        0.005323,
+        -0.314481,
+        -0.842211
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -636.8749389648438,
+        7.714467525482178,
+        688.1527099609375
+      ],
+      "size": [
+        0.22783486545085907,
+        0.7960271835327148,
+        0.042434245347976685
+      ],
+      "rotation": [
+        0.005323,
+        -0.314481,
+        -1.387058
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -636.1705322265625,
+        7.735968112945557,
+        688.3818969726562
+      ],
+      "size": [
+        0.22783489525318146,
+        0.7960273027420044,
+        0.042434241622686386
+      ],
+      "rotation": [
+        -3.136269,
+        0.314485,
+        1.693208
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -635.5369873046875,
+        7.475178241729736,
+        688.5867309570312
+      ],
+      "size": [
+        0.22783488035202026,
+        0.7382554411888123,
+        0.042434245347976685
+      ],
+      "rotation": [
+        -3.136269,
+        0.314485,
+        2.238054
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -635.1301879882812,
+        6.608193397521973,
+        688.71435546875
+      ],
+      "size": [
+        0.37224525213241577,
+        1.3516128063201904,
+        0.042434245347976685
+      ],
+      "rotation": [
+        -3.136269,
+        0.314485,
+        2.873785
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -634.92138671875,
+        5.876230239868164,
+        688.7783203125
+      ],
+      "size": [
+        0.3334086835384369,
+        0.20646576583385468,
+        0.042434245347976685
+      ],
+      "rotation": [
+        -3.13627,
+        0.314485,
+        -2.391357
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -587.9302368164062,
+        15.941902160644531,
+        858.609375
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -3.14159,
+        0.000005,
+        0.756244
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -587.9302368164062,
+        16.04873275756836,
+        858.609375
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -3.14159,
+        0.000005,
+        -0.756245
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -587.6030883789062,
+        15.991959571838379,
+        858.6084594726562
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        -1.570796251296997,
+        -0.000004768372036778601,
+        -4.019436964253914e-14
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -715.2350463867188,
+        6.077111721038818,
+        825.654541015625
+      ],
+      "size": [
+        0.24912576366969752,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -1.558609,
+        1.497897,
+        -0.894732
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -715.2427978515625,
+        6.183411121368408,
+        825.6472778320312
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000001341104525,
+        0.01
+      ],
+      "rotation": [
+        -1.558609,
+        1.497896,
+        -2.407218
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -715.2396850585938,
+        6.149140357971191,
+        825.9775390625
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        -1.638999,
+        -0.072663,
+        -1.576645
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -714.9931640625,
+        6.495987415313721,
+        816.3502807617188
+      ],
+      "size": [
+        0.24912579336779928,
+        0.10000001341104525,
+        0.01
+      ],
+      "rotation": [
+        2.004795,
+        1.540365,
+        1.703921
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -714.9905395507812,
+        6.6008758544921875,
+        816.3302612304688
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000001341104525,
+        0.01
+      ],
+      "rotation": [
+        2.004799,
+        1.540367,
+        0.191431
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -714.9852294921875,
+        6.60653018951416,
+        816.6621704101562
+      ],
+      "size": [
+        0.6154639262513939,
+        0.01,
+        0.2787641023116194
+      ],
+      "rotation": [
+        -1.760134,
+        0.024713,
+        -1.553034
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -716.0679931640625,
+        5.953673839569092,
+        732.0007934570312
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -0.000279,
+        -1.563169,
+        -2.385631
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -716.0679931640625,
+        6.060503005981445,
+        732.0007934570312
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -0.000296,
+        -1.563169,
+        2.385055
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -716.0714111328125,
+        6.003731727600098,
+        731.6737060546875
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        -1.570796,
+        0,
+        1.578425
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -647.2120971679688,
+        12.159757614135742,
+        804.0720825195312
+      ],
+      "size": [
+        0.24912576366969752,
+        0.10000001341104525,
+        0.01
+      ],
+      "rotation": [
+        -3.06817,
+        -0.196121,
+        -2.409439
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -647.2095947265625,
+        12.05328369140625,
+        804.0637817382812
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -3.06817,
+        -0.196121,
+        2.361258
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -647.5318603515625,
+        12.097395896911621,
+        804.1303100585938
+      ],
+      "size": [
+        0.6154639262513939,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        1.648916,
+        0.023628,
+        2.945416
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -617.5362548828125,
+        11.916342735290527,
+        801.2509765625
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -3.067805,
+        -0.064576,
+        -2.372761
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -617.53759765625,
+        11.809805870056152,
+        801.2432250976562
+      ],
+      "size": [
+        0.24912573397159576,
+        0.09999999552965155,
+        0.01
+      ],
+      "rotation": [
+        -3.067805,
+        -0.064576,
+        2.397936
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -617.8633422851562,
+        11.869037628173828,
+        801.267822265625
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        1.643774,
+        -0.012561,
+        3.077012
+      ],
+      "visible": false
+    },
+    {
+      "type": "mesh",
+      "vertices": [
+        -599.0927124023438,
+        9.39649486541748,
+        798.6530151367188,
+        -598.6635131835938,
+        9.353856086730957,
+        799.2044067382812,
+        -598.5848388671875,
+        9.962982177734375,
+        798.8182983398438,
+        -598.65478515625,
+        9.969930648803711,
+        798.7284545898438,
+        -599.0927124023438,
+        9.39649486541748,
+        798.6530151367188,
+        -598.5848388671875,
+        9.962982177734375,
+        798.8182983398438,
+        -598.6635131835938,
+        9.353856086730957,
+        799.2044067382812,
+        -598.1114501953125,
+        9.346439361572266,
+        798.7741088867188,
+        -598.494873046875,
+        9.961773872375488,
+        798.7481689453125,
+        -598.5848388671875,
+        9.962982177734375,
+        798.8182983398438,
+        -598.6635131835938,
+        9.353856086730957,
+        799.2044067382812,
+        -598.494873046875,
+        9.961773872375488,
+        798.7481689453125,
+        -598.6635131835938,
+        9.353856086730957,
+        799.2044067382812,
+        -599.0927124023438,
+        9.39649486541748,
+        798.6530151367188,
+        -599.0725708007812,
+        9.39073657989502,
+        798.6553344726562,
+        -598.6611938476562,
+        9.349864959716797,
+        799.183837890625,
+        -598.6635131835938,
+        9.353856086730957,
+        799.2044067382812,
+        -599.0725708007812,
+        9.39073657989502,
+        798.6553344726562,
+        -598.65478515625,
+        9.969930648803711,
+        798.7284545898438,
+        -598.5848388671875,
+        9.962982177734375,
+        798.8182983398438,
+        -598.58251953125,
+        9.958992004394531,
+        798.7977294921875,
+        -598.6346435546875,
+        9.964171409606934,
+        798.7307739257812,
+        -598.65478515625,
+        9.969930648803711,
+        798.7284545898438,
+        -598.58251953125,
+        9.958992004394531,
+        798.7977294921875,
+        -598.1114501953125,
+        9.346439361572266,
+        798.7741088867188,
+        -598.6635131835938,
+        9.353856086730957,
+        799.2044067382812,
+        -598.6611938476562,
+        9.349864959716797,
+        799.183837890625,
+        -598.1320190429688,
+        9.342756271362305,
+        798.7714233398438,
+        -598.1114501953125,
+        9.346439361572266,
+        798.7741088867188,
+        -598.6611938476562,
+        9.349864959716797,
+        799.183837890625,
+        -598.5848388671875,
+        9.962982177734375,
+        798.8182983398438,
+        -598.494873046875,
+        9.961773872375488,
+        798.7481689453125,
+        -598.5154418945312,
+        9.958090782165527,
+        798.7454833984375,
+        -598.58251953125,
+        9.958992004394531,
+        798.7977294921875,
+        -598.5848388671875,
+        9.962982177734375,
+        798.8182983398438,
+        -598.5154418945312,
+        9.958090782165527,
+        798.7454833984375,
+        -598.5365600585938,
+        9.96613883972168,
+        798.6892700195312,
+        -598.6267700195312,
+        9.966972351074219,
+        798.7686767578125,
+        -598.6610717773438,
+        9.970171928405762,
+        798.7296142578125,
+        -598.5708618164062,
+        9.969338417053223,
+        798.6502075195312,
+        -598.5365600585938,
+        9.96613883972168,
+        798.6892700195312,
+        -598.6610717773438,
+        9.970171928405762,
+        798.7296142578125,
+        -598.5358276367188,
+        9.982132911682129,
+        798.68994140625,
+        -598.5701293945312,
+        9.985333442687988,
+        798.65087890625,
+        -598.6603393554688,
+        9.986166000366211,
+        798.7302856445312,
+        -598.6260375976562,
+        9.982966423034668,
+        798.7693481445312,
+        -598.5358276367188,
+        9.982132911682129,
+        798.68994140625,
+        -598.6603393554688,
+        9.986166000366211,
+        798.7302856445312,
+        -598.6260375976562,
+        9.982966423034668,
+        798.7693481445312,
+        -598.6603393554688,
+        9.986166000366211,
+        798.7302856445312,
+        -598.6610717773438,
+        9.970171928405762,
+        798.7296142578125,
+        -598.6267700195312,
+        9.966972351074219,
+        798.7686767578125,
+        -598.6260375976562,
+        9.982966423034668,
+        798.7693481445312,
+        -598.6610717773438,
+        9.970171928405762,
+        798.7296142578125,
+        -598.5358276367188,
+        9.982132911682129,
+        798.68994140625,
+        -598.6260375976562,
+        9.982966423034668,
+        798.7693481445312,
+        -598.6267700195312,
+        9.966972351074219,
+        798.7686767578125,
+        -598.5365600585938,
+        9.96613883972168,
+        798.6892700195312,
+        -598.5358276367188,
+        9.982132911682129,
+        798.68994140625,
+        -598.6267700195312,
+        9.966972351074219,
+        798.7686767578125,
+        -598.5701293945312,
+        9.985333442687988,
+        798.65087890625,
+        -598.5358276367188,
+        9.982132911682129,
+        798.68994140625,
+        -598.5365600585938,
+        9.96613883972168,
+        798.6892700195312,
+        -598.5708618164062,
+        9.969338417053223,
+        798.6502075195312,
+        -598.5701293945312,
+        9.985333442687988,
+        798.65087890625,
+        -598.5365600585938,
+        9.96613883972168,
+        798.6892700195312,
+        -598.6603393554688,
+        9.986166000366211,
+        798.7302856445312,
+        -598.5701293945312,
+        9.985333442687988,
+        798.65087890625,
+        -598.5708618164062,
+        9.969338417053223,
+        798.6502075195312,
+        -598.6610717773438,
+        9.970171928405762,
+        798.7296142578125,
+        -598.6603393554688,
+        9.986166000366211,
+        798.7302856445312,
+        -598.5708618164062,
+        9.969338417053223,
+        798.6502075195312,
+        -598.49365234375,
+        9.961752891540527,
+        798.747314453125,
+        -598.5936279296875,
+        9.963567733764648,
+        798.81396484375,
+        -598.6224365234375,
+        9.966690063476562,
+        798.7706909179688,
+        -598.5223999023438,
+        9.964875221252441,
+        798.7040405273438,
+        -598.49365234375,
+        9.961752891540527,
+        798.747314453125,
+        -598.6224365234375,
+        9.966690063476562,
+        798.7706909179688,
+        -598.492919921875,
+        9.977746963500977,
+        798.7479858398438,
+        -598.5216674804688,
+        9.980870246887207,
+        798.7047119140625,
+        -598.6217041015625,
+        9.982684135437012,
+        798.7713623046875,
+        -598.5928955078125,
+        9.979561805725098,
+        798.8146362304688,
+        -598.492919921875,
+        9.977746963500977,
+        798.7479858398438,
+        -598.6217041015625,
+        9.982684135437012,
+        798.7713623046875,
+        -598.5928955078125,
+        9.979561805725098,
+        798.8146362304688,
+        -598.6217041015625,
+        9.982684135437012,
+        798.7713623046875,
+        -598.6224365234375,
+        9.966690063476562,
+        798.7706909179688,
+        -598.5936279296875,
+        9.963567733764648,
+        798.81396484375,
+        -598.5928955078125,
+        9.979561805725098,
+        798.8146362304688,
+        -598.6224365234375,
+        9.966690063476562,
+        798.7706909179688,
+        -598.492919921875,
+        9.977746963500977,
+        798.7479858398438,
+        -598.5928955078125,
+        9.979561805725098,
+        798.8146362304688,
+        -598.5936279296875,
+        9.963567733764648,
+        798.81396484375,
+        -598.49365234375,
+        9.961752891540527,
+        798.747314453125,
+        -598.492919921875,
+        9.977746963500977,
+        798.7479858398438,
+        -598.5936279296875,
+        9.963567733764648,
+        798.81396484375,
+        -598.5216674804688,
+        9.980870246887207,
+        798.7047119140625,
+        -598.492919921875,
+        9.977746963500977,
+        798.7479858398438,
+        -598.49365234375,
+        9.961752891540527,
+        798.747314453125,
+        -598.5223999023438,
+        9.964875221252441,
+        798.7040405273438,
+        -598.5216674804688,
+        9.980870246887207,
+        798.7047119140625,
+        -598.49365234375,
+        9.961752891540527,
+        798.747314453125,
+        -598.6217041015625,
+        9.982684135437012,
+        798.7713623046875,
+        -598.5216674804688,
+        9.980870246887207,
+        798.7047119140625,
+        -598.5223999023438,
+        9.964875221252441,
+        798.7040405273438,
+        -598.6224365234375,
+        9.966690063476562,
+        798.7706909179688,
+        -598.6217041015625,
+        9.982684135437012,
+        798.7713623046875,
+        -598.5223999023438,
+        9.964875221252441,
+        798.7040405273438,
+        -599.0927124023438,
+        9.39649486541748,
+        798.6530151367188,
+        -598.65478515625,
+        9.969930648803711,
+        798.7284545898438,
+        -598.5648193359375,
+        9.968722343444824,
+        798.6583251953125,
+        -598.5405883789062,
+        9.389078140258789,
+        798.2227172851562,
+        -599.0927124023438,
+        9.39649486541748,
+        798.6530151367188,
+        -598.5648193359375,
+        9.968722343444824,
+        798.6583251953125,
+        -598.5405883789062,
+        9.389078140258789,
+        798.2227172851562,
+        -598.5433959960938,
+        9.383626937866211,
+        798.242919921875,
+        -599.0725708007812,
+        9.39073657989502,
+        798.6553344726562,
+        -599.0927124023438,
+        9.39649486541748,
+        798.6530151367188,
+        -598.5405883789062,
+        9.389078140258789,
+        798.2227172851562,
+        -599.0725708007812,
+        9.39073657989502,
+        798.6553344726562,
+        -598.1114501953125,
+        9.346439361572266,
+        798.7741088867188,
+        -598.5405883789062,
+        9.389078140258789,
+        798.2227172851562,
+        -598.5648193359375,
+        9.968722343444824,
+        798.6583251953125,
+        -598.494873046875,
+        9.961773872375488,
+        798.7481689453125,
+        -598.1114501953125,
+        9.346439361572266,
+        798.7741088867188,
+        -598.5648193359375,
+        9.968722343444824,
+        798.6583251953125,
+        -598.5405883789062,
+        9.389078140258789,
+        798.2227172851562,
+        -598.1114501953125,
+        9.346439361572266,
+        798.7741088867188,
+        -598.1320190429688,
+        9.342756271362305,
+        798.7714233398438,
+        -598.5433959960938,
+        9.383626937866211,
+        798.242919921875,
+        -598.5405883789062,
+        9.389078140258789,
+        798.2227172851562,
+        -598.1320190429688,
+        9.342756271362305,
+        798.7714233398438,
+        -598.1320190429688,
+        9.342756271362305,
+        798.7714233398438,
+        -598.5154418945312,
+        9.958090782165527,
+        798.7454833984375,
+        -598.5675659179688,
+        9.96327018737793,
+        798.678466796875,
+        -598.5433959960938,
+        9.383626937866211,
+        798.242919921875,
+        -598.1320190429688,
+        9.342756271362305,
+        798.7714233398438,
+        -598.5675659179688,
+        9.96327018737793,
+        798.678466796875,
+        -599.0725708007812,
+        9.39073657989502,
+        798.6553344726562,
+        -598.6346435546875,
+        9.964171409606934,
+        798.7307739257812,
+        -598.58251953125,
+        9.958992004394531,
+        798.7977294921875,
+        -598.6611938476562,
+        9.349864959716797,
+        799.183837890625,
+        -599.0725708007812,
+        9.39073657989502,
+        798.6553344726562,
+        -598.58251953125,
+        9.958992004394531,
+        798.7977294921875,
+        -598.6611938476562,
+        9.349864959716797,
+        799.183837890625,
+        -598.58251953125,
+        9.958992004394531,
+        798.7977294921875,
+        -598.5154418945312,
+        9.958090782165527,
+        798.7454833984375,
+        -598.1320190429688,
+        9.342756271362305,
+        798.7714233398438,
+        -598.6611938476562,
+        9.349864959716797,
+        799.183837890625,
+        -598.5154418945312,
+        9.958090782165527,
+        798.7454833984375,
+        -599.0725708007812,
+        9.39073657989502,
+        798.6553344726562,
+        -598.5433959960938,
+        9.383626937866211,
+        798.242919921875,
+        -598.5675659179688,
+        9.96327018737793,
+        798.678466796875,
+        -598.6346435546875,
+        9.964171409606934,
+        798.7307739257812,
+        -599.0725708007812,
+        9.39073657989502,
+        798.6553344726562,
+        -598.5675659179688,
+        9.96327018737793,
+        798.678466796875,
+        -598.494873046875,
+        9.961773872375488,
+        798.7481689453125,
+        -598.5648193359375,
+        9.968722343444824,
+        798.6583251953125,
+        -598.5675659179688,
+        9.96327018737793,
+        798.678466796875,
+        -598.5154418945312,
+        9.958090782165527,
+        798.7454833984375,
+        -598.494873046875,
+        9.961773872375488,
+        798.7481689453125,
+        -598.5675659179688,
+        9.96327018737793,
+        798.678466796875,
+        -598.5648193359375,
+        9.968722343444824,
+        798.6583251953125,
+        -598.65478515625,
+        9.969930648803711,
+        798.7284545898438,
+        -598.6346435546875,
+        9.964171409606934,
+        798.7307739257812,
+        -598.5675659179688,
+        9.96327018737793,
+        798.678466796875,
+        -598.5648193359375,
+        9.968722343444824,
+        798.6583251953125,
+        -598.6346435546875,
+        9.964171409606934,
+        798.7307739257812
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -595.6995849609375,
+        11.879888534545898,
+        791.8313598632812
+      ],
+      "size": [
+        0.249125704273494,
+        0.09999999552965155,
+        0.01
+      ],
+      "rotation": [
+        1.675256,
+        -1.531912,
+        1.748612
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -595.6961059570312,
+        11.797082901000977,
+        791.7639770507812
+      ],
+      "size": [
+        0.249125704273494,
+        0.09999998956918699,
+        0.01
+      ],
+      "rotation": [
+        1.675261,
+        -1.531912,
+        0.236126
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -595.6918334960938,
+        11.63475513458252,
+        792.0535888671875
+      ],
+      "size": [
+        0.6154638161978809,
+        0.01,
+        0.27876405246471947
+      ],
+      "rotation": [
+        2.25403,
+        0.032557,
+        1.549529
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -589.45947265625,
+        12.219042778015137,
+        781.9459838867188
+      ],
+      "size": [
+        0.24912576366969752,
+        0.10000001341104525,
+        0.01
+      ],
+      "rotation": [
+        -1.327812,
+        -0.3066,
+        -1.542072
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -589.5355224609375,
+        12.212762832641602,
+        781.8712768554688
+      ],
+      "size": [
+        0.24912576366969752,
+        0.10000001341104525,
+        0.01
+      ],
+      "rotation": [
+        -1.327812,
+        -0.3066,
+        -3.054561
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -589.7027587890625,
+        12.094401359558105,
+        782.1325073242188
+      ],
+      "size": [
+        0.6154639262513939,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        3.057785,
+        -0.792341,
+        2.697289
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -588.1167602539062,
+        12.324112892150879,
+        783.1744995117188
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000001341104525,
+        0.01
+      ],
+      "rotation": [
+        -1.327812,
+        -0.306601,
+        -1.431759
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -588.1997680664062,
+        12.31346607208252,
+        783.108154296875
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -1.327812,
+        -0.306601,
+        -2.944247
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -588.33642578125,
+        12.200286865234375,
+        783.3887939453125
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        2.982475,
+        -0.890631,
+        2.641056
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -586.56201171875,
+        12.435704231262207,
+        784.2221069335938
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -1.23349,
+        -0.172689,
+        -1.21131
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -586.6590576171875,
+        12.433389663696289,
+        784.177490234375
+      ],
+      "size": [
+        0.2491257191225449,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -1.23349,
+        -0.172689,
+        -2.723799
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -586.732177734375,
+        12.315086364746094,
+        784.47900390625
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        3.089701,
+        -1.139922,
+        2.717597
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -568.0462036132812,
+        10.631443977355957,
+        750.8632202148438
+      ],
+      "size": [
+        0.24912576366969752,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        2.021882,
+        -1.488704,
+        2.878099
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -568.0387573242188,
+        10.525424003601074,
+        750.8740234375
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        2.02188,
+        -1.488704,
+        1.36561
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -568.0576171875,
+        10.613831520080566,
+        751.1934814453125
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        1.469317,
+        0.069917,
+        1.613849
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -555.7322387695312,
+        14.526697158813477,
+        665.1454467773438
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        0.0000018655433677849942,
+        -0.000001668424715717265,
+        0.8262958526611328
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -555.724853515625,
+        14.420129776000977,
+        665.1454467773438
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        0.0000018842924873752054,
+        0.0000018262794583279174,
+        -0.6861929297447205
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -555.4024658203125,
+        14.49966049194336,
+        665.1463623046875
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        1.570797,
+        0.070052,
+        0
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -609.9993286132812,
+        7.302995204925537,
+        639.0780639648438
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -1.20346,
+        1.553536,
+        1.879001
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -609.9977416992188,
+        7.196527481079102,
+        639.086669921875
+      ],
+      "size": [
+        0.24912573397159576,
+        0.10000000149011612,
+        0.01
+      ],
+      "rotation": [
+        -1.203457,
+        1.55354,
+        0.366509
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -609.9952392578125,
+        7.226768493652344,
+        638.7560424804688
+      ],
+      "size": [
+        0.6154638528823853,
+        0.01,
+        0.2787640690803528
+      ],
+      "rotation": [
+        1.490035,
+        0.015556,
+        -1.56332
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -598.7272338867188,
+        10.176704406738281,
+        630.455078125
+      ],
+      "size": [
+        0.2491257191225449,
+        0.09999999552965155,
+        0.01
+      ],
+      "rotation": [
+        -0.073652,
+        -0.014162,
+        0.756244
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -598.7272338867188,
+        10.070164680480957,
+        630.4629516601562
+      ],
+      "size": [
+        0.2491257191225449,
+        0.09999999552965155,
+        0.01
+      ],
+      "rotation": [
+        -0.073652,
+        -0.014163,
+        -0.756245
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -598.400146484375,
+        10.127187728881836,
+        630.4642944335938
+      ],
+      "size": [
+        0.6154638161978809,
+        0.01,
+        0.27876405246471947
+      ],
+      "rotation": [
+        1.497142,
+        0,
+        0.014163
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -622.9483642578125,
+        6.228738307952881,
+        676.2681274414062
+      ],
+      "size": [
+        0.10999999195337296,
+        0.9678002650910855,
+        3.5999999046325684
+      ],
+      "rotation": [
+        3.026068,
+        -0.966131,
+        3.031638
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -622.90625,
+        5.727054119110107,
+        676.2649536132812
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03799999877810478,
+        1.6350001096725464
+      ],
+      "rotation": [
+        -3.12372,
+        0.600499,
+        3.065911
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -621.5414428710938,
+        5.835765361785889,
+        677.2017822265625
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03799999877810478,
+        1.6350001096725464
+      ],
+      "rotation": [
+        -3.12372,
+        0.600499,
+        3.065911
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -624.2711181640625,
+        5.618343353271484,
+        675.328125
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03799999877810478,
+        1.6350001096725464
+      ],
+      "rotation": [
+        -3.12372,
+        0.600499,
+        3.065911
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.0377807617188,
+        6.032619476318359,
+        676.5733642578125
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03799999877810478,
+        0.783080518245697
+      ],
+      "rotation": [
+        -2.269068,
+        0.363388,
+        1.076218
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.2059326171875,
+        5.769962787628174,
+        676.848876953125
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.1405022741912907
+      ],
+      "rotation": [
+        -2.269068,
+        0.363388,
+        1.076218
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -622.9111938476562,
+        6.363584041595459,
+        676.3506469726562
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.1405022741912907
+      ],
+      "rotation": [
+        -2.269068,
+        0.363388,
+        1.076218
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -621.54638671875,
+        6.471995830535889,
+        677.2874755859375
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.1405022741912907
+      ],
+      "rotation": [
+        -2.269068,
+        0.363388,
+        1.076218
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -621.841064453125,
+        5.878674030303955,
+        677.7857055664062
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.1405022741912907
+      ],
+      "rotation": [
+        -2.269068,
+        0.363388,
+        1.076218
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -621.6729125976562,
+        6.141131401062012,
+        677.5101928710938
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03799999877810478,
+        0.783080518245697
+      ],
+      "rotation": [
+        -2.269068,
+        0.363388,
+        1.076218
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -624.5440673828125,
+        5.912437915802002,
+        675.5394287109375
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03799999877810478,
+        0.783080518245697
+      ],
+      "rotation": [
+        -2.269068,
+        0.363388,
+        1.076218
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -624.7122802734375,
+        5.6499810218811035,
+        675.81494140625
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.1405022741912907
+      ],
+      "rotation": [
+        -2.269068,
+        0.363388,
+        1.076218
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -624.4175415039062,
+        6.243302822113037,
+        675.3167114257812
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.1405022741912907
+      ],
+      "rotation": [
+        -2.269068,
+        0.363388,
+        1.076218
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -624.4885864257812,
+        6.26072883605957,
+        681.6881713867188
+      ],
+      "size": [
+        0.10999999195337296,
+        0.9678002650910855,
+        3.5999996662139893
+      ],
+      "rotation": [
+        -3.129528,
+        0.599446,
+        3.076032
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -624.4457397460938,
+        5.759636878967285,
+        681.7113647460938
+      ],
+      "size": [
+        0.13400012254714966,
+        0.03799999877810478,
+        1.6350001096725464
+      ],
+      "rotation": [
+        -0.103784,
+        0.968213,
+        0.095582
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.3817138671875,
+        5.743111610412598,
+        683.0810546875
+      ],
+      "size": [
+        0.13400012254714966,
+        0.03799999877810478,
+        1.6350001096725464
+      ],
+      "rotation": [
+        -0.103784,
+        0.968213,
+        0.095582
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.509765625,
+        5.776162624359131,
+        680.3417358398438
+      ],
+      "size": [
+        0.13400012254714966,
+        0.03799999877810478,
+        1.6350001096725464
+      ],
+      "rotation": [
+        -0.103784,
+        0.968213,
+        0.095582
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -624.77783203125,
+        6.044602394104004,
+        681.592041015625
+      ],
+      "size": [
+        0.13400012254714966,
+        0.037999995052814484,
+        0.7830804586410522
+      ],
+      "rotation": [
+        -1.099359,
+        0.575577,
+        -0.737645
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.0326538085938,
+        5.767477512359619,
+        681.4146118164062
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999995052814484,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.099359,
+        0.575577,
+        -0.737645
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -624.581298828125,
+        6.387162208557129,
+        681.73046875
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999995052814484,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.099359,
+        0.575577,
+        -0.737645
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.5172729492188,
+        6.370337009429932,
+        683.1001586914062
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999995052814484,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.099359,
+        0.575577,
+        -0.737645
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.9686279296875,
+        5.750951766967773,
+        682.7842407226562
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999995052814484,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.099359,
+        0.575577,
+        -0.737645
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.7138061523438,
+        6.027877330780029,
+        682.961669921875
+      ],
+      "size": [
+        0.13400012254714966,
+        0.037999995052814484,
+        0.7830804586410522
+      ],
+      "rotation": [
+        -1.099359,
+        0.575577,
+        -0.737645
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.7448120117188,
+        6.062641620635986,
+        680.0803833007812
+      ],
+      "size": [
+        0.13400012254714966,
+        0.037999995052814484,
+        0.7830804586410522
+      ],
+      "rotation": [
+        -1.099359,
+        0.575577,
+        -0.737645
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.9996337890625,
+        5.785716533660889,
+        679.9029541015625
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999995052814484,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.099359,
+        0.575577,
+        -0.737645
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.5482788085938,
+        6.405101776123047,
+        680.2188720703125
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999995052814484,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.099359,
+        0.575577,
+        -0.737645
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -626.940185546875,
+        6.125924587249756,
+        682.1627807617188
+      ],
+      "size": [
+        0.10999999195337296,
+        0.9678002650910855,
+        3.5999996662139893
+      ],
+      "rotation": [
+        -0.107508,
+        0.96563,
+        0.095224
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -626.9237670898438,
+        5.6236467361450195,
+        682.193115234375
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03800000250339508,
+        1.6350001096725464
+      ],
+      "rotation": [
+        0.008113,
+        -0.602036,
+        0.065677
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -628.2881469726562,
+        5.52237606048584,
+        681.2547607421875
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03800000250339508,
+        1.6350001096725464
+      ],
+      "rotation": [
+        0.008113,
+        -0.602036,
+        0.065677
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.5593872070312,
+        5.724917411804199,
+        683.1314697265625
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03800000250339508,
+        1.6350001096725464
+      ],
+      "rotation": [
+        0.008113,
+        -0.602036,
+        0.065677
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -626.827392578125,
+        5.925388336181641,
+        681.868408203125
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03799999877810478,
+        0.7830805778503418
+      ],
+      "rotation": [
+        -0.89486,
+        -0.454149,
+        -1.985652
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -626.628662109375,
+        5.669626712799072,
+        681.6070556640625
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.14050228488570582
+      ],
+      "rotation": [
+        -0.89486,
+        -0.454149,
+        -1.985652
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -626.9923706054688,
+        6.2509002685546875,
+        682.0732421875
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.14050228488570582
+      ],
+      "rotation": [
+        -0.89486,
+        -0.454149,
+        -1.985652
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -628.3567504882812,
+        6.149330139160156,
+        681.1348876953125
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.14050228488570582
+      ],
+      "rotation": [
+        -0.89486,
+        -0.454149,
+        -1.985652
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -627.9930419921875,
+        5.568356037139893,
+        680.668701171875
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.14050228488570582
+      ],
+      "rotation": [
+        -0.89486,
+        -0.454149,
+        -1.985652
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -628.1917724609375,
+        5.823917865753174,
+        680.9300537109375
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03799999877810478,
+        0.7830805778503418
+      ],
+      "rotation": [
+        -0.89486,
+        -0.454149,
+        -1.985652
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.321533203125,
+        6.036958694458008,
+        682.904052734375
+      ],
+      "size": [
+        0.13400013744831085,
+        0.03799999877810478,
+        0.7830805778503418
+      ],
+      "rotation": [
+        -0.89486,
+        -0.454149,
+        -1.985652
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.122802734375,
+        5.781396865844727,
+        682.6427001953125
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.14050228488570582
+      ],
+      "rotation": [
+        -0.89486,
+        -0.454149,
+        -1.985652
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.486572265625,
+        6.36237096786499,
+        683.10888671875
+      ],
+      "size": [
+        0.03898165326314196,
+        0.03799999877810478,
+        0.14050228488570582
+      ],
+      "rotation": [
+        -0.89486,
+        -0.454149,
+        -1.985652
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -622.4706420898438,
+        6.308848857879639,
+        678.703125
+      ],
+      "size": [
+        0.10999998450279236,
+        0.9678002650910855,
+        3.59999942779541
+      ],
+      "rotation": [
+        -3.12494,
+        0.587104,
+        3.066593
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -622.4234619140625,
+        5.808133125305176,
+        678.7261962890625
+      ],
+      "size": [
+        0.13400012254714966,
+        0.03799999877810478,
+        1.6349999904632568
+      ],
+      "rotation": [
+        -0.118168,
+        0.97948,
+        0.11214
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.3424682617188,
+        5.7851338386535645,
+        680.1072387695312
+      ],
+      "size": [
+        0.13400012254714966,
+        0.03799999877810478,
+        1.6349999904632568
+      ],
+      "rotation": [
+        -0.118168,
+        0.97948,
+        0.11214
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -621.5044555664062,
+        5.831132411956787,
+        677.34521484375
+      ],
+      "size": [
+        0.13400012254714966,
+        0.03799999877810478,
+        1.6349999904632568
+      ],
+      "rotation": [
+        -0.118168,
+        0.97948,
+        0.11214
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -622.7593383789062,
+        6.0903449058532715,
+        678.6107177734375
+      ],
+      "size": [
+        0.13400012254714966,
+        0.037999991327524185,
+        0.7830804586410522
+      ],
+      "rotation": [
+        -1.109454,
+        0.573928,
+        -0.720345
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.0139770507812,
+        5.811059951782227,
+        678.4365844726562
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999991327524185,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.109454,
+        0.573928,
+        -0.720345
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -622.5638427734375,
+        6.434567928314209,
+        678.7465209960938
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999991327524185,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.109454,
+        0.573928,
+        -0.720345
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.4827880859375,
+        6.411269187927246,
+        680.1275634765625
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999991327524185,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.109454,
+        0.573928,
+        -0.720345
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.9329833984375,
+        5.788060665130615,
+        679.8175659179688
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999991327524185,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.109454,
+        0.573928,
+        -0.720345
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -623.6783447265625,
+        6.067145824432373,
+        679.9917602539062
+      ],
+      "size": [
+        0.13400012254714966,
+        0.037999991327524185,
+        0.7830804586410522
+      ],
+      "rotation": [
+        -1.109454,
+        0.573928,
+        -0.720345
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -621.7449951171875,
+        6.1155290603637695,
+        677.0865478515625
+      ],
+      "size": [
+        0.13400012254714966,
+        0.037999991327524185,
+        0.7830804586410522
+      ],
+      "rotation": [
+        -1.109454,
+        0.573928,
+        -0.720345
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -621.9996948242188,
+        5.836443901062012,
+        676.912353515625
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999991327524185,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.109454,
+        0.573928,
+        -0.720345
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -621.5494995117188,
+        6.459651947021484,
+        677.2223510742188
+      ],
+      "size": [
+        0.03898164892828149,
+        0.037999991327524185,
+        0.14050226349687556
+      ],
+      "rotation": [
+        -1.109454,
+        0.573928,
+        -0.720345
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.6224975585938,
+        7.084045886993408,
+        682.5440063476562
+      ],
+      "size": [
+        0.47999999284742856,
+        0.6499999761581421,
+        0.01
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        3.085087
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -625.548583984375,
+        5.719641208648682,
+        682.583740234375
+      ],
+      "size": [
+        0.49999991059303284,
+        0.05778653919696808,
+        0.3999999284744291
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        3.085087
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -622.1365966796875,
+        5.7854838371276855,
+        677.3311767578125
+      ],
+      "size": [
+        0.5,
+        0.05778653919696808,
+        0.3999999761581421
+      ],
+      "rotation": [
+        0.974124,
+        -1.506473,
+        1.000026
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -622.2105102539062,
+        7.150041580200195,
+        677.297119140625
+      ],
+      "size": [
+        0.4800000786781311,
+        0.6499999761581421,
+        0.01
+      ],
+      "rotation": [
+        0.974124,
+        -1.506473,
+        1.000026
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -624.3283081054688,
+        5.592992782592773,
+        675.0015258789062
+      ],
+      "size": [
+        0.27000001072883606,
+        0.26999994874000777,
+        0.02832034433958852
+      ],
+      "rotation": [
+        -1.595744,
+        -0.062422,
+        -2.026123
+      ],
+      "visible": false
+    },
+    {
+      "position": [
+        -628.5669555664062,
+        5.504201889038086,
+        681.0806884765625
+      ],
+      "size": [
+        0.27000001072883606,
+        0.2699999648332607,
+        0.028320342651564356
+      ],
+      "rotation": [
+        -1.608218,
+        -0.058271,
+        -0.19415
+      ],
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -634.531494140625,
+        5.684584140777588,
+        688.553955078125
+      ],
+      "size": [
+        0.08,
+        0.08,
+        0.47999997138977046
+      ],
+      "rotation": [
+        -1.574961,
+        -0.02916,
+        0
+      ],
+      "radius": 0.04,
+      "halfLength": 0.19999998569488522,
+      "axis": 2,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -634.5282592773438,
+        5.574631690979004,
+        688.554443359375
+      ],
+      "size": [
+        0.16,
+        0.16,
+        0.2799999833106995
+      ],
+      "rotation": [
+        -1.574961,
+        -0.02916,
+        0
+      ],
+      "radius": 0.08,
+      "halfLength": 0.059999991655349735,
+      "axis": 2,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -638.1617431640625,
+        5.570213317871094,
+        687.4769287109375
+      ],
+      "size": [
+        0.08,
+        0.08,
+        0.47999997138977046
+      ],
+      "rotation": [
+        -1.583287,
+        -0.037484,
+        0
+      ],
+      "radius": 0.04,
+      "halfLength": 0.19999998569488522,
+      "axis": 2,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -638.1575927734375,
+        5.460299015045166,
+        687.478271484375
+      ],
+      "size": [
+        0.16,
+        0.16,
+        0.2799999833106995
+      ],
+      "rotation": [
+        -1.583287,
+        -0.037484,
+        0
+      ],
+      "radius": 0.08,
+      "halfLength": 0.059999991655349735,
+      "axis": 2,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -638.2527465820312,
+        5.253401756286621,
+        686.6637573242188
+      ],
+      "size": [
+        0.19888324,
+        0.19888324,
+        0.19888324
+      ],
+      "rotation": [
+        -0.012491,
+        0,
+        0.037484
+      ],
+      "radius": 0.09944162,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -638.275146484375,
+        5.243223190307617,
+        685.9169311523438
+      ],
+      "size": [
+        0.19888324,
+        0.19888324,
+        0.19888324
+      ],
+      "rotation": [
+        -0.012491,
+        0,
+        0.037484
+      ],
+      "radius": 0.09944162,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -638.2490844726562,
+        5.227449893951416,
+        685.183837890625
+      ],
+      "size": [
+        0.19888324,
+        0.19888324,
+        0.19888324
+      ],
+      "rotation": [
+        -0.033299,
+        0,
+        0.037484
+      ],
+      "radius": 0.09944162,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -634.208984375,
+        5.38831090927124,
+        687.942138671875
+      ],
+      "size": [
+        0.19888324,
+        0.19888324,
+        0.19888324
+      ],
+      "rotation": [
+        -0.004165,
+        0,
+        0.02916
+      ],
+      "radius": 0.09944162,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -633.1611328125,
+        5.4155802726745605,
+        687.1514282226562
+      ],
+      "size": [
+        0.19888324,
+        0.19888324,
+        0.19888324
+      ],
+      "rotation": [
+        -0.004164,
+        -0.000002,
+        0.02916
+      ],
+      "radius": 0.09944162,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -632.2224731445312,
+        5.437014102935791,
+        686.313232421875
+      ],
+      "size": [
+        0.19888324,
+        0.19888324,
+        0.19888324
+      ],
+      "rotation": [
+        -0.004165,
+        -0.000002,
+        0.024995
+      ],
+      "radius": 0.09944162,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.8667602539062,
+        5.472395420074463,
+        674.2325439453125
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "rotation": [
+        3.026068,
+        -0.966131,
+        3.031638
+      ],
+      "radius": 0.15,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -619.9434204101562,
+        5.944198131561279,
+        678.29833984375
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "rotation": [
+        3.026068,
+        -0.966131,
+        3.031638
+      ],
+      "radius": 0.15,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.4136352539062,
+        5.776731014251709,
+        678.73974609375
+      ],
+      "size": [
+        0.29999998211860657,
+        0.29999998211860657,
+        0.29999998211860657
+      ],
+      "rotation": [
+        -3.129528,
+        0.599446,
+        3.076032
+      ],
+      "radius": 0.14999999105930328,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -626.4757690429688,
+        5.705009937286377,
+        684.6839599609375
+      ],
+      "size": [
+        0.29999998211860657,
+        0.29999998211860657,
+        0.29999998211860657
+      ],
+      "rotation": [
+        -3.129528,
+        0.599446,
+        3.076032
+      ],
+      "radius": 0.14999999105930328,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -623.9620361328125,
+        5.8246378898620605,
+        684.2298583984375
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "rotation": [
+        -0.107508,
+        0.96563,
+        0.095224
+      ],
+      "radius": 0.15,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -629.8834228515625,
+        5.38512659072876,
+        680.157470703125
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "rotation": [
+        -0.107508,
+        0.96563,
+        0.095224
+      ],
+      "radius": 0.15,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -620.4281005859375,
+        5.8392839431762695,
+        675.7299194335938
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "rotation": [
+        -3.12494,
+        0.587104,
+        3.066593
+      ],
+      "radius": 0.15,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -624.41650390625,
+        5.739467620849609,
+        681.7234497070312
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "rotation": [
+        -3.12494,
+        0.587104,
+        3.066593
+      ],
+      "radius": 0.15,
+      "halfLength": 0,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.6412963867188,
+        7.43039608001709,
+        682.533935546875
+      ],
+      "size": [
+        0.0239999378610152,
+        0.38400978,
+        0.0239999378610152
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        -1.627302
+      ],
+      "radius": 0.0119999689305076,
+      "halfLength": 0.18000492106949242,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.603759765625,
+        6.737696170806885,
+        682.5540771484375
+      ],
+      "size": [
+        0.024000056861029385,
+        0.38400963,
+        0.024000056861029385
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        -1.627302
+      ],
+      "radius": 0.012000028430514693,
+      "halfLength": 0.1800047865694853,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.3804321289062,
+        6.776844501495361,
+        682.4852294921875
+      ],
+      "size": [
+        0.038193702,
+        0.115965486,
+        0.038193702
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        -2.4127
+      ],
+      "radius": 0.019096851,
+      "halfLength": 0.038885892000000005,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.4148559570312,
+        7.411653518676758,
+        682.4667358398438
+      ],
+      "size": [
+        0.038193702,
+        0.11596541908792196,
+        0.038193702
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        2.299689
+      ],
+      "radius": 0.019096851,
+      "halfLength": 0.03888585854396098,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.8301391601562,
+        6.7564377784729,
+        682.6212768554688
+      ],
+      "size": [
+        0.038193702,
+        0.1159654790879184,
+        0.038193702
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        2.299689
+      ],
+      "radius": 0.019096851,
+      "halfLength": 0.038885888543959204,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.8645629882812,
+        7.391247272491455,
+        682.602783203125
+      ],
+      "size": [
+        0.038193702,
+        0.11596542599999998,
+        0.038193702
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        -2.4127
+      ],
+      "radius": 0.019096851,
+      "halfLength": 0.03888586199999999,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.6636352539062,
+        6.225347995758057,
+        682.5953979492188
+      ],
+      "size": [
+        0.023999979138979197,
+        1.0212716,
+        0.023999979138979197
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        3.085087
+      ],
+      "radius": 0.011999989569489599,
+      "halfLength": 0.49863581043051036,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.3719482421875,
+        7.095415115356445,
+        682.4682006835938
+      ],
+      "size": [
+        0.02399998613897836,
+        0.55400956,
+        0.02399998613897836
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        3.085087
+      ],
+      "radius": 0.01199999306948918,
+      "halfLength": 0.2650047869305108,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.873046875,
+        7.072676658630371,
+        682.6198120117188
+      ],
+      "size": [
+        0.02399998613897836,
+        0.55400956,
+        0.02399998613897836
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        3.085087
+      ],
+      "radius": 0.01199999306948918,
+      "halfLength": 0.2650047869305108,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -625.4887084960938,
+        6.2332844734191895,
+        682.5424194335938
+      ],
+      "size": [
+        0.023999979138979197,
+        1.0212716,
+        0.023999979138979197
+      ],
+      "rotation": [
+        3.096211,
+        -0.291664,
+        3.085087
+      ],
+      "radius": 0.011999989569489599,
+      "halfLength": 0.49863581043051036,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.2293090820312,
+        7.496431350708008,
+        677.2884521484375
+      ],
+      "size": [
+        0.0239999378610152,
+        0.38400982577753306,
+        0.0239999378610152
+      ],
+      "rotation": [
+        0.974121,
+        -1.506471,
+        2.57082
+      ],
+      "radius": 0.0119999689305076,
+      "halfLength": 0.18000494395825895,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.1917724609375,
+        6.803653240203857,
+        677.3057861328125
+      ],
+      "size": [
+        0.024000056861029385,
+        0.38400967577751516,
+        0.024000056861029385
+      ],
+      "rotation": [
+        0.974121,
+        -1.506471,
+        2.57082
+      ],
+      "radius": 0.012000028430514693,
+      "halfLength": 0.18000480945824288,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.1610107421875,
+        6.297668933868408,
+        677.4098510742188
+      ],
+      "size": [
+        0.023999982,
+        1.0212716,
+        0.023999982
+      ],
+      "rotation": [
+        0.974124,
+        -1.506473,
+        1.000026
+      ],
+      "radius": 0.011999991,
+      "halfLength": 0.498635809,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.2196044921875,
+        7.143013954162598,
+        677.035400390625
+      ],
+      "size": [
+        0.023999989,
+        0.55400956,
+        0.023999989
+      ],
+      "rotation": [
+        0.974124,
+        -1.506473,
+        1.000026
+      ],
+      "radius": 0.0119999945,
+      "halfLength": 0.2650047855,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.201416015625,
+        7.157069683074951,
+        677.5588989257812
+      ],
+      "size": [
+        0.023999989,
+        0.55400956,
+        0.023999989
+      ],
+      "rotation": [
+        0.974124,
+        -1.506473,
+        1.000026
+      ],
+      "radius": 0.0119999945,
+      "halfLength": 0.2650047855,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.1673583984375,
+        6.2927632331848145,
+        677.2271118164062
+      ],
+      "size": [
+        0.023999982,
+        1.0212716,
+        0.023999982
+      ],
+      "rotation": [
+        0.974124,
+        -1.506473,
+        1.000026
+      ],
+      "radius": 0.011999991,
+      "halfLength": 0.498635809,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.2195434570312,
+        7.473788738250732,
+        677.5241088867188
+      ],
+      "size": [
+        0.038193702,
+        0.11596541908792196,
+        0.038193702
+      ],
+      "rotation": [
+        0.974119,
+        -1.506471,
+        1.785419
+      ],
+      "radius": 0.019096851,
+      "halfLength": 0.03888585854396098,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.1851196289062,
+        6.8389081954956055,
+        677.5399780273438
+      ],
+      "size": [
+        0.038193702,
+        0.115965486,
+        0.038193702
+      ],
+      "rotation": [
+        0.974122,
+        -1.506472,
+        0.214625
+      ],
+      "radius": 0.019096851,
+      "halfLength": 0.038885892000000005,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.2359008789062,
+        7.461174964904785,
+        677.0543212890625
+      ],
+      "size": [
+        0.038193702,
+        0.11596542599999998,
+        0.038193702
+      ],
+      "rotation": [
+        0.974122,
+        -1.506472,
+        0.214625
+      ],
+      "radius": 0.019096851,
+      "halfLength": 0.03888586199999999,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -622.2014770507812,
+        6.826294422149658,
+        677.0701293945312
+      ],
+      "size": [
+        0.038193702,
+        0.1159654790879184,
+        0.038193702
+      ],
+      "rotation": [
+        0.974119,
+        -1.506471,
+        1.785419
+      ],
+      "radius": 0.019096851,
+      "halfLength": 0.038885888543959204,
+      "axis": 1,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -624.3430786132812,
+        5.829522132873535,
+        674.9956665039062
+      ],
+      "size": [
+        0.08,
+        0.08,
+        0.47999997138977046
+      ],
+      "rotation": [
+        -1.595744,
+        -0.062422,
+        -2.026123
+      ],
+      "radius": 0.04,
+      "halfLength": 0.19999998569488522,
+      "axis": 2,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -624.3362426757812,
+        5.719770431518555,
+        674.9984130859375
+      ],
+      "size": [
+        0.16,
+        0.16,
+        0.2799999833106995
+      ],
+      "rotation": [
+        -1.595744,
+        -0.062422,
+        -2.026123
+      ],
+      "radius": 0.08,
+      "halfLength": 0.059999991655349735,
+      "axis": 2,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -628.5807495117188,
+        5.740694522857666,
+        681.07177734375
+      ],
+      "size": [
+        0.08,
+        0.08,
+        0.479999942779541
+      ],
+      "rotation": [
+        -1.608218,
+        -0.058271,
+        -0.19415
+      ],
+      "radius": 0.04,
+      "halfLength": 0.1999999713897705,
+      "axis": 2,
+      "visible": false
+    },
+    {
+      "type": "capsule",
+      "position": [
+        -628.5743408203125,
+        5.630958080291748,
+        681.0758666992188
+      ],
+      "size": [
+        0.16,
+        0.16,
+        0.279999966621399
+      ],
+      "rotation": [
+        -1.608218,
+        -0.058271,
+        -0.19415
+      ],
+      "radius": 0.08,
+      "halfLength": 0.05999998331069949,
+      "axis": 2,
+      "visible": false
+    }
+  ]
+}

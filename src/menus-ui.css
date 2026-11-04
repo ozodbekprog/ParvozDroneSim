@@ -1,0 +1,273 @@
+/* Secondary screens use the whole viewport. Lists have explicit pages. */
+.menu-layout { min-height: 0; }
+.button.back-button, .button.ghost { background: #253140; border-color: #526173; color: var(--text); }
+.button.back-button:hover, .panel-actions .button.ghost:hover { background: #354357; border-color: #95aabd; }
+.section-header { display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 60px; padding: 0; }
+.section-heading { display: flex; align-items: center; gap: 20px; }
+.section-heading h1 { font-size: 36px; margin: 0; }
+.section-heading small { display: block; color: #a7becb; font-size: 9px; letter-spacing: .12em; margin-bottom: 5px; }
+.section-header-actions { display: flex; gap: 10px; align-items: center; }
+.section-stat { color: #b7c6d2; font-size: 12px; }
+.back-button { min-width: 86px; }
+.pagination { display: flex; align-items: center; justify-content: center; gap: 16px; min-height: 36px; }
+.pagination span { color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.pagination .mini-button { min-width: 102px; }
+.home-main-menu { overflow: visible; }
+.home-main-menu .home-destinations button { min-height: 43px; padding: 10px 6px; }
+.home-weekly { color: var(--accent) !important; }
+.home-weekly > .ui-icon:first-child { color: var(--accent) !important; }
+.menu-heading .eyebrow:empty, #controller-status:empty { display: none; }
+.menu-settings .menu-layout.composed-layout { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); align-items: stretch; justify-content: stretch; gap: 18px; padding: 24px 28px; overflow: hidden; }
+.settings-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; width: min(1100px, 100%); align-self: center; justify-self: center; }
+.settings-tile { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 260px; padding: 28px; color: var(--text); cursor: pointer; transition: border-color .18s, background .18s; }
+.settings-tile:hover { border-color: var(--accent); background: #202d3c; }
+.settings-tile-icon { display: grid; place-items: center; width: 74px; height: 74px; border-radius: 18px; background: #78d8df10; color: var(--technical); margin-bottom: 22px; }
+.settings-tile-icon .ui-icon { width: 40px; height: 40px; }
+.settings-tile > strong { font: 600 34px 'Barlow Condensed', sans-serif; }
+.settings-tile > small { color: var(--muted); font-size: 11px; margin-top: 8px; }
+.settings-tile > .ui-icon { align-self: flex-end; width: 18px; height: 18px; margin-top: 20px; color: var(--quiet); }
+.menu-replays .menu-layout { align-items: center; justify-content: center; }
+.menu-replays .menu-panel { width: min(960px, 100%); }
+.menu-replays .lead { font-size: 12px; margin-bottom: 15px; }
+.menu-replays .replay-row { min-height: 66px; gap: 12px; padding: 12px; background: #a3bbd20a; border: 1px solid var(--line); border-radius: 10px; }
+.menu-replays .replay-row [data-watch] { color: var(--ink); background: var(--accent); border-color: var(--accent); }
+.menu-replays .pagination { margin-top: 12px; }
+.menu-maps .menu-layout.composed-layout { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto minmax(0, 1fr); align-items: stretch; justify-content: stretch; gap: 14px; padding: 22px 28px 26px; overflow: hidden; }
+.setup-modebar { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); width: min(720px, 100%); gap: 9px; }
+.setup-modebar .activity-choice { justify-content: center; min-height: 42px; padding: 9px; }
+.setup-session-bar { display: flex; align-items: center; gap: 12px; min-height: 42px; color: var(--technical); font-size: 12px; }
+.setup-session-bar .ui-icon { width: 20px; height: 20px; }
+.setup-session-bar span { color: var(--muted); }
+.setup-drone { max-width: 320px; }
+.setup-detail .course-detail-image { height: 22%; min-height: 80px; }
+.setup-detail .course-location { margin-bottom: 10px; }
+.setup-detail .course-description { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; margin-bottom: 12px; }
+.setup-course { font-size: 11px; gap: 6px; }
+.setup-course select { height: 36px; font-size: 12px; }
+.setup-conditions { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding: 11px 0; margin-top: 12px; margin-bottom: 8px; font-size: 11px; color: var(--muted); }
+.setup-conditions strong { color: var(--technical); font-weight: 500; }
+#app[data-scene='menu']:not([data-screen='home']) .ambient-vignette { background: linear-gradient(110deg, #0b1326b5, #0b152680); }
+.menu-multiplayer .composed-layout, .menu-career .composed-layout, .menu-tutorials .composed-layout, .menu-weekly .composed-layout, .menu-championship .composed-layout { display: grid; grid-template-rows: auto minmax(0, 1fr); align-items: stretch; gap: 18px; padding: 22px 28px 26px; overflow: hidden; }
+.menu-multiplayer .online-layout { grid-template-columns: minmax(0, 1fr) 300px; gap: 18px; }
+.room-browser { padding: 22px; }
+.room-browser .panel-header { margin-bottom: 16px; }
+.room-browser h2 { font-size: 27px; display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.room-filters { margin-bottom: 14px; padding-bottom: 14px; gap: 10px; }
+.public-rooms { overflow: visible; display: flex; flex-direction: column; gap: 12px; }
+.room-page { flex: 1; min-height: 0; display: grid; align-content: start; gap: 10px; }
+.room-page:has(.rooms-empty) { align-content: center; }
+.public-room { min-height: 62px; padding: 12px 14px; }
+.public-room small { font-size: 11px; }
+.rooms-empty { text-align: center; padding: 22px; max-width: 390px; margin: auto; }
+.rooms-empty > .ui-icon { width: 44px; height: 44px; color: var(--technical); opacity: .7; margin-bottom: 18px; }
+.rooms-empty h3 { font-family: 'Barlow Condensed', sans-serif; font-size: 25px; letter-spacing: 0; margin-bottom: 9px; text-transform: none; }
+.rooms-empty p { color: var(--muted); font-size: 12px; line-height: 1.65; margin: 0; }
+.online-sidebar { overflow: visible; }
+.invite-panel { padding: 22px; }
+.invite-panel h2 { font-size: 29px; margin: 13px 0 17px; }
+.invite-panel label { font-size: 11px; margin-bottom: 8px; }
+.invite-panel .join-row { gap: 8px; margin: 0; }
+.invite-panel .join-row input { min-width: 0; }
+.invite-panel > small { color: var(--muted); font-size: 10px; line-height: 1.6; display: block; margin-top: 12px; }
+.ranked-panel { padding: 22px; }
+.ranked-panel h2 { margin: 12px 0 9px; }
+.collection-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(290px, .45fr); gap: 22px; min-height: 0; }
+.course-browser { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; gap: 12px; min-height: 0; }
+.course-browser-caption { display: flex; justify-content: space-between; gap: 10px; align-items: center; color: var(--text); font-size: 12px; }
+.course-browser-caption small { color: var(--muted); font-size: 10px; }
+.course-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(3, minmax(0, 1fr)); gap: 12px; min-height: 0; }
+.course-grid.lesson-grid { grid-template-rows: repeat(2, minmax(0, 1fr)); }
+.course-card { position: relative; text-align: left; overflow: hidden; border: 1px solid #63788b64; border-radius: 14px; padding: 0; color: var(--text); background: #182331; min-height: 112px; }
+.course-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .74; transition: opacity .2s; }
+.course-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, #101a2bf5, #111b2924 85%); }
+.course-card.selected { border: 2px solid var(--accent); box-shadow: 0 0 0 2px #ffae701c; }
+.course-card:hover img { opacity: .95; }
+.course-card-number { position: absolute; top: 10px; left: 12px; z-index: 1; color: #fff; font-size: 11px; background: #101a2cc9; padding: 5px 8px; border-radius: 6px; }
+.course-card-content { position: absolute; inset: auto 16px 14px; z-index: 1; }
+.course-card-content strong { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 24px; font-weight: 600; line-height: 1.1; margin-bottom: 6px; }
+.course-card-content small { display: block; color: #c0cfdd; font-size: 10px; }
+.course-stars { display: block; color: var(--accent); font-size: 17px; letter-spacing: 3px; margin-top: 6px; }
+.course-type { display: inline-block; font-size: 9px; color: #d2e6e9; background: #163442dc; border: 1px solid #78d8df38; padding: 5px 8px; border-radius: 5px; margin-top: 9px; }
+.course-detail { display: flex; flex-direction: column; overflow: hidden; padding: 0; min-height: 0; }
+.course-detail-image { width: 100%; height: 29%; min-height: 100px; max-height: 220px; object-fit: cover; background: #233243; }
+.course-detail-body { padding: 20px; display: flex; flex-direction: column; flex: 1; min-height: 0; }
+.course-detail h2 { font-size: 32px; margin: 10px 0 7px; }
+.course-location { color: var(--muted); font-size: 11px; margin-bottom: 16px; }
+.course-description { font-size: 12px; color: #c1cbd5; line-height: 1.65; margin-bottom: 18px; }
+.mission-goal { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 16px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.mission-goal span { font-size: 10px; color: var(--muted); }
+.mission-goal strong { display: block; font-size: 26px; color: var(--technical); font-family: 'Barlow Condensed', sans-serif; margin-top: 4px; }
+.mission-goal span:last-child strong { color: var(--accent); letter-spacing: 3px; }
+.course-reward { display: flex; gap: 9px; align-items: center; font-size: 11px; color: var(--muted); margin-top: 18px; }
+.course-reward .ui-icon { flex: none; width: 18px; height: 18px; color: var(--accent); }
+.course-launch { margin-top: auto; width: 100%; justify-content: space-between; flex: none; }
+.lesson-outline { padding-left: 20px; margin: 0 0 16px; font-size: 11px; color: #c1cbd5; line-height: 1.55; }
+.lesson-outline li { padding-left: 4px; margin-bottom: 9px; }
+.lesson-outline li::marker { color: var(--technical); }
+.competition-layout { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(330px, .92fr); min-height: 0; gap: 22px; width: min(1440px, 100%); justify-self: center; }
+.competition-feature { display: flex; flex-direction: column; padding: 0; overflow: hidden; min-height: 0; }
+.competition-image { width: 100%; height: 38%; min-height: 120px; max-height: 300px; object-fit: cover; background: #233243; }
+.competition-body { display: flex; flex-direction: column; flex: 1; padding: 24px; min-height: 0; }
+.competition-badge { color: var(--accent); font-size: 10px; letter-spacing: .13em; }
+.competition-body h2 { font-size: 39px; margin: 11px 0 8px; }
+.competition-location, .competition-body p { color: var(--muted); font-size: 12px; line-height: 1.6; margin-bottom: 16px; }
+.competition-course { display: flex; align-items: center; gap: 12px; padding: 13px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 16px; }
+.competition-course > .ui-icon { width: 23px; height: 23px; color: var(--technical); }
+.competition-course strong { font-size: 13px; font-weight: 500; }
+.competition-course small { display: block; font-size: 10px; color: var(--muted); margin-top: 5px; }
+.competition-body > .button { margin-top: auto; justify-content: space-between; width: 100%; flex: none; }
+.championship-points { display: flex; gap: 28px; padding: 12px 0; margin-bottom: 10px; }
+.championship-points span { font-size: 10px; color: var(--muted); }
+.championship-points strong { display: block; margin-top: 4px; font-size: 27px; font-family: 'Barlow Condensed', sans-serif; color: var(--accent); }
+.leaderboard-panel { display: flex; flex-direction: column; min-height: 0; }
+.leaderboard-panel h2 { display: flex; gap: 10px; align-items: center; font-size: 27px; }
+.leaderboard-panel h2 .ui-icon { width: 22px; height: 22px; color: var(--technical); }
+.leaderboard-rows { flex: 1; min-height: 0; }
+.leaderboard-row { display: flex; align-items: center; gap: 16px; min-height: 58px; border-bottom: 1px solid var(--line); padding: 12px 3px; }
+.leaderboard-rank { color: var(--quiet); font-family: 'Barlow Condensed', sans-serif; font-size: 23px; }
+.leaderboard-row > strong { flex: 1; font-size: 13px; font-weight: 500; }
+.leaderboard-value { color: var(--technical); font-variant-numeric: tabular-nums; font-size: 17px; }
+.leaderboard-value small { display: block; color: var(--muted); font-size: 9px; margin-top: 5px; text-align: right; }
+.leaderboard-empty { height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 25px; }
+.leaderboard-empty .ui-icon { color: var(--technical); width: 54px; height: 54px; opacity: .55; margin-bottom: 22px; }
+.leaderboard-empty h3 { font-size: 28px; text-transform: none; letter-spacing: 0; }
+.leaderboard-empty p { max-width: 300px; font-size: 12px; line-height: 1.65; color: var(--muted); }
+.menu-maps .menu-layout { justify-content: center; }
+.menu-maps .menu-panel { width: min(1350px, 100%); overflow: visible; }
+.menu-maps .menu-content { overflow: visible; }
+.menu-maps .map-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
+.menu-maps .map-card { position: relative; height: clamp(120px, 18vh, 190px); min-height: 0; }
+.menu-maps .map-art { position: absolute; inset: 0; height: 100%; }
+.menu-maps .map-text { position: absolute; inset: auto 0 0; width: 100%; padding: 13px; background: linear-gradient(transparent, #101a28ee 65%); }
+.menu-maps .map-text strong { font-size: 22px; }
+.menu-maps .map-text em { display: none; }
+.menu-maps .setup-activities { margin-bottom: 12px; }
+.menu-maps .pagination { margin-top: 10px; }
+.menu-maps .panel-actions { margin-top: 14px; }
+.menu-maps .launch-summary { margin-bottom: 0; }
+.menu-workbench .component-panel, .menu-workbench .bench-sidebar { overflow: visible; }
+.menu-controls .menu-layout { align-items: center; width: min(1320px, 100%); align-self: center; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .85fr); }
+.menu-controls .menu-panel { padding: 20px; overflow: visible; }
+.menu-controls .controls-form label { font-size: 10px; gap: 5px; }
+.menu-controls .controls-form select { height: 34px; }
+.menu-controls .controls-form > label:first-child { display: grid; grid-template-columns: 100px minmax(0, 1fr); align-items: center; }
+.menu-controls .controls-form > label:has(#deadzone) { display: grid; grid-template-columns: auto 38px minmax(0, 1fr); align-items: center; gap: 10px; margin-top: 9px; }
+.menu-controls .controls-form > label:has(#device-select), .menu-controls .controls-form > label:has(#throttle-mode) { display: inline-flex; width: calc(50% - 9px); margin-top: 0; vertical-align: top; }
+.menu-controls .controls-form > label:has(#device-select) { margin-right: 12px; }
+.menu-controls .settings-help { font-size: 11px; line-height: 1.4; margin-bottom: 8px; }
+.menu-controls h3 { font-size: 17px; letter-spacing: .04em; margin: 12px 0 10px; }
+.menu-controls .axis-row { min-height: 30px; padding: 0; margin: 4px 0; font-size: 11px; }
+.menu-controls .calibrate-button { margin: 6px 0 9px; }
+.menu-controls .panel-actions { margin-top: 12px; }
+.menu-controls .virtual-radio { padding: 30px; overflow: visible; align-self: center; background: #172331; border: 1px solid #415366; border-radius: 18px; }
+.virtual-radio .panel-label { margin-bottom: 7px; color: var(--technical); }
+.menu-controls .virtual-radio h2 { font-size: 34px; margin-bottom: 28px; }
+.menu-controls .radio-device { border: 1px solid #435368; border-radius: 24px; height: 245px; background: linear-gradient(155deg, #283748, #1c2836); padding: 20px 12px; }
+.menu-controls .radio-gimbal { width: 112px; height: 112px; border: 2px solid #6b8093; background: radial-gradient(circle, #233246, #101a2a); }
+.menu-controls .radio-gimbal::before, .menu-controls .radio-gimbal::after { content: ''; position: absolute; background: #6b809350; }
+.menu-controls .radio-gimbal::before { width: 1px; height: 80%; left: 50%; top: 10%; }
+.menu-controls .radio-gimbal::after { height: 1px; width: 80%; top: 50%; left: 10%; }
+.menu-controls .radio-gimbal i { width: 17px; height: 17px; background: var(--accent); border: 2px solid #ffe0bc; box-shadow: 0 2px 12px #0006; }
+.menu-controls .radio-center { width: 1px; height: 80px; background: #65788e55; }
+.course-card:focus-visible, .home-destinations button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (min-width: 1600px) {
+  .collection-layout { grid-template-columns: minmax(0, 1fr) 430px; }
+  .menu-career .course-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); }
+  .menu-maps .course-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); }
+  .course-card-content strong { font-size: 30px; }
+  .course-detail-body { padding: 26px; }
+}
+@media (max-height: 760px) and (min-width: 901px) {
+  .section-header { min-height: 48px; }
+  .section-heading h1 { font-size: 32px; }
+  .competition-image { height: 30%; }
+  .competition-body { padding: 18px 22px; }
+  .competition-body h2 { font-size: 32px; }
+  .competition-body p { margin-bottom: 12px; }
+  .course-detail-image { height: 23%; }
+  .course-detail-body { padding: 17px; }
+  .course-detail h2 { font-size: 29px; }
+  .course-description { margin-bottom: 12px; }
+  .course-reward { margin-top: 12px; }
+  .lesson-outline { font-size: 11.5px; line-height: 1.4; }
+  .lesson-outline li { margin-bottom: 7px; }
+  .menu-controls .menu-panel { padding: 16px 20px; }
+}
+@media (max-height: 650px) and (min-width: 901px) {
+  .menu-maps .menu-layout.composed-layout, .menu-multiplayer .composed-layout, .menu-career .composed-layout, .menu-tutorials .composed-layout, .menu-weekly .composed-layout, .menu-championship .composed-layout { padding: 12px 20px; gap: 12px; }
+  .section-header { min-height: 42px; }
+  .section-heading h1 { font-size: 30px; }
+  .setup-modebar .activity-choice { min-height: 34px; padding: 7px; }
+  .setup-detail .course-description { display: none; }
+  .setup-detail .course-detail-image { height: 18%; min-height: 60px; }
+  .setup-detail .course-detail-body { padding: 14px; }
+  .setup-detail h2 { font-size: 27px; margin: 7px 0; }
+  .setup-conditions { padding: 8px 0; margin: 8px 0; }
+  .menu-maps .course-card-content strong { font-size: 22px; }
+  .room-browser { padding: 16px; }
+  .room-filters { grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) 100px 115px; padding-bottom: 10px; margin-bottom: 10px; }
+  .room-joinable { grid-column: auto; align-self: end; padding-bottom: 9px; }
+  .public-room { min-height: 46px; padding: 9px 12px; }
+  .room-page { gap: 7px; }
+  .invite-panel, .ranked-panel { padding: 17px; }
+  .course-detail-image, .competition-image { height: 18%; min-height: 60px; }
+  .course-detail-body, .competition-body { padding: 14px; }
+  .course-detail h2, .competition-body h2 { font-size: 27px; margin: 7px 0; }
+  .course-description { margin-bottom: 8px; font-size: 11px; }
+  .course-location { margin-bottom: 8px; }
+  .mission-goal { padding: 10px 0; }
+  .course-reward { margin: 9px 0; font-size: 10px; }
+  .menu-controls .menu-layout { padding: 12px 18px; }
+  .menu-controls .menu-panel { padding: 12px; }
+  .menu-controls .menu-heading { margin-bottom: 8px; }
+  .menu-controls h1 { font-size: 30px; }
+  .menu-controls .panel-actions { padding-top: 8px; margin-top: 8px; }
+  .menu-controls .panel-actions .button { min-height: 34px; padding: 7px 12px; }
+  .settings-tile { min-height: 215px; }
+}
+@media (max-width: 900px) {
+  .menu-multiplayer .composed-layout, .menu-career .composed-layout, .menu-tutorials .composed-layout, .menu-weekly .composed-layout, .menu-championship .composed-layout { display: flex; flex-direction: column; overflow: auto; padding: 16px; }
+  .section-header { flex-wrap: wrap; flex: none; }
+  .section-header-actions { margin-left: auto; }
+  .section-heading { gap: 12px; }
+  .section-heading h1 { font-size: 29px; }
+  .collection-layout, .competition-layout { display: grid; grid-template-columns: 1fr; flex: none; }
+  .course-grid, .course-grid.lesson-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: none; grid-auto-rows: 170px; }
+  .course-detail-image, .competition-image { height: 200px; }
+  .course-detail, .competition-feature { min-height: 470px; }
+  .leaderboard-panel { min-height: 340px; }
+  .menu-multiplayer .online-layout { grid-template-columns: 1fr; flex: none; }
+  .room-browser { min-height: 360px; }
+  .online-sidebar { display: grid; grid-template-columns: 1fr 1fr; }
+  .menu-maps .menu-panel { max-height: none; }
+  .menu-maps .menu-layout.composed-layout { display: flex; flex-direction: column; overflow: auto; padding: 16px; }
+  .setup-modebar { width: 100%; }
+  .setup-session-bar { flex-wrap: wrap; }
+  .menu-maps .map-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .menu-maps .map-card { height: 145px; }
+  .menu-controls .menu-layout { display: flex; flex-direction: column; overflow: auto; align-items: stretch; }
+  .menu-controls .menu-panel, .menu-controls .virtual-radio { flex: none; width: 100%; max-height: none; }
+  .menu-controls .virtual-radio { align-self: stretch; }
+  .menu-workbench .component-panel, .menu-workbench .bench-sidebar { max-height: none; }
+}
+@media (max-width: 540px) {
+  .menu-settings .composed-layout { padding: 16px; overflow: auto; }
+  .settings-tiles { grid-template-columns: 1fr; gap: 12px; }
+  .settings-tile { min-height: 135px; flex-direction: row; justify-content: flex-start; gap: 18px; padding: 20px; }
+  .settings-tile-icon { width: 50px; height: 50px; margin: 0; flex: none; }
+  .settings-tile-icon .ui-icon { width: 28px; height: 28px; }
+  .settings-tile > small { display: none; }
+  .settings-tile > .ui-icon { align-self: center; margin: 0 0 0 auto; }
+  .setup-modebar { grid-template-columns: 1fr 1fr; }
+  .menu-controls .controls-form > label:has(#device-select), .menu-controls .controls-form > label:has(#throttle-mode) { width: 100%; margin-right: 0; margin-top: 10px; }
+  .section-heading .back-button { min-width: 60px; padding: 9px; }
+  .section-header-actions { margin-left: 0; width: 100%; }
+  .section-header-actions > .button { flex: 1; }
+  .online-sidebar { grid-template-columns: 1fr; }
+  .course-browser-caption small { display: none; }
+  .course-card-content { inset: auto 10px 12px; }
+  .course-card-content strong { font-size: 22px; }
+  .room-filters { grid-template-columns: 1fr 1fr; }
+  .room-joinable { grid-column: 2; }
+  .menu-home .composed-layout { padding: 14px; align-items: start; }
+}

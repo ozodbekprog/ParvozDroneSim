@@ -1,0 +1,79 @@
+{
+  "map": "hangar-c03-demo",
+  "track": "hangar-c03-demo-first-flight",
+  "id": "flight-02-height-control",
+  "name": "Climb and descend",
+  "topic": "Height control",
+  "order": 20,
+  "description": "Change height without turning a gentle descent into a fall.",
+  "steps": [
+    {
+      "text": "Start in Angle mode. Add a little throttle to climb; reduce it slightly to descend. Keep room to stop.",
+      "objective": "manual",
+      "target": 0,
+      "duration": 0,
+      "title": "Plan a controlled climb"
+    },
+    {
+      "text": "Hold the lower marker with gentle corrections.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        1.71,
+        0.7091341614723206
+      ],
+      "radius": 1.5,
+      "maxSpeed": 1,
+      "flightMode": "angle",
+      "title": "Settle at the lower marker",
+      "airborne": true
+    },
+    {
+      "text": "Climb to the upper marker. Reduce throttle early enough to stop the climb.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        3.71,
+        0.7091341614723206
+      ],
+      "radius": 0.9,
+      "maxSpeed": 1,
+      "flightMode": "angle",
+      "title": "Climb and stop",
+      "airborne": true
+    },
+    {
+      "text": "Descend to the lower marker. Add throttle before reaching it to slow the descent.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        1.71,
+        0.7091341614723206
+      ],
+      "radius": 0.9,
+      "maxSpeed": 1,
+      "flightMode": "angle",
+      "title": "Descend and stop",
+      "airborne": true
+    },
+    {
+      "text": "Return to the start marker. Level the drone, lower throttle gently and hold a stopped landing for two seconds.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        -0.03999900817871094,
+        0.7091341614723206
+      ],
+      "radius": 3,
+      "title": "Land at the start"
+    }
+  ]
+}

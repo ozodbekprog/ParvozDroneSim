@@ -1,0 +1,250 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "capturedAt": "2026-10-23T11:09:52.723Z",
+  "client": "/assets/index-D31s-vkZ.js",
+  "probe": {
+    "injectedAt": 375.70000000018626,
+    "startedAt": "2026-10-23T11:09:17.265Z",
+    "tasks": [
+      {
+        "at": 217.5,
+        "ms": 90
+      }
+    ],
+    "errors": [],
+    "focus": [],
+    "visibility": [],
+    "screens": [
+      {
+        "screen": "loading",
+        "at": 375.79999999981374
+      },
+      {
+        "screen": "home",
+        "at": 24115.400000000373
+      }
+    ],
+    "focusAtInjection": true,
+    "readyAt": 24110.099999999627,
+    "flightReadyAt": null,
+    "hangarReadyAt": null,
+    "readyVisibleAtInjection": false,
+    "retryActionAt": 23434.599999999627
+  },
+  "focus": true,
+  "visibility": "visible",
+  "framebuffer": [
+    [
+      836,
+      420
+    ]
+  ],
+  "graphics": {
+    "adaptiveResolution": false,
+    "resolution": 0.65,
+    "shadows": false,
+    "antialiasing": false,
+    "ambientOcclusion": false,
+    "bloom": false,
+    "sunShafts": false,
+    "clouds": false,
+    "exposure": 1.2,
+    "motionBlur": false,
+    "reflections": false,
+    "normalMaps": false,
+    "textureSize": 256,
+    "lodDistanceScale": 0.75,
+    "anisotropy": 1,
+    "lodMinimum": 1,
+    "quality": "custom",
+    "automaticPreset": "low"
+  },
+  "resources": [
+    {
+      "url": "/assets/index-D31s-vkZ.js",
+      "at": 205.09999999962747,
+      "ms": 0,
+      "transfer": 0,
+      "encoded": 786174,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/assets/index-aCu2W72v.css",
+      "at": 205.20000000018626,
+      "ms": 0,
+      "transfer": 0,
+      "encoded": 33646,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/assets/minus-two-BB_Om9zB.jpg",
+      "at": 297,
+      "ms": 0,
+      "transfer": 0,
+      "encoded": 316895,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/assets/dm-sans-latin-400-normal-CW0RaeGs.woff2",
+      "at": 297.70000000018626,
+      "ms": 0,
+      "transfer": 0,
+      "encoded": 14200,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/assets/Regular-BLENfjE4.woff2",
+      "at": 297.79999999981374,
+      "ms": 0,
+      "transfer": 0,
+      "encoded": 153800,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/assets/Semibold-CtyxlVHQ.woff2",
+      "at": 297.79999999981374,
+      "ms": 0,
+      "transfer": 0,
+      "encoded": 155624,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/api/catalog?knownRevision=2132caf43c0e38df",
+      "at": 306.20000000018626,
+      "ms": 0,
+      "transfer": 0,
+      "encoded": 0,
+      "status": 0,
+      "protocol": ""
+    },
+    {
+      "url": "/assets/parvoz-mark-DiniIOH5.svg",
+      "at": 307.09999999962747,
+      "ms": 0,
+      "transfer": 0,
+      "encoded": 796,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/assets/parvoz-mark-DiniIOH5.svg",
+      "at": 375.40000000037253,
+      "ms": 10.799999999813735,
+      "transfer": 0,
+      "encoded": 796,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/favicon.ico",
+      "at": 414.79999999981374,
+      "ms": 183.90000000037253,
+      "transfer": 865,
+      "encoded": 565,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/favicon.ico",
+      "at": 415.09999999962747,
+      "ms": 455.90000000037253,
+      "transfer": 865,
+      "encoded": 565,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/assets/parvoz-mark-DiniIOH5.svg",
+      "at": 415.29999999981374,
+      "ms": 2.2000000001862645,
+      "transfer": 0,
+      "encoded": 796,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/api/catalog?knownRevision=2132caf43c0e38df",
+      "at": 1115,
+      "ms": 0,
+      "transfer": 0,
+      "encoded": 0,
+      "status": 0,
+      "protocol": ""
+    },
+    {
+      "url": "/api/catalog?knownRevision=2132caf43c0e38df",
+      "at": 2617.0999999996275,
+      "ms": 0.10000000055879354,
+      "transfer": 0,
+      "encoded": 0,
+      "status": 0,
+      "protocol": ""
+    },
+    {
+      "url": "/api/catalog?knownRevision=2132caf43c0e38df",
+      "at": 23695,
+      "ms": 175.70000000018626,
+      "transfer": 517,
+      "encoded": 217,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/api/me",
+      "at": 23872,
+      "ms": 194.70000000018626,
+      "transfer": 1005,
+      "encoded": 705,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/assets/parvoz-mark-DiniIOH5.svg",
+      "at": 24115.599999999627,
+      "ms": 1.900000000372529,
+      "transfer": 0,
+      "encoded": 796,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/api/content-revision",
+      "at": 25302.099999999627,
+      "ms": 175,
+      "transfer": 331,
+      "encoded": 31,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/api/content-revision",
+      "at": 30305.299999999814,
+      "ms": 178.29999999981374,
+      "transfer": 331,
+      "encoded": 31,
+      "status": 200,
+      "protocol": "h2"
+    },
+    {
+      "url": "/api/content-revision",
+      "at": 35306.200000000186,
+      "ms": 188.3999999994412,
+      "transfer": 331,
+      "encoded": 31,
+      "status": 200,
+      "protocol": "h2"
+    }
+  ],
+  "release": "20261023-stability-03",
+  "conditions": {
+    "network": "native",
+    "fault": "exact catalog blocked for 3 attempts, then unblocked and clicked Retry",
+    "recoveryWithoutReload": true
+  }
+}

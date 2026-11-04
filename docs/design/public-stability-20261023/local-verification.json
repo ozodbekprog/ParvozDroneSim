@@ -1,0 +1,69 @@
+{
+  "preparedAt": "2026-10-22T20:44:47.012Z",
+  "status": "local-verified-public-pending",
+  "sourceCommit": "91887c2094372eae50b5f1d8dd8f70d657197cc6",
+  "fullSuiteBeforeFinalHangarGuard": {
+    "tests": 504,
+    "passed": 504,
+    "failed": 0,
+    "durationMs": 415575.0861
+  },
+  "finalAffectedSuite": {
+    "tests": 57,
+    "passed": 57,
+    "failed": 0,
+    "durationMs": 2536.8187
+  },
+  "buildPassed": true,
+  "contentPassed": true,
+  "candidate": {
+    "release": "20261023-stability-01",
+    "sourceCommit": "91887c2094372eae50b5f1d8dd8f70d657197cc6",
+    "archive": "data/stability-20261023/candidate.tar.gz",
+    "archiveSHA256": "c8a8d8d2940dff7f39be74fa97015d8ceea1a33bf097a4fd8b5fde201d1936b5",
+    "archiveBytes": 3210859,
+    "changed": 14,
+    "reuse": 384,
+    "files": 32,
+    "bytes": 11429384,
+    "client": "/assets/index-99QjUIgP.js",
+    "clientSHA256": "87212a26caea4cb8ebcda18dbd0664f0a20b147645d355fde4e58cdb32b05a36",
+    "status": "prepared-not-deployed",
+    "browserVerified": false
+  },
+  "archiveMembersReadbackVerified": 34,
+  "publicBaseline": {
+    "checkedAt": "2026-10-22T20:41:20.091Z",
+    "url": "https://parvoz-drone-sim.duckdns.org",
+    "script": "/assets/index-7TSF7k3X.js",
+    "clientSHA256": "8763faa9ef0601327fce7d54ed9f52199ea698e7a44d86af84fa222f65cf21be",
+    "health": "ok",
+    "protocol": 13,
+    "revision": "2132caf43c0e38df",
+    "catalogDecodedBytes": 217,
+    "contentUnchanged": true,
+    "limits": null,
+    "observation": "Read-only HTTP checks; this is not a browser flight or candidate release acceptance."
+  },
+  "publicRuns": {
+    "completedConditions": 4,
+    "interrupted": 1,
+    "notPerformed": 1,
+    "candidateRunsPerformed": 0
+  },
+  "browserAcceptance": false,
+  "targetHardwareAcceptance": false,
+  "productionChanged": false,
+  "blockers": [
+    "Browser Use disabled in Work settings",
+    "Oracle phone MFA; source-only SSH replacement authorized but not saved",
+    "Brand social profile/channel not identified or connected"
+  ],
+  "social": {
+    "cardsPrepared": 2,
+    "videoScriptsPrepared": 1,
+    "postsPublished": 0,
+    "videoRecorded": false,
+    "paidServicesUsed": false
+  }
+}

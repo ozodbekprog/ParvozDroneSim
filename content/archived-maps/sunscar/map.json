@@ -1,0 +1,391 @@
+{
+  "id": "sunscar",
+  "name": "Sunscar Flats",
+  "region": "Desert Solar Array",
+  "theme": "custom",
+  "sky": "#e7b77f",
+  "fog": "#cfab82",
+  "ground": "#a7835d",
+  "sun": "#fff1c9",
+  "sunPosition": [
+    -60,
+    72,
+    15
+  ],
+  "wind": [
+    1.6,
+    0,
+    -0.4
+  ],
+  "description": "A broad desert test site with solar rows, rock mesas and a dry canal crossing.",
+  "seed": 873,
+  "cloudColor": "#cfab82",
+  "gravity": 1,
+  "model": "model.glb",
+  "colliders": [],
+  "objects": [],
+  "collisionFile": "collision.json",
+  "environment": "sunscar",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.54,
+      -440
+    ],
+    "max": [
+      440,
+      28.5,
+      440
+    ]
+  },
+  "tracks": [
+    {
+      "id": "sunscar-array-loop",
+      "name": "Sunscar Array Loop",
+      "laps": 2,
+      "spawn": {
+        "position": [
+          -124.419998,
+          5.4,
+          -70.5
+        ],
+        "yaw": 2.387763
+      },
+      "gates": [
+        {
+          "position": [
+            -108,
+            5.4,
+            -88
+          ],
+          "yaw": 2.387763,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -30,
+            5.4,
+            -108
+          ],
+          "yaw": 1.61622,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            68,
+            6.75,
+            -96
+          ],
+          "yaw": 1.075245,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            118,
+            6.75,
+            -28
+          ],
+          "yaw": 0.045423,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            76,
+            5.4,
+            80
+          ],
+          "yaw": -0.610726,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            20,
+            6.75,
+            112
+          ],
+          "yaw": -1.633215,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -84,
+            5.4,
+            70
+          ],
+          "yaw": -2.280581,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -122,
+            5.4,
+            -10
+          ],
+          "yaw": -2.990846,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "sunscar-canal-dash",
+      "name": "Sunscar Canal Dash",
+      "laps": 1,
+      "spawn": {
+        "position": [
+          -90.440002,
+          5.4,
+          15.92
+        ],
+        "yaw": -2.189224
+      },
+      "gates": [
+        {
+          "position": [
+            -110,
+            5.4,
+            2
+          ],
+          "yaw": -2.189224,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -60,
+            5.4,
+            40
+          ],
+          "yaw": 1.199087,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            8,
+            5.4,
+            48
+          ],
+          "yaw": 1.542233,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            80,
+            5.4,
+            44
+          ],
+          "yaw": 1.004067,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            74,
+            5.4,
+            90
+          ],
+          "yaw": -0.475011,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            44,
+            5.4,
+            114
+          ],
+          "yaw": -2.016902,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    }
+  ],
+  "bundledChallenges": [
+    {
+      "id": "sunscar-array-survey",
+      "name": "Array Survey",
+      "map": "sunscar",
+      "track": "sunscar-array-loop",
+      "target": 473,
+      "reward": 180,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Use the dark solar rows to judge your heading."
+        },
+        {
+          "afterGate": 2,
+          "text": "The canal and control hut mark the far side of the course."
+        },
+        {
+          "afterGate": 5,
+          "text": "Stay above the panels and turn early around the mesas."
+        }
+      ]
+    },
+    {
+      "id": "sunscar-canal-crossing",
+      "name": "Canal Crossing",
+      "map": "sunscar",
+      "track": "sunscar-canal-dash",
+      "target": 236,
+      "reward": 230,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Use the dark solar rows to judge your heading."
+        },
+        {
+          "afterGate": 2,
+          "text": "The canal and control hut mark the far side of the course."
+        },
+        {
+          "afterGate": 4,
+          "text": "Stay above the panels and turn early around the mesas."
+        }
+      ]
+    },
+    {
+      "id": "sunscar-golden-hour",
+      "name": "Golden Hour",
+      "map": "sunscar",
+      "track": "sunscar-canal-dash",
+      "target": 201,
+      "reward": 350,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Use the dark solar rows to judge your heading."
+        },
+        {
+          "afterGate": 2,
+          "text": "The canal and control hut mark the far side of the course."
+        },
+        {
+          "afterGate": 4,
+          "text": "Stay above the panels and turn early around the mesas."
+        }
+      ]
+    },
+    {
+      "id": "sunscar-heat-run",
+      "name": "Heat Run",
+      "map": "sunscar",
+      "track": "sunscar-array-loop",
+      "target": 368,
+      "reward": 310,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Use the dark solar rows to judge your heading."
+        },
+        {
+          "afterGate": 2,
+          "text": "The canal and control hut mark the far side of the course."
+        },
+        {
+          "afterGate": 5,
+          "text": "Stay above the panels and turn early around the mesas."
+        }
+      ]
+    }
+  ],
+  "bundledTutorials": []
+}

@@ -1,0 +1,355 @@
+[
+  {
+    "id": "modular_factory_facade",
+    "title": "Modular Factory Facade",
+    "authors": {
+      "James Ray Cock": "All"
+    },
+    "source": "https://polyhaven.com/a/modular_factory_facade",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "files": {
+      "include": {
+        "textures/modular_factory_facade_doors_nor_gl_1k.png": {
+          "size": 4485734,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_doors_nor_gl_1k.png",
+          "md5": "5279c7bed3077d6f79f04e75d1f15437"
+        },
+        "textures/modular_factory_facade_garage_nor_gl_1k.png": {
+          "size": 4694227,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_garage_nor_gl_1k.png",
+          "md5": "c43f9d8ab1b7cd7b339d7fab0f6ab6b8"
+        },
+        "textures/modular_factory_facade_trim_01_diff_1k.png": {
+          "size": 6090548,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_trim_01_diff_1k.png",
+          "md5": "9f134862c4811c896c548fee5dfc1ff0"
+        },
+        "textures/modular_factory_facade_brick_diff_1k.png": {
+          "size": 2236869,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_brick_diff_1k.png",
+          "md5": "45f0a5ff434187c0ebbb984e7e1d77f2"
+        },
+        "textures/modular_factory_facade_garage_rough_1k.png": {
+          "size": 1569816,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_garage_rough_1k.png",
+          "md5": "ef4ab45198cf0580afdf48647f178083"
+        },
+        "textures/modular_factory_facade_windows_alpha_1k.png": {
+          "size": 857712,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_windows_alpha_1k.png",
+          "md5": "37537215300e6f2545aab3e7a927258b"
+        },
+        "textures/modular_factory_facade_doors_diff_1k.png": {
+          "size": 5447504,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_doors_diff_1k.png",
+          "md5": "65367a0b2897d28b52786cfad5f2c3b9"
+        },
+        "textures/modular_factory_facade_windows_diff_1k.png": {
+          "size": 5772527,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_windows_diff_1k.png",
+          "md5": "105af3492cd56164d909865e9f3b608f"
+        },
+        "textures/modular_factory_facade_doors_metal_1k.png": {
+          "size": 391285,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_doors_metal_1k.png",
+          "md5": "225c0cd4bde59d2aef571a14d93eafc4"
+        },
+        "textures/modular_factory_facade_brick_rough_1k.png": {
+          "size": 2375677,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_brick_rough_1k.png",
+          "md5": "9bed0216de1ce27f8cf23738813e5656"
+        },
+        "textures/modular_factory_facade_trim_01_rough_1k.png": {
+          "size": 1836232,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_trim_01_rough_1k.png",
+          "md5": "cd795c6d102162b3f836e951b8352731"
+        },
+        "textures/modular_factory_facade_windows_nor_gl_1k.png": {
+          "size": 4727012,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_windows_nor_gl_1k.png",
+          "md5": "82b0a87ee0950fd845715dc6a2ee1598"
+        },
+        "textures/modular_factory_facade_trim_01_nor_gl_1k.png": {
+          "size": 5470617,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_trim_01_nor_gl_1k.png",
+          "md5": "fc132be856c2a507f2e3e52209dcb714"
+        },
+        "textures/modular_factory_facade_brick_disp_1k.png": {
+          "size": 2222116,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_brick_disp_1k.png",
+          "md5": "a4958db3c40be7ec717380ad94591e86"
+        },
+        "textures/modular_factory_facade_garage_metal_1k.png": {
+          "size": 68723,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_garage_metal_1k.png",
+          "md5": "e393e0d8e9a40b12b9cea6f192ae0bcf"
+        },
+        "textures/modular_factory_facade_garage_diff_1k.png": {
+          "size": 5325499,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_garage_diff_1k.png",
+          "md5": "3ecdc5fd1fcd3eeafbce92eed336021a"
+        },
+        "textures/modular_factory_facade_windows_rough_1k.png": {
+          "size": 1619107,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_windows_rough_1k.png",
+          "md5": "38d4d0137d35c6cbeecf6229b195c14b"
+        },
+        "textures/modular_factory_facade_brick_nor_gl_1k.png": {
+          "size": 5620433,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_brick_nor_gl_1k.png",
+          "md5": "2d4088b818beaac58ea401347e3c7854"
+        },
+        "textures/modular_factory_facade_doors_rough_1k.png": {
+          "size": 1586977,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_factory_facade/modular_factory_facade_doors_rough_1k.png",
+          "md5": "7313ed6977adddfa789106ff58f477ae"
+        }
+      },
+      "size": 2457480,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modular_factory_facade/modular_factory_facade_1k.blend",
+      "md5": "dd6763bf48a5558e51c2ed9855a2cc93"
+    }
+  },
+  {
+    "id": "modular_industrial_pipes_01",
+    "title": "Modular Industrial Pipes 01",
+    "authors": {
+      "Jorge Camacho": "All"
+    },
+    "source": "https://polyhaven.com/a/modular_industrial_pipes_01",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "files": {
+      "include": {
+        "textures/modular_industrial_pipes_01_group01_metal_1k.png": {
+          "size": 530197,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_metal_1k.png",
+          "md5": "0301bf0faf55e9eb1af1654eb22c6f84"
+        },
+        "textures/modular_industrial_pipes_01_group02_metal_1k.png": {
+          "size": 543858,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_metal_1k.png",
+          "md5": "57a04caa94b2acec7d62c64112228d42"
+        },
+        "textures/modular_industrial_pipes_01_group01_nor_gl_1k.png": {
+          "size": 1439922,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_nor_gl_1k.png",
+          "md5": "8adb80a130ff0d8074e9dfb3a3449aad"
+        },
+        "textures/modular_industrial_pipes_01_group02_diff_1k.png": {
+          "size": 1270339,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_diff_1k.png",
+          "md5": "5ad48de5238afe7b725fed4691e08328"
+        },
+        "textures/modular_industrial_pipes_01_group02_rough_1k.png": {
+          "size": 649920,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_rough_1k.png",
+          "md5": "d6ecd22305a7f94834ab7b4d3c9a5ac6"
+        },
+        "textures/modular_industrial_pipes_01_group01_rough_1k.png": {
+          "size": 603051,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_rough_1k.png",
+          "md5": "74bf85b04648f0c469952e3a0fb658ba"
+        },
+        "textures/modular_industrial_pipes_01_group01_diff_1k.png": {
+          "size": 1173645,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_diff_1k.png",
+          "md5": "88fd1b1d432cdb2d9c430478acfa7794"
+        },
+        "textures/modular_industrial_pipes_01_group02_nor_gl_1k.png": {
+          "size": 1549785,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_nor_gl_1k.png",
+          "md5": "c623312a84db36125b83a8243c25609b"
+        }
+      },
+      "size": 397766,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_1k.blend",
+      "md5": "c6a4ce8afa968f8b572a53c7ea88dff4"
+    }
+  },
+  {
+    "id": "concrete_road_barrier",
+    "title": "Concrete Road Barrier",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "source": "https://polyhaven.com/a/concrete_road_barrier",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "files": {
+      "include": {
+        "textures/concrete_road_barrier_nor_gl_1k.exr": {
+          "size": 2107925,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/concrete_road_barrier/concrete_road_barrier_nor_gl_1k.exr",
+          "md5": "4532c35acd13385062a40f7b0b50343b"
+        },
+        "textures/concrete_road_barrier_rough_1k.exr": {
+          "size": 518777,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/concrete_road_barrier/concrete_road_barrier_rough_1k.exr",
+          "md5": "9dc756383e79a6c8d32a2bc02466c8a2"
+        },
+        "textures/concrete_road_barrier_diff_1k.jpg": {
+          "size": 792641,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/concrete_road_barrier/concrete_road_barrier_diff_1k.jpg",
+          "md5": "0fc11541996e1ddbdb1875dff35bc1c9"
+        },
+        "textures/concrete_road_barrier_disp_1k.png": {
+          "size": 1698556,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/concrete_road_barrier/concrete_road_barrier_disp_1k.png",
+          "md5": "cef5c0386ca9f7bd380e75594d6a1f96"
+        }
+      },
+      "size": 2597168,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/concrete_road_barrier/concrete_road_barrier_1k.blend",
+      "md5": "a3e468415944c7271bd85b4c0c616fd6"
+    }
+  },
+  {
+    "id": "metal_tool_chest",
+    "title": "Metal Tool Chest",
+    "authors": {
+      "Yann Kervran": "Rigging",
+      "John Hutcheson": "Modeling & Texturing"
+    },
+    "source": "https://polyhaven.com/a/metal_tool_chest",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "files": {
+      "include": {
+        "textures/metal_tool_chest_nor_gl_1k.exr": {
+          "size": 1366038,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/metal_tool_chest/metal_tool_chest_nor_gl_1k.exr",
+          "md5": "3e4e13fa7036015348a30378948d9b74"
+        },
+        "textures/metal_tool_chest_metal_1k.exr": {
+          "size": 186387,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/metal_tool_chest/metal_tool_chest_metal_1k.exr",
+          "md5": "5a59c7842b5a6e3406e9a1a4a74b936f"
+        },
+        "textures/metal_tool_chest_diff_1k.jpg": {
+          "size": 552016,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_tool_chest/metal_tool_chest_diff_1k.jpg",
+          "md5": "4deaf0af07e8cadbfbd4975b49f597df"
+        },
+        "textures/metal_tool_chest_rough_1k.exr": {
+          "size": 1076551,
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/metal_tool_chest/metal_tool_chest_rough_1k.exr",
+          "md5": "85a7e8699e090ce8bf28fe95a403e4fc"
+        }
+      },
+      "size": 799220,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/metal_tool_chest/metal_tool_chest_1k.blend",
+      "md5": "274be84f73efcd93137f48252da1a5c2"
+    }
+  },
+  {
+    "id": "smooth_concrete_floor",
+    "title": "Smooth Concrete Floor",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "source": "https://polyhaven.com/a/smooth_concrete_floor",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "files": {
+      "diff": {
+        "name": "smooth_concrete_floor_diff_1k.png",
+        "size": 5601991,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/smooth_concrete_floor/smooth_concrete_floor_diff_1k.png",
+        "md5": "f07ebc1efdebf7afcbae4cfdfdf525f1"
+      },
+      "nor_gl": {
+        "name": "smooth_concrete_floor_nor_gl_1k.png",
+        "size": 5270878,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/smooth_concrete_floor/smooth_concrete_floor_nor_gl_1k.png",
+        "md5": "da9344e29599ceb9d992232d766e59be"
+      },
+      "rough": {
+        "name": "smooth_concrete_floor_rough_1k.png",
+        "size": 2416150,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/smooth_concrete_floor/smooth_concrete_floor_rough_1k.png",
+        "md5": "e739c0368c0af9067c0a62241f3afff0"
+      },
+      "ao": {
+        "name": "smooth_concrete_floor_ao_1k.png",
+        "size": 1872212,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/smooth_concrete_floor/smooth_concrete_floor_ao_1k.png",
+        "md5": "4034ae11e35d2a0dd4ae5ed37b79b44c"
+      }
+    }
+  },
+  {
+    "id": "concrete_floor_worn_001",
+    "title": "Concrete Floor Worn 001",
+    "authors": {
+      "Dimitrios Savva": "Photography",
+      "Rico Cilliers": "Processing"
+    },
+    "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "files": {
+      "diff": {
+        "name": "concrete_floor_worn_001_diff_1k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_worn_001/concrete_floor_worn_001_diff_1k.png",
+        "size": 5252392,
+        "md5": "8fb2856c11f46acb31699ad9e10b43f1"
+      },
+      "nor_gl": {
+        "name": "concrete_floor_worn_001_nor_gl_1k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_1k.png",
+        "size": 5535944,
+        "md5": "f51224b2c70a60429eeb2b536fed0151"
+      },
+      "rough": {
+        "name": "concrete_floor_worn_001_rough_1k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_worn_001/concrete_floor_worn_001_rough_1k.png",
+        "size": 2495282,
+        "md5": "eb0d189fe1aea3f82edfbb5034a9f3b8"
+      },
+      "ao": {
+        "name": "concrete_floor_worn_001_ao_1k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_worn_001/concrete_floor_worn_001_ao_1k.png",
+        "size": 1809816,
+        "md5": "78db59332edc720fc985bc9d130c64d6"
+      }
+    }
+  },
+  {
+    "id": "painted_plaster_wall",
+    "title": "Painted Plaster Wall",
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "source": "https://polyhaven.com/a/painted_plaster_wall",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "files": {
+      "diff": {
+        "name": "painted_plaster_wall_diff_1k.png",
+        "size": 5617058,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/painted_plaster_wall/painted_plaster_wall_diff_1k.png",
+        "md5": "a579bdf62c32e5d8ada9b167da322416"
+      },
+      "nor_gl": {
+        "name": "painted_plaster_wall_nor_gl_1k.png",
+        "size": 5688118,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/painted_plaster_wall/painted_plaster_wall_nor_gl_1k.png",
+        "md5": "a040e68bcbc18ce5f9bb84649c877d01"
+      },
+      "rough": {
+        "name": "painted_plaster_wall_rough_1k.png",
+        "size": 1678277,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/painted_plaster_wall/painted_plaster_wall_rough_1k.png",
+        "md5": "d83a79ebf1c0a51f83c032a9ec87d435"
+      },
+      "ao": {
+        "name": "painted_plaster_wall_ao_1k.png",
+        "size": 1674527,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/painted_plaster_wall/painted_plaster_wall_ao_1k.png",
+        "md5": "66611da5c54cf56968ec395219930fb7"
+      }
+    }
+  }
+]

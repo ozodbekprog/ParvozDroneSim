@@ -1,0 +1,33 @@
+<!doctype html><html><meta charset="utf-8"><title>Hangar performance probe</title><style>html,body{margin:0;color:white;background:#172128;font:14px sans-serif}#view{position:absolute;inset:0}.hangar-stage{position:absolute;inset:70px 25% 24% 0}output,nav{position:absolute;z-index:2;background:#000c;padding:10px}output{top:50px;right:0;max-width:550px;white-space:pre-wrap}nav{top:0}button{padding:8px}</style><div id="view"></div><div class="hangar-stage"></div><nav><button id="run">Measure orbit + zoom</button><button id="still">Measure still</button></nav><output>Preparing</output><script type="module">
+import {GRAPHICS_PRESETS} from '../src/graphics-settings.js';
+import {applyCustomContent} from '../shared/custom-content.js';
+import {resolveBuild,defaultBuild,createDroneState} from '../shared/physics.js';
+import {createDrone} from '../public/content/recipes.js';
+import {inspectionBuild} from '../src/drone-preview.js';
+import {bindPreviewControls} from '../src/preview-controls.js';
+import catalog from '../public/content/catalog.json';
+const q=new URLSearchParams(location.search),output=document.querySelector('output');
+const {World}=await import(q.has('baseline')?'../data/hangar-baseline/world.js':'../src/world.js');
+applyCustomContent(catalog);
+const world=new World(document.querySelector('#view'),false,{forceWebGL:true});await world.ready;
+world.setGraphics({...GRAPHICS_PRESETS.low,quality:'low',fixedResolution:[1280,720],adaptiveResolution:false});
+await world.prepareHangarPreview('selection',q.get('map')||'minus-two-demo');
+const build=resolveBuild(defaultBuild(q.get('drone')||'kestrel')),mesh=createDrone(inspectionBuild(build));await mesh.assetsReady;
+world.installDronePreview(mesh,build,createDroneState([0,0,0],0));
+if(!q.has('baseline'))await world.renderer.compileAsync(world.scene,world.camera);
+bindPreviewControls(document.querySelector('.hangar-stage'),world);
+let capture=null,previous=0;
+for(const id of ['run','still'])document.querySelector('#'+id).onclick=()=>{world.resetHangarPreview();capture={start:performance.now(),mode:id,frames:[],cpu:[],draws:[],triangles:[]};};
+const summary=values=>{const a=[...values].sort((a,b)=>a-b);return {median:a[Math.floor(a.length*.5)],p95:a[Math.floor(a.length*.95)],max:a.at(-1)};};
+world.startAnimation(now=>{
+ const start=performance.now();
+ if(capture?.mode==='run'){const t=(now-capture.start)/1000;world.hangarOrbit.adjusted=true;world.hangarOrbit.azimuth=.72-t*Math.PI/2;world.hangarOrbit.elevation=.4+.1*Math.sin(t);world.hangarOrbit.zoom=1+.2*Math.sin(t*2);}
+ world.render(now);
+ if(capture){
+  if(now-capture.start>3000&&previous){capture.frames.push(now-previous);capture.cpu.push(performance.now()-start);capture.draws.push(world.renderer.info.render.drawCalls??world.renderer.info.render.calls);capture.triangles.push(world.renderer.info.render.triangles);}
+  if(now-capture.start>13000){output.textContent=JSON.stringify({mode:capture.mode,frames:capture.frames.length,frame:summary(capture.frames),cpu:summary(capture.cpu),draws:summary(capture.draws),triangles:summary(capture.triangles),backend:'WebGL2',framebuffer:[world.renderer.domElement.width,world.renderer.domElement.height]},null,2);capture=null;}
+  else output.textContent='Measuring '+capture.mode+' '+Math.round((now-capture.start)/1000)+' s';
+ }else if(output.textContent==='Preparing')output.textContent='Ready';
+ previous=now;
+});
+</script></html>

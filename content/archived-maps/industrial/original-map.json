@@ -1,0 +1,45 @@
+{
+  "id": "industrial",
+  "name": "Ironworks",
+  "region": "Industrial Circuit",
+  "theme": "custom",
+  "seed": 417,
+  "description": "Pipe bridges, tanks, and tight steel corridors.",
+  "sky": "#7d909a",
+  "fog": "#879398",
+  "ground": "#6e7070",
+  "sun": "#dbe6e9",
+  "sunPosition": [
+    -42,
+    71,
+    33
+  ],
+  "cloudColor": "#becbd0",
+  "wind": [
+    0.4,
+    0,
+    0.6
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "industrial",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.39,
+      -440
+    ],
+    "max": [
+      440,
+      64,
+      440
+    ]
+  }
+}

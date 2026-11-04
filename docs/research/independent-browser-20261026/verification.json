@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-26T07:44:26.6600297Z",
+  "scope": "Documentation, JSON parsing, local file links, balanced fences and recorded source snapshot hashes only",
+  "markdownFiles": 4,
+  "sourceSnapshotHashes": 42,
+  "localLinks": "pass",
+  "jsonParsing": "pass",
+  "balancedFences": "pass",
+  "sourceHashes": "pass",
+  "runtimeCodeChanged": false,
+  "dependenciesInstalled": false,
+  "benchmarksExecuted": false,
+  "productionRequests": false,
+  "deployed": false,
+  "targetUhd620Acceptance": "not measured"
+}

@@ -1,0 +1,297 @@
+{
+  "levels": [
+    {
+      "model": "/content/review/kestrel/hangar.glb",
+      "triangles": 37783,
+      "primitives": 18,
+      "rotors": [
+        {
+          "name": "Rotor_0",
+          "position": [
+            0.07321171462535858,
+            0.0073236324824392796,
+            0.08868508785963058
+          ]
+        },
+        {
+          "name": "Rotor_1",
+          "position": [
+            -0.07321171462535858,
+            0.0073236324824392796,
+            0.08868508785963058
+          ]
+        },
+        {
+          "name": "Rotor_2",
+          "position": [
+            -0.07321171462535858,
+            0.0073236324824392796,
+            -0.08868508785963058
+          ]
+        },
+        {
+          "name": "Rotor_3",
+          "position": [
+            0.07321171462535858,
+            0.0073236324824392796,
+            -0.08868508785963058
+          ]
+        }
+      ],
+      "textures": [
+        {
+          "name": "Image_3",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_0",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_1",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_6",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_7",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_4",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_5",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        }
+      ]
+    },
+    {
+      "model": "/content/review/kestrel/low.glb",
+      "triangles": 10363,
+      "primitives": 18,
+      "rotors": [
+        {
+          "name": "Rotor_0",
+          "position": [
+            0.07321171462535858,
+            0.0073236324824392796,
+            0.08868508785963058
+          ]
+        },
+        {
+          "name": "Rotor_1",
+          "position": [
+            -0.07321171462535858,
+            0.0073236324824392796,
+            0.08868508785963058
+          ]
+        },
+        {
+          "name": "Rotor_2",
+          "position": [
+            -0.07321171462535858,
+            0.0073236324824392796,
+            -0.08868508785963058
+          ]
+        },
+        {
+          "name": "Rotor_3",
+          "position": [
+            0.07321171462535858,
+            0.0073236324824392796,
+            -0.08868508785963058
+          ]
+        }
+      ],
+      "textures": [
+        {
+          "name": "Image_3",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_0",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_1",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_6",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_7",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_4",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_5",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        }
+      ]
+    },
+    {
+      "model": "/content/review/kestrel/far.glb",
+      "triangles": 2321,
+      "primitives": 18,
+      "rotors": [
+        {
+          "name": "Rotor_0",
+          "position": [
+            0.07321171462535858,
+            0.0073236324824392796,
+            0.08868508785963058
+          ]
+        },
+        {
+          "name": "Rotor_1",
+          "position": [
+            -0.07321171462535858,
+            0.0073236324824392796,
+            0.08868508785963058
+          ]
+        },
+        {
+          "name": "Rotor_2",
+          "position": [
+            -0.07321171462535858,
+            0.0073236324824392796,
+            -0.08868508785963058
+          ]
+        },
+        {
+          "name": "Rotor_3",
+          "position": [
+            0.07321171462535858,
+            0.0073236324824392796,
+            -0.08868508785963058
+          ]
+        }
+      ],
+      "textures": [
+        {
+          "name": "Image_3",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_0",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_1",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_6",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_7",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_4",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        },
+        {
+          "name": "Image_5",
+          "size": [
+            1024,
+            1024
+          ],
+          "mimeType": "image/ktx2"
+        }
+      ]
+    }
+  ],
+  "artisticAcceptance": false,
+  "targetHardwareVerified": false
+}

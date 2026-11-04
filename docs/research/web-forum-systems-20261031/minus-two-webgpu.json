@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "threeRevision": "180",
+  "asset": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+  "sourceHash": "b937e910f9981b0acf78db749f2498ea847c41a59eb3f640acdbecf00e689a24",
+  "width": 640,
+  "height": 360,
+  "geometryEqual": true,
+  "texturesEqual": true,
+  "differentPixels": 0,
+  "maxChannelDelta": 0,
+  "note": "Control-first observations; no target-hardware FPS claim.",
+  "results": [
+    {
+      "path": "Blob",
+      "backend": "WebGPU",
+      "loadMs": 1447,
+      "imageBlobURLs": 85,
+      "geometries": 654,
+      "textures": 85,
+      "mipBytes": 28139120,
+      "geometryHash": "a955ec7c8c6f5780a6242c5377c15acd5b9045502888f1ea9ff07dda54a63a83",
+      "textureHash": "12abcb0996c92915a7eff4df8ae8185a85899204986d86ce539e2da3c67897c4",
+      "foregroundPixels": 24123,
+      "framebuffer": [
+        640,
+        360
+      ],
+      "contextLost": false
+    },
+    {
+      "path": "direct",
+      "backend": "WebGPU",
+      "loadMs": 1096,
+      "imageBlobURLs": 0,
+      "geometries": 654,
+      "textures": 85,
+      "mipBytes": 28139120,
+      "geometryHash": "a955ec7c8c6f5780a6242c5377c15acd5b9045502888f1ea9ff07dda54a63a83",
+      "textureHash": "12abcb0996c92915a7eff4df8ae8185a85899204986d86ce539e2da3c67897c4",
+      "foregroundPixels": 24123,
+      "framebuffer": [
+        640,
+        360
+      ],
+      "contextLost": false
+    }
+  ]
+}

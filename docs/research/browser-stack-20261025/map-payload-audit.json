@@ -1,0 +1,725 @@
+{
+  "inspectedAt": "2026-10-25T16:39:47.414Z",
+  "method": "Read GLB JSON, embedded image bytes/KTX2 and PNG headers and SHA-256. No model, image or texture decoding. Unique image hashes exclude material/sampler identity. Meshopt decoded view bytes are logical bufferView sizes, not measured residency. Triangle sum excludes placement/LOD/visibility selection and is not draw count. RGBA8 figure includes KTX2 images only; it is hypothetical and not actual GPU allocation. Stored KTX mip bytes can be supercompressed and are not transcode target sizes.",
+  "maps": [
+    {
+      "id": "minus-two-demo",
+      "name": "Minus Two",
+      "file": "content/maps/minus-two-demo/model.glb",
+      "sha256": "b937e910f9981b0acf78db749f2498ea847c41a59eb3f640acdbecf00e689a24",
+      "fileBytes": 26340900,
+      "jsonBytes": 1219160,
+      "binBytes": 25121712,
+      "imageBytes": 13616846,
+      "meshoptBytes": 11501195,
+      "unclassifiedBinBytes": 3671,
+      "imageReferenceBytes": 13616846,
+      "uniqueEncodedImageBytes": 13616846,
+      "uniqueEncodedImages": 85,
+      "externalImages": 0,
+      "nodes": 1584,
+      "meshes": 803,
+      "primitives": 803,
+      "materials": 48,
+      "textures": 85,
+      "images": 85,
+      "logicalTrianglesAcrossMeshDefinitions": 672650,
+      "meshoptDecodedViewBytes": 30664858,
+      "hypotheticalRGBA8KtxImagesWithAuthoredMipsBytes": 112547060,
+      "uniqueKtxStoredMipPayloadBytes": 13576458,
+      "mimeTypes": {
+        "image/ktx2": 85
+      },
+      "largestDuplicateImageGroups": [],
+      "textureDimensions": {
+        "512x512": 78,
+        "256x256": 3,
+        "256x512": 2,
+        "512x256": 1,
+        "512x128": 1
+      },
+      "largestImages": [
+        {
+          "name": "texture-53",
+          "encodedBytes": 315724,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 315248
+        },
+        {
+          "name": "texture-1",
+          "encodedBytes": 306551,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 306075
+        },
+        {
+          "name": "texture-4",
+          "encodedBytes": 302234,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 301758
+        },
+        {
+          "name": "texture-62",
+          "encodedBytes": 294897,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 294421
+        },
+        {
+          "name": "texture-140",
+          "encodedBytes": 294259,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 293783
+        }
+      ]
+    },
+    {
+      "id": "hangar-c03-demo",
+      "name": "Hangar C03",
+      "file": "content/maps/hangar-c03-demo/model.glb",
+      "sha256": "590420f2e6c9ac9e8bd9c185dd253768395c1dcf4603a8c2d338aee279a3afce",
+      "fileBytes": 270814652,
+      "jsonBytes": 6395580,
+      "binBytes": 264419044,
+      "imageBytes": 74351926,
+      "meshoptBytes": 190055429,
+      "unclassifiedBinBytes": 11689,
+      "imageReferenceBytes": 74351926,
+      "uniqueEncodedImageBytes": 73842270,
+      "uniqueEncodedImages": 373,
+      "externalImages": 0,
+      "nodes": 19616,
+      "meshes": 7094,
+      "primitives": 7094,
+      "materials": 163,
+      "textures": 375,
+      "images": 375,
+      "logicalTrianglesAcrossMeshDefinitions": 8970482,
+      "meshoptDecodedViewBytes": 472608168,
+      "hypotheticalRGBA8KtxImagesWithAuthoredMipsBytes": 478062924,
+      "uniqueKtxStoredMipPayloadBytes": 73665274,
+      "mimeTypes": {
+        "image/ktx2": 375
+      },
+      "largestDuplicateImageGroups": [
+        {
+          "sha256": "860dc14204798fcb9a7f05add8261879c7053ff13c739bc36abe0fc1a7223dbc",
+          "bytes": 307168,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 2,
+          "indices": [
+            4,
+            12
+          ],
+          "redundantEncodedBytes": 307168
+        },
+        {
+          "sha256": "a1e7dfd60c99561344ac0dc1f7d990349cde64073dacc3623103a2e414ca8bcc",
+          "bytes": 202488,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 2,
+          "indices": [
+            284,
+            304
+          ],
+          "redundantEncodedBytes": 202488
+        }
+      ],
+      "textureDimensions": {
+        "512x512": 325,
+        "256x256": 17,
+        "512x256": 16,
+        "256x512": 5,
+        "512x128": 4,
+        "128x128": 3,
+        "128x512": 3,
+        "512x64": 2
+      },
+      "largestImages": [
+        {
+          "name": "texture-391",
+          "encodedBytes": 326249,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 325773
+        },
+        {
+          "name": "texture-77",
+          "encodedBytes": 325903,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 325427
+        },
+        {
+          "name": "texture-53",
+          "encodedBytes": 325350,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 324874
+        },
+        {
+          "name": "texture-469-metallic-179",
+          "encodedBytes": 319780,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 319304
+        },
+        {
+          "name": "texture-317-metallic-127",
+          "encodedBytes": 318109,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 317633
+        }
+      ]
+    },
+    {
+      "id": "liftoff-arena-demo",
+      "name": "Liftoff Arena",
+      "file": "content/maps/liftoff-arena-demo/model.glb",
+      "sha256": "7332720d884247bf84145a16044f708db33df5978513ad310d0f85a2736c06bd",
+      "fileBytes": 174042140,
+      "jsonBytes": 4869016,
+      "binBytes": 169173096,
+      "imageBytes": 62152135,
+      "meshoptBytes": 107008504,
+      "unclassifiedBinBytes": 12457,
+      "imageReferenceBytes": 62152135,
+      "uniqueEncodedImageBytes": 62009468,
+      "uniqueEncodedImages": 328,
+      "externalImages": 0,
+      "nodes": 10997,
+      "meshes": 4053,
+      "primitives": 4053,
+      "materials": 134,
+      "textures": 330,
+      "images": 330,
+      "logicalTrianglesAcrossMeshDefinitions": 3589473,
+      "meshoptDecodedViewBytes": 216823272,
+      "hypotheticalRGBA8KtxImagesWithAuthoredMipsBytes": 425808928,
+      "uniqueKtxStoredMipPayloadBytes": 61853700,
+      "mimeTypes": {
+        "image/ktx2": 330
+      },
+      "largestDuplicateImageGroups": [
+        {
+          "sha256": "5e415e91796bc567cd9349c316365f32d181ec964283e83900f491f3862ad455",
+          "bytes": 75032,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 2,
+          "indices": [
+            133,
+            231
+          ],
+          "redundantEncodedBytes": 75032
+        },
+        {
+          "sha256": "822c9351ea79eb4ffd843f8128c240fdf0b8c28afa4cd403b7c00a07c085494e",
+          "bytes": 67635,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 2,
+          "indices": [
+            229,
+            235
+          ],
+          "redundantEncodedBytes": 67635
+        }
+      ],
+      "textureDimensions": {
+        "512x512": 291,
+        "256x512": 14,
+        "256x256": 13,
+        "512x128": 6,
+        "512x256": 3,
+        "512x64": 2,
+        "128x128": 1
+      },
+      "largestImages": [
+        {
+          "name": "texture-298",
+          "encodedBytes": 318044,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 317568
+        },
+        {
+          "name": "detail-baked-2-_BumpMap",
+          "encodedBytes": 317611,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 317135
+        },
+        {
+          "name": "texture-281",
+          "encodedBytes": 315595,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 315119
+        },
+        {
+          "name": "texture-125",
+          "encodedBytes": 315202,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 314726
+        },
+        {
+          "name": "detail--6108671622807150670",
+          "encodedBytes": 313851,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 313375
+        }
+      ]
+    },
+    {
+      "id": "liftoff-pine-valley-demo",
+      "name": "Pine Valley",
+      "file": "content/maps/liftoff-pine-valley-demo/model.glb",
+      "sha256": "86db6d5ba657a81a7849f993b8392ddc90e6778afda05110e0b4413a1bb79214",
+      "fileBytes": 204877164,
+      "jsonBytes": 13502852,
+      "binBytes": 191374284,
+      "imageBytes": 122727913,
+      "meshoptBytes": 68614689,
+      "unclassifiedBinBytes": 31682,
+      "imageReferenceBytes": 122727913,
+      "uniqueEncodedImageBytes": 53944928,
+      "uniqueEncodedImages": 238,
+      "externalImages": 0,
+      "nodes": 26762,
+      "meshes": 5313,
+      "primitives": 5313,
+      "materials": 318,
+      "textures": 610,
+      "images": 610,
+      "logicalTrianglesAcrossMeshDefinitions": 6563247,
+      "meshoptDecodedViewBytes": 191673962,
+      "hypotheticalRGBA8KtxImagesWithAuthoredMipsBytes": 538967440,
+      "uniqueKtxStoredMipPayloadBytes": 50400513,
+      "mimeTypes": {
+        "image/ktx2": 598,
+        "image/png": 12
+      },
+      "largestDuplicateImageGroups": [
+        {
+          "sha256": "72cd0f1d20a5a8fa0380b48482bc0cefd713d58424d136e0fe1900a11ab3148a",
+          "bytes": 337884,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 8,
+          "indices": [
+            17,
+            29,
+            37,
+            149,
+            157,
+            165,
+            483,
+            499
+          ],
+          "redundantEncodedBytes": 2365188
+        },
+        {
+          "sha256": "f8f3e518c2c792c1e846c35410d3a2f14c0c9d51bf75c36730af897f996b46da",
+          "bytes": 336482,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 8,
+          "indices": [
+            79,
+            207,
+            223,
+            231,
+            413,
+            429,
+            541,
+            557
+          ],
+          "redundantEncodedBytes": 2355374
+        },
+        {
+          "sha256": "14459a8d7d53ce6191d591397bed65fa24151f1cfda65e526297d22d73a26368",
+          "bytes": 336217,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 8,
+          "indices": [
+            201,
+            209,
+            225,
+            407,
+            415,
+            535,
+            543,
+            559
+          ],
+          "redundantEncodedBytes": 2353519
+        },
+        {
+          "sha256": "64d9589217dfcf98e1f318c6d70f0325cd677a3cd57d866da29c301a5b6a49f1",
+          "bytes": 336114,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 8,
+          "indices": [
+            19,
+            31,
+            39,
+            151,
+            159,
+            167,
+            485,
+            501
+          ],
+          "redundantEncodedBytes": 2352798
+        },
+        {
+          "sha256": "c830d5247604528a09f74ec0859d2ababb4e311532bcffd880f2ac135f4ef7c8",
+          "bytes": 335986,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 8,
+          "indices": [
+            169,
+            177,
+            327,
+            335,
+            365,
+            503,
+            511,
+            527
+          ],
+          "redundantEncodedBytes": 2351902
+        }
+      ],
+      "textureDimensions": {
+        "512x512": 321,
+        "256x256": 258,
+        "128x512": 18,
+        "256x512": 8,
+        "512x256": 5
+      },
+      "largestImages": [
+        {
+          "name": "3701018790889454298-normal.png",
+          "encodedBytes": 603595,
+          "width": 512,
+          "height": 512,
+          "levels": null,
+          "mipPayloadBytes": null
+        },
+        {
+          "name": "-1390055202862341951-normal.png",
+          "encodedBytes": 557136,
+          "width": 512,
+          "height": 512,
+          "levels": null,
+          "mipPayloadBytes": null
+        },
+        {
+          "name": "-966568300085620696-normal.png",
+          "encodedBytes": 465523,
+          "width": 512,
+          "height": 512,
+          "levels": null,
+          "mipPayloadBytes": null
+        },
+        {
+          "name": "-2745344930439101900-normal.png",
+          "encodedBytes": 399565,
+          "width": 512,
+          "height": 512,
+          "levels": null,
+          "mipPayloadBytes": null
+        },
+        {
+          "name": "-6727060232596376598-normal.png",
+          "encodedBytes": 389143,
+          "width": 512,
+          "height": 512,
+          "levels": null,
+          "mipPayloadBytes": null
+        }
+      ]
+    },
+    {
+      "id": "liftoff-the-green-demo",
+      "name": "The Green",
+      "file": "content/maps/liftoff-the-green-demo/model.glb",
+      "sha256": "3f3c181bb39221ca3521f91b18ef53fbb7875ac32c1abb2b2fbd247a7f2c6a63",
+      "fileBytes": 265604208,
+      "jsonBytes": 16123308,
+      "binBytes": 249480872,
+      "imageBytes": 177697439,
+      "meshoptBytes": 71751693,
+      "unclassifiedBinBytes": 31740,
+      "imageReferenceBytes": 177697439,
+      "uniqueEncodedImageBytes": 175388140,
+      "uniqueEncodedImages": 896,
+      "externalImages": 0,
+      "nodes": 42739,
+      "meshes": 9371,
+      "primitives": 9371,
+      "materials": 449,
+      "textures": 910,
+      "images": 910,
+      "logicalTrianglesAcrossMeshDefinitions": 6849143,
+      "meshoptDecodedViewBytes": 162020352,
+      "hypotheticalRGBA8KtxImagesWithAuthoredMipsBytes": 926765544,
+      "uniqueKtxStoredMipPayloadBytes": 174968460,
+      "mimeTypes": {
+        "image/ktx2": 910
+      },
+      "largestDuplicateImageGroups": [
+        {
+          "sha256": "638ac31a06e5284cc97796d136155f3b787171182c5cb4361b6ff2cbad091556",
+          "bytes": 324485,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 2,
+          "indices": [
+            811,
+            875
+          ],
+          "redundantEncodedBytes": 324485
+        },
+        {
+          "sha256": "00957298c1a6c075094059d807968397026b607f66060644eb12393cc8f5422e",
+          "bytes": 323963,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 2,
+          "indices": [
+            80,
+            205
+          ],
+          "redundantEncodedBytes": 323963
+        },
+        {
+          "sha256": "24e76a2be22a73c1a898dc1b35fcfc7120933716f2f19640e10bf0e20a45a897",
+          "bytes": 323816,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 2,
+          "indices": [
+            590,
+            785
+          ],
+          "redundantEncodedBytes": 323816
+        },
+        {
+          "sha256": "e8fe0e63d19ebc60c1ebb14bf06c3f7ee112ba5ef590556b34a4c03631a347b7",
+          "bytes": 313211,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 2,
+          "indices": [
+            306,
+            469
+          ],
+          "redundantEncodedBytes": 313211
+        },
+        {
+          "sha256": "860dc14204798fcb9a7f05add8261879c7053ff13c739bc36abe0fc1a7223dbc",
+          "bytes": 307168,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "count": 2,
+          "indices": [
+            107,
+            181
+          ],
+          "redundantEncodedBytes": 307168
+        }
+      ],
+      "textureDimensions": {
+        "512x512": 575,
+        "256x256": 281,
+        "128x512": 23,
+        "256x512": 12,
+        "512x256": 10,
+        "64x512": 5,
+        "128x128": 4
+      },
+      "largestImages": [
+        {
+          "name": "texture-89",
+          "encodedBytes": 336728,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 336252
+        },
+        {
+          "name": "texture-242",
+          "encodedBytes": 335936,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 335460
+        },
+        {
+          "name": "terrain-0-320-384-color",
+          "encodedBytes": 333655,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 333179
+        },
+        {
+          "name": "terrain-0-320-448-color",
+          "encodedBytes": 332807,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 332331
+        },
+        {
+          "name": "terrain-0-416-224-color",
+          "encodedBytes": 332767,
+          "width": 512,
+          "height": 512,
+          "levels": 10,
+          "mipPayloadBytes": 332291
+        }
+      ]
+    }
+  ],
+  "crossMapSharing": {
+    "uniqueImages": 1630,
+    "uniqueImageBytes": 327678650,
+    "redundantBytesAfterPerMapDedup": 51123002,
+    "largestSharedImages": [
+      {
+        "sha256": "10a7393dcf952629767901cabd2f6486a0db11cd91bcf4dd7a0d554b253c61b2",
+        "bytes": 294259,
+        "maps": [
+          "minus-two-demo",
+          "hangar-c03-demo",
+          "liftoff-arena-demo",
+          "liftoff-pine-valley-demo",
+          "liftoff-the-green-demo"
+        ],
+        "redundantEncodedBytes": 1177036
+      },
+      {
+        "sha256": "440eacd2766b0157285c2f92ef821b5871b1bfda4cd7eb4aaaac2c71a8229c2a",
+        "bytes": 293170,
+        "maps": [
+          "minus-two-demo",
+          "hangar-c03-demo",
+          "liftoff-arena-demo",
+          "liftoff-pine-valley-demo",
+          "liftoff-the-green-demo"
+        ],
+        "redundantEncodedBytes": 1172680
+      },
+      {
+        "sha256": "baf5d604a9e9ad993602b243a139709dca74af1cfd20a5aa60756d87af9a9976",
+        "bytes": 282614,
+        "maps": [
+          "minus-two-demo",
+          "hangar-c03-demo",
+          "liftoff-arena-demo",
+          "liftoff-pine-valley-demo",
+          "liftoff-the-green-demo"
+        ],
+        "redundantEncodedBytes": 1130456
+      },
+      {
+        "sha256": "445fe9424bbdc73e13886be0e121c784adb97a829194ad80480e82d84f440f93",
+        "bytes": 214678,
+        "maps": [
+          "minus-two-demo",
+          "hangar-c03-demo",
+          "liftoff-arena-demo",
+          "liftoff-pine-valley-demo",
+          "liftoff-the-green-demo"
+        ],
+        "redundantEncodedBytes": 858712
+      },
+      {
+        "sha256": "5aa2b844f546e1239eb7fd79977b409210af9f9ae4bd8a95df92f636342b5af9",
+        "bytes": 264507,
+        "maps": [
+          "minus-two-demo",
+          "hangar-c03-demo",
+          "liftoff-arena-demo",
+          "liftoff-the-green-demo"
+        ],
+        "redundantEncodedBytes": 793521
+      },
+      {
+        "sha256": "8cfa72447ab45f584ea7eb031e81544c24c89babb582ff15a61a25468479020f",
+        "bytes": 262848,
+        "maps": [
+          "hangar-c03-demo",
+          "liftoff-arena-demo",
+          "liftoff-pine-valley-demo",
+          "liftoff-the-green-demo"
+        ],
+        "redundantEncodedBytes": 788544
+      },
+      {
+        "sha256": "6101bdfcc0adbaa8756ef2e0e37e36a19ce974de38ccfaf67e0b3ea088b9f613",
+        "bytes": 195372,
+        "maps": [
+          "minus-two-demo",
+          "hangar-c03-demo",
+          "liftoff-arena-demo",
+          "liftoff-pine-valley-demo",
+          "liftoff-the-green-demo"
+        ],
+        "redundantEncodedBytes": 781488
+      },
+      {
+        "sha256": "01d684a0525c21a42824a701348ea8e86836574be6a1c478cb8c307cb7b8b9fe",
+        "bytes": 254565,
+        "maps": [
+          "hangar-c03-demo",
+          "liftoff-arena-demo",
+          "liftoff-pine-valley-demo",
+          "liftoff-the-green-demo"
+        ],
+        "redundantEncodedBytes": 763695
+      }
+    ]
+  }
+}

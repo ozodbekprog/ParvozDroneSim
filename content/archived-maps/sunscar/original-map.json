@@ -1,0 +1,44 @@
+{
+  "id": "sunscar",
+  "name": "Sunscar Flats",
+  "region": "Desert Solar Array",
+  "theme": "custom",
+  "sky": "#e7b77f",
+  "fog": "#cfab82",
+  "ground": "#a7835d",
+  "sun": "#fff1c9",
+  "sunPosition": [
+    -60,
+    72,
+    15
+  ],
+  "wind": [
+    1.6,
+    0,
+    -0.4
+  ],
+  "description": "A broad desert test site with solar rows, rock mesas and a dry canal crossing.",
+  "seed": 873,
+  "cloudColor": "#cfab82",
+  "gravity": 1,
+  "model": "model.glb",
+  "colliders": [],
+  "objects": [],
+  "collisionFile": "collision.json",
+  "environment": "sunscar",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.54,
+      -440
+    ],
+    "max": [
+      440,
+      28.5,
+      440
+    ]
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "recordedAt": "2026-10-26T07:41:59.6137918Z",
+  "scope": "Selected exact-version source snapshots and artifacts inspected read-only. Hashes identify bytes, not execution or correctness. Raw upstream copies remain ignored research data; web-only observations are linked in the report and are not represented as downloaded snapshots.",
+  "sources": [
+    {
+      "snapshot": "pc-asset.js",
+      "url": "https://raw.githubusercontent.com/playcanvas/engine/v2.23.3/src/framework/asset/asset.js",
+      "version": "2.23.3",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 29724,
+      "sha256": "f1fc893946620d968107bb7ed2674bbdf1ee63f0688992e78195aacba8dac1f2"
+    },
+    {
+      "snapshot": "pc-glb-parser.js",
+      "url": "https://raw.githubusercontent.com/playcanvas/engine/v2.23.3/src/framework/parsers/glb-parser.js",
+      "version": "2.23.3",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 67717,
+      "sha256": "9d18ef570ee289945e752468aa7a70b49f39944ae43cc977847d174b7c0e5f43"
+    },
+    {
+      "snapshot": "pc-webgpu-render-pipeline.js",
+      "url": "https://raw.githubusercontent.com/playcanvas/engine/v2.23.3/src/platform/graphics/webgpu/webgpu-render-pipeline.js",
+      "version": "2.23.3",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 20767,
+      "sha256": "9b8bcd3e963e0bab5f5eed6ff8ff8f987f40f5055c7b731d8b3c24c8571e7dd7"
+    },
+    {
+      "snapshot": "pc-webgpu-device.js",
+      "url": "https://raw.githubusercontent.com/playcanvas/engine/v2.23.3/src/platform/graphics/webgpu/webgpu-graphics-device.js",
+      "version": "2.23.3",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 86122,
+      "sha256": "efa718c8226d0339b70be7a8e509d7490aac38131a7236cb6f0a47b49fbf3ba3"
+    },
+    {
+      "snapshot": "lite-packages_babylon-lite_package.json",
+      "url": "https://raw.githubusercontent.com/BabylonJS/Babylon-Lite/npm-lite-v1.36.0/packages/babylon-lite/package.json",
+      "version": "npm-lite-v1.36.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 1236,
+      "sha256": "5bf8981ac118116ac7b8927d8fc7f5adfa49129dfc49cd3f9b26ccad7e494f5f"
+    },
+    {
+      "snapshot": "lite-packages_babylon-lite-gl_package.json",
+      "url": "https://raw.githubusercontent.com/BabylonJS/Babylon-Lite/npm-lite-v1.36.0/packages/babylon-lite-gl/package.json",
+      "version": "npm-lite-v1.36.0 (workspace snapshot)",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 1426,
+      "sha256": "d7c391ee07ab0fc7a4b366156ecf23c97cf8aebcb1807ee834c226df1bfb455e"
+    },
+    {
+      "snapshot": "lite-packages_babylon-lite-gl_README.md",
+      "url": "https://raw.githubusercontent.com/BabylonJS/Babylon-Lite/npm-lite-v1.36.0/packages/babylon-lite-gl/README.md",
+      "version": "npm-lite-v1.36.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 9734,
+      "sha256": "0edfbe9b45a2c4c0b55569543604ceba0d3c6cbe36c272c1fdd0098ed444d508"
+    },
+    {
+      "snapshot": "lite-packages_babylon-lite_src_engine_gpu-resource-disposal.ts",
+      "url": "https://raw.githubusercontent.com/BabylonJS/Babylon-Lite/npm-lite-v1.36.0/packages/babylon-lite/src/engine/gpu-resource-disposal.ts",
+      "version": "npm-lite-v1.36.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 574,
+      "sha256": "f7d4229eae9b00d96e2535d9a0f8fbe0ae7136463a890f72c0c64287a8ca5e81"
+    },
+    {
+      "snapshot": "lite-packages_babylon-lite_src_engine_gpu-resource-retirement.ts",
+      "url": "https://raw.githubusercontent.com/BabylonJS/Babylon-Lite/npm-lite-v1.36.0/packages/babylon-lite/src/engine/gpu-resource-retirement.ts",
+      "version": "npm-lite-v1.36.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 5039,
+      "sha256": "6c577cdc60293b3048e01ce9dc2603a1f42a0c6677ede6b3c04df6c7dc51c66e"
+    },
+    {
+      "snapshot": "lite-packages_babylon-lite_src_resource_gpu-texture-references.ts",
+      "url": "https://raw.githubusercontent.com/BabylonJS/Babylon-Lite/npm-lite-v1.36.0/packages/babylon-lite/src/resource/gpu-texture-references.ts",
+      "version": "npm-lite-v1.36.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 124,
+      "sha256": "f3fbe3949fb4dbcfa62bed8230766bb1844a5a5f3030d29aae325bc7b99e764e"
+    },
+    {
+      "snapshot": "lite-load-gltf.ts",
+      "url": "https://raw.githubusercontent.com/BabylonJS/Babylon-Lite/npm-lite-v1.36.0/packages/babylon-lite/src/loader-gltf/load-gltf.ts",
+      "version": "npm-lite-v1.36.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 35753,
+      "sha256": "8f68f176f4cf7f091812b4ce3a0adb7b697151581b11adcc847d3cb48488598a"
+    },
+    {
+      "snapshot": "lite-texture-reference-store.ts",
+      "url": "https://raw.githubusercontent.com/BabylonJS/Babylon-Lite/npm-lite-v1.36.0/packages/babylon-lite/src/resource/texture-reference-store.ts",
+      "version": "npm-lite-v1.36.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 493,
+      "sha256": "7dc46798e0593f6049e98fe28002ef775cc51846aafef359a27caa6813fb47af"
+    },
+    {
+      "snapshot": "lite-texture-allocation-release.ts",
+      "url": "https://raw.githubusercontent.com/BabylonJS/Babylon-Lite/npm-lite-v1.36.0/packages/babylon-lite/src/resource/texture-allocation-release.ts",
+      "version": "npm-lite-v1.36.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 964,
+      "sha256": "17f3df33189e5756eaa05429ac01502b078ce8e85865321aa6d879e35752dd37"
+    },
+    {
+      "snapshot": "lite-engine-dispose.ts",
+      "url": "https://raw.githubusercontent.com/BabylonJS/Babylon-Lite/npm-lite-v1.36.0/packages/babylon-lite/src/engine/engine-dispose.ts",
+      "version": "npm-lite-v1.36.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 965,
+      "sha256": "6c84a856b235484cb979d05c16d0857c7de381cc321850a89d873c136be8f822"
+    },
+    {
+      "snapshot": "filament-extensions.js",
+      "url": "https://raw.githubusercontent.com/google/filament/v1.78.1/web/filament-js/extensions.js",
+      "version": "1.78.1",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 34242,
+      "sha256": "57eeae31ee5b32de4449484691ae17d98c61502f782ac5cc666ec860c74624bb"
+    },
+    {
+      "snapshot": "filament-jsbindings.cpp",
+      "url": "https://raw.githubusercontent.com/google/filament/v1.78.1/web/filament-js/jsbindings.cpp",
+      "version": "1.78.1",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 150654,
+      "sha256": "d7c9235fba03bac4399a89b065ecb44aaa3aff41ce9740fc81ee83aad14747a1"
+    },
+    {
+      "snapshot": "filament-asset.h",
+      "url": "https://raw.githubusercontent.com/google/filament/v1.78.1/libs/gltfio/include/gltfio/FilamentAsset.h",
+      "version": "1.78.1",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 10977,
+      "sha256": "acadad4b26bf0c5c2120b3ff1b17ffe535df770c51240552e8c4cb5b94dc0f06"
+    },
+    {
+      "snapshot": "defold-resource.cpp",
+      "url": "https://raw.githubusercontent.com/defold/defold/1.14.0/engine/resource/src/resource.cpp",
+      "version": "1.14.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 59183,
+      "sha256": "b284d0d76697a3512878445f49f3a08e052a62a5f04b7528e09773960f717b0e"
+    },
+    {
+      "snapshot": "bevy-cargo_features.md",
+      "url": "https://raw.githubusercontent.com/bevyengine/bevy/v0.20.0/docs/cargo_features.md",
+      "version": "0.20.0",
+      "method": "Read-only exact-tag raw source",
+      "bytes": 17505,
+      "sha256": "b86ea75fabe098389663da6e4aa89b8eea4e3f711a2b116b8c36bd40cb621389"
+    },
+    {
+      "snapshot": "needle-progressive.tgz",
+      "url": "https://registry.npmjs.org/@needle-tools/gltf-progressive/-/gltf-progressive-4.0.0-alpha.8.tgz",
+      "version": "4.0.0-alpha.8",
+      "method": "Downloaded npm artifact, not installed or executed",
+      "bytes": 168428,
+      "sha256": "5cf9a978c3360394e9a14aa2ebbb7a30fd6ceabc11c70a2d81b0199566c7d26b"
+    },
+    {
+      "snapshot": "needle-build.tgz",
+      "url": "https://registry.npmjs.org/@needle-tools/gltf-build-pipeline/-/gltf-build-pipeline-3.0.2.tgz",
+      "version": "3.0.2",
+      "method": "Downloaded npm artifact, not installed or executed",
+      "bytes": 5823975,
+      "sha256": "65ff3dfa8804cf97459179faecfad8142cfa98578e194e3ad34340995f6b38b5"
+    },
+    {
+      "snapshot": "needle-extension.js",
+      "url": "https://registry.npmjs.org/@needle-tools/gltf-progressive/-/gltf-progressive-4.0.0-alpha.8.tgz#package/lib/extension.js",
+      "version": "4.0.0-alpha.8",
+      "method": "Specific file extracted read-only with tar -xOf",
+      "bytes": 64894,
+      "sha256": "44c41cd9602f7bebc645f901070e77db787e742b19c0989f56bf490dbe2fa288"
+    },
+    {
+      "snapshot": "needle-lods.manager.js",
+      "url": "https://registry.npmjs.org/@needle-tools/gltf-progressive/-/gltf-progressive-4.0.0-alpha.8.tgz#package/lib/lods.manager.js",
+      "version": "4.0.0-alpha.8",
+      "method": "Specific file extracted read-only with tar -xOf",
+      "bytes": 41553,
+      "sha256": "7f2dd20751b647f9216b58bf2aca7bf1ffc67b2445282417f472ddd5bd5916d2"
+    },
+    {
+      "snapshot": "needle-lods.promise.js",
+      "url": "https://registry.npmjs.org/@needle-tools/gltf-progressive/-/gltf-progressive-4.0.0-alpha.8.tgz#package/lib/lods.promise.js",
+      "version": "4.0.0-alpha.8",
+      "method": "Specific file extracted read-only with tar -xOf",
+      "bytes": 4122,
+      "sha256": "ab06eea380778bda711cde130eeca2eaa841becdfa195875aa72d1fc8fdb0609"
+    },
+    {
+      "snapshot": "needle-loaders.js",
+      "url": "https://registry.npmjs.org/@needle-tools/gltf-progressive/-/gltf-progressive-4.0.0-alpha.8.tgz#package/lib/loaders.js",
+      "version": "4.0.0-alpha.8",
+      "method": "Specific file extracted read-only with tar -xOf",
+      "bytes": 7120,
+      "sha256": "1b12d9276108de46a17a6ce1e9b16b07669efd32197011cb44781f9f52386c96"
+    },
+    {
+      "snapshot": "needle-build-README.md",
+      "url": "https://registry.npmjs.org/@needle-tools/gltf-build-pipeline/-/gltf-build-pipeline-3.0.2.tgz#package/README.md",
+      "version": "3.0.2",
+      "method": "Specific file extracted read-only with tar -xOf",
+      "bytes": 3493,
+      "sha256": "329be3b100f984f83f7a20b0b20418adc3da59ff1709beacd9365e9b3270b9f0"
+    },
+    {
+      "snapshot": "needle-build-package.json",
+      "url": "https://registry.npmjs.org/@needle-tools/gltf-build-pipeline/-/gltf-build-pipeline-3.0.2.tgz#package/package.json",
+      "version": "3.0.2",
+      "method": "Specific file extracted read-only with tar -xOf",
+      "bytes": 2487,
+      "sha256": "5477b0722f6a0be9cd0ef262b38e7bc880f610090979fd6faa6ca3ada3a482d7"
+    },
+    {
+      "snapshot": "babylon-cache.json",
+      "url": "https://forum.babylonjs.com/t/64212.json",
+      "version": "Retrieved 2026-10-26",
+      "method": "Read-only Discourse post stream; not source code",
+      "bytes": 136428,
+      "sha256": "44d57a464c8007bdcf65bbb5155217b03a2cc21e523a70c26cb653bc510afcb0"
+    },
+    {
+      "snapshot": "pc-samsung.json",
+      "url": "https://forum.playcanvas.com/t/42657.json",
+      "version": "Retrieved 2026-10-26",
+      "method": "Read-only Discourse post stream; not source code",
+      "bytes": 31040,
+      "sha256": "3bca3e9142e75275cac66fc1ac7054e712dbbd4e6284dc8f66c9ad677358e014"
+    },
+    {
+      "snapshot": "previous-review/TilesRendererBase.js",
+      "url": "https://raw.githubusercontent.com/NASA-AMMOS/3DTilesRendererJS/v0.5.3/src/core/renderer/tiles/TilesRendererBase.js",
+      "version": "0.5.3",
+      "method": "Reused matching snapshot; hash rechecked",
+      "bytes": 47632,
+      "sha256": "385e262e51fef02594380ef42c00470c0ed8822092d3630a58dd4d44a331a998"
+    },
+    {
+      "snapshot": "previous-review/TilesRenderer.js",
+      "url": "https://raw.githubusercontent.com/NASA-AMMOS/3DTilesRendererJS/v0.5.3/src/three/renderer/tiles/TilesRenderer.js",
+      "version": "0.5.3",
+      "method": "Reused matching snapshot; hash rechecked",
+      "bytes": 27440,
+      "sha256": "7b44ad58e359fd8b8f06400f59fb4a8ea7108f4ed1d36c1785603369654f640f"
+    },
+    {
+      "snapshot": "previous-review/UnloadTilesPlugin.js",
+      "url": "https://raw.githubusercontent.com/NASA-AMMOS/3DTilesRendererJS/v0.5.3/src/three/plugins/UnloadTilesPlugin.js",
+      "version": "0.5.3",
+      "method": "Reused matching snapshot; hash rechecked",
+      "bytes": 5911,
+      "sha256": "633650ed6a819dcb762adc1c6fb3419b17a31535bd97fc65cc973df718d3d2d6"
+    },
+    {
+      "snapshot": "impostor-material.js",
+      "url": "https://raw.githubusercontent.com/ektogamat/octahedral-impostor-component/f94290693e0966dbb2e2dba89591734753a4582f/src/impostor/utils/createImpostorAtlasMaterial.js",
+      "version": "f94290693e0966dbb2e2dba89591734753a4582f",
+      "method": "Pinned raw source read only; demo was not installed or run",
+      "bytes": 3427,
+      "sha256": "02f5c33a2d20c7e541c85025dcab721d94fcfdbb501a8a22e0c22a6194333f01"
+    },
+    {
+      "snapshot": "impostor-baker.js",
+      "url": "https://raw.githubusercontent.com/ektogamat/octahedral-impostor-component/f94290693e0966dbb2e2dba89591734753a4582f/src/impostor/hooks/useOctahedralAtlas.js",
+      "version": "f94290693e0966dbb2e2dba89591734753a4582f",
+      "method": "Pinned raw source read only; demo was not installed or run",
+      "bytes": 15197,
+      "sha256": "dafa605d7bb22e162fd00ed4b197bdfa360c1f65472195ef791293a9cbfbf1af"
+    },
+    {
+      "snapshot": "impostor-package.json",
+      "url": "https://raw.githubusercontent.com/ektogamat/octahedral-impostor-component/f94290693e0966dbb2e2dba89591734753a4582f/package.json",
+      "version": "f94290693e0966dbb2e2dba89591734753a4582f",
+      "method": "Pinned raw source read only; demo was not installed or run",
+      "bytes": 1190,
+      "sha256": "3688ff3f0f6132ea038b1e8803214adc99f584b7503b16018dda5b155255e9e1"
+    },
+    {
+      "snapshot": "impostor-math.js",
+      "url": "https://raw.githubusercontent.com/ektogamat/octahedral-impostor-component/f94290693e0966dbb2e2dba89591734753a4582f/src/impostor/utils/octahedralImpostorMath.js",
+      "version": "f94290693e0966dbb2e2dba89591734753a4582f",
+      "method": "Pinned raw source read only; demo was not installed or run",
+      "bytes": 5726,
+      "sha256": "6ff311bd361ef2877ff61304b190c7bac3af401be9a4a474e7bb6cfa90893f32"
+    },
+    {
+      "snapshot": "impostor-LICENSE",
+      "url": "https://raw.githubusercontent.com/ektogamat/octahedral-impostor-component/f94290693e0966dbb2e2dba89591734753a4582f/LICENSE",
+      "version": "f94290693e0966dbb2e2dba89591734753a4582f",
+      "method": "Pinned raw source read only; demo was not installed or run",
+      "bytes": 1073,
+      "sha256": "263d65b54cd3b11286a36e7cfb945870095f5a6a2f47b29c1596cfa59430bdef"
+    },
+    {
+      "snapshot": "installed-three/src/nodes/accessors/InstanceNode.js",
+      "url": "https://github.com/mrdoob/three.js/blob/r180/src/nodes/accessors/InstanceNode.js",
+      "version": "0.180.0",
+      "method": "Read-only installed dependency inspection; no execution",
+      "bytes": 6129,
+      "sha256": "43240e8648f4bc52695db761dfed55df752707aae531e9e28d1cd24301952cb6"
+    },
+    {
+      "snapshot": "installed-three/src/renderers/common/nodes/NodeUniformBuffer.js",
+      "url": "https://github.com/mrdoob/three.js/blob/r180/src/renderers/common/nodes/NodeUniformBuffer.js",
+      "version": "0.180.0",
+      "method": "Read-only installed dependency inspection; no execution",
+      "bytes": 947,
+      "sha256": "442d15a1b7cc1b5ff13a1867e70851bb20ad3598806cc515a7b0eb6e0a1a80e0"
+    },
+    {
+      "snapshot": "installed-three/src/renderers/common/Buffer.js",
+      "url": "https://github.com/mrdoob/three.js/blob/r180/src/renderers/common/Buffer.js",
+      "version": "0.180.0",
+      "method": "Read-only installed dependency inspection; no execution",
+      "bytes": 1289,
+      "sha256": "ad1470a18880446334a95c02b3e111ad8e6294ebf8fa99d77ba18b8c7a211335"
+    },
+    {
+      "snapshot": "installed-three/src/renderers/common/Bindings.js",
+      "url": "https://github.com/mrdoob/three.js/blob/r180/src/renderers/common/Bindings.js",
+      "version": "0.180.0",
+      "method": "Read-only installed dependency inspection; no execution",
+      "bytes": 6820,
+      "sha256": "3c4074ff58a5126515f8b9085a45a0ef6f5236138f3f3077decace9ea971d5b5"
+    },
+    {
+      "snapshot": "installed-three/src/renderers/webgpu/utils/WebGPUBindingUtils.js",
+      "url": "https://github.com/mrdoob/three.js/blob/r180/src/renderers/webgpu/utils/WebGPUBindingUtils.js",
+      "version": "0.180.0",
+      "method": "Read-only installed dependency inspection; no execution",
+      "bytes": 11346,
+      "sha256": "1a797c61aadd3c72ca5d52450c2f34f2df9df8459c486fdff93034ed176b73aa"
+    }
+  ]
+}

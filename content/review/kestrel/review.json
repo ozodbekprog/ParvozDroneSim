@@ -1,0 +1,13 @@
+{
+  "model": "/content/review/kestrel/hangar.glb",
+  "modelLods": [
+    {"model": "/content/review/kestrel/hangar.glb", "distance": 0},
+    {"model": "/content/review/kestrel/low.glb", "distance": 3},
+    {"model": "/content/review/kestrel/far.glb", "distance": 18}
+  ],
+  "lowLod": 1,
+  "motorBindings": ["Rotor_0", "Rotor_1", "Rotor_2", "Rotor_3"],
+  "materials": [],
+  "status": "Art-review candidate. Modular replacement and artistic acceptance are pending.",
+  "source": "/content/source-assets/3d-husky-drone/SOURCE.json"
+}

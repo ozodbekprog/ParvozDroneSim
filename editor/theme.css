@@ -1,0 +1,17 @@
+/* The editor is a local authoring tool, using the same palette as the game. */
+body { background:#11151d; color:#edf4f1; font:12px 'DM Sans',system-ui,sans-serif; }
+button { border:1px solid #ffffff24; border-radius:6px; background:#ffffff08; color:#eaf4f1; font-weight:600; font-size:11px; }
+button:hover,button.selected { border-color:#73d9c3; background:#73d9c31a; }
+input,select,textarea { background:#0f141e; border:1px solid #ffffff24; border-radius:5px; color:#eaf4f1; font:12px 'DM Sans',system-ui,sans-serif; }
+label { color:#afbfcd; font-size:10px; letter-spacing:0; }
+aside,#inspector { background:#191f2a; border-color:#ffffff1b; }
+aside header { color:#73d9c3; }
+#publish { background:#73d9c3; color:#13251f; }
+#status { color:#73d9c3; }
+#scene-help { background:#11151dcc; border-radius:6px; }
+#fields textarea { min-height:90px; resize:vertical; }
+#fields details { border-top:1px solid #ffffff23; padding-top:10px; }
+#fields summary { cursor:pointer; margin-bottom:8px; }
+* { scrollbar-width:thin; scrollbar-color:#667789 #191f2a; }
+@media(max-width:1000px) { #editor { grid-template-columns:180px minmax(250px,1fr) 250px; } aside,#inspector { padding:10px; } }
+@media(max-width:700px) { #editor { grid-template-columns:150px minmax(220px,1fr); } #inspector { position:absolute;right:0;top:0;bottom:0;width:min(290px,42vw);background:#191f2af5; } main { margin-right:min(290px,42vw); } }

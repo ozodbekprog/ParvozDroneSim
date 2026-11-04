@@ -1,0 +1,67 @@
+{
+  "capturedAt": "2026-10-23T10:02:25.845Z",
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "scope": "Direct public 21 October baseline; cold HTTP+optional encoded storage, retained cache empty; 5Mbps/160ms; CPU rate1",
+  "probe": {
+    "tasks": [
+      {
+        "at": 2098.2000000001863,
+        "ms": 106
+      },
+      {
+        "at": 68874.8999999999,
+        "ms": 280
+      },
+      {
+        "at": 70729.1000000001,
+        "ms": 176
+      },
+      {
+        "at": 72032.20000000019,
+        "ms": 50
+      }
+    ],
+    "errors": [],
+    "visibility": [],
+    "focus": [],
+    "startedAt": "2026-10-23T10:00:30.661Z",
+    "injectedAt": 14271.399999999907,
+    "readyAt": 72554.1000000001
+  },
+  "client": "https://parvoz-drone-sim.duckdns.org/assets/index-7TSF7k3X.js",
+  "finalFocus": true,
+  "resources": [
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "start": 2937.2999999998137,
+      "ms": 65596.70000000019,
+      "transfer": 26341200,
+      "status": 200,
+      "encoded": 26340900
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "start": 2937.5,
+      "ms": 3740.7000000001863,
+      "transfer": 396962,
+      "status": 200,
+      "encoded": 396662
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "start": 2937.600000000093,
+      "ms": 40095.60000000009,
+      "transfer": 11030504,
+      "status": 200,
+      "encoded": 11030204
+    },
+    {
+      "url": "/content/assets/drones/kestrel/source-f34a43818bab7bc0.json",
+      "start": 6700.299999999814,
+      "ms": 181.90000000037253,
+      "transfer": 1088,
+      "status": 200,
+      "encoded": 788
+    }
+  ]
+}

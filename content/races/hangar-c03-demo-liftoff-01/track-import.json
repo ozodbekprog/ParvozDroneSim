@@ -1,0 +1,964 @@
+{
+  "id": "hangar-c03-demo-liftoff-01",
+  "blueprints": 185,
+  "visibleInstances": 171,
+  "meshes": 239,
+  "colliders": 596,
+  "inventory": [
+    {
+      "instance": "5",
+      "prefab": "CheckpointBox10mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "6",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "7",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "8",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "9",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "10",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "11",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "12",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "13",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "14",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "15",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "16",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "17",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "18",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "19",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "20",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "21",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "22",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "23",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "29",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "30",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "31",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "33",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "34",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "35",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "207",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "208",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "37",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "39",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "40",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "209",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "44",
+      "prefab": "CheckpointBox20mX5m01 ",
+      "meshes": 0
+    },
+    {
+      "instance": "47",
+      "prefab": "CheckpointBox10mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "48",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "49",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "50",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "51",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "52",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "53",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "57",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "58",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "59",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "210",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "211",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "212",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "213",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "61",
+      "prefab": "CheckpointBox20mX5m01 ",
+      "meshes": 0
+    },
+    {
+      "instance": "62",
+      "prefab": "CheckpointBox10mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "63",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "64",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "65",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "214",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "215",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "216",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "217",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "218",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "66",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "67",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "68",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "219",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "220",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "221",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "222",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "69",
+      "prefab": "CheckpointBox20mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "70",
+      "prefab": "CheckpointBox20mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "71",
+      "prefab": "CheckpointBox10mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "72",
+      "prefab": "CheckpointBox20mX5m01 ",
+      "meshes": 0
+    },
+    {
+      "instance": "73",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "74",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "75",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "76",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "77",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "78",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "79",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "80",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "223",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "224",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "94",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "95",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "96",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "97",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "98",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "99",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "100",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "101",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "102",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "103",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "104",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "105",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "107",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "225",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "108",
+      "prefab": "AirflagLiftoffFinishDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "109",
+      "prefab": "AirflagLiftoffFinishDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "112",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "113",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "132",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "137",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "138",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "139",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "140",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "141",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "143",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "144",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "145",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "146",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "147",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "148",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "149",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "150",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "151",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "152",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "153",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "154",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "155",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "156",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "157",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "158",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "159",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "160",
+      "prefab": "CrowdControlBarrier01",
+      "meshes": 1
+    },
+    {
+      "instance": "161",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "162",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "163",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "164",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "165",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "166",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "167",
+      "prefab": "AirflagLiftoffFinishWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "168",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "169",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "170",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "171",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "172",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "173",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "176",
+      "prefab": "CheckpointBox20mX5m01 ",
+      "meshes": 0
+    },
+    {
+      "instance": "177",
+      "prefab": "CheckpointBox20mX5m01 ",
+      "meshes": 0
+    },
+    {
+      "instance": "181",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "182",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "191",
+      "prefab": "DirectionArrowYellow01",
+      "meshes": 1
+    },
+    {
+      "instance": "192",
+      "prefab": "DirectionArrowYellow01",
+      "meshes": 1
+    },
+    {
+      "instance": "226",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "204",
+      "prefab": "SpawnPointSingle01",
+      "meshes": 0
+    },
+    {
+      "instance": "205",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "227",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "228",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "229",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "230",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "231",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "232",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "233",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "234",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "237",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "238",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "239",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "240",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "244",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "245",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "250",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "263",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "264",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "266",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "269",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "270",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "271",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "272",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "273",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "274",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "275",
+      "prefab": "LightRigBase01",
+      "meshes": 1
+    },
+    {
+      "instance": "278",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "279",
+      "prefab": "LedFlag01",
+      "meshes": 1
+    },
+    {
+      "instance": "289",
+      "prefab": "BannerStructure02",
+      "meshes": 5
+    },
+    {
+      "instance": "290",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "291",
+      "prefab": "TriggerBox_RepairPropellers_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "292",
+      "prefab": "TriggerBox_ChargeBattery_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "293",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "295",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "296",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "297",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "298",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "299",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "300",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "301",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "302",
+      "prefab": "NoticeBoardBattery01",
+      "meshes": 6
+    },
+    {
+      "instance": "303",
+      "prefab": "NoticeBoardRepair01",
+      "meshes": 6
+    },
+    {
+      "instance": "304",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "305",
+      "prefab": "OSB10001",
+      "meshes": 1
+    },
+    {
+      "instance": "306",
+      "prefab": "OSB10001",
+      "meshes": 1
+    }
+  ],
+  "lodTriangles": [
+    123491,
+    112003,
+    107503
+  ],
+  "cells": 60,
+  "propMeshes": 218,
+  "ribbonMeshes": 21,
+  "ribbonTriangles": 1708
+}

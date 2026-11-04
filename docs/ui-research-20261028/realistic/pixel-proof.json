@@ -1,0 +1,31 @@
+{
+  "region": {
+    "left": 420,
+    "top": 320,
+    "width": 900,
+    "height": 470
+  },
+  "results": [
+    {
+      "id": "01",
+      "width": 1920,
+      "height": 1080,
+      "comparedPixels": 423000,
+      "different": 9
+    },
+    {
+      "id": "02",
+      "width": 1920,
+      "height": 1080,
+      "comparedPixels": 423000,
+      "different": 5
+    },
+    {
+      "id": "03",
+      "width": 1920,
+      "height": 1080,
+      "comparedPixels": 423000,
+      "different": 11
+    }
+  ]
+}

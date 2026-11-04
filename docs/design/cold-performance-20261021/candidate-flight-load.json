@@ -1,0 +1,210 @@
+{
+  "phases": [
+    {
+      "name": "Map download, parse, assembly and collisions",
+      "ms": 1712,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "draws": 163,
+      "triangles": 351032
+    },
+    {
+      "name": "Aircraft download, parse and assembly",
+      "ms": 1372.4000000059605,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "draws": 163,
+      "triangles": 351032
+    },
+    {
+      "name": "Surface and reflection preparation",
+      "ms": 7,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "draws": 163,
+      "triangles": 351032
+    },
+    {
+      "name": "Geometry shader compilation",
+      "ms": 707.2999999970198,
+      "renderMs": 0,
+      "projectMs": 3.600000038743019,
+      "submitMs": 124.99999994039536,
+      "compileCalls": 58,
+      "maxCompileSliceMs": 34.20000000298023,
+      "draws": 0,
+      "triangles": 0
+    },
+    {
+      "name": "First rendered frame and post effects",
+      "ms": 26.099999994039536,
+      "renderMs": 24.200000002980232,
+      "projectMs": 0.5,
+      "submitMs": 22.100000008940697,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "draws": 187,
+      "triangles": 309693
+    },
+    {
+      "name": "First frame pipeline detail",
+      "pipelines": 0,
+      "pipelineMs": 0,
+      "objects": 111,
+      "top": [
+        {
+          "name": "Runtime_HerasFencing01099",
+          "material": "HerasFencing01",
+          "ms": 3
+        },
+        {
+          "name": "Runtime_NoticeBoardFrame01002",
+          "material": "NoticeBoardFrame01",
+          "ms": 0.800000011920929
+        },
+        {
+          "name": "Runtime_HerasFencing01059",
+          "material": "HerasFencing01",
+          "ms": 0.7999999970197678
+        },
+        {
+          "name": "Runtime_AirgateLiftoffWhite01021",
+          "material": "AirgateLiftoffWhite01",
+          "ms": 0.7999999970197678
+        },
+        {
+          "name": "Runtime_HerasFencing01100",
+          "material": "HerasFencing01",
+          "ms": 0.7000000029802322
+        },
+        {
+          "name": "Runtime_HerasFencing01035",
+          "material": "HerasFencing01",
+          "ms": 0.699999988079071
+        },
+        {
+          "name": "Runtime_HerasFencing01057",
+          "material": "HerasFencing01",
+          "ms": 0.6000000089406967
+        },
+        {
+          "name": "Runtime_DiscConeYellow01028",
+          "material": "DiscConeYellow01",
+          "ms": 0.5999999940395355
+        },
+        {
+          "name": "Runtime_AirgateLiftoffFinishWhite01003",
+          "material": "AirgateLiftoffFinishWhite01",
+          "ms": 0.5
+        },
+        {
+          "name": "Runtime_AirgateLiftoffWhite01051",
+          "material": "AirgateLiftoffWhite01",
+          "ms": 0.5
+        },
+        {
+          "name": "Runtime_LEDFlagGreen01022",
+          "material": "LEDFlagGreen01",
+          "ms": 0.4000000059604645
+        },
+        {
+          "name": "Runtime_AirgateLiftoffWhite01048",
+          "material": "AirgateLiftoffWhite01",
+          "ms": 0.3999999910593033
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "gpu": "nvidia turing",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "low",
+  "surface": {
+    "normalMaps": false,
+    "textureSize": 256
+  },
+  "cache": {
+    "idleBytes": 0,
+    "maxIdleBytes": 100663296,
+    "idleEntries": 0,
+    "entries": 6
+  },
+  "models": [
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "parses": 1,
+      "cacheHits": 138,
+      "readMs": 874.5999999940395,
+      "parseMs": 2690.2000000029802,
+      "lookupMs": 1.199999988079071,
+      "cloneMs": 64.1000000089407,
+      "clones": 139
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 57,
+      "readMs": 42.5,
+      "parseMs": 1273.8999999910593,
+      "lookupMs": 0.09999999403953552,
+      "cloneMs": 64.60000002384186,
+      "clones": 58
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "parses": 1,
+      "cacheHits": 0,
+      "readMs": 41.8999999910593,
+      "parseMs": 309.70000000298023,
+      "lookupMs": 0,
+      "cloneMs": 0.5,
+      "clones": 1
+    },
+    {
+      "url": "/content/assets/races/minus-two-demo-liftoff-01/props-bf67bda0f4a4e5a6.glb",
+      "parses": 1,
+      "cacheHits": 131,
+      "readMs": 222,
+      "parseMs": 1471.300000011921,
+      "lookupMs": 0.6000000089406967,
+      "cloneMs": 10.700000002980232,
+      "clones": 132
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 147.20000000298023,
+      "parseMs": 844.2000000029802,
+      "lookupMs": 0,
+      "cloneMs": 2.100000023841858,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 309.20000000298023,
+      "parseMs": 1054.9000000059605,
+      "lookupMs": 0,
+      "cloneMs": 1.899999961256981,
+      "clones": 34
+    }
+  ],
+  "backend": "WebGPU",
+  "framebuffer": [
+    1280,
+    720
+  ]
+}

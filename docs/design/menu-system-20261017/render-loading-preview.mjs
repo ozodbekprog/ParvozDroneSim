@@ -1,0 +1,7 @@
+// A layout preview using an existing game capture, not a browser screenshot.
+import fs from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import sharp from 'sharp';
+const image=await fs.readFile(new URL('../../../content/maps/minus-two-demo/thumbnail.jpg',import.meta.url));
+const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720"><defs><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset=".45" stop-color="#080b10" stop-opacity="0"/><stop offset="1" stop-color="#080b10" stop-opacity=".92"/></linearGradient></defs><image width="1280" height="720" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,${image.toString('base64')}"/><rect width="1280" height="720" fill="url(#shade)"/><g fill="#f0f1f1" font-family="Segoe UI,Arial,sans-serif"><text x="48" y="69" font-size="28" font-weight="600" letter-spacing="2">PARVOZ</text><text x="48" y="90" font-size="11" letter-spacing="1.4">DRONE SIMULATOR</text><text x="48" y="620" font-size="16">Loading</text><text x="1232" y="620" text-anchor="end" font-size="16">48%</text><rect x="48" y="638" width="1184" height="4" fill="#ffffff30"/><rect x="48" y="638" width="568" height="4" fill="#eea462"/><text x="48" y="695" font-size="12" fill="#adb1b7">LAYOUT PREVIEW · Example progress</text></g></svg>`;
+await sharp(Buffer.from(svg)).png().toFile(fileURLToPath(new URL('loading-preview.png',import.meta.url)));

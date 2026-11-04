@@ -1,0 +1,79 @@
+{
+  "map": "hangar-c03-demo",
+  "track": "hangar-c03-demo-first-flight",
+  "id": "flight-04-braking-landing",
+  "name": "Brake and land precisely",
+  "topic": "Braking and landing",
+  "order": 40,
+  "description": "Move to a nearby target, brake before it and return to a marked landing.",
+  "steps": [
+    {
+      "text": "Use Angle mode. To stop forward travel, briefly tilt back, then level out. Releasing pitch alone does not stop momentum.",
+      "objective": "manual",
+      "target": 0,
+      "duration": 0,
+      "title": "Understand momentum and braking"
+    },
+    {
+      "text": "Take off and settle inside the start marker.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        1.71,
+        0.7091341614723206
+      ],
+      "radius": 1.5,
+      "maxSpeed": 1,
+      "flightMode": "angle",
+      "title": "Settle at the start",
+      "airborne": true
+    },
+    {
+      "text": "Move to the next marker and brake before reaching it. Hold below 0.8 m/s for three seconds.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 3,
+      "position": [
+        -96.39243582145326,
+        1.71,
+        0.22163900134935138
+      ],
+      "radius": 1.5,
+      "maxSpeed": 0.8,
+      "flightMode": "angle",
+      "title": "Move forward and brake",
+      "airborne": true
+    },
+    {
+      "text": "Return to the start marker and stop before descending.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 3,
+      "position": [
+        -88.40730285644531,
+        1.71,
+        0.7091341614723206
+      ],
+      "radius": 1.5,
+      "maxSpeed": 0.8,
+      "flightMode": "angle",
+      "title": "Return and stop",
+      "airborne": true
+    },
+    {
+      "text": "Return to the start marker. Level the drone, lower throttle gently and hold a stopped landing for two seconds.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        -0.03999900817871094,
+        0.7091341614723206
+      ],
+      "radius": 3,
+      "title": "Land on the marker"
+    }
+  ]
+}

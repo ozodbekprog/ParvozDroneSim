@@ -1,0 +1,224 @@
+{
+  "id": "harborworks-dock-circuit",
+  "name": "Quayside Circuit",
+  "map": "harborworks",
+  "laps": 2,
+  "spawn": {
+    "position": [
+      16.099689,
+      5.4,
+      112.049843
+    ],
+    "yaw": -2.034444
+  },
+  "gates": [
+    {
+      "position": [
+        0.0,
+        5.4,
+        104.0
+      ],
+      "yaw": -2.034444,
+      "width": 7.0,
+      "height": 5.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "roof",
+        "baseY": 0.216
+      }
+    },
+    {
+      "position": [
+        -32.0,
+        5.4,
+        72.0
+      ],
+      "yaw": -2.177784,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -72.0,
+        5.4,
+        54.0
+      ],
+      "yaw": -2.446854,
+      "width": 7.0,
+      "height": 5.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -72.0,
+        5.4,
+        24.0
+      ],
+      "yaw": -3.141593,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -72.0,
+        5.4,
+        -24.0
+      ],
+      "yaw": -3.141593,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -72.0,
+        5.4,
+        -58.0
+      ],
+      "yaw": 2.046492,
+      "width": 7.0,
+      "height": 5.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -6.0,
+        6.75,
+        -58.0
+      ],
+      "yaw": 1.552616,
+      "width": 7.0,
+      "height": 5.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        38.0,
+        6.75,
+        -56.0
+      ],
+      "yaw": 1.548578,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        84.0,
+        8.1,
+        -56.0
+      ],
+      "yaw": 1.160669,
+      "width": 7.0,
+      "height": 5.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        84.0,
+        8.1,
+        -36.0
+      ],
+      "yaw": 0.0,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        84.0,
+        8.1,
+        32.0
+      ],
+      "yaw": -0.480175,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        34.0,
+        6.75,
+        60.0
+      ],
+      "yaw": -0.770015,
+      "width": 7.0,
+      "height": 5.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        20.0,
+        5.4,
+        98.0
+      ],
+      "yaw": -0.657889,
+      "width": 7.0,
+      "height": 5.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ]
+}

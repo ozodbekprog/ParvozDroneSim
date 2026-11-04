@@ -1,0 +1,22 @@
+{
+  "id": "nightgrid-roof-relay",
+  "name": "Roof Relay",
+  "map": "nightgrid",
+  "track": "nightgrid-rooftop",
+  "target": 219,
+  "reward": 360,
+  "hints": [
+    {
+      "afterGate": 0,
+      "text": "Follow the lit street corridor through the first blocks."
+    },
+    {
+      "afterGate": 2,
+      "text": "The transit shelter marks the return corner; watch the vans."
+    },
+    {
+      "afterGate": 4,
+      "text": "For the high line, hold altitude above the street gates."
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+[
+  {
+    "name": "hangar-repaired-low",
+    "observedAt": "2026-10-31T17:59:02.333Z",
+    "report": {
+      "map": "hangar-c03-demo",
+      "track": "hangar-c03-demo-first-flight",
+      "camera": "orbit",
+      "quality": "low",
+      "backend": "WebGPU",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "gate": -1,
+      "courseObjects": 61,
+      "courseRoots": 1,
+      "colliders": 10349,
+      "cameraPosition": [
+        -88.40700000000001,
+        1.3999999999999952,
+        0.7090000000000023
+      ],
+      "dronePosition": [
+        -88.40730285644531,
+        -0.03999900817871094,
+        0.7091341614723206
+      ],
+      "crashed": false,
+      "crashFrames": 0,
+      "maxCameraDrift": 0,
+      "maxViewTurnDegrees": 0,
+      "drawCalls": 280,
+      "triangles": 4832701,
+      "renderFatal": false,
+      "renderWarning": null,
+      "errors": []
+    }
+  },
+  {
+    "name": "hangar-dynamic-crash",
+    "observedAt": "2026-10-31T17:59:49.712Z",
+    "report": {
+      "map": "hangar-c03-demo",
+      "track": "hangar-c03-demo-first-flight",
+      "camera": "chase",
+      "quality": "low",
+      "backend": "WebGPU",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "gate": -1,
+      "courseObjects": 61,
+      "courseRoots": 1,
+      "colliders": 10349,
+      "cameraPosition": [
+        -87.20953291169413,
+        1.340000991821289,
+        0.7822584354907659
+      ],
+      "dronePosition": [
+        -88.40730285644531,
+        0.9600009918212891,
+        0.7091341614723206
+      ],
+      "crashed": true,
+      "crashFrames": 37,
+      "maxCameraDrift": 0,
+      "maxViewTurnDegrees": 0,
+      "drawCalls": 243,
+      "triangles": 4057347,
+      "renderFatal": false,
+      "renderWarning": null,
+      "errors": []
+    }
+  },
+  {
+    "name": "hangar-rigid-crash",
+    "observedAt": "2026-10-31T18:00:58.002Z",
+    "report": {
+      "map": "hangar-c03-demo",
+      "track": "hangar-c03-demo-first-flight",
+      "camera": "chase-rigid",
+      "quality": "low",
+      "backend": "WebGPU",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "gate": -1,
+      "courseObjects": 61,
+      "courseRoots": 1,
+      "colliders": 10349,
+      "cameraPosition": [
+        -87.20953291169413,
+        1.340000991821289,
+        0.782258435490766
+      ],
+      "dronePosition": [
+        -88.40730285644531,
+        0.9600009918212891,
+        0.7091341614723206
+      ],
+      "crashed": true,
+      "crashFrames": 74,
+      "maxCameraDrift": 0,
+      "maxViewTurnDegrees": 0,
+      "drawCalls": 242,
+      "triangles": 4047608,
+      "renderFatal": false,
+      "renderWarning": null,
+      "errors": []
+    }
+  },
+  {
+    "name": "hangar-second-track",
+    "observedAt": "2026-10-31T18:11:20.558Z",
+    "report": {
+      "map": "hangar-c03-demo",
+      "track": "hangar-c03-demo-liftoff-02",
+      "camera": "orbit",
+      "quality": "low",
+      "backend": "WebGPU",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "gate": -1,
+      "courseObjects": 19,
+      "courseRoots": 1,
+      "colliders": 9912,
+      "cameraPosition": [
+        -88.40700000000001,
+        1.3999999999999952,
+        0.7090000000000023
+      ],
+      "dronePosition": [
+        28.079212188720703,
+        0.06036376953125,
+        110.7079849243164
+      ],
+      "crashed": false,
+      "crashFrames": 0,
+      "maxCameraDrift": 0,
+      "maxViewTurnDegrees": 0,
+      "drawCalls": 207,
+      "triangles": 4669876,
+      "renderFatal": false,
+      "renderWarning": null,
+      "errors": []
+    }
+  },
+  {
+    "name": "arena-before-final-arch-replacement",
+    "observedAt": "2026-10-31T18:16:08.104Z",
+    "report": {
+      "map": "liftoff-arena-demo",
+      "track": "liftoff-arena-demo-first-flight",
+      "camera": "orbit",
+      "quality": "low",
+      "backend": "WebGPU",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "gate": 0,
+      "courseObjects": 54,
+      "courseRoots": 1,
+      "colliders": 17057,
+      "cameraPosition": [
+        -27.558500000000002,
+        1.5000000000000004,
+        46.298
+      ],
+      "dronePosition": [
+        -27.55852699279785,
+        1.1119999885559082,
+        46.29813003540039
+      ],
+      "crashed": false,
+      "crashFrames": 0,
+      "maxCameraDrift": 0,
+      "maxViewTurnDegrees": 0,
+      "drawCalls": 441,
+      "triangles": 1146993,
+      "renderFatal": false,
+      "renderWarning": null,
+      "errors": []
+    },
+    "note": "Visible inflatable arch logo prompted an additional source-material replacement."
+  },
+  {
+    "name": "pine-low-final",
+    "observedAt": "2026-10-31T18:21:15.868Z",
+    "report": {
+      "map": "liftoff-pine-valley-demo",
+      "track": "liftoff-pine-valley-demo-first-flight",
+      "camera": "orbit",
+      "quality": "low",
+      "backend": "WebGPU",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "gate": -1,
+      "courseObjects": 25,
+      "courseRoots": 1,
+      "colliders": 3599,
+      "cameraPosition": [
+        -622.4897,
+        7.2868,
+        660.2133
+      ],
+      "dronePosition": [
+        -630.4897,
+        5.2868,
+        670.2133
+      ],
+      "crashed": false,
+      "crashFrames": 0,
+      "maxCameraDrift": 0,
+      "maxViewTurnDegrees": 0,
+      "drawCalls": 113,
+      "triangles": 5542576,
+      "renderFatal": false,
+      "renderWarning": null,
+      "errors": []
+    }
+  },
+  {
+    "name": "green-low-final",
+    "observedAt": "2026-10-31T18:24:26.486Z",
+    "report": {
+      "map": "liftoff-the-green-demo",
+      "track": "liftoff-the-green-demo-first-flight",
+      "camera": "orbit",
+      "quality": "low",
+      "backend": "WebGPU",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "gate": -1,
+      "courseObjects": 46,
+      "courseRoots": 1,
+      "colliders": 21514,
+      "cameraPosition": [
+        -457.81265299999995,
+        5.740562440000001,
+        597.814453
+      ],
+      "dronePosition": [
+        -465.8126525878906,
+        3.7405624389648438,
+        607.814453125
+      ],
+      "crashed": false,
+      "crashFrames": 0,
+      "maxCameraDrift": 0,
+      "maxViewTurnDegrees": 0,
+      "drawCalls": 186,
+      "triangles": 1259765,
+      "renderFatal": false,
+      "renderWarning": null,
+      "errors": []
+    }
+  },
+  {
+    "name": "minus-two-low-final",
+    "observedAt": "2026-10-31T18:26:05.335Z",
+    "report": {
+      "map": "minus-two-demo",
+      "track": "minus-two-demo-liftoff-01",
+      "camera": "orbit",
+      "quality": "low",
+      "backend": "WebGPU",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "gate": -1,
+      "courseObjects": 45,
+      "courseRoots": 1,
+      "colliders": 1974,
+      "cameraPosition": [
+        -15.751999999999997,
+        1.400000000000001,
+        -66.501
+      ],
+      "dronePosition": [
+        -15.752,
+        0.25,
+        -66.501
+      ],
+      "crashed": false,
+      "crashFrames": 0,
+      "maxCameraDrift": 0,
+      "maxViewTurnDegrees": 0,
+      "drawCalls": 274,
+      "triangles": 420747,
+      "renderFatal": false,
+      "renderWarning": null,
+      "errors": []
+    }
+  },
+  {
+    "name": "arena-low-final",
+    "observedAt": "2026-10-31T18:26:48.961Z",
+    "report": {
+      "map": "liftoff-arena-demo",
+      "track": "liftoff-arena-demo-first-flight",
+      "camera": "orbit",
+      "quality": "low",
+      "backend": "WebGPU",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "gate": -1,
+      "courseObjects": 54,
+      "courseRoots": 1,
+      "colliders": 17057,
+      "cameraPosition": [
+        -27.558500000000002,
+        1.5000000000000004,
+        46.298
+      ],
+      "dronePosition": [
+        -27.55852699279785,
+        1.1119999885559082,
+        46.29813003540039
+      ],
+      "crashed": false,
+      "crashFrames": 0,
+      "maxCameraDrift": 0,
+      "maxViewTurnDegrees": 0,
+      "drawCalls": 539,
+      "triangles": 1627814,
+      "renderFatal": false,
+      "renderWarning": null,
+      "errors": []
+    }
+  },
+  {
+    "name": "hangar-webgl2-low",
+    "observedAt": "2026-10-31T18:28:09.844Z",
+    "report": {
+      "map": "hangar-c03-demo",
+      "track": "hangar-c03-demo-first-flight",
+      "camera": "orbit",
+      "quality": "low",
+      "backend": "WebGL2",
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "gate": -1,
+      "courseObjects": 61,
+      "courseRoots": 1,
+      "colliders": 10349,
+      "cameraPosition": [
+        -88.40700000000001,
+        1.3999999999999952,
+        0.7090000000000023
+      ],
+      "dronePosition": [
+        -88.40730285644531,
+        -0.03999900817871094,
+        0.7091341614723206
+      ],
+      "crashed": false,
+      "crashFrames": 0,
+      "maxCameraDrift": 0,
+      "maxViewTurnDegrees": 0,
+      "drawCalls": 248,
+      "triangles": 4832701,
+      "renderFatal": false,
+      "renderWarning": null,
+      "errors": []
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "source": "map.blend",
+  "sourceSha256": "7188a7b26304729bca371c47d755192bf5581210132b2d63072827396855195f",
+  "horizontalScale": 2.0,
+  "verticalScale": 1.35,
+  "originalTheme": "hangar",
+  "originalColliderCount": 4,
+  "generatedColliderCount": 28,
+  "importedProxyMeshes": 4,
+  "originalStructureBoxes": 18,
+  "importedObjectCount": 90,
+  "editableObjectCount": 232,
+  "fpvEnvironmentPass": 1,
+  "fpvFeatures": 6,
+  "thumbnailView": "pilot-height perspective",
+  "tool": "Blender 5.1.0",
+  "liveBlenderMCP": true,
+  "liveModelingDate": "2026-10-01T09:36:00.647001+00:00",
+  "model": "model.glb"
+}

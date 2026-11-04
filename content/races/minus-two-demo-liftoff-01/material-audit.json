@@ -1,0 +1,178 @@
+{
+  "map": "minus-two-demo",
+  "model": "content/races/minus-two-demo-liftoff-01/props.glb",
+  "checked": 13,
+  "failures": [],
+  "materials": [
+    {
+      "name": "AirgateLiftoffFinishWhite01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "AirgatePlasticFeet01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "TrafficCone01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "AirgateLiftoffWhite01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "DiscConeYellow01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HerasFencing01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HerasFencingClothLiftoffBlack01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "LEDFlagGreen01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "HerasFencingClothLiftoffWhite01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "NoticeBoardBattery01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "NoticeBoardFrame01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "NoticeBoardRepair01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "DirectionArrowWhite01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    }
+  ],
+  "excludedShaderMaterials": [
+    {
+      "name": "TriggerCheckpoint01",
+      "shader": "Project/TriggerBoxNew"
+    },
+    {
+      "name": "TriggerRechargeBattery01",
+      "shader": "Project/TriggerBoxNew"
+    },
+    {
+      "name": "TriggerRepairPropellers01",
+      "shader": "Project/TriggerBoxNew"
+    }
+  ]
+}

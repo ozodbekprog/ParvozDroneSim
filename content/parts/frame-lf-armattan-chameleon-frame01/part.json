@@ -1,0 +1,29 @@
+{
+  "id": "lf-armattan-chameleon-frame01",
+  "category": "frame",
+  "name": "Armattan Chameleon 5\" frame",
+  "sourcePartId": "ArmattanChameleonFrame01",
+  "sourceSpecs": {
+    "weight": 0.118,
+    "batteryAtBottom": 0,
+    "maxPropellerSize": 5,
+    "hasDragOverride": 0,
+    "dragOverrideValue": 0.82
+  },
+  "physicalSize": [
+    0.1887753651440984,
+    0.025,
+    0.1887753651440984
+  ],
+  "compatibleDrones": [
+    "armattan-chameleon"
+  ],
+  "mass": 0,
+  "thrust": 1,
+  "response": 1,
+  "drag": 1,
+  "duration": 1,
+  "durability": 1,
+  "cost": 0,
+  "materials": []
+}

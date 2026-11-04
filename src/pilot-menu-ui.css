@@ -1,0 +1,196 @@
+/* Concept 01 structure, using the existing game fonts, surfaces and line icons. */
+:is(.menu-profile,.menu-settings,.menu-controls,.menu-camera,.menu-graphics,.menu-language,.menu-pause) .menu-layout.composed-layout {
+  display: flex; flex-direction: column; align-items: center; justify-content: safe center;
+  width: 100%; max-width: none; padding: 24px 28px; gap: 0; overflow: auto;
+}
+.unified-menu-card { width: min(1240px,100%); flex: none; padding: 26px; }
+.unified-menu-card .section-header { margin-bottom: 24px; }
+.unified-menu-card h1, .room-create-dialog h1 { margin: 0; font-size: 36px; }
+.unified-menu-card h2, .host-summary h2 { font-size: 27px; margin: 0 0 16px; }
+.menu-rail { display: flex; flex-direction: column; gap: 8px; }
+.rail-choice {
+  display: flex; align-items: center; gap: 12px; width: 100%; min-height: 46px; padding: 12px;
+  border: 1px solid transparent; border-radius: var(--field-radius); color: var(--muted);
+  background: transparent; font-size: 13px; font-weight: 600; text-align: left;
+}
+.rail-choice .ui-icon { width: 20px; height: 20px; flex: none; }
+.rail-choice:hover { color: var(--text); background: var(--surface-soft); }
+.rail-choice.selected { color: var(--accent); border-color: #ffae704a; background: #ffae7010; }
+.pilot-layout { display: grid; grid-template-columns: 215px minmax(0,1fr); gap: 26px; }
+.pilot-sidebar { padding-right: 24px; border-right: 1px solid var(--line); min-width: 0; }
+.pilot-identity { margin-bottom: 22px; }
+.pilot-avatar { display: grid; place-items: center; width: 58px; height: 58px; border-radius: 12px; color: var(--accent); background: #ffae7018; font-size: 27px; margin-bottom: 12px; }
+.pilot-identity h2 { font-size: 29px; overflow-wrap: anywhere; margin-bottom: 4px; }
+.pilot-identity > span { font-size: 12px; color: var(--muted); }
+.pilot-stats { display: flex; gap: 24px; margin-bottom: 18px; color: var(--muted); font-size: 11px; }
+.pilot-stats strong { display: block; margin-top: 4px; font: 600 28px 'Barlow Condensed',sans-serif; color: var(--technical); }
+.pilot-stats strong small { font: 11px 'DM Sans',sans-serif; }
+.pilot-xp { margin-bottom: 24px; }
+.pilot-xp progress { display: block; width: 100%; height: 5px; border: 0; border-radius: 4px; overflow: hidden; background: var(--surface-soft); accent-color: var(--accent); }
+.pilot-xp progress::-webkit-progress-bar { background: var(--surface-soft); }
+.pilot-xp progress::-webkit-progress-value { background: var(--accent); }
+.pilot-xp progress::-moz-progress-bar { background: var(--accent); }
+.pilot-xp span { display: block; margin-top: 8px; font-size: 11px; color: var(--quiet); }
+.pilot-card { height:min(680px,calc(100dvh - 48px));display:flex;flex-direction:column; }
+.pilot-card > .section-header { flex:none; }
+.pilot-card > .pilot-layout { flex:1;min-height:0;grid-template-rows:auto minmax(0,1fr); }
+.pilot-content { min-width:0;min-height:0;overflow:auto;scrollbar-gutter:stable;overscroll-behavior:contain; }
+.pilot-content.with-rankings { display: grid; grid-template-columns: minmax(0,1fr) 240px; gap: 26px; }
+.pilot-primary, .pilot-ranking { min-width: 0; }
+.pilot-ranking { border-left: 1px solid var(--line); padding-left: 24px; }
+.pilot-content .panel-header { align-items: start; gap: 8px; margin-bottom: 16px; }
+.pilot-content .panel-header h2 { margin: 0; }
+.pilot-content .panel-label { font-size: 9px; }
+.pilot-record-row { display: grid; grid-template-columns: 74px minmax(0,1fr) auto; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.pilot-record-art { display: grid; place-items: center; overflow: hidden; height: 47px; border-radius: 7px; background: var(--surface-soft); color: var(--technical); }
+.pilot-record-art img { width: 100%; height: 100%; object-fit: cover; }
+.pilot-record-art .ui-icon { width: 25px; height: 25px; }
+.pilot-record-row strong { display: block; font-size: 13px; overflow-wrap: anywhere; }
+.pilot-record-row small { display: block; margin-top: 5px; font-size: 10px; color: var(--muted); }
+.pilot-record-row em, .pilot-ranking-row em { font-style: normal; font-size: 14px; font-weight: 600; color: var(--technical); font-variant-numeric: tabular-nums; }
+.pilot-subheading { margin-top: 26px !important; }
+.pilot-empty { color: var(--quiet); font-size: 12px; margin: 10px 0 20px; }
+.pilot-ranking-row { display: grid; grid-template-columns: 22px minmax(0,1fr) auto; align-items: center; gap: 9px; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 12px; }
+.pilot-ranking-row > span { color: var(--quiet); font-size: 10px; }
+.pilot-ranking-row strong { overflow-wrap: anywhere; font-weight: 500; }
+.pilot-ranking-row.is-own strong { color: var(--accent); }
+.pilot-content .pagination { gap: 8px; margin-top: 8px; }
+.pilot-content .pagination .mini-button { min-width: 0; padding: 8px; font-size: 10px; }
+.pilot-achievements { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.pilot-achievement { display: grid; grid-template-columns: 32px 1fr; gap: 5px 14px; border: 1px solid var(--line); border-radius: 12px; padding: 20px; background: var(--surface-soft); }
+.pilot-achievement .ui-icon { grid-row: span 3; width: 28px; height: 28px; color: var(--quiet); }
+.pilot-achievement strong { font-size: 14px; }
+.pilot-achievement small { color: var(--muted); font-size: 12px; }
+.pilot-achievement > span { font-size: 10px; color: var(--quiet); margin-top: 8px; }
+.pilot-achievement.earned .ui-icon, .pilot-achievement.earned > span { color: var(--accent); }
+.account-storage { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 26px; }
+.account-storage > div { display: flex; gap: 14px; padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-soft); }
+.account-storage .ui-icon { color: var(--technical); flex: none; }
+.account-storage strong, .account-recovery strong { font-size: 13px; display: block; }
+.account-storage small, .account-recovery small { color: var(--muted); font-size: 12px; line-height: 1.5; display: block; margin-top: 5px; }
+.account-recovery { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.account-local-actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0; }
+.account-signout { margin-top: 10px; }
+.settings-card { display: flex; flex-direction: column; height: min(640px,calc(100dvh - 48px)); }
+.settings-card .section-header { flex: none; }
+.settings-split { display: grid; grid-template-columns: 175px minmax(0,1fr); gap: 26px; flex: 1; min-height: 0; }
+.settings-split > .menu-rail { padding-right: 24px; border-right: 1px solid var(--line); }
+.settings-detail { min-width: 0; min-height: 0; overflow: auto; scrollbar-gutter: stable; padding-right: 8px; overscroll-behavior: contain; }
+.settings-detail.has-monitor { display: grid; grid-template-columns: minmax(0,1fr) 300px; gap: 26px; align-items: center; }
+.settings-fields { min-width: 0; }
+.settings-card .control-select-row { display: grid; grid-template-columns: 1fr 1.6fr; gap: 14px; }
+.settings-card .controls-form label { font-size: 11px; gap: 7px; }
+.settings-card .controls-form > label:has(#throttle-mode) { display: flex; width: 100%; margin: 12px 0; }
+.settings-card .controls-form select { height: 38px; }
+.settings-card .axis-row { min-height: 34px; margin: 7px 0; padding: 0; font-size: 11px; }
+.settings-card .axis-row > span { width: 64px; }
+.settings-card .axis-row .mini-button { flex: 1; min-width: 0; }
+.settings-card .axis-row label { margin: 0; }
+.settings-card .controls-form .calibrate-button { width: 100%; min-height: 36px; margin: 4px 0 9px; }
+.settings-card .controls-form > label:has(#deadzone) { display: grid; grid-template-columns: auto 32px 1fr; align-items: center; gap: 10px; margin-top: 12px; }
+.settings-card .settings-help { margin: 6px 0 12px; }
+.settings-card .virtual-radio { align-self: center; width: 100%; max-height: none; overflow: visible; padding: 20px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-soft); box-shadow: none; }
+.settings-card .virtual-radio .panel-label { display: none; }
+.settings-card .virtual-radio h2 { font: 600 27px 'Barlow Condensed',sans-serif; letter-spacing: .01em; margin: 0 0 22px; }
+.settings-card .radio-device { height: 195px; padding: 12px 0; gap: 8px; border: 0; border-radius: 0; background: transparent; }
+.settings-card .radio-center { display: none; }
+.settings-card .radio-gimbal { width: 100px; height: 100px; border: 1px solid #6b8093; background: #101a2a; }
+.settings-card .radio-gimbal::before { width: 1px; height: 80%; left: 50%; top: 10%; }
+.settings-card .radio-gimbal::after { height: 1px; width: 80%; top: 50%; left: 10%; }
+.settings-card .radio-gimbal i { width: 17px; height: 17px; background: var(--accent); border: 2px solid #ffe0bc; box-shadow: 0 2px 12px #0006; }
+.settings-card .radio-grip small { font-size: 9px; color: var(--muted); }
+.settings-card .camera-form { max-width: 730px; }
+.settings-card .camera-form > label { margin-top: 0; }
+.settings-card .graphics-presets { margin-top: 0; }
+.settings-card .graphics-switches { gap: 14px; margin: 24px 0; }
+.settings-card #graphics-performance { display: block; font-size: 11px; line-height: 1.6; color: var(--muted); }
+.room-create-dialog { width: min(880px,calc(100vw - 40px)); max-width: none; max-height: calc(100vh - 40px); padding: 26px; border-radius: var(--radius); background: var(--surface); color: var(--text); border: 1px solid var(--line); }
+.room-create-dialog .section-header { margin-bottom: 26px; }
+.room-create-dialog .host-layout { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,.8fr); gap: 32px; }
+.host-fields fieldset { border: 0; margin: 0 0 24px; padding: 0; min-width: 0; }
+.host-fields legend { font-size: 12px; color: var(--muted); margin-bottom: 10px; padding: 0; }
+.host-visibility, .host-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.host-fields .activity-choice { font-size: 12px; min-height: 48px; }
+.host-capacity { margin: 0 0 24px; }
+.host-capacity select { height: 42px; }
+.host-summary { padding-left: 28px; border-left: 1px solid var(--line); min-width: 0; }
+.host-location-art { height: 130px; background: var(--surface-soft); overflow: hidden; border-radius: 10px; margin-bottom: 16px; }
+.host-location-art img { width: 100%; height: 100%; object-fit: cover; }
+.host-summary dl { margin: 0; }
+.host-summary dl > div { display: flex; justify-content: space-between; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 12px; }
+.host-summary dt { color: var(--muted); }
+.host-summary dd { text-align: right; color: var(--text); margin: 0; }
+.host-actions { display: flex; justify-content: flex-end; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); }
+.host-actions .button { min-width: 280px; }
+.host-actions .button .ui-icon:last-child { margin-left: auto; }
+.flight-card { width: min(540px,100%); }
+.flight-menu-header { display: flex; justify-content: space-between; align-items: center; gap: 18px; margin-bottom: 24px; }
+.session-state { font-size: 11px; color: var(--technical); padding: 8px 11px; border: 1px solid #78d8df40; border-radius: 8px; }
+.session-state.live { color: var(--accent); border-color: #ffae7040; }
+.flight-menu-layout { display: grid; grid-template-columns: minmax(0,1fr); gap: 20px; }
+.flight-menu-context { min-width: 0; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.flight-location { display: flex; gap: 12px; font-size: 13px; }
+.flight-location .ui-icon { color: var(--technical); flex: none; }
+.flight-location small { display: block; color: var(--muted); font-size: 11px; margin-top: 5px; }
+.flight-menu-actions { display: flex; flex-direction: column; gap: 10px; }
+.flight-menu-actions > .button { justify-content: flex-start; min-height: 46px; gap: 12px; }
+.flight-menu-actions > .primary { min-height: 52px; }
+.flight-menu-actions > .primary .ui-icon:last-child { margin-left: auto; }
+.flight-exit { margin-top: auto; padding-top: 20px; border-top: 1px solid var(--line); }
+.flight-exit .button { width: 100%; justify-content: flex-start; gap: 12px; }
+.flight-room-details { padding-top: 16px; color: var(--muted); font-size: 12px; }
+.flight-room-details summary { cursor: pointer; }
+.flight-room-details .record { font-size: 11px; gap: 10px; }
+.flight-room-details .room-chat { max-width: 100%; }
+@media (max-width: 1100px) {
+  .pilot-content.with-rankings { grid-template-columns: minmax(0,1fr) 210px; gap: 20px; }
+  .pilot-layout { grid-template-columns: 190px minmax(0,1fr); gap: 20px; }
+  .settings-detail.has-monitor { grid-template-columns: minmax(0,1fr) 270px; gap: 20px; }
+  .settings-split { grid-template-columns: 150px minmax(0,1fr); gap: 20px; }
+  .settings-card .virtual-radio { padding: 16px; }
+}
+@media (max-width: 900px) {
+  .pilot-content.with-rankings { display: block; }
+  /* The same rankings remain reachable through the Rankings category. */
+  .pilot-content.with-rankings > .pilot-ranking { display: none; }
+  .settings-detail.has-monitor { grid-template-columns: minmax(0,1fr); }
+  .settings-card .virtual-radio { width: min(380px,100%); }
+  .settings-card .radio-device { height: 145px; }
+}
+@media (max-width: 650px) {
+  :is(.menu-profile,.menu-settings,.menu-controls,.menu-camera,.menu-graphics,.menu-language,.menu-pause) .menu-layout.composed-layout { padding: 16px; }
+  .unified-menu-card { padding: 18px; }
+  .unified-menu-card h1, .room-create-dialog h1 { font-size: 30px; }
+  .pilot-layout, .settings-split, .flight-menu-layout, .room-create-dialog .host-layout { grid-template-columns: 1fr; gap: 20px; }
+  .pilot-sidebar, .settings-split > .menu-rail, .flight-menu-context { padding-right: 0; border-right: 0; }
+  .pilot-sidebar .menu-rail { display: grid; grid-template-columns: 1fr 1fr; }
+  .pilot-identity { margin-bottom: 14px; }
+  .pilot-avatar { float: left; margin-right: 14px; }
+  .pilot-xp { margin-bottom: 16px; }
+  .pilot-stats { margin: 18px 0 14px; }
+  .settings-split > .menu-rail { display: flex; flex-direction: row; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+  .settings-card { height: min(640px,calc(100dvh - 32px)); }
+  .settings-split { grid-template-rows: auto minmax(0,1fr); }
+  .settings-split .rail-choice { padding: 10px 6px; font-size: 11px; gap: 7px; justify-content: center; }
+  .settings-split .rail-choice .ui-icon { width: 17px; height: 17px; }
+  .settings-detail { min-height: 0; }
+  .pilot-achievements, .account-storage { grid-template-columns: 1fr; }
+  .pilot-record-row { grid-template-columns: 58px minmax(0,1fr) auto; gap: 8px; }
+  .room-create-dialog { padding: 18px; }
+  .host-summary { border-left: 0; padding-left: 0; }
+  .host-summary .host-location-art { display: none; }
+  .host-actions .button { min-width: 0; width: 100%; }
+  .flight-menu-header { flex-wrap: wrap; gap: 10px; }
+  .flight-exit { margin-top: 10px; }
+}
+@media (max-height: 700px) and (min-width: 901px) {
+  :is(.menu-profile,.menu-settings,.menu-controls,.menu-camera,.menu-graphics,.menu-language,.menu-pause) .menu-layout.composed-layout { padding: 16px 24px; }
+  .unified-menu-card, .room-create-dialog { padding: 20px; }
+  .unified-menu-card .section-header, .room-create-dialog .section-header { margin-bottom: 18px; min-height: 44px; }
+  .unified-menu-card h1, .room-create-dialog h1 { font-size: 32px; }
+  .settings-card { height: min(570px,calc(100dvh - 32px)); }
+  .settings-card .controls-form select { height: 34px; }
+  .settings-card .axis-row { margin: 4px 0; min-height: 30px; }
+  .settings-card .controls-form .calibrate-button { min-height: 32px; margin-bottom: 5px; }
+  .host-fields fieldset, .host-capacity { margin-bottom: 18px; }
+}

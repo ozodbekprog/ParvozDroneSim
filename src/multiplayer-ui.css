@@ -1,0 +1,18 @@
+/* Live-flight overlays must be part of the active client stylesheet. */
+.loading-detail,
+.loading-sources { display:block; margin-top:10px; color:var(--muted); font-size:13px; line-height:1.5; font-variant-numeric:tabular-nums; }
+.loading-tip { color:var(--muted); font-size:12px; line-height:1.6; margin:18px 0 0; }
+
+.pilot-markers { position:absolute; inset:0; pointer-events:none; z-index:7; overflow:hidden; }
+.pilot-markers[hidden],
+.pilot-marker[hidden] { display:none; }
+.pilot-marker { position:absolute; left:0; top:0; max-width:160px; padding:3px 7px; border-radius:5px; color:#e6f3f5; background:#10192396; font-size:13px; line-height:1.4; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-shadow:0 1px 3px #000; }
+
+.flight-chat { width:min(340px,42vw); background:transparent; padding:0; backdrop-filter:none; }
+.flight-chat .chat-open { display:flex; align-items:center; gap:14px; color:var(--text); font-size:14px; padding:10px 14px; border:1px solid #ffffff20; border-radius:8px; background:#302621c9; }
+.flight-chat .chat-open kbd { color:var(--muted); font-size:12px; }
+.flight-chat .chat-messages { font-size:13px; max-height:115px; padding:10px 12px; border-radius:8px; background:#302621c9; }
+.flight-chat:not([data-open="true"]):not([data-recent="true"]) .chat-messages { display:none; }
+.flight-chat .chat-help { display:none; color:var(--muted); font-size:11px; line-height:1.5; padding:8px 0; }
+.flight-chat[data-open="true"] .chat-help { display:block; }
+.flight-chat .chat-form input { min-width:0; font-size:14px; }

@@ -1,0 +1,19 @@
+{
+  "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+  "source": "https://www.liftoff-game.com/",
+  "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+  "origin": "Two omitted ribbon materials from the already imported Liftoff track prefabs TapeWhiteRed01 and TapeYellowBlack01. Recovered 31 October 2026 from the same installed source. Static geometry is reconstructed in Blender from each original track XML attachment path; no new map or commercial redistribution permission is asserted.",
+  "materials": [
+    {
+      "name": "TapeWhiteRed01",
+      "sourceMaterial": "{\"B\":{\"P\":[3]},\"I\":0}:-918500440167683730",
+      "sourceTexture": "{\"B\":{\"P\":[3]},\"I\":0}:8577172199919245213"
+    },
+    {
+      "name": "TapeYellowBlack01",
+      "sourceMaterial": "{\"B\":{\"P\":[3]},\"I\":0}:3750849290532681657",
+      "sourceTexture": "{\"B\":{\"P\":[3]},\"I\":0}:-1961088621933001203"
+    }
+  ],
+  "permissionConfirmed": false
+}

@@ -1,0 +1,183 @@
+{
+  "input": "C:\\DroneLiftoffUz\\data\\hangar-c03-demo-recovery\\hangar-c03-demo-liftoff-02-props.glb",
+  "output": "C:\\DroneLiftoffUz\\content\\races\\hangar-c03-demo-liftoff-02\\props.glb",
+  "trianglesBeforeInstancing": 202452,
+  "meshPrimitives": 114,
+  "materials": 12,
+  "textures": [
+    {
+      "name": "texture-164dc6773a72a41b",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-9",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-f1bba4e881d97ca3",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-3f8f880ffc445f90-metallic-1",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-80b51bf136e8e8cc",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-f6f43c85a86da5c2",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-f0dc95ca48f49004",
+      "mimeType": "image/ktx2",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "texture-8d1d6632b8b27c0b",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-909e0e8503fd90c7-metallic-19",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-1cc2e485001e46d5",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-cc1a2600c90dc667",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-7597b9c506833d64",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-49f3d9231077fc30",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-9cecb9c0217315d4",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-75077ad6956b77a8",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-7feb9c2551a62a03",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-16",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-854d234e575b23d9",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "metallic-33",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "texture-fb6645d52fabc2e5",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "metallic-13",
+      "mimeType": "image/ktx2",
+      "size": [
+        512,
+        256
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_materials_emissive_strength",
+    "KHR_texture_basisu",
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ]
+}

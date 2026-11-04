@@ -1,0 +1,37 @@
+[
+  {
+    "file": "prototype/assets/hangar.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1528937,
+    "sha256": "e3a99f92fa71953d57c2ef9f88baea85c1ab4f823d016c28eb2e37bab5512ded"
+  },
+  {
+    "file": "evidence/current-workbench-1920.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1398589,
+    "sha256": "7676841bddefc9a182b1c46e454e141020d8ff6c488ea8ab246b853c8ace7913"
+  },
+  {
+    "file": "previews/01.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1221897,
+    "sha256": "6c6392acdd09439e4d305834dceb7a20d3d7251e4702985f8a7defbb0ac5fc1d"
+  },
+  {
+    "file": "previews/02.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1299600,
+    "sha256": "d41251699b1493638218c436a98a3825c1e714ae2c51755875dcf970fb9095bb"
+  },
+  {
+    "file": "previews/03.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1118571,
+    "sha256": "ba3faf7194e04904073ac64e2d3d406997150d5a68007366abf06845bf37c7cd"
+  }
+]

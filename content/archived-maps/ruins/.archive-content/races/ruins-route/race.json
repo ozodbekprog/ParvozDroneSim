@@ -1,0 +1,144 @@
+{
+  "id": "ruins-route",
+  "name": "Broken Skyline",
+  "laps": 2,
+  "gates": [
+    {
+      "position": [
+        0.0,
+        6.75,
+        36.0
+      ],
+      "yaw": 1.441094,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        46.0,
+        9.45,
+        42.0
+      ],
+      "yaw": 2.279422,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        88.0,
+        13.5,
+        6.0
+      ],
+      "yaw": 2.904744,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        102.0,
+        8.1,
+        -52.0
+      ],
+      "yaw": -1.901892,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        38.0,
+        5.4,
+        -74.0
+      ],
+      "yaw": -1.325818,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -26.0,
+        8.1,
+        -58.0
+      ],
+      "yaw": -0.743756,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -72.0,
+        10.8,
+        -8.0
+      ],
+      "yaw": 0.386876,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -50.0,
+        6.75,
+        46.0
+      ],
+      "yaw": 1.768192,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ],
+  "spawn": {
+    "position": [
+      -23.79841,
+      6.75,
+      32.895859
+    ],
+    "yaw": 1.441094
+  },
+  "map": "ruins"
+}

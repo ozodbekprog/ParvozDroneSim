@@ -1,0 +1,99 @@
+{
+  "id": "dquad-addiction",
+  "name": "Dquad Addiction",
+  "meshes": 20,
+  "triangles": 96831,
+  "mounts": {
+    "frame": [],
+    "motors": [
+      "mount_motor_0",
+      "mount_motor_1",
+      "mount_motor_2",
+      "mount_motor_3"
+    ],
+    "propellers": [
+      "mount_prop_0",
+      "mount_prop_1",
+      "mount_prop_2",
+      "mount_prop_3"
+    ],
+    "camera": [
+      "mount_camera"
+    ],
+    "battery": [
+      "mount_battery"
+    ]
+  },
+  "partBindings": {
+    "frame": [
+      "Frame_Led_Strip_0",
+      "Frame_FlightController02_0",
+      "Frame_DquadAddictionFrame01_0",
+      "Frame_ConnecterXT60Female01_0"
+    ],
+    "motors": [
+      "Motor0_HypetrainVanover2207Motor01_Lower_0",
+      "Motor0_HypetrainVanover2207Motor01_Upper_0",
+      "Motor1_HypetrainVanover2207Motor01_Lower_0",
+      "Motor1_HypetrainVanover2207Motor01_Upper_0",
+      "Motor2_HypetrainVanover2207Motor01_Lower_0",
+      "Motor2_HypetrainVanover2207Motor01_Upper_0",
+      "Motor3_HypetrainVanover2207Motor01_Lower_0",
+      "Motor3_HypetrainVanover2207Motor01_Upper_0"
+    ],
+    "propellers": [
+      "Prop0_DALpropT5040x3R01_R_0",
+      "Prop1_DALpropT5040x3L01_L_0",
+      "Prop2_DALpropT5040x3R01_R_0",
+      "Prop3_DALpropT5040x3L01_L_0"
+    ],
+    "camera": [
+      "Camera_RuncamSplitMini01_0"
+    ],
+    "battery": [
+      "Battery_TattuRline4SBattery01_0",
+      "Battery_TattuRline4SBattery01Battery01Strap01_0"
+    ]
+  },
+  "motorBindings": [
+    "prop_0",
+    "prop_1",
+    "prop_2",
+    "prop_3"
+  ],
+  "motorPositions": [
+    [
+      0.07360991835594177,
+      0.011482886038720608,
+      0.07360991835594177
+    ],
+    [
+      -0.07360991835594177,
+      0.011482886038720608,
+      0.07360991835594177
+    ],
+    [
+      -0.07360991835594177,
+      0.011482886038720608,
+      -0.07360991835594177
+    ],
+    [
+      0.07360991835594177,
+      0.011482886038720608,
+      -0.07360991835594177
+    ]
+  ],
+  "mass": 0.4414,
+  "bounds": {
+    "min": [
+      -0.13373565673828125,
+      -0.13373564183712006,
+      -0.03697403520345688
+    ],
+    "max": [
+      0.13373564183712006,
+      0.13373562693595886,
+      0.053087785840034485
+    ]
+  }
+}

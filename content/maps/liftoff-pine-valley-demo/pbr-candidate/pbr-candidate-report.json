@@ -1,0 +1,21 @@
+{
+  "input": "public/content/assets/qa/pine-lod-caac846413aa05ae.glb",
+  "output": "public/content/assets/qa/pine-lod-pbr-20261018.glb",
+  "status": "verified",
+  "fullDetailBefore": "38d5e55b517f9f1c386a617b38475959e4678279f460ef0b27d0406f0908310a",
+  "fullDetailAfter": "38d5e55b517f9f1c386a617b38475959e4678279f460ef0b27d0406f0908310a",
+  "materials": [
+    "Optimized Bark Material",
+    "Optimized Bark Material.003",
+    "Optimized Leaf Material.004",
+    "Optimized Leaf Material.001",
+    "Optimized Bark Material.001",
+    "Optimized Leaf Material.002",
+    "Optimized Bark Material.002",
+    "Optimized Leaf Material.003",
+    "VegetationFern01_AFS"
+  ],
+  "newTextures": 12,
+  "deliverySha256": "a81b308b30d7fc2a20e064089b986ca5e737ab8fb892dd266ef4f2bfd4d50b4e",
+  "deliveryBytes": 288649472
+}

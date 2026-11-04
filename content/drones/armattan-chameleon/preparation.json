@@ -1,0 +1,102 @@
+{
+  "id": "armattan-chameleon",
+  "name": "Armattan Chameleon 5\"",
+  "meshes": 22,
+  "triangles": 61463,
+  "mounts": {
+    "frame": [],
+    "motors": [
+      "mount_motor_0",
+      "mount_motor_1",
+      "mount_motor_2",
+      "mount_motor_3"
+    ],
+    "propellers": [
+      "mount_prop_0",
+      "mount_prop_1",
+      "mount_prop_2",
+      "mount_prop_3"
+    ],
+    "camera": [
+      "mount_camera"
+    ],
+    "battery": [
+      "mount_battery"
+    ]
+  },
+  "partBindings": {
+    "frame": [
+      "Frame_FlightController02_0",
+      "Frame_Led_Strip_0",
+      "Frame_ArmattanChameleonFrame01_0",
+      "Frame_SolderingDropFlattened01_0",
+      "Frame_SolderingDropFlattened01 (1)_0"
+    ],
+    "motors": [
+      "Motor0_Hypetrain2306_Lower_0",
+      "Motor0_Hypetrain2306_Upper_0",
+      "Motor1_Hypetrain2306_Lower_0",
+      "Motor1_Hypetrain2306_Upper_0",
+      "Motor2_Hypetrain2306_Lower_0",
+      "Motor2_Hypetrain2306_Upper_0",
+      "Motor3_Hypetrain2306_Lower_0",
+      "Motor3_Hypetrain2306_Upper_0"
+    ],
+    "propellers": [
+      "Prop0_HQV1S5x4x3R01_R_0",
+      "Prop1_HQV1S5x4x3L01_L_0",
+      "Prop2_HQV1S5x4x3R01_R_0",
+      "Prop3_HQV1S5x4x3L01_L_0"
+    ],
+    "camera": [
+      "Camera_RotorRiotCam01_0"
+    ],
+    "battery": [
+      "Battery_AhtechInfinityBattery01_0",
+      "Battery_AhtechInfinity01Strap01_0",
+      "Battery_AhtechInfinity01Strap02_0"
+    ]
+  },
+  "motorBindings": [
+    "prop_0",
+    "prop_1",
+    "prop_2",
+    "prop_3"
+  ],
+  "motorPositions": [
+    [
+      0.0989999771118164,
+      0.008999999612569809,
+      0.07769998908042908
+    ],
+    [
+      -0.0989999771118164,
+      0.008999999612569809,
+      0.07769998908042908
+    ],
+    [
+      -0.0989999771118164,
+      0.008999999612569809,
+      -0.07769998908042908
+    ],
+    [
+      0.0989999771118164,
+      0.008999999612569809,
+      -0.07769998908042908
+    ]
+  ],
+  "mass": 0.45649999999999996,
+  "bounds": {
+    "min": [
+      -0.1569723290362659,
+      -0.13567236145415784,
+      0
+    ],
+    "max": [
+      0.1569723289639781,
+      0.1356723358090316,
+      0.0651383101940155
+    ]
+  },
+  "uvConvention": "Blender glTF import/export, no second V flip"
+}

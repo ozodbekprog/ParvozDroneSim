@@ -1,0 +1,157 @@
+{
+  "source": "Existing native track prefab caches; original permission metadata retained.",
+  "generator": "tools/blender/import_liftoff_track_models.py --collision-only",
+  "checks": "Only missing native spheres/capsules appended in source order; all existing non-rounded colliders and race properties unchanged.",
+  "tracks": [
+    {
+      "id": "hangar-c03-demo-liftoff-01",
+      "before": 150,
+      "after": 596,
+      "rounded": 446
+    },
+    {
+      "id": "hangar-c03-demo-liftoff-02",
+      "before": 79,
+      "after": 159,
+      "rounded": 80
+    },
+    {
+      "id": "liftoff-arena-demo-liftoff-01",
+      "before": 590,
+      "after": 1498,
+      "rounded": 908
+    },
+    {
+      "id": "liftoff-arena-demo-liftoff-02",
+      "before": 475,
+      "after": 1475,
+      "rounded": 1000
+    },
+    {
+      "id": "liftoff-arena-demo-liftoff-03",
+      "before": 351,
+      "after": 1075,
+      "rounded": 724
+    },
+    {
+      "id": "liftoff-arena-demo-liftoff-04",
+      "before": 269,
+      "after": 904,
+      "rounded": 635
+    },
+    {
+      "id": "liftoff-arena-demo-liftoff-05",
+      "before": 121,
+      "after": 322,
+      "rounded": 201
+    },
+    {
+      "id": "liftoff-arena-demo-liftoff-06",
+      "before": 157,
+      "after": 534,
+      "rounded": 377
+    },
+    {
+      "id": "liftoff-arena-demo-liftoff-07",
+      "before": 115,
+      "after": 170,
+      "rounded": 55
+    },
+    {
+      "id": "liftoff-pine-valley-demo-liftoff-01",
+      "before": 143,
+      "after": 185,
+      "rounded": 42
+    },
+    {
+      "id": "liftoff-pine-valley-demo-liftoff-02",
+      "before": 119,
+      "after": 280,
+      "rounded": 161
+    },
+    {
+      "id": "liftoff-pine-valley-demo-liftoff-03",
+      "before": 417,
+      "after": 1530,
+      "rounded": 1113
+    },
+    {
+      "id": "liftoff-pine-valley-demo-liftoff-04",
+      "before": 50,
+      "after": 74,
+      "rounded": 24
+    },
+    {
+      "id": "liftoff-pine-valley-demo-liftoff-05",
+      "before": 293,
+      "after": 725,
+      "rounded": 432
+    },
+    {
+      "id": "liftoff-the-green-demo-liftoff-01",
+      "before": 441,
+      "after": 1172,
+      "rounded": 731
+    },
+    {
+      "id": "liftoff-the-green-demo-liftoff-02",
+      "before": 535,
+      "after": 1956,
+      "rounded": 1421
+    },
+    {
+      "id": "liftoff-the-green-demo-liftoff-03",
+      "before": 382,
+      "after": 1240,
+      "rounded": 858
+    },
+    {
+      "id": "liftoff-the-green-demo-liftoff-04",
+      "before": 382,
+      "after": 1334,
+      "rounded": 952
+    },
+    {
+      "id": "liftoff-the-green-demo-liftoff-05",
+      "before": 26,
+      "after": 134,
+      "rounded": 108
+    },
+    {
+      "id": "liftoff-the-green-demo-liftoff-06",
+      "before": 746,
+      "after": 4372,
+      "rounded": 3626
+    },
+    {
+      "id": "minus-two-demo-liftoff-01",
+      "before": 375,
+      "after": 529,
+      "rounded": 154
+    },
+    {
+      "id": "minus-two-demo-liftoff-02",
+      "before": 53,
+      "after": 233,
+      "rounded": 180
+    },
+    {
+      "id": "minus-two-demo-liftoff-03",
+      "before": 361,
+      "after": 1133,
+      "rounded": 772
+    },
+    {
+      "id": "minus-two-demo-liftoff-04",
+      "before": 152,
+      "after": 822,
+      "rounded": 670
+    },
+    {
+      "id": "minus-two-demo-liftoff-05",
+      "before": 89,
+      "after": 463,
+      "rounded": 374
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "method": "Read-only public npm registry metadata; no packages installed or executed. Highest numeric stable excludes prerelease names and is not a support guarantee.",
+  "packages": [
+    {
+      "package": "three",
+      "source": "https://registry.npmjs.org/three",
+      "distTags": {
+        "latest": "0.186.1"
+      },
+      "latest": "0.186.1",
+      "latestDate": "2026-09-24T14:42:21.301Z",
+      "highestNumericStable": "0.186.1",
+      "stableDate": "2026-09-24T14:42:21.301Z",
+      "license": "MIT",
+      "peers": null,
+      "repository": {
+        "url": "git+https://github.com/mrdoob/three.js.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "playcanvas",
+      "source": "https://registry.npmjs.org/playcanvas",
+      "distTags": {
+        "lts": "1.77.0",
+        "alpha": "2.22.0-alpha.9156.3",
+        "preview": "2.23.0-preview.0",
+        "latest": "2.23.3",
+        "beta": "2.24.0-beta.22"
+      },
+      "latest": "2.23.3",
+      "latestDate": "2026-10-15T15:41:11.219Z",
+      "highestNumericStable": "2.23.3",
+      "stableDate": "2026-10-15T15:41:11.219Z",
+      "license": "MIT",
+      "peers": null,
+      "repository": {
+        "url": "git+https://github.com/playcanvas/engine.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "@babylonjs/core",
+      "source": "https://registry.npmjs.org/%40babylonjs%2Fcore",
+      "distTags": {
+        "preview": "5.0.0-rc.13",
+        "alpha": "6.34.0-alpha.0",
+        "latest": "9.32.0"
+      },
+      "latest": "9.32.0",
+      "latestDate": "2026-10-22T08:06:52.909Z",
+      "highestNumericStable": "9.32.0",
+      "stableDate": "2026-10-22T08:06:52.909Z",
+      "license": "Apache-2.0",
+      "peers": null,
+      "repository": {
+        "url": "git+https://github.com/BabylonJS/Babylon.js.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "babylon-lite",
+      "error": "Registry metadata unavailable"
+    },
+    {
+      "package": "@orillusion/core",
+      "source": "https://registry.npmjs.org/%40orillusion%2Fcore",
+      "distTags": {
+        "tooth": "0.7.3-tooth.1",
+        "dev": "0.8.4-dev.3",
+        "latest": "0.9.2"
+      },
+      "latest": "0.9.2",
+      "latestDate": "2026-07-31T12:51:07.389Z",
+      "highestNumericStable": "0.9.2",
+      "stableDate": "2026-07-31T12:51:07.389Z",
+      "license": "MIT",
+      "peers": null,
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Orillusion/orillusion.git"
+      }
+    },
+    {
+      "package": "@galacean/engine",
+      "source": "https://registry.npmjs.org/%40galacean%2Fengine",
+      "distTags": {
+        "beta": "1.6.0-beta.2",
+        "latest": "1.6.13",
+        "experimental": "0.0.0-experimental-2.0-migrate.7",
+        "alpha": "2.0.0-alpha.51"
+      },
+      "latest": "1.6.13",
+      "latestDate": "2025-12-29T05:26:52.125Z",
+      "highestNumericStable": "1.6.13",
+      "stableDate": "2025-12-29T05:26:52.125Z",
+      "license": "MIT",
+      "peers": null,
+      "repository": {
+        "url": "git+https://github.com/galacean/engine.git"
+      }
+    },
+    {
+      "package": "3d-tiles-renderer",
+      "source": "https://registry.npmjs.org/3d-tiles-renderer",
+      "distTags": {
+        "latest": "0.5.3"
+      },
+      "latest": "0.5.3",
+      "latestDate": "2026-09-18T08:55:47.488Z",
+      "highestNumericStable": "0.5.3",
+      "stableDate": "2026-09-18T08:55:47.488Z",
+      "license": "Apache-2.0",
+      "peers": {
+        "react": "^18.3.1 || ^19.0.0",
+        "three": ">=0.167.0",
+        "react-dom": "^18.3.1 || ^19.0.0",
+        "@babylonjs/core": ">=8.0.0",
+        "@babylonjs/loaders": ">=8.0.0",
+        "@react-three/fiber": "^8.17.9 || ^9.0.0"
+      },
+      "repository": {
+        "url": "git+https://github.com/NASA-AMMOS/3DTilesRendererJS.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "@loaders.gl/3d-tiles",
+      "source": "https://registry.npmjs.org/%40loaders.gl%2F3d-tiles",
+      "distTags": {
+        "1.1-latest": "1.1.7",
+        "v4.5-beta": "4.5.0-alpha.1",
+        "beta": "5.0.0-alpha.12",
+        "latest": "4.5.4"
+      },
+      "latest": "4.5.4",
+      "latestDate": "2026-10-10T13:35:46.78Z",
+      "highestNumericStable": "4.5.4",
+      "stableDate": "2026-10-10T13:35:46.78Z",
+      "license": "MIT",
+      "peers": {
+        "@loaders.gl/core": "~4.5.0"
+      },
+      "repository": {
+        "url": "git+https://github.com/visgl/loaders.gl.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "@three.ez/instanced-mesh",
+      "source": "https://registry.npmjs.org/%40three.ez%2Finstanced-mesh",
+      "distTags": {
+        "latest": "0.3.16",
+        "beta": "1.0.0-beta.0"
+      },
+      "latest": "0.3.16",
+      "latestDate": "2026-07-26T08:53:14.381Z",
+      "highestNumericStable": "0.3.16",
+      "stableDate": "2026-07-26T08:53:14.381Z",
+      "license": "MIT",
+      "peers": {
+        "three": ">=0.159.0"
+      },
+      "repository": {
+        "url": "git+https://github.com/three-ez/instanced-mesh.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "@three.ez/batched-mesh-extensions",
+      "source": "https://registry.npmjs.org/%40three.ez%2Fbatched-mesh-extensions",
+      "distTags": {
+        "latest": "0.0.12"
+      },
+      "latest": "0.0.12",
+      "latestDate": "2026-06-23T15:29:04.391Z",
+      "highestNumericStable": "0.0.12",
+      "stableDate": "2026-06-23T15:29:04.391Z",
+      "license": "MIT",
+      "peers": {
+        "three": ">=0.159.0"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/agargaro/batched-mesh-extensions.git"
+      }
+    },
+    {
+      "package": "@needle-tools/engine",
+      "source": "https://registry.npmjs.org/%40needle-tools%2Fengine",
+      "distTags": {
+        "next": "6.0.0-next.1786556224.huge-orchid.f14a825",
+        "version-4": "4.16.13",
+        "latest": "6.0.0-alpha.7",
+        "stable": "5.1.16",
+        "canary": "6.0.0-canary.1792076174.funny-rose.c4d63a8",
+        "experimental": "6.0.0-experimental.1792065788.kind-prickly-pear.f4311b8"
+      },
+      "latest": "6.0.0-alpha.7",
+      "latestDate": "2026-10-12T14:59:55.682Z",
+      "highestNumericStable": "5.1.16",
+      "stableDate": "2026-10-14T16:03:45.637Z",
+      "license": null,
+      "peers": {
+        "open": "*"
+      },
+      "repository": {
+        "url": "git+https://github.com/needle-tools/needle-engine-support.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "@needle-tools/gltf-progressive",
+      "source": "https://registry.npmjs.org/%40needle-tools%2Fgltf-progressive",
+      "distTags": {
+        "rc": "3.5.0-rc",
+        "canary": "3.6.0-canary.51f6448",
+        "next": "3.4.0-next.f4acc24",
+        "version-3.4": "3.4.0-beta.4",
+        "stable": "3.6.2",
+        "latest": "4.0.0-alpha.8"
+      },
+      "latest": "4.0.0-alpha.8",
+      "latestDate": "2026-10-15T15:33:34.575Z",
+      "highestNumericStable": "3.6.2",
+      "stableDate": "2026-10-12T10:24:03.635Z",
+      "license": "MIT",
+      "peers": {
+        "three": "*"
+      },
+      "repository": {
+        "url": "git+https://github.com/needle-tools/gltf-progressive.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "@needle-tools/gltf-build-pipeline",
+      "source": "https://registry.npmjs.org/%40needle-tools%2Fgltf-build-pipeline",
+      "distTags": {
+        "alpha": "2.7.0-alpha.2",
+        "experimental": "2.9.5-experimental.5154fde",
+        "stable": "2.14.1",
+        "variant": "2.14.0-variant.1786537668.warm-tomato",
+        "cloud": "4.0.0-f68c35d",
+        "latest": "3.0.2",
+        "next": "4.0.0-next.1792772152.lumpy-succulent.1513d10"
+      },
+      "latest": "3.0.2",
+      "latestDate": "2026-10-15T10:11:28.712Z",
+      "highestNumericStable": "3.0.2",
+      "stableDate": "2026-10-15T10:11:28.712Z",
+      "license": null,
+      "peers": null,
+      "repository": {
+        "url": "git+https://github.com/needle-tools/needle-gltf-extensions.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "meshoptimizer",
+      "source": "https://registry.npmjs.org/meshoptimizer",
+      "distTags": {
+        "latest": "1.3.0"
+      },
+      "latest": "1.3.0",
+      "latestDate": "2026-09-25T15:42:07.109Z",
+      "highestNumericStable": "1.3.0",
+      "stableDate": "2026-09-25T15:42:07.109Z",
+      "license": "MIT",
+      "peers": null,
+      "repository": {
+        "url": "git+https://github.com/zeux/meshoptimizer.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "draco3d",
+      "source": "https://registry.npmjs.org/draco3d",
+      "distTags": {
+        "latest": "1.5.9"
+      },
+      "latest": "1.5.9",
+      "latestDate": "2026-10-16T19:22:27.929Z",
+      "highestNumericStable": "1.5.9",
+      "stableDate": "2026-10-16T19:22:27.929Z",
+      "license": "Apache-2.0",
+      "peers": null,
+      "repository": {
+        "url": "git+https://github.com/google/draco.git",
+        "type": "git"
+      }
+    },
+    {
+      "package": "@gltf-transform/core",
+      "source": "https://registry.npmjs.org/%40gltf-transform%2Fcore",
+      "distTags": {
+        "next": "4.4.0-alpha.1",
+        "latest": "4.5.1"
+      },
+      "latest": "4.5.1",
+      "latestDate": "2026-09-28T12:51:13.194Z",
+      "highestNumericStable": "4.5.1",
+      "stableDate": "2026-09-28T12:51:13.194Z",
+      "license": "MIT",
+      "peers": null,
+      "repository": "github:donmccurdy/glTF-Transform"
+    },
+    {
+      "package": "spectorjs",
+      "source": "https://registry.npmjs.org/spectorjs",
+      "distTags": {
+        "latest": "0.9.33"
+      },
+      "latest": "0.9.33",
+      "latestDate": "2026-09-14T16:42:22.919Z",
+      "highestNumericStable": "0.9.33",
+      "stableDate": "2026-09-14T16:42:22.919Z",
+      "license": "MIT",
+      "peers": null,
+      "repository": {
+        "url": "git://github.com/BabylonJS/Spector.js.git",
+        "type": "git"
+      }
+    }
+  ],
+  "retrievedAt": "2026-10-26T06:58:47.9342417Z"
+}

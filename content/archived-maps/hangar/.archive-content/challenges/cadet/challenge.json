@@ -1,0 +1,22 @@
+{
+  "id": "cadet",
+  "name": "First Lift",
+  "map": "hangar",
+  "track": "hangar-cadet",
+  "target": 201,
+  "reward": 100,
+  "hints": [
+    {
+      "afterGate": 0,
+      "text": "Lift off and follow the gold NEXT marker. The blue marker shows the following gate."
+    },
+    {
+      "afterGate": 1,
+      "text": "First gate complete. Look ahead to the next gate and make a gentle right turn."
+    },
+    {
+      "afterGate": 2,
+      "text": "Final gate. Keep your approach steady and fly through the opening."
+    }
+  ]
+}

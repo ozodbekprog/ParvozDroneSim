@@ -1,0 +1,62 @@
+{
+  "id": "overhead_crane",
+  "title": "Overhead Crane",
+  "authors": {
+    "Timothy3D": "All"
+  },
+  "source": "https://polyhaven.com/a/overhead_crane",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/overhead_crane/overhead_crane_1k.blend",
+    "md5": "a329feed04f32ca96453778eaaa03ec0",
+    "size": 2593928,
+    "include": {
+      "textures/overhead_crane_diff_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/overhead_crane/overhead_crane_diff_1k.jpg",
+        "md5": "a065da8866bb9624921e3dc0aa3fae93",
+        "size": 630084
+      },
+      "textures/overhead_crane_metal_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/overhead_crane/overhead_crane_metal_1k.exr",
+        "md5": "ac544aabdcf776618181b2554119377e",
+        "size": 9933
+      },
+      "textures/overhead_crane_nor_gl_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/overhead_crane/overhead_crane_nor_gl_1k.exr",
+        "md5": "a2dc272045856b24c00f50e64ae6a4a5",
+        "size": 1839590
+      },
+      "textures/overhead_crane_rough_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/overhead_crane/overhead_crane_rough_1k.exr",
+        "md5": "f8bc7093e87486056da8459627871561",
+        "size": 659606
+      },
+      "textures/overhead_crane_trim_diff_1k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/overhead_crane/overhead_crane_trim_diff_1k.png",
+        "md5": "ff760bde17317f7eef00b84123e83669",
+        "size": 4579964
+      },
+      "textures/overhead_crane_trim_mask_1k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/overhead_crane/overhead_crane_trim_mask_1k.png",
+        "md5": "d9cb9c1393e707513e96ce3f5a321e7f",
+        "size": 2447854
+      },
+      "textures/overhead_crane_trim_metal_1k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/overhead_crane/overhead_crane_trim_metal_1k.png",
+        "md5": "c6f479a10a8ce7f94fae0a384189f297",
+        "size": 3126
+      },
+      "textures/overhead_crane_trim_nor_gl_1k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/overhead_crane/overhead_crane_trim_nor_gl_1k.png",
+        "md5": "ef52ac085c5e0243278f3b11dae57b50",
+        "size": 5146050
+      },
+      "textures/overhead_crane_trim_rough_1k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/overhead_crane/overhead_crane_trim_rough_1k.png",
+        "md5": "22e861b57bfdd7eee6670b8b8f805f3c",
+        "size": 1601343
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "efficient",
+  "name": "Efficient bi-blade",
+  "mass": -0.012,
+  "thrust": 0.94,
+  "drag": 0.87,
+  "cost": 140,
+  "category": "propellers",
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": [],
+  "model": "../../drones/kestrel/hangar.glb",
+  "modelLods": [
+    {
+      "model": "../../drones/kestrel/hangar.glb",
+      "distance": 0
+    },
+    {
+      "model": "../../drones/kestrel/low.glb",
+      "distance": 3
+    },
+    {
+      "model": "../../drones/kestrel/far.glb",
+      "distance": 18
+    }
+  ],
+  "modelNode": "Template_Part_propellers_HUNTER",
+  "lowLod": 1,
+  "compatibleDrones": [
+    "kestrel"
+  ],
+  "assetLicense": "CC-BY-SA-4.0",
+  "visualVariant": "HUNTER",
+  "visualVariantNote": "Authored two-blade propeller"
+}

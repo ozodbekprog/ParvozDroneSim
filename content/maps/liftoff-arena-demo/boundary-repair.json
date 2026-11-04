@@ -1,0 +1,96 @@
+{
+  "map": "liftoff-arena-demo",
+  "policy": "Only source LevelWalls collision is retired. Physical scenery remains solid.",
+  "before": 15563,
+  "after": 15559,
+  "removed": [
+    {
+      "source": "74887",
+      "path": "LevelWalls/LevelWall",
+      "index": 757,
+      "shape": {
+        "position": [
+          -7,
+          5,
+          84.8
+        ],
+        "size": [
+          170.000000000009,
+          50,
+          1.000000000000053
+        ],
+        "rotation": [
+          -3.141592653589793,
+          3.2584135999998853e-7,
+          -3.141592653589793
+        ]
+      }
+    },
+    {
+      "source": "74923",
+      "path": "LevelWalls/LevelWall",
+      "index": 787,
+      "shape": {
+        "position": [
+          75.1,
+          5,
+          0
+        ],
+        "size": [
+          179.99998412240186,
+          50,
+          0.9999999117911215
+        ],
+        "rotation": [
+          0,
+          -1.570796277373336,
+          0
+        ]
+      }
+    },
+    {
+      "source": "75074",
+      "path": "LevelWalls/LevelWall",
+      "index": 908,
+      "shape": {
+        "position": [
+          -87.54,
+          5,
+          0
+        ],
+        "size": [
+          179.99998412240186,
+          50,
+          0.9999999117911215
+        ],
+        "rotation": [
+          0,
+          -1.570796277373336,
+          0
+        ]
+      }
+    },
+    {
+      "source": "75093",
+      "path": "LevelWalls/LevelWall",
+      "index": 918,
+      "shape": {
+        "position": [
+          -6.4,
+          5,
+          -84.5
+        ],
+        "size": [
+          170.000000000009,
+          50,
+          1.000000000000053
+        ],
+        "rotation": [
+          -3.141592653589793,
+          3.2584135999998853e-7,
+          -3.141592653589793
+        ]
+      }
+    }
+  ]
+}

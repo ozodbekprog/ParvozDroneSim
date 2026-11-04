@@ -1,0 +1,36 @@
+{
+  "id": "gravel_road",
+  "title": "Gravel Road",
+  "authors": {
+    "Amal Kumar": "All"
+  },
+  "source": "https://polyhaven.com/a/gravel_road",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "diff": {
+      "name": "gravel_road_diff_1k.png",
+      "size": 5418753,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/gravel_road/gravel_road_diff_1k.png",
+      "md5": "1cab2cb73ef965826906feb4282cb924"
+    },
+    "nor_gl": {
+      "name": "gravel_road_nor_gl_1k.png",
+      "size": 5629889,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/gravel_road/gravel_road_nor_gl_1k.png",
+      "md5": "a36341579e7e7f71f0ff68ae59fb03c9"
+    },
+    "rough": {
+      "name": "gravel_road_rough_1k.png",
+      "size": 1679250,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/gravel_road/gravel_road_rough_1k.png",
+      "md5": "0aeb24e865074a806422fbe3adb78336"
+    },
+    "ao": {
+      "name": "gravel_road_ao_1k.png",
+      "size": 1552515,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/gravel_road/gravel_road_ao_1k.png",
+      "md5": "2a5acac99a112ad02df66fee1e78c76d"
+    }
+  }
+}

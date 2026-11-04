@@ -1,0 +1,22 @@
+{
+  "id": "sunscar-golden-hour",
+  "name": "Golden Hour",
+  "map": "sunscar",
+  "track": "sunscar-canal-dash",
+  "target": 201,
+  "reward": 350,
+  "hints": [
+    {
+      "afterGate": 0,
+      "text": "Use the dark solar rows to judge your heading."
+    },
+    {
+      "afterGate": 2,
+      "text": "The canal and control hut mark the far side of the course."
+    },
+    {
+      "afterGate": 4,
+      "text": "Stay above the panels and turn early around the mesas."
+    }
+  ]
+}

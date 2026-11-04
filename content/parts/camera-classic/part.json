@@ -1,0 +1,19 @@
+{
+  "id": "classic",
+  "name": "Classic FPV",
+  "fov": 88,
+  "cost": 100,
+  "category": "camera",
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": []
+}

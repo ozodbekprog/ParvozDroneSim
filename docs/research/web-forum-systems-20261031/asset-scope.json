@@ -1,0 +1,459 @@
+{
+  "capturedAt": "2026-10-31T07:33:57.279Z",
+  "catalogRevision": "0fe968941a806c66",
+  "catalogSha256": "687192a824258b567a60c0c9550528501a24639a90de708fba95abf92a7dcdc0",
+  "note": "Static scope only; image counts include all catalog GLBs, not a single session. No timing or memory measurement.",
+  "models": 64,
+  "embeddedKtx2Sources": 3747,
+  "embeddedKtx2Bytes": 686454717,
+  "rows": [
+    {
+      "url": "/content/assets/drones/armattan-chameleon/far-delivery-7fbd12e521365f2d.glb",
+      "fileBytes": 3903952,
+      "embeddedKtx2Sources": 28,
+      "embeddedKtx2Bytes": 3829938,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/armattan-chameleon/hangar-delivery-7474a6c37d2db48a.glb",
+      "fileBytes": 4230204,
+      "embeddedKtx2Sources": 28,
+      "embeddedKtx2Bytes": 3829938,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/armattan-chameleon/low-delivery-06a4cdc900e80b07.glb",
+      "fileBytes": 4004696,
+      "embeddedKtx2Sources": 28,
+      "embeddedKtx2Bytes": 3829938,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/armattan-chameleon/model-9cf17024581148c6.glb",
+      "fileBytes": 6871396,
+      "embeddedKtx2Sources": 0,
+      "embeddedKtx2Bytes": 0,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/armattan-gecko/far-delivery-ca84e296cb0b4672.glb",
+      "fileBytes": 4238844,
+      "embeddedKtx2Sources": 30,
+      "embeddedKtx2Bytes": 4160382,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/armattan-gecko/hangar-delivery-16f1f336abb94b5d.glb",
+      "fileBytes": 4635108,
+      "embeddedKtx2Sources": 30,
+      "embeddedKtx2Bytes": 4160382,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/armattan-gecko/low-delivery-03fb6296b4b0fa6f.glb",
+      "fileBytes": 4354164,
+      "embeddedKtx2Sources": 30,
+      "embeddedKtx2Bytes": 4160382,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/armattan-gecko/model-83881276439c9c99.glb",
+      "fileBytes": 7313196,
+      "embeddedKtx2Sources": 0,
+      "embeddedKtx2Bytes": 0,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/dquad-addiction/far-delivery-2fb11297757ef1da.glb",
+      "fileBytes": 4363680,
+      "embeddedKtx2Sources": 28,
+      "embeddedKtx2Bytes": 4292905,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/dquad-addiction/hangar-delivery-1e39fb9e5b7891e0.glb",
+      "fileBytes": 4665908,
+      "embeddedKtx2Sources": 28,
+      "embeddedKtx2Bytes": 4292905,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/dquad-addiction/low-delivery-7d3b617da4c65980.glb",
+      "fileBytes": 4453368,
+      "embeddedKtx2Sources": 28,
+      "embeddedKtx2Bytes": 4292905,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/dquad-addiction/model-c9dd54be9b33d7c2.glb",
+      "fileBytes": 10979156,
+      "embeddedKtx2Sources": 0,
+      "embeddedKtx2Bytes": 0,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "fileBytes": 10299248,
+      "embeddedKtx2Sources": 18,
+      "embeddedKtx2Bytes": 10170296,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "fileBytes": 11030204,
+      "embeddedKtx2Sources": 18,
+      "embeddedKtx2Bytes": 10170296,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "fileBytes": 10516900,
+      "embeddedKtx2Sources": 18,
+      "embeddedKtx2Bytes": 10170296,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/luma-5/far-delivery-7d2b7f9e8e7bc430.glb",
+      "fileBytes": 4949140,
+      "embeddedKtx2Sources": 31,
+      "embeddedKtx2Bytes": 4866556,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/luma-5/hangar-delivery-a6a17778aaeab5c8.glb",
+      "fileBytes": 5330432,
+      "embeddedKtx2Sources": 31,
+      "embeddedKtx2Bytes": 4866556,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/luma-5/low-delivery-7a2745867c3531d2.glb",
+      "fileBytes": 5066488,
+      "embeddedKtx2Sources": 31,
+      "embeddedKtx2Bytes": 4866556,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/drones/luma-5/model-3429eeef5da1210a.glb",
+      "fileBytes": 9930856,
+      "embeddedKtx2Sources": 0,
+      "embeddedKtx2Bytes": 0,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/maps/hangar-c03-demo/delivery-87910eb6e6a5e197.glb",
+      "fileBytes": 3409196,
+      "embeddedKtx2Sources": 19,
+      "embeddedKtx2Bytes": 3177882,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/maps/hangar-c03-demo/model-02e11dc48be0aa6d.glb",
+      "fileBytes": 270304988,
+      "embeddedKtx2Sources": 375,
+      "embeddedKtx2Bytes": 74351926,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/maps/liftoff-arena-demo/delivery-87910eb6e6a5e197.glb",
+      "fileBytes": 3409196,
+      "embeddedKtx2Sources": 19,
+      "embeddedKtx2Bytes": 3177882,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/maps/liftoff-arena-demo/model-aa2bc879079b4692.glb",
+      "fileBytes": 173899476,
+      "embeddedKtx2Sources": 330,
+      "embeddedKtx2Bytes": 62152135,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/delivery-87910eb6e6a5e197.glb",
+      "fileBytes": 3409196,
+      "embeddedKtx2Sources": 19,
+      "embeddedKtx2Bytes": 3177882,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/model-4ee8ecc48410003d.glb",
+      "fileBytes": 136088540,
+      "embeddedKtx2Sources": 598,
+      "embeddedKtx2Bytes": 119290018,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/maps/liftoff-the-green-demo/delivery-87910eb6e6a5e197.glb",
+      "fileBytes": 3409196,
+      "embeddedKtx2Sources": 19,
+      "embeddedKtx2Bytes": 3177882,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/maps/liftoff-the-green-demo/model-aa2c87bbf9792b21.glb",
+      "fileBytes": 263294924,
+      "embeddedKtx2Sources": 910,
+      "embeddedKtx2Bytes": 177697439,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "fileBytes": 3409196,
+      "embeddedKtx2Sources": 19,
+      "embeddedKtx2Bytes": 3177882,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "fileBytes": 26340900,
+      "embeddedKtx2Sources": 85,
+      "embeddedKtx2Bytes": 13616846,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/parts/lf-antenna-fatshark-circular01/hangar-delivery-945150238c3f910d.glb",
+      "fileBytes": 1831192,
+      "embeddedKtx2Sources": 11,
+      "embeddedKtx2Bytes": 1759162,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/parts/lf-antenna-pagoda-circular01/hangar-delivery-945150238c3f910d.glb",
+      "fileBytes": 1831192,
+      "embeddedKtx2Sources": 11,
+      "embeddedKtx2Bytes": 1759162,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/parts/lf-antenna-soupape-micro01/hangar-delivery-945150238c3f910d.glb",
+      "fileBytes": 1831192,
+      "embeddedKtx2Sources": 11,
+      "embeddedKtx2Bytes": 1759162,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/parts/lf-antenna-soupape01/hangar-delivery-945150238c3f910d.glb",
+      "fileBytes": 1831192,
+      "embeddedKtx2Sources": 11,
+      "embeddedKtx2Bytes": 1759162,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/hangar-c03-demo-liftoff-01/props-e4991847c764905c.glb",
+      "fileBytes": 8742916,
+      "embeddedKtx2Sources": 36,
+      "embeddedKtx2Bytes": 5560713,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/hangar-c03-demo-liftoff-02/props-7a0f69738f0b8f95.glb",
+      "fileBytes": 6578028,
+      "embeddedKtx2Sources": 21,
+      "embeddedKtx2Bytes": 3025668,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-arena-demo-liftoff-01/props-aa4aa79cf6d8c593.glb",
+      "fileBytes": 29573464,
+      "embeddedKtx2Sources": 33,
+      "embeddedKtx2Bytes": 4664066,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-arena-demo-liftoff-02/props-96357c28d8b47bf0.glb",
+      "fileBytes": 24025536,
+      "embeddedKtx2Sources": 38,
+      "embeddedKtx2Bytes": 5353556,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-arena-demo-liftoff-03/props-0e2aeef742cd1f0b.glb",
+      "fileBytes": 18275060,
+      "embeddedKtx2Sources": 41,
+      "embeddedKtx2Bytes": 5903898,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-arena-demo-liftoff-04/props-e9b44f9897c17d4d.glb",
+      "fileBytes": 9722952,
+      "embeddedKtx2Sources": 31,
+      "embeddedKtx2Bytes": 3737113,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-arena-demo-liftoff-05/props-6cf4986a49df7f2a.glb",
+      "fileBytes": 11271296,
+      "embeddedKtx2Sources": 29,
+      "embeddedKtx2Bytes": 4640455,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-arena-demo-liftoff-06/props-85d26d123a8e2d9c.glb",
+      "fileBytes": 13351972,
+      "embeddedKtx2Sources": 31,
+      "embeddedKtx2Bytes": 5163004,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-arena-demo-liftoff-07/props-4e6ccf91f4468710.glb",
+      "fileBytes": 2497232,
+      "embeddedKtx2Sources": 14,
+      "embeddedKtx2Bytes": 2031664,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-01/props-3cb6b41363fd48f8.glb",
+      "fileBytes": 3830744,
+      "embeddedKtx2Sources": 23,
+      "embeddedKtx2Bytes": 3248166,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-02/props-089f98182208964a.glb",
+      "fileBytes": 6221728,
+      "embeddedKtx2Sources": 28,
+      "embeddedKtx2Bytes": 4763731,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-03/props-e27f44a7013117f7.glb",
+      "fileBytes": 12834564,
+      "embeddedKtx2Sources": 31,
+      "embeddedKtx2Bytes": 3677388,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-04/props-2e2fdc880ad147e5.glb",
+      "fileBytes": 3499932,
+      "embeddedKtx2Sources": 9,
+      "embeddedKtx2Bytes": 1494016,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-05/props-62c6069dc5fc1e2a.glb",
+      "fileBytes": 8566972,
+      "embeddedKtx2Sources": 30,
+      "embeddedKtx2Bytes": 5037396,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-the-green-demo-liftoff-01/props-ae3b2fdd0d15be9a.glb",
+      "fileBytes": 9425752,
+      "embeddedKtx2Sources": 32,
+      "embeddedKtx2Bytes": 5797771,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-the-green-demo-liftoff-02/props-8736b0c3f926cb43.glb",
+      "fileBytes": 15398796,
+      "embeddedKtx2Sources": 30,
+      "embeddedKtx2Bytes": 3904598,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-the-green-demo-liftoff-03/props-e053ba323365ac21.glb",
+      "fileBytes": 11871836,
+      "embeddedKtx2Sources": 36,
+      "embeddedKtx2Bytes": 4432463,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-the-green-demo-liftoff-04/props-308503832303bbb3.glb",
+      "fileBytes": 13240932,
+      "embeddedKtx2Sources": 36,
+      "embeddedKtx2Bytes": 4613729,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-the-green-demo-liftoff-05/props-70010862d17f3637.glb",
+      "fileBytes": 5044448,
+      "embeddedKtx2Sources": 31,
+      "embeddedKtx2Bytes": 3864469,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/liftoff-the-green-demo-liftoff-06/props-19b0a96bec01cb4b.glb",
+      "fileBytes": 26659312,
+      "embeddedKtx2Sources": 33,
+      "embeddedKtx2Bytes": 4849395,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/minus-two-demo-liftoff-01/props-bf67bda0f4a4e5a6.glb",
+      "fileBytes": 7395872,
+      "embeddedKtx2Sources": 27,
+      "embeddedKtx2Bytes": 4425067,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/minus-two-demo-liftoff-02/props-12b41dc912e5b83c.glb",
+      "fileBytes": 6549124,
+      "embeddedKtx2Sources": 28,
+      "embeddedKtx2Bytes": 5076843,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/minus-two-demo-liftoff-03/props-c4067994a04506f0.glb",
+      "fileBytes": 15396472,
+      "embeddedKtx2Sources": 28,
+      "embeddedKtx2Bytes": 3474448,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/minus-two-demo-liftoff-04/props-1cd321878637a6dc.glb",
+      "fileBytes": 5684232,
+      "embeddedKtx2Sources": 19,
+      "embeddedKtx2Bytes": 2289615,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/races/minus-two-demo-liftoff-05/props-620784a7e77cf06d.glb",
+      "fileBytes": 3939788,
+      "embeddedKtx2Sources": 15,
+      "embeddedKtx2Bytes": 1813778,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/shared/drone-details/far-delivery-3c3d35b98286f7ec.glb",
+      "fileBytes": 2108000,
+      "embeddedKtx2Sources": 12,
+      "embeddedKtx2Bytes": 1991134,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/shared/drone-details/hangar-delivery-1440b868ef3b72c7.glb",
+      "fileBytes": 2225136,
+      "embeddedKtx2Sources": 12,
+      "embeddedKtx2Bytes": 1991134,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/shared/drone-details/low-delivery-2979747ef8d86de7.glb",
+      "fileBytes": 2159864,
+      "embeddedKtx2Sources": 12,
+      "embeddedKtx2Bytes": 1991134,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/shared/liftoff-drone-parts/far-delivery-9877ffd362713c66.glb",
+      "fileBytes": 8718648,
+      "embeddedKtx2Sources": 53,
+      "embeddedKtx2Bytes": 8547884,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/shared/liftoff-drone-parts/hangar-delivery-5d67a93abda4aecf.glb",
+      "fileBytes": 9199916,
+      "embeddedKtx2Sources": 53,
+      "embeddedKtx2Bytes": 8547884,
+      "sharedInterleavedViewCandidates": 0
+    },
+    {
+      "url": "/content/assets/shared/liftoff-drone-parts/low-delivery-926d67b2b8b61f59.glb",
+      "fileBytes": 8882160,
+      "embeddedKtx2Sources": 53,
+      "embeddedKtx2Bytes": 8547884,
+      "sharedInterleavedViewCandidates": 0
+    }
+  ]
+}

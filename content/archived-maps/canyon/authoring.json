@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "source": "map.blend",
+  "sourceSha256": "4329a26a82185638b7ac5842b62d1595d1e7c353ea326827bffa2c0b6ab487f8",
+  "horizontalScale": 2.0,
+  "verticalScale": 1.35,
+  "originalTheme": "canyon",
+  "originalColliderCount": 4,
+  "generatedColliderCount": 34,
+  "importedProxyMeshes": 4,
+  "originalStructureBoxes": 123,
+  "importedObjectCount": 156,
+  "editableObjectCount": 426,
+  "fpvEnvironmentPass": 1,
+  "fpvFeatures": 3,
+  "thumbnailView": "pilot-height perspective",
+  "tool": "Blender 5.1.0",
+  "liveBlenderMCP": true,
+  "liveModelingDate": "2026-10-01T10:00:02.252946+00:00",
+  "model": "model.glb"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "guarded",
+  "name": "Guarded",
+  "mass": 0.1,
+  "thrust": 1,
+  "durability": 1.3,
+  "cost": 180,
+  "category": "frame",
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": []
+}

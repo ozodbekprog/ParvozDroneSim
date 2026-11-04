@@ -1,0 +1,21 @@
+{
+  "id": "grip",
+  "name": "High-grip",
+  "mass": 0.013,
+  "thrust": 1.08,
+  "drag": 1.1,
+  "cost": 160,
+  "category": "propellers",
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": []
+}

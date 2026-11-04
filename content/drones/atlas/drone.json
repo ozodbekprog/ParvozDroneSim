@@ -1,0 +1,63 @@
+{
+  "id": "atlas",
+  "name": "Atlas 7",
+  "class": "seven",
+  "mass": 1.05,
+  "arm": 0.165,
+  "thrustToWeight": 4.6,
+  "motorTau": 0.055,
+  "drag": [
+    0.05,
+    0.061,
+    0.028
+  ],
+  "angularDrag": 0.14,
+  "batterySeconds": 470,
+  "color": "#e9d18a",
+  "unlock": "starter",
+  "materials": [],
+  "collision": {
+    "spheres": [
+      {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "radius": 0.1664
+      },
+      {
+        "position": [
+          -0.2816,
+          0.0384,
+          -0.2816
+        ],
+        "radius": 0.087
+      },
+      {
+        "position": [
+          -0.2816,
+          0.0384,
+          0.2816
+        ],
+        "radius": 0.087
+      },
+      {
+        "position": [
+          0.2816,
+          0.0384,
+          -0.2816
+        ],
+        "radius": 0.087
+      },
+      {
+        "position": [
+          0.2816,
+          0.0384,
+          0.2816
+        ],
+        "radius": 0.087
+      }
+    ]
+  }
+}

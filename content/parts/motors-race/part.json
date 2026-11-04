@@ -1,0 +1,44 @@
+{
+  "id": "race",
+  "name": "Race 2306",
+  "mass": 0.025,
+  "thrust": 1.14,
+  "response": 1.13,
+  "cost": 260,
+  "category": "motors",
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": [],
+  "model": "../../drones/kestrel/hangar.glb",
+  "modelLods": [
+    {
+      "model": "../../drones/kestrel/hangar.glb",
+      "distance": 0
+    },
+    {
+      "model": "../../drones/kestrel/low.glb",
+      "distance": 3
+    },
+    {
+      "model": "../../drones/kestrel/far.glb",
+      "distance": 18
+    }
+  ],
+  "modelNode": "Template_Part_motors_HUNTER",
+  "lowLod": 1,
+  "compatibleDrones": [
+    "kestrel"
+  ],
+  "assetLicense": "CC-BY-SA-4.0",
+  "visualVariant": "HUNTER",
+  "visualVariantNote": "Authored finish; SCOUT/HUNTER share this component shape."
+}

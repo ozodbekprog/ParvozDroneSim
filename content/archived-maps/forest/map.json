@@ -1,0 +1,201 @@
+{
+  "id": "forest",
+  "name": "Mossline",
+  "region": "Forest Gates",
+  "theme": "custom",
+  "seed": 521,
+  "description": "A technical course between tall pines and morning mist.",
+  "sky": "#a6c3ce",
+  "fog": "#a2b9aa",
+  "ground": "#66765a",
+  "sun": "#fff7d6",
+  "sunPosition": [
+    40,
+    58,
+    -35
+  ],
+  "cloudColor": "#e1ece3",
+  "wind": [
+    0.7,
+    0,
+    1.2
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "forest",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -1.121,
+      -440
+    ],
+    "max": [
+      440,
+      34,
+      440
+    ]
+  },
+  "tracks": [
+    {
+      "id": "forest-thread",
+      "name": "Needle Thread",
+      "laps": 2,
+      "gates": [
+        {
+          "position": [
+            0,
+            5.4,
+            36
+          ],
+          "yaw": 1.046001,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            38,
+            5.4,
+            58
+          ],
+          "yaw": 2.330559,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            78,
+            6.75,
+            20
+          ],
+          "yaw": -2.859038,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            60,
+            8.1,
+            -42
+          ],
+          "yaw": -2.187093,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            12,
+            5.4,
+            -76
+          ],
+          "yaw": -1.161888,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -48,
+            6.75,
+            -50
+          ],
+          "yaw": -0.408908,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -74,
+            6.75,
+            10
+          ],
+          "yaw": 0.785398,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -34,
+            5.4,
+            50
+          ],
+          "yaw": 1.961403,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ],
+      "spawn": {
+        "position": [
+          -20.770229,
+          5.4,
+          23.97513
+        ],
+        "yaw": 1.046001
+      }
+    }
+  ],
+  "bundledChallenges": [
+    {
+      "id": "threader",
+      "name": "Through the Pines",
+      "map": "forest",
+      "track": "forest-thread",
+      "target": 315,
+      "reward": 220
+    }
+  ],
+  "bundledTutorials": []
+}

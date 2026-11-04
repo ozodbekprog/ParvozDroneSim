@@ -1,0 +1,19 @@
+{
+  "observedOn": "2026-10-26",
+  "method": "Two manual runs of tools/qa-model-decoder.html in the in-app browser. Values rounded to 0.1 ms. Decode only, excluding transfer, JSON, texture transcoding, scene assembly, GPU work and worker initialization. Raw decoder always runs first. These are diagnostic observations, not randomized performance acceptance or presentation/input-latency measurements.",
+  "map": "liftoff-pine-valley-demo",
+  "delivery": "/content/assets/maps/liftoff-pine-valley-demo/model-4ee8ecc48410003d.glb",
+  "jobs": 14540,
+  "decodedBytes": 191673962,
+  "allDecodedViewsIdentical": true,
+  "decodedViewsHash": "d44b379d0eb256312a10748cda240c6ca053d2b7132a2a368ab885d1e3c87d56",
+  "browser": "Chrome/156.0.0.0 Windows x64",
+  "hardwareConcurrency": 8,
+  "targetUHD620Verified": false,
+  "samples": [
+    {"rawDecodeMs": 288.1, "rawHeartbeatGapMs": 288.1, "rawHeartbeats": 0, "workerDecodeMs": 380.9, "workerHeartbeatGapMs": 17.9, "workerHeartbeats": 23},
+    {"rawDecodeMs": 269.8, "rawHeartbeatGapMs": 269.8, "rawHeartbeats": 0, "workerDecodeMs": 504.7, "workerHeartbeatGapMs": 31.4, "workerHeartbeats": 30}
+  ],
+  "worker": {"count": 1, "batchLimitViews": 128, "ordinaryBatchByteLimit": 8388608, "batches": 122, "oversizedViewsIsolated": 2, "peakEstimatedBatchBytes": 17372090},
+  "limitations": "Other applications were open. Native presentation/foreground was not independently verified; document flags passed. No forced GC, input-to-screen test, network comparison or FPS inference. The retained worker improves responsiveness at an observed total decode-time cost. An earlier one-view-per-message approach was rejected after a slower exploratory run. Cancellation was subsequently added and covered by automated owner-isolation tests."
+}

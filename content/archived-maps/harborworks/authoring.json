@@ -1,0 +1,30 @@
+{
+  "map": "harborworks",
+  "tool": "Blender 5.1.0",
+  "version": "5.1.0",
+  "sourceFile": "map.blend",
+  "generator": "tools/blender/rebuild_harborworks.py",
+  "runtime": "model.glb",
+  "originalScale": [
+    2,
+    1.35,
+    2
+  ],
+  "boundsXZ": [
+    -420,
+    440,
+    -420,
+    420
+  ],
+  "collisionBoxes": 553,
+  "markerExport": false,
+  "license": "Original project-authored geometry; no external assets",
+  "detail": "medium; modular industrial structures and broad flight corridors",
+  "fpvEnvironmentPass": 1,
+  "fpvFeatures": 6,
+  "thumbnailView": "pilot-height perspective",
+  "liveBlenderMCP": true,
+  "liveModelingDate": "2026-10-01T09:28:49.657430+00:00",
+  "source": "map.blend",
+  "model": "model.glb"
+}

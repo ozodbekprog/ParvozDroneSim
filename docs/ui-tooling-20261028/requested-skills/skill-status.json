@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Tashkent",
+  "standaloneSkills": [
+    {
+      "name": "design-critique",
+      "sourceRepo": "anthropics/knowledge-work-plugins",
+      "sourceCommit": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "installed": true,
+      "sha256": "4b51de88442cd8a0b7ca5c8c7583b28c65277c09466df2ab23457d57bf03aa23",
+      "usedInThisTurn": true
+    },
+    {
+      "name": "accessibility-review",
+      "sourceRepo": "anthropics/knowledge-work-plugins",
+      "sourceCommit": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "installed": true,
+      "sha256": "da7a990f50e101b5978e0b069b1374f18b14f2ba4795324d78049f53a54f2b8d",
+      "usedInThisTurn": true
+    },
+    {
+      "name": "canvas-design",
+      "sourceRepo": "anthropics/skills",
+      "sourceCommit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "installed": true,
+      "sha256": "7bebc4a2cf108c55c1e52bb96b1050dc1ab2f9492e9c2d43f1fe57f826728f4d",
+      "usedInThisTurn": true
+    }
+  ],
+  "canva": {
+    "serviceCallsPerformed": false,
+    "connectionConfirmed": false,
+    "sourceRepo": "canva-sdks/canva-skills",
+    "sourceCommit": "906e8e0b0808e7146b998a48179abef281be57ca",
+    "catalogInstalled": false,
+    "sourceRead": true
+  },
+  "figma": {
+    "serviceCallsPerformed": false,
+    "prerequisitesRead": true,
+    "connectionConfirmed": false,
+    "sourceRepo": "figma/mcp-server-guide",
+    "sourceCommit": "056adaf7564d3dc5fa2e1c7828bbec925d5fa6bb",
+    "catalogInstalled": false
+  },
+  "browser": {
+    "result": "Local browser use is disabled in Work settings",
+    "attempt": "cua.listTabs iab",
+    "freshPublicCheck": false
+  },
+  "gameModified": false,
+  "oracleModified": false
+}

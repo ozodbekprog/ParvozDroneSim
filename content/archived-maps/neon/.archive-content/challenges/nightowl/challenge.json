@@ -1,0 +1,8 @@
+{
+  "id": "nightowl",
+  "name": "Night Shift",
+  "map": "neon",
+  "track": "neon-dash",
+  "target": 333,
+  "reward": 250
+}

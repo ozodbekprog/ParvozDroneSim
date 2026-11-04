@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-19",
+  "generator": "tools/prepare-minus-two-collisions.js",
+  "source": "Existing locally installed Liftoff imports and preserved recovery records; permission/provenance in each map package remain unchanged.",
+  "change": "Only SphereCollider and CapsuleCollider proxies changed; previously exported as boxes. Meshes, boxes, triggers, exclusions and source object ordering retained.",
+  "maps": [
+    {
+      "id": "hangar-c03-demo",
+      "colliders": 9757,
+      "meshTriangles": 103295,
+      "rounded": 2807,
+      "skipped": 0,
+      "sha256": "64ffa95849a2fa8c6dcd2ff22a9b9d71344896513e6117700bb03028addb01cc",
+      "sourceTypes": {
+        "SphereCollider": 221,
+        "CapsuleCollider": 2586
+      }
+    },
+    {
+      "id": "liftoff-arena-demo",
+      "colliders": 15563,
+      "meshTriangles": 78322,
+      "rounded": 4295,
+      "skipped": 90,
+      "sha256": "df48e1b7451abe805e42e624f10da3c65f8f26d65180ea0db6125447b7ff0a6c",
+      "sourceTypes": {
+        "CapsuleCollider": 4295
+      }
+    },
+    {
+      "id": "liftoff-pine-valley-demo",
+      "colliders": 3426,
+      "meshTriangles": 538886,
+      "rounded": 2974,
+      "skipped": 0,
+      "sha256": "592de9ddc82f61699473304585fd4a2ba826bb0d810b3a587d9b1a27a98dd2a4",
+      "sourceTypes": {
+        "CapsuleCollider": 2974
+      }
+    },
+    {
+      "id": "liftoff-the-green-demo",
+      "colliders": 20364,
+      "meshTriangles": 681147,
+      "rounded": 7702,
+      "skipped": 0,
+      "sha256": "67d22b4a52e12fe9ac0c959ce75e5e69ee69cab372056aa5ac7a45955b097b3a",
+      "sourceTypes": {
+        "SphereCollider": 111,
+        "CapsuleCollider": 7591
+      }
+    },
+    {
+      "id": "minus-two-demo",
+      "colliders": 1449,
+      "meshTriangles": 17444,
+      "rounded": 161,
+      "skipped": 0,
+      "sha256": "5fa872100d39ec5724b73b6cc220ec746033b7c3f95ac10321b75fee92c12249",
+      "sourceTypes": {
+        "CapsuleCollider": 161
+      }
+    }
+  ]
+}

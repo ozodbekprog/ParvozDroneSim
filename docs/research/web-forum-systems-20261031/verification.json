@@ -1,0 +1,90 @@
+{
+  "capturedAt": "2026-10-31T09:20:51.630Z",
+  "baseCommit": "030956c58502ae43f4dfa64eafda8007f26f6fdb",
+  "tests": {
+    "command": "npm test",
+    "total": 666,
+    "passed": 666,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "log": "data/forum-systems-20261031/tests-final.log",
+    "logSha256": "bb09dceb000c579ceb2bec3d1599a4cd170076263cc8e47b061a58f46bcd14c8"
+  },
+  "build": {
+    "command": "npx vite build --outDir data/forum-systems-20261031/build --emptyOutDir",
+    "passed": true,
+    "warning": "Existing large client chunk",
+    "log": "data/forum-systems-20261031/build-final.log",
+    "logSha256": "be99d5968265a3b1d75e90d7e64e275cd23687118de0fb5df4fcd8ddd3c9a0a6"
+  },
+  "sources": [
+    {
+      "path": "src/embedded-ktx2.js",
+      "sha256": "f1db377a5554005de52fe537972de980433bac279e5bbf4f1c5af4aaa15910c3"
+    },
+    {
+      "path": "src/cooperative-image-views.js",
+      "sha256": "b1f28d349ea1d67498fba804fb32b35d0b622d774a59c5a993886f08966247fa"
+    },
+    {
+      "path": "test/cooperative-image-views.test.js",
+      "sha256": "e9c8bc84dc17c995013fa9b3f5dcfa112763afa6055e0054acf15ff33eca2dd3"
+    },
+    {
+      "path": "tools/research/embedded-ktx2.html",
+      "sha256": "608eaf6a5cac609c2dbd61ce0288cea371fd65a22932b03d9704d21e09a14f8e"
+    },
+    {
+      "path": "tools/research/embedded-ktx2.js",
+      "sha256": "d10ad40eacb7b11bae65b61612f1371e8904dd03bb5867deafa8e4d87e4e4560"
+    },
+    {
+      "path": "tools/research/audit-embedded-ktx2.mjs",
+      "sha256": "80813ac5602d2aafbb9f2c284498b7dcb9c282f7d29064453614e184722d165c"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "luma-webgpu",
+      "asset": "/content/assets/drones/luma-5/low-delivery-7a2745867c3531d2.glb",
+      "sourceHash": "7a2745867c3531d228cad725c0b001648424cedbe2f5c9ba7a7edad91769065a",
+      "backend": "WebGPU",
+      "avoidedImageBlobURLs": 31,
+      "reportSha256": "7f54f0a027c7f86be0d152760f88deb353d0a9bb81d663c23f98d96f8e7896cd",
+      "captureSha256": "0ed410e550ec0971c89db46c8c99cb78634f16d124e80166977efd21f1281f4b"
+    },
+    {
+      "name": "luma-webgl",
+      "asset": "/content/assets/drones/luma-5/low-delivery-7a2745867c3531d2.glb",
+      "sourceHash": "7a2745867c3531d228cad725c0b001648424cedbe2f5c9ba7a7edad91769065a",
+      "backend": "WebGL2 fallback",
+      "avoidedImageBlobURLs": 31,
+      "reportSha256": "f9fafb99c730a44fd1aa7262eb08c896502611d7c101f0c306ef8250eb39ccc8",
+      "captureSha256": "04dc2f9632049c61233cabc22d9a566922b4ada2ec80dc097d207025843c45b8"
+    },
+    {
+      "name": "minus-two-webgpu",
+      "asset": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "sourceHash": "b937e910f9981b0acf78db749f2498ea847c41a59eb3f640acdbecf00e689a24",
+      "backend": "WebGPU",
+      "avoidedImageBlobURLs": 85,
+      "reportSha256": "ae8ab53df4c19dd79c943ee6ef219a64ab36d3c41b32cc31500ce65c67f42f12",
+      "captureSha256": "90279f009af381b783f4caeb35e75ed836d9c6224531b9ae0fe90e5298e26446"
+    },
+    {
+      "name": "minus-two-webgl",
+      "asset": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "sourceHash": "b937e910f9981b0acf78db749f2498ea847c41a59eb3f640acdbecf00e689a24",
+      "backend": "WebGL2 fallback",
+      "avoidedImageBlobURLs": 85,
+      "reportSha256": "3af2d0f417c9cd44f3167900b103a9a4bdbcf9353cc93e4b846c9c950736cfa9",
+      "captureSha256": "79ccd0325f23e38e1c10d35c1e339907b4aae6b8f91c2804e36c4fa37bebf0cb"
+    }
+  ],
+  "limits": [
+    "Local engineering view at 640x360; no UHD 620 or full-game FPS acceptance",
+    "Single control-first timings do not establish a speedup ratio",
+    "No Oracle deployment by this work"
+  ]
+}

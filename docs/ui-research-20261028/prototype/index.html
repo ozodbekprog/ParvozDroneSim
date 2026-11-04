@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru" class="wa-dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PARVOZ — варианты на реальном фоне ангара</title>
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <div class="review-bar" aria-label="Выбор макета">
+    <span>Макеты · 28 октября · один реальный кадр</span>
+    <nav aria-label="Варианты оформления">
+      <button data-variant="1">1 · Контрастный</button>
+      <button data-variant="2">2 · Компактный</button>
+      <button data-variant="3">3 · Светлый</button>
+    </nav>
+    <button id="source-toggle" aria-pressed="false">Показать исходный фон</button>
+  </div>
+  <div class="frame-wrap"><main id="frame" aria-label="Макет мастерской">
+    <img class="backdrop" src="./assets/hangar.png" alt="Реальный снимок ангара текущей локальной сборки, 28 октября 2026">
+    <div class="proposal">
+      <header class="topbar surface">
+        <a class="brand" href="?variant=1" aria-label="PARVOZ, первый вариант"><img src="./assets/parvoz-mark.svg" alt=""><b>PARVOZ</b></a>
+        <div class="screen-title"><span>АНГАР</span><h1>Мастерская</h1></div>
+        <nav class="sections" aria-label="Разделы мастерской"><wa-button class="selected" data-section="Детали" aria-pressed="true">Детали</wa-button><wa-button data-section="Внешний вид" aria-pressed="false">Внешний вид</wa-button><wa-button data-section="Настройка" aria-pressed="false">Настройка</wa-button></nav>
+        <div class="build-title"><strong>Luma 5 Copy 1</strong><span>5″ · Фристайл</span></div>
+      </header>
+      <aside class="equipment surface" aria-label="Детали дрона">
+        <div class="equipment-head"><span class="eyebrow">СБОРКА</span><h2 id="section-heading">Детали дрона</h2></div>
+        <nav class="categories" aria-label="Тип детали"><wa-button class="selected" aria-pressed="true" data-category="Рама">Рама</wa-button><wa-button aria-pressed="false" data-category="Моторы">Моторы</wa-button><wa-button aria-pressed="false" data-category="Пропеллеры">Пропеллеры</wa-button><wa-button aria-pressed="false" data-category="Батарея">Батарея</wa-button><wa-button aria-pressed="false" data-category="Камера">Камера</wa-button><wa-button aria-pressed="false" data-category="Антенна">Антенна</wa-button></nav>
+        <section class="part-detail">
+          <div class="detail-title"><h3 id="category-title">Рама</h3><span>Установлено</span></div>
+          <strong class="part-name" id="part-name">Luma 5 frame</strong>
+          <dl class="specifications" id="specifications"><div><dt>Масса рамы</dt><dd>219.0 г</dd></div><div><dt>Совместимость</dt><dd>Luma 5</dd></div></dl>
+          <p class="part-note" id="part-note">Рама этой модели фиксирована.</p>
+        </section>
+      </aside>
+      <section class="characteristics surface" aria-labelledby="characteristic-title">
+        <div class="metrics-heading"><div><span class="eyebrow">ТЕКУЩАЯ СБОРКА</span><h2 id="characteristic-title">Характеристики</h2></div><span class="metric-note">Расчётные значения</span></div>
+        <div class="meters">
+          <div class="metric"><div><span>Масса</span><strong>595 <small>г</small></strong></div><meter min="0" max="1000" value="595" aria-label="Масса 595 граммов"></meter><span class="ends"><span>0 г</span><span>1000 г</span></span></div>
+          <div class="metric"><div><span>Отклик моторов</span><strong>35 <small>мс</small></strong></div><meter min="0" max="100" value="35" aria-label="Отклик моторов 35 миллисекунд"></meter><span class="ends"><span>0 мс</span><span>100 мс</span></span></div>
+          <div class="metric"><div><span>Энергия батареи</span><strong>28.9 <small>Вт·ч</small></strong></div><meter min="0" max="50" value="28.9" aria-label="Энергия батареи 28.9 ватт-часов"></meter><span class="ends"><span>0 Вт·ч</span><span>50 Вт·ч</span></span></div>
+        </div>
+        <wa-details summary="Все параметры сборки"><dl class="extra-metrics"><div><dt>Тяга / вес</dt><dd>5.6×</dd></div><div><dt>Примерное время полёта</dt><dd>6 мин</dd></div><div><dt>Камера</dt><dd>105°</dd></div></dl></wa-details>
+      </section>
+      <footer class="actions surface"><wa-button id="back">Назад в ангар</wa-button><div class="save-status" role="status">Изменений нет</div><wa-button id="save" class="primary">Сохранить сборку</wa-button></footer>
+      <span class="demo-label">МАКЕТ UI · ФОН ИЗ ИГРЫ</span>
+    </div>
+  </main></div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

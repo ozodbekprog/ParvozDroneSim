@@ -1,0 +1,215 @@
+{
+  "phases": [
+    {
+      "name": "Map download, parse, assembly and collisions",
+      "ms": 11214.5,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 756,
+      "triangles": 4095293
+    },
+    {
+      "name": "Aircraft download, parse and assembly",
+      "ms": 0,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 756,
+      "triangles": 4095293
+    },
+    {
+      "name": "Surface and reflection preparation",
+      "ms": 151.39999999990687,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 756,
+      "triangles": 4095293
+    },
+    {
+      "name": "Geometry shader compilation",
+      "ms": 2574.899999999907,
+      "renderMs": 0,
+      "projectMs": 31.899999999906868,
+      "submitMs": 1470.5,
+      "draws": 0,
+      "triangles": 0
+    },
+    {
+      "name": "First rendered frame and post effects",
+      "ms": 21.800000000046566,
+      "renderMs": 19.5,
+      "projectMs": 3,
+      "submitMs": 9.699999999953434,
+      "draws": 245,
+      "triangles": 884210
+    },
+    {
+      "name": "First frame pipeline detail",
+      "pipelines": 0,
+      "pipelineMs": 0,
+      "objects": 224,
+      "top": [
+        {
+          "name": "Runtime_CrowdControlBarrier01017",
+          "material": "CrowdControlBarrier01",
+          "ms": 0.30000000004656613
+        },
+        {
+          "name": "Runtime_CrowdControlBarrier01019",
+          "material": "CrowdControlBarrier01",
+          "ms": 0.30000000004656613
+        },
+        {
+          "name": "Runtime_InflatatableGateLiftoff01049",
+          "material": "InflatatableGateLiftoff01",
+          "ms": 0.30000000004656613
+        },
+        {
+          "name": "Runtime_PartyTentWhite01009",
+          "material": "PartyTentWhite01",
+          "ms": 0.20000000018626451
+        },
+        {
+          "name": "",
+          "material": "",
+          "ms": 0.19999999995343387
+        },
+        {
+          "name": "Scenery batch 34",
+          "material": "GolfHorizonTransTerrain01",
+          "ms": 0.19999999995343387
+        },
+        {
+          "name": "Runtime_PartyTentWhite01006",
+          "material": "PartyTentWhite01",
+          "ms": 0.19999999995343387
+        },
+        {
+          "name": "Runtime_PartyTentWhite01008",
+          "material": "PartyTentWhite01",
+          "ms": 0.19999999995343387
+        },
+        {
+          "name": "Runtime_OSB10001006",
+          "material": "OSB10001",
+          "ms": 0.19999999995343387
+        },
+        {
+          "name": "Runtime_CrowdControlBarrier01016",
+          "material": "CrowdControlBarrier01",
+          "ms": 0.19999999995343387
+        },
+        {
+          "name": "Runtime_InflatatableGateLiftoff01023",
+          "material": "InflatatableGateLiftoff01",
+          "ms": 0.19999999995343387
+        },
+        {
+          "name": "Scenery batch 386",
+          "material": "GolfPondWater01",
+          "ms": 0.10000000009313226
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "gpu": "intel gen-9",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "low",
+  "surface": {
+    "normalMaps": false,
+    "textureSize": 256
+  },
+  "batches": {
+    "meshes": 29927,
+    "batches": 687,
+    "ms": 1226.8000000000466
+  },
+  "cache": {
+    "idleBytes": 0,
+    "maxIdleBytes": 100663296,
+    "idleEntries": 0,
+    "entries": 5
+  },
+  "models": [
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/model-86db6d5ba657a81a.glb",
+      "parses": 1,
+      "cacheHits": 3324,
+      "readMs": 2513.399999999907,
+      "parseMs": 3149.3000000000466,
+      "lookupMs": 7.499999999767169,
+      "cloneMs": 272.90000000060536,
+      "clones": 3325
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-01/props-3cb6b41363fd48f8.glb",
+      "parses": 1,
+      "cacheHits": 71,
+      "readMs": 29.0999999998603,
+      "parseMs": 3661.4000000001397,
+      "lookupMs": 0.09999999986030161,
+      "cloneMs": 4.400000000139698,
+      "clones": 72
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 45.89999999990687,
+      "parseMs": 350.80000000004657,
+      "lookupMs": 0,
+      "cloneMs": 1.6999999999534339,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 108.39999999990687,
+      "parseMs": 656.1999999999534,
+      "lookupMs": 0,
+      "cloneMs": 1.0000000002328306,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 78.9000000001397,
+      "parseMs": 499.30000000004657,
+      "lookupMs": 0,
+      "cloneMs": 1.4999999995343387,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/maps/liftoff-the-green-demo/model-3f3c181bb39221ca.glb",
+      "parses": 1,
+      "cacheHits": 12378,
+      "readMs": 1448.3999999999069,
+      "parseMs": 7602.5,
+      "lookupMs": 17.200000000186265,
+      "cloneMs": 397.39999999688007,
+      "clones": 12379
+    },
+    {
+      "url": "/content/assets/races/liftoff-the-green-demo-liftoff-01/props-ae3b2fdd0d15be9a.glb",
+      "parses": 1,
+      "cacheHits": 134,
+      "readMs": 221,
+      "parseMs": 295.5,
+      "lookupMs": 0.5,
+      "cloneMs": 7.399999999906868,
+      "clones": 135
+    }
+  ],
+  "backend": "WebGPU",
+  "framebuffer": [
+    1280,
+    720
+  ]
+}

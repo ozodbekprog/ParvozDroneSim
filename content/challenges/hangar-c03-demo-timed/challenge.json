@@ -1,0 +1,10 @@
+{
+  "id": "hangar-c03-demo-timed",
+  "name": "Hangar C03: Timed Course",
+  "description": "Complete the original Hangar C03 racing route.",
+  "target": 240,
+  "reward": 200,
+  "hints": [],
+  "map": "hangar-c03-demo",
+  "track": "hangar-c03-demo-liftoff-01"
+}

@@ -1,0 +1,234 @@
+{
+  "phases": [
+    {
+      "name": "Map download, parse, assembly and collisions",
+      "ms": 8607.5,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Aircraft download, parse and assembly",
+      "ms": 950.2000000011176,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Surface and reflection preparation",
+      "ms": 36.29999999888241,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Geometry shader compilation",
+      "ms": 842.5,
+      "renderMs": 0,
+      "projectMs": 49.09999999962747,
+      "submitMs": 761.1000000014901,
+      "draws": 0,
+      "triangles": 0
+    },
+    {
+      "name": "First rendered frame and post effects",
+      "ms": 13538.10000000149,
+      "renderMs": 13536.900000000373,
+      "projectMs": 235.39999999850988,
+      "submitMs": 13298.29999999702,
+      "draws": 325,
+      "triangles": 5028148
+    },
+    {
+      "name": "Three warm frames",
+      "ms": 110.40000000037253,
+      "renderMs": 46.80000000074506,
+      "projectMs": 4.199999997392297,
+      "submitMs": 34.100000001490116,
+      "draws": 218,
+      "triangles": 3392029
+    },
+    {
+      "name": "CPU draw detail",
+      "drawMs": 10.999999998137355,
+      "top": [
+        {
+          "name": "",
+          "type": "Mesh",
+          "material": "",
+          "ms": 2
+        },
+        {
+          "name": "Scenery batch 35",
+          "type": "Mesh",
+          "material": "Native tiled terrain",
+          "ms": 0.30000000074505806
+        },
+        {
+          "name": "Scenery batch 154",
+          "type": "Mesh",
+          "material": "Native tiled terrain",
+          "ms": 0.30000000074505806
+        },
+        {
+          "name": "Scenery batch 53",
+          "type": "Mesh",
+          "material": "Branches_0.016",
+          "ms": 0.2999999988824129
+        },
+        {
+          "name": "Scenery batch 130",
+          "type": "Mesh",
+          "material": "Fronds_2.003",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Scenery batch 63",
+          "type": "Mesh",
+          "material": "Leaves_3.016",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Scenery batch 44",
+          "type": "Mesh",
+          "material": "Fronds_1.001",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Scenery batch 38",
+          "type": "Mesh",
+          "material": "Branches_0.022",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Repeated_PineValleyRuntime_Mesh_2459_2",
+          "type": "Mesh",
+          "material": "Branches_0.016",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Scenery batch 133",
+          "type": "Mesh",
+          "material": "Leaves_3.004",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Scenery batch 52",
+          "type": "Mesh",
+          "material": "Branches_1.016",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Scenery batch 39",
+          "type": "Mesh",
+          "material": "Fronds_1.001",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Scenery batch 8",
+          "type": "Mesh",
+          "material": "terrain-detail-0-1-material",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Repeated_PineValleyRuntime_Mesh_11109_2",
+          "type": "Mesh",
+          "material": "Branches_1.016",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Scenery batch 119",
+          "type": "Mesh",
+          "material": "VegetationFern01_AFS",
+          "ms": 0.2000000011175871
+        },
+        {
+          "name": "Scenery batch 149",
+          "type": "Mesh",
+          "material": "Native tiled terrain",
+          "ms": 0.2000000011175871
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "low",
+  "batches": {
+    "meshes": 22292,
+    "batches": 166,
+    "ms": 1185.699999999255
+  },
+  "cache": {
+    "idleBytes": 0,
+    "maxIdleBytes": 100663296,
+    "idleEntries": 0,
+    "entries": 5
+  },
+  "models": [
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/model-86db6d5ba657a81a.glb",
+      "parses": 1,
+      "cacheHits": 3324,
+      "readMs": 3156.5999999996275,
+      "parseMs": 3726,
+      "lookupMs": 7.700000001117587,
+      "cloneMs": 321.5999999959022,
+      "clones": 3325
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-01/props-3cb6b41363fd48f8.glb",
+      "parses": 1,
+      "cacheHits": 71,
+      "readMs": 47.600000001490116,
+      "parseMs": 4439,
+      "lookupMs": 0.30000000074505806,
+      "cloneMs": 5.400000000372529,
+      "clones": 72
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 101.30000000074506,
+      "parseMs": 610,
+      "lookupMs": 0,
+      "cloneMs": 1.800000000745058,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 131.39999999850988,
+      "parseMs": 809.8000000007451,
+      "lookupMs": 0.19999999925494194,
+      "cloneMs": 1.300000000745058,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 50.19999999925494,
+      "parseMs": 419.5,
+      "lookupMs": 0.10000000149011612,
+      "cloneMs": 1.9999999981373549,
+      "clones": 34
+    }
+  ],
+  "backend": "WebGL2",
+  "framebuffer": [
+    1280,
+    720
+  ]
+}

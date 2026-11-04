@@ -1,0 +1,20 @@
+{
+  "title": "Drone racing",
+  "author": "3D Husky (@3dhusky)",
+  "authorAtDownload": "https://sketchfab.com/3dhusky",
+  "embeddedAuthorCredit": "Kawasalto (https://sketchfab.com/Kawasalto)",
+  "source": "https://sketchfab.com/3d-models/drone-racing-0b416d03688a43239a550d9dad0a6f34",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "downloaded": "2026-10-08",
+  "original": "original.glb",
+  "downloadFormat": "Sketchfab GLB, 2k textures",
+  "changes": "Blender import, semantic component separation, normalized camera/motor axes, masked decals and LOD. Source SCOUT/HUNTER finishes; shared component shapes except two/three-blade props. Neutral frame/lighting tint textures prepared in the editable Blender source; geometry and flight parameters retained.",
+  "status": "Adaptation in progress; not yet artistically accepted.",
+  "derivativeLicense": "CC-BY-SA-4.0",
+  "editableSource": "kestrel.blend",
+  "componentReview": "data/art-build/kestrel/components",
+  "variantsNote": "SCOUT/HUNTER have distinct authored finishes and propeller geometry; other component shapes are shared. Original flight parameters and all existing part statistics retained.",
+  "finishPreparation": "tools/blender/repair_kestrel_finish.py",
+  "repairs20261013": "Upright source normalization; rotor side indices and body-up spin retained; flight values unchanged"
+}

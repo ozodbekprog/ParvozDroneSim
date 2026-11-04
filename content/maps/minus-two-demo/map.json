@@ -1,0 +1,1613 @@
+{
+  "name": "Minus Two",
+  "region": "Underground parking",
+  "theme": "custom",
+  "environment": "industrial",
+  "description": "Tight parking aisles, concrete columns, service passages and original racing gates.",
+  "sky": "#2d3339",
+  "fog": "#32383c",
+  "ground": "#868d8f",
+  "sun": "#ffffff",
+  "sunPosition": [
+    -20,
+    35,
+    25
+  ],
+  "ambientIntensity": 1.8,
+  "sunIntensity": 0.6,
+  "wind": [
+    0,
+    0,
+    0
+  ],
+  "gravity": 1,
+  "fogDensity": 0,
+  "groundPlane": false,
+  "indoor": true,
+  "id": "minus-two-demo",
+  "bounds": {
+    "min": [
+      -42.900001525878906,
+      -1.5520868301391602,
+      -81.9000015258789
+    ],
+    "max": [
+      113.0999984741211,
+      5.000000953674316,
+      23.400001525878906
+    ]
+  },
+  "model": "model.glb",
+  "modelNode": "MinusTwoEnvironment",
+  "collisionFile": "collision.json",
+  "colliders": [],
+  "materials": [],
+  "objects": [
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_00_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_00_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_00_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_00_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -36,
+        -12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_01_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_01_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_01_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_01_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -36,
+        12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_02_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_02_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_02_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_02_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -36,
+        -12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_03_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_03_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_03_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_03_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -36,
+        12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_04_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_04_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_04_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_04_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -36,
+        -12,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_05_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_05_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_05_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_05_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -36,
+        12,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_06_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_06_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_06_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_06_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -36,
+        -12,
+        -60
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_07_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_07_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_07_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_07_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -36,
+        12,
+        -60
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_08_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_08_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_08_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_08_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -36,
+        -12,
+        -84
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_09_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_09_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_09_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_09_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -36,
+        12,
+        -84
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_10_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_10_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_10_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_10_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -12,
+        -12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_11_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_11_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_11_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_11_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -12,
+        12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_12_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_12_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_12_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_12_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -12,
+        -12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_13_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_13_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_13_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_13_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -12,
+        12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_14_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_14_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_14_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_14_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -12,
+        -12,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_15_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_15_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_15_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_15_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -12,
+        12,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_16_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_16_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_16_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_16_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -12,
+        -12,
+        -60
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_17_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_17_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_17_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_17_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -12,
+        12,
+        -60
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_18_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_18_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_18_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_18_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -12,
+        -12,
+        -84
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_19_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_19_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_19_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_19_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        -12,
+        12,
+        -84
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_20_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_20_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_20_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_20_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        12,
+        -12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_21_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_21_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_21_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_21_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        12,
+        12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_22_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_22_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_22_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_22_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        12,
+        -12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_23_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_23_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_23_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_23_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        12,
+        12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_24_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_24_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_24_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_24_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        12,
+        -12,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_25_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_25_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_25_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_25_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        12,
+        12,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_26_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_26_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_26_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_26_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        12,
+        -12,
+        -60
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_27_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_27_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_27_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_27_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        12,
+        12,
+        -60
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_28_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_28_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_28_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_28_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        12,
+        -12,
+        -84
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_29_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_29_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_29_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_29_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        12,
+        12,
+        -84
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_30_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_30_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_30_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_30_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        36,
+        -12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_31_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_31_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_31_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_31_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        36,
+        12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_32_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_32_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_32_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_32_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        36,
+        -12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_33_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_33_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_33_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_33_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        36,
+        12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_34_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_34_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_34_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_34_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        60,
+        -12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_35_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_35_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_35_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_35_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        60,
+        12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_36_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_36_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_36_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_36_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        60,
+        -12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_37_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_37_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_37_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_37_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        60,
+        12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_38_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_38_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_38_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_38_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        84,
+        -12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_39_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_39_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_39_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_39_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        84,
+        12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_40_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_40_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_40_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_40_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        84,
+        -12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_41_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_41_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_41_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_41_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        84,
+        12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_42_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_42_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_42_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_42_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        108,
+        -12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_43_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_43_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_43_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_43_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        108,
+        12,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_44_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_44_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_44_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_44_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        108,
+        -12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    {
+      "model": "model.glb",
+      "modelNode": "MinusTwoChunk_45_LOD0",
+      "modelLods": [
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_45_LOD0",
+          "distance": 0
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_45_LOD1",
+          "distance": 16
+        },
+        {
+          "model": "model.glb",
+          "modelNode": "MinusTwoChunk_45_LOD2",
+          "distance": 22
+        }
+      ],
+      "lowLod": 1,
+      "position": [
+        108,
+        12,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    }
+  ],
+  "contentStatus": "temporary demo; local acceptance in progress",
+  "credits": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+  "garage": {
+    "model": "../../shared-assets/liftoff-workbench/delivery.glb",
+    "localOnly": true,
+    "position": [
+      -15.752,
+      0.0050000000000000044,
+      -60.501000000000005
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": 1,
+    "anchor": [
+      -15.752,
+      0.8073833632469177,
+      -60.501000000000005
+    ],
+    "selectionDistance": 2.7,
+    "cameraShots": {
+      "selection": {
+        "azimuth": 0.72,
+        "elevation": 0.4,
+        "zoom": 1
+      },
+      "workbench": {
+        "azimuth": 0.72,
+        "elevation": 0.4,
+        "zoom": 1
+      }
+    }
+  },
+  "menuCamera": {
+    "position": [
+      -15.75,
+      1.65,
+      -65.5
+    ],
+    "target": [
+      -15.75,
+      1.3,
+      -47
+    ]
+  },
+  "floorY": -0.29
+}

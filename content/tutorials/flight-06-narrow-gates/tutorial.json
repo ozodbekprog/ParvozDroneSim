@@ -1,0 +1,46 @@
+{
+  "map": "minus-two-demo",
+  "track": "minus-two-demo-stock-practice",
+  "id": "flight-06-narrow-gates",
+  "name": "Fly through narrow gates",
+  "topic": "Precision",
+  "order": 60,
+  "description": "Control speed and height through the original Minus Two practice gates.",
+  "steps": [
+    {
+      "text": "These gates are much lower and narrower. Approach slowly, centre the opening and make small corrections. Throttle adjusts height.",
+      "objective": "manual",
+      "target": 0,
+      "duration": 0,
+      "title": "Prepare a slow approach"
+    },
+    {
+      "text": "Pass gate 1 without touching the frame. Slow down before the opening.",
+      "objective": "gate",
+      "target": 0,
+      "duration": 0,
+      "title": "Centre gate 1"
+    },
+    {
+      "text": "Pass gate 2. Keep the horizon steady and avoid a last-second throttle jump.",
+      "objective": "gate",
+      "target": 1,
+      "duration": 0,
+      "title": "Hold height through gate 2"
+    },
+    {
+      "text": "Pass gate 3. Prepare the approach early and keep space from the ceiling.",
+      "objective": "gate",
+      "target": 2,
+      "duration": 0,
+      "title": "Prepare gate 3 early"
+    },
+    {
+      "text": "Stop in a clear area and hold a gentle landing for two seconds.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2,
+      "title": "Stop and land"
+    }
+  ]
+}

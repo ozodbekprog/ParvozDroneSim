@@ -1,0 +1,9 @@
+{
+  "name": "Parvoz neutral racing surfaces",
+  "created": "2026-10-31",
+  "origin": "Original texture generated for this project with the built-in OpenAI imagegen tool at the user's request to remove Liftoff artwork.",
+  "sourceImage": "fabric.png",
+  "deliveryTexture": "fabric.ktx2",
+  "conversion": "512 x 512 RGB UASTC, sRGB, mip chain, Zstandard 18. Existing model geometry, UVs and provenance are retained. Neutral surfaces replace the selected branded prints and emissive imagery only.",
+  "prompt": "Create a production game texture: a single square seamless tile of neutral medium-light gray woven polyester racing-banner fabric, photographed exactly flat and orthographic. Albedo/base-color texture only, even diffuse neutral illumination, very fine subtle fabric weave and small natural thread variation, no baked directional shadows, no folds, no wrinkles that change large-scale brightness, no seams, no border, no vignette, no objects, absolutely no text, no letters, no numbers, no logo, no symbols, no branding, no emblems or graphic prints. Uniform medium-light gray values make this tile tintable to either dark charcoal or warm white cloth on existing 3D racing flags. Fine realistic fabric texture remains perceptible close up but no strong patterns. Tile seamlessly on all edges. Fill the entire image edge to edge. This replaces branded banner print surfaces in the user's drone simulator; retain a quiet neutral utilitarian cloth appearance."
+}

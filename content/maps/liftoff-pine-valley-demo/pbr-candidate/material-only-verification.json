@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "scope": "All nodes, meshes, LODs, indices, vertex attributes, instance arrays and original texture bytes",
+  "nodes": 26762,
+  "meshes": 5313,
+  "originalTextures": 598,
+  "additionalTextures": 12,
+  "bytes": 204877164,
+  "sha256": "86db6d5ba657a81a7849f993b8392ddc90e6778afda05110e0b4413a1bb79214"
+}

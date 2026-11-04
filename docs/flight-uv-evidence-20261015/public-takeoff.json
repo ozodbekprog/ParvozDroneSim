@@ -1,0 +1,19 @@
+{
+  "base": "https://parvoz-drone-sim.duckdns.org",
+  "protocol": 11,
+  "revision": "4d221c5be747e24c",
+  "map": "minus-two-demo",
+  "method": "Authoritative WebSocket commands; 120 zero-throttle frames settle the aircraft, 18 frames at throttle 0.5 and pitch 1, then 60 frames at throttle 0.5 and neutral pitch",
+  "aircraft": [
+    {
+      "id": "kestrel",
+      "heightGain": 2.1580243132002046,
+      "crashed": false
+    },
+    {
+      "id": "luma-5",
+      "heightGain": 2.365051964962803,
+      "crashed": false
+    }
+  ]
+}

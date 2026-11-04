@@ -1,0 +1,82 @@
+{
+  "source": "https://www.liftoff-game.com/",
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+  "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+  "permissionConfirmed": false,
+  "adaptation": "Native TerrainLayer tiling, offsets, splat alpha weights and PBR factors on retained heightmap geometry. Static browser PBR; no Unity wind or terrain tessellation.",
+  "textures": [
+    {
+      "name": "SplatAlpha 0",
+      "sourceId": "11",
+      "file": "splatalpha-0.png",
+      "sha256": "064ebc0e4875ce07dff681428760df27ac924b49871f3644e35cfeb4199d64bf"
+    },
+    {
+      "name": "SplatAlpha 1",
+      "sourceId": "10",
+      "file": "splatalpha-1.png",
+      "sha256": "49085ae4775ab1e31891b12954f58772b85901409733cc341359cca6084f24a3"
+    },
+    {
+      "name": "TerrainWoodChipsGrass01",
+      "sourceId": "4369662847702889370",
+      "file": "terrainwoodchipsgrass01.png",
+      "sha256": "b6e545f5519e09365a86f9d0529eb33761a04198bf4ce2067255534ca28c4494"
+    },
+    {
+      "name": "TerrainWoodChipsGrass01_N",
+      "sourceId": "-5815963278999856742",
+      "file": "terrainwoodchipsgrass01-n.png",
+      "sha256": "92804af3ce6c335429e2805b2bfc7f1a8923613b7d13727419d56ce206d46dfc"
+    },
+    {
+      "name": "TerrainGreenFoliage01",
+      "sourceId": "-9006683624353340014",
+      "file": "terraingreenfoliage01.png",
+      "sha256": "d924585b0ddb44578c4f09eda30d3171e62e4975fba2128349857e964c939bbe"
+    },
+    {
+      "name": "TerrainGreenFoliage01_N",
+      "sourceId": "-8022938692170085006",
+      "file": "terraingreenfoliage01-n.png",
+      "sha256": "9d5673ebcc616f2e2dee577f706cda615beb03204da752c20ccbbef3d4ac0b58"
+    },
+    {
+      "name": "TerrainForestNeedles01",
+      "sourceId": "1115227907729400683",
+      "file": "terrainforestneedles01.png",
+      "sha256": "5ecf36d1553f20d4a236277a2192e0e81103253603cae69f5a2ba28ce694c990"
+    },
+    {
+      "name": "TerrainForestNeedles01_N",
+      "sourceId": "-4632967811016422924",
+      "file": "terrainforestneedles01-n.png",
+      "sha256": "104f72cef39c6c3b75b277b52cf058cff99292f02c9d69da1d6e1fd0fc03f89a"
+    },
+    {
+      "name": "TerrainRockCraggy01",
+      "sourceId": "-378487684918733103",
+      "file": "terrainrockcraggy01.png",
+      "sha256": "730e63e9f3ecd2e1d0ee6b57c0afeeb03631d4f3b30b5c92e8b382b9094c2b30"
+    },
+    {
+      "name": "TerrainRockCraggy01_N",
+      "sourceId": "-681322450999268195",
+      "file": "terrainrockcraggy01-n.png",
+      "sha256": "b0f423b9a414ed1138b41cdf7e943b3bf96fd7e2d3d949fc03c962e70796001a"
+    },
+    {
+      "name": "TerrainWetMud01",
+      "sourceId": "3362752418863694069",
+      "file": "terrainwetmud01.png",
+      "sha256": "09377299e206e0960d8847dc45d00e590aae293d76a5d7b967cf68da45fc70e1"
+    },
+    {
+      "name": "TerrainWetMud01_N",
+      "sourceId": "6829627245762400082",
+      "file": "terrainwetmud01-n.png",
+      "sha256": "f9a3df04bbd9b6682bc9e05688e89c95431c34b400e0b1fdecaeeaca843a63bd"
+    }
+  ]
+}

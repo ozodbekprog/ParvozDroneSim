@@ -1,0 +1,28 @@
+{
+  "version": "0.5.3",
+  "checkedAt": "2026-10-26T06:45:37.9819291Z",
+  "findings": [
+    "LRU eviction aborts the tile controller and removes queued work; fetchData receives its signal. This is not proof that merely leaving view aborts immediately.",
+    "Three parser checks the abort signal before committing its scene and disposes abandoned texture results.",
+    "UnloadTilesPlugin releases GPU resources while retaining CPU model data for re-upload. This is distinct from complete tile disposal.",
+    "LRU accounting is estimated and updated as work finishes, not a reservation of all transient browser allocations. Shared cross-tile texture ownership still needs an integration test."
+  ],
+  "performedMatchedMapStreamingTrial": false,
+  "sources": [
+    {
+      "sha256": "385e262e51fef02594380ef42c00470c0ed8822092d3630a58dd4d44a331a998",
+      "url": "https://raw.githubusercontent.com/NASA-AMMOS/3DTilesRendererJS/v0.5.3/src/core/renderer/tiles/TilesRendererBase.js",
+      "bytes": 47632
+    },
+    {
+      "sha256": "7b44ad58e359fd8b8f06400f59fb4a8ea7108f4ed1d36c1785603369654f640f",
+      "url": "https://raw.githubusercontent.com/NASA-AMMOS/3DTilesRendererJS/v0.5.3/src/three/renderer/tiles/TilesRenderer.js",
+      "bytes": 27440
+    },
+    {
+      "sha256": "633650ed6a819dcb762adc1c6fb3419b17a31535bd97fc65cc973df718d3d2d6",
+      "url": "https://raw.githubusercontent.com/NASA-AMMOS/3DTilesRendererJS/v0.5.3/src/three/plugins/UnloadTilesPlugin.js",
+      "bytes": 5911
+    }
+  ]
+}

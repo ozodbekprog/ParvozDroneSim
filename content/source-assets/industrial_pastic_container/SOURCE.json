@@ -1,0 +1,37 @@
+{
+  "id": "industrial_pastic_container",
+  "title": "Industrial Plastic Container",
+  "authors": {
+    "Galo Benivegna": "All"
+  },
+  "source": "https://polyhaven.com/a/industrial_pastic_container",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/industrial_pastic_container/industrial_pastic_container_1k.blend",
+    "md5": "8d508103f4a29708a89e43ded71ed6f2",
+    "size": 267856,
+    "include": {
+      "textures/industrial_pastic_container_diff_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_pastic_container/industrial_pastic_container_diff_1k.jpg",
+        "md5": "4e43de54f8d4c1cdd8d3606bd8a33a2b",
+        "size": 184497
+      },
+      "textures/industrial_pastic_container_metal_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/industrial_pastic_container/industrial_pastic_container_metal_1k.exr",
+        "md5": "100bcb83b8a96f39ae9d46aa7cc71f74",
+        "size": 10019
+      },
+      "textures/industrial_pastic_container_nor_gl_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/industrial_pastic_container/industrial_pastic_container_nor_gl_1k.exr",
+        "md5": "3b69bd3c28060c0632e297cc7d5fb9a6",
+        "size": 269252
+      },
+      "textures/industrial_pastic_container_rough_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/industrial_pastic_container/industrial_pastic_container_rough_1k.exr",
+        "md5": "4c0331801d5b656585cd54101bf07e5d",
+        "size": 789273
+      }
+    }
+  }
+}

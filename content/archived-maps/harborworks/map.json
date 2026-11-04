@@ -1,0 +1,511 @@
+{
+  "id": "harborworks",
+  "name": "Harborworks",
+  "region": "Tidewater Industrial Port",
+  "theme": "custom",
+  "seed": 927,
+  "description": "A working tidal port: thread the tool-lined workshop, dive beneath yellow quay cranes and weave stacked containers beside the harbour beacon.",
+  "sky": "#a9c2cc",
+  "fog": "#a9bcc2",
+  "ground": "#8b9189",
+  "sun": "#fff1d5",
+  "sunPosition": [
+    -55,
+    85,
+    35
+  ],
+  "cloudColor": "#e1e8e6",
+  "wind": [
+    0.55,
+    0,
+    0.25
+  ],
+  "gravity": 1,
+  "groundPlane": false,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "environment": "harborworks",
+  "atmosphereIdentity": "harborworks",
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -8,
+      -440
+    ],
+    "max": [
+      440,
+      49,
+      440
+    ]
+  },
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "tracks": [
+    {
+      "id": "harborworks-dock-circuit",
+      "name": "Quayside Circuit",
+      "laps": 2,
+      "spawn": {
+        "position": [
+          16.099689,
+          5.4,
+          112.049843
+        ],
+        "yaw": -2.034444
+      },
+      "gates": [
+        {
+          "position": [
+            0,
+            5.4,
+            104
+          ],
+          "yaw": -2.034444,
+          "width": 7,
+          "height": 5,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "roof",
+            "baseY": 0.216
+          }
+        },
+        {
+          "position": [
+            -32,
+            5.4,
+            72
+          ],
+          "yaw": -2.177784,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -72,
+            5.4,
+            54
+          ],
+          "yaw": -2.446854,
+          "width": 7,
+          "height": 5,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -72,
+            5.4,
+            24
+          ],
+          "yaw": -3.141593,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -72,
+            5.4,
+            -24
+          ],
+          "yaw": -3.141593,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -72,
+            5.4,
+            -58
+          ],
+          "yaw": 2.046492,
+          "width": 7,
+          "height": 5,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -6,
+            6.75,
+            -58
+          ],
+          "yaw": 1.552616,
+          "width": 7,
+          "height": 5,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            38,
+            6.75,
+            -56
+          ],
+          "yaw": 1.548578,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            84,
+            8.1,
+            -56
+          ],
+          "yaw": 1.160669,
+          "width": 7,
+          "height": 5,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            84,
+            8.1,
+            -36
+          ],
+          "yaw": 0,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            84,
+            8.1,
+            32
+          ],
+          "yaw": -0.480175,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            34,
+            6.75,
+            60
+          ],
+          "yaw": -0.770015,
+          "width": 7,
+          "height": 5,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            20,
+            5.4,
+            98
+          ],
+          "yaw": -0.657889,
+          "width": 7,
+          "height": 5,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "harborworks-high-tide",
+      "name": "High Tide Technical",
+      "laps": 2,
+      "spawn": {
+        "position": [
+          14.30912,
+          6.75,
+          -111.07988
+        ],
+        "yaw": -2.222666
+      },
+      "gates": [
+        {
+          "position": [
+            0,
+            6.75,
+            -122
+          ],
+          "yaw": -2.222666,
+          "width": 6,
+          "height": 4.2,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -38,
+            8.1,
+            -126
+          ],
+          "yaw": -1.643396,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -110,
+            10.8,
+            -130
+          ],
+          "yaw": -0.880996,
+          "width": 6,
+          "height": 4.2,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -118,
+            9.45,
+            -60
+          ],
+          "yaw": 0.463648,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -72,
+            8.1,
+            -54
+          ],
+          "yaw": 0.807617,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -72,
+            8.1,
+            -16
+          ],
+          "yaw": 0,
+          "width": 6,
+          "height": 4.2,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -72,
+            8.1,
+            54
+          ],
+          "yaw": 0.54042,
+          "width": 6,
+          "height": 4.2,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -30,
+            9.45,
+            54
+          ],
+          "yaw": 1.390943,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            16,
+            9.45,
+            70
+          ],
+          "yaw": 1.292497,
+          "width": 6,
+          "height": 4.2,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            40,
+            18.9,
+            74
+          ],
+          "yaw": 1.319106,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            86,
+            21.6,
+            88
+          ],
+          "yaw": 2.310771,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "roof",
+            "baseY": 12.15
+          }
+        },
+        {
+          "position": [
+            86,
+            28.35,
+            32
+          ],
+          "yaw": -3.141593,
+          "width": 6,
+          "height": 4.2,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "roof",
+            "baseY": 25.0425
+          }
+        },
+        {
+          "position": [
+            86,
+            28.35,
+            -36
+          ],
+          "yaw": -2.694073,
+          "width": 6,
+          "height": 4.2,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "roof",
+            "baseY": 25.0425
+          }
+        },
+        {
+          "position": [
+            38,
+            10.8,
+            -68
+          ],
+          "yaw": -2.356194,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    }
+  ],
+  "bundledChallenges": [],
+  "bundledTutorials": []
+}

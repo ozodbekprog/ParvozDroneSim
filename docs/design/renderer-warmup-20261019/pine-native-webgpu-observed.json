@@ -1,0 +1,17 @@
+{
+  "source": "Observed QA result in browser tool output, 19 October 2026; original tab closed during turn interruption",
+  "map": "liftoff-pine-valley-demo",
+  "quality": "low",
+  "backend": "WebGPU",
+  "gpu": "intel gen-9",
+  "framebuffer": [1280, 720],
+  "adaptiveResolution": false,
+  "compilationMs": 4836.7,
+  "firstRenderedFrameMs": 35.6,
+  "firstFramePipelines": 1,
+  "firstFramePipelineMs": 0.2,
+  "drawCalls": 2737,
+  "triangles": 5028148,
+  "staticBatches": 166,
+  "targetHardwareAcceptance": false
+}

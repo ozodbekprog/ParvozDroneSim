@@ -1,0 +1,159 @@
+{
+  "input": "data/art-repair-20261013/kestrel/far.raw.glb",
+  "output": "content/drones/kestrel/far.glb",
+  "trianglesBeforeInstancing": 6420,
+  "meshPrimitives": 38,
+  "materials": 8,
+  "textures": [
+    {
+      "name": "Image_6",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_7",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_4",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_5",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_3",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_0",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_1",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "body-1",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "led-3",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_15",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_12",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_13",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_10",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_11",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "body-0",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_9",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_8",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "led-2",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_materials_emissive_strength",
+    "KHR_texture_basisu",
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ]
+}

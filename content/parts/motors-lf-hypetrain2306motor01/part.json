@@ -1,0 +1,148 @@
+{
+  "id": "lf-hypetrain2306motor01",
+  "category": "motors",
+  "name": "Hypetrain 2306 · 2450KV",
+  "sourcePartId": "Hypetrain2306Motor01",
+  "sourceSpecs": {
+    "weight": 0.03,
+    "size": 2306,
+    "diameter": 23,
+    "StatorLength": 6,
+    "velocityConstant": 2450,
+    "maxPower": 300,
+    "maxBatteryCells": 5,
+    "noLoadI": 0.5,
+    "noLoadV": 10,
+    "internalResistance": 0.048,
+    "invertedDirection": 0
+  },
+  "physicalSize": [
+    0.027999992482364178,
+    0.031639618158806115,
+    0.02799999713897705
+  ],
+  "mass": 0,
+  "thrust": 1,
+  "response": 1,
+  "drag": 1,
+  "duration": 1,
+  "durability": 1,
+  "cost": 0,
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": [],
+  "compatibleDrones": [
+    "luma-5",
+    "armattan-chameleon",
+    "dquad-addiction"
+  ],
+  "model": "../../shared-assets/liftoff-drone-parts/hangar-delivery.glb",
+  "modelNode": "Part_Hypetrain2306Motor01",
+  "modelLods": [
+    {
+      "model": "../../shared-assets/liftoff-drone-parts/hangar-delivery.glb",
+      "distance": 0,
+      "modelNode": "Part_Hypetrain2306Motor01"
+    },
+    {
+      "model": "../../shared-assets/liftoff-drone-parts/low-delivery.glb",
+      "distance": 12,
+      "modelNode": "Part_Hypetrain2306Motor01"
+    },
+    {
+      "model": "../../shared-assets/liftoff-drone-parts/far-delivery.glb",
+      "distance": 40,
+      "modelNode": "Part_Hypetrain2306Motor01"
+    }
+  ],
+  "lowLod": 1,
+  "mountMatrixByDrone": {
+    "luma-5": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "armattan-chameleon": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "armattan-gecko": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "dquad-addiction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "propellerMountMatrixByBuild": {},
+  "assetLicense": "Proprietary game content; redistribution permission unconfirmed",
+  "assetCredit": "LuGus Studios and original credited drone manufacturers",
+  "assetSource": "https://www.liftoff-game.com/",
+  "attributionFile": "../../shared-assets/liftoff-drone-parts/SOURCE.json",
+  "localOnly": true
+}

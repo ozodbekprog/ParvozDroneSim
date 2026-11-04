@@ -1,0 +1,15 @@
+{
+  "name": "Liftoff Arena",
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+  "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+  "permissionConfirmed": false,
+  "unityVersion": "2022.3.62f3",
+  "trackResource": "LiftoffArenaTrack06_0001",
+  "raceResource": "LiftoffArenaRace06_0001",
+  "sourceTrackId": "6c231218-bfa2-4a52-b882-2fde0aaf9778",
+  "sourceRaceId": "5677f5c7-f8e9-44fb-8417-9b03817c4237",
+  "conversion": "Original checkpoint graph, positions, prefab trigger bounds and spawn preserved. Empty builtin mesh bounds are recovered from the exported source geometry. Source Start is folded into Finish once per lap; our countdown begins at spawn. Gate normal sign follows the ordered route. Authored checkpoint frames are embedded in track props.",
+  "trackProps": "Original visible prefab geometry, PBR materials and blueprint transforms. Non-trigger collision retained; source repair/charge logic is not implemented. Checkpoint trigger renderers remain hidden."
+}

@@ -1,0 +1,59 @@
+{
+  "map": "liftoff-pine-valley-demo",
+  "mode": "fpv",
+  "hardware": {
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F99) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "low",
+  "samples": 456,
+  "frameMs": {
+    "median": 24.30000000000291,
+    "p95": 36.5,
+    "p99": 48.400000000001455,
+    "max": 91
+  },
+  "cpuMs": {
+    "median": 25.199999999953434,
+    "p95": 36.10000000009313,
+    "p99": 42.59999999997672,
+    "max": 89.59999999997672
+  },
+  "rendererMs": {
+    "median": 24.199999999953434,
+    "p95": 35.20000000006985,
+    "p99": 41,
+    "max": 88.5
+  },
+  "projectMs": {
+    "median": 2.1000000000931323,
+    "p95": 3.6000000000931323,
+    "p99": 4.600000000093132,
+    "max": 6.200000000069849
+  },
+  "submitMs": {
+    "median": 18,
+    "p95": 26.400000000023283,
+    "p99": 32.90000000002328,
+    "max": 78.59999999997672
+  },
+  "draws": {
+    "median": 401,
+    "p95": 401,
+    "p99": 401,
+    "max": 401
+  },
+  "triangles": {
+    "median": 5028148,
+    "p95": 5028148,
+    "p99": 5028148,
+    "max": 5028148
+  },
+  "backend": "WebGL2",
+  "framebuffer": [
+    1280,
+    720
+  ],
+  "adaptiveResolution": false
+}

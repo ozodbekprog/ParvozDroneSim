@@ -1,0 +1,88 @@
+{
+  "id": "neon",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "ccbbf09364b799b32d4969e51da0d48bd521ee94b709898111677b1dd6271bbb"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "82c73b2bded91e4cbd2c75991f6602e5de107b3448737b2c2ac7b401d33dea4a"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "ce4ec07b695de3d593e5824cb2d7b37dbb3ceaa2b63ef8724a22fa394552e0b3"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "b3160e448845a74e9e99be70339f4030d328f57f7f036443235c320008594b16"
+    },
+    {
+      "file": "map.json",
+      "sha256": "40e19e99ac4765e4393f6284245ebebb34514a2f20c3398a5b29120a33a47c91"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "aa06db22b8abb75a54d42f9b71b29f5b1877a48c7c53aa10475ab32a41371b93"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-neon-brushed-steel-color.png",
+      "sha256": "c3676561cf3a72bcf4fb936d52c47116885be986a236f26888984cd3e53010df"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-neon-brushed-steel-normal.png",
+      "sha256": "6246a2a0ea949e270041d4a74e254258c071c3f67984525f4c903662d17173f1"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-neon-cut-timber-color.png",
+      "sha256": "cbae285be28b88e1fe00cbabed4e3d2bdaa908fa0e4b2e42349b76d82db25053"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-neon-cut-timber-normal.png",
+      "sha256": "de692bd66d44073edfcb00f87cb87621e05ed5f9d97b69b3ec81cea2e4ddbe69"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-neon-natural-stone-color.png",
+      "sha256": "0e186c4a93d637cf9058123e2d6ee4e4ecfe62a74a1ecc000cfac4c8417ca823"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-neon-natural-stone-normal.png",
+      "sha256": "ce35a5465e0c561a3f263a076ab67bb5bfba05fb8c6069a4eb0e0006efe1715c"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-neon-timber-color.png",
+      "sha256": "45aa43de1c33df3c35c893cbeb5ffb666256d5e5fde3ac419dbbe3db7cc0735d"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-neon-timber-normal.png",
+      "sha256": "f003c0a0bc3058158771bf65e9066c1cd24a893ea08d23fcf04b781b03c9abb3"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-neon-warm-plaster-color.png",
+      "sha256": "13e0b0c58e2d3ad79297df47606f294a39c5a392be766d3a44dbea20ce7dda70"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-neon-warm-plaster-normal.png",
+      "sha256": "df85ed1db36dcbbbd6b747460cebfd9e2ab9fe29ff7a39c11160b0b307571ef3"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "55f2197173b85fc92033355ba57f9946039e456bb4ea77ff5ecbbe7e5ac77d92"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "9311cc8e35a8b298ed14ef6ff6957966d37f43b03e5aab2e3a7f3291004a27aa"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "neon-dash"
+    ],
+    "challenges": [
+      "nightowl"
+    ],
+    "tutorials": []
+  },
+  "restore": "Copy this entire folder to content/maps/neon, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

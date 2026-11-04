@@ -1,0 +1,208 @@
+{
+  "id": "minus-two-demo-garage-loop",
+  "name": "Garage Loop",
+  "map": "minus-two-demo",
+  "laps": 1,
+  "spawn": {
+    "position": [
+      -15.752,
+      0.25,
+      -66.501
+    ],
+    "yaw": 0
+  },
+  "gates": [
+    {
+      "position": [
+        -16,
+        1.2,
+        -61
+      ],
+      "yaw": 0,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        -16,
+        1.2,
+        -51
+      ],
+      "yaw": 0,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        -12,
+        1.2,
+        -45
+      ],
+      "yaw": 1.5707963267948966,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        -2,
+        1.2,
+        -45
+      ],
+      "yaw": 1.5707963267948966,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        3,
+        1.2,
+        -40
+      ],
+      "yaw": 0,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        3,
+        1.2,
+        -30
+      ],
+      "yaw": 0,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        7,
+        1.2,
+        -23
+      ],
+      "yaw": 3.141592653589793,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        7,
+        1.2,
+        -33
+      ],
+      "yaw": 3.141592653589793,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        7,
+        1.2,
+        -43
+      ],
+      "yaw": 3.141592653589793,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        4,
+        1.2,
+        -55
+      ],
+      "yaw": -1.5707963267948966,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        -8,
+        1.2,
+        -58
+      ],
+      "yaw": 3.141592653589793,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        -11,
+        1.2,
+        -67
+      ],
+      "yaw": -1.5707963267948966,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    }
+  ]
+}

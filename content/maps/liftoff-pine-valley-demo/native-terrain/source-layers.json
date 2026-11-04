@@ -1,0 +1,297 @@
+{
+  "-8347891824292195914": {
+    "bundle": "d2580bda8ce1f3b502dfbf0a4848875c.bundle",
+    "data": {
+      "m_Name": "layer_TerrainWetMud01TerrainWetMud01_N(1.000,1.000)(0.333,0.333)(0.000,0.000,0.000),0.000,0.000",
+      "m_DiffuseTexture": {
+        "m_FileID": 1,
+        "m_PathID": 3362752418863694069
+      },
+      "m_NormalMapTexture": {
+        "m_FileID": 1,
+        "m_PathID": 6829627245762400082
+      },
+      "m_MaskMapTexture": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_TileSize": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_TileOffset": {
+        "x": 0.3333333432674408,
+        "y": 0.3333333432674408
+      },
+      "m_Specular": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "m_Metallic": 0.0,
+      "m_Smoothness": 0.0,
+      "m_NormalScale": 1.0,
+      "m_DiffuseRemapMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_DiffuseRemapMax": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+      },
+      "m_MaskMapRemapMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_MaskMapRemapMax": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+      }
+    }
+  },
+  "-5271550013921904329": {
+    "bundle": "d2580bda8ce1f3b502dfbf0a4848875c.bundle",
+    "data": {
+      "m_Name": "layer_TerrainWoodChipsGrass01TerrainWoodChipsGrass01_N(1.000,1.000)(0.333,0.333)(0.000,0.000,0.000),0.000,0.000",
+      "m_DiffuseTexture": {
+        "m_FileID": 1,
+        "m_PathID": 4369662847702889370
+      },
+      "m_NormalMapTexture": {
+        "m_FileID": 1,
+        "m_PathID": -5815963278999856742
+      },
+      "m_MaskMapTexture": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_TileSize": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_TileOffset": {
+        "x": 0.3333333432674408,
+        "y": 0.3333333432674408
+      },
+      "m_Specular": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "m_Metallic": 0.0,
+      "m_Smoothness": 0.0,
+      "m_NormalScale": 1.0,
+      "m_DiffuseRemapMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_DiffuseRemapMax": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+      },
+      "m_MaskMapRemapMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_MaskMapRemapMax": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+      }
+    }
+  },
+  "-2502741522067458028": {
+    "bundle": "d2580bda8ce1f3b502dfbf0a4848875c.bundle",
+    "data": {
+      "m_Name": "layer_TerrainRockCraggy01TerrainRockCraggy01_N(1.000,1.000)(0.333,0.333)(0.000,0.000,0.000),0.000,0.000",
+      "m_DiffuseTexture": {
+        "m_FileID": 1,
+        "m_PathID": -378487684918733103
+      },
+      "m_NormalMapTexture": {
+        "m_FileID": 1,
+        "m_PathID": -681322450999268195
+      },
+      "m_MaskMapTexture": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_TileSize": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_TileOffset": {
+        "x": 0.3333333432674408,
+        "y": 0.3333333432674408
+      },
+      "m_Specular": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "m_Metallic": 0.0,
+      "m_Smoothness": 0.0,
+      "m_NormalScale": 1.0,
+      "m_DiffuseRemapMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_DiffuseRemapMax": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+      },
+      "m_MaskMapRemapMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_MaskMapRemapMax": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+      }
+    }
+  },
+  "-506620411026330525": {
+    "bundle": "d2580bda8ce1f3b502dfbf0a4848875c.bundle",
+    "data": {
+      "m_Name": "layer_TerrainGreenFoliage01TerrainGreenFoliage01_N(1.000,1.000)(0.333,0.333)(0.000,0.000,0.000),0.000,0.000",
+      "m_DiffuseTexture": {
+        "m_FileID": 1,
+        "m_PathID": -9006683624353340014
+      },
+      "m_NormalMapTexture": {
+        "m_FileID": 1,
+        "m_PathID": -8022938692170085006
+      },
+      "m_MaskMapTexture": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_TileSize": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_TileOffset": {
+        "x": 0.3333333432674408,
+        "y": 0.3333333432674408
+      },
+      "m_Specular": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "m_Metallic": 0.0,
+      "m_Smoothness": 0.0,
+      "m_NormalScale": 1.0,
+      "m_DiffuseRemapMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_DiffuseRemapMax": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+      },
+      "m_MaskMapRemapMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_MaskMapRemapMax": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+      }
+    }
+  },
+  "7992647792833406502": {
+    "bundle": "d2580bda8ce1f3b502dfbf0a4848875c.bundle",
+    "data": {
+      "m_Name": "layer_TerrainForestNeedles01TerrainForestNeedles01_N(1.000,1.000)(0.333,0.333)(0.000,0.000,0.000),0.000,0.000",
+      "m_DiffuseTexture": {
+        "m_FileID": 1,
+        "m_PathID": 1115227907729400683
+      },
+      "m_NormalMapTexture": {
+        "m_FileID": 1,
+        "m_PathID": -4632967811016422924
+      },
+      "m_MaskMapTexture": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_TileSize": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "m_TileOffset": {
+        "x": 0.3333333432674408,
+        "y": 0.3333333432674408
+      },
+      "m_Specular": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "m_Metallic": 0.0,
+      "m_Smoothness": 0.0,
+      "m_NormalScale": 1.0,
+      "m_DiffuseRemapMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_DiffuseRemapMax": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+      },
+      "m_MaskMapRemapMin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "m_MaskMapRemapMax": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+      }
+    }
+  }
+}

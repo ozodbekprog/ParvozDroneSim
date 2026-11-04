@@ -1,0 +1,22 @@
+{
+  "id": "pinecrest-lookout-line",
+  "name": "Lookout Line",
+  "map": "pinecrest",
+  "track": "pinecrest-canopy-loop",
+  "target": 359,
+  "reward": 310,
+  "hints": [
+    {
+      "afterGate": 0,
+      "text": "Use the clear creek line as a visual anchor."
+    },
+    {
+      "afterGate": 2,
+      "text": "Pass the ranger station with space for its roof and the nearby pines."
+    },
+    {
+      "afterGate": 5,
+      "text": "Look for the fire tower before committing to the return turn."
+    }
+  ]
+}

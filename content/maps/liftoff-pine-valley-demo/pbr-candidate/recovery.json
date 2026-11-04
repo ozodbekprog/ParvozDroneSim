@@ -1,0 +1,478 @@
+{
+  "reader": "UnityPy 1.25.4",
+  "textures": [
+    {
+      "id": "-8538165385861839006",
+      "name": "translucency_gloss",
+      "file": "packed--8538165385861839006.png",
+      "sha256": "7ec6ec78b363cdcce85420b0784b224dfd2f93ad6ba9d75a2778ef8e0ca3b3ed",
+      "width": 1024,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "87ee2bcf443ac1371906fc92963da343.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:-6679749278721035901",
+          "name": "Optimized Bark Material",
+          "shader": "Hidden/Nature/Tree Creator Bark Optimized",
+          "slot": "_TranslucencyMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "-8538165385861839006"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "-6727060232596376598",
+      "name": "normal_specular",
+      "file": "packed--6727060232596376598.png",
+      "sha256": "3b7b1425bf07ebe29c7d18bea5f48576201c3117d524c7fb880b7ab45a027924",
+      "width": 1024,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "87ee2bcf443ac1371906fc92963da343.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:-6679749278721035901",
+          "name": "Optimized Bark Material",
+          "shader": "Hidden/Nature/Tree Creator Bark Optimized",
+          "slot": "_BumpSpecMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "-6727060232596376598"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "-5027146320575399567",
+      "name": "translucency_gloss",
+      "file": "packed--5027146320575399567.png",
+      "sha256": "bba536f471398fbcfd31e969b9d64530aac152e7e7b70b46beda3673deca5a37",
+      "width": 1024,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "87ee2bcf443ac1371906fc92963da343.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:6183036969670562233",
+          "name": "Optimized Bark Material",
+          "shader": "Hidden/Nature/Tree Creator Bark Optimized",
+          "slot": "_TranslucencyMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "-5027146320575399567"
+            }
+          }
+        },
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:6183036969615929502",
+          "name": "Optimized Leaf Material",
+          "shader": "Hidden/Nature/Tree Creator Leaves Optimized",
+          "slot": "_TranslucencyMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "-5027146320575399567"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "-2745344930439101900",
+      "name": "normal_specular",
+      "file": "packed--2745344930439101900.png",
+      "sha256": "c0fe367332f47a6f13d8d6a30643cfe79ddea7778e75738ec983424b9545fdc4",
+      "width": 1024,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "87ee2bcf443ac1371906fc92963da343.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:1669704408839204281",
+          "name": "Optimized Leaf Material",
+          "shader": "Hidden/Nature/Tree Creator Leaves Optimized",
+          "slot": "_BumpSpecMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "-2745344930439101900"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "-1390055202862341951",
+      "name": "normal_specular",
+      "file": "packed--1390055202862341951.png",
+      "sha256": "4c29f73984880d9b629ef6856b51123d12e5f046257c791ff9f6b17d88519a38",
+      "width": 1024,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "87ee2bcf443ac1371906fc92963da343.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:4299561069356928080",
+          "name": "Optimized Bark Material",
+          "shader": "Hidden/Nature/Tree Creator Bark Optimized",
+          "slot": "_BumpSpecMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "-1390055202862341951"
+            }
+          }
+        },
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:4299561069080210993",
+          "name": "Optimized Leaf Material",
+          "shader": "Hidden/Nature/Tree Creator Leaves Optimized",
+          "slot": "_BumpSpecMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "-1390055202862341951"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "-966568300085620696",
+      "name": "normal_specular",
+      "file": "packed--966568300085620696.png",
+      "sha256": "e8e98ca390f0f683f1bd7d844047d95a2a238c0014b5e1b3a6911fe79a499279",
+      "width": 1024,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "87ee2bcf443ac1371906fc92963da343.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:6183036969670562233",
+          "name": "Optimized Bark Material",
+          "shader": "Hidden/Nature/Tree Creator Bark Optimized",
+          "slot": "_BumpSpecMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "-966568300085620696"
+            }
+          }
+        },
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:6183036969615929502",
+          "name": "Optimized Leaf Material",
+          "shader": "Hidden/Nature/Tree Creator Leaves Optimized",
+          "slot": "_BumpSpecMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "-966568300085620696"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "1337157923956863628",
+      "name": "translucency_gloss",
+      "file": "packed-1337157923956863628.png",
+      "sha256": "4a498065c97dd32faf7a67aee0d485afbd0b0a054deb7f12e109e69041bd4d07",
+      "width": 1024,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "87ee2bcf443ac1371906fc92963da343.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:1669704408839204281",
+          "name": "Optimized Leaf Material",
+          "shader": "Hidden/Nature/Tree Creator Leaves Optimized",
+          "slot": "_TranslucencyMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "1337157923956863628"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "2814856424267389290",
+      "name": "translucency_gloss",
+      "file": "packed-2814856424267389290.png",
+      "sha256": "9eead13dde981485236da4bbd8ee78a630f897a5f1db280896f5dfa52439d3e2",
+      "width": 1024,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "87ee2bcf443ac1371906fc92963da343.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:7072496690412249920",
+          "name": "Optimized Bark Material",
+          "shader": "Hidden/Nature/Tree Creator Bark Optimized",
+          "slot": "_TranslucencyMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "2814856424267389290"
+            }
+          }
+        },
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:7072496691008290866",
+          "name": "Optimized Leaf Material",
+          "shader": "Hidden/Nature/Tree Creator Leaves Optimized",
+          "slot": "_TranslucencyMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "2814856424267389290"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "3701018790889454298",
+      "name": "normal_specular",
+      "file": "packed-3701018790889454298.png",
+      "sha256": "d209904803ea14bf6e9f029ecda6905cff2dfe0cd03e07183f7eb0925d1f261e",
+      "width": 1024,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "87ee2bcf443ac1371906fc92963da343.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:7072496690412249920",
+          "name": "Optimized Bark Material",
+          "shader": "Hidden/Nature/Tree Creator Bark Optimized",
+          "slot": "_BumpSpecMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "3701018790889454298"
+            }
+          }
+        },
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:7072496691008290866",
+          "name": "Optimized Leaf Material",
+          "shader": "Hidden/Nature/Tree Creator Leaves Optimized",
+          "slot": "_BumpSpecMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "3701018790889454298"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "9134320360817022653",
+      "name": "translucency_gloss",
+      "file": "packed-9134320360817022653.png",
+      "sha256": "9da3f1c2181ed4c17ba5ad2cd0ae77fc5359d499d3a6553ca858166b3b45353b",
+      "width": 1024,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "87ee2bcf443ac1371906fc92963da343.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:4299561069356928080",
+          "name": "Optimized Bark Material",
+          "shader": "Hidden/Nature/Tree Creator Bark Optimized",
+          "slot": "_TranslucencyMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "9134320360817022653"
+            }
+          }
+        },
+        {
+          "materialKey": "{\"B\":{\"P\":[36]},\"I\":0}:4299561069080210993",
+          "name": "Optimized Leaf Material",
+          "shader": "Hidden/Nature/Tree Creator Leaves Optimized",
+          "slot": "_TranslucencyMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 12,
+              "m_PathID": "9134320360817022653"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "4085865260537406308",
+      "name": "VegetationFern01_N_AFS",
+      "file": "packed-4085865260537406308.png",
+      "sha256": "5a1c251943faf44ebaa74ec83375a9f3f21c9a7442336604cc4652f15651c673",
+      "width": 2048,
+      "height": 1024,
+      "format": 12,
+      "sourceBundle": "8a18ccd895573d9b4642db9a9557632d.bundle",
+      "materials": [
+        {
+          "materialKey": "{\"B\":{\"P\":[38]},\"I\":0}:3335072387010936907",
+          "name": "VegetationFern01_AFS",
+          "shader": "AFS/Foliage Shader v4",
+          "slot": "_BumpTransSpecMap",
+          "environment": {
+            "m_Offset": {
+              "m_X": 0,
+              "m_Y": 0
+            },
+            "m_Scale": {
+              "m_X": 1,
+              "m_Y": 1
+            },
+            "m_Texture": {
+              "m_FileID": 8,
+              "m_PathID": "4085865260537406308"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "missing": []
+}

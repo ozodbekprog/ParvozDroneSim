@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-26T05:51:38.620Z",
+  "revision": "85331b4bc0057c68",
+  "method": "Read back generated files; compare canonical SHA-256 with the previous audit and verify every stored view, compressed stream, image payload and all other scene/material JSON semantics. No rendering or texture transcoding.",
+  "savedBytes": 71750236,
+  "maps": [
+    {
+      "id": "minus-two-demo",
+      "source": "content/maps/minus-two-demo/model.glb",
+      "delivery": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "sourceSha256": "b937e910f9981b0acf78db749f2498ea847c41a59eb3f640acdbecf00e689a24",
+      "deliverySha256": "b937e910f9981b0acf78db749f2498ea847c41a59eb3f640acdbecf00e689a24",
+      "canonicalUnchanged": true,
+      "byteAndSceneParity": true,
+      "sourceBytes": 26340900,
+      "deliveryBytes": 26340900,
+      "savedBytes": 0,
+      "imageEntries": 85,
+      "sharedImageViews": 0
+    },
+    {
+      "id": "hangar-c03-demo",
+      "source": "content/maps/hangar-c03-demo/model.glb",
+      "delivery": "/content/assets/maps/hangar-c03-demo/model-02e11dc48be0aa6d.glb",
+      "sourceSha256": "590420f2e6c9ac9e8bd9c185dd253768395c1dcf4603a8c2d338aee279a3afce",
+      "deliverySha256": "02e11dc48be0aa6d1848b399c4bb5d0c22c892a2fef3164d02ca75d357e8a895",
+      "canonicalUnchanged": true,
+      "byteAndSceneParity": true,
+      "sourceBytes": 270814652,
+      "deliveryBytes": 270304988,
+      "savedBytes": 509664,
+      "imageEntries": 375,
+      "sharedImageViews": 2
+    },
+    {
+      "id": "liftoff-arena-demo",
+      "source": "content/maps/liftoff-arena-demo/model.glb",
+      "delivery": "/content/assets/maps/liftoff-arena-demo/model-aa2bc879079b4692.glb",
+      "sourceSha256": "7332720d884247bf84145a16044f708db33df5978513ad310d0f85a2736c06bd",
+      "deliverySha256": "aa2bc879079b469253baff9da98802e10f852a2690f4136b277339378a56714f",
+      "canonicalUnchanged": true,
+      "byteAndSceneParity": true,
+      "sourceBytes": 174042140,
+      "deliveryBytes": 173899476,
+      "savedBytes": 142664,
+      "imageEntries": 330,
+      "sharedImageViews": 2
+    },
+    {
+      "id": "liftoff-pine-valley-demo",
+      "source": "content/maps/liftoff-pine-valley-demo/model.glb",
+      "delivery": "/content/assets/maps/liftoff-pine-valley-demo/model-4ee8ecc48410003d.glb",
+      "sourceSha256": "86db6d5ba657a81a7849f993b8392ddc90e6778afda05110e0b4413a1bb79214",
+      "deliverySha256": "4ee8ecc48410003dfc4c286eed7c5ae192ab3c5e71f9165e1d7e858b2b845904",
+      "canonicalUnchanged": true,
+      "byteAndSceneParity": true,
+      "sourceBytes": 204877164,
+      "deliveryBytes": 136088540,
+      "savedBytes": 68788624,
+      "imageEntries": 610,
+      "sharedImageViews": 372
+    },
+    {
+      "id": "liftoff-the-green-demo",
+      "source": "content/maps/liftoff-the-green-demo/model.glb",
+      "delivery": "/content/assets/maps/liftoff-the-green-demo/model-aa2c87bbf9792b21.glb",
+      "sourceSha256": "3f3c181bb39221ca3521f91b18ef53fbb7875ac32c1abb2b2fbd247a7f2c6a63",
+      "deliverySha256": "aa2c87bbf9792b21b3230599d600b31fbf68ea6e680d40740a26307b9bd708ac",
+      "canonicalUnchanged": true,
+      "byteAndSceneParity": true,
+      "sourceBytes": 265604208,
+      "deliveryBytes": 263294924,
+      "savedBytes": 2309284,
+      "imageEntries": 910,
+      "sharedImageViews": 14
+    }
+  ]
+}

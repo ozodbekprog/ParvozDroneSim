@@ -1,0 +1,9 @@
+{
+  "id": "minus-two-demo-stock-timed",
+  "name": "Minus Two: Native Course",
+  "map": "minus-two-demo",
+  "track": "minus-two-demo-liftoff-01",
+  "description": "Complete the original three-lap course through its authored checkpoints.",
+  "target": 240,
+  "reward": 200
+}

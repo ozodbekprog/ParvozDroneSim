@@ -1,0 +1,43 @@
+[
+  {
+    "schemaVersion": 1,
+    "diagnostic": true,
+    "date": "2026-10-05T08:58:11.689Z",
+    "backend": "WebGPU",
+    "requestedBackend": "auto",
+    "look": "evening",
+    "participants": 8,
+    "pass": 1,
+    "map": "ironworks-v2-review",
+    "routeVersion": 1,
+    "contentStatus": "art-review-slice",
+    "droneStatus": "legacy-models",
+    "scope": "renderer-only; no flight physics or network",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "targetHardwareVerified": false,
+    "complete": true,
+    "valid": true,
+    "invalidReasons": [],
+    "warmupMs": 1000,
+    "durationMs": 20000,
+    "summary": {
+      "frames": 1589,
+      "elapsedMs": 19997.800000000003,
+      "meanFps": 79.45874046145074,
+      "medianMs": 12.5,
+      "p95Ms": 13.10000000000582,
+      "p99Ms": 13.19999999999709,
+      "onePercentLow": 71.23775601068381,
+      "maxFrameMs": 26,
+      "framesOver50Ms": 0,
+      "peakTriangles": 121397,
+      "peakDrawCalls": 361,
+      "peakTextureMiB": 36.08401870727539,
+      "textureMemoryMeasured": true,
+      "meanCpuMs": 2.054059156940522
+    },
+    "meetsFrameBudget": true,
+    "meetsGeometryBudget": false,
+    "meetsTextureBudget": true
+  }
+]

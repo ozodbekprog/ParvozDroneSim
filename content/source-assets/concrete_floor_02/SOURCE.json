@@ -1,0 +1,36 @@
+{
+  "id": "concrete_floor_02",
+  "title": "Concrete Floor 02",
+  "authors": {
+    "Rob Tuytel": "All"
+  },
+  "source": "https://polyhaven.com/a/concrete_floor_02",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "diff": {
+      "name": "concrete_floor_02_diff_1k.png",
+      "size": 2502798,
+      "md5": "e6b278dadc06f7550fc34eedd80a40ab",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_02/concrete_floor_02_diff_1k.png"
+    },
+    "nor_gl": {
+      "name": "concrete_floor_02_nor_gl_1k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_02/concrete_floor_02_nor_gl_1k.png",
+      "size": 6297394,
+      "md5": "fe71a8ff06acc83aadfdd694a42acfd6"
+    },
+    "rough": {
+      "name": "concrete_floor_02_rough_1k.png",
+      "size": 1866235,
+      "md5": "1828b2884b6dc899704410f74b35b2be",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_02/concrete_floor_02_rough_1k.png"
+    },
+    "ao": {
+      "name": "concrete_floor_02_ao_1k.png",
+      "size": 702605,
+      "md5": "d2aa87af6dfd755381d66a0ec21ad628",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/concrete_floor_02/concrete_floor_02_ao_1k.png"
+    }
+  }
+}

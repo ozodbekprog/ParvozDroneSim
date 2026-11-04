@@ -1,0 +1,315 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "at": 405489.0999999996,
+  "probe": {
+    "start": 1792699415193,
+    "tasks": [
+      {
+        "at": 15790.200000001118,
+        "ms": 124
+      },
+      {
+        "at": 34435.90000000037,
+        "ms": 129
+      },
+      {
+        "at": 34565.300000000745,
+        "ms": 59
+      },
+      {
+        "at": 45485.90000000037,
+        "ms": 103
+      },
+      {
+        "at": 47593.5,
+        "ms": 90
+      },
+      {
+        "at": 47694.70000000112,
+        "ms": 77
+      },
+      {
+        "at": 338814.30000000075,
+        "ms": 278
+      },
+      {
+        "at": 341562.80000000075,
+        "ms": 264
+      },
+      {
+        "at": 342927.5999999996,
+        "ms": 132
+      },
+      {
+        "at": 343539.7000000011,
+        "ms": 50
+      },
+      {
+        "at": 343729.0999999996,
+        "ms": 70
+      },
+      {
+        "at": 345010.30000000075,
+        "ms": 59
+      },
+      {
+        "at": 345069.80000000075,
+        "ms": 152
+      },
+      {
+        "at": 356614.80000000075,
+        "ms": 82
+      },
+      {
+        "at": 396826.2000000011,
+        "ms": 53
+      },
+      {
+        "at": 405239.80000000075,
+        "ms": 136
+      }
+    ],
+    "errors": [],
+    "marks": [
+      {
+        "name": "first-hangar",
+        "at": 377958.5999999996
+      }
+    ],
+    "ready": 345673.30000000075
+  },
+  "view": "Ангар\nВыбор дрона\nВ главное меню\n−\n+\nСбросить ракурс\nОригинал\nKestrel 5\n\n5″ · Фристайл\n\nВес\n0.680 kg\nТяга / вес\n5.6×\nВремя полёта\n6 мин\nКамера\n105°\n✓ Выбран для полёта\nВыбран для полёта\nНастроить копию\nВсе\n5\nОригинал\n5\nИзменённый\n0\nДронов: 5\n‹\n›\nArmattan Chameleon 5\"\nОригинал · 5″ · Фристайл\nArmattan Gecko 3″\nОригинал · 3″ · Манёвренный\nDquad Addiction\nОригинал · 5″ · Гоночный\nИспользуется\nKestrel 5\nОригинал · 5″ · Фристайл\nLuma 5\nОригинал · 5″ · Фристайл",
+  "resources": [
+    {
+      "url": "/assets/index-7TSF7k3X.js",
+      "start": 398.30000000074506,
+      "ms": 15363.099999999627,
+      "bytes": 783325,
+      "encoded": 783025,
+      "decoded": 8727791,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/catalog?knownRevision=2132caf43c0e38df",
+      "start": 16114.900000000373,
+      "ms": 3410.4000000003725,
+      "bytes": 517,
+      "encoded": 217,
+      "decoded": 217,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/me",
+      "start": 19525.800000000745,
+      "ms": 4458.9000000003725,
+      "bytes": 1005,
+      "encoded": 705,
+      "decoded": 1467,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "start": 24026.800000000745,
+      "ms": 314750.69999999925,
+      "bytes": 26341200,
+      "encoded": 26340900,
+      "decoded": 26340900,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "start": 24027,
+      "ms": 42328.20000000112,
+      "bytes": 396962,
+      "encoded": 396662,
+      "decoded": 4516888,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "start": 24027.800000000745,
+      "ms": 238689,
+      "bytes": 11030504,
+      "encoded": 11030204,
+      "decoded": 11030204,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/drones/kestrel/source-f34a43818bab7bc0.json",
+      "start": 66379.40000000037,
+      "ms": 3229.699999999255,
+      "bytes": 1088,
+      "encoded": 788,
+      "decoded": 1399,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 370913.7000000011,
+      "ms": 168.09999999962747,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 375912.2000000011,
+      "ms": 178,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/me",
+      "start": 378190.5,
+      "ms": 323.90000000037253,
+      "bytes": 1005,
+      "encoded": 705,
+      "decoded": 1467,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "start": 378207.30000000075,
+      "ms": 18507.199999999255,
+      "bytes": 3409496,
+      "encoded": 3409196,
+      "decoded": 3409196,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 380909.5999999996,
+      "ms": 3349.2000000011176,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 385908.4000000004,
+      "ms": 1122.800000000745,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 390909.7000000011,
+      "ms": 2783.5999999996275,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 395910.5,
+      "ms": 804.5999999996275,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/drones/armattan-chameleon/thumbnail-18db4e5afc46b458.png",
+      "start": 397327.7000000011,
+      "ms": 510.5,
+      "bytes": 7760,
+      "encoded": 7460,
+      "decoded": 7460,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/drones/armattan-gecko/thumbnail-bd595666b18ef47c.png",
+      "start": 397328.0999999996,
+      "ms": 510.2000000011176,
+      "bytes": 9501,
+      "encoded": 9201,
+      "decoded": 9201,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/drones/dquad-addiction/thumbnail-ea0186cc6a4e8ec4.png",
+      "start": 397328.2000000011,
+      "ms": 498.8999999985099,
+      "bytes": 8420,
+      "encoded": 8120,
+      "decoded": 8120,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/drones/kestrel/thumbnail-602d58ee87e1b714.png",
+      "start": 397328.30000000075,
+      "ms": 498.90000000037253,
+      "bytes": 7456,
+      "encoded": 7156,
+      "decoded": 7156,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/drones/luma-5/thumbnail-6098bac019b24ee7.png",
+      "start": 397328.30000000075,
+      "ms": 509.7999999988824,
+      "bytes": 8187,
+      "encoded": 7887,
+      "decoded": 7887,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/content-revision",
+      "start": 400912,
+      "ms": 194.90000000037253,
+      "bytes": 331,
+      "encoded": 31,
+      "decoded": 31,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    }
+  ]
+}

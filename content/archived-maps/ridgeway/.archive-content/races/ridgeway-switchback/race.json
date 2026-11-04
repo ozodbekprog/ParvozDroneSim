@@ -1,0 +1,128 @@
+{
+  "id": "ridgeway-switchback",
+  "name": "Ridgeway Switchback",
+  "map": "ridgeway",
+  "laps": 2,
+  "spawn": {
+    "position": [
+      -119.400002,
+      5.4,
+      -45.599998
+    ],
+    "yaw": 2.44485
+  },
+  "gates": [
+    {
+      "position": [
+        -104.0,
+        5.4,
+        -64.0
+      ],
+      "yaw": 2.44485,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -26.0,
+        6.75,
+        -70.0
+      ],
+      "yaw": 1.486658,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        62.0,
+        8.1,
+        -50.0
+      ],
+      "yaw": 1.084554,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        114.0,
+        6.75,
+        4.0
+      ],
+      "yaw": -0.054491,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        56.0,
+        6.75,
+        60.0
+      ],
+      "yaw": -1.134169,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -36.0,
+        5.4,
+        74.0
+      ],
+      "yaw": -1.763497,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -108.0,
+        5.4,
+        28.0
+      ],
+      "yaw": -2.683759,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "parts": [
+    {
+      "sourceId": "AntennaPagodaCircular01",
+      "category": "antenna",
+      "specifications": {
+        "weight": 0.0089,
+        "isAngled": 1
+      },
+      "nodes": [
+        "Part_AntennaPagodaCircular01"
+      ],
+      "size": [
+        0.02476164698600769,
+        0.06381488498300314,
+        0.03840821236371994
+      ],
+      "mountMatrixByDrone": {},
+      "propellerMountMatrixByBuild": {}
+    },
+    {
+      "sourceId": "AntennaSoupapeMicro01",
+      "category": "antenna",
+      "specifications": {
+        "weight": 0.0016,
+        "isAngled": 0
+      },
+      "nodes": [
+        "Part_AntennaSoupapeMicro01"
+      ],
+      "size": [
+        0.010157543234527111,
+        0.06634528329595923,
+        0.010157543234527111
+      ],
+      "mountMatrixByDrone": {},
+      "propellerMountMatrixByBuild": {}
+    },
+    {
+      "sourceId": "AntennaSoupape01",
+      "category": "antenna",
+      "specifications": {
+        "weight": 0.0048,
+        "isAngled": 0
+      },
+      "nodes": [
+        "Part_AntennaSoupape01"
+      ],
+      "size": [
+        0.017399996519088745,
+        0.027425719425082207,
+        0.017399992793798447
+      ],
+      "mountMatrixByDrone": {},
+      "propellerMountMatrixByBuild": {}
+    },
+    {
+      "sourceId": "AntennaFatsharkCircular01",
+      "category": "antenna",
+      "specifications": {
+        "weight": 0.008,
+        "isAngled": 0
+      },
+      "nodes": [
+        "Part_AntennaFatsharkCircular01"
+      ],
+      "size": [
+        0.03289051912724972,
+        0.09437397727742791,
+        0.033390678465366364
+      ],
+      "mountMatrixByDrone": {},
+      "propellerMountMatrixByBuild": {}
+    }
+  ],
+  "stockAircraft": {},
+  "sourceTriangles": 6092,
+  "lods": [
+    {
+      "name": "hangar",
+      "triangles": 6092
+    },
+    {
+      "name": "low",
+      "triangles": 6092
+    },
+    {
+      "name": "far",
+      "triangles": 4996
+    }
+  ]
+}

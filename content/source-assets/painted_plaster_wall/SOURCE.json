@@ -1,0 +1,36 @@
+{
+  "id": "painted_plaster_wall",
+  "title": "Painted Plaster Wall",
+  "authors": {
+    "Amal Kumar": "All"
+  },
+  "source": "https://polyhaven.com/a/painted_plaster_wall",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "diff": {
+      "name": "painted_plaster_wall_diff_1k.png",
+      "size": 5617058,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/painted_plaster_wall/painted_plaster_wall_diff_1k.png",
+      "md5": "a579bdf62c32e5d8ada9b167da322416"
+    },
+    "nor_gl": {
+      "name": "painted_plaster_wall_nor_gl_1k.png",
+      "size": 5688118,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/painted_plaster_wall/painted_plaster_wall_nor_gl_1k.png",
+      "md5": "a040e68bcbc18ce5f9bb84649c877d01"
+    },
+    "rough": {
+      "name": "painted_plaster_wall_rough_1k.png",
+      "size": 1678277,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/painted_plaster_wall/painted_plaster_wall_rough_1k.png",
+      "md5": "d83a79ebf1c0a51f83c032a9ec87d435"
+    },
+    "ao": {
+      "name": "painted_plaster_wall_ao_1k.png",
+      "size": 1674527,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/painted_plaster_wall/painted_plaster_wall_ao_1k.png",
+      "md5": "66611da5c54cf56968ec395219930fb7"
+    }
+  }
+}

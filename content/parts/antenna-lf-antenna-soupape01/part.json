@@ -1,0 +1,45 @@
+{
+  "id": "lf-antenna-soupape01",
+  "category": "antenna",
+  "name": "Soupape",
+  "sourcePartId": "AntennaSoupape01",
+  "sourceSpecs": {
+    "weight": 0.0048,
+    "isAngled": 0
+  },
+  "physicalSize": [
+    0.017399996519088745,
+    0.027425719425082207,
+    0.017399992793798447
+  ],
+  "mass": 0,
+  "thrust": 1,
+  "response": 1,
+  "drag": 1,
+  "duration": 1,
+  "durability": 1,
+  "cost": 0,
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": [],
+  "model": "../../shared-assets/liftoff-antennas/hangar-delivery.glb",
+  "modelNode": "Part_AntennaSoupape01",
+  "assetLicense": "Proprietary game content; redistribution permission unconfirmed",
+  "assetCredit": "LuGus Studios and original credited drone manufacturers",
+  "assetSource": "https://www.liftoff-game.com/",
+  "attributionFile": "../../shared-assets/liftoff-antennas/SOURCE.json",
+  "localOnly": true,
+  "compatibleDrones": [
+    "armattan-chameleon",
+    "dquad-addiction"
+  ]
+}

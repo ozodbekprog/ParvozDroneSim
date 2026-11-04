@@ -1,0 +1,6 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Parvoz map streaming prototype</title>
+<style>body{margin:0;background:#171b21;color:#eef0f3;font:14px system-ui}nav{padding:10px;display:flex;gap:8px;flex-wrap:wrap}button{padding:8px;background:#333b45;color:white;border:1px solid #77818e}#view{width:1280px;height:720px}output,p{display:block;margin:8px 12px}#report{white-space:pre-wrap}canvas{display:block}</style>
+<nav><button id="load">Load streaming</button><button id="stop">Release all map resources</button><button id="home">Spawn camera</button><button id="tour">Start camera tour</button><button id="far">Distant layer only</button><button id="retry">Retry detail</button><button id="cycles">20 load/release cycles</button><button id="cancel-boundary">Test immediate cancellation</button></nav>
+<p>Local loading prototype · authored Minus Two Low geometry · fixed 1280×720 · WebGL2 · camera tour without flight physics · hardware acceptance pending. Compare <a href="?scheduler=grid">grid control</a> / <a href="?scheduler=tiles">3D Tiles challenger</a>. Both reuse the same compiled files; selection policies differ.</p>
+<output id="status">Initializing renderer</output><div id="view"></div><output id="report"></output>
+<script type="module" src="./qa-map-streaming.js"></script></html>

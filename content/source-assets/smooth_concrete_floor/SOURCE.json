@@ -1,0 +1,36 @@
+{
+  "id": "smooth_concrete_floor",
+  "title": "Smooth Concrete Floor",
+  "authors": {
+    "Dimitrios Savva": "All"
+  },
+  "source": "https://polyhaven.com/a/smooth_concrete_floor",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "diff": {
+      "name": "smooth_concrete_floor_diff_1k.png",
+      "size": 5601991,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/smooth_concrete_floor/smooth_concrete_floor_diff_1k.png",
+      "md5": "f07ebc1efdebf7afcbae4cfdfdf525f1"
+    },
+    "nor_gl": {
+      "name": "smooth_concrete_floor_nor_gl_1k.png",
+      "size": 5270878,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/smooth_concrete_floor/smooth_concrete_floor_nor_gl_1k.png",
+      "md5": "da9344e29599ceb9d992232d766e59be"
+    },
+    "rough": {
+      "name": "smooth_concrete_floor_rough_1k.png",
+      "size": 2416150,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/smooth_concrete_floor/smooth_concrete_floor_rough_1k.png",
+      "md5": "e739c0368c0af9067c0a62241f3afff0"
+    },
+    "ao": {
+      "name": "smooth_concrete_floor_ao_1k.png",
+      "size": 1872212,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/smooth_concrete_floor/smooth_concrete_floor_ao_1k.png",
+      "md5": "4034ae11e35d2a0dd4ae5ed37b79b44c"
+    }
+  }
+}

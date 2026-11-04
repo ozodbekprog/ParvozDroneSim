@@ -1,0 +1,45 @@
+{
+  "id": "lf-antenna-fatshark-circular01",
+  "category": "antenna",
+  "name": "Fatshark circular",
+  "sourcePartId": "AntennaFatsharkCircular01",
+  "sourceSpecs": {
+    "weight": 0.008,
+    "isAngled": 0
+  },
+  "physicalSize": [
+    0.03289051912724972,
+    0.09437397727742791,
+    0.033390678465366364
+  ],
+  "mass": 0,
+  "thrust": 1,
+  "response": 1,
+  "drag": 1,
+  "duration": 1,
+  "durability": 1,
+  "cost": 0,
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": [],
+  "model": "../../shared-assets/liftoff-antennas/hangar-delivery.glb",
+  "modelNode": "Part_AntennaFatsharkCircular01",
+  "assetLicense": "Proprietary game content; redistribution permission unconfirmed",
+  "assetCredit": "LuGus Studios and original credited drone manufacturers",
+  "assetSource": "https://www.liftoff-game.com/",
+  "attributionFile": "../../shared-assets/liftoff-antennas/SOURCE.json",
+  "localOnly": true,
+  "compatibleDrones": [
+    "armattan-chameleon",
+    "dquad-addiction"
+  ]
+}

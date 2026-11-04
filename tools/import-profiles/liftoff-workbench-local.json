@@ -1,0 +1,15 @@
+{
+  "adapter":"liftoff-unity-2022", "kind":"prop-set", "id":"liftoff-workbench",
+  "staging":"data/liftoff-workbench-recovery", "source":"D:/Programs/Liftoff",
+  "roots":["Assets/Scenes/Menus/DroneEditor/DroneEditor.unity","Assets/Scenes/Menus/DroneSelector/DroneSelector.unity"],
+  "assetRipperUrl":"http://127.0.0.1:2578",
+  "blender":"D:/Programs/Blender Foundation/Blender 5.1/blender.exe",
+  "textureSize":512, "sourceTextureBudgetMiB":64,
+  "materialAdapters":{"Standard":"PBR","Standard (Specular setup)":"Static PBR with gloss conversion"},
+  "map":{"name":"Original Liftoff workbench props"},
+  "probe":{"position":[0,2,3],"target":[0,0.8,0],"radius":10},
+  "lod":{"cellSize":64,"distances":[0,16,22],"ratios":[1,1],"texturedFarMaterials":[],"preserveGeometry":true},
+  "selectedProps":["PicnicTable01","DroneCharger01","SolderingIron01"],
+  "excludeObjectPrefixes":[],
+  "provenance":{"author":"LuGus Studios and original asset creators","source":"Installed Liftoff: DroneEditor and DroneSelector","permissionConfirmed":false,"usage":"Local verification only; exclude from public release"}
+}

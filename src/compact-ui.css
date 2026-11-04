@@ -1,0 +1,259 @@
+/* Shared visual language established by the accepted account/Downloads panels. */
+:root {
+  --surface:#23262bf5; --surface-soft:#ffffff06; --line:#41464e;
+  --text:#f0f1f1; --muted:#adb1b7; --quiet:#9da3ab; --accent:#eea462;
+  --technical:#eea462; --ink:#1b1e23; --radius:5px; --field-radius:4px;
+  --shadow:0 12px 40px #0004;
+  --menu-gap:16px; --menu-padding:24px; --control-height:42px;
+}
+#menu .brand-mark {display:block;transform:none;flex:none;}
+#menu .brand-mark img {width:76px;height:42px;object-fit:contain;}
+#menu, .flow-dialog, .room-create-dialog, .help-card, .performance-dialog {
+  font:400 16px/1.4 'Source Sans 3',sans-serif;
+}
+#menu :is(h1,h2,h3,h4,button,input,select,textarea,label,strong,small,em),
+:is(.flow-dialog,.room-create-dialog,.help-card,.performance-dialog) :is(h1,h2,h3,button,input,select,label,strong) {
+  font-family:'Source Sans 3',sans-serif; letter-spacing:normal; text-transform:none;
+}
+#menu h1 {font-size:28px;line-height:1.2;font-weight:600;overflow-wrap:anywhere;}
+#menu h2 {font-size:21px;line-height:1.3;font-weight:600;}
+#menu h3 {font-size:17px;font-weight:600;}
+#menu :is(.eyebrow,.section-heading small) {display:none;}
+#menu .panel-label {font-size:13px;letter-spacing:normal;color:var(--muted);text-transform:none;}
+#menu :is(.game-panel,.menu-panel,.unified-menu-card,.workbench-header,.component-panel,.tune-card,.part-inspector),
+.flow-dialog,.room-create-dialog,.help-card,.performance-dialog {
+  background:var(--surface);border:1px solid var(--line);border-radius:5px;box-shadow:var(--shadow);backdrop-filter:none;
+}
+#menu :is(.game-panel,.menu-panel)::before,#menu :is(.game-panel,.menu-panel)::after {display:none;}
+#menu :is(.button,.mini-button,.rail-choice,.activity-choice,.fleet-filter,.graphics-presets button),
+:is(.flow-dialog,.room-create-dialog,.help-card,.performance-dialog) button {
+  min-height:var(--control-height);padding:8px 14px;font-size:15px;font-weight:400;line-height:1.3;
+  background:#2e333b;border:1px solid #535b66;border-radius:4px;color:var(--text);box-shadow:none;transform:none;
+  transition:background-color .12s,border-color .12s;
+}
+#menu :is(.button,.mini-button,.activity-choice):hover:not(:disabled) {background:#3a414b;transform:none;box-shadow:none;}
+#menu .button.primary,:is(.flow-dialog,.room-create-dialog,.help-card) .button.primary {
+  background:var(--accent);border-color:transparent;color:var(--ink);font-weight:600;box-shadow:none;
+}
+#menu .button.primary:hover:not(:disabled) {background:#ffb97b;}
+#menu :is(.button.ghost,.back-button) {background:#373c43;color:#eceef0;border-color:#656c76;opacity:1;}
+#menu :is(.button.ghost,.back-button):hover:not(:disabled) {background:#464c55;border-color:#89929e;color:#fff;}
+#menu :is(.button.ghost,.back-button):focus-visible {outline:2px solid var(--accent);outline-offset:3px;}
+#menu :is(.rail-choice,.fleet-filter) {background:transparent;border-color:transparent;color:var(--muted);}
+#menu :is(.rail-choice,.fleet-filter,.activity-choice,.graphics-presets button).selected {
+  color:var(--text);border-color:#eea46270;background:#eea46212;box-shadow:inset 3px 0 var(--accent);
+}
+#menu :is(.rail-choice,.fleet-filter):hover {background:#ffffff08;color:var(--text);}
+#menu button:disabled {opacity:.45;cursor:default;}
+#menu :is(input:not([type='range']):not([type='checkbox']):not([type='color']),select,textarea),
+:is(.flow-dialog,.room-create-dialog) :is(input,select) {
+  min-height:42px;border:1px solid #4a5059;border-radius:4px;background:#1b1e23;color:var(--text);font-size:16px;
+}
+#menu label {font-size:15px;color:#d9dcdf;}
+#menu :is(.lead,.course-description,.lesson-outline,.competition-body p) {font-size:15px;line-height:1.5;}
+#menu :is(.settings-help,.auth-note,.empty,.pilot-empty,.account-local-actions small) {font-size:14px;line-height:1.45;color:var(--muted);}
+#menu .section-header,.room-create-dialog .section-header {min-height:44px;margin-bottom:20px;flex-wrap:wrap;row-gap:12px;flex:none;}
+#menu .section-heading {gap:var(--menu-gap);min-width:0;}
+#menu .section-heading>div {min-width:0;}
+#menu .section-header-actions {flex-wrap:wrap;gap:8px;}
+#menu .back-button {flex:none;max-width:260px;white-space:normal;text-align:left;}
+#menu .unified-menu-card {width:min(1080px,100%);padding:var(--menu-padding);min-width:0;}
+#menu :is(.menu-panel,.menu-content,.game-panel,.collection-layout,.online-layout,.course-detail-body,.panel-header,.settings-fields) {min-width:0;}
+#menu :is(.menu-content,.course-detail-body,.pilot-content,.settings-detail,.component-panel) {overscroll-behavior:contain;scroll-padding-block:12px;}
+#menu :is(button,input,select,textarea,summary):focus-visible,
+:is(.flow-dialog,.room-create-dialog,.performance-dialog) :is(button,input,select,summary):focus-visible {outline:2px solid var(--accent);outline-offset:3px;}
+#menu h1:focus {outline:none;}
+#menu .panel-actions {flex-wrap:wrap;gap:10px;flex:none;}
+#menu :is(.empty,.pilot-empty) {line-height:1.6;max-width:64ch;}
+#menu :is(.stat-grid strong,.result-personal strong) {font-size:24px;line-height:1.3;font-weight:600;}
+#menu .stat-grid span {font-size:13px;}
+#menu .stat-grid strong {color:var(--text);}
+#menu :is(.aircraft-card,.part-card,.pilot-achievement,.public-room,.lobby-player,.result-row,.replay-row,.room-code,.result-personal) {
+  border-radius:4px;background:#ffffff04;border-color:var(--line);box-shadow:none;
+}
+#menu :is(.aircraft-card,.part-card,.course-card).selected {border-color:var(--accent);box-shadow:inset 0 -2px var(--accent);}
+#menu :is(.course-card,.course-detail-image,.pilot-record-art,.competition-image) {border-radius:4px;}
+#menu .course-card-content strong {font-size:22px;line-height:1.2;overflow-wrap:anywhere;}
+#menu :is(.course-detail h2,.competition-body h2,.selection-info h2) {font-size:25px;}
+#menu .selection-header h1 {font-size:28px;}
+#menu .selection-info {padding:20px;gap:16px;}
+#menu .selection-data {gap:16px;scrollbar-gutter:stable;}
+#menu .selection-info .stat-grid {gap:16px 12px;}
+#menu .selection-status {font-size:13px;margin:0;}
+#menu .selection-actions {gap:8px;}
+#menu .aircraft-roster {padding:16px;gap:12px;}
+#menu .roster-header {flex:none;flex-wrap:wrap;gap:8px;}
+#menu .aircraft-card {flex-basis:204px;}
+#menu .aircraft-card strong {font-size:15px;flex:none;line-height:1.25;white-space:normal;overflow-wrap:anywhere;}
+#menu .aircraft-card small {font-size:12px;flex:none;line-height:1.35;white-space:normal;}
+#menu .aircraft-art {flex:1 1 74px;min-height:48px;}
+#menu .aircraft-badge {font-size:11px;line-height:1.3;padding:3px 6px;}
+#menu .component-rail button {border-radius:4px;background:transparent;font-size:13px;}
+#menu .workbench-tabs button {border-radius:0;background:transparent;}
+#menu .workbench-tabs button.selected {border-bottom-color:var(--accent);}
+#menu :is(.part-card strong,.part-card small,.part-card em) {font-size:14px;}
+#menu .component-specifications {font-size:13px;line-height:1.55;overflow-wrap:anywhere;}
+#menu .component-panel {min-height:0;overscroll-behavior:contain;scrollbar-gutter:stable;}
+#menu .bench-tuning .component-panel {align-self:stretch;max-height:100%;}
+#menu .bench-tuning .tune-card {flex:none;}
+#menu .bench-tuning .tune-card h2 {font-size:19px;margin-bottom:16px;}
+#menu .bench-tuning :is(.tune-rate-row,.pid-row) {gap:8px;margin-block:8px;}
+#menu .bench-tuning .tune-card input[type='number'] {font:400 14px/1.3 'Source Sans 3',sans-serif;min-height:38px;min-width:0;}
+#menu .bench-tuning .tune-fields label {font-size:13px;line-height:1.4;}
+#menu .part-card {flex:none;min-width:0;}
+#menu .part-card>span:not(.part-card-check) {min-width:0;}
+#menu .part-card strong {overflow-wrap:anywhere;}
+#menu .bench-actions {flex-wrap:wrap;gap:12px;}
+#menu .bench-save-actions {flex-wrap:wrap;justify-content:flex-end;gap:8px;}
+#menu .text-link {font-size:14px;color:var(--muted);}
+#menu .text-link:hover {color:var(--text);text-decoration:underline;}
+#menu .text-link.danger {color:#ed9c95;}
+.topbar {background:linear-gradient(#15171bc0,transparent);}
+#menu .brand {font-family:'Source Sans 3',sans-serif;letter-spacing:.05em;font-size:23px;font-weight:600;}
+#menu .brand-light {font-size:10px;letter-spacing:.08em;}
+#menu :is(.help-button,.account-button) {border-radius:4px;background:var(--surface);border:1px solid var(--line);}
+#menu .account-avatar {border-radius:3px;background:#eea46218;}
+.menu-home .composed-layout {grid-template-columns:320px minmax(0,1fr);padding:24px 48px 78px;}
+#menu .home-main-menu {padding:22px;max-height:100%;overflow:auto;scrollbar-gutter:stable;}
+#menu .home-main-menu h1 {font-size:24px;margin-bottom:18px;}
+#menu .home-main-menu .launch-button {min-height:46px;font-size:18px;padding:10px 14px;}
+#menu .home-destinations {gap:2px;margin-top:14px;}
+#menu .home-destinations button {min-height:42px;padding:8px 10px;border-radius:4px;color:var(--muted);}
+#menu .home-destinations span {font-size:16px;}
+#menu .home-destinations button>.ui-icon:first-child {width:20px;height:20px;padding:0;background:none;border-radius:0;}
+#menu .home-weekly {color:var(--muted)!important;}
+#menu .home-weekly>.ui-icon:first-child {color:inherit!important;}
+#menu .home-destinations button:hover {color:var(--text);background:#ffffff08;}
+#menu .settings-card {height:min(730px,calc(100dvh - 48px));}
+#menu .settings-split {grid-template-columns:170px minmax(0,1fr);gap:24px;}
+#menu .settings-fields label {text-transform:none;letter-spacing:normal;line-height:1.4;}
+#menu .settings-card .settings-fields>h2 {margin:0 0 20px;}
+#menu .fullscreen-setting label {display:flex;align-items:center;gap:12px;margin:0;}
+#menu .fullscreen-setting input {flex:none;margin:0;}
+#menu .fullscreen-setting small {display:block;margin:8px 0 0;}
+#menu .graphics-grid {gap:20px;}
+#menu .graphics-grid label {display:flex;flex-direction:column;gap:8px;}
+#menu .graphics-grid strong {font-size:16px;color:var(--text);}
+#menu .settings-card :is(.graphics-grid small,.render-resolution-setting small,.render-resolution-setting output) {font-size:13px;line-height:1.5;}
+#menu .render-resolution-setting {border-radius:4px;margin-block:20px;padding:16px;}
+#menu .resolution-presets {gap:8px;}
+#menu .resolution-presets button {min-height:38px;border-radius:4px;font-size:14px;}
+#menu .settings-detail.has-monitor {grid-template-columns:minmax(0,1fr) 270px;gap:24px;}
+#menu .settings-card :is(.axis-row,.controls-form label,.graphics-switches .check) {font-size:14px;}
+#menu .virtual-radio {background:#1b1e23;border:1px solid var(--line);border-radius:4px;padding:18px;}
+#menu .virtual-radio .panel-label {display:none;}
+#menu .radio-device {box-shadow:none;background:#2e333b;border-radius:12px;}
+#menu .radio-gimbal {box-shadow:none;background:#181b20;border-color:#535b66;}
+#menu .graphics-presets {gap:8px;}
+#menu .graphics-switches {gap:12px 24px;grid-template-columns:repeat(2,minmax(0,1fr));}
+#menu .graphics-switches .check {display:flex;align-items:center;gap:12px;min-height:38px;}
+#menu .graphics-switches input {flex:none;}
+#menu .menu-rail {gap:4px;}
+#menu .rail-choice {min-height:42px;}
+#menu :is(.room-code,.result-personal strong) {font-family:'Source Sans 3',sans-serif;}
+#menu .room-code {font-size:32px;letter-spacing:.08em;}
+#menu .replay-row {padding:14px;min-height:70px;}
+#menu .replay-row .mini-button {min-width:72px;font-size:14px;}
+#menu .replay-row [data-watch] {background:var(--accent);color:var(--ink);border-color:transparent;}
+#menu .replay-row [data-delete] {color:#ed9c95;background:transparent;}
+#menu .replay-row strong {font-size:17px;}
+#menu .replay-row small {font-size:13px;}
+#menu .replay-library {height:min(730px,calc(100dvh - 48px));display:flex;flex-direction:column;}
+#menu .replay-library .replay-list {display:flex;flex-direction:column;gap:12px;flex:1;min-height:0;overflow:auto;scrollbar-gutter:stable;}
+#menu .replay-library .replay-row {flex:none;}
+#menu .replay-row>div {min-width:0;flex:1;}
+#menu .replay-row strong {overflow-wrap:anywhere;}
+#menu .replay-row small {display:block;line-height:1.5;margin-top:4px;}
+#menu .replay-library .panel-actions {margin-top:16px;padding-top:16px;border-top:1px solid var(--line);}
+#menu .replay-library .pagination {flex:none;margin-top:12px;}
+#menu .pilot-layout {display:flex;flex-direction:column;min-height:0;}
+#menu .pilot-layout > :is(.pilot-overview,.pilot-tabs) {flex:none;}
+#menu .pilot-content {flex:1;}
+.settings-help-link {margin-top:auto;}
+.help-glyph {width:20px;height:20px;display:grid;place-items:center;border:1px solid currentColor;border-radius:50%;font-size:13px;flex:none;}
+#menu .pilot-overview {display:flex;align-items:center;gap:16px;padding-bottom:20px;border-bottom:1px solid var(--line);}
+#menu .pilot-avatar {width:48px;height:48px;border-radius:4px;font-size:24px;margin:0;flex:none;}
+#menu .pilot-identity {margin:0;min-width:0;}
+#menu .pilot-identity h2 {font-size:22px;margin:0 0 2px;}
+#menu .pilot-identity>span {font-size:14px;}
+#menu .pilot-stats {margin:0 0 0 auto;gap:28px;font-size:13px;}
+#menu .pilot-stats strong {font:600 22px/1.3 'Source Sans 3',sans-serif;color:var(--text);}
+#menu .pilot-xp {width:180px;margin:0;}
+#menu .pilot-tabs {display:flex;flex-direction:row;gap:4px;border-bottom:1px solid var(--line);margin:16px 0 24px;overflow-x:auto;}
+#menu .pilot-tabs .rail-choice {width:auto;white-space:nowrap;border:0;border-bottom:3px solid transparent;border-radius:0;padding:10px 16px;background:none;box-shadow:none;}
+#menu .pilot-tabs .rail-choice.selected {border-bottom-color:var(--accent);color:var(--text);background:none;box-shadow:none;}
+#menu .pilot-tabs .ui-icon {display:none;}
+#menu .pilot-content {max-width:none;}
+#menu .pilot-record-row {grid-template-columns:64px minmax(0,1fr) auto;padding:12px 0;}
+#menu .pilot-record-row strong {font-size:16px;}
+#menu .pilot-record-row small {font-size:13px;}
+#menu .pilot-record-row em {font-size:17px;color:var(--text);}
+#menu .pilot-account-section {margin-bottom:24px;}
+#menu .pilot-account-section h2 {font-size:17px;color:var(--muted);margin-bottom:6px;}
+#menu .pilot-account-row {display:flex;justify-content:space-between;align-items:center;gap:24px;padding:16px 0;border-bottom:1px solid var(--line);}
+#menu .pilot-account-row strong {display:block;font-size:16px;font-weight:600;}
+#menu .pilot-account-row small {display:block;margin-top:4px;font-size:14px;color:var(--muted);}
+#menu .pilot-account-row>.button {flex:none;min-width:132px;}
+#menu .pilot-account-actions {display:flex;gap:10px;flex-wrap:wrap;}
+#menu .pilot-account-actions .button {min-width:132px;}
+.flow-dialog h2,.help-card h2 {font-size:24px;line-height:1.3;}
+.room-create-dialog h1 {font-size:28px;line-height:1.2;overflow-wrap:anywhere;}
+.flow-dialog,.room-create-dialog,.performance-dialog {max-width:calc(100vw - 32px);max-height:calc(100dvh - 48px);overflow:auto;scrollbar-gutter:stable;overscroll-behavior:contain;padding:24px;}
+.flow-dialog p {max-width:64ch;line-height:1.6;}
+.flow-dialog .panel-actions {display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px;}
+.flow-dialog input {max-width:100%;min-width:0;}
+.flow-dialog .control-reference {margin:20px 0;}
+.control-reference>div {display:grid;grid-template-columns:minmax(120px,.7fr) minmax(0,1fr);align-items:baseline;gap:16px;padding:10px 0;border-bottom:1px solid var(--line);}
+.control-reference :is(dt,dd) {margin:0;font-size:15px;line-height:1.5;overflow-wrap:anywhere;}
+.control-reference kbd {font:inherit;color:var(--text);}
+.control-reference dd {color:var(--muted);}
+#menu :is(.course-detail h2,.competition-body h2,.pilot-identity h2,.public-room strong,.lobby-player strong,.result-row strong) {overflow-wrap:anywhere;}
+#menu .public-room {gap:12px;flex-wrap:wrap;}
+#menu .room-filters {grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(110px,.55fr);}
+#menu .room-filters label {min-width:0;}
+#menu .room-filters select {width:100%;}
+#menu .room-browser {overflow:hidden;}
+#menu .public-rooms {min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;}
+#menu .online-sidebar {min-height:0;overflow:auto;overscroll-behavior:contain;}
+#menu .invite-panel>small {font-size:13px;}
+#menu .ranked-panel>p,#menu .ranked-panel>small {font-size:14px;line-height:1.5;}
+#menu :is(.rooms-empty p,.leaderboard-empty p,.course-browser-caption,.course-browser-caption small,.competition-course small,.leaderboard-row,.leaderboard-row small,.pagination span) {font-size:14px;line-height:1.45;}
+#menu :is(.leaderboard-row,.result-row) {min-width:0;gap:12px;}
+#menu :is(.leaderboard-row strong,.result-row strong,.lobby-player strong) {min-width:0;overflow-wrap:anywhere;}
+#menu :is(.course-detail-body,.competition-body,.leaderboard-rows) {overflow:auto;scrollbar-gutter:stable;overscroll-behavior:contain;}
+#menu .course-grid {overflow:auto;grid-template-rows:repeat(3,minmax(132px,1fr));scrollbar-gutter:stable;overscroll-behavior:contain;}
+#menu .course-grid.lesson-grid {grid-template-rows:repeat(2,minmax(152px,1fr));}
+#menu .flight-card {max-height:calc(100dvh - 48px);overflow:auto;scrollbar-gutter:stable;}
+@media(max-width:1000px) {
+  #menu .settings-detail.has-monitor {grid-template-columns:minmax(0,1fr);}
+  #menu .virtual-radio {max-width:360px;}
+  #menu .pilot-xp {width:120px;}
+}
+@media(max-height:700px) and (min-width:801px) {
+  .menu-home .composed-layout {padding-top:10px;padding-bottom:68px;}
+  #menu .home-main-menu {padding:18px;}
+  #menu .home-destinations button {min-height:36px;}
+  #menu .unified-menu-card {padding:20px;}
+}
+@media(max-width:800px) {
+  #menu .settings-split {grid-template-columns:minmax(0,1fr);gap:16px;}
+  #menu .settings-card .menu-rail {flex-direction:row;flex-wrap:wrap;}
+  #menu .settings-card .rail-choice {width:auto;}
+  #menu .unified-menu-card {padding:18px;}
+  #menu .pilot-overview {flex-wrap:wrap;gap:12px;}
+  #menu .pilot-account-row {flex-wrap:wrap;gap:12px;}
+  #menu .pilot-tabs .rail-choice {padding-inline:12px;font-size:14px;}
+  #menu .roster-count {display:none;}
+  #menu .room-filters {grid-template-columns:minmax(0,1fr);}
+  #menu .graphics-switches {grid-template-columns:minmax(0,1fr);}
+  #menu .section-heading {flex-wrap:wrap;gap:12px;}
+  #menu .replay-row {flex-wrap:wrap;}
+  #menu .replay-row>div {flex-basis:100%;}
+  #menu .bench-actions>.back-button {max-width:none;}
+  .room-create-dialog .section-heading {flex-wrap:wrap;}
+  .room-create-dialog .host-actions .button {min-width:0;white-space:normal;}
+  .control-reference>div {gap:12px;grid-template-columns:minmax(100px,.7fr) minmax(0,1fr);}
+}
+@media(prefers-reduced-motion:reduce){#menu * {transition:none!important;}}
+
+.lesson-feedback{display:block;max-width:64rem;font-size:.75rem;line-height:1.4;color:var(--muted,#b9c4cc);text-wrap:balance;margin:.3rem 0}

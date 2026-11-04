@@ -1,0 +1,185 @@
+{
+  "id": "orbital",
+  "name": "Orbit One",
+  "region": "Space Hangar",
+  "theme": "custom",
+  "seed": 741,
+  "description": "An experimental low-gravity arena above the atmosphere.",
+  "sky": "#0c1424",
+  "fog": "#1b2b40",
+  "ground": "#677b8f",
+  "sun": "#d2e9ff",
+  "sunPosition": [
+    30,
+    100,
+    60
+  ],
+  "cloudColor": "#8ba7b8",
+  "wind": [
+    0,
+    0,
+    0
+  ],
+  "gravity": 0.55,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "orbital",
+  "groundPlane": false,
+  "indoor": true,
+  "fogDensity": 0.0005,
+  "bounds": {
+    "min": [
+      -185,
+      -0.606,
+      -185
+    ],
+    "max": [
+      185,
+      43,
+      185
+    ]
+  },
+  "tracks": [
+    {
+      "id": "orbital-arc",
+      "name": "Orbital Arc",
+      "laps": 2,
+      "gates": [
+        {
+          "position": [
+            0,
+            9.45,
+            36
+          ],
+          "yaw": 1.292497,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            56,
+            14.85,
+            52
+          ],
+          "yaw": 2.589938,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            88,
+            20.25,
+            0
+          ],
+          "yaw": -2.560836,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            46,
+            12.15,
+            -64
+          ],
+          "yaw": -1.653938,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -26,
+            16.200001,
+            -70
+          ],
+          "yaw": -0.730907,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -78,
+            22.950001,
+            -12
+          ],
+          "yaw": 0.450661,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -48,
+            13.5,
+            50
+          ],
+          "yaw": 1.85459,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ],
+      "spawn": {
+        "position": [
+          -23.076571,
+          9.45,
+          29.406691
+        ],
+        "yaw": 1.292497
+      }
+    }
+  ],
+  "bundledChallenges": [
+    {
+      "id": "astronaut",
+      "name": "New Horizon",
+      "map": "orbital",
+      "track": "orbital-arc",
+      "target": 350,
+      "reward": 300
+    }
+  ],
+  "bundledTutorials": []
+}

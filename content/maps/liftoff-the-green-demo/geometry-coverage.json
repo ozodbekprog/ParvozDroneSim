@@ -1,0 +1,35 @@
+{
+  "input": "data/liftoff-the-green-recovery/model.glb",
+  "output": "data/liftoff-the-green-recovery/audit-delivery.glb",
+  "deliverySha256": "3f3c181bb39221ca3521f91b18ef53fbb7875ac32c1abb2b2fbd247a7f2c6a63",
+  "sourceTriangles": 2958039,
+  "surfaceProbes": 24575,
+  "gridSpacingMetres": 26,
+  "sampling": "deterministic spatial grid; not exhaustive surface coverage",
+  "levels": [
+    {
+      "lod": 0,
+      "triangles": 2957314,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    },
+    {
+      "lod": 1,
+      "triangles": 2957314,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    },
+    {
+      "lod": 2,
+      "triangles": 2957312,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    }
+  ]
+}

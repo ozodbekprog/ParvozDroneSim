@@ -1,0 +1,31 @@
+{
+  "resolution": [
+    1280,
+    720
+  ],
+  "backend": "WebGPU",
+  "graphics": "Low",
+  "adaptiveResolution": false,
+  "drone": "husky-kestrel-review-low",
+  "droneTriangles": 10363,
+  "columns": [
+    {
+      "look": "clean",
+      "label": "01 · Действующая промзона",
+      "yard": "clean-yard-low.png",
+      "drone": "clean-drone-low.png"
+    },
+    {
+      "look": "worn",
+      "label": "02 · Изношенный двор",
+      "yard": "worn-yard-low.png",
+      "drone": "worn-drone-low.png"
+    },
+    {
+      "look": "evening",
+      "label": "03 · Тёплый вечер",
+      "yard": "evening-yard-low.png",
+      "drone": "evening-drone-low.png"
+    }
+  ]
+}

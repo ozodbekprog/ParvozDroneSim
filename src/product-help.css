@@ -1,0 +1,33 @@
+.product-dialog-heading {display:flex;justify-content:space-between;align-items:start;gap:24px;padding-bottom:20px;border-bottom:1px solid var(--line);}
+.product-dialog-heading h2 {margin:0 0 8px;}
+.product-dialog-heading p {margin:0;color:var(--muted);}
+.product-dialog-heading>button {flex:none;}
+.diagnostics-dialog {width:min(760px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;padding:24px;font:16px/1.5 'Source Sans 3',sans-serif;color:var(--text);}
+.diagnostics-dialog h3 {font-size:18px;margin:0 0 12px;}
+.diagnostics-dialog p {font-size:14px;line-height:1.5;color:var(--muted);margin:0 0 12px;}
+.diagnostic-record,.diagnostic-result {padding:20px 0;border-bottom:1px solid var(--line);}
+.diagnostic-actions {display:flex;flex-wrap:wrap;gap:8px;margin:16px 0;}
+.diagnostic-actions [hidden] {display:none;}
+.diagnostic-metrics {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 24px;margin:16px 0;}
+.diagnostic-metrics>div {display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:8px 0;}
+.diagnostic-metrics dt {font-size:13px;color:var(--muted);}
+.diagnostic-metrics dd {font-size:15px;margin:0;white-space:nowrap;font-variant-numeric:tabular-nums;}
+.diagnostics-dialog footer {padding-top:20px;}
+.capture-indicator {position:absolute;top:88px;left:24px;z-index:12;padding:8px 12px;background:#23262bf5;border:1px solid var(--accent);border-radius:4px;color:var(--text);font-size:13px;pointer-events:none;}
+.capture-indicator[hidden] {display:none;}
+.tuning-guide {width:min(880px,calc(100vw - 32px));height:min(740px,calc(100dvh - 32px));max-height:calc(100dvh - 32px);padding:24px;color:var(--text);font:16px/1.5 'Source Sans 3',sans-serif;}
+.tuning-guide[open] {display:flex;flex-direction:column;}
+.tuning-guide .product-dialog-heading {flex:none;}
+.guide-tabs {display:flex;gap:6px;overflow-x:auto;flex:none;border-bottom:1px solid var(--line);padding:16px 0 0;}
+.guide-tabs button {border:0;border-bottom:3px solid transparent;border-radius:0;background:none;color:var(--muted);padding:10px 12px;font:inherit;font-size:14px;white-space:nowrap;}
+.guide-tabs [aria-selected=true] {color:var(--accent);border-bottom-color:var(--accent);}
+#guide-topic {min-height:0;overflow:auto;overscroll-behavior:contain;padding:20px 4px 0 0;flex:1;}
+#guide-topic section {margin:0 0 24px;max-width:72ch;}
+#guide-topic h3 {margin:0 0 8px;font-size:19px;line-height:1.35;}
+#guide-topic p {font-size:16px;line-height:1.6;margin:0;color:#d9dcdf;}
+.tuning-guide footer {flex:none;padding-top:12px;border-top:1px solid var(--line);}
+.tuning-guide footer p {font-size:12px;color:var(--muted);margin:0;}
+.bench-actions .guide-button {font-size:13px;}
+@media(max-width:900px){#menu .bench-actions{flex-wrap:wrap;gap:10px;}#menu .bench-save-actions{margin-left:auto;}}
+@media(max-width:600px){.tuning-guide{padding:18px;}.tuning-guide .product-dialog-heading h2{font-size:23px;}.guide-tabs button{padding-inline:8px;}}
+@media(max-width:600px){.diagnostic-metrics{grid-template-columns:1fr;}.product-dialog-heading{gap:12px;}.diagnostics-dialog{padding:18px;}.capture-indicator{left:12px;top:80px;}}

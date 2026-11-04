@@ -1,0 +1,10 @@
+{
+  "id": "liftoff-pine-valley-demo-timed",
+  "name": "Pine Valley: Timed Course",
+  "description": "Complete an original Pine Valley racing route.",
+  "target": 240,
+  "reward": 200,
+  "hints": [],
+  "map": "liftoff-pine-valley-demo",
+  "track": "liftoff-pine-valley-demo-liftoff-01"
+}

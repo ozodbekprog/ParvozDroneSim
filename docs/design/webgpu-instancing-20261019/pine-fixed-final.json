@@ -1,0 +1,1315 @@
+{
+  "phases": [
+    {
+      "name": "Map download, parse, assembly and collisions",
+      "ms": 6954.5,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Aircraft download, parse and assembly",
+      "ms": 770.6999999999534,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Surface and reflection preparation",
+      "ms": 30.800000000046566,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Geometry shader compilation",
+      "ms": 2257,
+      "renderMs": 0,
+      "projectMs": 94.19999999995343,
+      "submitMs": 1972.1000000000931,
+      "draws": 0,
+      "triangles": 0
+    },
+    {
+      "name": "First rendered frame and post effects",
+      "ms": 26.300000000046566,
+      "renderMs": 24.5999999998603,
+      "projectMs": 2.199999999953434,
+      "submitMs": 18.5999999998603,
+      "draws": 442,
+      "triangles": 5028148
+    },
+    {
+      "name": "First frame pipeline detail",
+      "pipelines": 1,
+      "pipelineMs": 0,
+      "objects": 300,
+      "top": [
+        {
+          "name": "",
+          "material": "Renderer_output",
+          "ms": 1.8999999999068677
+        },
+        {
+          "name": "",
+          "material": "",
+          "ms": 0.39999999990686774
+        },
+        {
+          "name": "Scenery batch 54",
+          "material": "Ironworks distance baked color",
+          "ms": 0.30000000004656613
+        },
+        {
+          "name": "Scenery instances 83",
+          "material": "Leaves_0.001",
+          "ms": 0.30000000004656613
+        },
+        {
+          "name": "Runtime_OSB10001002",
+          "material": "OSB10001",
+          "ms": 0.30000000004656613
+        },
+        {
+          "name": "Runtime_TrafficCone01003",
+          "material": "TrafficCone01",
+          "ms": 0.30000000004656613
+        },
+        {
+          "name": "Runtime_DirectionArrowYellow01004",
+          "material": "DirectionArrowYellow01",
+          "ms": 0.30000000004656613
+        },
+        {
+          "name": "Runtime_DirectionArrowWhite01037",
+          "material": "DirectionArrowWhite01",
+          "ms": 0.2999999998137355
+        },
+        {
+          "name": "Scenery instances 38",
+          "material": "Branches_0.022",
+          "ms": 0.20000000018626451
+        },
+        {
+          "name": "Scenery instances 39",
+          "material": "Fronds_1.001",
+          "ms": 0.20000000018626451
+        },
+        {
+          "name": "Scenery batch 35",
+          "material": "Native tiled terrain",
+          "ms": 0.20000000018626451
+        },
+        {
+          "name": "Runtime_DirectionArrowWhite01046",
+          "material": "DirectionArrowWhite01",
+          "ms": 0.20000000018626451
+        }
+      ]
+    },
+    {
+      "name": "Fixed course comparison",
+      "framesPerPass": 90,
+      "passes": [
+        {
+          "pass": 1,
+          "cpuMs": {
+            "median": 14.399999999906868,
+            "p95": 51.10000000009313,
+            "p99": 273.4000000001397,
+            "max": 273.4000000001397
+          },
+          "frameMs": {
+            "median": 43.10000000009313,
+            "p95": 198.69999999995343,
+            "p99": 5958.100000000093,
+            "max": 5958.100000000093
+          },
+          "samples": [
+            {
+              "cpuMs": 51.10000000009313,
+              "frameMs": 51.39999999990687,
+              "draws": 409,
+              "triangles": 4782405
+            },
+            {
+              "cpuMs": 10.699999999953434,
+              "frameMs": 35,
+              "draws": 404,
+              "triangles": 4798354
+            },
+            {
+              "cpuMs": 18.799999999813735,
+              "frameMs": 25.899999999906868,
+              "draws": 400,
+              "triangles": 4825326
+            },
+            {
+              "cpuMs": 11.399999999906868,
+              "frameMs": 86.5,
+              "draws": 399,
+              "triangles": 4832542
+            },
+            {
+              "cpuMs": 37.89999999990687,
+              "frameMs": 49,
+              "draws": 400,
+              "triangles": 4832120
+            },
+            {
+              "cpuMs": 10.699999999953434,
+              "frameMs": 11,
+              "draws": 398,
+              "triangles": 4818381
+            },
+            {
+              "cpuMs": 10.5,
+              "frameMs": 76.80000000004657,
+              "draws": 406,
+              "triangles": 4816831
+            },
+            {
+              "cpuMs": 15.899999999906868,
+              "frameMs": 46.5,
+              "draws": 405,
+              "triangles": 4797384
+            },
+            {
+              "cpuMs": 9.899999999906868,
+              "frameMs": 55,
+              "draws": 408,
+              "triangles": 4829398
+            },
+            {
+              "cpuMs": 27.699999999953434,
+              "frameMs": 64.39999999990687,
+              "draws": 402,
+              "triangles": 4650948
+            },
+            {
+              "cpuMs": 18.300000000046566,
+              "frameMs": 34.4000000001397,
+              "draws": 398,
+              "triangles": 4646040
+            },
+            {
+              "cpuMs": 27.5,
+              "frameMs": 84.5,
+              "draws": 395,
+              "triangles": 4626598
+            },
+            {
+              "cpuMs": 14.399999999906868,
+              "frameMs": 38.39999999990687,
+              "draws": 388,
+              "triangles": 4615058
+            },
+            {
+              "cpuMs": 29.600000000093132,
+              "frameMs": 90.60000000009313,
+              "draws": 385,
+              "triangles": 4550696
+            },
+            {
+              "cpuMs": 27.199999999953434,
+              "frameMs": 27.5999999998603,
+              "draws": 376,
+              "triangles": 4498997
+            },
+            {
+              "cpuMs": 47.699999999953434,
+              "frameMs": 48,
+              "draws": 374,
+              "triangles": 4461760
+            },
+            {
+              "cpuMs": 20.100000000093132,
+              "frameMs": 69.60000000009313,
+              "draws": 362,
+              "triangles": 4411536
+            },
+            {
+              "cpuMs": 26.899999999906868,
+              "frameMs": 119,
+              "draws": 355,
+              "triangles": 4279297
+            },
+            {
+              "cpuMs": 33.199999999953434,
+              "frameMs": 46.89999999990687,
+              "draws": 353,
+              "triangles": 4229340
+            },
+            {
+              "cpuMs": 32.39999999990687,
+              "frameMs": 86.10000000009313,
+              "draws": 351,
+              "triangles": 4184138
+            },
+            {
+              "cpuMs": 34.699999999953434,
+              "frameMs": 51.5999999998603,
+              "draws": 362,
+              "triangles": 4194168
+            },
+            {
+              "cpuMs": 185.80000000004657,
+              "frameMs": 189.10000000009313,
+              "draws": 371,
+              "triangles": 4257871
+            },
+            {
+              "cpuMs": 53.0999999998603,
+              "frameMs": 600.5999999998603,
+              "draws": 213,
+              "triangles": 1046200
+            },
+            {
+              "cpuMs": 273.4000000001397,
+              "frameMs": 273.80000000004657,
+              "draws": 353,
+              "triangles": 3791444
+            },
+            {
+              "cpuMs": 15.400000000139698,
+              "frameMs": 15.699999999953434,
+              "draws": 351,
+              "triangles": 3771927
+            },
+            {
+              "cpuMs": 8.800000000046566,
+              "frameMs": 5958.100000000093,
+              "draws": 346,
+              "triangles": 3704261
+            },
+            {
+              "cpuMs": 17,
+              "frameMs": 35.10000000009313,
+              "draws": 344,
+              "triangles": 3561188
+            },
+            {
+              "cpuMs": 11.400000000139698,
+              "frameMs": 11.600000000093132,
+              "draws": 343,
+              "triangles": 3449645
+            },
+            {
+              "cpuMs": 9,
+              "frameMs": 38.699999999953434,
+              "draws": 330,
+              "triangles": 3353144
+            },
+            {
+              "cpuMs": 9.600000000093132,
+              "frameMs": 12.699999999953434,
+              "draws": 333,
+              "triangles": 3296035
+            },
+            {
+              "cpuMs": 9.300000000046566,
+              "frameMs": 39.800000000046566,
+              "draws": 335,
+              "triangles": 3267658
+            },
+            {
+              "cpuMs": 8.5,
+              "frameMs": 17.600000000093132,
+              "draws": 323,
+              "triangles": 3223639
+            },
+            {
+              "cpuMs": 8.699999999953434,
+              "frameMs": 34.799999999813735,
+              "draws": 320,
+              "triangles": 3146905
+            },
+            {
+              "cpuMs": 12.5,
+              "frameMs": 56,
+              "draws": 319,
+              "triangles": 3098330
+            },
+            {
+              "cpuMs": 13.900000000139698,
+              "frameMs": 22.4000000001397,
+              "draws": 307,
+              "triangles": 3042869
+            },
+            {
+              "cpuMs": 20.200000000186265,
+              "frameMs": 37.200000000186265,
+              "draws": 306,
+              "triangles": 3011849
+            },
+            {
+              "cpuMs": 19,
+              "frameMs": 51.299999999813735,
+              "draws": 312,
+              "triangles": 2973324
+            },
+            {
+              "cpuMs": 14.100000000093132,
+              "frameMs": 35.800000000046566,
+              "draws": 308,
+              "triangles": 2952992
+            },
+            {
+              "cpuMs": 8.600000000093132,
+              "frameMs": 67.80000000004657,
+              "draws": 302,
+              "triangles": 2893048
+            },
+            {
+              "cpuMs": 15,
+              "frameMs": 39.5,
+              "draws": 296,
+              "triangles": 2824826
+            },
+            {
+              "cpuMs": 24.600000000093132,
+              "frameMs": 25.699999999953434,
+              "draws": 297,
+              "triangles": 2795261
+            },
+            {
+              "cpuMs": 8.900000000139698,
+              "frameMs": 25.9000000001397,
+              "draws": 295,
+              "triangles": 2736914
+            },
+            {
+              "cpuMs": 14.299999999813735,
+              "frameMs": 90.29999999981374,
+              "draws": 290,
+              "triangles": 2654726
+            },
+            {
+              "cpuMs": 8.5,
+              "frameMs": 13,
+              "draws": 290,
+              "triangles": 2597754
+            },
+            {
+              "cpuMs": 7.800000000046566,
+              "frameMs": 13,
+              "draws": 285,
+              "triangles": 2333814
+            },
+            {
+              "cpuMs": 19,
+              "frameMs": 33,
+              "draws": 254,
+              "triangles": 1799208
+            },
+            {
+              "cpuMs": 9,
+              "frameMs": 15.5,
+              "draws": 252,
+              "triangles": 1753562
+            },
+            {
+              "cpuMs": 8.199999999953434,
+              "frameMs": 68.60000000009313,
+              "draws": 252,
+              "triangles": 1738984
+            },
+            {
+              "cpuMs": 9,
+              "frameMs": 26,
+              "draws": 252,
+              "triangles": 1715011
+            },
+            {
+              "cpuMs": 9.699999999953434,
+              "frameMs": 12.799999999813735,
+              "draws": 249,
+              "triangles": 1704711
+            },
+            {
+              "cpuMs": 21.200000000186265,
+              "frameMs": 26,
+              "draws": 246,
+              "triangles": 1652797
+            },
+            {
+              "cpuMs": 9.300000000046566,
+              "frameMs": 53.800000000046566,
+              "draws": 247,
+              "triangles": 1632291
+            },
+            {
+              "cpuMs": 8.600000000093132,
+              "frameMs": 16.800000000046566,
+              "draws": 240,
+              "triangles": 1595865
+            },
+            {
+              "cpuMs": 8.5,
+              "frameMs": 24.5,
+              "draws": 232,
+              "triangles": 1546330
+            },
+            {
+              "cpuMs": 10.899999999906868,
+              "frameMs": 52.39999999990687,
+              "draws": 219,
+              "triangles": 1474079
+            },
+            {
+              "cpuMs": 7.2000000001862645,
+              "frameMs": 15.300000000046566,
+              "draws": 209,
+              "triangles": 1425499
+            },
+            {
+              "cpuMs": 8.400000000139698,
+              "frameMs": 32.300000000046566,
+              "draws": 202,
+              "triangles": 1364925
+            },
+            {
+              "cpuMs": 8.600000000093132,
+              "frameMs": 44.800000000046566,
+              "draws": 195,
+              "triangles": 1320427
+            },
+            {
+              "cpuMs": 24.399999999906868,
+              "frameMs": 24.800000000046566,
+              "draws": 195,
+              "triangles": 1290419
+            },
+            {
+              "cpuMs": 6.7999999998137355,
+              "frameMs": 18.299999999813735,
+              "draws": 199,
+              "triangles": 1254571
+            },
+            {
+              "cpuMs": 9.100000000093132,
+              "frameMs": 49.700000000186265,
+              "draws": 194,
+              "triangles": 1225328
+            },
+            {
+              "cpuMs": 9.799999999813735,
+              "frameMs": 18.5,
+              "draws": 188,
+              "triangles": 1175723
+            },
+            {
+              "cpuMs": 8,
+              "frameMs": 13,
+              "draws": 187,
+              "triangles": 1131835
+            },
+            {
+              "cpuMs": 7.699999999953434,
+              "frameMs": 44.5999999998603,
+              "draws": 184,
+              "triangles": 1097499
+            },
+            {
+              "cpuMs": 9.199999999953434,
+              "frameMs": 19.4000000001397,
+              "draws": 184,
+              "triangles": 1078204
+            },
+            {
+              "cpuMs": 7.2999999998137355,
+              "frameMs": 15.099999999860302,
+              "draws": 185,
+              "triangles": 1010428
+            },
+            {
+              "cpuMs": 29.300000000046566,
+              "frameMs": 40.300000000046566,
+              "draws": 189,
+              "triangles": 854751
+            },
+            {
+              "cpuMs": 7,
+              "frameMs": 23,
+              "draws": 69,
+              "triangles": 410688
+            },
+            {
+              "cpuMs": 99,
+              "frameMs": 99.39999999990687,
+              "draws": 375,
+              "triangles": 3985262
+            },
+            {
+              "cpuMs": 23.700000000186265,
+              "frameMs": 405.9000000001397,
+              "draws": 370,
+              "triangles": 3934054
+            },
+            {
+              "cpuMs": 49,
+              "frameMs": 77.5,
+              "draws": 366,
+              "triangles": 3865746
+            },
+            {
+              "cpuMs": 30.300000000046566,
+              "frameMs": 198.69999999995343,
+              "draws": 364,
+              "triangles": 3682598
+            },
+            {
+              "cpuMs": 10.399999999906868,
+              "frameMs": 10.800000000046566,
+              "draws": 359,
+              "triangles": 3459755
+            },
+            {
+              "cpuMs": 27.5,
+              "frameMs": 61.89999999990687,
+              "draws": 347,
+              "triangles": 3316991
+            },
+            {
+              "cpuMs": 11.100000000093132,
+              "frameMs": 12.800000000046566,
+              "draws": 339,
+              "triangles": 3248214
+            },
+            {
+              "cpuMs": 9.299999999813735,
+              "frameMs": 64.19999999995343,
+              "draws": 336,
+              "triangles": 3210280
+            },
+            {
+              "cpuMs": 28.800000000046566,
+              "frameMs": 29,
+              "draws": 336,
+              "triangles": 3140707
+            },
+            {
+              "cpuMs": 21.800000000046566,
+              "frameMs": 22.0999999998603,
+              "draws": 332,
+              "triangles": 3046098
+            },
+            {
+              "cpuMs": 8.700000000186265,
+              "frameMs": 103.10000000009313,
+              "draws": 330,
+              "triangles": 2985338
+            },
+            {
+              "cpuMs": 10.100000000093132,
+              "frameMs": 65.19999999995343,
+              "draws": 323,
+              "triangles": 2921720
+            },
+            {
+              "cpuMs": 25.699999999953434,
+              "frameMs": 26,
+              "draws": 318,
+              "triangles": 2861091
+            },
+            {
+              "cpuMs": 35.699999999953434,
+              "frameMs": 100.5,
+              "draws": 311,
+              "triangles": 2775739
+            },
+            {
+              "cpuMs": 17.399999999906868,
+              "frameMs": 133.0999999998603,
+              "draws": 299,
+              "triangles": 2616952
+            },
+            {
+              "cpuMs": 9.199999999953434,
+              "frameMs": 13,
+              "draws": 293,
+              "triangles": 2503982
+            },
+            {
+              "cpuMs": 42.89999999990687,
+              "frameMs": 43.10000000009313,
+              "draws": 295,
+              "triangles": 2454916
+            },
+            {
+              "cpuMs": 29.899999999906868,
+              "frameMs": 128.29999999981374,
+              "draws": 295,
+              "triangles": 2308878
+            },
+            {
+              "cpuMs": 34.700000000186265,
+              "frameMs": 95,
+              "draws": 283,
+              "triangles": 2192675
+            },
+            {
+              "cpuMs": 41,
+              "frameMs": 126.10000000009313,
+              "draws": 273,
+              "triangles": 2159814
+            },
+            {
+              "cpuMs": 36,
+              "frameMs": 178.30000000004657,
+              "draws": 260,
+              "triangles": 2081730
+            },
+            {
+              "cpuMs": 38.10000000009313,
+              "frameMs": 155,
+              "draws": 262,
+              "triangles": 2134351
+            }
+          ]
+        },
+        {
+          "pass": 2,
+          "cpuMs": {
+            "median": 9.599999999860302,
+            "p95": 14.100000000093132,
+            "p99": 15.5,
+            "max": 15.5
+          },
+          "frameMs": {
+            "median": 37.10000000009313,
+            "p95": 65.10000000009313,
+            "p99": 161,
+            "max": 161
+          },
+          "samples": [
+            {
+              "cpuMs": 9.800000000046566,
+              "frameMs": 12.599999999860302,
+              "draws": 409,
+              "triangles": 4782405
+            },
+            {
+              "cpuMs": 10.800000000046566,
+              "frameMs": 161,
+              "draws": 404,
+              "triangles": 4798354
+            },
+            {
+              "cpuMs": 13.300000000046566,
+              "frameMs": 13.5,
+              "draws": 400,
+              "triangles": 4825326
+            },
+            {
+              "cpuMs": 10.100000000093132,
+              "frameMs": 10.300000000046566,
+              "draws": 399,
+              "triangles": 4832542
+            },
+            {
+              "cpuMs": 12.400000000139698,
+              "frameMs": 12.600000000093132,
+              "draws": 400,
+              "triangles": 4832120
+            },
+            {
+              "cpuMs": 8.800000000046566,
+              "frameMs": 38.0999999998603,
+              "draws": 398,
+              "triangles": 4818381
+            },
+            {
+              "cpuMs": 12.800000000046566,
+              "frameMs": 45.10000000009313,
+              "draws": 406,
+              "triangles": 4816831
+            },
+            {
+              "cpuMs": 9.399999999906868,
+              "frameMs": 44.5,
+              "draws": 405,
+              "triangles": 4797384
+            },
+            {
+              "cpuMs": 10.100000000093132,
+              "frameMs": 44.60000000009313,
+              "draws": 408,
+              "triangles": 4829398
+            },
+            {
+              "cpuMs": 10.5,
+              "frameMs": 47,
+              "draws": 402,
+              "triangles": 4650948
+            },
+            {
+              "cpuMs": 11.899999999906868,
+              "frameMs": 49.300000000046566,
+              "draws": 398,
+              "triangles": 4646040
+            },
+            {
+              "cpuMs": 9.899999999906868,
+              "frameMs": 67.89999999990687,
+              "draws": 395,
+              "triangles": 4626598
+            },
+            {
+              "cpuMs": 13.300000000046566,
+              "frameMs": 25.300000000046566,
+              "draws": 388,
+              "triangles": 4615058
+            },
+            {
+              "cpuMs": 10.199999999953434,
+              "frameMs": 49.5999999998603,
+              "draws": 385,
+              "triangles": 4550696
+            },
+            {
+              "cpuMs": 14.100000000093132,
+              "frameMs": 65.10000000009313,
+              "draws": 376,
+              "triangles": 4498997
+            },
+            {
+              "cpuMs": 14.600000000093132,
+              "frameMs": 29.899999999906868,
+              "draws": 374,
+              "triangles": 4461760
+            },
+            {
+              "cpuMs": 9.5,
+              "frameMs": 47.60000000009313,
+              "draws": 362,
+              "triangles": 4411536
+            },
+            {
+              "cpuMs": 10.699999999953434,
+              "frameMs": 65.30000000004657,
+              "draws": 355,
+              "triangles": 4279297
+            },
+            {
+              "cpuMs": 9.800000000046566,
+              "frameMs": 27.899999999906868,
+              "draws": 353,
+              "triangles": 4229340
+            },
+            {
+              "cpuMs": 14.5,
+              "frameMs": 45.4000000001397,
+              "draws": 351,
+              "triangles": 4184138
+            },
+            {
+              "cpuMs": 9.5,
+              "frameMs": 64.5,
+              "draws": 362,
+              "triangles": 4194168
+            },
+            {
+              "cpuMs": 9.699999999953434,
+              "frameMs": 27.799999999813735,
+              "draws": 371,
+              "triangles": 4257871
+            },
+            {
+              "cpuMs": 10,
+              "frameMs": 45.300000000046566,
+              "draws": 213,
+              "triangles": 1046200
+            },
+            {
+              "cpuMs": 13,
+              "frameMs": 68.19999999995343,
+              "draws": 353,
+              "triangles": 3791444
+            },
+            {
+              "cpuMs": 11.399999999906868,
+              "frameMs": 20,
+              "draws": 351,
+              "triangles": 3771927
+            },
+            {
+              "cpuMs": 12.800000000046566,
+              "frameMs": 43.300000000046566,
+              "draws": 346,
+              "triangles": 3704261
+            },
+            {
+              "cpuMs": 8.700000000186265,
+              "frameMs": 62.4000000001397,
+              "draws": 344,
+              "triangles": 3561188
+            },
+            {
+              "cpuMs": 15.5,
+              "frameMs": 15.800000000046566,
+              "draws": 343,
+              "triangles": 3449645
+            },
+            {
+              "cpuMs": 13.800000000046566,
+              "frameMs": 33.5,
+              "draws": 330,
+              "triangles": 3353144
+            },
+            {
+              "cpuMs": 9.100000000093132,
+              "frameMs": 58.5,
+              "draws": 333,
+              "triangles": 3296035
+            },
+            {
+              "cpuMs": 14.300000000046566,
+              "frameMs": 25.199999999953434,
+              "draws": 335,
+              "triangles": 3267658
+            },
+            {
+              "cpuMs": 10.700000000186265,
+              "frameMs": 37.10000000009313,
+              "draws": 323,
+              "triangles": 3223639
+            },
+            {
+              "cpuMs": 9,
+              "frameMs": 60.89999999990687,
+              "draws": 320,
+              "triangles": 3146905
+            },
+            {
+              "cpuMs": 10.300000000046566,
+              "frameMs": 14.5,
+              "draws": 319,
+              "triangles": 3098330
+            },
+            {
+              "cpuMs": 8.800000000046566,
+              "frameMs": 39.9000000001397,
+              "draws": 307,
+              "triangles": 3042869
+            },
+            {
+              "cpuMs": 12.300000000046566,
+              "frameMs": 55.0999999998603,
+              "draws": 306,
+              "triangles": 3011849
+            },
+            {
+              "cpuMs": 10.300000000046566,
+              "frameMs": 18.800000000046566,
+              "draws": 312,
+              "triangles": 2973324
+            },
+            {
+              "cpuMs": 9.199999999953434,
+              "frameMs": 40.60000000009313,
+              "draws": 308,
+              "triangles": 2952992
+            },
+            {
+              "cpuMs": 8.599999999860302,
+              "frameMs": 51.89999999990687,
+              "draws": 302,
+              "triangles": 2893048
+            },
+            {
+              "cpuMs": 8.5,
+              "frameMs": 19.699999999953434,
+              "draws": 296,
+              "triangles": 2824826
+            },
+            {
+              "cpuMs": 8.900000000139698,
+              "frameMs": 36.9000000001397,
+              "draws": 297,
+              "triangles": 2795261
+            },
+            {
+              "cpuMs": 9,
+              "frameMs": 49.300000000046566,
+              "draws": 295,
+              "triangles": 2736914
+            },
+            {
+              "cpuMs": 8.399999999906868,
+              "frameMs": 21.299999999813735,
+              "draws": 290,
+              "triangles": 2654726
+            },
+            {
+              "cpuMs": 8.800000000046566,
+              "frameMs": 37.9000000001397,
+              "draws": 290,
+              "triangles": 2597754
+            },
+            {
+              "cpuMs": 8.5,
+              "frameMs": 49.89999999990687,
+              "draws": 285,
+              "triangles": 2333814
+            },
+            {
+              "cpuMs": 8.300000000046566,
+              "frameMs": 27,
+              "draws": 254,
+              "triangles": 1799208
+            },
+            {
+              "cpuMs": 8.900000000139698,
+              "frameMs": 37.9000000001397,
+              "draws": 252,
+              "triangles": 1753562
+            },
+            {
+              "cpuMs": 8,
+              "frameMs": 59.89999999990687,
+              "draws": 252,
+              "triangles": 1738984
+            },
+            {
+              "cpuMs": 8,
+              "frameMs": 14.800000000046566,
+              "draws": 252,
+              "triangles": 1715011
+            },
+            {
+              "cpuMs": 7.699999999953434,
+              "frameMs": 34.300000000046566,
+              "draws": 249,
+              "triangles": 1704711
+            },
+            {
+              "cpuMs": 7.899999999906868,
+              "frameMs": 44.5999999998603,
+              "draws": 246,
+              "triangles": 1652797
+            },
+            {
+              "cpuMs": 8.300000000046566,
+              "frameMs": 20.300000000046566,
+              "draws": 247,
+              "triangles": 1632291
+            },
+            {
+              "cpuMs": 8,
+              "frameMs": 31.699999999953434,
+              "draws": 240,
+              "triangles": 1595865
+            },
+            {
+              "cpuMs": 10.800000000046566,
+              "frameMs": 59.300000000046566,
+              "draws": 232,
+              "triangles": 1546330
+            },
+            {
+              "cpuMs": 8.300000000046566,
+              "frameMs": 15.100000000093132,
+              "draws": 219,
+              "triangles": 1474079
+            },
+            {
+              "cpuMs": 7.5,
+              "frameMs": 21.399999999906868,
+              "draws": 209,
+              "triangles": 1425499
+            },
+            {
+              "cpuMs": 7.899999999906868,
+              "frameMs": 54.60000000009313,
+              "draws": 202,
+              "triangles": 1364925
+            },
+            {
+              "cpuMs": 9.299999999813735,
+              "frameMs": 17.699999999953434,
+              "draws": 195,
+              "triangles": 1320427
+            },
+            {
+              "cpuMs": 7.300000000046566,
+              "frameMs": 21.300000000046566,
+              "draws": 195,
+              "triangles": 1290419
+            },
+            {
+              "cpuMs": 7.7999999998137355,
+              "frameMs": 52.89999999990687,
+              "draws": 199,
+              "triangles": 1254571
+            },
+            {
+              "cpuMs": 7.199999999953434,
+              "frameMs": 17.600000000093132,
+              "draws": 194,
+              "triangles": 1225328
+            },
+            {
+              "cpuMs": 7.399999999906868,
+              "frameMs": 19.399999999906868,
+              "draws": 188,
+              "triangles": 1175723
+            },
+            {
+              "cpuMs": 8.100000000093132,
+              "frameMs": 39.300000000046566,
+              "draws": 187,
+              "triangles": 1131835
+            },
+            {
+              "cpuMs": 9.599999999860302,
+              "frameMs": 20.399999999906868,
+              "draws": 184,
+              "triangles": 1097499
+            },
+            {
+              "cpuMs": 10.100000000093132,
+              "frameMs": 15.800000000046566,
+              "draws": 184,
+              "triangles": 1078204
+            },
+            {
+              "cpuMs": 6.699999999953434,
+              "frameMs": 29.300000000046566,
+              "draws": 185,
+              "triangles": 1010428
+            },
+            {
+              "cpuMs": 7.300000000046566,
+              "frameMs": 18.5999999998603,
+              "draws": 189,
+              "triangles": 854751
+            },
+            {
+              "cpuMs": 7.5,
+              "frameMs": 18.800000000046566,
+              "draws": 69,
+              "triangles": 410688
+            },
+            {
+              "cpuMs": 10.300000000046566,
+              "frameMs": 39.199999999953434,
+              "draws": 375,
+              "triangles": 3985262
+            },
+            {
+              "cpuMs": 9.900000000139698,
+              "frameMs": 17.700000000186265,
+              "draws": 370,
+              "triangles": 3934054
+            },
+            {
+              "cpuMs": 9.599999999860302,
+              "frameMs": 15.899999999906868,
+              "draws": 366,
+              "triangles": 3865746
+            },
+            {
+              "cpuMs": 9.899999999906868,
+              "frameMs": 33.199999999953434,
+              "draws": 364,
+              "triangles": 3682598
+            },
+            {
+              "cpuMs": 9.800000000046566,
+              "frameMs": 13.100000000093132,
+              "draws": 359,
+              "triangles": 3459755
+            },
+            {
+              "cpuMs": 9.699999999953434,
+              "frameMs": 35.199999999953434,
+              "draws": 347,
+              "triangles": 3316991
+            },
+            {
+              "cpuMs": 10.5,
+              "frameMs": 57.800000000046566,
+              "draws": 339,
+              "triangles": 3248214
+            },
+            {
+              "cpuMs": 9.899999999906868,
+              "frameMs": 28.800000000046566,
+              "draws": 336,
+              "triangles": 3210280
+            },
+            {
+              "cpuMs": 9.599999999860302,
+              "frameMs": 43.39999999990687,
+              "draws": 336,
+              "triangles": 3140707
+            },
+            {
+              "cpuMs": 9.399999999906868,
+              "frameMs": 52,
+              "draws": 332,
+              "triangles": 3046098
+            },
+            {
+              "cpuMs": 9.5,
+              "frameMs": 20.199999999953434,
+              "draws": 330,
+              "triangles": 2985338
+            },
+            {
+              "cpuMs": 11.800000000046566,
+              "frameMs": 36.199999999953434,
+              "draws": 323,
+              "triangles": 2921720
+            },
+            {
+              "cpuMs": 12.900000000139698,
+              "frameMs": 51.60000000009313,
+              "draws": 318,
+              "triangles": 2861091
+            },
+            {
+              "cpuMs": 9.199999999953434,
+              "frameMs": 22.100000000093132,
+              "draws": 311,
+              "triangles": 2775739
+            },
+            {
+              "cpuMs": 11.5,
+              "frameMs": 38.799999999813735,
+              "draws": 299,
+              "triangles": 2616952
+            },
+            {
+              "cpuMs": 11.900000000139698,
+              "frameMs": 65.10000000009313,
+              "draws": 293,
+              "triangles": 2503982
+            },
+            {
+              "cpuMs": 8.800000000046566,
+              "frameMs": 13,
+              "draws": 295,
+              "triangles": 2454916
+            },
+            {
+              "cpuMs": 9,
+              "frameMs": 38.89999999990687,
+              "draws": 295,
+              "triangles": 2308878
+            },
+            {
+              "cpuMs": 9.100000000093132,
+              "frameMs": 54.200000000186265,
+              "draws": 283,
+              "triangles": 2192675
+            },
+            {
+              "cpuMs": 8.5,
+              "frameMs": 18.299999999813735,
+              "draws": 273,
+              "triangles": 2159814
+            },
+            {
+              "cpuMs": 8.900000000139698,
+              "frameMs": 36.9000000001397,
+              "draws": 260,
+              "triangles": 2081730
+            },
+            {
+              "cpuMs": 9,
+              "frameMs": 53.89999999990687,
+              "draws": 262,
+              "triangles": 2134351
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "gpu": "intel gen-9",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "low",
+  "surface": {
+    "normalMaps": false,
+    "textureSize": 256
+  },
+  "batches": {
+    "meshes": 22292,
+    "batches": 115,
+    "ms": 839.8999999999069
+  },
+  "cache": {
+    "idleBytes": 0,
+    "maxIdleBytes": 100663296,
+    "idleEntries": 0,
+    "entries": 5
+  },
+  "models": [
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/model-86db6d5ba657a81a.glb",
+      "parses": 1,
+      "cacheHits": 3324,
+      "readMs": 2513.399999999907,
+      "parseMs": 3149.3000000000466,
+      "lookupMs": 7.499999999767169,
+      "cloneMs": 272.90000000060536,
+      "clones": 3325
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-01/props-3cb6b41363fd48f8.glb",
+      "parses": 1,
+      "cacheHits": 71,
+      "readMs": 29.0999999998603,
+      "parseMs": 3661.4000000001397,
+      "lookupMs": 0.09999999986030161,
+      "cloneMs": 4.400000000139698,
+      "clones": 72
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 45.89999999990687,
+      "parseMs": 350.80000000004657,
+      "lookupMs": 0,
+      "cloneMs": 1.6999999999534339,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 108.39999999990687,
+      "parseMs": 656.1999999999534,
+      "lookupMs": 0,
+      "cloneMs": 1.0000000002328306,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 78.9000000001397,
+      "parseMs": 499.30000000004657,
+      "lookupMs": 0,
+      "cloneMs": 1.4999999995343387,
+      "clones": 34
+    }
+  ],
+  "backend": "WebGPU",
+  "framebuffer": [
+    1280,
+    720
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "hanging_industrial_lamp",
+  "title": "Hanging Industrial Lamp",
+  "authors": {
+    "Kuutti Siitonen": "All"
+  },
+  "source": "https://polyhaven.com/a/hanging_industrial_lamp",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/hanging_industrial_lamp/hanging_industrial_lamp_1k.blend",
+    "md5": "3875d96fcf73384145e29aaff9c9079a",
+    "size": 354481,
+    "include": {
+      "textures/hanging_industrial_lamp_diff_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hanging_industrial_lamp/hanging_industrial_lamp_diff_1k.jpg",
+        "md5": "9931801f2ff2533c891105c7a41af39d",
+        "size": 708934
+      },
+      "textures/hanging_industrial_lamp_emissive_1k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/hanging_industrial_lamp/hanging_industrial_lamp_emissive_1k.png",
+        "md5": "09e263e913e5f86d363e5b2eacf970d1",
+        "size": 156166
+      },
+      "textures/hanging_industrial_lamp_glass_nor_gl_1k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/hanging_industrial_lamp/hanging_industrial_lamp_glass_nor_gl_1k.png",
+        "md5": "3e5af718c8690a2682fd70700f1df0c7",
+        "size": 4514516
+      },
+      "textures/hanging_industrial_lamp_metal_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/hanging_industrial_lamp/hanging_industrial_lamp_metal_1k.exr",
+        "md5": "2600fb4f963d014755ceda2b09aad28e",
+        "size": 851252
+      },
+      "textures/hanging_industrial_lamp_nor_gl_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/hanging_industrial_lamp/hanging_industrial_lamp_nor_gl_1k.exr",
+        "md5": "242218d74b0f59cc94ccebc8f784ae7b",
+        "size": 1674583
+      },
+      "textures/hanging_industrial_lamp_rough_1k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/hanging_industrial_lamp/hanging_industrial_lamp_rough_1k.exr",
+        "md5": "3150d27e1933dfa3846c88028336f6c8",
+        "size": 721615
+      }
+    }
+  }
+}

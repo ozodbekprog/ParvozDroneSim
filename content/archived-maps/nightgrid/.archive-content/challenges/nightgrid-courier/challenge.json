@@ -1,0 +1,22 @@
+{
+  "id": "nightgrid-courier",
+  "name": "Courier",
+  "map": "nightgrid",
+  "track": "nightgrid-streetline",
+  "target": 455,
+  "reward": 180,
+  "hints": [
+    {
+      "afterGate": 0,
+      "text": "Follow the lit street corridor through the first blocks."
+    },
+    {
+      "afterGate": 2,
+      "text": "The transit shelter marks the return corner; watch the vans."
+    },
+    {
+      "afterGate": 5,
+      "text": "For the high line, hold altitude above the street gates."
+    }
+  ]
+}

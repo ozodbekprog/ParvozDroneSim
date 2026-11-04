@@ -1,0 +1,235 @@
+/* One readable surface, control and type system across the existing game flows. */
+:root {
+  --surface: #15212ef2;
+  --surface-soft: #b3c9df0b;
+  --line: #b9cfe329;
+  --text: #f0f4f8;
+  --muted: #b5c2d0;
+  --quiet: #9baaba;
+  --radius: 14px;
+  --field-radius: 8px;
+  --shadow: 0 16px 44px #050c1840, inset 0 1px #ffffff05;
+}
+
+#menu { font-size: 14px; }
+.game-panel, .menu-panel, .unified-menu-card, .workbench-header,
+.flow-dialog, .room-create-dialog, .loading-card {
+  background: linear-gradient(145deg, #1d2b3af5, var(--surface) 60%);
+  border-color: var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.topbar { padding-inline: 32px; background: linear-gradient(#0c1524df, #0c152400); }
+.brand { font-size: 25px; letter-spacing: .09em; }
+.brand-light { font-size: 9px; letter-spacing: .2em; color: var(--muted); }
+.account-button { min-height: 44px; padding-right: 14px; }
+.account-name { font-size: 13px; }
+.help-button { width: 40px; height: 40px; font-size: 16px; }
+
+.button { min-height: 44px; padding: 11px 17px; font-size: 14px; font-weight: 500; }
+.mini-button { min-height: 36px; padding: 8px 12px; font-size: 12px; }
+.button, .mini-button, .activity-choice, .rail-choice, .part-card,
+.aircraft-card, .home-destinations button {
+  transition: background-color .14s ease, border-color .14s ease, box-shadow .14s ease;
+}
+.button.primary {
+  background: linear-gradient(180deg, #ffbc87, #ffab6b);
+  border-color: #ffc594;
+  color: #291b12;
+  font-weight: 700;
+  box-shadow: inset 0 1px #fff6, 0 4px 15px #ffae7014;
+}
+.button.primary:hover:not(:disabled) { background: #ffc392; border-color: #ffd4b1; box-shadow: 0 5px 20px #ffae7028; }
+.button.ghost, .button.back-button { background: #ffffff06; border-color: var(--line); color: var(--muted); }
+.button.ghost:hover, .button.back-button:hover { color: var(--text); background: #ffffff0e; border-color: #b9cfe355; }
+.button:disabled, .mini-button:disabled { cursor: default; opacity: .45; box-shadow: none; }
+:is(button, a, summary, input, select, textarea):focus-visible { outline: 2px solid var(--technical); outline-offset: 3px; }
+#menu :is(input:not([type='range']):not([type='checkbox']):not([type='color']), select, textarea),
+.flow-dialog :is(input, select) { font-size: 14px; background-color: #0c1624a6; }
+.eyebrow, .panel-label, .section-heading small { font-size: 11px; letter-spacing: .1em; }
+.lead { font-size: 15px; line-height: 1.65; }
+.auth-note, .settings-help, .radio-note, .panel-footnote, .empty { font-size: 13px; line-height: 1.6; }
+.section-heading h1, .unified-menu-card h1, .room-create-dialog h1 { font-size: 40px; }
+.stat-grid span { font-size: 12px; }
+.stat-grid strong { font-size: 27px; }
+
+/* A confident launch action and a quieter, readable navigation list. */
+.menu-home .composed-layout { grid-template-columns: 360px minmax(0,1fr); padding: 28px 48px 40px; }
+.home-main-menu { padding: 26px; max-height: 100%; overflow-y: auto; border-top-color: #ffae7066; }
+.menu-home .home-command h1 { font-size: 44px; margin-bottom: 24px; }
+.home-main-menu .launch-button { min-height: 56px; padding-inline: 17px; font-size: 18px; }
+.home-main-menu .home-destinations { margin-top: 18px; gap: 3px; }
+.home-main-menu .home-destinations button { min-height: 51px; padding: 8px 10px; }
+.home-main-menu .home-destinations span { font-size: 15px; }
+.home-main-menu .home-destinations button > .ui-icon:first-child { width: 34px; height: 34px; padding: 7px; border-radius: 8px; background: #b3c9df0a; }
+.home-main-menu .home-destinations button:hover { background: #b3c9df10; }
+.home-main-menu .home-destinations button:hover > .ui-icon:first-child { color: var(--accent); background: #ffae7014; }
+.home-scene-caption { padding: 14px 18px; right: 40px; border-left: 2px solid #ffae7080; border-radius: 0 8px 8px 0; background: #101a28a6; font-size: 18px; }
+.home-scene-caption small { font-size: 12px; }
+
+/* Selection and course details retain the scene, with readable supporting text. */
+.activity-choice { font-size: 14px; }
+.setup-modebar .activity-choice { min-height: 46px; }
+.course-browser-caption, .section-stat, .setup-session-bar, .setup-course, .setup-conditions { font-size: 13px; }
+.course-browser-caption small, .course-card-content small, .course-type { font-size: 12px; }
+.course-card-content strong { font-size: 28px; }
+.course-card-content { inset-inline: 20px; bottom: 20px; }
+.course-card.selected { box-shadow: 0 0 0 2px #ffae7015; }
+.course-location, .course-reward, .competition-location, .competition-course small { font-size: 13px; }
+.course-description, .lesson-outline, .competition-body p { font-size: 14px; line-height: 1.6; }
+.setup-course select { height: 44px; font-size: 14px; }
+.setup-detail .course-description { -webkit-line-clamp: 3; }
+.course-detail h2, .competition-body h2 { line-height: 1.08; }
+.selection-info { padding: 22px; gap: 15px; }
+.selection-info h2 { font-size: 34px; line-height: 1.05; }
+.aircraft-class { font-size: 14px; }
+.aircraft-origin, .selection-status, .roster-count { font-size: 12px; }
+.selection-info .stat-grid { gap: 18px 12px; }
+.selection-info .stat-grid span { font-size: 12px; }
+.selection-info .stat-grid strong { font-size: 25px; margin-top: 6px; }
+.selection-actions .button { min-height: 44px; }
+.selection-actions .text-link { font-size: 12px; }
+.menu-hangar .section-header .button { background: #14202ee6; border-color: var(--line); color: var(--text); }
+.aircraft-card > strong { font-size: 14px; }
+.aircraft-card > small { font-size: 11px; }
+.aircraft-badge { font-size: 10px; }
+.roster-header .fleet-filter { font-size: 12px; }
+
+/* Components are choices, so their rows must not stretch to fill the rail. */
+.component-panel { padding: 20px; }
+.component-rail { gap: 3px; margin-bottom: 16px; padding-bottom: 16px; }
+.component-rail button { font-size: 11px; padding-block: 12px; gap: 9px; }
+.part-scroll { align-content: start; grid-auto-rows: max-content; flex: 0 1 auto; }
+.bench-simple .part-card, .part-card { min-height: 76px; padding: 15px 12px; }
+.part-card strong { font-size: 14px; line-height: 1.45; }
+.part-card small, .part-card em { font-size: 12px; }
+.part-card.selected { border-color: #ffae7099; background: #ffae7010; box-shadow: inset 3px 0 var(--accent); }
+.component-specifications { margin-top: 20px; padding-top: 16px; font-size: 13px; }
+.component-specifications h3 { font-size: 13px; margin-bottom: 8px; }
+.build-identity small, .workbench-status { font-size: 12px; }
+.workbench-tabs button { font-size: 13px; min-height: 42px; }
+.bench-actions { min-height: 70px; }
+.preview-reset { min-height: 36px; font-size: 12px; }
+.preview-zoom { width: 36px; }
+.performance-dialog .stat-grid { gap: 22px 18px; }
+.performance-dialog .auth-note { font-size: 13px; }
+.bench-tuning .tune-rate-head, .bench-tuning .tune-rate-row strong,
+.bench-tuning .pid-row strong, .bench-tuning .tune-rate-row span { font-size: 11px; }
+.bench-tuning .tune-rate-head, .bench-tuning .tune-rate-row { grid-template-columns: 42px repeat(3,minmax(0,1fr)) 46px; }
+.bench-tuning .tune-card input[type='number'] { font-size: 13px; min-height: 36px; }
+.bench-tuning .tune-fields label, .rate-legend { font-size: 12px; }
+
+/* Shared secondary panels: clear labels, usable rows, consistent dialogs. */
+.rail-choice { font-size: 14px; min-height: 48px; }
+.settings-card { height: min(800px,calc(100dvh - 48px)); }
+.settings-card .settings-fields label { font-size: 13px; }
+.settings-card .graphics-grid small { font-size: 11px; line-height: 1.5; }
+.settings-card .graphics-presets button { min-height: 36px; font-size: 12px; }
+.settings-card #graphics-quality-status { font-size: 12px; }
+.settings-card .graphics-switches .check { font-size: 12px; }
+.settings-card .graphics-switches { gap: 10px; margin-block: 20px; }
+.settings-card .controls-form label, .settings-card .axis-row { font-size: 13px; }
+.settings-card .controls-form select { height: 42px; }
+.settings-card .settings-help, .settings-card #graphics-performance { font-size: 13px; }
+.settings-card .graphics-switches { font-size: 13px; }
+.settings-card .radio-grip small { font-size: 11px; }
+.pilot-stats, .pilot-xp span, .pilot-content .panel-label, .pilot-record-row small,
+.pilot-ranking-row > span, .pilot-empty { font-size: 12px; }
+.pilot-record-row strong, .pilot-ranking-row { font-size: 14px; }
+.pilot-record-row { padding-block: 15px; }
+.room-filters label, .room-filters select, .room-count { font-size: 12px; }
+.room-filters { grid-template-columns: minmax(0,1fr) minmax(0,1fr) 145px; }
+.room-filters select { height: 40px; }
+.invite-panel label, .invite-panel > small, .ranked-panel p, .rooms-empty p { font-size: 13px; }
+.menu-lobby .menu-panel { width: min(1040px,100%); padding: 32px; }
+.menu-lobby .menu-layout { align-items: center; justify-content: center; }
+.room-code { font-family: 'Barlow Condensed',sans-serif; font-size: 52px; letter-spacing: .1em; border: 1px solid var(--line); background: #0e192575; border-radius: 10px; }
+.lobby-count { font-size: 12px; }
+.lobby-player { padding: 18px; border: 1px solid var(--line); border-radius: 10px; gap: 12px; }
+.lobby-player strong { font-size: 15px; }
+.lobby-player small { width: 100%; margin-left: 22px; font-size: 12px; }
+.room-chat:not(.flight-chat) .chat-messages { font-size: 13px; }
+.menu-results .menu-layout { align-items: center; justify-content: center; }
+.menu-results .menu-panel { width: min(1000px,100%); padding: 32px; }
+.result-personal { padding: 24px; border: 1px solid #ffae7026; border-radius: 10px; background: #ffae7008; }
+.result-personal small { font-size: 14px; }
+.result-personal strong { font-family: 'Barlow Condensed',sans-serif; font-size: 52px; letter-spacing: 0; color: var(--accent); }
+.result-row { border-radius: 10px; padding: 18px; }
+.result-row strong { font-size: 15px; }
+.menu-replays .replay-row strong { font-size: 15px; }
+.menu-replays .replay-row small { font-size: 12px; }
+.flow-dialog { padding: 28px; }
+.flow-dialog h2 { font-size: 30px; }
+.flow-dialog p, .flow-dialog label { font-size: 14px; line-height: 1.6; }
+.flight-loading { background: #0b14245c; }
+.loading-card { width: min(500px,100%); padding: 30px; }
+.loading-card h2 { font-size: 32px; }
+.loading-card .loading-stage { font-size: 14px; }
+.loading-card .loading-tip { font-size: 13px; }
+.loading-card .loading-error { font-size: 13px; line-height: 1.6; }
+
+/* Flight keeps its compact layout and shares the menu's neutral surfaces. */
+.hud-location, .hud-mode, .hud-instrument-bar, .hud-pause, .hud-tools summary,
+.hud-tools-popover, .hud-mission, .flight-chat .chat-open, .flight-chat .chat-messages {
+  background: #14202ed6;
+  border-color: var(--line);
+}
+.hud-location, .hud-mode { font-size: 12px; border-radius: 10px; }
+.hud-location small, .hud-timer .hud-label { font-size: 11px; color: #c0cddb; }
+.hud-progress { font-size: 12px; }
+.hud-instrument-bar { border-radius: 12px; }
+.hud-instrument-bar strong { font-size: 19px; }
+.hud-instrument-bar small { font-size: 11px; color: #c0cddb; }
+.hud-pause, .hud-tools summary { min-height: 40px; font-size: 12px; border-radius: 9px; }
+
+@media (max-width: 1300px) {
+  .menu-home .composed-layout { grid-template-columns: 330px minmax(0,1fr); padding-inline: 28px; }
+  .home-main-menu { padding: 22px; }
+  .selection-info { padding: 16px; }
+  .selection-info h2 { font-size: 29px; }
+  .settings-card .controls-form label, .settings-card .axis-row { font-size: 12px; }
+}
+@media (max-height: 800px) and (min-width: 801px) {
+  .menu-home .composed-layout { padding-block: 12px 22px; }
+  .home-main-menu { padding: 20px; }
+  .menu-home .home-command h1 { font-size: 36px; margin-bottom: 16px; }
+  .home-main-menu .launch-button { min-height: 48px; }
+  .home-main-menu .home-destinations { margin-top: 10px; gap: 0; }
+  .home-main-menu .home-destinations button { min-height: 44px; padding-block: 5px; }
+  .menu-hangar .composed-layout { grid-template-rows: auto minmax(0,1fr) 234px; }
+  .aircraft-art { height: 68px; }
+  .aircraft-card > strong, .aircraft-card > small { flex-shrink: 0; }
+  .selection-info { padding: 13px; gap: 9px; overflow-y: auto; }
+  .selection-info .stat-grid { gap: 10px; }
+  .selection-info .stat-grid strong { font-size: 22px; }
+  .part-card, .bench-simple .part-card { min-height: 65px; padding-block: 11px; }
+  .component-rail { padding-bottom: 10px; margin-bottom: 12px; }
+  .component-rail button { padding-block: 8px; }
+  .menu-lobby .menu-panel, .menu-results .menu-panel { padding: 24px; }
+}
+@media (max-width: 800px) {
+  .room-filters { grid-template-columns: 1fr 1fr; }
+  .topbar { padding-inline: 16px; }
+  .menu-home .composed-layout { display: flex; padding: 16px; }
+  .home-main-menu { width: min(360px,100%); }
+  .home-scene-caption { right: 20px; bottom: 20px; }
+  .selection-info { padding: 14px; }
+  .selection-info h2 { font-size: 28px; }
+  .selection-info .stat-grid strong { font-size: 23px; }
+  .menu-lobby .menu-panel, .menu-results .menu-panel { padding: 22px; }
+  .lobby-list { grid-template-columns: 1fr; }
+  .lobby-player small { width: auto; margin-left: auto; }
+}
+@media (max-width: 540px) {
+  .settings-card { height: calc(100dvh - 32px); }
+  .home-scene-caption { display: none; }
+  .home-main-menu { width: 100%; }
+  .selection-info .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hud-instrument-bar > span { padding-inline: 12px; }
+  .hud-location small { display: none; }
+  .flow-dialog { padding: 22px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .button, .mini-button, .activity-choice, .rail-choice, .part-card,
+  .aircraft-card, .home-destinations button { transition: none; }
+}

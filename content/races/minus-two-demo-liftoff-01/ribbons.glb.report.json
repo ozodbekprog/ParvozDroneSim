@@ -1,0 +1,29 @@
+{
+  "input": "C:\\DroneLiftoffUz\\data\\map-repair-20261031\\ribbon-delivery-inputs\\minus-two-demo-liftoff-01.glb",
+  "output": "content/races/minus-two-demo-liftoff-01/ribbons.glb",
+  "trianglesBeforeInstancing": 96,
+  "meshPrimitives": 2,
+  "materials": 2,
+  "textures": [
+    {
+      "name": "TapeWhiteRed01",
+      "mimeType": "image/ktx2",
+      "size": [
+        256,
+        1024
+      ]
+    },
+    {
+      "name": "TapeYellowBlack01",
+      "mimeType": "image/ktx2",
+      "size": [
+        256,
+        1024
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_texture_basisu",
+    "EXT_meshopt_compression"
+  ]
+}

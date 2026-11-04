@@ -1,0 +1,51 @@
+/* Existing Parvoz flight-deck palette and typography; the syllabus is the navigation. */
+#app[data-edition="start"] .menu-home .composed-layout,
+#app[data-edition="class"] .menu-home .composed-layout {display:block;overflow:auto;padding:16px 28px 84px;}
+.practice-panel {max-width:1180px;margin:auto;padding:24px;min-width:0;}
+.practice-heading {display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.practice-heading h1 {font-size:clamp(28px,4vw,42px);margin:0;}
+.practice-heading p {margin:4px 0 16px;color:var(--muted);}
+.practice-tools {display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 24px;align-items:center;}
+.practice-columns {display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.85fr);gap:32px;}
+.practice-focus h2,.practice-curriculum h2 {font-size:19px;margin:0 0 14px;}
+.practice-focus h3 {font-size:28px;margin:0 0 12px;}
+.practice-focus p {line-height:1.6;max-width:64ch;}
+.practice-control-note,.practice-note,.practice-footer {color:var(--muted);font-size:13px;}
+.practice-assignment {margin:24px 0;display:grid;gap:8px;}
+.practice-assignment input {width:100%;min-width:0;font-size:13px;}
+.practice-assignment .button {justify-self:start;}
+.practice-plan {margin:16px 0;line-height:1.7;}
+.practice-plan summary,.practice-footer summary {cursor:pointer;padding:6px 0;}
+.practice-progress {display:flex;justify-content:space-between;gap:12px;}
+.practice-curriculum progress {width:100%;height:6px;accent-color:var(--technical);}
+.practice-curriculum ol {padding-left:26px;margin:12px 0;}
+.practice-curriculum li {padding:2px 0;color:var(--muted);}
+.practice-lesson {width:100%;min-height:44px;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;padding:10px 12px;border:1px solid transparent;border-radius:4px;background:transparent;color:var(--text);cursor:pointer;}
+.practice-lesson>span {min-width:0;overflow-wrap:anywhere;}
+.practice-lesson small {flex-shrink:0;color:var(--muted);}
+.practice-lesson:hover {background:var(--surface-soft);}
+.practice-lesson.selected {border-color:var(--technical);background:var(--surface-soft);}
+.practice-panel :focus-visible {outline:2px solid var(--technical);outline-offset:3px;}
+.practice-footer {border-top:1px solid var(--line);margin-top:22px;padding-top:12px;line-height:1.5;}
+.practice-footer ul {padding:0;list-style:none;}
+.practice-footer li {display:flex;justify-content:space-between;gap:12px;padding:6px 0;}
+.practice-edition-links {display:flex;gap:8px;margin-top:12px;}
+.practice-classroom {border-top:1px solid var(--line);margin-top:24px;padding-top:24px;}
+.practice-classroom h2 {font-size:22px;margin:0;}
+.practice-classroom p {max-width:76ch;line-height:1.6;}
+.classroom-toolbar {display:flex;align-items:end;flex-wrap:wrap;gap:16px;}
+.classroom-toolbar label,.classroom-toolbar small {display:block;margin:6px 0;}
+.classroom-toolbar form>div {display:flex;gap:8px;}
+.classroom-toolbar input {max-width:190px;min-width:0;}
+.classroom-toolbar small {color:var(--muted);}
+.classroom-table-scroll {overflow-x:auto;}
+.classroom-table {width:100%;border-collapse:collapse;text-align:left;font-variant-numeric:tabular-nums;}
+.classroom-table caption {text-align:left;padding:10px 0;font-weight:600;}
+.classroom-table th,.classroom-table td {padding:12px 8px;border-bottom:1px solid var(--line);vertical-align:middle;}
+.classroom-table thead th {font-size:12px;color:var(--muted);}
+.classroom-row-actions {display:flex;gap:8px;flex-wrap:wrap;}
+.classroom-confirm {display:flex;gap:8px;flex-wrap:wrap;}
+.classroom-confirm[hidden],.classroom-row-actions button[hidden] {display:none;}
+#classroom-status {min-height:1.6em;}
+@media(max-width:760px){.classroom-table{min-width:690px}.classroom-toolbar{align-items:start;flex-direction:column}.classroom-toolbar form>div{flex-wrap:wrap}.classroom-toolbar input{width:100%}}
+@media(max-width:760px){.practice-columns{grid-template-columns:1fr;gap:24px}.practice-panel{padding:18px}.practice-heading{align-items:flex-start;flex-wrap:wrap}#app[data-edition] .menu-home .composed-layout:has(.practice-panel){padding:12px 12px 84px}.practice-footer li{flex-direction:column;gap:0}}

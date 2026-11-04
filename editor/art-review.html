@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Ironworks — выбор оформления</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#10171b;color:#edf0ec;font:15px system-ui}main{max-width:1320px;margin:auto;padding:20px}h1{font-size:26px;margin:0 0 8px}p{color:#b6c5c8;line-height:1.5}nav{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}button,select,a{font:inherit}button,select{background:#22333b;color:#fff;border:1px solid #43555d;border-radius:5px;padding:9px 13px;cursor:pointer}button[aria-pressed=true]{background:#b9dfca;color:#0e2820}button:disabled{opacity:.45;cursor:wait}#view{width:100%;aspect-ratio:16/9;background:#171c21}output{display:block;margin:12px 0;font:13px ui-monospace,monospace;white-space:pre-wrap}a{color:#b9dfca}small{color:#aabbc0}#result{max-height:200px;overflow:auto}label{display:flex;align-items:center;gap:6px}
+</style></head><body><main>
+<h1>Ironworks / исследование оформления</h1>
+<p>Один участок и новый кандидат Kestrel, одинаковые ракурсы, игровой рендерер на Low с внутренним разрешением 1280×720. Выбор оформления нужен перед полной сборкой карты. Сменные детали и окончательная художественная приёмка ещё впереди.</p>
+<nav aria-label="Оформление"><button data-look="clean" aria-pressed="false">01 · Действующая промзона</button><button data-look="worn" aria-pressed="true">02 · Изношенный двор</button><button data-look="evening" aria-pressed="false">03 · Тёплый вечер</button></nav>
+<div id="view" aria-label="Игровой вид участка Ironworks"></div>
+<output id="status">Загрузка…</output>
+<output id="runtime"></output>
+<nav aria-label="Ракурс"><button data-shot="yard">Двор</button><button data-shot="portal">Проём склада</button><button data-shot="detail">Материалы вблизи</button><button data-shot="drone">Дрон крупно</button><button data-shot="reverse">Дрон сзади</button><button data-shot="top">Дрон сверху</button><button id="tour">Маршрут камеры</button><button id="capture">Сохранить кадр 720p</button></nav>
+<nav aria-label="Модель дрона"><label>Геометрия <select id="drone-lod"><option value="auto">Low + автоматический LOD</option><option value="0">Ангар — 37,8 тыс.</option><option value="1">Low — 10,4 тыс.</option><option value="2">Дальний — 2,3 тыс.</option></select></label><label><input type="checkbox" id="spin"> Вращать пропеллеры</label></nav>
+<p id="description"></p>
+<details><summary>Проверка рендера</summary><p>Синтетический маршрут камеры проверяет фрагмент: один видимый дрон для осмотра либо семь соперников, как при восьми участниках в FPV. Это не приёмка полной карты с физикой и сетью на UHD 620.</p><nav><label>Участники <select id="participants"><option value="1">1 — осмотр дрона</option><option value="8">8 — новые модели</option></select></label><button id="smoke">Пробный замер 20 сек.</button><button id="benchmark">3 прохода × 3 минуты</button><button id="stop" disabled>Остановить</button><button id="download" disabled>Скачать отчёт JSON</button></nav><output id="result"></output></details>
+<p><a href="?backend=webgl">WebGL2</a> · <a href="?backend=auto">WebGPU (с резервным WebGL2)</a></p>
+<small>Окружение: Poly Haven, CC0 — <a href="/content/review/ironworks/sources.json">источники</a>. Дрон: <a href="https://sketchfab.com/3d-models/drone-racing-0b416d03688a43239a550d9dad0a6f34">Drone racing, 3D Husky (Kawasalto)</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; ориентация, материалы и LOD изменены в Blender. .blend-исходники сохранены рядом с GLB в content/review.</small>
+</main><script type="module" src="/editor/art-review.js"></script></body></html>

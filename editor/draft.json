@@ -1,0 +1,2072 @@
+{
+  "version": 2,
+  "maps": [
+    {
+      "id": "hangar",
+      "name": "Flight Academy",
+      "region": "Training Hangar",
+      "theme": "hangar",
+      "seed": 112,
+      "description": "A bright aircraft hangar built for the first flight.",
+      "sky": "#8faebe",
+      "fog": "#a8b7bc",
+      "ground": "#93958f",
+      "sun": "#fff2d8",
+      "sunPosition": [
+        68,
+        95,
+        45
+      ],
+      "cloudColor": "#dce8ec",
+      "wind": [
+        0,
+        0,
+        0
+      ],
+      "gravity": 1,
+      "tracks": [
+        {
+          "id": "hangar-circuit",
+          "name": "Hangar Circuit",
+          "laps": 2,
+          "gates": [
+            {
+              "position": [
+                0,
+                3.2,
+                14
+              ],
+              "yaw": 1.4801364395941514,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                22,
+                4,
+                16
+              ],
+              "yaw": 2.4416997838705496,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                38,
+                4.5,
+                -3
+              ],
+              "yaw": -2.6078844619505315,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                25,
+                3.5,
+                -25
+              ],
+              "yaw": -1.7294515889812982,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                0,
+                4.5,
+                -29
+              ],
+              "yaw": -1.3439974787410107,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -26,
+                4,
+                -23
+              ],
+              "yaw": -0.44610554894340365,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -37,
+                3.5,
+                0
+              ],
+              "yaw": 0.6947382761967033,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -22,
+                3.5,
+                18
+              ],
+              "yaw": 1.750649826587375,
+              "width": 8,
+              "height": 6
+            }
+          ],
+          "spawn": {
+            "position": [
+              -11.950718477612446,
+              3.2,
+              12.913571047489777
+            ],
+            "yaw": 1.4801364395941514
+          }
+        },
+        {
+          "id": "hangar-sprint",
+          "name": "Hangar Sprint",
+          "laps": 1,
+          "gates": [
+            {
+              "position": [
+                0,
+                3.2,
+                14
+              ],
+              "yaw": 1.4801364395941514,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                22,
+                4,
+                16
+              ],
+              "yaw": 2.4416997838705496,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                38,
+                4.5,
+                -3
+              ],
+              "yaw": -2.6078844619505315,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                25,
+                3.5,
+                -25
+              ],
+              "yaw": -1.7294515889812982,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                0,
+                4.5,
+                -29
+              ],
+              "yaw": 0,
+              "width": 8,
+              "height": 6
+            }
+          ],
+          "spawn": {
+            "position": [
+              -11.950718477612446,
+              3.2,
+              12.913571047489777
+            ],
+            "yaw": 1.4801364395941514
+          }
+        }
+      ],
+      "materials": [],
+      "colliders": [
+        {
+          "position": [
+            -22,
+            1.5,
+            0
+          ],
+          "size": [
+            5,
+            3,
+            5
+          ]
+        },
+        {
+          "position": [
+            18,
+            1.2,
+            -10
+          ],
+          "size": [
+            4,
+            2.4,
+            6
+          ]
+        },
+        {
+          "position": [
+            -7,
+            2,
+            -16
+          ],
+          "size": [
+            6,
+            4,
+            3
+          ]
+        },
+        {
+          "position": [
+            37,
+            1.5,
+            15
+          ],
+          "size": [
+            4,
+            3,
+            4
+          ]
+        }
+      ],
+      "objects": []
+    },
+    {
+      "id": "ruins",
+      "name": "Afterlight",
+      "region": "Urban Ruins",
+      "theme": "ruins",
+      "seed": 205,
+      "description": "Thread the remnants of a city block in late afternoon light.",
+      "sky": "#9eb4bc",
+      "fog": "#a9aba5",
+      "ground": "#746e66",
+      "sun": "#ffe0b0",
+      "sunPosition": [
+        83,
+        44,
+        -26
+      ],
+      "cloudColor": "#d8d0bb",
+      "wind": [
+        0.8,
+        0,
+        -0.3
+      ],
+      "gravity": 1,
+      "tracks": [
+        {
+          "id": "ruins-route",
+          "name": "Broken Skyline",
+          "laps": 2,
+          "gates": [
+            {
+              "position": [
+                0,
+                5,
+                18
+              ],
+              "yaw": 1.4410937896389846,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                23,
+                7,
+                21
+              ],
+              "yaw": 2.279422598922567,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                44,
+                10,
+                3
+              ],
+              "yaw": 2.904743892642873,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                51,
+                6,
+                -26
+              ],
+              "yaw": -1.9018924034990288,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                19,
+                4,
+                -37
+              ],
+              "yaw": -1.3258176636680326,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -13,
+                6,
+                -29
+              ],
+              "yaw": -0.7437555842988599,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -36,
+                8,
+                -4
+              ],
+              "yaw": 0.3868757177310281,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -25,
+                5,
+                23
+              ],
+              "yaw": 1.7681918866447774,
+              "width": 8,
+              "height": 6
+            }
+          ],
+          "spawn": {
+            "position": [
+              -11.89920493423466,
+              5,
+              16.447929791186784
+            ],
+            "yaw": 1.4410937896389846
+          }
+        }
+      ],
+      "materials": [],
+      "colliders": [
+        {
+          "position": [
+            10,
+            8,
+            15
+          ],
+          "size": [
+            7,
+            16,
+            7
+          ]
+        },
+        {
+          "position": [
+            31,
+            10,
+            -13
+          ],
+          "size": [
+            9,
+            20,
+            8
+          ]
+        },
+        {
+          "position": [
+            -18,
+            6,
+            -8
+          ],
+          "size": [
+            6,
+            12,
+            6
+          ]
+        },
+        {
+          "position": [
+            -4,
+            2,
+            -35
+          ],
+          "size": [
+            9,
+            4,
+            4
+          ]
+        }
+      ],
+      "objects": []
+    },
+    {
+      "id": "canyon",
+      "name": "Redline",
+      "region": "Canyon Race",
+      "theme": "canyon",
+      "seed": 333,
+      "description": "A fast desert run above stone shelves and wind-carved ravines.",
+      "sky": "#92b8d4",
+      "fog": "#c9bca7",
+      "ground": "#b58d6e",
+      "sun": "#fff0c7",
+      "sunPosition": [
+        65,
+        35,
+        81
+      ],
+      "cloudColor": "#f4dfc1",
+      "wind": [
+        2.5,
+        0,
+        -0.8
+      ],
+      "gravity": 1,
+      "tracks": [
+        {
+          "id": "canyon-run",
+          "name": "Ridge Run",
+          "laps": 2,
+          "gates": [
+            {
+              "position": [
+                0,
+                5,
+                18
+              ],
+              "yaw": 1.025141272267905,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                28,
+                7,
+                35
+              ],
+              "yaw": 1.9359977765830696,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                62,
+                10,
+                22
+              ],
+              "yaw": 2.770701364777131,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                76,
+                7,
+                -14
+              ],
+              "yaw": -2.289626326416521,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                44,
+                5,
+                -42
+              ],
+              "yaw": -1.7359450042095235,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                2,
+                8,
+                -49
+              ],
+              "yaw": -0.9884433806509134,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -39,
+                11,
+                -22
+              ],
+              "yaw": 0.13082739607405694,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -34,
+                6,
+                16
+              ],
+              "yaw": 1.512040504079174,
+              "width": 8,
+              "height": 6
+            }
+          ],
+          "spawn": {
+            "position": [
+              -10.257450182660747,
+              5,
+              11.772262389098833
+            ],
+            "yaw": 1.025141272267905
+          }
+        }
+      ],
+      "materials": [],
+      "colliders": [
+        {
+          "position": [
+            17,
+            7,
+            28
+          ],
+          "size": [
+            6,
+            14,
+            6
+          ]
+        },
+        {
+          "position": [
+            53,
+            9,
+            -13
+          ],
+          "size": [
+            8,
+            18,
+            7
+          ]
+        },
+        {
+          "position": [
+            -13,
+            6,
+            -20
+          ],
+          "size": [
+            7,
+            12,
+            7
+          ]
+        },
+        {
+          "position": [
+            -20,
+            4,
+            25
+          ],
+          "size": [
+            8,
+            8,
+            8
+          ]
+        }
+      ],
+      "objects": []
+    },
+    {
+      "id": "industrial",
+      "name": "Ironworks",
+      "region": "Industrial Circuit",
+      "theme": "industrial",
+      "seed": 417,
+      "description": "Pipe bridges, tanks, and tight steel corridors.",
+      "sky": "#7d909a",
+      "fog": "#879398",
+      "ground": "#6e7070",
+      "sun": "#dbe6e9",
+      "sunPosition": [
+        -42,
+        71,
+        33
+      ],
+      "cloudColor": "#becbd0",
+      "wind": [
+        0.4,
+        0,
+        0.6
+      ],
+      "gravity": 1,
+      "tracks": [
+        {
+          "id": "industrial-loop",
+          "name": "Pressure Loop",
+          "laps": 2,
+          "gates": [
+            {
+              "position": [
+                0,
+                4,
+                18
+              ],
+              "yaw": 1.3258176636680326,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                24,
+                4,
+                24
+              ],
+              "yaw": 2.1587989303424644,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                48,
+                6,
+                8
+              ],
+              "yaw": -2.7672590375822095,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                37,
+                5,
+                -20
+              ],
+              "yaw": -2.2612427838495885,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                14,
+                7,
+                -39
+              ],
+              "yaw": -1.4010180528265581,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -21,
+                5,
+                -33
+              ],
+              "yaw": -0.6310793874713292,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -40,
+                4,
+                -7
+              ],
+              "yaw": 0.5467888408892474,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -26,
+                5,
+                16
+              ],
+              "yaw": 1.4940244355251187,
+              "width": 8,
+              "height": 6
+            }
+          ],
+          "spawn": {
+            "position": [
+              -11.641710001743983,
+              4,
+              15.089572499564005
+            ],
+            "yaw": 1.3258176636680326
+          }
+        }
+      ],
+      "materials": [],
+      "colliders": [
+        {
+          "position": [
+            15,
+            8,
+            12
+          ],
+          "size": [
+            6,
+            16,
+            6
+          ]
+        },
+        {
+          "position": [
+            36,
+            10,
+            -10
+          ],
+          "size": [
+            8,
+            20,
+            8
+          ]
+        },
+        {
+          "position": [
+            -19,
+            7,
+            -15
+          ],
+          "size": [
+            7,
+            14,
+            7
+          ]
+        },
+        {
+          "position": [
+            -8,
+            5,
+            33
+          ],
+          "size": [
+            10,
+            10,
+            7
+          ]
+        }
+      ],
+      "objects": []
+    },
+    {
+      "id": "forest",
+      "name": "Mossline",
+      "region": "Forest Gates",
+      "theme": "forest",
+      "seed": 521,
+      "description": "A technical course between tall pines and morning mist.",
+      "sky": "#a6c3ce",
+      "fog": "#a2b9aa",
+      "ground": "#66765a",
+      "sun": "#fff7d6",
+      "sunPosition": [
+        40,
+        58,
+        -35
+      ],
+      "cloudColor": "#e1ece3",
+      "wind": [
+        0.7,
+        0,
+        1.2
+      ],
+      "gravity": 1,
+      "tracks": [
+        {
+          "id": "forest-thread",
+          "name": "Needle Thread",
+          "laps": 2,
+          "gates": [
+            {
+              "position": [
+                0,
+                4,
+                18
+              ],
+              "yaw": 1.0460005551447893,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                19,
+                4,
+                29
+              ],
+              "yaw": 2.3305590816706676,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                39,
+                5,
+                10
+              ],
+              "yaw": -2.8590377011202057,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                30,
+                6,
+                -21
+              ],
+              "yaw": -2.1870932641909677,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                6,
+                4,
+                -38
+              ],
+              "yaw": -1.1618884978439712,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -24,
+                5,
+                -25
+              ],
+              "yaw": -0.4089078289509254,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -37,
+                5,
+                5
+              ],
+              "yaw": 0.7853981633974483,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -17,
+                4,
+                25
+              ],
+              "yaw": 1.9614033704925835,
+              "width": 8,
+              "height": 6
+            }
+          ],
+          "spawn": {
+            "position": [
+              -10.385115425773515,
+              4,
+              11.987564753499544
+            ],
+            "yaw": 1.0460005551447893
+          }
+        }
+      ],
+      "materials": [],
+      "colliders": [
+        {
+          "position": [
+            9,
+            6,
+            20
+          ],
+          "size": [
+            2,
+            12,
+            2
+          ]
+        },
+        {
+          "position": [
+            26,
+            6,
+            2
+          ],
+          "size": [
+            2,
+            12,
+            2
+          ]
+        },
+        {
+          "position": [
+            -18,
+            6,
+            -16
+          ],
+          "size": [
+            2,
+            12,
+            2
+          ]
+        },
+        {
+          "position": [
+            -22,
+            6,
+            13
+          ],
+          "size": [
+            2,
+            12,
+            2
+          ]
+        },
+        {
+          "position": [
+            7,
+            6,
+            -21
+          ],
+          "size": [
+            2,
+            12,
+            2
+          ]
+        }
+      ],
+      "objects": [],
+      "modelTransform": {
+        "position": [
+          -0.5753269715771268,
+          0,
+          -1.5643912347794746
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      }
+    },
+    {
+      "id": "neon",
+      "name": "Nocturne",
+      "region": "Night City",
+      "theme": "neon",
+      "seed": 632,
+      "description": "Wet streets and luminous race gates under a night sky.",
+      "sky": "#0d182b",
+      "fog": "#26364d",
+      "ground": "#303943",
+      "sun": "#a7bce2",
+      "sunPosition": [
+        -45,
+        95,
+        45
+      ],
+      "cloudColor": "#60708e",
+      "wind": [
+        0.5,
+        0,
+        -0.5
+      ],
+      "gravity": 1,
+      "tracks": [
+        {
+          "id": "neon-dash",
+          "name": "Midnight Dash",
+          "laps": 2,
+          "gates": [
+            {
+              "position": [
+                0,
+                5,
+                18
+              ],
+              "yaw": 1.3258176636680326,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                28,
+                6,
+                25
+              ],
+              "yaw": 2.5444159954971157,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                45,
+                9,
+                0
+              ],
+              "yaw": -2.5702551737561663,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                27,
+                5,
+                -28
+              ],
+              "yaw": -1.9333405640594044,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -2,
+                7,
+                -39
+              ],
+              "yaw": -0.982793723247329,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -32,
+                6,
+                -19
+              ],
+              "yaw": -0.16514867741462683,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -37,
+                9,
+                11
+              ],
+              "yaw": 0.8353565591193911,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -16,
+                5,
+                30
+              ],
+              "yaw": 2.214297435588181,
+              "width": 8,
+              "height": 6
+            }
+          ],
+          "spawn": {
+            "position": [
+              -11.641710001743983,
+              5,
+              15.089572499564005
+            ],
+            "yaw": 1.3258176636680326
+          }
+        }
+      ],
+      "materials": [],
+      "colliders": [
+        {
+          "position": [
+            15,
+            10,
+            16
+          ],
+          "size": [
+            9,
+            20,
+            8
+          ]
+        },
+        {
+          "position": [
+            30,
+            13,
+            -13
+          ],
+          "size": [
+            8,
+            26,
+            9
+          ]
+        },
+        {
+          "position": [
+            -17,
+            12,
+            -15
+          ],
+          "size": [
+            9,
+            24,
+            8
+          ]
+        },
+        {
+          "position": [
+            -14,
+            9,
+            24
+          ],
+          "size": [
+            10,
+            18,
+            8
+          ]
+        }
+      ],
+      "objects": []
+    },
+    {
+      "id": "orbital",
+      "name": "Orbit One",
+      "region": "Space Hangar",
+      "theme": "orbital",
+      "seed": 741,
+      "description": "An experimental low-gravity arena above the atmosphere.",
+      "sky": "#0c1424",
+      "fog": "#1b2b40",
+      "ground": "#677b8f",
+      "sun": "#d2e9ff",
+      "sunPosition": [
+        30,
+        100,
+        60
+      ],
+      "cloudColor": "#8ba7b8",
+      "wind": [
+        0,
+        0,
+        0
+      ],
+      "gravity": 0.55,
+      "tracks": [
+        {
+          "id": "orbital-arc",
+          "name": "Orbital Arc",
+          "laps": 2,
+          "gates": [
+            {
+              "position": [
+                0,
+                7,
+                18
+              ],
+              "yaw": 1.2924966677897853,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                28,
+                11,
+                26
+              ],
+              "yaw": 2.5899376710612465,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                44,
+                15,
+                0
+              ],
+              "yaw": -2.560836300022123,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                23,
+                9,
+                -32
+              ],
+              "yaw": -1.653937558683338,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -13,
+                12,
+                -35
+              ],
+              "yaw": -0.7309067071567171,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -39,
+                17,
+                -6
+              ],
+              "yaw": 0.45066132608063364,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                -24,
+                10,
+                25
+              ],
+              "yaw": 1.8545904360032246,
+              "width": 8,
+              "height": 6
+            }
+          ],
+          "spawn": {
+            "position": [
+              -11.538287371689878,
+              7,
+              14.703346465231466
+            ],
+            "yaw": 1.2924966677897853
+          }
+        }
+      ],
+      "materials": [],
+      "colliders": [
+        {
+          "position": [
+            13,
+            3,
+            12
+          ],
+          "size": [
+            4,
+            6,
+            4
+          ]
+        },
+        {
+          "position": [
+            28,
+            4,
+            -14
+          ],
+          "size": [
+            5,
+            8,
+            5
+          ]
+        },
+        {
+          "position": [
+            -17,
+            4,
+            -15
+          ],
+          "size": [
+            6,
+            8,
+            5
+          ]
+        },
+        {
+          "position": [
+            -26,
+            3,
+            16
+          ],
+          "size": [
+            5,
+            6,
+            5
+          ]
+        }
+      ],
+      "objects": []
+    },
+    {
+      "id": "custom-map-8",
+      "theme": "custom",
+      "seed": 1,
+      "objects": [],
+      "name": "Samarkhand",
+      "region": "Custom Region",
+      "description": "",
+      "model": "",
+      "materials": [
+        {
+          "mesh": "mesh-0",
+          "baseColor": "#e01f1f",
+          "roughness": 1.95,
+          "metalness": 1.2,
+          "baseTexture": "/content/assets/9ac8a1c5-85c7-426f-b72c-04109116f43c.png"
+        }
+      ],
+      "sky": "#91b4cf",
+      "fog": "#9ab4bb",
+      "ground": "#777c78",
+      "sun": "#fff1cb",
+      "sunPosition": [
+        68,
+        95,
+        45
+      ],
+      "wind": [
+        0,
+        0,
+        0
+      ],
+      "gravity": 1,
+      "colliders": [
+        {
+          "position": [
+            0.61315019702797,
+            7.252324276445581,
+            -7.857079286765775
+          ],
+          "size": [
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "position": [
+            -13.138797161193258,
+            1.5063917848483173,
+            -7.857079286765775
+          ],
+          "size": [
+            4,
+            2,
+            4
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "id": "custom-course-8",
+          "name": "First Course",
+          "laps": 1,
+          "spawn": {
+            "position": [
+              0,
+              1.317458079225288,
+              -11.998718027704308
+            ],
+            "yaw": 0
+          },
+          "gates": [
+            {
+              "position": [
+                0,
+                3,
+                12.029040643440478
+              ],
+              "yaw": -0.05,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                20,
+                3,
+                20
+              ],
+              "yaw": 1.5,
+              "width": 8,
+              "height": 6
+            },
+            {
+              "position": [
+                0,
+                3,
+                30
+              ],
+              "yaw": 3.14,
+              "width": 8,
+              "height": 6
+            }
+          ]
+        }
+      ],
+      "modelTransform": {
+        "position": [
+          0,
+          0,
+          1.207766788045765
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      }
+    }
+  ],
+  "drones": [
+    {
+      "id": "kestrel",
+      "name": "Kestrel 5",
+      "class": "five",
+      "mass": 0.68,
+      "arm": 0.115,
+      "thrustToWeight": 5.6,
+      "motorTau": 0.035,
+      "drag": [
+        0.034,
+        0.045,
+        0.021
+      ],
+      "angularDrag": 0.11,
+      "batterySeconds": 360,
+      "color": "#fc623d",
+      "unlock": "starter",
+      "materials": [],
+      "collision": {
+        "spheres": [
+          {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "radius": 0.13
+          },
+          {
+            "position": [
+              -0.22,
+              0.03,
+              -0.22
+            ],
+            "radius": 0.068
+          },
+          {
+            "position": [
+              -0.22,
+              0.03,
+              0.22
+            ],
+            "radius": 0.068
+          },
+          {
+            "position": [
+              0.22,
+              0.03,
+              -0.22
+            ],
+            "radius": 0.068
+          },
+          {
+            "position": [
+              0.22,
+              0.03,
+              0.22
+            ],
+            "radius": 0.068
+          }
+        ]
+      }
+    },
+    {
+      "id": "swift",
+      "name": "Swift 3",
+      "class": "three",
+      "mass": 0.42,
+      "arm": 0.084,
+      "thrustToWeight": 6.4,
+      "motorTau": 0.023,
+      "drag": [
+        0.027,
+        0.037,
+        0.017
+      ],
+      "angularDrag": 0.095,
+      "batterySeconds": 290,
+      "color": "#45d4f4",
+      "unlock": "starter",
+      "materials": [],
+      "collision": {
+        "spheres": [
+          {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "radius": 0.0936
+          },
+          {
+            "position": [
+              -0.1584,
+              0.0216,
+              -0.1584
+            ],
+            "radius": 0.049
+          },
+          {
+            "position": [
+              -0.1584,
+              0.0216,
+              0.1584
+            ],
+            "radius": 0.049
+          },
+          {
+            "position": [
+              0.1584,
+              0.0216,
+              -0.1584
+            ],
+            "radius": 0.049
+          },
+          {
+            "position": [
+              0.1584,
+              0.0216,
+              0.1584
+            ],
+            "radius": 0.049
+          }
+        ]
+      }
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas 7",
+      "class": "seven",
+      "mass": 1.05,
+      "arm": 0.165,
+      "thrustToWeight": 4.6,
+      "motorTau": 0.055,
+      "drag": [
+        0.05,
+        0.061,
+        0.028
+      ],
+      "angularDrag": 0.14,
+      "batterySeconds": 470,
+      "color": "#e9d18a",
+      "unlock": "starter",
+      "materials": [],
+      "collision": {
+        "spheres": [
+          {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "radius": 0.1664
+          },
+          {
+            "position": [
+              -0.2816,
+              0.0384,
+              -0.2816
+            ],
+            "radius": 0.087
+          },
+          {
+            "position": [
+              -0.2816,
+              0.0384,
+              0.2816
+            ],
+            "radius": 0.087
+          },
+          {
+            "position": [
+              0.2816,
+              0.0384,
+              -0.2816
+            ],
+            "radius": 0.087
+          },
+          {
+            "position": [
+              0.2816,
+              0.0384,
+              0.2816
+            ],
+            "radius": 0.087
+          }
+        ]
+      }
+    },
+    {
+      "id": "viper",
+      "name": "Viper R",
+      "class": "five",
+      "mass": 0.61,
+      "arm": 0.11,
+      "thrustToWeight": 7.1,
+      "motorTau": 0.025,
+      "drag": [
+        0.029,
+        0.04,
+        0.018
+      ],
+      "angularDrag": 0.095,
+      "batterySeconds": 270,
+      "color": "#a38bff",
+      "unlock": "career-6",
+      "materials": [],
+      "collision": {
+        "spheres": [
+          {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "radius": 0.13
+          },
+          {
+            "position": [
+              -0.22,
+              0.03,
+              -0.22
+            ],
+            "radius": 0.068
+          },
+          {
+            "position": [
+              -0.22,
+              0.03,
+              0.22
+            ],
+            "radius": 0.068
+          },
+          {
+            "position": [
+              0.22,
+              0.03,
+              -0.22
+            ],
+            "radius": 0.068
+          },
+          {
+            "position": [
+              0.22,
+              0.03,
+              0.22
+            ],
+            "radius": 0.068
+          }
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "id": "carbon",
+      "name": "Carbon X",
+      "mass": 0,
+      "thrust": 1,
+      "durability": 1,
+      "cost": 0,
+      "category": "frame",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "light",
+      "name": "Lightweight",
+      "mass": -0.06,
+      "thrust": 1,
+      "durability": 0.82,
+      "cost": 180,
+      "category": "frame",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "guarded",
+      "name": "Guarded",
+      "mass": 0.1,
+      "thrust": 1,
+      "durability": 1.3,
+      "cost": 180,
+      "category": "frame",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "balanced",
+      "name": "Balanced 2207",
+      "mass": 0,
+      "thrust": 1,
+      "response": 1,
+      "cost": 0,
+      "category": "motors",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "race",
+      "name": "Race 2306",
+      "mass": 0.025,
+      "thrust": 1.14,
+      "response": 1.13,
+      "cost": 260,
+      "category": "motors",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "smooth",
+      "name": "Smooth 2208",
+      "mass": 0.04,
+      "thrust": 1.06,
+      "response": 0.88,
+      "cost": 220,
+      "category": "motors",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "triblade",
+      "name": "Tri-blade",
+      "mass": 0,
+      "thrust": 1,
+      "drag": 1,
+      "cost": 0,
+      "category": "propellers",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "efficient",
+      "name": "Efficient bi-blade",
+      "mass": -0.012,
+      "thrust": 0.94,
+      "drag": 0.87,
+      "cost": 140,
+      "category": "propellers",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "grip",
+      "name": "High-grip",
+      "mass": 0.013,
+      "thrust": 1.08,
+      "drag": 1.1,
+      "cost": 160,
+      "category": "propellers",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "standard",
+      "name": "Standard LiPo",
+      "mass": 0,
+      "duration": 1,
+      "cost": 0,
+      "category": "battery",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "light",
+      "name": "Light LiPo",
+      "mass": -0.07,
+      "duration": 0.7,
+      "cost": 190,
+      "category": "battery",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "endurance",
+      "name": "Endurance LiPo",
+      "mass": 0.11,
+      "duration": 1.55,
+      "cost": 260,
+      "category": "battery",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "wide",
+      "name": "Wide FPV",
+      "fov": 105,
+      "cost": 0,
+      "category": "camera",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "classic",
+      "name": "Classic FPV",
+      "fov": 88,
+      "cost": 100,
+      "category": "camera",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    },
+    {
+      "id": "race",
+      "name": "Race FPV",
+      "fov": 118,
+      "cost": 140,
+      "category": "camera",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "materials": []
+    }
+  ],
+  "challenges": [
+    {
+      "id": "cadet",
+      "name": "First Lift",
+      "map": "hangar",
+      "track": "hangar-sprint",
+      "target": 115,
+      "reward": 100
+    },
+    {
+      "id": "pilot",
+      "name": "Hangar Ace",
+      "map": "hangar",
+      "track": "hangar-circuit",
+      "target": 150,
+      "reward": 130
+    },
+    {
+      "id": "explorer",
+      "name": "Beyond the Walls",
+      "map": "ruins",
+      "track": "ruins-route",
+      "target": 160,
+      "reward": 150
+    },
+    {
+      "id": "sprinter",
+      "name": "Redline Run",
+      "map": "canyon",
+      "track": "canyon-run",
+      "target": 165,
+      "reward": 180
+    },
+    {
+      "id": "technician",
+      "name": "Pressure Test",
+      "map": "industrial",
+      "track": "industrial-loop",
+      "target": 170,
+      "reward": 200
+    },
+    {
+      "id": "threader",
+      "name": "Through the Pines",
+      "map": "forest",
+      "track": "forest-thread",
+      "target": 180,
+      "reward": 220
+    },
+    {
+      "id": "nightowl",
+      "name": "Night Shift",
+      "map": "neon",
+      "track": "neon-dash",
+      "target": 190,
+      "reward": 250
+    },
+    {
+      "id": "astronaut",
+      "name": "New Horizon",
+      "map": "orbital",
+      "track": "orbital-arc",
+      "target": 200,
+      "reward": 300
+    }
+  ],
+  "tutorials": [
+    {
+      "id": "first-hover",
+      "name": "First hover",
+      "map": "hangar",
+      "track": "hangar-sprint",
+      "steps": [
+        {
+          "text": "Raise throttle slowly. Hold a hover above one meter.",
+          "objective": "altitude",
+          "target": 1,
+          "duration": 3
+        },
+        {
+          "text": "Gently pitch forward to gain speed.",
+          "objective": "speed",
+          "target": 2,
+          "duration": 2
+        },
+        {
+          "text": "Return throttle to zero and land.",
+          "objective": "land",
+          "target": 0,
+          "duration": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pinecrest",
+  "name": "Pinecrest Reserve",
+  "region": "Forest Lookout",
+  "theme": "custom",
+  "sky": "#a2c9c1",
+  "fog": "#a7c0b2",
+  "ground": "#61785f",
+  "sun": "#fff0c5",
+  "sunPosition": [
+    -35,
+    85,
+    -40
+  ],
+  "wind": [
+    0.7,
+    0,
+    1.1
+  ],
+  "description": "A wooded loop around a ranger station, fire tower and clear creek crossing.",
+  "seed": 1019,
+  "cloudColor": "#a7c0b2",
+  "gravity": 1,
+  "model": "model.glb",
+  "colliders": [],
+  "objects": [],
+  "collisionFile": "collision.json",
+  "environment": "pinecrest",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.54,
+      -440
+    ],
+    "max": [
+      440,
+      34,
+      440
+    ]
+  }
+}

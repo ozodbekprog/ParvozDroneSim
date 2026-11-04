@@ -1,0 +1,52 @@
+{
+  "cursor": 24094,
+  "events": [
+    {
+      "sequence": 24037,
+      "source": {
+        "tabId": 14803452
+      },
+      "method": "Network.loadingFailed",
+      "params": {
+        "blockedReason": "inspector",
+        "canceled": false,
+        "errorText": "",
+        "requestId": "21880.697",
+        "timestamp": 7863.023126,
+        "type": "Fetch"
+      }
+    },
+    {
+      "sequence": 24089,
+      "source": {
+        "tabId": 14803452
+      },
+      "method": "Network.loadingFailed",
+      "params": {
+        "blockedReason": "inspector",
+        "canceled": false,
+        "errorText": "",
+        "requestId": "21880.708",
+        "timestamp": 7863.831981,
+        "type": "Fetch"
+      }
+    },
+    {
+      "sequence": 24093,
+      "source": {
+        "tabId": 14803452
+      },
+      "method": "Network.loadingFailed",
+      "params": {
+        "blockedReason": "inspector",
+        "canceled": false,
+        "errorText": "",
+        "requestId": "21880.709",
+        "timestamp": 7865.334049,
+        "type": "Fetch"
+      }
+    }
+  ],
+  "hasMore": false,
+  "truncated": false
+}

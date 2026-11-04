@@ -1,0 +1,407 @@
+{
+  "id": "liftoff-the-green-demo-liftoff-05",
+  "blueprints": 73,
+  "visibleInstances": 57,
+  "meshes": 82,
+  "colliders": 134,
+  "inventory": [
+    {
+      "instance": "49",
+      "prefab": "SpawnPointSingle01",
+      "meshes": 0
+    },
+    {
+      "instance": "109",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "92",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "96",
+      "prefab": "CheckpointBox20mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "97",
+      "prefab": "CheckpointBox20mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "98",
+      "prefab": "CheckpointBox10mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "100",
+      "prefab": "CheckpointBox10mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "103",
+      "prefab": "CheckpointBox10mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "104",
+      "prefab": "CheckpointBox10mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "106",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "107",
+      "prefab": "CheckpointBox10mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "108",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "116",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "117",
+      "prefab": "CheckpointBox10mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "118",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "119",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "120",
+      "prefab": "CheckpointBox10mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "180",
+      "prefab": "CheckpointBox10mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "199",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    },
+    {
+      "instance": "204",
+      "prefab": "TriggerBox_ChargeBattery_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "206",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "248",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "207",
+      "prefab": "TriggerBox_RepairPropellers_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "249",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "208",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "209",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "211",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "212",
+      "prefab": "NoticeBoardBattery01",
+      "meshes": 6
+    },
+    {
+      "instance": "213",
+      "prefab": "NoticeBoardRepair01",
+      "meshes": 6
+    },
+    {
+      "instance": "214",
+      "prefab": "LightConeGreen01",
+      "meshes": 1
+    },
+    {
+      "instance": "215",
+      "prefab": "LightConePurple01",
+      "meshes": 1
+    },
+    {
+      "instance": "216",
+      "prefab": "CheckpointBox10mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "217",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "220",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "219",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "223",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "224",
+      "prefab": "LiftoffCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "225",
+      "prefab": "AirflagLiftoffFinishDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "226",
+      "prefab": "AirflagLiftoffFinishDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "250",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "251",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "252",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "253",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "254",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "255",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "256",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "257",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "258",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "259",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "260",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "261",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "262",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "263",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "264",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "265",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "266",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "267",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "268",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "269",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "270",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "232",
+      "prefab": "SpawnPointSingle01",
+      "meshes": 0
+    },
+    {
+      "instance": "271",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "236",
+      "prefab": "LightConeBlue01",
+      "meshes": 1
+    },
+    {
+      "instance": "237",
+      "prefab": "LightConeBlue01",
+      "meshes": 1
+    },
+    {
+      "instance": "238",
+      "prefab": "LightConeBlue01",
+      "meshes": 1
+    },
+    {
+      "instance": "239",
+      "prefab": "LightConeBlue01",
+      "meshes": 1
+    },
+    {
+      "instance": "240",
+      "prefab": "LightConeBlue01",
+      "meshes": 1
+    },
+    {
+      "instance": "241",
+      "prefab": "LightConeBlue01",
+      "meshes": 1
+    },
+    {
+      "instance": "242",
+      "prefab": "LightConeBlue01",
+      "meshes": 1
+    },
+    {
+      "instance": "243",
+      "prefab": "LightConeBlue01",
+      "meshes": 1
+    },
+    {
+      "instance": "244",
+      "prefab": "LightConeYellow01",
+      "meshes": 1
+    },
+    {
+      "instance": "245",
+      "prefab": "LightConeYellow01",
+      "meshes": 1
+    },
+    {
+      "instance": "272",
+      "prefab": "InflatableArchBrandless01",
+      "meshes": 2
+    }
+  ],
+  "lodTriangles": [
+    33921,
+    26065,
+    24549
+  ],
+  "cells": 32,
+  "propMeshes": 58,
+  "ribbonMeshes": 24,
+  "ribbonTriangles": 3322
+}

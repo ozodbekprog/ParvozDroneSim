@@ -1,0 +1,105 @@
+{
+  "id": "luma-5",
+  "name": "Luma 5",
+  "meshes": 25,
+  "triangles": 112451,
+  "mounts": {
+    "frame": [],
+    "motors": [
+      "mount_motor_0",
+      "mount_motor_1",
+      "mount_motor_2",
+      "mount_motor_3"
+    ],
+    "propellers": [
+      "mount_prop_0",
+      "mount_prop_1",
+      "mount_prop_2",
+      "mount_prop_3"
+    ],
+    "camera": [
+      "mount_camera"
+    ],
+    "battery": [
+      "mount_battery"
+    ]
+  },
+  "partBindings": {
+    "frame": [
+      "Frame_SolderingDropFlattened01_0",
+      "Frame_SolderingDropFlattened01 (1)_0",
+      "Frame_FlightControllerDouble01_0",
+      "Frame_Led_Strip_0",
+      "Frame_Led_Strip (1)_0",
+      "Frame_Luma5Frame01_0",
+      "Frame_SolderingDropFlattened01_0.001",
+      "Frame_SolderingDropFlattened01 (1)_0.001",
+      "Frame_XT-60 Plug_0"
+    ],
+    "motors": [
+      "Motor0_Hypetrain2306_Lower_0",
+      "Motor0_Hypetrain2306_Upper_0",
+      "Motor1_Hypetrain2306_Lower_0",
+      "Motor1_Hypetrain2306_Upper_0",
+      "Motor2_Hypetrain2306_Lower_0",
+      "Motor2_Hypetrain2306_Upper_0",
+      "Motor3_Hypetrain2306_Lower_0",
+      "Motor3_Hypetrain2306_Upper_0"
+    ],
+    "propellers": [
+      "Prop0_Gemfan51466HurricaneMCKV2Propeller01_R_0",
+      "Prop1_Gemfan51466HurricaneMCKV2Propeller01_L_0",
+      "Prop2_Gemfan51466HurricaneMCKV2Propeller01_R_0",
+      "Prop3_Gemfan51466HurricaneMCKV2Propeller01_L_0"
+    ],
+    "camera": [
+      "Camera_Fibonacci4Cam01_0"
+    ],
+    "battery": [
+      "Battery_TattuRline6SBattery01_0",
+      "Battery_TattuRline6SBattery01Strap01_0"
+    ]
+  },
+  "motorBindings": [
+    "prop_0",
+    "prop_1",
+    "prop_2",
+    "prop_3"
+  ],
+  "motorPositions": [
+    [
+      0.08673299849033356,
+      0.015522000379860401,
+      0.06926999986171722
+    ],
+    [
+      -0.08673299849033356,
+      0.015522000379860401,
+      0.06926999986171722
+    ],
+    [
+      -0.08673299849033356,
+      0.015522000379860401,
+      -0.06926999986171722
+    ],
+    [
+      0.08673299849033356,
+      0.015522000379860401,
+      -0.06926999986171722
+    ]
+  ],
+  "mass": 0.5954,
+  "bounds": {
+    "min": [
+      -0.15068354491613886,
+      -0.13322057511245888,
+      -0.04183402915118449
+    ],
+    "max": [
+      0.150683542467058,
+      0.13322057286805625,
+      0.09882059693336487
+    ]
+  },
+  "uvConvention": "Blender glTF import/export, no second V flip"
+}

@@ -1,0 +1,6 @@
+# Run under a DIFFERENT Compose project name, with production stopped for acceptance.
+services:
+  game:
+    environment:
+      CAPACITY_TEST_MODE: "1"
+      MAX_MULTIPLAYER_PLAYERS: "100"

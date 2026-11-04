@@ -1,0 +1,136 @@
+{
+  "phases": [
+    {
+      "name": "Map download, parse, assembly and collisions",
+      "ms": 8554.300000000745,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Aircraft download, parse and assembly",
+      "ms": 1111.199999999255,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Surface and reflection preparation",
+      "ms": 36.40000000037253,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Geometry shader compilation",
+      "ms": 1100.9000000003725,
+      "renderMs": 0,
+      "projectMs": 55.09999999962747,
+      "submitMs": 943.5999999996275,
+      "draws": 0,
+      "triangles": 0
+    },
+    {
+      "name": "First rendered frame and post effects",
+      "ms": 10546.400000000373,
+      "renderMs": 10545.199999999255,
+      "projectMs": 200.40000000037253,
+      "submitMs": 10340.099999997765,
+      "draws": 325,
+      "triangles": 5028148
+    },
+    {
+      "name": "Native normal shader preparation",
+      "ms": 8873.199999999255,
+      "renderMs": 7890.299999998882,
+      "projectMs": 1.799999998882413,
+      "submitMs": 8775.89999999851,
+      "draws": 218,
+      "triangles": 3392029
+    }
+  ],
+  "hardware": {
+    "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "custom",
+  "surface": {
+    "normalMaps": true,
+    "textureSize": 512
+  },
+  "batches": {
+    "meshes": 22292,
+    "batches": 166,
+    "ms": 983.7000000011176
+  },
+  "cache": {
+    "idleBytes": 0,
+    "maxIdleBytes": 100663296,
+    "idleEntries": 0,
+    "entries": 5
+  },
+  "models": [
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/model-86db6d5ba657a81a.glb",
+      "parses": 1,
+      "cacheHits": 3324,
+      "readMs": 3251.5999999996275,
+      "parseMs": 3785,
+      "lookupMs": 8.600000001490116,
+      "cloneMs": 295.99999999441206,
+      "clones": 3325
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-01/props-3cb6b41363fd48f8.glb",
+      "parses": 1,
+      "cacheHits": 71,
+      "readMs": 39.40000000037253,
+      "parseMs": 3061.300000000745,
+      "lookupMs": 0.5,
+      "cloneMs": 4.400000000372529,
+      "clones": 72
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 114.69999999925494,
+      "parseMs": 987.1000000014901,
+      "lookupMs": 0.09999999962747097,
+      "cloneMs": 1.8000000026077032,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 31.200000001117587,
+      "parseMs": 463.2999999988824,
+      "lookupMs": 0,
+      "cloneMs": 2.400000000372529,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 78,
+      "parseMs": 764.0999999996275,
+      "lookupMs": 0,
+      "cloneMs": 2,
+      "clones": 34
+    }
+  ],
+  "backend": "WebGL2",
+  "framebuffer": [
+    1280,
+    720
+  ]
+}

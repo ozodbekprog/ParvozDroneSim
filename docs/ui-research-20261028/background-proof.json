@@ -1,0 +1,41 @@
+[
+  {
+    "file": "previews/01.png",
+    "width": 1920,
+    "height": 1080,
+    "area": {
+      "left": 500,
+      "top": 300,
+      "width": 1000,
+      "height": 620
+    },
+    "changedPixels": 0,
+    "totalPixels": 620000
+  },
+  {
+    "file": "previews/02.png",
+    "width": 1920,
+    "height": 1080,
+    "area": {
+      "left": 500,
+      "top": 300,
+      "width": 1000,
+      "height": 620
+    },
+    "changedPixels": 0,
+    "totalPixels": 620000
+  },
+  {
+    "file": "previews/03.png",
+    "width": 1920,
+    "height": 1080,
+    "area": {
+      "left": 500,
+      "top": 300,
+      "width": 1000,
+      "height": 620
+    },
+    "changedPixels": 0,
+    "totalPixels": 620000
+  }
+]

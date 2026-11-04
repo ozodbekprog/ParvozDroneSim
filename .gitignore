@@ -1,0 +1,49 @@
+node_modules/
+dist/
+data/
+.npm-cache/
+.image-patch.*/
+export/
+# Local previews and temporary workspaces, including Python tempfile folders.
+/tmp/
+/tmp????????/
+*.log
+
+tools/bin/
+deploy/production.env
+deploy/backup.env
+deploy/oracle-known-hosts
+
+# Rebuilt from canonical content/ sources; old hashed deliveries accumulate here.
+public/content/assets/
+public/content/import-cache/
+public/qa/
+.beta-test-*/
+.blender-smoke/
+
+# Local secrets and player data never belong in GitHub.
+.env
+.env.*
+*.env
+!*.env.example
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# Blender autosaves and temporary copies; keep the editable .blend itself.
+*.blend[0-9]*
+*.prepared.glb
+*.bak
+*.tmp
+__pycache__/
+
+# Preserve the verified retired-map archive in Git LFS for manual restoration.
+backups/*
+!backups/ironworks-v2-20261013.zip
+!backups/ironworks-v2-20261013.zip.sha256

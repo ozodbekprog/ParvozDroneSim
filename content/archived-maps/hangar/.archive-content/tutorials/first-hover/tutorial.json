@@ -1,0 +1,26 @@
+{
+  "id": "first-hover",
+  "name": "First hover",
+  "map": "hangar",
+  "track": "hangar-sprint",
+  "steps": [
+    {
+      "text": "Raise throttle slowly. Hold a hover above one meter.",
+      "objective": "altitude",
+      "target": 1,
+      "duration": 3
+    },
+    {
+      "text": "Gently pitch forward to gain speed.",
+      "objective": "speed",
+      "target": 2,
+      "duration": 2
+    },
+    {
+      "text": "Return throttle to zero and land.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2
+    }
+  ]
+}

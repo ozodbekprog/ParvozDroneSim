@@ -1,0 +1,59 @@
+{
+  "map": "minus-two-demo",
+  "shadowOnlySourceObjects": 0,
+  "previewSourceHierarchy": "FreezeFrameFinish",
+  "removedPrimitives": 4,
+  "repairedDistanceCells": 20,
+  "models": [
+    {
+      "file": "content/maps/minus-two-demo/model.glb",
+      "neutralized": [
+        "LuGusStoneLogoOFF01",
+        "AirflagLiftoffFinishDark01"
+      ],
+      "bytesBefore": 25411710,
+      "bytesAfter": 23918574,
+      "removedImages": 7
+    },
+    {
+      "file": "content/races/minus-two-demo-liftoff-01/props.glb",
+      "neutralized": [
+        "AirgateLiftoffFinishWhite01",
+        "AirgateLiftoffWhite01",
+        "HerasFencingClothLiftoffBlack01",
+        "HerasFencingClothLiftoffWhite01"
+      ],
+      "bytesBefore": 7285550,
+      "bytesAfter": 5822322,
+      "removedImages": 8
+    },
+    {
+      "file": "content/races/minus-two-demo-liftoff-02/props.glb",
+      "neutralized": [
+        "AirPylon01",
+        "HerasFencingClothLiftoffWhite01"
+      ],
+      "bytesBefore": 6686138,
+      "bytesAfter": 5286806,
+      "removedImages": 6
+    },
+    {
+      "file": "content/races/minus-two-demo-liftoff-03/props.glb",
+      "neutralized": [
+        "LiftoffFlagCrowdControlBarrier01"
+      ],
+      "bytesBefore": 15262654,
+      "bytesAfter": 15113634,
+      "removedImages": 1
+    },
+    {
+      "file": "content/races/minus-two-demo-liftoff-04/props.glb",
+      "neutralized": [
+        "AirgateBig240H300B01luGusStudios01"
+      ],
+      "bytesBefore": 5615578,
+      "bytesAfter": 5398698,
+      "removedImages": 3
+    }
+  ]
+}

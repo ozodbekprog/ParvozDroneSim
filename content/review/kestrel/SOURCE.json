@@ -1,0 +1,15 @@
+{
+  "title": "Drone racing",
+  "author": "3D Husky (@3dhusky)",
+  "authorAtDownload": "https://sketchfab.com/3dhusky",
+  "embeddedAuthorCredit": "Kawasalto (https://sketchfab.com/Kawasalto)",
+  "source": "https://sketchfab.com/3d-models/drone-racing-0b416d03688a43239a550d9dad0a6f34",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "downloaded": "2026-10-08",
+  "original": "original.glb",
+  "downloadFormat": "Sketchfab GLB, 2k textures",
+  "changes": "Original download preserved. Adapted Kestrel assets use normalized orientation and size, corrected opaque materials, semantic rotor pivots, Blender geometry reduction and compressed textures. Derivative assets remain CC-BY-SA-4.0.",
+  "status": "Adaptation in progress; not yet artistically accepted.",
+  "sha256": "de627a6ccc324f50eb2827a5711c27b8f529ee998997d3f04ed9ba62565f7287"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ruins",
+  "name": "Afterlight",
+  "region": "Urban Ruins",
+  "theme": "custom",
+  "seed": 205,
+  "description": "Thread the remnants of a city block in late afternoon light.",
+  "sky": "#9eb4bc",
+  "fog": "#a9aba5",
+  "ground": "#746e66",
+  "sun": "#ffe0b0",
+  "sunPosition": [
+    83,
+    44,
+    -26
+  ],
+  "cloudColor": "#d8d0bb",
+  "wind": [
+    0.8,
+    0,
+    -0.3
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "ruins",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.39,
+      -440
+    ],
+    "max": [
+      440,
+      46.173,
+      440
+    ]
+  }
+}

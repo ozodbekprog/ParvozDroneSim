@@ -1,0 +1,25 @@
+{
+  "region": {
+    "left": 420,
+    "top": 320,
+    "width": 900,
+    "height": 450
+  },
+  "comparisons": [
+    {
+      "option": "01",
+      "totalPixels": 405000,
+      "different": 70760
+    },
+    {
+      "option": "02",
+      "totalPixels": 405000,
+      "different": 70754
+    },
+    {
+      "option": "03",
+      "totalPixels": 405000,
+      "different": 70759
+    }
+  ]
+}

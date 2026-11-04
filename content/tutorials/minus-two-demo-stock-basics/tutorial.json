@@ -1,0 +1,38 @@
+{
+  "id": "minus-two-demo-stock-basics",
+  "name": "Minus Two: Native Gate Practice",
+  "map": "minus-two-demo",
+  "track": "minus-two-demo-stock-practice",
+  "steps": [
+    {
+      "text": "Take off gently and hold above one metre.",
+      "objective": "altitude",
+      "target": 1,
+      "duration": 1
+    },
+    {
+      "text": "Pass through the next original gate.",
+      "objective": "gate",
+      "target": 0,
+      "duration": 0
+    },
+    {
+      "text": "Pass through the next original gate.",
+      "objective": "gate",
+      "target": 1,
+      "duration": 0
+    },
+    {
+      "text": "Pass through the next original gate.",
+      "objective": "gate",
+      "target": 2,
+      "duration": 0
+    },
+    {
+      "text": "Return to the floor and land.",
+      "objective": "land",
+      "target": 0,
+      "duration": 1
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "lf-camera-fibonacci01",
+  "category": "camera",
+  "name": "Fibonacci FPV",
+  "sourcePartId": "CameraFibonacci01",
+  "sourceSpecs": {
+    "weight": 0.012
+  },
+  "physicalSize": [
+    0.020000001415610313,
+    0.020014025270938873,
+    0.022266595624387264
+  ],
+  "mass": 0,
+  "thrust": 1,
+  "response": 1,
+  "drag": 1,
+  "duration": 1,
+  "durability": 1,
+  "cost": 0,
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": [],
+  "compatibleDrones": [
+    "luma-5",
+    "armattan-chameleon",
+    "armattan-gecko",
+    "dquad-addiction"
+  ],
+  "model": "../../shared-assets/liftoff-drone-parts/hangar-delivery.glb",
+  "modelNode": "Part_CameraFibonacci01",
+  "modelLods": [
+    {
+      "model": "../../shared-assets/liftoff-drone-parts/hangar-delivery.glb",
+      "distance": 0,
+      "modelNode": "Part_CameraFibonacci01"
+    },
+    {
+      "model": "../../shared-assets/liftoff-drone-parts/low-delivery.glb",
+      "distance": 12,
+      "modelNode": "Part_CameraFibonacci01"
+    },
+    {
+      "model": "../../shared-assets/liftoff-drone-parts/far-delivery.glb",
+      "distance": 40,
+      "modelNode": "Part_CameraFibonacci01"
+    }
+  ],
+  "lowLod": 1,
+  "mountMatrixByDrone": {
+    "luma-5": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "armattan-chameleon": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "armattan-gecko": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "dquad-addiction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "propellerMountMatrixByBuild": {},
+  "assetLicense": "Proprietary game content; redistribution permission unconfirmed",
+  "assetCredit": "LuGus Studios and original credited drone manufacturers",
+  "assetSource": "https://www.liftoff-game.com/",
+  "attributionFile": "../../shared-assets/liftoff-drone-parts/SOURCE.json",
+  "localOnly": true,
+  "fov": 105
+}

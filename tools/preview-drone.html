@@ -1,0 +1,21 @@
+<!doctype html><html><meta charset="utf-8"><title>Drone material check</title><style>html,body{margin:0;background:#101820;color:white;font:14px sans-serif}#view{width:1280px;height:720px}output{position:absolute;top:8px;left:8px;background:#0009;padding:8px}</style><div id="view"></div><output>Loading drone</output><script type="module">
+import * as THREE from 'three';
+import {World} from '../src/world.js';
+import {GRAPHICS_PRESETS} from '../src/graphics-settings.js';
+import {applyCustomContent} from '../shared/custom-content.js';
+import {resolveBuild,defaultBuild} from '../shared/physics.js';
+import {createDrone} from '../public/content/recipes.js';
+import catalog from '../public/content/catalog.json';
+const q=new URLSearchParams(location.search),output=document.querySelector('output');
+try{
+ applyCustomContent(catalog);
+ const world=new World(document.querySelector('#view'),false,{forceWebGL:q.has('webgl')});await world.ready;
+ world.setGraphics({...GRAPHICS_PRESETS.low,quality:'low',fixedResolution:[1280,720],adaptiveResolution:false});world.presentation='preview';
+ const id=q.get('id')||'luma-5',build=resolveBuild({...defaultBuild(),drone:id,color:catalog.drones.find(d=>d.id===id)?.color});build.forceHighDetail=true;
+ if(q.has('uvCandidate')){build.model='/content/assets/qa/luma-uv-candidate.glb';delete build.modelLods;}
+ const mesh=createDrone(build);await mesh.assetsReady;world.scene.add(mesh);
+ world.scene.background=new THREE.Color('#394855');world.scene.add(new THREE.HemisphereLight('#e4edff','#66675e',2));const sun=new THREE.DirectionalLight('#fff5e9',2);sun.position.set(-2,4,3);world.scene.add(sun);
+ world.camera.fov=42;world.camera.updateProjectionMatrix();world.inspectionCamera={position:JSON.parse(q.get('position')||'[0.32,0.22,0.4]'),target:[0,0,0]};
+ await world.prepareGraphics();world.startAnimation(now=>world.render(now));output.textContent=id+' / Low / 1280x720';output.dataset.ready='true';
+}catch(e){output.textContent=e.message;output.dataset.error='true';}
+</script></html>

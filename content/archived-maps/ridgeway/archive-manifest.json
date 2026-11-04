@@ -1,0 +1,150 @@
+{
+  "id": "ridgeway",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "c0701117a508365af38a31e1c426fa12fb5504559817000274209076ebf73801"
+    },
+    {
+      "file": "build_prototypes.py",
+      "sha256": "1eba3a7a99c122af88ba67ed647e88f3db8fff48ed77a9872e73dac41925d288"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "03b37bf7bd1e999c42b8cb1127bee7e3c44cca8d04a202516765c08ffcb27bc1"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "2f00f5754ab77ecca3fec1dca9e05c2bb30817dd6e7d99268fa936a79596aa14"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "eaf9b31c384e3b1cb202d7345cdce636ae73db2bd67fc0c9a383da2e55186c37"
+    },
+    {
+      "file": "map.json",
+      "sha256": "fac4596f9844614a1597ab50efd8b80e82fc84b6b27e229e4f89ebe60872b36b"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "f0ca125b4846395ef55cce6e4aee256788894063fce841d55362593f3cbf47c3"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-ridgeway-color.png",
+      "sha256": "2f3fe788aeaa76d9d52bfe2603df1c4b0449989ee68fc42f0387c32946f5a2f1"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-ridgeway-normal.png",
+      "sha256": "ecccdc7e7ea3d5d064bd145c6741365769da65b07b10f67f5f245c827c1eb953"
+    },
+    {
+      "file": "textures/blender-painted/fpv-natural-stone-ridgeway-color.png",
+      "sha256": "6a1721571992af78bb7c1aeaade7e27cb5e1f7f91a702aa22d6a2cd6ecf636cb"
+    },
+    {
+      "file": "textures/blender-painted/fpv-natural-stone-ridgeway-normal.png",
+      "sha256": "bf5529064d49bd5a860ff51d1057d9f81e96c4bceed46378d41a2303e7fc27a3"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-ridgeway-color.png",
+      "sha256": "ea9a68b8be0559bd190cb93ea71279a6684fca6b371b44fec99d91998a3c298c"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-ridgeway-normal.png",
+      "sha256": "d0cbda33250ad00b50a2ba37e42010112fa1bab7c3355a334e68a4e69b6d79af"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-brushed-steel-color.png",
+      "sha256": "71f7088c211aae6c6df83ebe125bba7b07ffa10b2ce43266bd5e160379ed2c4b"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-brushed-steel-normal.png",
+      "sha256": "7ece83c00141e15c0d2a73d1f569f02db903dbd9487e240046a53c55344c959a"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-cut-timber-color.png",
+      "sha256": "9520234e21a73596fa7fa68cc0ccd35b4c48f5ddabcb5f7e5f307b9486cc208a"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-cut-timber-normal.png",
+      "sha256": "d7901769cd42c6e594605a0cc11e9547d24bbe6272be33e266056730470715c3"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-natural-stone-color.png",
+      "sha256": "4c510beab81aab98a1f4e3dd8e56d6eb5759f8078696d2800f804a6d5a0e6633"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-natural-stone-normal.png",
+      "sha256": "25451a7277084c22f6a3b6390df014b0fbb663902ca667a7c7a819080096283b"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-pale-stone-stratum-color.png",
+      "sha256": "b336bb2ab1ec79eef8785a4bc924d221079917acb4b9f56a933e205a3bd6b0b9"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-pale-stone-stratum-normal.png",
+      "sha256": "285f4b9156dc0106a22269d670e211e7b4c2901de9f4d949329c0059c0077d9a"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-rubber-and-asphalt-color.png",
+      "sha256": "aac1ad734cbdb9d5ea7c7bbfd8040e32c8801de5e324fe1a0a64bf383791b03c"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-rubber-and-asphalt-normal.png",
+      "sha256": "69cd211ca4ab9356fb50c0d3fea28895022829a045de6caaf6089f4a83da65c6"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-sandstone-stratum-color.png",
+      "sha256": "cd373d14cdd63693afa2af32edaae138103d8e14c48f4dbcf0adf0ca329c1681"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-sandstone-stratum-normal.png",
+      "sha256": "fbcc88869621ffda3065aeef12571308c7a68ddba8b346b54c4b97a50fdc38d2"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-timber-color.png",
+      "sha256": "451f28e3f869f3c447c432b425a87a4d669e2b4fc35a4defe9a3b0138027ec4c"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-timber-normal.png",
+      "sha256": "085b1896448add117c096e12d84e4d88708b4a87183f3593754790c1709f8056"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-warm-plaster-color.png",
+      "sha256": "da70a1044ee8d9a8aa8b22e41129b3b1bc2876aa7bd743bfa7d4c0210c2bb988"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ridgeway-warm-plaster-normal.png",
+      "sha256": "78128b89d0b575c2d00449d73d7019bc62f5934335ed1770ddf30e800796a24f"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "b524e36b68f19d448bbe4b66e3d9acd0295ba706038ec8ff140329fe8c6b3680"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "60b920ff8beb4dd325a4213872c54858700b642cd7a794689508ddca12a6cb72"
+    },
+    {
+      "file": "__pycache__/build_prototypes.cpython-314.pyc",
+      "sha256": "5f801582c616402fa6cac439facf77db3c4fdd1f5f1aef6f9c4379b601c9d2cd"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "ridgeway-bridge-run",
+      "ridgeway-switchback"
+    ],
+    "challenges": [
+      "ridgeway-bridge-precision",
+      "ridgeway-first-ascent",
+      "ridgeway-return-line",
+      "ridgeway-summit-shift"
+    ],
+    "tutorials": [
+      "ridgeway-road-reading"
+    ]
+  },
+  "restore": "Copy this entire folder to content/maps/ridgeway, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

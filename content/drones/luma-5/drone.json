@@ -1,0 +1,1011 @@
+{
+  "id": "luma-5",
+  "name": "Luma 5",
+  "class": "five",
+  "mass": 0.5954,
+  "arm": 0.11099975634192405,
+  "thrustToWeight": 5.6,
+  "motorTau": 0.035,
+  "drag": [
+    0.034,
+    0.045,
+    0.021
+  ],
+  "angularDrag": 0.11,
+  "batterySeconds": 360,
+  "color": "#e5e9ed",
+  "unlock": "starter",
+  "model": "hangar-delivery.glb",
+  "lowLod": 1,
+  "modelLods": [
+    {
+      "model": "hangar-delivery.glb",
+      "distance": 0
+    },
+    {
+      "model": "low-delivery.glb",
+      "distance": 12
+    },
+    {
+      "model": "far-delivery.glb",
+      "distance": 40
+    }
+  ],
+  "modelTransform": {
+    "position": [
+      0,
+      -0.055,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": 1
+  },
+  "motorBindings": [
+    "prop_0",
+    "prop_1",
+    "prop_2",
+    "prop_3"
+  ],
+  "mounts": {
+    "motors": [
+      "mount_motor_0",
+      "mount_motor_1",
+      "mount_motor_2",
+      "mount_motor_3"
+    ],
+    "propellers": [
+      "mount_prop_0",
+      "mount_prop_1",
+      "mount_prop_2",
+      "mount_prop_3"
+    ],
+    "camera": [
+      "mount_camera"
+    ],
+    "battery": [
+      "mount_battery"
+    ]
+  },
+  "partBindings": {
+    "frame": [
+      "Frame_SolderingDropFlattened01_0",
+      "Frame_SolderingDropFlattened01 (1)_0",
+      "Frame_FlightControllerDouble01_0",
+      "Frame_Led_Strip_0",
+      "Frame_Led_Strip (1)_0",
+      "Frame_Luma5Frame01_0",
+      "Frame_SolderingDropFlattened01_0.001",
+      "Frame_SolderingDropFlattened01 (1)_0.001",
+      "Frame_XT-60 Plug_0"
+    ],
+    "motors": [
+      "Motor0_Hypetrain2306_Lower_0",
+      "Motor0_Hypetrain2306_Upper_0",
+      "Motor1_Hypetrain2306_Lower_0",
+      "Motor1_Hypetrain2306_Upper_0",
+      "Motor2_Hypetrain2306_Lower_0",
+      "Motor2_Hypetrain2306_Upper_0",
+      "Motor3_Hypetrain2306_Lower_0",
+      "Motor3_Hypetrain2306_Upper_0"
+    ],
+    "propellers": [
+      "Prop0_Gemfan51466HurricaneMCKV2Propeller01_R_0",
+      "Prop1_Gemfan51466HurricaneMCKV2Propeller01_L_0",
+      "Prop2_Gemfan51466HurricaneMCKV2Propeller01_R_0",
+      "Prop3_Gemfan51466HurricaneMCKV2Propeller01_L_0"
+    ],
+    "camera": [
+      "Camera_Fibonacci4Cam01_0"
+    ],
+    "battery": [
+      "Battery_TattuRline6SBattery01_0",
+      "Battery_TattuRline6SBattery01Strap01_0"
+    ],
+    "antenna": [
+      "Antenna_AntennaSoupapeMicro01_0"
+    ]
+  },
+  "colorBindings": {
+    "body": [
+      "Frame_Luma5Frame01_0"
+    ],
+    "led": [
+      "Frame_Led_Strip_0",
+      "Frame_Led_Strip (1)_0"
+    ]
+  },
+  "led": "#3edcf5",
+  "contentStatus": "User-authorized online multiplayer test; redistribution license unconfirmed",
+  "credits": "LuGus Studios and original credited drone manufacturers",
+  "assetLicense": "Proprietary game content; redistribution permission unconfirmed",
+  "assetCredit": "LuGus Studios and original credited drone manufacturers",
+  "assetSource": "https://www.liftoff-game.com/",
+  "groundClearance": 0.055,
+  "collision": {
+    "spheres": [
+      {
+        "position": [
+          0,
+          -0.01,
+          -0.025
+        ],
+        "radius": 0.045
+      },
+      {
+        "position": [
+          0.08673299849033356,
+          -0.03,
+          0.06926999986171722
+        ],
+        "radius": 0.025
+      },
+      {
+        "position": [
+          -0.08673299849033356,
+          -0.03,
+          0.06926999986171722
+        ],
+        "radius": 0.025
+      },
+      {
+        "position": [
+          -0.08673299849033356,
+          -0.03,
+          -0.06926999986171722
+        ],
+        "radius": 0.025
+      },
+      {
+        "position": [
+          0.08673299849033356,
+          -0.03,
+          -0.06926999986171722
+        ],
+        "radius": 0.025
+      },
+      {
+        "position": [
+          0.13373299849033354,
+          -0.02,
+          0.06926999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.11996701720610128,
+          -0.02,
+          0.10250401857748495
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.08673299849033356,
+          -0.02,
+          0.11626999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.05349897977456582,
+          -0.02,
+          0.10250401857748495
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.03973299849033356,
+          -0.02,
+          0.06926999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.053498979774565816,
+          -0.02,
+          0.03603598114594949
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.08673299849033354,
+          -0.02,
+          0.022269999861717224
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.11996701720610128,
+          -0.02,
+          0.03603598114594948
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.03973299849033356,
+          -0.02,
+          0.06926999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.05349897977456582,
+          -0.02,
+          0.10250401857748495
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.08673299849033356,
+          -0.02,
+          0.11626999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.11996701720610128,
+          -0.02,
+          0.10250401857748495
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.13373299849033354,
+          -0.02,
+          0.06926999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.1199670172061013,
+          -0.02,
+          0.03603598114594949
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.08673299849033357,
+          -0.02,
+          0.022269999861717224
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.05349897977456583,
+          -0.02,
+          0.03603598114594948
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.03973299849033356,
+          -0.02,
+          -0.06926999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.05349897977456582,
+          -0.02,
+          -0.03603598114594949
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.08673299849033356,
+          -0.02,
+          -0.022269999861717224
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.11996701720610128,
+          -0.02,
+          -0.03603598114594949
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.13373299849033354,
+          -0.02,
+          -0.06926999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.1199670172061013,
+          -0.02,
+          -0.10250401857748495
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.08673299849033357,
+          -0.02,
+          -0.11626999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          -0.05349897977456583,
+          -0.02,
+          -0.10250401857748496
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.13373299849033354,
+          -0.02,
+          -0.06926999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.11996701720610128,
+          -0.02,
+          -0.03603598114594949
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.08673299849033356,
+          -0.02,
+          -0.022269999861717224
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.05349897977456582,
+          -0.02,
+          -0.03603598114594949
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.03973299849033356,
+          -0.02,
+          -0.06926999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.053498979774565816,
+          -0.02,
+          -0.10250401857748495
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.08673299849033354,
+          -0.02,
+          -0.11626999986171722
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0.11996701720610128,
+          -0.02,
+          -0.10250401857748496
+        ],
+        "radius": 0.018
+      },
+      {
+        "position": [
+          0,
+          -0.031,
+          0.08
+        ],
+        "radius": 0.012
+      }
+    ]
+  },
+  "stockParts": {
+    "frame": "lf-luma5frame01",
+    "camera": "lf-camera-fibonacci01",
+    "battery": "lf-tattu-rline6sbattery01",
+    "motors": "lf-hypetrain2306motor01",
+    "propellers": "lf-gemfan51466hurricane-mckv2propeller01",
+    "antenna": "lf-antenna-soupape-micro01"
+  },
+  "sourcePhysics": {
+    "partIds": {
+      "frame": "Luma5Frame01",
+      "camera": "CameraFibonacci01",
+      "battery": "TattuRline6SBattery01",
+      "motors": "Hypetrain2306Motor01",
+      "propellers": "Gemfan51466HurricaneMCKV2Propeller01"
+    },
+    "parts": {
+      "frame": {
+        "weight": 0.219,
+        "batteryAtBottom": 0,
+        "maxPropellerSize": 5.1,
+        "hasDragOverride": 0,
+        "dragOverrideValue": 0.82
+      },
+      "camera": {
+        "weight": 0.012
+      },
+      "battery": {
+        "weight": 0.226,
+        "mAh": 1300,
+        "voltagePerCell": 3.7,
+        "numberOfCells": 6,
+        "cellResistance": 0.003,
+        "cRatingCont": 95,
+        "cRatingBurst": 190
+      },
+      "motors": {
+        "weight": 0.03,
+        "size": 2306,
+        "diameter": 23,
+        "StatorLength": 6,
+        "velocityConstant": 2450,
+        "maxPower": 300,
+        "maxBatteryCells": 5,
+        "noLoadI": 0.5,
+        "noLoadV": 10,
+        "internalResistance": 0.048,
+        "invertedDirection": 0
+      },
+      "propellers": {
+        "weight": 0.0042,
+        "diameter": 5,
+        "pitch": 3.6,
+        "blades": 3,
+        "propConstant": 1.2
+      }
+    },
+    "motorPositions": [
+      [
+        0.08673299849033356,
+        0.015522000379860401,
+        0.06926999986171722
+      ],
+      [
+        -0.08673299849033356,
+        0.015522000379860401,
+        0.06926999986171722
+      ],
+      [
+        -0.08673299849033356,
+        0.015522000379860401,
+        -0.06926999986171722
+      ],
+      [
+        0.08673299849033356,
+        0.015522000379860401,
+        -0.06926999986171722
+      ]
+    ],
+    "sizes": {
+      "frame": [
+        0.16649963451288607,
+        0.025,
+        0.16649963451288607
+      ],
+      "camera": [
+        0.020000001415610313,
+        0.020014025270938873,
+        0.022266595624387264
+      ],
+      "battery": [
+        0.04586672596633434,
+        0.03983235917985439,
+        0.07888755574822426
+      ],
+      "motors": [
+        0.027999992482364178,
+        0.031639618158806115,
+        0.02799999713897705
+      ],
+      "propellers": [
+        0.10198462381958961,
+        0.008108439782517962,
+        0.11758138984441757
+      ]
+    },
+    "positions": {
+      "battery": [
+        0,
+        0.025,
+        0
+      ],
+      "camera": [
+        0,
+        0,
+        0.055499878170962025
+      ]
+    },
+    "antenna": {
+      "sourcePartId": "AntennaSoupapeMicro01",
+      "specifications": {
+        "weight": 0.0016,
+        "isAngled": 0
+      },
+      "size": [
+        0.010157543234527111,
+        0.06634528329595923,
+        0.010157543234527111
+      ]
+    }
+  },
+  "assetLicenseURL": "https://www.liftoff-game.com/",
+  "assetChanges": "Recovered authored meshes, mounting transforms and specifications; Blender assembly, texture-preserving PBR conversion and LOD export. Aerodynamics are calibrated simulation estimates, not manufacturer thrust measurements.",
+  "attributionFile": "SOURCE.json",
+  "localOnly": true,
+  "visualDetails": {
+    "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+    "modelLods": [
+      {
+        "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+        "distance": 0
+      },
+      {
+        "model": "../../shared-assets/drone-details/low-delivery.glb",
+        "distance": 12
+      },
+      {
+        "model": "../../shared-assets/drone-details/far-delivery.glb",
+        "distance": 40
+      }
+    ],
+    "lowLod": 1,
+    "frameNode": "luma_5_ElectricalFrame",
+    "batteryNodes": {
+      "lf-tattu-rline6sbattery01": "luma_5_ElectricalBattery_lf_tattu_rline6sbattery01",
+      "lf-tattu-rline4sbattery01": "luma_5_ElectricalBattery_lf_tattu_rline4sbattery01",
+      "lf-ahtech-infinity-battery01": "luma_5_ElectricalBattery_lf_ahtech_infinity_battery01"
+    },
+    "localOnly": true,
+    "attributionFile": "../../shared-assets/drone-details/SOURCE.json"
+  },
+  "accessories": {
+    "actionCamera": {
+      "id": "front-hd-action-camera",
+      "name": "Front HD action camera",
+      "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+      "modelLods": [
+        {
+          "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+          "distance": 0,
+          "modelNode": "luma_5_ActionCamera"
+        },
+        {
+          "model": "../../shared-assets/drone-details/low-delivery.glb",
+          "distance": 12,
+          "modelNode": "luma_5_ActionCamera"
+        },
+        {
+          "model": "../../shared-assets/drone-details/far-delivery.glb",
+          "distance": 40,
+          "modelNode": "luma_5_ActionCamera"
+        }
+      ],
+      "lowLod": 1,
+      "modelNode": "luma_5_ActionCamera",
+      "mountMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "mass": 0.133,
+      "dragArea": 0.0018,
+      "centerOfMass": [
+        1.7695128917694092e-8,
+        0.0794433057308197,
+        0.04295627772808075
+      ],
+      "cosmeticOnly": true,
+      "assetLicense": "Proprietary game content; redistribution permission unconfirmed",
+      "assetCredit": "LuGus Studios and originally credited manufacturers",
+      "assetSource": "https://www.liftoff-game.com/",
+      "localOnly": true,
+      "attributionFile": "../../shared-assets/drone-details/SOURCE.json",
+      "sourcePartId": "ActionCamFrontHDMountv1Luma501",
+      "sourceSpecs": {
+        "weight": 0.133,
+        "hasMount": 0
+      }
+    }
+  },
+  "customization": {
+    "sourceFrame": "Luma5Frame01",
+    "slots": {
+      "camera": [
+        {
+          "name": "CameraSlot",
+          "partType": 2,
+          "overridePart": null,
+          "position": {
+            "m_X": 0,
+            "m_Y": 0.0003,
+            "m_Z": -0.0157
+          },
+          "rotation": {
+            "m_W": 1,
+            "m_X": 0,
+            "m_Y": 0,
+            "m_Z": 0
+          },
+          "scale": {
+            "m_X": 1,
+            "m_Y": 1,
+            "m_Z": 1
+          },
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0.0337,
+            0.0564,
+            1
+          ]
+        }
+      ],
+      "actionCamera": [
+        {
+          "name": "ActionCamSlot",
+          "partType": 128,
+          "overridePart": null,
+          "position": {
+            "m_X": 0,
+            "m_Y": -0.0653,
+            "m_Z": -0.0747
+          },
+          "rotation": {
+            "m_W": 1,
+            "m_X": 0,
+            "m_Y": 0,
+            "m_Z": 0
+          },
+          "scale": {
+            "m_X": 1,
+            "m_Y": 1,
+            "m_Z": 1
+          },
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "motors": [
+        {
+          "name": "MotorLFSlot",
+          "partType": 4,
+          "overridePart": null,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "matrix": [
+            0.08715583899065149,
+            0,
+            0.9961946896715699,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -0.9961946896715699,
+            0,
+            0.08715583899065149,
+            0,
+            0.086733,
+            0.015522,
+            0.06927,
+            1
+          ]
+        },
+        {
+          "name": "MotorRFSlot",
+          "partType": 4,
+          "overridePart": null,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "matrix": [
+            -0.9961946917759839,
+            0,
+            -0.08715581493710865,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0.08715581493710865,
+            0,
+            -0.9961946917759839,
+            0,
+            -0.086733,
+            0.015522,
+            0.06927,
+            1
+          ]
+        },
+        {
+          "name": "MotorLBSlot",
+          "partType": 4,
+          "overridePart": null,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "matrix": [
+            0.9961946982193733,
+            0,
+            0.08715574128886558,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -0.08715574128886558,
+            0,
+            0.9961946982193733,
+            0,
+            0.086733,
+            0.015522,
+            -0.06927,
+            1
+          ]
+        },
+        {
+          "name": "MotorRBSlot",
+          "partType": 4,
+          "overridePart": null,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "matrix": [
+            -0.08715570438677811,
+            0,
+            -0.996194701447887,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0.996194701447887,
+            0,
+            -0.08715570438677811,
+            0,
+            -0.086733,
+            0.015522,
+            -0.06927,
+            1
+          ]
+        }
+      ],
+      "battery": [
+        {
+          "name": "BatterySlot",
+          "partType": 16,
+          "overridePart": null,
+          "position": {
+            "m_X": 0,
+            "m_Y": -0.039632097,
+            "m_Z": 0.025899995
+          },
+          "rotation": {
+            "m_W": 1,
+            "m_X": 0,
+            "m_Y": 0,
+            "m_Z": 0
+          },
+          "scale": {
+            "m_X": 1,
+            "m_Y": 1,
+            "m_Z": 1
+          },
+          "matrix": [
+            0.9999999999998581,
+            0,
+            -5.326322799999623e-7,
+            0,
+            0,
+            1,
+            0,
+            0,
+            5.326322799999623e-7,
+            0,
+            0.9999999999998581,
+            0,
+            1.3795173388837622e-8,
+            0.043367903000000006,
+            -0.016500005000003676,
+            1
+          ]
+        }
+      ],
+      "antenna": [
+        {
+          "name": "AntennaSlot",
+          "partType": 32,
+          "overridePart": null,
+          "position": {
+            "m_X": 0.0002,
+            "m_Y": -0.0185,
+            "m_Z": 0.0144
+          },
+          "rotation": {
+            "m_W": 0.88701075,
+            "m_X": -0.46174872,
+            "m_Y": -4.8648104e-7,
+            "m_Z": -2.1568141e-8
+          },
+          "scale": {
+            "m_X": 1,
+            "m_Y": 1,
+            "m_Z": 1
+          },
+          "matrix": [
+            0.9999999999989135,
+            -4.1100166932320075e-7,
+            -0.0000014155782705323011,
+            0,
+            -9.238332671152713e-7,
+            0.5735762182779214,
+            -0.8191521969848733,
+            0,
+            0.000001148614951478868,
+            0.8191521969852912,
+            0.5735762182769186,
+            0,
+            7.669904860372907e-9,
+            0.021100000000000004,
+            -0.0855999998934756,
+            1
+          ]
+        }
+      ]
+    },
+    "rules": [
+      {
+        "category": "antenna",
+        "operation": "allow",
+        "sourcePartIds": [
+          "AntennaSoupapeMicro01"
+        ],
+        "allowBlank": false
+      },
+      {
+        "category": "actionCamera",
+        "operation": "allow",
+        "sourcePartIds": [
+          "ActionCamFrontHDMountv1Luma501",
+          "ActionCamMountLuma501"
+        ],
+        "allowBlank": true
+      },
+      {
+        "category": "antenna",
+        "operation": "isAngled",
+        "value": false
+      }
+    ],
+    "hiddenNodes": []
+  }
+}

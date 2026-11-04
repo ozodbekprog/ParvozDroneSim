@@ -1,0 +1,45 @@
+{
+  "id": "forest",
+  "name": "Mossline",
+  "region": "Forest Gates",
+  "theme": "custom",
+  "seed": 521,
+  "description": "A technical course between tall pines and morning mist.",
+  "sky": "#a6c3ce",
+  "fog": "#a2b9aa",
+  "ground": "#66765a",
+  "sun": "#fff7d6",
+  "sunPosition": [
+    40,
+    58,
+    -35
+  ],
+  "cloudColor": "#e1ece3",
+  "wind": [
+    0.7,
+    0,
+    1.2
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "forest",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -1.121,
+      -440
+    ],
+    "max": [
+      440,
+      34,
+      440
+    ]
+  }
+}

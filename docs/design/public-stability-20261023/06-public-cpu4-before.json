@@ -1,0 +1,191 @@
+{
+  "capturedAt": "2026-10-23T09:58:56.772Z",
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "scope": "Published 21 October baseline, warm/mixed cache; CPU4 applied after startup; functional diagnostics only",
+  "client": "https://parvoz-drone-sim.duckdns.org/assets/index-7TSF7k3X.js",
+  "marks": [
+    {
+      "name": "cpu-4-requested",
+      "at": 12386
+    },
+    {
+      "name": "first-flight-start",
+      "at": 73642.6000000001
+    }
+  ],
+  "flightReadyAt": 86141.8999999999,
+  "tasks": [
+    {
+      "at": 1004,
+      "ms": 130
+    },
+    {
+      "at": 4006.399999999907,
+      "ms": 316
+    },
+    {
+      "at": 4985.899999999907,
+      "ms": 281
+    },
+    {
+      "at": 8006.700000000186,
+      "ms": 56
+    },
+    {
+      "at": 8243.299999999814,
+      "ms": 93
+    },
+    {
+      "at": 35456,
+      "ms": 72
+    },
+    {
+      "at": 39938.5,
+      "ms": 61
+    },
+    {
+      "at": 67673.20000000019,
+      "ms": 73
+    },
+    {
+      "at": 74214.79999999981,
+      "ms": 939
+    },
+    {
+      "at": 80409.29999999981,
+      "ms": 61
+    },
+    {
+      "at": 80473.5,
+      "ms": 67
+    },
+    {
+      "at": 80541.5,
+      "ms": 63
+    },
+    {
+      "at": 80622.20000000019,
+      "ms": 64
+    },
+    {
+      "at": 82091.3999999999,
+      "ms": 349
+    },
+    {
+      "at": 85093.8999999999,
+      "ms": 51
+    },
+    {
+      "at": 85197.3999999999,
+      "ms": 78
+    },
+    {
+      "at": 89114.5,
+      "ms": 69
+    },
+    {
+      "at": 90114.5,
+      "ms": 65
+    },
+    {
+      "at": 105976.1000000001,
+      "ms": 69
+    },
+    {
+      "at": 186413,
+      "ms": 59
+    },
+    {
+      "at": 222389.1000000001,
+      "ms": 54
+    }
+  ],
+  "errors": [],
+  "visibility": [],
+  "documentFocus": true,
+  "framebuffer": [
+    [
+      836,
+      420
+    ]
+  ],
+  "graphics": {
+    "adaptiveResolution": false,
+    "resolution": 0.65,
+    "shadows": false,
+    "antialiasing": false,
+    "ambientOcclusion": false,
+    "bloom": false,
+    "sunShafts": false,
+    "clouds": false,
+    "exposure": 1.2,
+    "motionBlur": false,
+    "reflections": false,
+    "normalMaps": false,
+    "textureSize": 256,
+    "lodDistanceScale": 0.75,
+    "anisotropy": 1,
+    "lodMinimum": 1,
+    "quality": "custom",
+    "automaticPreset": "low"
+  },
+  "hud": "Minus Two\nСвободный полёт · Одиночный\nAngle · FPV\nP -13° · R 0°\nСвободный полёт\n15\nkm/h\nВремя полёта\n02:14.78\n97%\nEsc\nПауза",
+  "resources": [
+    {
+      "url": "/content/assets/maps/hangar-c03-demo/thumbnail-28b7f936f8211309.png",
+      "start": 67681.5,
+      "ms": 1009.3999999999069,
+      "transfer": 207852,
+      "status": 200,
+      "encoded": 207552
+    },
+    {
+      "url": "/content/assets/maps/liftoff-arena-demo/thumbnail-b6322ccf86a7fa75.png",
+      "start": 67682.20000000019,
+      "ms": 1011.5999999996275,
+      "transfer": 263307,
+      "status": 200,
+      "encoded": 263007
+    },
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/thumbnail-fb217f599e7d9d48.png",
+      "start": 67683.29999999981,
+      "ms": 1007.7000000001863,
+      "transfer": 152093,
+      "status": 200,
+      "encoded": 151793
+    },
+    {
+      "url": "/content/assets/maps/liftoff-the-green-demo/thumbnail-6208126024749332.png",
+      "start": 67684.3999999999,
+      "ms": 993.5,
+      "transfer": 55565,
+      "status": 200,
+      "encoded": 55265
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/thumbnail-6de46fd92fc8c91e.jpg",
+      "start": 67685.1000000001,
+      "ms": 1006,
+      "transfer": 66989,
+      "status": 200,
+      "encoded": 66689
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "start": 75392.5,
+      "ms": 5015.899999999907,
+      "transfer": 10517200,
+      "status": 200,
+      "encoded": 10516900
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "start": 75394,
+      "ms": 5031.200000000186,
+      "transfer": 10299548,
+      "status": 200,
+      "encoded": 10299248
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Tashkent",
+  "source": "prepare_figma.py",
+  "output": "prepared/hangar-editable.html",
+  "selfContained": true,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "domCards": 6,
+  "imageElements": 7,
+  "physicalScaleSections": 3,
+  "sourceSceneSha256": "946781fccc9951c42e75651bd4ee399e20d874e203c11ceb349240c9cb8175f9",
+  "outputSha256": "ad9f4f4b37df42b42ca9b6f19588aee43ee4386e54c866abd1132bf0ec09406b",
+  "figmaFileCreated": false,
+  "figmaImportPerformed": false,
+  "browserVerification": "Recorded separately in figma-browser-check.json",
+  "reason": "Figma tools absent this turn; plugin catalog reports installed=false"
+}

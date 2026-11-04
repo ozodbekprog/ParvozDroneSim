@@ -1,0 +1,86 @@
+{
+  "input": "content/shared-assets/workbench/model.glb",
+  "output": "content/shared-assets/workbench/delivery.glb",
+  "trianglesBeforeInstancing": 13310,
+  "meshPrimitives": 15,
+  "materials": 3,
+  "textures": [
+    {
+      "name": "metal_office_desk_nor_gl",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "metal_office_desk_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "metal_office_desk_metal-metal_office_desk_rough",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "screwdrivers_02_nor_gl",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "screwdrivers_02_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "screwdrivers_02_metal-screwdrivers_02_rough",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "bench_vice_01_nor_gl",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "bench_vice_01_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "bench_vice_01_metal-bench_vice_01_rough",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_texture_basisu",
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ]
+}

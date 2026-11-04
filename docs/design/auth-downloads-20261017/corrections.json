@@ -1,0 +1,13 @@
+{
+  "method": "built-in image_gen",
+  "corrections": [
+    {
+      "path": "C:/Users/User/.codex/generated_images/01a13c45-501d-7b03-92da-d62487ad9ff5/exec-5caf5eb6-8a98-4eb9-8883-9b8554daa35c.png",
+      "prompt": "Edit only these details of this existing desktop game UI concept board. Preserve both screen compositions, entire interface, colors, scene, drone, controls, typography, all sizes. Remove the small brown performance/debug telemetry strip (FPS, ms/frame, CPU, draw calls, resolution) from the upper right of BOTH game screens, restoring the underlying dark ceiling cleanly. Change the large outside-board title at the very top from 'Sign in' to 'A · Sign in'. Change the outside-board title between the two screens from 'Downloads' to 'A · Downloads'. Keep all text inside the actual game screens unchanged. Do not add any other elements or change the design."
+    },
+    {
+      "path": "C:/Users/User/.codex/generated_images/01a13c45-501d-7b03-92da-d62487ad9ff5/exec-38a7d797-2b83-40c5-b437-1ed5431888f2.png",
+      "prompt": "Edit exactly ONE text label in this existing desktop game UI concept board. In the light horizontal caption strip between the two game screens, replace the erroneous 'A · Sign in' with 'B · Sign in'. Preserve every other element, all layout, colors, controls, scene, drone, text, typography and proportions unchanged. Do not redesign anything. The bottom caption remains 'B · Side form / downloads drawer'."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "nightgrid",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "9fdd44701d7fd8a743814f51af893a03dcb3a1eac20a665ed04cde8cc971d840"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "4577c49e6cb148a1366a3275c48d85c3d37dfa7b39a4e55429e399d2095a1393"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "91bd8ef9f3caacd2c919284a9318d129848b94b9bdfe973eb6428f913cd59ccc"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "884dcda35533d3d0667ab9122b7c37b1b4e4e060b5d50d251259c83339383cf5"
+    },
+    {
+      "file": "map.json",
+      "sha256": "40208b4f7770fb3856fc0618ace60c0c87af641107197f5ba43fae1be8c1ca43"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "4362ecf83a911b3b031d316cd2202e45699b00c2c61a54d1aa5e71f64f0434a3"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-nightgrid-color.png",
+      "sha256": "c14e2f1d319e9cf51cf3a955c50e2e61bb8e8b44929afdbe98d717a66edfd223"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-nightgrid-normal.png",
+      "sha256": "6a725c88055e76d24dec4cb51464c3d164c3261251347356dd8795a1cd078662"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-nightgrid-color.png",
+      "sha256": "ec2f2d07cb089f27ca8313bfc031a3c08d395c62db05a9a9765bcb88035fae62"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-nightgrid-normal.png",
+      "sha256": "108f3060d737dc2e42bcdc46441eb0a2ee2db55ca019173a811a8efb2c66762a"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-brushed-steel-color.png",
+      "sha256": "fd4287b01285a4a37fb11f6ace503fc6dca4adcecf59e68172f0c141e819cd0f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-brushed-steel-normal.png",
+      "sha256": "0c548f7e401689de828ae2e895746868a6831b2515f1d726c19a9ad187b373b7"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-cut-timber-color.png",
+      "sha256": "782544ab2cd573b18e87c25fbfab2e1d0c7e718f213db25b69f787bf24340205"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-cut-timber-normal.png",
+      "sha256": "bff53b33b64e16f0fa7b2b78aeeb452a2afb3ef440e1a52048ca9a65f4f788e5"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-natural-stone-color.png",
+      "sha256": "3319f5bd039a82c7ff807b15259cc36b0b868d83e1a0b62c027c8f63e7cf4c4f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-natural-stone-normal.png",
+      "sha256": "1fd2dc155908fa2885b77648a60f9f7b2a2e044cab14330b8bf0313d6e7912f4"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-pale-stone-stratum-color.png",
+      "sha256": "c965a682b7446bc74fea8f02bfd108223c15f835c10f198535ed07c3c8fdfaec"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-pale-stone-stratum-normal.png",
+      "sha256": "6d1c77cd0bedf67f87b54fff7b56d103fea10df1181bc824f0b2166401be2d3f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-rubber-and-asphalt-color.png",
+      "sha256": "cf7c4bc0e7ff8801cec4dd60b8e3d0b8bafb3273c3d459b3b839473b004fbdf6"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-rubber-and-asphalt-normal.png",
+      "sha256": "226db41adcd57a81f202f03620774b35ea7fc93209114de05f73c7edbaf0c184"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-sandstone-stratum-color.png",
+      "sha256": "710be59782e67592996b75539447158e7c65b0e40e97dba2c3b8d0e973e12cc3"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-sandstone-stratum-normal.png",
+      "sha256": "896a25c4f303fb58cc4a4361f48fbe4ed9553eaa020f44d70d3c9cdf4a7dbbce"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-timber-color.png",
+      "sha256": "778372dda87f5bde613968d2d5e7fd79fab94872dabfa3a5bb0601c316bba436"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-timber-normal.png",
+      "sha256": "aac7995724c2ee05d63da8af463cc57f8a4a72ca89ef87df88bf0628f07fd889"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-warm-plaster-color.png",
+      "sha256": "7948a8a526946cab029f40a4fd69c7406d46e02e434b0a37a6870b2cfc3428b5"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-nightgrid-warm-plaster-normal.png",
+      "sha256": "37eb31eea816afd3ff389ada2bda33465ca06ea4a1b3cc507250b839534f8a5d"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "55f2197173b85fc92033355ba57f9946039e456bb4ea77ff5ecbbe7e5ac77d92"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "d176dfd22f991d05876376b8d8bcf150944fe10327ea39ce6417af1069700593"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "nightgrid-rooftop",
+      "nightgrid-streetline"
+    ],
+    "challenges": [
+      "nightgrid-afterhours",
+      "nightgrid-courier",
+      "nightgrid-high-line",
+      "nightgrid-roof-relay"
+    ],
+    "tutorials": []
+  },
+  "restore": "Copy this entire folder to content/maps/nightgrid, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

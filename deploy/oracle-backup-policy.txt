@@ -1,0 +1,2 @@
+Allow dynamic-group Default/liftoff-backup-vm to read buckets in tenancy where target.bucket.name = 'liftoff-backups'
+Allow dynamic-group Default/liftoff-backup-vm to manage objects in tenancy where all {target.bucket.name = 'liftoff-backups', any {request.permission = 'OBJECT_INSPECT', request.permission = 'OBJECT_READ', request.permission = 'OBJECT_CREATE', request.permission = 'OBJECT_OVERWRITE', request.permission = 'OBJECT_DELETE'}}

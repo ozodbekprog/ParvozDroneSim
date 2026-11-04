@@ -1,0 +1,292 @@
+{
+  "phases": [
+    {
+      "name": "Map download, parse, assembly and collisions",
+      "ms": 6731.899999999907,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Aircraft download, parse and assembly",
+      "ms": 874.8999999999069,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Surface and reflection preparation",
+      "ms": 27.800000000046566,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Geometry shader compilation",
+      "ms": 2524.399999999907,
+      "renderMs": 0,
+      "projectMs": 95.80000000004657,
+      "submitMs": 1784.8000000000466,
+      "draws": 0,
+      "triangles": 0
+    },
+    {
+      "name": "First rendered frame and post effects",
+      "ms": 23.300000000046566,
+      "renderMs": 21.899999999906868,
+      "projectMs": 1.6999999999534339,
+      "submitMs": 17.5999999998603,
+      "draws": 442,
+      "triangles": 5028148
+    },
+    {
+      "name": "First frame pipeline detail",
+      "pipelines": 1,
+      "pipelineMs": 0.09999999986030161,
+      "objects": 300,
+      "top": [
+        {
+          "name": "",
+          "material": "Renderer_output",
+          "ms": 1.5999999998603016
+        },
+        {
+          "name": "Runtime_OSB10001002",
+          "material": "OSB10001",
+          "ms": 0.4000000001396984
+        },
+        {
+          "name": "",
+          "material": "",
+          "ms": 0.39999999990686774
+        },
+        {
+          "name": "Runtime_DirectionArrowWhite01046",
+          "material": "DirectionArrowWhite01",
+          "ms": 0.30000000004656613
+        },
+        {
+          "name": "Runtime_NoticeBoardFrame01002",
+          "material": "NoticeBoardFrame01",
+          "ms": 0.2999999998137355
+        },
+        {
+          "name": "Scenery instances 83",
+          "material": "Leaves_0.001",
+          "ms": 0.20000000018626451
+        },
+        {
+          "name": "Scenery instances 55",
+          "material": "Optimized Bark Material.001",
+          "ms": 0.20000000018626451
+        },
+        {
+          "name": "Runtime_TrafficCone01003",
+          "material": "TrafficCone01",
+          "ms": 0.20000000018626451
+        },
+        {
+          "name": "Runtime_DiscConeYellow01002",
+          "material": "DiscConeYellow01",
+          "ms": 0.20000000018626451
+        },
+        {
+          "name": "Runtime_DirectionArrowWhite01050",
+          "material": "DirectionArrowWhite01",
+          "ms": 0.20000000018626451
+        },
+        {
+          "name": "Runtime_DirectionArrowWhite01039",
+          "material": "DirectionArrowWhite01",
+          "ms": 0.20000000018626451
+        },
+        {
+          "name": "Runtime_DirectionArrowWhite01047",
+          "material": "DirectionArrowWhite01",
+          "ms": 0.20000000018626451
+        }
+      ]
+    },
+    {
+      "name": "Moving instance CPU",
+      "ms": 918.1999999999534,
+      "renderMs": 274.40000000060536,
+      "projectMs": 28.300000000046566,
+      "submitMs": 183.00000000046566,
+      "draws": 442,
+      "triangles": 5041191
+    },
+    {
+      "name": "Moving instance detail",
+      "frames": 20,
+      "cullingMs": 14.699999999487773,
+      "uploadMs": 11.799999999348074,
+      "top": [
+        {
+          "name": "Repeated_PineValleyRuntime_Mesh_12055_2",
+          "material": "Branches_1.010",
+          "ms": 6.800000000046566
+        },
+        {
+          "name": "Scenery instances 38",
+          "material": "Branches_0.022",
+          "ms": 5.300000000279397
+        },
+        {
+          "name": "Scenery instances 39",
+          "material": "Fronds_1.001",
+          "ms": 4.900000000139698
+        },
+        {
+          "name": "Scenery instances 47",
+          "material": "Leaves_3.016",
+          "ms": 3.800000000046566
+        },
+        {
+          "name": "Scenery instances 46",
+          "material": "Branches_0.016",
+          "ms": 3.1000000000931323
+        },
+        {
+          "name": "Scenery instances 44",
+          "material": "Fronds_2.013",
+          "ms": 3.0999999998603016
+        },
+        {
+          "name": "Scenery instances 45",
+          "material": "Branches_1.016",
+          "ms": 2.7999999998137355
+        },
+        {
+          "name": "",
+          "material": "",
+          "ms": 2.300000000046566
+        },
+        {
+          "name": "Scenery batch 34",
+          "material": "Native tiled terrain",
+          "ms": 2.1000000005587935
+        },
+        {
+          "name": "Scenery instances 83",
+          "material": "Leaves_0.001",
+          "ms": 1.7000000001862645
+        },
+        {
+          "name": "Scenery batch 23",
+          "material": "Native tiled terrain",
+          "ms": 1.5999999998603016
+        },
+        {
+          "name": "Scenery batch 98",
+          "material": "Native tiled terrain",
+          "ms": 1.5000000002328306
+        },
+        {
+          "name": "",
+          "material": "Renderer_output",
+          "ms": 1.5000000002328306
+        },
+        {
+          "name": "Scenery batch 103",
+          "material": "Native tiled terrain",
+          "ms": 1.4000000006053597
+        },
+        {
+          "name": "Scenery instances 42",
+          "material": "Branches_0.025",
+          "ms": 1.4000000001396984
+        },
+        {
+          "name": "Scenery batch 35",
+          "material": "Native tiled terrain",
+          "ms": 1.3999999992083758
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "gpu": "intel gen-9",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "low",
+  "surface": {
+    "normalMaps": false,
+    "textureSize": 256
+  },
+  "batches": {
+    "meshes": 22292,
+    "batches": 115,
+    "ms": 809.6999999999534
+  },
+  "cache": {
+    "idleBytes": 0,
+    "maxIdleBytes": 100663296,
+    "idleEntries": 0,
+    "entries": 5
+  },
+  "models": [
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/model-86db6d5ba657a81a.glb",
+      "parses": 1,
+      "cacheHits": 3324,
+      "readMs": 2574.8000000000466,
+      "parseMs": 2903.600000000093,
+      "lookupMs": 6.799999999580905,
+      "cloneMs": 275.40000000037253,
+      "clones": 3325
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-01/props-3cb6b41363fd48f8.glb",
+      "parses": 1,
+      "cacheHits": 71,
+      "readMs": 25.399999999906868,
+      "parseMs": 2515.5,
+      "lookupMs": 0.19999999995343387,
+      "cloneMs": 4.7000000001862645,
+      "clones": 72
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 91,
+      "parseMs": 778.1999999999534,
+      "lookupMs": 0,
+      "cloneMs": 1.5000000002328306,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 29.600000000093132,
+      "parseMs": 474.5999999998603,
+      "lookupMs": 0.19999999995343387,
+      "cloneMs": 0.8000000000465661,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 61.39999999990687,
+      "parseMs": 616.7000000001863,
+      "lookupMs": 0,
+      "cloneMs": 1.8999999999068677,
+      "clones": 34
+    }
+  ],
+  "backend": "WebGPU",
+  "framebuffer": [
+    1280,
+    720
+  ]
+}

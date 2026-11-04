@@ -1,0 +1,10 @@
+{
+  "id": "liftoff-arena-demo-timed",
+  "name": "Liftoff Arena: Timed Course",
+  "description": "Complete the selected original Arena racing route.",
+  "target": 240,
+  "reward": 200,
+  "hints": [],
+  "map": "liftoff-arena-demo",
+  "track": "liftoff-arena-demo-liftoff-01"
+}

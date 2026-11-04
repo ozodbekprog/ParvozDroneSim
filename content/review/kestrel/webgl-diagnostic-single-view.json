@@ -1,0 +1,162 @@
+{
+  "targetHardwareVerified": false,
+  "reports": [
+    {
+      "schemaVersion": 1,
+      "diagnostic": true,
+      "date": "2026-10-08T08:19:35.166Z",
+      "backend": "WebGL2",
+      "requestedBackend": "webgl",
+      "look": "worn",
+      "participants": 8,
+      "visibleDrones": 7,
+      "droneLod": "auto",
+      "pass": 1,
+      "map": "ironworks-v2-review",
+      "routeVersion": 1,
+      "contentStatus": "art-review-slice",
+      "droneStatus": "husky-kestrel-candidate",
+      "scope": "renderer-only; no flight physics or network; solo includes one inspection drone",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "targetHardwareVerified": false,
+      "complete": true,
+      "valid": true,
+      "invalidReasons": [],
+      "warmupMs": 1000,
+      "durationMs": 20000,
+      "summary": {
+        "frames": 16,
+        "elapsedMs": 20179.100000000006,
+        "meanFps": 0.7928995842232803,
+        "medianMs": 1011.1499999999942,
+        "p95Ms": 3022.5,
+        "p99Ms": 3022.5,
+        "onePercentLow": 0.3308519437551696,
+        "maxFrameMs": 3022.5,
+        "framesOver50Ms": 16,
+        "peakTriangles": 185016,
+        "peakDrawCalls": 213,
+        "peakTextureMiB": 64.08455276489258,
+        "textureMemoryMeasured": true,
+        "meanCpuMs": 161.89374999981374
+      },
+      "meetsFrameBudget": false,
+      "meetsGeometryBudget": true,
+      "meetsTextureBudget": true,
+      "samples": [
+        {
+          "triangles": 185016,
+          "drawCalls": 213,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 7.5,
+          "ms": 1011.1000000000058
+        },
+        {
+          "triangles": 185016,
+          "drawCalls": 213,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 1610.300000011921,
+          "ms": 2022.5
+        },
+        {
+          "triangles": 180392,
+          "drawCalls": 211,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 864.5,
+          "ms": 2022.2999999999884
+        },
+        {
+          "triangles": 169611,
+          "drawCalls": 184,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 75,
+          "ms": 3022.5
+        },
+        {
+          "triangles": 169611,
+          "drawCalls": 184,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 6.100000008940697,
+          "ms": 1011.2000000000116
+        },
+        {
+          "triangles": 169611,
+          "drawCalls": 184,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 3.5999999940395355,
+          "ms": 1011.1999999999825
+        },
+        {
+          "triangles": 167299,
+          "drawCalls": 183,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 4.9000000059604645,
+          "ms": 1011.2000000000116
+        },
+        {
+          "triangles": 172323,
+          "drawCalls": 184,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 2.0999999940395355,
+          "ms": 1011.2000000000116
+        },
+        {
+          "triangles": 172323,
+          "drawCalls": 184,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 2.5,
+          "ms": 1011.1999999999825
+        },
+        {
+          "triangles": 176091,
+          "drawCalls": 185,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 2.2999999970197678,
+          "ms": 1000.2000000000116
+        },
+        {
+          "triangles": 176731,
+          "drawCalls": 187,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 2.0999999940395355,
+          "ms": 1011.1000000000058
+        },
+        {
+          "triangles": 176496,
+          "drawCalls": 184,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 2.5999999940395355,
+          "ms": 1000.0999999999767
+        },
+        {
+          "triangles": 165310,
+          "drawCalls": 158,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 1.9000000059604645,
+          "ms": 1011
+        },
+        {
+          "triangles": 139043,
+          "drawCalls": 94,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 2,
+          "ms": 1011.1000000000058
+        },
+        {
+          "triangles": 102613,
+          "drawCalls": 21,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 1,
+          "ms": 1000.2000000000116
+        },
+        {
+          "triangles": 102613,
+          "drawCalls": 21,
+          "textureMiB": 64.08455276489258,
+          "cpuMs": 1.8999999910593033,
+          "ms": 1011
+        }
+      ]
+    }
+  ]
+}

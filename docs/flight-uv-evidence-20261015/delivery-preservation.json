@@ -1,0 +1,70 @@
+[
+  {
+    "file": "content\\maps\\minus-two-demo\\model.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\minus-two-demo-liftoff-01\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\minus-two-demo-liftoff-02\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\minus-two-demo-liftoff-03\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\minus-two-demo-liftoff-04\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\minus-two-demo-liftoff-05\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\maps\\hangar-c03-demo\\model.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\hangar-c03-demo-liftoff-01\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\hangar-c03-demo-liftoff-02\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\maps\\liftoff-arena-demo\\model.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\liftoff-arena-demo-liftoff-01\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\liftoff-arena-demo-liftoff-02\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\liftoff-arena-demo-liftoff-03\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\liftoff-arena-demo-liftoff-04\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\liftoff-arena-demo-liftoff-05\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\liftoff-arena-demo-liftoff-06\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  },
+  {
+    "file": "content\\races\\liftoff-arena-demo-liftoff-07\\props.glb",
+    "textureBindingsAndGeometryCountsUnchanged": true
+  }
+]

@@ -1,0 +1,16 @@
+import {NodeIO} from '@gltf-transform/core';
+import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
+import {meshopt} from '@gltf-transform/functions';
+import {MeshoptDecoder,MeshoptEncoder} from 'meshoptimizer';
+import {readFileSync,copyFileSync} from 'node:fs';
+await MeshoptDecoder.ready;await MeshoptEncoder.ready;
+const io=new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'meshopt.decoder':MeshoptDecoder,'meshopt.encoder':MeshoptEncoder});
+const source='content/maps/ironworks-v2/model.glb',doc=await io.read(source);
+const material=doc.getRoot().listMaterials().find(m=>m.getName()==='overhead_crane_trim');
+if(!material)throw new Error('Crane material not found');
+const texture=doc.createTexture('overhead_crane_trim_diff_1k').setImage(readFileSync('D:/DroneLiftoffArtBuild/ironworks-site/crane-trim-diff.ktx2')).setMimeType('image/ktx2');
+material.setBaseColorTexture(texture).setBaseColorFactor([1,1,1,1]);material.getBaseColorTextureInfo().setTexCoord(0);
+await doc.transform(meshopt({encoder:MeshoptEncoder,level:'medium'}));
+await io.write('D:/DroneLiftoffArtBuild/ironworks-site/model.glb',doc);
+copyFileSync('D:/DroneLiftoffArtBuild/ironworks-site/model.glb',source);
+console.log('Crane trim now uses the authored diffuse texture, not its RGB mask.');

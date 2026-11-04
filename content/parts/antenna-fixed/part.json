@@ -1,0 +1,11 @@
+{
+  "id": "fixed",
+  "category": "antenna",
+  "name": "Standard antenna",
+  "compatibleDrones": [
+    "kestrel"
+  ],
+  "mass": 0,
+  "cost": 0,
+  "materials": []
+}

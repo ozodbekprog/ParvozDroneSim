@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-26T06:47:39.561Z",
+  "method": "Real World scene loads, count reachable typed-array payloads, then compare matching exported JPEG RGB frames. Counts include inactive LOD/source data. Excludes driver/JS/renderer overhead and external caches. No FPS, process memory, loading-time or UHD 620 inference.",
+  "hardware": {
+    "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "backend": "WebGL2",
+  "quality": "low",
+  "targetHardwareVerified": false,
+  "before": {
+    "initialDrawCalls": 325,
+    "initialTriangles": 5028148,
+    "batchGeometryAttributeBytes": 653904630,
+    "sceneGeometryAttributeBytes": 870700164,
+    "reachableBackingBufferBytes": 879856020,
+    "instancedMeshes": 0,
+    "multiDrawBatches": 166
+  },
+  "after": {
+    "initialDrawCalls": 294,
+    "initialTriangles": 5028148,
+    "batchGeometryAttributeBytes": 221122360,
+    "sceneGeometryAttributeBytes": 437917894,
+    "reachableBackingBufferBytes": 447566429,
+    "instancedMeshes": 57,
+    "multiDrawBatches": 58
+  },
+  "avoidedBatchGeometryBytes": 432782270,
+  "avoidedSceneGeometryBytes": 432782270,
+  "frames": [
+    {
+      "angle": "overview",
+      "cameraAndSettingsIdentical": true,
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "beforeSha256": "5232b32c93a1ad0dba5f59db1028566107b4ddfd124e06c15b19426ce5b5c63d",
+      "afterSha256": "5232b32c93a1ad0dba5f59db1028566107b4ddfd124e06c15b19426ce5b5c63d",
+      "pixels": 921600,
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "angle": "gate",
+      "cameraAndSettingsIdentical": true,
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "beforeSha256": "aa7abf701610a2e417170fa768de6b033ca57e38b33e85ae295112f07b886db4",
+      "afterSha256": "aa7abf701610a2e417170fa768de6b033ca57e38b33e85ae295112f07b886db4",
+      "pixels": 921600,
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "angle": "reverse",
+      "cameraAndSettingsIdentical": true,
+      "framebuffer": [
+        1280,
+        720
+      ],
+      "beforeSha256": "63360d226b7f1af974d891776d3a04ddc1af50e131202fe251c4156d2ec67405",
+      "afterSha256": "63360d226b7f1af974d891776d3a04ddc1af50e131202fe251c4156d2ec67405",
+      "pixels": 921600,
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0,
+      "maxChannelDifference": 0
+    }
+  ]
+}

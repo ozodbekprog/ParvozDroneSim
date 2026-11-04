@@ -1,0 +1,23 @@
+{
+  "id": "minus-two-demo-timed-loop",
+  "name": "Minus Two: Garage Against the Clock",
+  "description": "Complete our garage course within ninety seconds. Follow the gate arrows through the parking aisles.",
+  "target": 90,
+  "reward": 200,
+  "hints": [
+    {
+      "afterGate": 0,
+      "text": "Keep the drone level below the ceiling utilities."
+    },
+    {
+      "afterGate": 2,
+      "text": "Use the wide aisles for turns; watch the next gate arrow."
+    },
+    {
+      "afterGate": 5,
+      "text": "Return through the parking bays towards the starting aisle."
+    }
+  ],
+  "map": "minus-two-demo",
+  "track": "minus-two-demo-garage-loop"
+}

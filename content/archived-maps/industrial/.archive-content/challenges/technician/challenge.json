@@ -1,0 +1,8 @@
+{
+  "id": "technician",
+  "name": "Pressure Test",
+  "map": "industrial",
+  "track": "industrial-loop",
+  "target": 298,
+  "reward": 200
+}

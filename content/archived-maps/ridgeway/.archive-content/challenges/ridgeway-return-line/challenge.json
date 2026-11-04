@@ -1,0 +1,22 @@
+{
+  "id": "ridgeway-return-line",
+  "name": "Return Line",
+  "map": "ridgeway",
+  "track": "ridgeway-bridge-run",
+  "target": 184,
+  "reward": 350,
+  "hints": [
+    {
+      "afterGate": 0,
+      "text": "Follow the pale service road to the next bend."
+    },
+    {
+      "afterGate": 2,
+      "text": "Use the bridge and shelter as turn markers; keep room from the pylons."
+    },
+    {
+      "afterGate": 4,
+      "text": "On the return leg, set up wide before the downhill gate."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "pinecrest-canopy-loop",
+  "name": "Pinecrest Canopy Loop",
+  "map": "pinecrest",
+  "laps": 2,
+  "spawn": {
+    "position": [
+      -107.160004,
+      5.4,
+      -64.760002
+    ],
+    "yaw": 2.657814
+  },
+  "gates": [
+    {
+      "position": [
+        -96.0,
+        5.4,
+        -86.0
+      ],
+      "yaw": 2.657814,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -32.0,
+        6.75,
+        -102.0
+      ],
+      "yaw": 1.611869,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        50.0,
+        6.75,
+        -92.0
+      ],
+      "yaw": 1.177098,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        98.0,
+        8.1,
+        -48.0
+      ],
+      "yaw": 0.396081,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        96.0,
+        8.1,
+        18.0
+      ],
+      "yaw": -0.335968,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        54.0,
+        6.75,
+        78.0
+      ],
+      "yaw": -1.013672,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -26.0,
+        5.4,
+        94.0
+      ],
+      "yaw": -1.967505,
+      "width": 9.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -94.0,
+        5.4,
+        16.0
+      ],
+      "yaw": -2.770701,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-27",
+  "tool": "built-in image_gen.imagegen; no API/CLI fallback",
+  "status": "static ideation only; user has not selected a direction",
+  "source_reference": "../evidence/public-workbench-parts.png",
+  "requested_dimensions": "1920 x 1080; natural 16:9",
+  "actual_dimensions_note": "Read image metadata for delivered pixel dimensions; the request does not guarantee those exact pixels.",
+  "shared_brief": "Three independent single-screen Workbench proposals for PARVOZ Drone Simulator; preserve recognizable Luma 5 quad with white propellers, black frame and yellow-black battery from the attached public screenshot. Existing Parts/Appearance/Tuning and six equipment categories, motor comparison, one primary apply/save action, back to hangar. Three read-only characteristic bars for mass, motor response and battery energy with units and neutral previous-value markers. Russian labels, readable body type, purposeful spacing and limited simultaneous information. No global green-good/red-bad semantics, no dashboard card grid, neon HUD, fake telemetry, browser/device frame or concept number. UI proposals only, not game implementation or a claim of improved 3D graphics. Date anchor 2026-10-27; no dates displayed.",
+  "display_order": [
+    {
+      "file": "01.png",
+      "direction_in_generation_prompt": "Competition pit lane",
+      "brief_summary": "Charcoal, off-white, restrained vermilion; athletic condensed titles, squared corners and fine separators. Left part categories and candidate rows, right inspection scene, anchored characteristics below. Dominant save action. Avoid card nesting and decorative HUD."
+    },
+    {
+      "file": "02.png",
+      "direction_in_generation_prompt": "Flight instrument bench",
+      "brief_summary": "Matte navy/slate, off-white, restrained cyan. Center-left inspection scene, continuous right instrument sheet: part choice, specifications, immediate characteristic comparison, apply action. Equipment categories beneath scene. Technical readable typography; full metrics via disclosure."
+    },
+    {
+      "file": "03.png",
+      "direction_in_generation_prompt": "Daylight engineering studio",
+      "brief_summary": "Cool silver-white/light blue-grey, graphite, deep cobalt. Continuous light work surface, slim left equipment navigation, aligned part comparison, large inspection view and bottom horizontal measurement bench. Calm engineering catalog character, minimal borders, no cream/serif/terracotta template."
+    }
+  ],
+  "known_limits": [
+    "Raster concepts contain invented lighting, visual details and some component data. These are not assets or measurements for the game.",
+    "The generated wordmarks are unapproved. Keep existing product identity unless separately approved.",
+    "Some navigation, selected-state/value consistency and scale geometry need correction in a revised design after the user selects a direction.",
+    "Choice of a concept is not approval to implement: the user requested a separate plan and approval first."
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "capturedAt": "2026-10-23T09:47:41.059Z",
+  "scope": "Local Chrome implementation diagnostics, not public or target hardware acceptance",
+  "client": "http://127.0.0.1:2569/assets/index-BW3toLKF.js",
+  "marks": [
+    {
+      "name": "hangar-start-collision-blocked",
+      "at": 24812.100000000093
+    },
+    {
+      "name": "flight-collision-blocked",
+      "at": 80812.20000000019
+    },
+    {
+      "name": "failed-flight-shown",
+      "at": 122448.1000000001,
+      "error": "Failed to fetch"
+    }
+  ],
+  "readyObservedAt": 13724.399999999907,
+  "hangarReadyAt": 30065.600000000093,
+  "flightReadyAt": 125819.70000000019,
+  "tasks": [
+    {
+      "at": 397.39999999990687,
+      "ms": 162
+    },
+    {
+      "at": 588,
+      "ms": 94
+    },
+    {
+      "at": 25394.899999999907,
+      "ms": 56
+    },
+    {
+      "at": 25476.5,
+      "ms": 236
+    },
+    {
+      "at": 25813.299999999814,
+      "ms": 63
+    },
+    {
+      "at": 27417.799999999814,
+      "ms": 366
+    },
+    {
+      "at": 27836.200000000186,
+      "ms": 65
+    },
+    {
+      "at": 28106.600000000093,
+      "ms": 1214
+    },
+    {
+      "at": 81544.20000000019,
+      "ms": 268
+    },
+    {
+      "at": 84319.3999999999,
+      "ms": 104
+    },
+    {
+      "at": 122782.20000000019,
+      "ms": 282
+    }
+  ],
+  "errors": [],
+  "visibility": [],
+  "resources": [
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "start": 25288.799999999814,
+      "ms": 164.3000000002794,
+      "network": 0,
+      "status": 200,
+      "encoded": 26340900
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "start": 25289.200000000186,
+      "ms": 46.09999999962747,
+      "network": 0,
+      "status": 200,
+      "encoded": 3409196
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "start": 27791.299999999814,
+      "ms": 42.90000000037253,
+      "network": 0,
+      "status": 200,
+      "encoded": 11030204
+    },
+    {
+      "url": "/content/assets/drones/armattan-chameleon/thumbnail-18db4e5afc46b458.png",
+      "start": 30148.100000000093,
+      "ms": 2.6999999997206032,
+      "network": 0,
+      "status": 200,
+      "encoded": 7460
+    },
+    {
+      "url": "/content/assets/drones/armattan-gecko/thumbnail-bd595666b18ef47c.png",
+      "start": 30148.299999999814,
+      "ms": 3.400000000372529,
+      "network": 0,
+      "status": 200,
+      "encoded": 9201
+    },
+    {
+      "url": "/content/assets/drones/dquad-addiction/thumbnail-ea0186cc6a4e8ec4.png",
+      "start": 30148.5,
+      "ms": 4.2000000001862645,
+      "network": 0,
+      "status": 200,
+      "encoded": 8120
+    },
+    {
+      "url": "/content/assets/drones/kestrel/thumbnail-602d58ee87e1b714.png",
+      "start": 30148.600000000093,
+      "ms": 5.199999999720603,
+      "network": 0,
+      "status": 200,
+      "encoded": 7156
+    },
+    {
+      "url": "/content/assets/drones/luma-5/thumbnail-6098bac019b24ee7.png",
+      "start": 30148.899999999907,
+      "ms": 5.5,
+      "network": 0,
+      "status": 200,
+      "encoded": 7887
+    },
+    {
+      "url": "/content/assets/maps/hangar-c03-demo/thumbnail-28b7f936f8211309.png",
+      "start": 74997.3999999999,
+      "ms": 5.5,
+      "network": 0,
+      "status": 200,
+      "encoded": 207552
+    },
+    {
+      "url": "/content/assets/maps/liftoff-arena-demo/thumbnail-b6322ccf86a7fa75.png",
+      "start": 74997.5,
+      "ms": 6,
+      "network": 0,
+      "status": 200,
+      "encoded": 263007
+    },
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/thumbnail-fb217f599e7d9d48.png",
+      "start": 74997.70000000019,
+      "ms": 5.199999999720603,
+      "network": 0,
+      "status": 200,
+      "encoded": 151793
+    },
+    {
+      "url": "/content/assets/maps/liftoff-the-green-demo/thumbnail-6208126024749332.png",
+      "start": 74997.79999999981,
+      "ms": 4.2000000001862645,
+      "network": 0,
+      "status": 200,
+      "encoded": 55265
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/thumbnail-6de46fd92fc8c91e.jpg",
+      "start": 74998,
+      "ms": 4.600000000093132,
+      "network": 0,
+      "status": 200,
+      "encoded": 66689
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "start": 82040.5,
+      "ms": 0,
+      "network": 0,
+      "status": 0,
+      "encoded": 0
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "start": 82040.70000000019,
+      "ms": 67.29999999981374,
+      "network": 0,
+      "status": 200,
+      "encoded": 10516900
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "start": 82041.1000000001,
+      "ms": 63.299999999813735,
+      "network": 0,
+      "status": 200,
+      "encoded": 10299248
+    },
+    {
+      "url": "/content/assets/drones/kestrel/source-f34a43818bab7bc0.json",
+      "start": 82178.29999999981,
+      "ms": 2.5,
+      "network": 0,
+      "status": 200,
+      "encoded": 732
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "start": 82806.29999999981,
+      "ms": 0,
+      "network": 0,
+      "status": 0,
+      "encoded": 0
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "start": 84319.1000000001,
+      "ms": 0,
+      "network": 0,
+      "status": 0,
+      "encoded": 0
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "start": 122526.3999999999,
+      "ms": 9.700000000186265,
+      "network": 0,
+      "status": 200,
+      "encoded": 405890
+    }
+  ],
+  "hud": "Minus Two\nСвободный полёт · Одиночный\nAngle · FPV\nP 0° · R 0°\nСвободный полёт\n0\nkm/h\nВремя полёта\n00:03.21\n100%\nEsc\nПауза",
+  "framebuffer": [
+    [
+      1248,
+      564
+    ]
+  ],
+  "adaptiveResolution": true
+}

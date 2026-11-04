@@ -1,0 +1,1062 @@
+{
+  "date": "2026-10-15",
+  "status": "reviewed-with-documented-exclusions",
+  "windowsScale": "150% unchanged",
+  "requiredSize": [
+    1920,
+    1080
+  ],
+  "coverageFile": "coverage.json",
+  "entries": [
+    {
+      "file": "screenshots/03-race-setup.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3735155e31d7b7f6b43105648515caf6413cb2f9267ca056a323d7dd54ebb58e",
+      "accepted": false,
+      "reason": "Shows the preceding Free Flight setup.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/06-drone-selection.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c2b5a53044a727b06ca1dcd41aa3bdc023de2af1062256ecf8093e6aa0d6e3a2",
+      "accepted": false,
+      "reason": "Workshop and aircraft have not finished loading.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/07-luma-selection.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "636798c388562d8d79d653cf5f27b58ed0c33e9e40108cfbeedf01e4e5230054",
+      "accepted": false,
+      "reason": "Workshop and aircraft have not finished loading.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/08-workbench-parts.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4d3a1a6f6e2bd32c3e36b735b5f6fe43d99e07a092aea13c15af6ee983deba1b",
+      "accepted": false,
+      "reason": "Aircraft has not finished loading.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/09-workbench-motors.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b1bf3350030f281cd082dda6e7b7b9636e003282c9a54c48a430fb0fac86bdec",
+      "accepted": false,
+      "reason": "Aircraft has not finished loading.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/10-workbench-battery.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2e6b6ac494c06af3405598ec04eb68e8f258c3cf96e99d83c2c982d5f00fd40f",
+      "accepted": false,
+      "reason": "Aircraft has not finished loading.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/11-workbench-appearance.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "be34082bfc2d36987e0383094eb6d501e8ee382259d16e2c1ce15cd6a1627750",
+      "accepted": false,
+      "reason": "Aircraft has not finished loading.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/12-workbench-tuning.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c6413d35bcbc710397f8452f80e81fecb25c1eb12f76cdc92c0200ace3348fbc",
+      "accepted": false,
+      "reason": "Tuning controls are visible, but the aircraft preview is unfinished.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/13-flight-performance.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c6413d35bcbc710397f8452f80e81fecb25c1eb12f76cdc92c0200ace3348fbc",
+      "accepted": false,
+      "reason": "Shows Tuning, not the performance dialog.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/16-settings-graphics.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "96813628f6a3ccf54cb4a7f7b1dffed9fa89441397c3d3c7d6ac747d3cf97a04",
+      "accepted": false,
+      "reason": "Shows Camera, not Graphics.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/17-career.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "237cbb3da8f5167bf93d2ea58cff264d988da40ca5b3ed42db004513c25b2467",
+      "accepted": false,
+      "reason": "Shows the preceding main menu.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/33-preparing-multiplayer.jpg",
+      "width": 1920,
+      "height": 755,
+      "sha256": "453bed0c074dc2dcf63bd8583bca4bcd5eb87e14b052fc0d4f062b0381194967",
+      "accepted": false,
+      "reason": "Cropped 1920×755 lobby; not Preparing flight.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/39-solo-loading.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "db008f52b7a165ebf0b3d241e453f9d59b1e32ab6ca2b86bc225725a98f3d0ee",
+      "accepted": false,
+      "reason": "Shows the following flight HUD, not the loader.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/42-flight-results.jpg",
+      "width": 1920,
+      "height": 755,
+      "sha256": "d17f54f344ea290e44df29230d06235a72d8bcbd3a07e3c441171f86a4f3ea5d",
+      "accepted": false,
+      "reason": "Cropped 1920×755; full results retake required.",
+      "source": "Production baseline, protocol 9",
+      "available": false
+    },
+    {
+      "file": "screenshots/01-main.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5082e172746b74a1bb1765ba6d372fca65072d86a6c956eda7755c1b83959bf1",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/02-flight-setup.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "434ab8233cf4ff1164140e82daeb8d5b8ad57549ad5ac11a230081ce78ae57f1",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/04-time-trial.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e51dc610ef791632ac13b2aed11254a50160b63687f02d6d42714969916e0441",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/05-freestyle-setup.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "11309f83edaf007e1d6bf96561a7f09b7dcd42b10370e7f5198c9d6005b03a23",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/14-settings-controls.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f7f7634fc574bd039f4c75db1abfbf975818ffc12defd4b410ccd6ac9f56179d",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/15-settings-camera.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "96813628f6a3ccf54cb4a7f7b1dffed9fa89441397c3d3c7d6ac747d3cf97a04",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/18-flight-school.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8f723d627c379a375ecd9d016a6df05b91d96bc6cc0d3cf5714f6d5e73be0597",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/19-weekly-challenge.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8c9bd27cb9baa7cab672b727ce01d69cf25854526b804ecee6851d9c4a5bf06c",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/20-replays.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9f4a117b8f3c7671a8e3f63a58343685ef953e55828642cb0704fe2e9399b88b",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/21-pilot-profile.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d0e71cf6107e37338870357bbf6f72350ca3831efdc87ca92087e88b48743c35",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/22-profile-achievements.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cff2e80b15e2f7121d11d2c9f909bc6645998cdab7c9173f1b86e99a42a7e599",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/23-profile-rankings.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "333d99bc2b9e610cb2b0872f48b7b5c090b240ebbc0a0fcbf3af8ad14f5aa6da",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/24-profile-account.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "87c561473964def16bd49840ae27741ed3859bbdaa9d0c821bdd3d732ef911c4",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/25-pilot-access.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5c053f414cc022b60562c17e551fa0d7dd32d70f6a1681f24ad48cd12d5bfe6e",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/26-password-recovery.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "fb0a3dc9b47ff9917d67fc0f3f511a7a341d03194420282b48fcf313914e1cb8",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/27-controls-help.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "fb866557c876057913bb6394fb6997faffdd6b96b90b791b704bce7e6e73b285",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/28-model-credits.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "78b201c4745910da7f56e9b4fba4726d63b2089eb4f2e46b3d8679e3dd186b07",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/29-multiplayer-browser.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "73bc05d854ff55316f340d9ff7bf7dad8d8c2ea5ceec6c0bbad661a0dc77414f",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/30-championship.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c184a0a04461b8600ab35e6e32a00b5932f5165292cce686a52d6a920d525794",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/31-create-room.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "85fd51346551f92f04011c9b4f85640e44afbb6ace05c5fe89303064a747c207",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/32-multiplayer-map-setup.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0d3566c47e419bb35f293617cdc6e95bc101979fb226b267102c801ef23e33e9",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/34-room-lobby.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e24819f124709f5b09a88aa8c3c8f9cf2930797dd2332968f5f93d31c797e4b9",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/35-multiplayer-flight.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c22ebc8b63feabdbac43aa697e684b3957a9debc0bf3841dd4d89ef50231bdfe",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/36-flight-chat.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "812362ea4751e0b141e065bb3b2550dd48173fee4d03dd385dab688697e3a0a9",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/37-multiplayer-pause.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "581b97f735e4ca0f6312ee94852a72c581d3a68f75f7366faec98ccfe2cde6b3",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/38-exit-flight.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2974b924dd2d6fa3113804fa26a37196a470c9ec510df9c9cfeaf27ed8520bfa",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/40-solo-freestyle-hud.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "db008f52b7a165ebf0b3d241e453f9d59b1e32ab6ca2b86bc225725a98f3d0ee",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/41-solo-pause.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ae28d207d63fcb057bcc5723436e2c97b1afcc122d0aff78c80064126db87298",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/43-save-replay-dialog.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "21a0436e38fd9d338a97046295ae3950e4b8905f0728a8b772bb2f93c091c610",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/44-replay-library.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9f4a117b8f3c7671a8e3f63a58343685ef953e55828642cb0704fe2e9399b88b",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "screenshots/45-replay-viewer.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2757da1525f25075f409432e54228f39018fa7e4ed0423599ae4db55cfc451f0",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Production baseline, protocol 9"
+    },
+    {
+      "file": "after/career.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a0667f60aa75250e78293dd69d8187f11d5208399c20eb40abe05381f4541708",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/chameleon-stock-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4ba85c2522048b59f780433725aa86a21be2d190f67e41e48a0cdceb98dfda8c",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/chameleon-workbench-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4d1211f39e3b55b5015405de2a01fcdcd293728ba47bc676c2292722c55cb1b7",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/dquad-battery-6s-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a515cf82520d6a865519572b1528738c90607330a642ea9c99077bca967fd9dd",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/dquad-battery-infinity-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7e6d4a6cf312f5858cfb409553b902978fa4605a9a20a21a42362c690491211c",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/dquad-fibonacci-camera-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "95e13e1a35d5a777a5e2954bbe7944ad86423042d0589ede60d1bae874e7d28c",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/dquad-flight-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a44e84ea41773bb9e4d0622622fac32227ae741ffeac98e685d57d0fce1a55b1",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/dquad-hq-propellers-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3902fc6094a191c1a2c1401f80fcbf5fb7b0d202361b2945abab7b584bf1c735",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/dquad-motors-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0fb24185cb9bdf5e225d1372aa1c95e63917f799280191e4eef2cc5c6fdce35c",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/dquad-propellers-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8a5553de42a47945d9593daf670e1ce14c8c6ae5b3f7d8856ef57b4f0dad6c87",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/dquad-rotorriot-camera-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4d3df3c44974e0b88b40d7675d3eb0c3e81e4cc3526925cb8c65112f8edd55f8",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/dquad-stock-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "624575fdc75f6f87e8459475667ad45bd9ea0a44d5d71e13195625a4ea21e7c1",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/dquad-workbench-frame.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4a969e49cc30cbb77d7416d469240ffd08e2e9f731b03c449dc5c458f60421e3",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/flight-loading-slow-fixture.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "075640476994b1e3cbf2dc26f8163b1a857bd033ec51c2b4d3fe5f97081eb406",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Exact client with a controlled local network fixture, protocol 10"
+    },
+    {
+      "file": "after/flight-performance.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2b43f6ca47f16e749abf7728b3f038ffdd991f70cf9f855848eb7b01f9484031",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/flight-school.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6fd33afd1924b62445d8be830a0a0487847484b31bcc45e78f3a2f5629663466",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/gecko-battery-2s-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "46e8b01b172cd8e1ef56299f1072a99c84efeeae97d7f82107d8faf6dd18deca",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/gecko-bushmaster-2800-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "fc2d5c2edabb3a2d2e44dfc4bd675d189b88015321ea342a45d9d8bf6e156933",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/gecko-fibonacci-camera-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b856e15ea95630caf6945c1f066a3087efea46a350d584a156beaabb6e500c75",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/gecko-flight-low-720.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6c744600d5d5e1c789844325fc9832b34e5a8b25417a7d80b84d7165711b4e84",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/gecko-hangar-chase-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1c92bbc79a80176a9a74f51379f4e935d15561d5429f830f537e9e92287ad2ba",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/gecko-motors.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d7ebb1a00fd5aca433da4cbe78b6bc37799046c7fc3175a460746aa0f347e593",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/gecko-propellers-2blade-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "83d409eb6c3ac7df2be8d6bc1748a023870168b3169f3db95ef670468b1f9057",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/gecko-stock-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f298a535caece3f51cf463151322f418acb4eee4ba81c3377d8465486adca276",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/gecko-workbench-frame.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5aa9e76a256d69a9008f5e63a7bad455666a82565d9c78d676a3766d5f1f0bbe",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/hangar-countdown.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e4d8ee269e583c8c3877a822681796f3faaf4ff883b6f221b7a7eb13f3b76d87",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/kestrel-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "04d552b0d9a77a333f4a1f23ff6d912717e5aab1e62084c3b54065c180e5cdf2",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/loading-error-fixture.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9c78b2fd9e635f0560608f37e50b9c7b5614b36e0dede7a79b4cc5d5dbf8285c",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Exact client with a controlled local network fixture, protocol 10"
+    },
+    {
+      "file": "after/luma-motors-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "161bd85a4f0fb0aec03258d00649a3194d2f72d4c53baf595a796c41acfdb609",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/luma-stock-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "62a4bb4e7f2e015e2f37cafb78edcf8b65462d63963cb18040abec43a9969628",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/luma-workbench-frame.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1add22edecab69fd58e1f5307d40e85f222a38d89a2d76a35397b3b109d5aea1",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/luma-workbench-low.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c70d57a6f064f5891e73df93252162a2dcedd7e037fb22cb0c1c3f6658664165",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/main.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "78872d9496b73eb80048f133ad7fb93f6cd1fe741bc49d9a60d8525a0ba23f9e",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/multiplayer-chat-open.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3049d72122c06b1168b84f8d6cdbd303a7af2f8ecffefc1cd64a66011b32d383",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/multiplayer-hud-before-css-fix.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f5b01821a0abd72017e30f2d706ea558bc506a8c43fc8a39e64ecf32d19c0a97",
+      "accepted": false,
+      "available": true,
+      "reason": "Diagnostic evidence of inactive overlay styles before the verified fix; not current UI acceptance.",
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/multiplayer-lobby-host.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "414eb582ed37a6dc83b90ecafbe73f2700f9a94ee1c60987433d2bd679ff749c",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/multiplayer-lobby-two-pilots.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f9d7022c924ca98cb234bca61c0b03f2f9ece5eab6dca771bb6bb5934fd5bfbb",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/multiplayer-nameplates.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e7655f10ebf5b02d89c4d96ea94da927a2529fb109b032308d44512de741f9d7",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/multiplayer-pause.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "96f1762fdfd5268f6a9e707b39cbf7725d6b54d5fe6fc7a2c0dd579465039376",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/multiplayer-results.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "414720f2b1d3dc750cc2bfab974d2f1d158410f0d8248a7aebeef34a80d9f0df",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/pilot-access.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cd4fed4ad45eb2e53c2f23eba43b0a1d5b3fdaf0f0c92a69fb8fd052a4537c76",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/postflight-main.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "34b3729018432b9a6062a05888cd66a35855bfd054104aa3e71479eec8283828",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/public-gecko-selection.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e14ff7eb0efa83aa69bbac1518e03979e942139140921fc8725e8ccad0391d89",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Published 20261015-native-01, protocol 10"
+    },
+    {
+      "file": "after/public-gecko-workbench.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "afe36cb6570db0390fdb5b62c820dace67744beae56e222b44a6825e7f0d92aa",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Published 20261015-native-01, protocol 10"
+    },
+    {
+      "file": "after/public-multiplayer-chat.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "22b470d8f729745385159301f25951d73381b238bdd2681e62f35304fb276dcb",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Published 20261015-native-01, protocol 10"
+    },
+    {
+      "file": "after/public-multiplayer-results.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1b91c9ce99dc4a5109aecfd51ddacc4ba88c12e4e2494407ed40de11983e72a9",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Published 20261015-native-01, protocol 10"
+    },
+    {
+      "file": "after/race-setup.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cec4f266d5b5267677f0b4e2112c3cff29547b58ba6ac7680c156d9b809d8740",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/replay-delete-confirmation.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "11d3a6652b713158633cc3c3a5c512cd99ab3caa356f451ffb2b90e022749367",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/replay-rename.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "57d7e292a345972882f7d47423f8c6a25c7fb864b6c0cc194a459b66e3c592df",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/save-replay.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6740e1ecb1a7efb035298a19228a9e8bf5f1c77b10120e7a02703ebbd2846c0f",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/settings-camera.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "51f2efe38fb0d5df8e8deae926bd820a166d76aca962c77e921b31ce03aa0af8",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/settings-controls.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e3ebcaa7d476bb2541065f1ce1863df02105e55efb44642887d494888593c772",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/settings-graphics.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "52f2c53286ef7ac16879a00688ca519a9aa26b375c6db74c63016db82380051f",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/solo-countdown.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2f02d409f1012763f1a8019989b399d46a761161831a432d39aebb09164ac26b",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/solo-results.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "790a2f138b4e729df7b3bba91a3bb5b6f16ac0f2db22892694d7fbe120bf06e9",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/tutorial-hud.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a5e4fba370c3ee040cee502ddc52c8d4d03f6ed01963612d8b8b445eaaf51f7f",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/unsaved-changes.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a714d5a860c68dd91ef76f43247ff14072a4a9d4e72fb5eae147f8e46ae2ed94",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/workbench-appearance-orange.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2eb913bec1c47fc0baf5d89ca57b854744093c7653763d4111f4b0fd639aa675",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/workbench-appearance.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2ca36fd2458e0cf0ae98c33fffb9a5da97a8fa3fe59ae625aeb7e2b7f1028161",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    },
+    {
+      "file": "after/workbench-tuning.jpg",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9dd21b152dca72816085c0bf3bd27b8f508b78585263712b014895ae783e5a8b",
+      "accepted": true,
+      "available": true,
+      "reason": null,
+      "source": "Local candidate, protocol 10"
+    }
+  ]
+}

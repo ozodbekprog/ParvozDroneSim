@@ -1,0 +1,305 @@
+{
+  "source": "Oracle Caddy access log before candidate activation",
+  "records": [
+    {
+      "ts": 1792568318.2062452,
+      "path": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "status": 200,
+      "bytes": 26340900,
+      "duration": 116.701510965,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792568259.3285542,
+      "path": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "status": 200,
+      "bytes": 11030204,
+      "duration": 57.823570692,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792568221.4790423,
+      "path": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "status": 200,
+      "bytes": 396662,
+      "duration": 19.974295559,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792566413.4897141,
+      "path": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "status": 200,
+      "bytes": 26340900,
+      "duration": 8.283200001,
+      "protocol": "HTTP/1.1",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792563743.8886166,
+      "path": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "status": 200,
+      "bytes": 11030204,
+      "duration": 4.202686781,
+      "protocol": "HTTP/1.1",
+      "browser": "Chrome",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567331.2500718,
+      "path": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "status": 200,
+      "bytes": 10516900,
+      "duration": 3.974299643,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567331.2491074,
+      "path": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "status": 200,
+      "bytes": 10299248,
+      "duration": 3.973170993,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792563742.5308042,
+      "path": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "status": 200,
+      "bytes": 26340900,
+      "duration": 3.170657988,
+      "protocol": "HTTP/1.1",
+      "browser": "Chrome",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792566789.916825,
+      "path": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "status": 200,
+      "bytes": 26340900,
+      "duration": 2.970055132,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792566407.2368758,
+      "path": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "status": 200,
+      "bytes": 11030204,
+      "duration": 2.030167358,
+      "protocol": "HTTP/1.1",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792563789.2133794,
+      "path": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "status": 200,
+      "bytes": 3409196,
+      "duration": 2.016369145,
+      "protocol": "HTTP/1.1",
+      "browser": "Chrome",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792566788.864759,
+      "path": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "status": 200,
+      "bytes": 11030204,
+      "duration": 1.917693273,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792568470.6430085,
+      "path": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "status": 200,
+      "bytes": 3409196,
+      "duration": 1.914441689,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792566787.883644,
+      "path": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "status": 200,
+      "bytes": 396662,
+      "duration": 0.936859194,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792563740.218238,
+      "path": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "status": 200,
+      "bytes": 396662,
+      "duration": 0.516794624,
+      "protocol": "HTTP/1.1",
+      "browser": "Chrome",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792566405.2272918,
+      "path": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "status": 200,
+      "bytes": 396662,
+      "duration": 0.019546019,
+      "protocol": "HTTP/1.1",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567021.7704933,
+      "path": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "status": 200,
+      "bytes": 3409196,
+      "duration": 0.00539429,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567321.4712713,
+      "path": "/content/assets/maps/liftoff-arena-demo/thumbnail-b6322ccf86a7fa75.png",
+      "status": 200,
+      "bytes": 263007,
+      "duration": 0.002088779,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567321.4710016,
+      "path": "/content/assets/maps/hangar-c03-demo/thumbnail-28b7f936f8211309.png",
+      "status": 200,
+      "bytes": 207552,
+      "duration": 0.001892298,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567024.1416774,
+      "path": "/content/assets/drones/dquad-addiction/thumbnail-ea0186cc6a4e8ec4.png",
+      "status": 200,
+      "bytes": 8120,
+      "duration": 0.001579654,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567024.141273,
+      "path": "/content/assets/drones/armattan-gecko/thumbnail-bd595666b18ef47c.png",
+      "status": 200,
+      "bytes": 9201,
+      "duration": 0.001567214,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567321.4709167,
+      "path": "/content/assets/maps/liftoff-pine-valley-demo/thumbnail-fb217f599e7d9d48.png",
+      "status": 200,
+      "bytes": 151793,
+      "duration": 0.001446013,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792563741.7327795,
+      "path": "/content/assets/drones/kestrel/source-f34a43818bab7bc0.json",
+      "status": 200,
+      "bytes": 788,
+      "duration": 0.001389733,
+      "protocol": "HTTP/1.1",
+      "browser": "Chrome",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567321.470449,
+      "path": "/content/assets/maps/liftoff-the-green-demo/thumbnail-6208126024749332.png",
+      "status": 200,
+      "bytes": 55265,
+      "duration": 0.00109277,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567024.1411886,
+      "path": "/content/assets/drones/luma-5/thumbnail-6098bac019b24ee7.png",
+      "status": 200,
+      "bytes": 7887,
+      "duration": 0.00105293,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567024.140988,
+      "path": "/content/assets/drones/kestrel/thumbnail-602d58ee87e1b714.png",
+      "status": 200,
+      "bytes": 7156,
+      "duration": 0.00103565,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567321.4705195,
+      "path": "/content/assets/maps/minus-two-demo/thumbnail-6de46fd92fc8c91e.jpg",
+      "status": 200,
+      "bytes": 66689,
+      "duration": 0.000941008,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792567024.1405635,
+      "path": "/content/assets/drones/armattan-chameleon/thumbnail-18db4e5afc46b458.png",
+      "status": 200,
+      "bytes": 7460,
+      "duration": 0.000771007,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792568478.0406892,
+      "path": "/content/assets/drones/armattan-gecko/thumbnail-bd595666b18ef47c.png",
+      "status": 200,
+      "bytes": 9201,
+      "duration": 0.000669726,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    },
+    {
+      "ts": 1792568478.0405746,
+      "path": "/content/assets/drones/dquad-addiction/thumbnail-ea0186cc6a4e8ec4.png",
+      "status": 200,
+      "bytes": 8120,
+      "duration": 0.000494845,
+      "protocol": "HTTP/2.0",
+      "browser": "Edge",
+      "clientGroup": "8d0108d841"
+    }
+  ]
+}

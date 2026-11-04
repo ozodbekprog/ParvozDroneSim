@@ -1,0 +1,40 @@
+{
+  "map": "hangar-c03-demo",
+  "shadowOnlySourceObjects": 34,
+  "previewSourceHierarchy": "FreezeFrameFinish",
+  "removedPrimitives": 52,
+  "repairedDistanceCells": 50,
+  "models": [
+    {
+      "file": "content/maps/hangar-c03-demo/model.glb",
+      "neutralized": [
+        "LuGusStoneLogoOFF01",
+        "AirflagLiftoffFinishDark01"
+      ],
+      "bytesBefore": 264709042,
+      "bytesAfter": 263215354,
+      "removedImages": 7
+    },
+    {
+      "file": "content/races/hangar-c03-demo-liftoff-01/props.glb",
+      "neutralized": [
+        "AirflagLiftoffFinishDark01",
+        "AirflagLiftoffFinishWhite01",
+        "AirPylon01"
+      ],
+      "bytesBefore": 8632526,
+      "bytesAfter": 7165630,
+      "removedImages": 7
+    },
+    {
+      "file": "content/races/hangar-c03-demo-liftoff-02/props.glb",
+      "neutralized": [
+        "AirflagLiftoffFinishDark01",
+        "TrussGateFinishGenericFlag01"
+      ],
+      "bytesBefore": 6710770,
+      "bytesAfter": 5940730,
+      "removedImages": 5
+    }
+  ]
+}

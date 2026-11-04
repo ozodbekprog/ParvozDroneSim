@@ -1,0 +1,880 @@
+{
+  "id": "minus-two-demo-liftoff-02",
+  "blueprints": 163,
+  "visibleInstances": 152,
+  "meshes": 342,
+  "colliders": 233,
+  "inventory": [
+    {
+      "instance": "14",
+      "prefab": "MultiGPStandard7x6Frame01",
+      "meshes": 2
+    },
+    {
+      "instance": "196",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "197",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "198",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "199",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "200",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "201",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "47",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "48",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "49",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "50",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "51",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "52",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "53",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "56",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "202",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "203",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "204",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "205",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "206",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "207",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "208",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "209",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "210",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "211",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "212",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "213",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "214",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "215",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "216",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "217",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "218",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "68",
+      "prefab": "MultiGPChampTrack8x10Frame01",
+      "meshes": 2
+    },
+    {
+      "instance": "64",
+      "prefab": "MultiGPChampTrack8x10Frame01",
+      "meshes": 2
+    },
+    {
+      "instance": "219",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "221",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "222",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "223",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "224",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "225",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "226",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "227",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "228",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "229",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "230",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "231",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "232",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "233",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "234",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "235",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "236",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "237",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "238",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "239",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "240",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "241",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "73",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "74",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "75",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "76",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "77",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "78",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "79",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "80",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "81",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "82",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "83",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "84",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "85",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "86",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "87",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "88",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "89",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "90",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "91",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "92",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "93",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "94",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "95",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "96",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "97",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "98",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "99",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "100",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "101",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "102",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "103",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "104",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "105",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "106",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "107",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "108",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "109",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "110",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "111",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "112",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "113",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "114",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "115",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "116",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "117",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "118",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "119",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "120",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "121",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "122",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "123",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "124",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "125",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "126",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "127",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "128",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "129",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "130",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "131",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "132",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "133",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "134",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "135",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "136",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "137",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "138",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "139",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "140",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "141",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "142",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "175",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "176",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "177",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "178",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "179",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "180",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "181",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "182",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "183",
+      "prefab": "DiscConeYellow01",
+      "meshes": 3
+    },
+    {
+      "instance": "185",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "186",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "195",
+      "prefab": "SpawnPointSingle01",
+      "meshes": 2
+    },
+    {
+      "instance": "242",
+      "prefab": "MultiGPStandard7x6Frame01",
+      "meshes": 2
+    },
+    {
+      "instance": "243",
+      "prefab": "MultiGPStandard7x6Frame01",
+      "meshes": 2
+    },
+    {
+      "instance": "244",
+      "prefab": "MultiGPStandard7x6Frame01",
+      "meshes": 2
+    },
+    {
+      "instance": "245",
+      "prefab": "MultiGPStandard7x6Frame01",
+      "meshes": 2
+    },
+    {
+      "instance": "246",
+      "prefab": "MultiGPStandard7x6Frame01",
+      "meshes": 2
+    },
+    {
+      "instance": "247",
+      "prefab": "MultiGPStandard7x6Frame01",
+      "meshes": 2
+    },
+    {
+      "instance": "248",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "249",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "250",
+      "prefab": "ConstructionFencingLiftoff01White01",
+      "meshes": 2
+    },
+    {
+      "instance": "255",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "256",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "251",
+      "prefab": "TriggerBox_RepairPropellers_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "252",
+      "prefab": "TriggerBox_ChargeBattery_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "253",
+      "prefab": "NoticeBoardRepair01",
+      "meshes": 6
+    },
+    {
+      "instance": "254",
+      "prefab": "NoticeBoardBattery01",
+      "meshes": 6
+    },
+    {
+      "instance": "257",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "258",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "259",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "260",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "261",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "262",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "263",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "264",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "267",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "266",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    }
+  ],
+  "lodTriangles": [
+    51538,
+    30450,
+    24510
+  ],
+  "cells": 23,
+  "propMeshes": 295,
+  "ribbonMeshes": 47,
+  "ribbonTriangles": 3402
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parvoz — embedded KTX2 qualification</title>
+<style>
+body{font:16px system-ui,sans-serif;max-width:1320px;margin:24px auto;padding:0 20px;background:#171b20;color:#edf0f4}
+h1{font-size:24px}select,button{font:inherit;padding:8px;margin:6px}section{display:flex;gap:16px;flex-wrap:wrap}figure{margin:12px 0;flex:1;min-width:300px}canvas{width:100%;max-width:640px;background:#252d36}pre{white-space:pre-wrap;font-size:13px}#status{font-weight:700}a{color:#99cdff}
+</style>
+<h1>Embedded KTX2 loader qualification</h1>
+<p>Local engineering check. The two paths use the same asset, Three.js version, decoder and view. No game UI or player data is changed.</p>
+<label>Asset <select id="asset" aria-label="Asset"></select></label>
+<label>Backend <select id="backend" aria-label="Backend"><option value="webgpu">WebGPURenderer · auto backend</option><option value="webgl2">WebGPURenderer · WebGL2 fallback</option><option value="webgl">Legacy WebGLRenderer</option></select></label>
+<button id="run" disabled>Compare loader paths</button>
+<p id="status" role="status">Reading the local content catalog…</p>
+<section><figure><figcaption>Control: Blob → URL → fetch → decoder</figcaption><canvas id="baseline"></canvas></figure><figure><figcaption>Candidate: buffer view → decoder</figcaption><canvas id="direct"></canvas></figure></section>
+<p>Load times are observations in this browser, with the control first. This is a functional comparison, not a target-hardware FPS benchmark.</p>
+<pre id="report"></pre>
+<script type="module" src="./embedded-ktx2.js"></script>
+</html>

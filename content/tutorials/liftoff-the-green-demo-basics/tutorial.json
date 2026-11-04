@@ -1,0 +1,51 @@
+{
+  "id": "liftoff-the-green-demo-basics",
+  "name": "The Green: First Flight",
+  "map": "liftoff-the-green-demo",
+  "track": "liftoff-the-green-demo-first-flight",
+  "steps": [
+    {
+      "text": "Take off gently and hold inside the marker. Keep speed below 1 m/s for two seconds.",
+      "title": "Take off and hold",
+      "objective": "reach",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -465.812653,
+        5.74056244,
+        607.814453
+      ],
+      "radius": 1.5,
+      "maxSpeed": 1,
+      "airborne": true
+    },
+    {
+      "text": "Follow the next-gate marker through original gate 1. Look ahead and leave room to turn.",
+      "title": "Pass original gate 1",
+      "objective": "gate",
+      "target": 0,
+      "duration": 0
+    },
+    {
+      "text": "Follow the next-gate marker through original gate 2. Look ahead and leave room to turn.",
+      "title": "Pass original gate 2",
+      "objective": "gate",
+      "target": 1,
+      "duration": 0
+    },
+    {
+      "text": "Follow the next-gate marker through original gate 3. Look ahead and leave room to turn.",
+      "title": "Pass original gate 3",
+      "objective": "gate",
+      "target": 2,
+      "duration": 0
+    },
+    {
+      "text": "Choose a clear patch of terrain, level the drone and lower throttle gently until grounded for two seconds.",
+      "title": "Land gently",
+      "objective": "land",
+      "target": 0,
+      "duration": 2
+    }
+  ]
+}

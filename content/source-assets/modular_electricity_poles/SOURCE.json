@@ -1,0 +1,52 @@
+{
+  "id": "modular_electricity_poles",
+  "title": "Modular Electricity Poles",
+  "authors": {
+    "James Ray Cock": "All"
+  },
+  "source": "https://polyhaven.com/a/modular_electricity_poles",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "include": {
+      "textures/modular_electricity_poles_rough_1k.exr": {
+        "size": 1183725,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electricity_poles/modular_electricity_poles_rough_1k.exr",
+        "md5": "d535e4df21a108d70ba1bafdf18c2835"
+      },
+      "textures/modular_electricity_poles_pieces_diff_1k.png": {
+        "size": 5175155,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electricity_poles/modular_electricity_poles_pieces_diff_1k.png",
+        "md5": "1eb7488ac37653b823b8309e37d1f908"
+      },
+      "textures/modular_electricity_poles_diff_1k.jpg": {
+        "size": 658915,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electricity_poles/modular_electricity_poles_diff_1k.jpg",
+        "md5": "34df50003850fdc33507c5d0713af802"
+      },
+      "textures/modular_electricity_poles_pieces_rough_1k.png": {
+        "size": 1535130,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electricity_poles/modular_electricity_poles_pieces_rough_1k.png",
+        "md5": "cad13b0c293be62c63385c7b122499da"
+      },
+      "textures/modular_electricity_poles_nor_gl_1k.exr": {
+        "size": 2024477,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electricity_poles/modular_electricity_poles_nor_gl_1k.exr",
+        "md5": "8c73370d1ef93ca5df18269b979bb59e"
+      },
+      "textures/modular_electricity_poles_pieces_metal_1k.png": {
+        "size": 1097684,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electricity_poles/modular_electricity_poles_pieces_metal_1k.png",
+        "md5": "98344ed0f2ad26ec94f177ad7a9338fb"
+      },
+      "textures/modular_electricity_poles_pieces_nor_gl_1k.png": {
+        "size": 4490727,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electricity_poles/modular_electricity_poles_pieces_nor_gl_1k.png",
+        "md5": "c350802c653159711f928ee5ab8fc737"
+      }
+    },
+    "size": 3268604,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modular_electricity_poles/modular_electricity_poles_1k.blend",
+    "md5": "d5a6272e502acd9785a167693b7f4916"
+  }
+}

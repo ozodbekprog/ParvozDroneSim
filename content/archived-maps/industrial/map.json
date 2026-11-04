@@ -1,0 +1,201 @@
+{
+  "id": "industrial",
+  "name": "Ironworks",
+  "region": "Industrial Circuit",
+  "theme": "custom",
+  "seed": 417,
+  "description": "Pipe bridges, tanks, and tight steel corridors.",
+  "sky": "#7d909a",
+  "fog": "#879398",
+  "ground": "#6e7070",
+  "sun": "#dbe6e9",
+  "sunPosition": [
+    -42,
+    71,
+    33
+  ],
+  "cloudColor": "#becbd0",
+  "wind": [
+    0.4,
+    0,
+    0.6
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "industrial",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.39,
+      -440
+    ],
+    "max": [
+      440,
+      64,
+      440
+    ]
+  },
+  "tracks": [
+    {
+      "id": "industrial-loop",
+      "name": "Pressure Loop",
+      "laps": 2,
+      "gates": [
+        {
+          "position": [
+            0,
+            5.4,
+            36
+          ],
+          "yaw": 1.325818,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            48,
+            5.4,
+            48
+          ],
+          "yaw": 2.158799,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            96,
+            8.1,
+            16
+          ],
+          "yaw": -2.767259,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            74,
+            6.75,
+            -40
+          ],
+          "yaw": -2.261243,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            28,
+            9.45,
+            -78
+          ],
+          "yaw": -1.401018,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -42,
+            6.75,
+            -66
+          ],
+          "yaw": -0.631079,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -80,
+            5.4,
+            -14
+          ],
+          "yaw": 0.546789,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -52,
+            6.75,
+            32
+          ],
+          "yaw": 1.494024,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ],
+      "spawn": {
+        "position": [
+          -23.283421,
+          5.4,
+          30.17914
+        ],
+        "yaw": 1.325818
+      }
+    }
+  ],
+  "bundledChallenges": [
+    {
+      "id": "technician",
+      "name": "Pressure Test",
+      "map": "industrial",
+      "track": "industrial-loop",
+      "target": 298,
+      "reward": 200
+    }
+  ],
+  "bundledTutorials": []
+}

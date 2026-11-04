@@ -1,0 +1,407 @@
+{
+  "id": "nightgrid",
+  "name": "Nightgrid",
+  "region": "Rainy City Blocks",
+  "theme": "custom",
+  "sky": "#29304d",
+  "fog": "#353850",
+  "ground": "#333943",
+  "sun": "#a1b7df",
+  "sunPosition": [
+    35,
+    65,
+    40
+  ],
+  "wind": [
+    0.4,
+    0,
+    0.7
+  ],
+  "description": "A dark street grid with illuminated tower silhouettes, transit stops and delivery vans.",
+  "seed": 946,
+  "cloudColor": "#353850",
+  "gravity": 1,
+  "model": "model.glb",
+  "colliders": [],
+  "objects": [],
+  "collisionFile": "collision.json",
+  "environment": "nightgrid",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.54,
+      -440
+    ],
+    "max": [
+      440,
+      106.05,
+      440
+    ]
+  },
+  "tracks": [
+    {
+      "id": "nightgrid-rooftop",
+      "name": "Nightgrid Rooftop",
+      "laps": 1,
+      "spawn": {
+        "position": [
+          -100.980003,
+          12.15,
+          -64.660004
+        ],
+        "yaw": 2.66625
+      },
+      "gates": [
+        {
+          "position": [
+            -90,
+            12.15,
+            -86
+          ],
+          "yaw": 2.66625,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -20,
+            14.85,
+            -88
+          ],
+          "yaw": 1.58642,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "roof",
+            "baseY": 10.625
+          }
+        },
+        {
+          "position": [
+            38,
+            16.200001,
+            -88
+          ],
+          "yaw": 0.722979,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            40,
+            18.9,
+            -20
+          ],
+          "yaw": 0.014705,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            40,
+            14.85,
+            48
+          ],
+          "yaw": -0.724866,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "roof",
+            "baseY": 10.625
+          }
+        },
+        {
+          "position": [
+            -22,
+            13.5,
+            50
+          ],
+          "yaw": -1.570796,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -90,
+            12.15,
+            48
+          ],
+          "yaw": -2.677945,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "nightgrid-streetline",
+      "name": "Nightgrid Streetline",
+      "laps": 2,
+      "spawn": {
+        "position": [
+          -106.980003,
+          5.4,
+          -71.019997
+        ],
+        "yaw": 2.356194
+      },
+      "gates": [
+        {
+          "position": [
+            -90,
+            5.4,
+            -88
+          ],
+          "yaw": 2.356194,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -22,
+            6.75,
+            -90
+          ],
+          "yaw": 1.586668,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            36,
+            5.4,
+            -90
+          ],
+          "yaw": 0.678119,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            36,
+            6.75,
+            -18
+          ],
+          "yaw": 0,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            36,
+            6.75,
+            46
+          ],
+          "yaw": -0.737815,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -24,
+            6.75,
+            48
+          ],
+          "yaw": -1.554669,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -88,
+            5.4,
+            48
+          ],
+          "yaw": -2.385598,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -90,
+            5.4,
+            -22
+          ],
+          "yaw": -3.126888,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    }
+  ],
+  "bundledChallenges": [
+    {
+      "id": "nightgrid-afterhours",
+      "name": "Afterhours",
+      "map": "nightgrid",
+      "track": "nightgrid-streetline",
+      "target": 359,
+      "reward": 310,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Follow the lit street corridor through the first blocks."
+        },
+        {
+          "afterGate": 2,
+          "text": "The transit shelter marks the return corner; watch the vans."
+        },
+        {
+          "afterGate": 5,
+          "text": "For the high line, hold altitude above the street gates."
+        }
+      ]
+    },
+    {
+      "id": "nightgrid-courier",
+      "name": "Courier",
+      "map": "nightgrid",
+      "track": "nightgrid-streetline",
+      "target": 455,
+      "reward": 180,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Follow the lit street corridor through the first blocks."
+        },
+        {
+          "afterGate": 2,
+          "text": "The transit shelter marks the return corner; watch the vans."
+        },
+        {
+          "afterGate": 5,
+          "text": "For the high line, hold altitude above the street gates."
+        }
+      ]
+    },
+    {
+      "id": "nightgrid-high-line",
+      "name": "High Line",
+      "map": "nightgrid",
+      "track": "nightgrid-rooftop",
+      "target": 263,
+      "reward": 240,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Follow the lit street corridor through the first blocks."
+        },
+        {
+          "afterGate": 2,
+          "text": "The transit shelter marks the return corner; watch the vans."
+        },
+        {
+          "afterGate": 4,
+          "text": "For the high line, hold altitude above the street gates."
+        }
+      ]
+    },
+    {
+      "id": "nightgrid-roof-relay",
+      "name": "Roof Relay",
+      "map": "nightgrid",
+      "track": "nightgrid-rooftop",
+      "target": 219,
+      "reward": 360,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Follow the lit street corridor through the first blocks."
+        },
+        {
+          "afterGate": 2,
+          "text": "The transit shelter marks the return corner; watch the vans."
+        },
+        {
+          "afterGate": 4,
+          "text": "For the high line, hold altitude above the street gates."
+        }
+      ]
+    }
+  ],
+  "bundledTutorials": []
+}

@@ -1,0 +1,11 @@
+{
+  "mode": "run",
+  "frames": 492,
+  "frame": { "median": 22.39999999999418, "p95": 44.80000000000291, "max": 67.60000000000582 },
+  "cpu": { "median": 8.100000008940697, "p95": 33.099999994039536, "max": 55 },
+  "draws": { "median": 79, "p95": 175, "max": 185 },
+  "triangles": { "median": 134169, "p95": 380161, "max": 380461 },
+  "backend": "WebGL2",
+  "framebuffer": [1280, 720],
+  "captureNote": "Transcribed from visible benchmark output; Vite reload cleared the DOM before file capture."
+}

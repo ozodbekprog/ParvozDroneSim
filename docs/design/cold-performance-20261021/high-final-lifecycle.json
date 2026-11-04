@@ -1,0 +1,276 @@
+{
+  "phases": [
+    {
+      "name": "Initial home",
+      "ms": 11101.20000000298,
+      "renderMs": 443.20000000298023,
+      "projectMs": 230.09999991953373,
+      "submitMs": 6511.699999898672,
+      "surfaceMs": 3287.3999999910593,
+      "compileCalls": 475,
+      "maxCompileSliceMs": 536.2999999970198,
+      "maxRenderSliceMs": 165,
+      "slowRenders": [
+        {
+          "start": 33444.40000000596,
+          "ms": 165,
+          "target": "PMREM.cubeUv",
+          "object": "Scene"
+        },
+        {
+          "start": 33445.40000000596,
+          "ms": 158,
+          "target": "ShadowMap",
+          "object": "Scene"
+        },
+        {
+          "start": 30883.40000000596,
+          "ms": 13.200000002980232,
+          "target": "PMREM.cubeUv",
+          "object": "Mesh"
+        }
+      ],
+      "draws": 248,
+      "triangles": 341895
+    },
+    {
+      "name": "Warm Hangar 1",
+      "ms": 868.4000000059605,
+      "renderMs": 18.900000005960464,
+      "projectMs": 5.999999985098839,
+      "submitMs": 468.4000000655651,
+      "surfaceMs": 0,
+      "compileCalls": 68,
+      "maxCompileSliceMs": 105.8999999910593,
+      "maxRenderSliceMs": 18.900000005960464,
+      "slowRenders": [
+        {
+          "start": 38867.29999999702,
+          "ms": 18.900000005960464,
+          "object": "Scene"
+        }
+      ],
+      "draws": 130,
+      "triangles": 96659
+    },
+    {
+      "name": "Return home 1",
+      "ms": 76.3999999910593,
+      "renderMs": 7.0999999940395355,
+      "projectMs": 5.400000020861626,
+      "submitMs": 18.400000035762787,
+      "surfaceMs": 10.299999997019768,
+      "compileCalls": 105,
+      "maxCompileSliceMs": 0.7999999970197678,
+      "maxRenderSliceMs": 7.0999999940395355,
+      "slowRenders": [
+        {
+          "start": 38958.10000000894,
+          "ms": 7.0999999940395355,
+          "object": "Scene"
+        }
+      ],
+      "draws": 248,
+      "triangles": 341895
+    },
+    {
+      "name": "Settings and back 1",
+      "ms": 22.700000002980232,
+      "renderMs": 21.299999997019768,
+      "projectMs": 1.3999999910593033,
+      "submitMs": 17.19999998807907,
+      "surfaceMs": 0,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "maxRenderSliceMs": 12.200000002980232,
+      "slowRenders": [
+        {
+          "start": 38977.90000000596,
+          "ms": 12.200000002980232,
+          "object": "Scene"
+        },
+        {
+          "start": 38967.90000000596,
+          "ms": 9.099999994039536,
+          "object": "Scene"
+        }
+      ],
+      "draws": 248,
+      "triangles": 341895
+    },
+    {
+      "name": "Warm Hangar 2",
+      "ms": 53.30000001192093,
+      "renderMs": 6.5,
+      "projectMs": 4.000000014901161,
+      "submitMs": 11.900000035762787,
+      "surfaceMs": 0,
+      "compileCalls": 68,
+      "maxCompileSliceMs": 1.1000000089406967,
+      "maxRenderSliceMs": 6.5,
+      "slowRenders": [
+        {
+          "start": 39038.60000000894,
+          "ms": 6.5,
+          "object": "Scene"
+        }
+      ],
+      "draws": 130,
+      "triangles": 96659
+    },
+    {
+      "name": "Return home 2",
+      "ms": 85.09999999403954,
+      "renderMs": 4.600000008940697,
+      "projectMs": 21.599999994039536,
+      "submitMs": 15.499999940395355,
+      "surfaceMs": 10.200000002980232,
+      "compileCalls": 105,
+      "maxCompileSliceMs": 11.899999991059303,
+      "maxRenderSliceMs": 0,
+      "slowRenders": [],
+      "draws": 248,
+      "triangles": 341895
+    },
+    {
+      "name": "Settings and back 2",
+      "ms": 16,
+      "renderMs": 15.200000002980232,
+      "projectMs": 0.7999999821186066,
+      "submitMs": 9.899999976158142,
+      "surfaceMs": 0,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "maxRenderSliceMs": 8.400000005960464,
+      "slowRenders": [
+        {
+          "start": 39139.79999999702,
+          "ms": 8.400000005960464,
+          "object": "Scene"
+        },
+        {
+          "start": 39132.70000000298,
+          "ms": 6.799999997019768,
+          "object": "Scene"
+        }
+      ],
+      "draws": 248,
+      "triangles": 341895
+    },
+    {
+      "name": "Warm Hangar 3",
+      "ms": 15.900000005960464,
+      "renderMs": 1.8999999910593033,
+      "projectMs": 1.8000000417232513,
+      "submitMs": 3.2000000178813934,
+      "surfaceMs": 0,
+      "compileCalls": 68,
+      "maxCompileSliceMs": 0.29999999701976776,
+      "maxRenderSliceMs": 0,
+      "slowRenders": [],
+      "draws": 130,
+      "triangles": 96659
+    },
+    {
+      "name": "Return home 3",
+      "ms": 42.79999999701977,
+      "renderMs": 4.299999997019768,
+      "projectMs": 4.000000029802322,
+      "submitMs": 9.799999982118607,
+      "surfaceMs": 6.100000008940697,
+      "compileCalls": 105,
+      "maxCompileSliceMs": 0.7999999970197678,
+      "maxRenderSliceMs": 0,
+      "slowRenders": [],
+      "draws": 248,
+      "triangles": 341895
+    },
+    {
+      "name": "Settings and back 3",
+      "ms": 9.700000002980232,
+      "renderMs": 9.199999988079071,
+      "projectMs": 0.5,
+      "submitMs": 7.399999991059303,
+      "surfaceMs": 0,
+      "compileCalls": 0,
+      "maxCompileSliceMs": 0,
+      "maxRenderSliceMs": 0,
+      "slowRenders": [],
+      "draws": 248,
+      "triangles": 341895
+    },
+    {
+      "name": "Object retention",
+      "identities": [
+        {
+          "cycle": 1,
+          "sceneRetained": true,
+          "homeDroneRetained": true
+        },
+        {
+          "cycle": 2,
+          "sceneRetained": true,
+          "homeDroneRetained": true
+        },
+        {
+          "cycle": 3,
+          "sceneRetained": true,
+          "homeDroneRetained": true
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "gpu": "nvidia turing",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "high",
+  "surface": {
+    "normalMaps": true,
+    "textureSize": 1024
+  },
+  "cache": {
+    "idleBytes": 0,
+    "maxIdleBytes": 100663296,
+    "idleEntries": 0,
+    "entries": 3
+  },
+  "models": [
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "parses": 1,
+      "cacheHits": 138,
+      "readMs": 594.8999999910593,
+      "parseMs": 2254.699999988079,
+      "lookupMs": 1.1999999731779099,
+      "cloneMs": 29.500000044703484,
+      "clones": 139
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 23,
+      "readMs": 89.29999999701977,
+      "parseMs": 781.7999999970198,
+      "lookupMs": 0.20000001788139343,
+      "cloneMs": 2.699999988079071,
+      "clones": 24
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "parses": 1,
+      "cacheHits": 0,
+      "readMs": 17.799999997019768,
+      "parseMs": 142.90000000596046,
+      "lookupMs": 0,
+      "cloneMs": 0.5,
+      "clones": 1
+    }
+  ],
+  "backend": "WebGPU",
+  "framebuffer": [
+    1280,
+    720
+  ]
+}

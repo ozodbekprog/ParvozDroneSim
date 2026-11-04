@@ -1,0 +1,44 @@
+{
+  "id": "ridgeway",
+  "name": "Ridgeway Pass",
+  "region": "Highland Service Road",
+  "theme": "custom",
+  "sky": "#9bc2d4",
+  "fog": "#a9bdc3",
+  "ground": "#727d65",
+  "sun": "#ffedc3",
+  "sunPosition": [
+    60,
+    75,
+    -30
+  ],
+  "wind": [
+    1.2,
+    0,
+    0.6
+  ],
+  "description": "A switchback course over a mountain service road, with a bridge, shelter and ridgeline pylons.",
+  "seed": 800,
+  "cloudColor": "#a9bdc3",
+  "gravity": 1,
+  "model": "model.glb",
+  "colliders": [],
+  "objects": [],
+  "collisionFile": "collision.json",
+  "environment": "ridgeway",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.54,
+      -440
+    ],
+    "max": [
+      440,
+      33.75,
+      440
+    ]
+  }
+}

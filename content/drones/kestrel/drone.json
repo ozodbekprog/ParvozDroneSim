@@ -1,0 +1,234 @@
+{
+  "id": "kestrel",
+  "name": "Kestrel 5",
+  "class": "five",
+  "mass": 0.68,
+  "arm": 0.115,
+  "thrustToWeight": 5.6,
+  "motorTau": 0.035,
+  "drag": [
+    0.034,
+    0.045,
+    0.021
+  ],
+  "angularDrag": 0.11,
+  "batterySeconds": 360,
+  "color": "#fc623d",
+  "unlock": "starter",
+  "materials": [],
+  "collision": {
+    "spheres": [
+      {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "radius": 0.13
+      },
+      {
+        "position": [
+          -0.22,
+          0.03,
+          -0.22
+        ],
+        "radius": 0.068
+      },
+      {
+        "position": [
+          -0.22,
+          0.03,
+          0.22
+        ],
+        "radius": 0.068
+      },
+      {
+        "position": [
+          0.22,
+          0.03,
+          -0.22
+        ],
+        "radius": 0.068
+      },
+      {
+        "position": [
+          0.22,
+          0.03,
+          0.22
+        ],
+        "radius": 0.068
+      }
+    ]
+  },
+  "model": "hangar.glb",
+  "modelLods": [
+    {
+      "model": "hangar.glb",
+      "distance": 0
+    },
+    {
+      "model": "low.glb",
+      "distance": 3
+    },
+    {
+      "model": "far.glb",
+      "distance": 18
+    }
+  ],
+  "lowLod": 1,
+  "mounts": {
+    "frame": [
+      "Mount_frame"
+    ],
+    "camera": [
+      "Mount_camera"
+    ],
+    "battery": [
+      "Mount_battery"
+    ],
+    "motors": [
+      "Mount_motors_0",
+      "Mount_motors_1",
+      "Mount_motors_2",
+      "Mount_motors_3"
+    ],
+    "propellers": [
+      "Mount_propellers_0",
+      "Mount_propellers_1",
+      "Mount_propellers_2",
+      "Mount_propellers_3"
+    ]
+  },
+  "partBindings": {
+    "frame": [
+      "Frame_Default"
+    ],
+    "camera": [
+      "Camera_Default"
+    ],
+    "battery": [
+      "Battery_Default"
+    ],
+    "motors": [
+      "Motors_Default_0",
+      "Motors_Default_1",
+      "Motors_Default_2",
+      "Motors_Default_3"
+    ],
+    "propellers": [
+      "Propellers_Default_0",
+      "Propellers_Default_1",
+      "Propellers_Default_2",
+      "Propellers_Default_3"
+    ]
+  },
+  "motorBindings": [
+    "Rotor_0",
+    "Rotor_1",
+    "Rotor_2",
+    "Rotor_3"
+  ],
+  "colorBindings": {
+    "body": [
+      "Frame_Finish_HUNTER_Template",
+      "Frame_Finish_SCOUT",
+      "Frame_Finish_SCOUT_Template",
+      "Frame_HUNTER_Template",
+      "Frame_SCOUT",
+      "Frame_SCOUT_Template"
+    ],
+    "led": [
+      "Motors_Decal_SCOUT_Template",
+      "Motors_Decal_HUNTER_Template",
+      "Motors_Decal_SCOUT_Default_0",
+      "Motors_Decal_SCOUT_Default_1",
+      "Motors_Decal_SCOUT_Default_2",
+      "Motors_Decal_SCOUT_Default_3"
+    ]
+  },
+  "assetLicense": "CC-BY-SA-4.0",
+  "assetCredit": "Drone racing — 3D Husky (Kawasalto)",
+  "assetSource": "https://sketchfab.com/3d-models/drone-racing-0b416d03688a43239a550d9dad0a6f34",
+  "assetLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "assetChanges": "Blender import, semantic component separation, normalized camera/motor axes, masked decals and LOD. Source SCOUT/HUNTER finishes; shared component shapes except two/three-blade props. Neutral frame/lighting tint textures prepared in the editable Blender source; geometry and flight parameters retained.",
+  "attributionFile": "SOURCE.json",
+  "visualDetails": {
+    "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+    "modelLods": [
+      {
+        "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+        "distance": 0
+      },
+      {
+        "model": "../../shared-assets/drone-details/low-delivery.glb",
+        "distance": 12
+      },
+      {
+        "model": "../../shared-assets/drone-details/far-delivery.glb",
+        "distance": 40
+      }
+    ],
+    "lowLod": 1,
+    "frameNode": null,
+    "batteryNodes": {},
+    "localOnly": true,
+    "attributionFile": "../../shared-assets/drone-details/SOURCE.json"
+  },
+  "accessories": {
+    "actionCamera": {
+      "id": "session-action-camera",
+      "name": "Session action camera",
+      "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+      "modelLods": [
+        {
+          "model": "../../shared-assets/drone-details/hangar-delivery.glb",
+          "distance": 0,
+          "modelNode": "kestrel_ActionCamera"
+        },
+        {
+          "model": "../../shared-assets/drone-details/low-delivery.glb",
+          "distance": 12,
+          "modelNode": "kestrel_ActionCamera"
+        },
+        {
+          "model": "../../shared-assets/drone-details/far-delivery.glb",
+          "distance": 40,
+          "modelNode": "kestrel_ActionCamera"
+        }
+      ],
+      "lowLod": 1,
+      "modelNode": "kestrel_ActionCamera",
+      "mountMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "mass": 0.074,
+      "dragArea": 0.0018,
+      "centerOfMass": [
+        -0.0011356044560670853,
+        0.01741762086749077,
+        0.026589928194880486
+      ],
+      "cosmeticOnly": true,
+      "assetLicense": "Proprietary game content; redistribution permission unconfirmed",
+      "assetCredit": "LuGus Studios and originally credited manufacturers",
+      "assetSource": "https://www.liftoff-game.com/",
+      "localOnly": true,
+      "attributionFile": "../../shared-assets/drone-details/SOURCE.json"
+    }
+  }
+}

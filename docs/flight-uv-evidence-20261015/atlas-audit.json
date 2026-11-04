@@ -1,0 +1,30 @@
+[
+  {
+    "map": "minus-two-demo",
+    "materials": [
+      "SignsParkingLot01",
+      "TornPosters01"
+    ],
+    "checked": 19,
+    "matched": 19
+  },
+  {
+    "map": "hangar-c03-demo",
+    "materials": [
+      "SignsParkingLot01",
+      "TrafficSignStop01"
+    ],
+    "checked": 34,
+    "matched": 34
+  },
+  {
+    "map": "liftoff-arena-demo",
+    "materials": [
+      "BannerArena02",
+      "PostersLiftoffArena01",
+      "BannerArena01"
+    ],
+    "checked": 1463,
+    "matched": 1463
+  }
+]

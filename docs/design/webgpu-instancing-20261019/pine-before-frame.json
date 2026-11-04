@@ -1,0 +1,30 @@
+{
+  "map": "liftoff-pine-valley-demo",
+  "track": "liftoff-pine-valley-demo-first-flight",
+  "quality": "low",
+  "angle": "overview",
+  "hardware": {
+    "gpu": "intel gen-9",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "backend": "WebGPU",
+  "framebuffer": [
+    1280,
+    720
+  ],
+  "adaptiveResolution": false,
+  "position": [
+    -667.6336059570312,
+    16.83204412460327,
+    701.0465087890625
+  ],
+  "quaternion": [
+    0.06321005778574243,
+    0.9198173282275723,
+    0.1662550511537032,
+    -0.34971392487702463
+  ],
+  "fov": 72,
+  "capturedAt": "2026-10-19T17:09:37.968Z"
+}

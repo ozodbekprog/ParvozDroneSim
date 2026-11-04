@@ -1,0 +1,173 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "rejectedReason": "Required models came from HTTP cache; not a cold acceptance run",
+  "proof": {
+    "timeOrigin": 1792571580760,
+    "observerStartedAt": 716.6000000089407,
+    "longTasks": [
+      {
+        "startTime": 421.6000000089407,
+        "duration": 117
+      },
+      {
+        "startTime": 559.9000000059605,
+        "duration": 51
+      },
+      {
+        "startTime": 1266.7000000029802,
+        "duration": 318
+      },
+      {
+        "startTime": 2111.9000000059605,
+        "duration": 285
+      }
+    ],
+    "stages": [
+      {
+        "at": 717.2000000029802,
+        "text": "Подключение",
+        "phase": "Подключение к игровому серверу"
+      },
+      {
+        "at": 1120.9000000059605,
+        "text": "Загрузка",
+        "phase": "Загрузка карты и дрона для главного меню"
+      },
+      {
+        "at": 1258.4000000059605,
+        "text": "Подготовка",
+        "phase": "Обработка сцены главного меню"
+      },
+      {
+        "at": 2397.6000000089407,
+        "text": "Подготовка",
+        "phase": "Подготовка модели дрона"
+      },
+      {
+        "at": 2688.4000000059605,
+        "text": "Подготовка",
+        "phase": "Подготовка графики"
+      },
+      {
+        "at": 3309.2000000029802,
+        "text": "Готово",
+        "phase": ""
+      }
+    ],
+    "readyAt": 3309.2000000029802
+  },
+  "resources": [
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/index-7TSF7k3X.js",
+      "duration": 140.20000000298023,
+      "transferSize": 0,
+      "encodedBodySize": 783025,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/index-Cv6GxX5N.css",
+      "duration": 32.400000005960464,
+      "transferSize": 0,
+      "encodedBodySize": 33522,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/minus-two-BB_Om9zB.jpg",
+      "duration": 10.399999991059303,
+      "transferSize": 0,
+      "encodedBodySize": 316895,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/parvoz-mark-DiniIOH5.svg",
+      "duration": 8.600000008940697,
+      "transferSize": 0,
+      "encodedBodySize": 796,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/Semibold-CtyxlVHQ.woff2",
+      "duration": 9.300000011920929,
+      "transferSize": 0,
+      "encodedBodySize": 155624,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/Regular-BLENfjE4.woff2",
+      "duration": 9.400000005960464,
+      "transferSize": 0,
+      "encodedBodySize": 153800,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/parvoz-mark-DiniIOH5.svg",
+      "duration": 40.29999999701977,
+      "transferSize": 0,
+      "encodedBodySize": 796,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/api/catalog",
+      "duration": 232.70000000298023,
+      "transferSize": 517,
+      "encodedBodySize": 217,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/parvoz-mark-DiniIOH5.svg",
+      "duration": 2,
+      "transferSize": 0,
+      "encodedBodySize": 796,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/dm-sans-latin-400-normal-CW0RaeGs.woff2",
+      "duration": 3.1000000089406967,
+      "transferSize": 0,
+      "encodedBodySize": 14200,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/pine-valley-BT0nSk8m.jpg",
+      "duration": 4.299999997019768,
+      "transferSize": 0,
+      "encodedBodySize": 824203,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/the-green-D_BVkOMs.jpg",
+      "duration": 3.9000000059604645,
+      "transferSize": 0,
+      "encodedBodySize": 632096,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "duration": 73.70000000298023,
+      "transferSize": 0,
+      "encodedBodySize": 26340900,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "duration": 14,
+      "transferSize": 0,
+      "encodedBodySize": 396662,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "duration": 47.29999999701977,
+      "transferSize": 0,
+      "encodedBodySize": 11030204,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/kestrel/source-f34a43818bab7bc0.json",
+      "duration": 1.9000000059604645,
+      "transferSize": 0,
+      "encodedBodySize": 788,
+      "deliveryType": "cache"
+    }
+  ]
+}

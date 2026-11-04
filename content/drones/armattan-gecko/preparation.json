@@ -1,0 +1,101 @@
+{
+  "id": "armattan-gecko",
+  "name": "Armattan Gecko 3\"",
+  "meshes": 22,
+  "triangles": 49373,
+  "mounts": {
+    "frame": [],
+    "motors": [
+      "mount_motor_0",
+      "mount_motor_1",
+      "mount_motor_2",
+      "mount_motor_3"
+    ],
+    "propellers": [
+      "mount_prop_0",
+      "mount_prop_1",
+      "mount_prop_2",
+      "mount_prop_3"
+    ],
+    "camera": [
+      "mount_camera"
+    ],
+    "battery": [
+      "mount_battery"
+    ]
+  },
+  "partBindings": {
+    "frame": [
+      "Frame_GeckoFC01_0",
+      "Frame_GeckoVTX01_0",
+      "Frame_Led_Strip_0",
+      "Frame_ArmattanGeckoFrame01_0",
+      "Frame_SolderingDropFlattened01_0",
+      "Frame_SolderingDropFlattened01 (1)_0"
+    ],
+    "motors": [
+      "Motor0_Bushmaster1507Motor01_Lower_0",
+      "Motor0_Bushmaster1507Motor01_Upper_0",
+      "Motor1_Bushmaster1507Motor01_Lower_0",
+      "Motor1_Bushmaster1507Motor01_Upper_0",
+      "Motor2_Bushmaster1507Motor01_Lower_0",
+      "Motor2_Bushmaster1507Motor01_Upper_0",
+      "Motor3_Bushmaster1507Motor01_Lower_0",
+      "Motor3_Bushmaster1507Motor01_Upper_0"
+    ],
+    "propellers": [
+      "Prop0_DAL3050PropellerR01_R_0",
+      "Prop1_DAL3050PropellerL01_L_0",
+      "Prop2_DAL3050PropellerR01_R_0",
+      "Prop3_DAL3050PropellerL01_L_0"
+    ],
+    "camera": [
+      "Camera_RuncamSplitMini01_0"
+    ],
+    "battery": [
+      "Battery_AmpAgeBattery01_0",
+      "Battery_AmpAgeBattery01Strap01_0"
+    ]
+  },
+  "motorBindings": [
+    "prop_0",
+    "prop_1",
+    "prop_2",
+    "prop_3"
+  ],
+  "motorPositions": [
+    [
+      0.05610999837517738,
+      0.004619999788701534,
+      0.04104999825358391
+    ],
+    [
+      -0.05610999837517738,
+      0.004619999788701534,
+      0.04104999825358391
+    ],
+    [
+      -0.05610999837517738,
+      0.004619999788701534,
+      -0.04104999825358391
+    ],
+    [
+      0.05610999837517738,
+      0.004619999788701534,
+      -0.04104999825358391
+    ]
+  ],
+  "mass": 0.246,
+  "bounds": {
+    "min": [
+      -0.10348600894212723,
+      -0.08194711804389954,
+      -0.005799999926239252
+    ],
+    "max": [
+      0.10348601639270782,
+      0.08194711059331894,
+      0.08857397735118866
+    ]
+  }
+}

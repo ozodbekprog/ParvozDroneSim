@@ -1,0 +1,86 @@
+[
+  {
+    "file": "assets/drone-01.png",
+    "bytes": 7460,
+    "width": 256,
+    "height": 144,
+    "sha256": "18db4e5afc46b458dfc6cad98df15aca58474bae43ebed59724f77348e474296"
+  },
+  {
+    "file": "assets/drone-02.png",
+    "bytes": 9201,
+    "width": 256,
+    "height": 144,
+    "sha256": "bd595666b18ef47cc66119bd2edaaca1151a31d099030db42a8d628aa27b2449"
+  },
+  {
+    "file": "assets/drone-03.png",
+    "bytes": 8120,
+    "width": 256,
+    "height": 144,
+    "sha256": "ea0186cc6a4e8ec46b88a0323b781719426bf4acf1d9c388ff7c6c608c235cf5"
+  },
+  {
+    "file": "assets/drone-04.png",
+    "bytes": 7156,
+    "width": 256,
+    "height": 144,
+    "sha256": "602d58ee87e1b714981d2d35721c7e7e30375cbf3a35253ff61957fd4dc29f70"
+  },
+  {
+    "file": "assets/drone-05.png",
+    "bytes": 7887,
+    "width": 256,
+    "height": 144,
+    "sha256": "6098bac019b24ee721b3e40e21e504fd550131272916cc5f487716cc0cef9222"
+  },
+  {
+    "file": "assets/hangar.png",
+    "bytes": 1218889,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "946781fccc9951c42e75651bd4ee399e20d874e203c11ceb349240c9cb8175f9"
+  },
+  {
+    "file": "generated/01.png",
+    "bytes": 429451,
+    "width": 1672,
+    "height": 941,
+    "sha256": "fbccd32712a85fa545739681804690de0a0c5cc15f8e4882dcf861c4df6cbc60"
+  },
+  {
+    "file": "generated/02.png",
+    "bytes": 411289,
+    "width": 1672,
+    "height": 941,
+    "sha256": "4424c300133b1b4854e46a49de87a6d99a35f390b070d5b32fa060eff67a39d6"
+  },
+  {
+    "file": "generated/03.png",
+    "bytes": 430639,
+    "width": 1672,
+    "height": 941,
+    "sha256": "158f834139523be052a62809c77247c793c5eaf884de45670936cb0f6aa1eb49"
+  },
+  {
+    "file": "previews/01.png",
+    "bytes": 1251947,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "b8e7c08e0af8c9e6612a0795699447c22eb132a3885b535a4e71ef4f1c221439"
+  },
+  {
+    "file": "previews/02.png",
+    "bytes": 1301398,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "b0dd13bfc1220760afb99d260d1068b8379e08304f88768410256269c4039b2e"
+  },
+  {
+    "file": "previews/03.png",
+    "bytes": 1354036,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "ca4e25f91c7ff5ec4dea6ed092e95817b1f6ebc8440545bbd8f4a93213a3bf0c"
+  }
+]

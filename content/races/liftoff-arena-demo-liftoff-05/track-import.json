@@ -1,0 +1,340 @@
+{
+  "id": "liftoff-arena-demo-liftoff-05",
+  "blueprints": 65,
+  "visibleInstances": 57,
+  "meshes": 113,
+  "colliders": 322,
+  "inventory": [
+    {
+      "instance": "5",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "7",
+      "prefab": "CheckpointBox20mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "8",
+      "prefab": "AirflagLiftoffSlalomWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "9",
+      "prefab": "GenericBigGate01",
+      "meshes": 6
+    },
+    {
+      "instance": "11",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "12",
+      "prefab": "CheckpointBox20mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "13",
+      "prefab": "AirflagLiftoffSlalomWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "16",
+      "prefab": "LightGate300x220cmVarBlue02",
+      "meshes": 6
+    },
+    {
+      "instance": "21",
+      "prefab": "GenericBigGate01",
+      "meshes": 6
+    },
+    {
+      "instance": "22",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "23",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "26",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "27",
+      "prefab": "LightGate300x220cmVarBlue02",
+      "meshes": 6
+    },
+    {
+      "instance": "29",
+      "prefab": "CheckpointBox20mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "30",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "31",
+      "prefab": "AirflagLiftoffSlalomWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "33",
+      "prefab": "GenericRamp01",
+      "meshes": 6
+    },
+    {
+      "instance": "35",
+      "prefab": "CheckpointBox20mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "36",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "37",
+      "prefab": "AirflagLiftoffSlalomWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "38",
+      "prefab": "LightGate300x220cmVarBlue02",
+      "meshes": 6
+    },
+    {
+      "instance": "39",
+      "prefab": "LightGate300x220cmVarBlue02",
+      "meshes": 6
+    },
+    {
+      "instance": "43",
+      "prefab": "SpawnPointSingle01",
+      "meshes": 0
+    },
+    {
+      "instance": "44",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "46",
+      "prefab": "PartyTentWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "48",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "50",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "51",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "52",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "53",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "54",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "55",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "56",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "57",
+      "prefab": "TriggerBox_RepairPropellers_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "58",
+      "prefab": "TriggerBox_ChargeBattery_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "60",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "61",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "62",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "63",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "64",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "66",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "67",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "68",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "70",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "72",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "73",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "74",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "75",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "76",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "77",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "78",
+      "prefab": "AirflagLiftoffFinishDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "79",
+      "prefab": "AirflagLiftoffFinishDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "80",
+      "prefab": "CheckpointBox20mX10m01",
+      "meshes": 0
+    },
+    {
+      "instance": "81",
+      "prefab": "AirPylonLuGusStudios01",
+      "meshes": 1
+    },
+    {
+      "instance": "82",
+      "prefab": "AirflagLiftoffSlalomWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "83",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "87",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "88",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "89",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "90",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "91",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "92",
+      "prefab": "ASLLightBeam04",
+      "meshes": 1
+    },
+    {
+      "instance": "95",
+      "prefab": "LightGate300x220cmVarBlue02",
+      "meshes": 6
+    },
+    {
+      "instance": "96",
+      "prefab": "LightGate300x220cmVarBlue02",
+      "meshes": 6
+    },
+    {
+      "instance": "97",
+      "prefab": "LightGate300x220cmVarBlue02",
+      "meshes": 6
+    }
+  ],
+  "lodTriangles": [
+    103112,
+    78248,
+    28116
+  ],
+  "cells": 21
+}

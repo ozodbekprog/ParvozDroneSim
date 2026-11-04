@@ -1,0 +1,437 @@
+/* Game menus share materials and controls, but each screen has its own composition. */
+:root {
+  color: #edf2f6; background: #151b23;
+  --accent: #ffae70; --accent-hover: #ffc08f; --ink: #261d18;
+  --technical: #78d8df; --text: #edf2f6; --muted: #aab7c5; --quiet: #8391a1;
+  --surface: rgba(21, 29, 39, .94); --surface-soft: rgba(163, 187, 210, .07);
+  --line: rgba(171, 195, 216, .18); --radius: 18px; --field-radius: 9px;
+  --shadow: 0 14px 40px #07101938;
+}
+* { scrollbar-color: #627183 transparent; }
+#viewport { background: #151b23; }
+.ambient-vignette { background: linear-gradient(90deg, #0c142967, transparent 65%), linear-gradient(0deg, #0d152b88, transparent 58%); }
+#app[data-scene='preview'] .ambient-vignette { background: linear-gradient(0deg, #10192373, transparent 70%); }
+#app[data-scene='live']:not([data-screen='flight']) .ambient-vignette { background: #0d17234d; }
+.topbar { height: 68px; padding: 0 20px; gap: 18px; background: linear-gradient(#0b1423a8, #0b142320); }
+.brand { font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: .08em; gap: 10px; }
+.brand-light { font-family: 'DM Sans', sans-serif; font-size: 8px; letter-spacing: .39em; }
+.brand-mark { color: var(--accent); }
+.brand-mark .ui-icon { width: 35px; height: 35px; }
+.main-nav { border-radius: 12px; background: #111c2ac4; padding: 3px; }
+.nav-button { border-radius: 8px; padding: 9px 17px; font-size: 12px; }
+.nav-button.active { background: #ffae701c; }
+.nav-popover { background: #182330f7; border-radius: 14px; }
+.top-tools { gap: 12px; }
+.account-button { border: 1px solid var(--line); background: #152131db; border-radius: 10px; padding: 5px 12px 5px 5px; min-height: 39px; }
+.account-avatar { background: #ffae7026; color: var(--accent); border-radius: 7px; }
+.account-name { max-width: 155px; }
+.help-button { border-color: var(--line); border-radius: 9px; background: #1521319c; }
+.menu-layout { padding: 18px 28px 28px; gap: 24px; }
+.menu-panel { padding: 24px; backdrop-filter: blur(16px); }
+h1, h2, .game-panel h3 { font-family: 'Barlow Condensed', sans-serif; letter-spacing: .01em; font-weight: 600; }
+h1 { font-size: clamp(34px, 3vw, 46px); line-height: 1; }
+h2 { font-size: 25px; margin: 0 0 14px; line-height: 1.1; }
+.eyebrow, .panel-label { font-family: 'DM Sans', sans-serif; color: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: .11em; line-height: 1.4; }
+.panel-label { display: flex; align-items: center; gap: 7px; }
+.panel-label .ui-icon { width: 15px; height: 15px; color: var(--technical); }
+.game-panel { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); padding: 20px; min-width: 0; backdrop-filter: blur(14px); }
+.panel-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+.panel-header h2 { margin: 0; }
+.button, .mini-button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; border-radius: 10px; background: #a3bbd20a; font-size: 12px; min-height: 42px; padding: 10px 16px; }
+.button:hover, .mini-button:hover { background: #a3bbd21a; border-color: #bbd3e85e; }
+.button.primary { font-weight: 700; box-shadow: 0 3px 14px #ffae7012; }
+.button .ui-icon { width: 17px; height: 17px; }
+.button.ghost { color: var(--muted); }
+.button.ghost:hover { background: var(--surface-soft); }
+.mini-button { min-height: 32px; font-size: 11px; padding: 6px 10px; }
+.mini-button .ui-icon { width: 14px; height: 14px; }
+input, select, textarea { background: #0d162369; border-color: var(--line); height: 40px; }
+select option { background: #1a2635; }
+input:focus, select:focus, textarea:focus { box-shadow: 0 0 0 3px #ffae701a; }
+input::placeholder { color: #8293a6; }
+.flow-dialog, .room-create-dialog { background: #182330; }
+.map-card, .fleet-card, .mission, .challenge-card, .replay-card { border-radius: 13px; background-color: #a3bbd20b; }
+.map-art { background: #263442; }
+.map-text { background: linear-gradient(transparent, #101a28ed); }
+.fleet-card.selected, .part-card.selected { background: #ffae700f; border-color: var(--accent); }
+.fleet-card:hover, .part-card:hover { background: #a3bbd212; border-color: #ffae7070; }
+.fleet-filter, .workbench-tabs button, .fleet-filters { border-radius: 9px; }
+.fleet-symbol { background: #ffae7012; border-radius: 9px; }
+.stat-grid span { font-size: 10px; }
+.stat-grid strong { font-family: 'Barlow Condensed', sans-serif; font-size: 23px; font-weight: 600; }
+.auth-note, .fleet-active, .fleet-card small { font-size: 11px; }
+
+/* Home is navigation. Flight choices live in the setup screen. */
+.menu-home .composed-layout { position: relative; display: grid; grid-template-columns: 310px minmax(0, 1fr); align-items: center; padding: 24px 40px 40px; gap: 32px; }
+.home-command { padding: 24px; }
+.home-command .panel-label { margin-bottom: 8px; color: var(--technical); }
+.menu-home .home-command h1 { font-size: 36px; margin: 0 0 22px; font-weight: 600; text-shadow: none; }
+.activity-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.activity-choice { display: flex; align-items: center; gap: 9px; padding: 14px 11px; min-height: 54px; text-align: left; border-radius: 10px; border: 1px solid var(--line); background: #a3bbd205; color: var(--muted); font-size: 12px; }
+.activity-choice .ui-icon { width: 18px; height: 18px; }
+.activity-choice.selected { border-color: var(--accent); background: #ffae7015; color: var(--accent); }
+.activity-choice:hover { border-color: #bbd3e864; }
+.flight-description { margin: 15px 0; min-height: 20px; font-size: 11px; }
+.launch-button { width: 100%; min-height: 49px; justify-content: flex-start; font-size: 15px; }
+.launch-button .ui-icon:last-child { margin-left: auto; }
+.home-destinations { display: grid; margin-top: 19px; border-top: 1px solid var(--line); padding-top: 8px; }
+.home-destinations button { display: flex; align-items: center; gap: 13px; padding: 13px 2px; text-align: left; border: 0; background: transparent; color: var(--text); border-radius: 8px; }
+.home-destinations button:hover { background: var(--surface-soft); }
+.home-destinations button > .ui-icon:first-child { color: var(--muted); }
+.home-destinations button > .ui-icon:last-child { margin-left: auto; width: 15px; color: var(--quiet); }
+.home-destinations span { font-size: 14px; font-weight: 500; }
+.home-destinations small { display: block; color: var(--muted); font-size: 10px; margin-top: 3px; font-weight: 400; }
+.home-main-menu { max-height: 100%; overflow-y: auto; }
+.home-main-menu .home-destinations { border-top: 0; margin-top: 10px; padding-top: 0; }
+.home-main-menu .home-destinations button { min-height: 47px; padding: 13px 5px; }
+.home-main-menu .home-destinations span { font-size: 14px; }
+.home-main-menu .launch-button { font-size: 17px; min-height: 51px; }
+.home-extra { margin-top: 15px; padding-top: 15px; border-top: 1px solid var(--line); }
+.home-extra summary { display: flex; align-items: center; justify-content: space-between; color: var(--muted); list-style: none; cursor: pointer; font-size: 12px; padding: 3px 5px; }
+.home-extra summary::-webkit-details-marker { display: none; }
+.home-extra summary .ui-icon { width: 17px; height: 17px; }
+.home-extra > div { display: grid; gap: 3px; margin-top: 12px; }
+.home-extra button { border: 0; border-radius: 8px; padding: 10px; color: var(--muted); background: transparent; font-size: 12px; text-align: left; }
+.home-extra button:hover { background: var(--surface-soft); color: var(--text); }
+.home-scene-caption { position: absolute; bottom: 40px; right: 40px; display: flex; align-items: center; gap: 11px; color: #edf2f6; text-shadow: 0 2px 12px #000c; font-size: 16px; pointer-events: none; }
+.home-scene-caption .ui-icon { width: 20px; height: 20px; }
+.home-scene-caption small { display: block; color: #c7d4df; margin-top: 4px; font-size: 10px; }
+.setup-activities { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-bottom: 19px; }
+.setup-activities .activity-choice { justify-content: center; min-height: 47px; padding: 10px; }
+.menu-world-stage { align-self: stretch; min-height: 0; pointer-events: none; }
+.home-flight-cards { display: grid; gap: 14px; }
+.location-card { border-top: 2px solid var(--technical); }
+.location-card h2 { font-size: 33px; margin: 15px 0 5px; }
+.location-card p { font-size: 12px; color: var(--muted); margin-bottom: 14px; }
+.location-meta { display: flex; justify-content: space-between; gap: 9px; margin: 16px 0; color: var(--muted); font-size: 11px; }
+.location-meta strong { color: var(--text); font-weight: 500; }
+.location-card .button { width: 100%; justify-content: space-between; }
+.course-label { color: var(--technical); font-size: 11px; border-left: 2px solid var(--technical); padding-left: 8px; }
+.loadout-card { display: flex; gap: 13px; align-items: center; text-align: left; color: var(--text); padding: 17px; }
+.loadout-card:hover { border-color: var(--accent); }
+.loadout-symbol { padding: 10px; border-radius: 10px; background: #ffae7012; color: var(--accent); }
+.loadout-symbol .ui-icon { width: 30px; height: 30px; }
+.loadout-card > .ui-icon { margin-left: auto; width: 16px; color: var(--muted); }
+.loadout-card small { font-size: 8px; letter-spacing: .1em; color: var(--muted); }
+.loadout-card strong { display: block; font-size: 16px; font-weight: 600; margin: 5px 0; }
+.loadout-card em { font-size: 10px; font-style: normal; color: var(--technical); }
+.weekly-entry { display: flex; align-items: center; text-align: left; gap: 12px; padding: 14px 16px; border-radius: 12px; border: 1px solid #ffae7052; background: #17222de6; color: var(--accent); }
+.weekly-entry span { font-size: 13px; }
+.weekly-entry small { display: block; font-size: 10px; color: var(--muted); margin-top: 4px; }
+.weekly-entry .ui-icon:last-child { margin-left: auto; width: 16px; }
+.weekly-entry:hover { background: #22303ef2; }
+
+/* Drone selection: full model, selected aircraft, horizontal visual roster. */
+.menu-hangar .composed-layout { display: grid; grid-template-rows: auto minmax(0, 1fr) 234px; padding: 12px 28px 22px; gap: 14px; align-items: stretch; }
+.selection-header { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.selection-header h1 { font-size: 36px; margin: 2px 0 0; }
+.selection-showcase { display: grid; grid-template-columns: minmax(0, 1fr) 285px; gap: 20px; min-height: 0; }
+.selection-stage.hangar-stage { width: 100%; height: 100%; min-height: 0; position: relative; align-self: stretch; padding: 0 0 8px; touch-action: none; cursor: grab; }
+.selection-stage.hangar-stage:active { cursor: grabbing; }
+.selection-info { display: flex; flex-direction: column; gap: 10px; padding: 14px; min-height: 0; overflow: hidden; }
+.selection-data { display: grid; gap: 11px; min-height: 0; overflow-y: auto; }
+.selection-info h2 { font-size: 29px; margin: 4px 0 5px; }
+.aircraft-class { color: var(--technical); font-size: 12px; margin: 0; }
+.aircraft-origin { color: var(--muted); font-size: 10px; margin: 7px 0 0; }
+.selection-info .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin: 0; padding: 0; border: 0; }
+.selection-info .stat-grid span { font-size: 9px; }
+.selection-info .stat-grid strong { font-size: 19px; margin-top: 3px; }
+.selection-status { font-size: 11px; color: var(--accent); }
+.selection-actions { display: grid; gap: 7px; margin-top: auto; flex: none; }
+.selection-actions .button { width: 100%; min-height: 36px; padding: 8px 12px; }
+.selection-actions .text-link { justify-self: center; padding: 5px; font-size: 10px; }
+.selection-empty { grid-column: 1 / -1; align-self: center; justify-self: center; text-align: center; }
+.selection-empty p { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
+.aircraft-roster { display: flex; flex-direction: column; gap: 12px; padding: 13px 16px; min-height: 0; }
+.roster-header { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.roster-header .fleet-filters { margin: 0; width: auto; padding: 3px; gap: 3px; }
+.roster-header .fleet-filter { padding: 7px 15px; min-height: 31px; font-size: 11px; }
+.roster-count { display: flex; align-items: center; gap: 18px; color: var(--muted); font-size: 11px; }
+.roster-controls { display: flex; gap: 5px; }
+.roster-controls .mini-button { min-height: 28px; padding: 3px 10px; font-size: 18px; }
+.aircraft-strip { display: flex; gap: 10px; overflow-x: auto; overflow-y: hidden; padding-bottom: 5px; min-height: 0; scroll-snap-type: x proximity; }
+.aircraft-card { position: relative; flex: 0 0 177px; display: flex; flex-direction: column; align-items: stretch; min-width: 0; padding: 0 0 9px; border: 1px solid var(--line); border-radius: 11px; color: var(--text); background: #a3bbd207; text-align: left; scroll-snap-align: start; overflow: hidden; }
+.aircraft-card.selected { background: #ffae7014; border-color: var(--accent); }
+.aircraft-card:hover { border-color: #ffae7070; }
+.aircraft-card > strong { flex: none; line-height: 1.4; font-size: 12px; padding: 0 11px; margin-top: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.aircraft-card > small { flex: none; line-height: 1.4; font-size: 9px; color: var(--muted); padding: 0 11px; margin-top: 4px; white-space: nowrap; }
+.aircraft-art { height: 79px; min-height: 34px; position: relative; display: grid; place-items: center; background: #182530; flex: 1 1 79px; }
+.aircraft-art > .ui-icon { width: 48px; height: 48px; color: var(--technical); opacity: .6; }
+.aircraft-art img { position: absolute; width: 100%; height: 100%; object-fit: contain; }
+.aircraft-art img:not([src]) { display: none; }
+.aircraft-art:has(img[src]) > .ui-icon { visibility: hidden; }
+.aircraft-badge { position: absolute; top: 5px; right: 5px; border-radius: 5px; padding: 3px 5px; background: #ffae7020; color: var(--accent); font-size: 8px; }
+.aircraft-badge:empty { display: none; }
+.aircraft-badge.locked { background: #0d172dcc; color: #bccbdc; }
+@media (min-width: 1600px) {
+  .menu-hangar .composed-layout { padding: 22px 36px 28px; grid-template-rows: auto minmax(0, 1fr) 245px; gap: 22px; }
+  .selection-showcase { grid-template-columns: minmax(0, 1fr) 330px; }
+  .aircraft-card { flex-basis: 213px; }
+  .aircraft-art { height: 111px; }
+}
+@media (max-width: 800px) {
+  .menu-hangar .composed-layout { padding: 10px 16px 18px; grid-template-rows: auto minmax(220px, 1fr) 234px; overflow: auto; }
+  .selection-showcase { grid-template-columns: minmax(0, 1fr) 245px; gap: 10px; }
+  .selection-header h1 { font-size: 30px; }
+  .selection-info { padding: 12px; gap: 10px; }
+  .selection-info h2 { font-size: 25px; }
+}
+@media (max-width: 540px) {
+  .menu-hangar .composed-layout { grid-template-rows: auto auto 234px; }
+  .selection-showcase { grid-template-columns: 1fr; grid-template-rows: 220px auto; }
+  .selection-info { overflow: visible; }
+  .selection-info .stat-grid { grid-template-columns: repeat(4, 1fr); }
+  .roster-count { font-size: 0; gap: 0; }
+  .roster-header .fleet-filter { padding: 6px 9px; }
+}
+
+/* Workbench: component library / model / build and telemetry / action tray. */
+.menu-workbench .composed-layout { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; align-items: stretch; gap: 16px; padding: 12px 24px 22px; }
+.workbench-header { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 68px; padding: 10px 15px; border: 1px solid var(--line); border-radius: 13px; background: #152131e8; backdrop-filter: blur(12px); }
+.workbench-title { display: flex; align-items: center; gap: 24px; min-width: 0; }
+.workbench-title h1 { font-size: 36px; flex: none; }
+.build-identity { padding-left: 24px; border-left: 1px solid var(--line); }
+.build-identity strong { display: block; font-size: 16px; font-weight: 600; }
+.build-identity small { display: block; color: var(--muted); font-size: 10px; margin-top: 5px; }
+.workbench-tabs { margin: 0; padding: 4px; border-radius: 12px; background: #16212de8; flex: none; }
+.workbench-tabs button { padding: 10px 15px; font-size: 12px; }
+.workbench-tabs .ui-icon { width: 16px; height: 16px; }
+.workbench-tabs button.selected { background: #ffae7021; color: var(--accent); }
+.bench-layout { display: grid; grid-template-columns: 318px minmax(200px, 1fr) 258px; gap: 16px; min-height: 0; }
+.component-panel { display: flex; flex-direction: column; align-self: start; max-height: 100%; overflow: auto; padding: 18px; }
+.component-rail { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; padding-bottom: 17px; margin-bottom: 18px; border-bottom: 1px solid var(--line); }
+.component-rail button { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 10px 2px; color: var(--muted); background: transparent; border: 1px solid transparent; border-radius: 9px; font-size: 9px; }
+.component-rail button.selected { border-color: #ffae706e; background: #ffae7015; color: var(--accent); }
+.component-rail button:hover { background: var(--surface-soft); }
+.component-rail .ui-icon { width: 22px; height: 22px; }
+.component-panel .panel-header { margin-bottom: 12px; }
+.component-panel .panel-header h2 { font-size: 27px; }
+.part-scroll { max-height: none; flex: 1; min-height: 0; overflow: auto; padding-right: 0; scrollbar-gutter: auto; gap: 9px; }
+.part-card { min-height: 82px; padding: 13px 11px; gap: 11px; border-radius: 11px; }
+.part-card-check { width: 31px; height: 34px; border-radius: 8px; border: 0; background: #a3bbd20a; color: var(--muted); }
+.part-card-check .ui-icon { width: 21px; height: 21px; }
+.part-card.selected .part-card-check { background: #ffae7020; color: var(--accent); border: 0; }
+.part-card strong { font-size: 13px; font-weight: 600; }
+.part-card small { font-size: 10px; line-height: 1.4; }
+.part-card em { font-size: 10px; }
+.bench-center { display: flex; flex-direction: column; min-width: 0; min-height: 0; gap: 14px; }
+.bench-center .hangar-stage { width: 100%; height: auto; flex: 1; min-height: 180px; padding-bottom: 12px; }
+.hangar-stage span { border-radius: 9px; background: #132130d9; color: #e1edf4; font-size: 11px; display: flex; align-items: center; gap: 7px; }
+.hangar-stage span .ui-icon { width: 17px; height: 17px; color: var(--technical); }
+.part-inspector { display: flex; align-items: center; gap: 13px; padding: 15px 18px; flex: none; border-left: 2px solid var(--technical); }
+.inspector-icon { color: var(--technical); }
+.part-inspector small { display: block; color: var(--muted); font-size: 10px; margin-bottom: 4px; }
+.part-inspector strong { font-size: 14px; font-weight: 500; }
+.inspector-spec { margin-left: auto; color: var(--technical); font-size: 11px; line-height: 1.5; text-align: right; }
+.bench-sidebar { display: flex; flex-direction: column; gap: 14px; min-height: 0; overflow: auto; }
+.build-panel { padding: 15px; flex: none; }
+.installed-parts { display: grid; margin-top: 14px; }
+.installed-parts button { display: flex; align-items: center; gap: 10px; padding: 7px 0; text-align: left; background: transparent; color: var(--text); border: 0; border-bottom: 1px solid #a3bbd20e; }
+.installed-parts button:last-child { border-bottom: 0; }
+.installed-parts button:hover { color: var(--accent); }
+.installed-parts button > .ui-icon:first-child { width: 20px; height: 20px; color: var(--quiet); }
+.installed-parts button > .ui-icon:last-child { width: 13px; height: 13px; margin-left: auto; color: var(--quiet); }
+.installed-parts small { display: block; color: var(--muted); font-size: 9px; margin-bottom: 3px; }
+.installed-parts strong { font-size: 12px; font-weight: 500; }
+.performance-panel { padding: 14px; flex: none; }
+.performance-panel .stat-grid { grid-template-columns: 1fr 1fr; gap: 12px; margin: 13px 0 0; padding: 0; border: 0; }
+.performance-panel .stat-grid strong { color: var(--technical); font-size: 23px; line-height: 1.1; margin-top: 3px; }
+.performance-panel .stat-grid span { font-size: 9px; }
+.bench-actions { display: flex; gap: 18px; align-items: center; padding: 10px 14px; border-radius: 13px; }
+.workbench-status { margin: 0; font-size: 11px; color: var(--technical); }
+.bench-save-actions { margin-left: auto; display: flex; gap: 9px; }
+.bench-save-actions .button { min-height: 40px; }
+.appearance-grid { grid-template-columns: 1fr; gap: 20px; margin: 14px 0; }
+.appearance-grid label { font-size: 12px; }
+.appearance-grid input { height: 64px; border-radius: 10px; }
+.component-panel > h2 { margin-top: 15px; font-size: 31px; }
+.color-swatches { flex-wrap: wrap; gap: 13px; }
+.color-swatches button { border-radius: 9px; border-width: 2px; }
+.panel-footnote { font-size: 11px; color: var(--muted); line-height: 1.6; }
+.bench-tuning { grid-template-columns: 358px minmax(220px, 1fr) 280px; }
+.bench-tuning .component-panel { padding: 18px; }
+.bench-tuning .tune-card { padding: 0; border: 0; background: transparent; }
+.bench-tuning .component-panel .tune-card + .tune-card { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); }
+.bench-tuning .bench-sidebar > .tune-card { padding: 12px 15px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); flex: none; }
+.bench-tuning h2 { font-size: 24px; margin-bottom: 17px; }
+.bench-tuning .tune-rate-head, .bench-tuning .tune-rate-row { grid-template-columns: 42px repeat(3, minmax(0, 1fr)) 40px; gap: 6px; }
+.bench-tuning .pid-head, .bench-tuning .pid-row { grid-template-columns: 38px repeat(3, minmax(0, 1fr)); gap: 6px; }
+.bench-tuning .tune-rate-head { font-size: 9px; }
+.bench-tuning .tune-rate-row strong, .bench-tuning .pid-row strong { font-size: 9px; color: var(--muted); }
+.bench-tuning .tune-rate-row span { font-size: 9px; color: var(--technical); }
+.bench-tuning .tune-card input[type='number'] { height: 34px; padding: 0 5px; font-family: Consolas, monospace; font-size: 12px; }
+.bench-tuning .tune-fields { gap: 12px; }
+.bench-tuning .bench-sidebar .tune-fields { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.bench-tuning .bench-sidebar h2 { margin-bottom: 13px; }
+.bench-tuning .tune-fields label { font-size: 10px; }
+.launch-check { margin-top: 16px; }
+.controller-warning { padding: 12px; border: 1px solid #ffae7050; border-radius: 9px; color: var(--accent); background: #ffae700c; font-size: 11px; line-height: 1.6; }
+.response-panel { padding: 13px 17px; height: 176px; flex: none; }
+.response-panel .panel-header { margin-bottom: 6px; }
+.response-panel h2 { font-size: 20px; margin: 0; }
+.response-panel #rate-graph { display: block; width: 100%; height: 120px; margin: 0; }
+.rate-legend { display: flex; gap: 10px; margin: 0; font-size: 9px; }
+.rate-legend span:first-child { color: var(--accent); }
+.rate-legend span:nth-child(2) { color: var(--technical); }
+.rate-legend span:nth-child(3) { color: #a29ae8; }
+.rate-legend span:first-child::before { background: var(--accent); }
+.rate-legend span:nth-child(2)::before { background: var(--technical); }
+.rate-legend span:nth-child(3)::before { background: #a29ae8; }
+
+/* Multiplayer separates browsing, hosting/invites, and competition. */
+.menu-multiplayer .composed-layout { display: grid; grid-template-rows: auto minmax(0, 1fr); align-items: stretch; gap: 22px; padding: 20px 28px 28px; }
+.screen-title { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 14px 20px; border-radius: 13px; background: #182330ed; border: 1px solid var(--line); }
+.screen-title .button.ghost { color: var(--text); background: #a3bbd20b; border-color: var(--line); }
+.screen-title .panel-label { margin-bottom: 7px; }
+.screen-title h1 { font-size: 46px; }
+.online-layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 22px; min-height: 0; }
+.online-main { display: flex; flex-direction: column; gap: 14px; min-height: 0; }
+.room-browser { display: flex; flex-direction: column; flex: 1; min-height: 0; padding: 24px; }
+.room-browser .panel-header { margin-bottom: 22px; }
+.room-browser h2 { font-size: 29px; }
+.room-count { color: var(--technical); font-family: 'DM Sans', sans-serif; font-size: 11px; }
+.room-filters { display: grid; grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) 110px; gap: 12px; margin-bottom: 21px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.room-filters label { font-size: 10px; }
+.room-joinable { grid-column: 1 / -1; justify-self: start; flex-direction: row; align-items: center; gap: 8px; }
+.room-filters select { font-size: 11px; height: 36px; }
+.public-rooms { flex: 1; min-height: 0; max-height: none; overflow: auto; align-content: start; }
+.public-rooms:has(> .empty:only-child) { display: grid; place-content: center; text-align: center; }
+.public-rooms .empty { max-width: 330px; color: var(--muted); font-size: 13px; line-height: 1.8; }
+.public-room { background: #a3bbd20a; border-radius: 12px; }
+.online-sidebar { display: flex; flex-direction: column; gap: 14px; min-height: 0; overflow: auto; }
+.squad-panel, .ranked-panel { padding: 19px; flex: none; }
+.squad-panel h2 { font-size: 31px; margin: 12px 0 15px; }
+.squad-panel > .button, .ranked-panel > .button { width: 100%; justify-content: space-between; }
+.private-join { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); }
+.private-join > label { margin-bottom: 9px; font-size: 11px; }
+.private-join .join-row { margin: 0; gap: 8px; }
+.join-row input { font-family: Consolas, monospace; font-size: 12px; letter-spacing: .1em; }
+.ranked-panel { border-top: 2px solid var(--accent); }
+.ranked-panel .panel-label .ui-icon { color: var(--accent); }
+.ranked-panel h2 { font-size: 25px; margin: 12px 0 8px; }
+.ranked-panel p { font-size: 11px; color: var(--muted); margin-bottom: 17px; }
+.ranked-account-note { display: block; text-align: center; margin-top: 9px; color: var(--muted); font-size: 10px; }
+.cup-panel { padding: 17px 19px; flex: none; }
+.cup-panel h2 { font-size: 21px; display: flex; align-items: center; gap: 8px; }
+.cup-panel h2 .ui-icon { width: 17px; height: 17px; color: var(--technical); }
+.cup-panel .panel-header > .panel-label { font-size: 8px; }
+.cup-leaderboard { max-height: 160px; overflow: auto; }
+.cup-leaderboard .empty { margin: 0; padding: 0; font-size: 11px; }
+.queue-indicator { display: flex; align-items: center; gap: 9px; color: var(--technical); font-size: 11px; margin-bottom: 15px; }
+.queue-indicator i { width: 7px; height: 7px; border-radius: 50%; background: var(--technical); animation: queue-pulse 1.5s ease-in-out infinite; }
+@keyframes queue-pulse { 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { .queue-indicator i { animation: none; } }
+
+@media (min-width: 1600px) {
+  .menu-home .composed-layout { grid-template-columns: 330px minmax(0, 1fr); padding: 45px 56px 45px; }
+  .home-command { padding: 28px; }
+  .menu-home .home-command h1 { font-size: 40px; }
+  .activity-choice { min-height: 61px; font-size: 13px; }
+  .home-destinations button { padding: 17px 3px; }
+  .menu-workbench .composed-layout { padding: 22px 32px 30px; gap: 22px; }
+  .bench-layout { grid-template-columns: 360px minmax(240px, 1fr) 292px; gap: 24px; }
+  .bench-tuning { grid-template-columns: 390px minmax(240px, 1fr) 314px; }
+  .part-card { min-height: 94px; }
+  .installed-parts button { padding: 14px 0; }
+  .online-layout { grid-template-columns: minmax(0, 1fr) 380px; }
+}
+@media (max-width: 1050px) {
+  .topbar { padding: 0 16px; }
+  .nav-button { padding: 9px 12px; }
+  .menu-home .composed-layout { grid-template-columns: 290px minmax(0, 1fr); padding: 16px 24px 24px; gap: 16px; }
+  .home-command { padding: 19px; }
+  .menu-home .home-command h1 { font-size: 36px; }
+  .home-flight-cards { gap: 10px; }
+  .location-card { padding: 17px; }
+  .bench-layout { grid-template-columns: 278px minmax(160px, 1fr) 225px; gap: 12px; }
+  .bench-tuning { grid-template-columns: 305px minmax(160px, 1fr) 240px; }
+  .workbench-title { gap: 15px; }
+  .build-identity { padding-left: 15px; }
+  .build-identity strong { font-size: 13px; }
+  .workbench-tabs button { padding: 10px; }
+  .workbench-tabs .ui-icon { display: none; }
+  .inspector-spec { display: none; }
+  .online-layout { grid-template-columns: minmax(0, 1fr) 285px; gap: 14px; }
+  .room-browser { padding: 19px; }
+}
+@media (max-width: 800px) {
+  .topbar { height: 60px; grid-template-columns: auto 1fr auto; gap: 10px; padding: 0 12px; }
+  .brand { font-size: 17px; }
+  .brand-mark .ui-icon { width: 27px; height: 27px; }
+  .brand-light { font-size: 6px; }
+  .main-nav { justify-self: center; }
+  .nav-button { font-size: 10px; padding: 8px; }
+  .account-name, .account-credits { display: none; }
+  .account-button { padding: 4px; min-height: 34px; }
+  .top-tools { gap: 7px; }
+  .menu-home .composed-layout { grid-template-columns: minmax(250px, 300px) minmax(0, 1fr); overflow: auto; align-items: center; }
+  .home-command { max-width: 350px; }
+  .menu-workbench .composed-layout { padding: 12px; gap: 12px; overflow: auto; grid-template-rows: auto auto auto; }
+  .workbench-header { flex-wrap: wrap; }
+  .workbench-title h1 { font-size: 30px; }
+  .workbench-tabs { width: 100%; }
+  .bench-layout, .bench-tuning { grid-template-columns: minmax(240px, 1fr) minmax(180px, .8fr); grid-template-rows: 270px auto; }
+  .bench-center { grid-column: 2; grid-row: 1; }
+  .bench-center .hangar-stage { min-height: 140px; width: 100%; }
+  .component-panel { grid-column: 1; grid-row: 1 / 3; }
+  .bench-sidebar { grid-column: 2; grid-row: 2; overflow: visible; }
+  .component-panel { max-height: 690px; }
+  .part-inspector { display: none; }
+  .response-panel { height: 122px; padding: 10px; }
+  .response-panel #rate-graph { height: 85px; }
+  .response-panel .rate-legend { display: none; }
+  .bench-actions { flex-wrap: wrap; gap: 10px; }
+  .bench-actions .button { padding: 10px; font-size: 11px; }
+  .bench-save-actions { margin-left: auto; }
+  .workbench-status { font-size: 10px; }
+  .menu-multiplayer .composed-layout { overflow: auto; grid-template-rows: auto auto; padding: 16px; }
+  .online-layout { grid-template-columns: 1fr; }
+  .room-browser { min-height: 330px; }
+  .online-sidebar { display: grid; grid-template-columns: 1fr 1fr; overflow: visible; }
+  .cup-panel { grid-column: 1 / -1; }
+}
+@media (max-width: 540px) {
+  .brand-light, .brand-mark { display: none; }
+  .top-tools .help-button { display: none; }
+  .menu-home .composed-layout { grid-template-columns: 1fr; align-items: start; }
+  .home-command { max-width: none; }
+  .menu-home .home-command h1 { font-size: 34px; }
+  .home-destinations { margin-top: 10px; }
+  .home-destinations button { padding: 10px 2px; }
+  .home-flight-cards { grid-template-columns: 1fr; }
+  .home-scene-caption { display: none; }
+  .setup-activities { grid-template-columns: 1fr 1fr; }
+  .bench-layout, .bench-tuning { grid-template-columns: 1fr; grid-template-rows: 230px auto auto; }
+  .bench-center { grid-column: 1; grid-row: 1; }
+  .component-panel { grid-column: 1; grid-row: 2; max-height: 430px; }
+  .bench-sidebar { grid-column: 1; grid-row: 3; }
+  .build-identity { padding-left: 12px; }
+  .workbench-title { gap: 12px; }
+  .online-sidebar { grid-template-columns: 1fr; }
+  .cup-panel { grid-column: 1; }
+  .room-filters { grid-template-columns: 1fr 1fr; }
+  .room-joinable { grid-column: 2; align-self: end; padding-bottom: 8px; }
+  .screen-title { align-items: start; }
+  .screen-title h1 { font-size: 36px; }
+  .screen-title .button { font-size: 10px; }
+}
+.form-error { color: #ffb2a7; padding: 12px 16px; border: 1px solid #ffb2a755; border-radius: 8px; background: #401e1dcc; }
+#auth-status:empty { display: none; }
+@media (max-height: 650px) and (min-width: 801px) {
+  .topbar { height: 56px; }
+  .menu-home .composed-layout { padding: 12px 24px 18px; }
+  .home-command { padding: 18px 21px; }
+  .menu-home .home-command h1 { font-size: 34px; margin-bottom: 16px; }
+  .activity-choice { min-height: 43px; padding: 10px; }
+  .flight-description { margin: 11px 0; }
+  .home-destinations { margin-top: 11px; }
+  .home-destinations button { padding: 10px 2px; }
+  .menu-workbench .composed-layout { gap: 10px; padding-bottom: 14px; }
+  .workbench-header { min-height: 45px; }
+  .component-panel { padding: 14px; }
+  .component-rail { margin-bottom: 12px; padding-bottom: 10px; }
+  .part-card { min-height: 68px; }
+  .bench-center .hangar-stage { min-height: 130px; }
+  .response-panel { height: 130px; }
+  .response-panel #rate-graph { height: 85px; }
+}

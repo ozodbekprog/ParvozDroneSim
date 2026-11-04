@@ -1,0 +1,137 @@
+{
+  "aircraft": [
+    {
+      "id": "luma-5",
+      "actionCameraSource": "ActionCamFrontHDMountv1Luma501",
+      "cosmeticOnly": true,
+      "cameraMassDisplay": 0.133,
+      "activeTriangles": {
+        "withCameraTriangles": 5501,
+        "withoutCameraTriangles": 392
+      }
+    },
+    {
+      "id": "armattan-chameleon",
+      "actionCameraSource": "ActionCamSessionNoMount01",
+      "cosmeticOnly": true,
+      "cameraMassDisplay": 0.074,
+      "activeTriangles": {
+        "withCameraTriangles": 1649,
+        "withoutCameraTriangles": 512
+      }
+    },
+    {
+      "id": "armattan-gecko",
+      "actionCameraSource": "ActionCamSessionNoMount01",
+      "cosmeticOnly": true,
+      "cameraMassDisplay": 0.074,
+      "activeTriangles": {
+        "withCameraTriangles": 1649,
+        "withoutCameraTriangles": 512
+      }
+    },
+    {
+      "id": "dquad-addiction",
+      "actionCameraSource": "ActionCamSessionNoMount01",
+      "cosmeticOnly": true,
+      "cameraMassDisplay": 0.074,
+      "activeTriangles": {
+        "withCameraTriangles": 1529,
+        "withoutCameraTriangles": 392
+      }
+    },
+    {
+      "id": "kestrel",
+      "actionCameraSource": "ActionCamSessionNoMount01",
+      "cosmeticOnly": true,
+      "cameraMassDisplay": 0.074,
+      "activeTriangles": {
+        "withCameraTriangles": 1137,
+        "withoutCameraTriangles": 0
+      }
+    }
+  ],
+  "levels": [
+    {
+      "name": "hangar",
+      "activeAircraft": {
+        "luma-5": {
+          "withCameraTriangles": 9334,
+          "withoutCameraTriangles": 816
+        },
+        "armattan-chameleon": {
+          "withCameraTriangles": 2970,
+          "withoutCameraTriangles": 1072
+        },
+        "armattan-gecko": {
+          "withCameraTriangles": 2970,
+          "withoutCameraTriangles": 1072
+        },
+        "dquad-addiction": {
+          "withCameraTriangles": 2714,
+          "withoutCameraTriangles": 816
+        },
+        "kestrel": {
+          "withCameraTriangles": 1898,
+          "withoutCameraTriangles": 0
+        }
+      },
+      "textures": 12
+    },
+    {
+      "name": "low",
+      "activeAircraft": {
+        "luma-5": {
+          "withCameraTriangles": 5501,
+          "withoutCameraTriangles": 392
+        },
+        "armattan-chameleon": {
+          "withCameraTriangles": 1649,
+          "withoutCameraTriangles": 512
+        },
+        "armattan-gecko": {
+          "withCameraTriangles": 1649,
+          "withoutCameraTriangles": 512
+        },
+        "dquad-addiction": {
+          "withCameraTriangles": 1529,
+          "withoutCameraTriangles": 392
+        },
+        "kestrel": {
+          "withCameraTriangles": 1137,
+          "withoutCameraTriangles": 0
+        }
+      },
+      "textures": 12
+    },
+    {
+      "name": "far",
+      "activeAircraft": {
+        "luma-5": {
+          "withCameraTriangles": 2120,
+          "withoutCameraTriangles": 248
+        },
+        "armattan-chameleon": {
+          "withCameraTriangles": 735,
+          "withoutCameraTriangles": 320
+        },
+        "armattan-gecko": {
+          "withCameraTriangles": 735,
+          "withoutCameraTriangles": 320
+        },
+        "dquad-addiction": {
+          "withCameraTriangles": 663,
+          "withoutCameraTriangles": 248
+        },
+        "kestrel": {
+          "withCameraTriangles": 415,
+          "withoutCameraTriangles": 0
+        }
+      },
+      "textures": 12
+    }
+  ],
+  "joinedBatteryVariants": 11,
+  "sourceActiveFrameWires": 8,
+  "maximumDeliveryTerminalError": 0.001199967535285465
+}

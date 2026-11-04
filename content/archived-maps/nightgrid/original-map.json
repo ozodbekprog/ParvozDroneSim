@@ -1,0 +1,44 @@
+{
+  "id": "nightgrid",
+  "name": "Nightgrid",
+  "region": "Rainy City Blocks",
+  "theme": "custom",
+  "sky": "#29304d",
+  "fog": "#353850",
+  "ground": "#333943",
+  "sun": "#a1b7df",
+  "sunPosition": [
+    35,
+    65,
+    40
+  ],
+  "wind": [
+    0.4,
+    0,
+    0.7
+  ],
+  "description": "A dark street grid with illuminated tower silhouettes, transit stops and delivery vans.",
+  "seed": 946,
+  "cloudColor": "#353850",
+  "gravity": 1,
+  "model": "model.glb",
+  "colliders": [],
+  "objects": [],
+  "collisionFile": "collision.json",
+  "environment": "nightgrid",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.54,
+      -440
+    ],
+    "max": [
+      440,
+      106.05,
+      440
+    ]
+  }
+}

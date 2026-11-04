@@ -1,0 +1,811 @@
+{
+  "retrievedAt": "2026-10-25T16:38:42.400Z",
+  "scope": "Documentation/source inspection, not package execution or compatibility/performance testing. Literal anchors do not establish absence of a feature. Git HEAD references are snapshots; npm versions and repository HEAD may differ.",
+  "packages": [
+    {
+      "name": "@anentrypoint/stream-glb",
+      "url": "https://registry.npmjs.org/%40anentrypoint%2Fstream-glb",
+      "error": "HTTP 404"
+    },
+    {
+      "name": "@hello-terrain/three",
+      "url": "https://registry.npmjs.org/%40hello-terrain%2Fthree",
+      "version": "0.0.0-alpha.14",
+      "publishedAt": "2026-07-04T03:46:31.649Z",
+      "distTags": {
+        "alpha.4": "0.0.0-alpha.4",
+        "latest": "0.0.0-alpha.14"
+      },
+      "peerDependencies": {
+        "three": ">=0.182.0"
+      }
+    },
+    {
+      "name": "@loaders.gl/tiles",
+      "url": "https://registry.npmjs.org/%40loaders.gl%2Ftiles",
+      "version": "4.5.4",
+      "publishedAt": "2026-10-10T13:35:18.585Z",
+      "distTags": {
+        "v4.5-beta": "4.5.0-alpha.1",
+        "latest": "4.5.4",
+        "beta": "5.0.0-alpha.13"
+      },
+      "gitHead": "1e933864ed5c932d446332715553234bfafdb5a8",
+      "license": "MIT",
+      "peerDependencies": {
+        "@loaders.gl/core": "~4.5.0"
+      }
+    },
+    {
+      "name": "@loaders.gl/tiles-3d",
+      "url": "https://registry.npmjs.org/%40loaders.gl%2Ftiles-3d",
+      "version": "5.0.0-alpha.13",
+      "publishedAt": "2026-10-22T14:25:23.145Z",
+      "distTags": {
+        "latest": "5.0.0-alpha.13",
+        "beta": "5.0.0-alpha.13"
+      },
+      "gitHead": "8a9e77743ea90a7be4ebec572416bb50ca9d73c3",
+      "license": "MIT",
+      "peerDependencies": {
+        "@loaders.gl/core": "~5.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "@loaders.gl/gltf",
+      "url": "https://registry.npmjs.org/%40loaders.gl%2Fgltf",
+      "version": "4.5.4",
+      "publishedAt": "2026-10-10T13:35:41.796Z",
+      "distTags": {
+        "1.1-latest": "1.1.7",
+        "v4.5-beta": "4.5.0-alpha.1",
+        "latest": "4.5.4",
+        "beta": "5.0.0-alpha.13"
+      },
+      "gitHead": "1e933864ed5c932d446332715553234bfafdb5a8",
+      "license": "MIT",
+      "peerDependencies": {
+        "@loaders.gl/core": "~4.5.0"
+      }
+    },
+    {
+      "name": "@sparkjsdev/spark",
+      "url": "https://registry.npmjs.org/%40sparkjsdev%2Fspark",
+      "version": "2.4.0",
+      "publishedAt": "2026-10-20T11:06:59.128Z",
+      "distTags": {
+        "latest": "2.4.0"
+      },
+      "gitHead": "ffe210dc0a45d0515a06c9235878108112827d61",
+      "license": "MIT",
+      "peerDependencies": {
+        "three": ">=0.180.0"
+      }
+    },
+    {
+      "name": "@galacean/engine",
+      "url": "https://registry.npmjs.org/%40galacean%2Fengine",
+      "version": "1.6.13",
+      "publishedAt": "2025-12-29T05:26:52.125Z",
+      "distTags": {
+        "beta": "1.6.0-beta.2",
+        "latest": "1.6.13",
+        "experimental": "0.0.0-experimental-2.0-migrate.7",
+        "alpha": "2.0.0-alpha.51"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "phy-engine",
+      "url": "https://registry.npmjs.org/phy-engine",
+      "version": "0.14.0",
+      "publishedAt": "2026-06-16T15:54:30.453Z",
+      "distTags": {
+        "latest": "0.14.0"
+      },
+      "gitHead": "dc6a08c2fb1bf584915fecb6d7aabaa7cb12c98f",
+      "license": "MIT",
+      "peerDependencies": {
+        "three": ">= 0.183.2"
+      }
+    },
+    {
+      "name": "comlink",
+      "url": "https://registry.npmjs.org/comlink",
+      "version": "4.4.2",
+      "publishedAt": "2024-11-07T12:34:03.224Z",
+      "distTags": {
+        "alpha": "4.0.0-alpha.10",
+        "next": "4.0.0-alpha.10",
+        "latest": "4.4.2"
+      },
+      "gitHead": "fd4b52666b1ec62784f8b45cb1108c7e40bc481d",
+      "license": "Apache-2.0"
+    }
+  ],
+  "repositories": [
+    {
+      "repo": "AnEntrypoint/stream-glb",
+      "sha": "44b9a1c524df0aefaa883ea3208af7e834963f78",
+      "ref": "HEAD"
+    },
+    {
+      "repo": "kenjinp/hello-terrain",
+      "sha": "51b022cc964a05217701a05edd94deca04b44af7",
+      "ref": "HEAD"
+    },
+    {
+      "repo": "visgl/loaders.gl",
+      "sha": "ca90e0c7c0488b18ab0b80a0cd27367563c7b724",
+      "ref": "HEAD"
+    },
+    {
+      "repo": "sparkjsdev/spark",
+      "sha": "ffe210dc0a45d0515a06c9235878108112827d61",
+      "ref": "HEAD"
+    },
+    {
+      "repo": "cnr-isti-vclab/nexus",
+      "sha": "f29e8fd1182b2a1c0c512add99c7edfc8e146680",
+      "ref": "HEAD"
+    }
+  ],
+  "sources": [
+    {
+      "repo": "AnEntrypoint/stream-glb",
+      "path": "runtime/model-pool.js",
+      "url": "https://raw.githubusercontent.com/AnEntrypoint/stream-glb/44b9a1c524df0aefaa883ea3208af7e834963f78/runtime/model-pool.js",
+      "ref": "44b9a1c524df0aefaa883ea3208af7e834963f78",
+      "sha256": "cc9bcc030e5206689e2be698d4c3d96f84a467343c89b65d496e73318847971f",
+      "lines": 2400,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [
+          218,
+          221,
+          222,
+          346,
+          350,
+          1390,
+          2000
+        ],
+        "_fetchRange": [
+          712,
+          962,
+          1032
+        ],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [
+          1776,
+          1786,
+          1813,
+          1814,
+          1815,
+          1818,
+          1819,
+          2124,
+          2127,
+          2214,
+          2219,
+          2226,
+          2227,
+          2228,
+          2237,
+          2239,
+          2240,
+          2241,
+          2248,
+          2254,
+          2260,
+          2261,
+          2262,
+          2266,
+          2291,
+          2350
+        ],
+        "_trackBytes": [
+          704,
+          951,
+          988,
+          1033,
+          2277,
+          2355,
+          2356
+        ],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "AnEntrypoint/stream-glb",
+      "path": "runtime/lod-worker.js",
+      "url": "https://raw.githubusercontent.com/AnEntrypoint/stream-glb/44b9a1c524df0aefaa883ea3208af7e834963f78/runtime/lod-worker.js",
+      "ref": "44b9a1c524df0aefaa883ea3208af7e834963f78",
+      "sha256": "f883894b283a7f59294eff6226205c87de76a4aaeea302c66977a7cd8e3f63c0",
+      "lines": 244,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "AnEntrypoint/stream-glb",
+      "path": "tools/bake-progressive.mjs",
+      "url": "https://raw.githubusercontent.com/AnEntrypoint/stream-glb/44b9a1c524df0aefaa883ea3208af7e834963f78/tools/bake-progressive.mjs",
+      "ref": "44b9a1c524df0aefaa883ea3208af7e834963f78",
+      "sha256": "66cf9422b3b1abb8e5cb5968313ec90db9dfcf0622895da2dc92b14799f8b18d",
+      "lines": 635,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [
+          36
+        ],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "AnEntrypoint/stream-glb",
+      "path": "package.json",
+      "url": "https://raw.githubusercontent.com/AnEntrypoint/stream-glb/44b9a1c524df0aefaa883ea3208af7e834963f78/package.json",
+      "ref": "44b9a1c524df0aefaa883ea3208af7e834963f78",
+      "sha256": "953d8a124c7b7d97a7f0a6303ffcce8df9e3b30293b33c8e8301bd59afe9ee34",
+      "lines": 59,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "kenjinp/hello-terrain",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/kenjinp/hello-terrain/51b022cc964a05217701a05edd94deca04b44af7/README.md",
+      "ref": "51b022cc964a05217701a05edd94deca04b44af7",
+      "sha256": "0b309b3e87b2f756d10ff941d0bed31a3666604faf67821a3102d3d1dd19e5d8",
+      "lines": 71,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [
+          37,
+          47,
+          48
+        ],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "kenjinp/hello-terrain",
+      "path": "packages/three/package.json",
+      "url": "https://raw.githubusercontent.com/kenjinp/hello-terrain/51b022cc964a05217701a05edd94deca04b44af7/packages/three/package.json",
+      "ref": "51b022cc964a05217701a05edd94deca04b44af7",
+      "sha256": "44c470a8c7671bdacb093279fe30f28a288ffbc589f53a2bb235f7208daabff5",
+      "lines": 48,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "visgl/loaders.gl",
+      "path": "modules/tiles/src/index.ts",
+      "url": "https://raw.githubusercontent.com/visgl/loaders.gl/ca90e0c7c0488b18ab0b80a0cd27367563c7b724/modules/tiles/src/index.ts",
+      "ref": "ca90e0c7c0488b18ab0b80a0cd27367563c7b724",
+      "sha256": "8bfbaa1ec4ba838ecb7fa0f9879e5f6e706f06ca1b0b637cb6ecf3ab08816d5f",
+      "lines": 60,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "visgl/loaders.gl",
+      "path": "modules/tiles-3d/src/tileset-3d/common/tileset-3d.ts",
+      "url": "https://raw.githubusercontent.com/visgl/loaders.gl/ca90e0c7c0488b18ab0b80a0cd27367563c7b724/modules/tiles-3d/src/tileset-3d/common/tileset-3d.ts",
+      "ref": "ca90e0c7c0488b18ab0b80a0cd27367563c7b724",
+      "sha256": "ee0f160aa7bb6bd54d41ce4409f2fbecac1b47ff7ab2e339a0e9fdf9a6297b51",
+      "lines": 1211,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [
+          113,
+          181,
+          292,
+          372,
+          432,
+          433,
+          456,
+          620,
+          621,
+          625,
+          894,
+          919,
+          1080
+        ],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "visgl/loaders.gl",
+      "path": "modules/tiles-3d/src/tileset-3d/common/indexed-archive-tileset-source.ts",
+      "url": "https://raw.githubusercontent.com/visgl/loaders.gl/ca90e0c7c0488b18ab0b80a0cd27367563c7b724/modules/tiles-3d/src/tileset-3d/common/indexed-archive-tileset-source.ts",
+      "ref": "ca90e0c7c0488b18ab0b80a0cd27367563c7b724",
+      "sha256": "bbfa43564c67066b4ae466452891d5699a135694e7f0fdb2b634010c05cec48b",
+      "lines": 206,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "visgl/loaders.gl",
+      "path": "modules/gltf/src/gltf-loader.ts",
+      "url": "https://raw.githubusercontent.com/visgl/loaders.gl/ca90e0c7c0488b18ab0b80a0cd27367563c7b724/modules/gltf/src/gltf-loader.ts",
+      "ref": "ca90e0c7c0488b18ab0b80a0cd27367563c7b724",
+      "sha256": "f64f11069a9ca54fd24684c2b4f06f90ddbb1a791f39ceb525b316e1f0459d39",
+      "lines": 53,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "sparkjsdev/spark",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/sparkjsdev/spark/ffe210dc0a45d0515a06c9235878108112827d61/README.md",
+      "ref": "ffe210dc0a45d0515a06c9235878108112827d61",
+      "sha256": "2024838879230ccb23d6069d329ab674445047066a5a53805e99f23517c3d530",
+      "lines": 218,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "cnr-isti-vclab/nexus",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/cnr-isti-vclab/nexus/f29e8fd1182b2a1c0c512add99c7edfc8e146680/README.md",
+      "ref": "f29e8fd1182b2a1c0c512add99c7edfc8e146680",
+      "sha256": "f3e98e0948706105b9cca095d4b3b4874fb5ca4bd0f117121fd50ddbb447e68f",
+      "lines": 129,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "needle-tools/gltf-progressive",
+      "path": "src/lods.manager.ts",
+      "url": "https://raw.githubusercontent.com/needle-tools/gltf-progressive/9e524f199dfb8055e7229032acd5abcb002b4720/src/lods.manager.ts",
+      "ref": "9e524f199dfb8055e7229032acd5abcb002b4720",
+      "sha256": "03332c998609aa6ac9f029c22821548d2a7e8bb691e617426f0f161464108409",
+      "lines": 1102,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [
+          703
+        ],
+        "disposeLoaders": [],
+        "_renderLists": [
+          704
+        ],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "mrdoob/three.js",
+      "path": "examples/jsm/libs/meshopt_decoder.module.js",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/r180/examples/jsm/libs/meshopt_decoder.module.js",
+      "ref": "r180",
+      "sha256": "784315b6959c85459eab77f51776158cc381d7e7d77b919ff7c4935f088a7c5c",
+      "lines": 196,
+      "anchors": {
+        "useWorkers": [
+          166
+        ],
+        "decodeGltfBufferAsync": [
+          181
+        ],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "mrdoob/three.js",
+      "path": "examples/jsm/loaders/GLTFLoader.js",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/r180/examples/jsm/loaders/GLTFLoader.js",
+      "ref": "r180",
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a",
+      "lines": 4891,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [
+          1718,
+          1720,
+          1728
+        ],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "mrdoob/three.js",
+      "path": "examples/webgpu_struct_drawindirect.html",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/9b4a2ac29c63ccb43fd51c5661f2f873ac2c39b8/examples/webgpu_struct_drawindirect.html",
+      "ref": "9b4a2ac29c63ccb43fd51c5661f2f873ac2c39b8",
+      "sha256": "a7f3fffc063916da72a17436fbf41dc0b5db112ff1161316237b4f1deaa82263",
+      "lines": 255,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [
+          56
+        ],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [
+          9,
+          10
+        ],
+        "occlusionTest": []
+      }
+    },
+    {
+      "repo": "mrdoob/three.js",
+      "path": "examples/webgpu_occlusion.html",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/9b4a2ac29c63ccb43fd51c5661f2f873ac2c39b8/examples/webgpu_occlusion.html",
+      "ref": "9b4a2ac29c63ccb43fd51c5661f2f873ac2c39b8",
+      "sha256": "012ea6b8cc87aa29c9be5f3192906b403fb179ad6debeb8497621b4bb213e89a",
+      "lines": 152,
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [
+          118
+        ],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": [
+          111
+        ]
+      }
+    }
+  ],
+  "localSourceChecks": [
+    {
+      "path": "src/asset-loader.js",
+      "sha256": "30a4d821774a469f02d8f75fccfaabc6dd929665de93be421865d850eabc61d4",
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [
+          59
+        ],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "path": "src/asset-transfer.js",
+      "sha256": "7e423c553d5ed7e1fda6e3f79a92f0c5657ab56ecc2687e3ced983fad95eded9",
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [
+          22
+        ],
+        "AbortController": [
+          12
+        ],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "path": "src/compile-scene-programs.js",
+      "sha256": "d458185562c435ca899b929627727c1e2ae317907603ff13051cbc160f767ac8",
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "path": "node_modules/three/examples/jsm/libs/meshopt_decoder.module.js",
+      "sha256": "784315b6959c85459eab77f51776158cc381d7e7d77b919ff7c4935f088a7c5c",
+      "anchors": {
+        "useWorkers": [
+          166
+        ],
+        "decodeGltfBufferAsync": [
+          181
+        ],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    },
+    {
+      "path": "node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a",
+      "anchors": {
+        "useWorkers": [],
+        "decodeGltfBufferAsync": [
+          1718,
+          1720,
+          1728
+        ],
+        "onBeforeCompile": [],
+        "_fetchRange": [],
+        "Content-Range": [],
+        "AbortController": [],
+        "terminate(": [],
+        "byteBudget": [],
+        "_trackBytes": [],
+        "memoryAdjustedScreenSpaceError": [],
+        "maximumMemoryUsage": [],
+        "WebGPURenderer": [],
+        "disposeLoaders": [],
+        "_renderLists": [],
+        "indirect": [],
+        "occlusionTest": []
+      }
+    }
+  ]
+}

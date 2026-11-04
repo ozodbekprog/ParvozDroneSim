@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Minus Two — локальный показ</title>
+<style>body{margin:0;background:#10171b;color:#edf0ec;font:15px system-ui}main{max-width:1280px;margin:auto;padding:16px}h1{font-size:24px}#view{width:100%;aspect-ratio:16/9;background:#171c21}nav{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}button{font:inherit;background:#263b44;color:white;border:1px solid #56707b;border-radius:4px;padding:8px 12px;cursor:pointer}output{display:block;white-space:pre-wrap;font:13px monospace;margin:12px 0}p{color:#c5ced2;line-height:1.5}a{color:#99dbea}</style></head><body><main>
+<h1>Minus Two — импортированная карта</h1>
+<p>Гараж из Liftoff, исходная планировка и модели. Выберите ракурс или запустите взлёт Kestrel. Для самостоятельного полёта: <a href="http://127.0.0.1:2590/" target="_blank">локальная игра</a> → Fly → Minus Two - Demo.</p>
+<div id="view" aria-label="Minus Two"></div><output id="status" aria-live="polite">Загрузка карты…</output>
+<nav><button data-shot="pilot">У старта</button><button data-shot="detail">Колонна крупно</button><button data-shot="ceiling">Потолок</button><button data-shot="reverse">Обратный ракурс</button><button data-shot="drone">Дрон крупно</button><button id="takeoff">Взлёт и зависание</button><button id="land">Посадка</button><button id="reset">Перезапуск</button><button id="fpv">FPV</button><button id="tour">Осмотр трассы</button></nav>
+<output id="flight"></output><output id="peaks"></output>
+<p>Взлёт и посадка используют действующую физику Kestrel. Осмотр трассы перемещает камеру. Low: внутреннее разрешение 1280×720, адаптивное разрешение отключено. Производительность UHD 620 ещё не проверена.</p>
+</main><script type="module" src="/editor/minus-two-review.js"></script></body></html>

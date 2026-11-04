@@ -1,0 +1,955 @@
+{
+  "HQV1Series5040TriPropeller01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_HQV1Series5040TriPropeller01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6158200656074940025"
+    },
+    "m_Structure": {
+      "weight": 0.0034,
+      "diameter": 5,
+      "pitch": 4,
+      "blades": 3,
+      "propConstant": 1.2
+    }
+  },
+  "Hypetrain2306Motor01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_Hypetrain2306Motor01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "315526186184220917"
+    },
+    "m_Structure": {
+      "weight": 0.03,
+      "size": 2306,
+      "diameter": 23,
+      "StatorLength": 6,
+      "velocityConstant": 2450,
+      "maxPower": 300,
+      "maxBatteryCells": 5,
+      "noLoadI": 0.5,
+      "noLoadV": 10,
+      "internalResistance": 0.048,
+      "invertedDirection": 0
+    }
+  },
+  "Luma5Frame01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_Luma5Frame01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6737186365254081901"
+    },
+    "m_Structure": {
+      "weight": 0.219,
+      "batteryAtBottom": 0,
+      "maxPropellerSize": 5.1,
+      "hasDragOverride": 0,
+      "dragOverrideValue": 0.82
+    }
+  },
+  "ArmattanChameleonFrame01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_ArmattanChameleonFrame01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6737186365254081901"
+    },
+    "m_Structure": {
+      "weight": 0.118,
+      "batteryAtBottom": 0,
+      "maxPropellerSize": 5,
+      "hasDragOverride": 0,
+      "dragOverrideValue": 0.82
+    }
+  },
+  "HyperionBattery2S01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_HyperionBattery2S01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6431073766846699766"
+    },
+    "m_Structure": {
+      "weight": 0.032,
+      "mAh": 550,
+      "voltagePerCell": 3.7,
+      "numberOfCells": 2,
+      "cellResistance": 0.003,
+      "cRatingCont": 25,
+      "cRatingBurst": 50
+    }
+  },
+  "CameraRotorRiot01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_CameraRotorRiot01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "2386263570231603107"
+    },
+    "m_Structure": {
+      "weight": 0.016
+    }
+  },
+  "HQProp2Bullnose3045Propeller01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_HQProp2Bullnose3045Propeller01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6158200656074940025"
+    },
+    "m_Structure": {
+      "weight": 0.0027,
+      "diameter": 3,
+      "pitch": 4.5,
+      "blades": 2,
+      "propConstant": 1.2
+    }
+  },
+  "DquadAddictionFrame01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_DquadAddictionFrame01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6737186365254081901"
+    },
+    "m_Structure": {
+      "weight": 0.096,
+      "batteryAtBottom": 1,
+      "maxPropellerSize": 5,
+      "hasDragOverride": 0,
+      "dragOverrideValue": 0.82
+    }
+  },
+  "ActionCamFrontHDMountv1Luma501": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_ActionCamFrontHDMountv1Luma501",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6736654276284172711"
+    },
+    "m_Structure": {
+      "weight": 0.133,
+      "hasMount": 0
+    }
+  },
+  "CameraRedotSplitMini01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_CameraRedotSplitMini01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "2386263570231603107"
+    },
+    "m_Structure": {
+      "weight": 0.013
+    }
+  },
+  "ArmattanGeckoFrame01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_ArmattanGeckoFrame01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6737186365254081901"
+    },
+    "m_Structure": {
+      "weight": 0.042,
+      "batteryAtBottom": 0,
+      "maxPropellerSize": 3,
+      "hasDragOverride": 0,
+      "dragOverrideValue": 0.82
+    }
+  },
+  "HypetrainVanover2207Motor01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_HypetrainVanover2207Motor01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "315526186184220917"
+    },
+    "m_Structure": {
+      "weight": 0.0295,
+      "size": 2207,
+      "diameter": 22,
+      "StatorLength": 7,
+      "velocityConstant": 1860,
+      "maxPower": 300,
+      "maxBatteryCells": 6,
+      "noLoadI": 1.304,
+      "noLoadV": 10,
+      "internalResistance": 0.004,
+      "invertedDirection": 0
+    }
+  },
+  "AhtechInfinityBattery01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_AhtechInfinityBattery01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6431073766846699766"
+    },
+    "m_Structure": {
+      "weight": 0.18,
+      "mAh": 1500,
+      "voltagePerCell": 3.7,
+      "numberOfCells": 4,
+      "cellResistance": 0.003,
+      "cRatingCont": 85,
+      "cRatingBurst": 170
+    }
+  },
+  "AntennaPagodaCircular01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_AntennaPagodaCircular01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "-1405718898987716009"
+    },
+    "m_Structure": {
+      "weight": 0.0089,
+      "isAngled": 1
+    }
+  },
+  "TattuRline6SBattery01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_TattuRline6SBattery01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6431073766846699766"
+    },
+    "m_Structure": {
+      "weight": 0.226,
+      "mAh": 1300,
+      "voltagePerCell": 3.7,
+      "numberOfCells": 6,
+      "cellResistance": 0.003,
+      "cRatingCont": 95,
+      "cRatingBurst": 190
+    }
+  },
+  "ActionCamSessionNoMount01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_ActionCamSessionNoMount01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6736654276284172711"
+    },
+    "m_Structure": {
+      "weight": 0.074,
+      "hasMount": 0
+    }
+  },
+  "Gemfan51466HurricaneMCKV2Propeller01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_Gemfan51466HurricaneMCKV2Propeller01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6158200656074940025"
+    },
+    "m_Structure": {
+      "weight": 0.0042,
+      "diameter": 5,
+      "pitch": 3.6,
+      "blades": 3,
+      "propConstant": 1.2
+    }
+  },
+  "Bushmaster1507motor3600KV01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_Bushmaster1507motor3600KV01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "315526186184220917"
+    },
+    "m_Structure": {
+      "weight": 0.016,
+      "size": 1507,
+      "diameter": 15,
+      "StatorLength": 7,
+      "velocityConstant": 3600,
+      "maxPower": 150,
+      "maxBatteryCells": 4,
+      "noLoadI": 0.5,
+      "noLoadV": 10,
+      "internalResistance": 0.2,
+      "invertedDirection": 0
+    }
+  },
+  "Bushmaster1507motor2800KV01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_Bushmaster1507motor2800KV01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "315526186184220917"
+    },
+    "m_Structure": {
+      "weight": 0.016,
+      "size": 1507,
+      "diameter": 15,
+      "StatorLength": 7,
+      "velocityConstant": 2800,
+      "maxPower": 150,
+      "maxBatteryCells": 6,
+      "noLoadI": 0.5,
+      "noLoadV": 10,
+      "internalResistance": 0.2,
+      "invertedDirection": 0
+    }
+  },
+  "AntennaSoupapeMicro01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_AntennaSoupapeMicro01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "-1405718898987716009"
+    },
+    "m_Structure": {
+      "weight": 0.0016,
+      "isAngled": 0
+    }
+  },
+  "AntennaSoupape01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_AntennaSoupape01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "-1405718898987716009"
+    },
+    "m_Structure": {
+      "weight": 0.0048,
+      "isAngled": 0
+    }
+  },
+  "Dal3050Propeller01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_Dal3050Propeller01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6158200656074940025"
+    },
+    "m_Structure": {
+      "weight": 0.0025,
+      "diameter": 3,
+      "pitch": 5,
+      "blades": 3,
+      "propConstant": 1.2
+    }
+  },
+  "DAL5040CycloneTriPropeller01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_DAL5040CycloneTriPropeller01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6158200656074940025"
+    },
+    "m_Structure": {
+      "weight": 0.0039,
+      "diameter": 5,
+      "pitch": 4,
+      "blades": 3,
+      "propConstant": 1.2
+    }
+  },
+  "AntennaFatsharkCircular01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_AntennaFatsharkCircular01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "-1405718898987716009"
+    },
+    "m_Structure": {
+      "weight": 0.008,
+      "isAngled": 0
+    }
+  },
+  "ActionCamBlank": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_ActionCamBlank",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6736654276284172711"
+    },
+    "m_Structure": {
+      "weight": 0,
+      "hasMount": 0
+    }
+  },
+  "AmpAgeBattery01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_AmpAgeBattery01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6431073766846699766"
+    },
+    "m_Structure": {
+      "weight": 0.109,
+      "mAh": 500,
+      "voltagePerCell": 3.7,
+      "numberOfCells": 4,
+      "cellResistance": 0.003,
+      "cRatingCont": 65,
+      "cRatingBurst": 130
+    }
+  },
+  "TattuRline4SBattery01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_TattuRline4SBattery01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "6431073766846699766"
+    },
+    "m_Structure": {
+      "weight": 0.194,
+      "mAh": 1550,
+      "voltagePerCell": 3.7,
+      "numberOfCells": 4,
+      "cellResistance": 0.003,
+      "cRatingCont": 95,
+      "cRatingBurst": 190
+    }
+  },
+  "CameraFibonacci01": {
+    "m_CorrespondingSourceObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_EditorClassIdentifier": "",
+    "m_EditorHideFlags": 0,
+    "m_Enabled": 1,
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_HideFlags": 0,
+    "m_Name": "data_CameraFibonacci01",
+    "m_PrefabAsset": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_PrefabInstance": {
+      "m_FileID": 0,
+      "m_PathID": "0"
+    },
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": "2386263570231603107"
+    },
+    "m_Structure": {
+      "weight": 0.012
+    }
+  }
+}

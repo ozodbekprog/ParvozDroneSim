@@ -1,0 +1,41 @@
+/* Settings has one category hub and a predictable return path for every section. */
+.menu-settings .menu-layout { display: flex; align-items: center; justify-content: center; }
+.menu-settings .menu-panel { width: min(660px, 100%); }
+.settings-categories { display: grid; gap: 12px; }
+.settings-category {
+  display: flex; align-items: center; gap: 18px; width: 100%; min-height: 102px;
+  padding: 20px; border: 1px solid var(--line); border-radius: 12px;
+  text-align: left; color: var(--text); background: var(--surface-soft);
+}
+.settings-category:hover { border-color: var(--accent); background: #ffae7010; }
+.settings-category > span:nth-child(2) { flex: 1; }
+.settings-category strong { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 25px; font-weight: 600; }
+.settings-category small { display: block; margin-top: 5px; font-size: 12px; line-height: 1.5; color: var(--muted); }
+.settings-category > .ui-icon { width: 18px; height: 18px; color: var(--muted); }
+.settings-category-icon { display: grid; place-items: center; width: 48px; height: 48px; flex: none; color: var(--technical); background: #78d8df0d; border-radius: 12px; }
+.settings-category-icon .ui-icon { width: 26px; height: 26px; }
+.menu-controls .menu-layout { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr); align-items: start; }
+.menu-controls .menu-panel { width: 100%; }
+.menu-controls .controls-form > label:first-child { margin-top: 0; }
+.menu-controls .settings-help { margin-bottom: 22px; }
+.menu-controls .virtual-radio { background: var(--surface); border-color: var(--line); }
+.menu-camera .menu-layout, .menu-graphics .menu-layout { justify-content: center; align-items: center; }
+.menu-camera .menu-panel { width: min(620px, 100%); }
+.menu-graphics .menu-panel { width: min(830px, 100%); }
+.camera-setting { margin-top: 24px; }
+.camera-setting .settings-help { margin-top: 8px; }
+.render-resolution-setting { margin: 20px 0; padding: 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-soft); }
+.render-resolution-setting label { display: flex; justify-content: space-between; gap: 12px; }
+.render-resolution-setting input { width: 100%; }
+.resolution-presets { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+.resolution-presets button { flex: 1; min-width: 60px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; color: var(--text); background: var(--surface); }
+.resolution-presets button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+.render-resolution-setting small, .render-resolution-setting output { display: block; font-size: 12px; line-height: 1.5; color: var(--muted); }
+.render-resolution-setting output { margin-top: 8px; font-variant-numeric: tabular-nums; }
+@media (max-width: 800px) {
+  .menu-controls .menu-layout { display: flex; flex-direction: column; overflow: auto; }
+  .menu-controls .menu-panel, .menu-controls .virtual-radio { width: 100%; max-height: none; flex: none; }
+  .menu-settings .menu-layout, .menu-camera .menu-layout, .menu-graphics .menu-layout { align-items: center; justify-content: flex-start; }
+  .settings-category { padding: 16px; gap: 12px; min-height: 90px; }
+  .settings-category small { font-size: 11px; }
+}

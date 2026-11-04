@@ -1,0 +1,437 @@
+{
+  "id": "hangar-c03-demo-liftoff-02",
+  "blueprints": 83,
+  "visibleInstances": 76,
+  "meshes": 208,
+  "colliders": 159,
+  "inventory": [
+    {
+      "instance": "0",
+      "prefab": "SpawnPointSingle02",
+      "meshes": 0
+    },
+    {
+      "instance": "1",
+      "prefab": "TrussGateFinishGeneric01",
+      "meshes": 3
+    },
+    {
+      "instance": "3",
+      "prefab": "TrussGateFinishGeneric01",
+      "meshes": 3
+    },
+    {
+      "instance": "4",
+      "prefab": "CheckpointSphereFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "5",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "7",
+      "prefab": "TrussGateFinishGeneric01",
+      "meshes": 3
+    },
+    {
+      "instance": "8",
+      "prefab": "TrussGateFinishGeneric01",
+      "meshes": 3
+    },
+    {
+      "instance": "-1",
+      "prefab": "TapeYellowBlack01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "9",
+      "prefab": "TrussGateFinishGeneric01",
+      "meshes": 3
+    },
+    {
+      "instance": "18",
+      "prefab": "LightRigCorner01",
+      "meshes": 3
+    },
+    {
+      "instance": "19",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "20",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "21",
+      "prefab": "LightRigCorner01",
+      "meshes": 3
+    },
+    {
+      "instance": "22",
+      "prefab": "LightRigCorner01",
+      "meshes": 3
+    },
+    {
+      "instance": "23",
+      "prefab": "LightRigCorner01",
+      "meshes": 3
+    },
+    {
+      "instance": "24",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "25",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "26",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "27",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "28",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "29",
+      "prefab": "LightRig2M01",
+      "meshes": 3
+    },
+    {
+      "instance": "-1",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "30",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "31",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "33",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "34",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "35",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "36",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "37",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "38",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "39",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "40",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "41",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "42",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "43",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "44",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "45",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "46",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "47",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "48",
+      "prefab": "DiscConeGreen01",
+      "meshes": 3
+    },
+    {
+      "instance": "49",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "50",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "51",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "52",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "53",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "54",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "55",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "56",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "57",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "58",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "59",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "60",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "61",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "62",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "63",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "64",
+      "prefab": "DiscConeMagenta01",
+      "meshes": 3
+    },
+    {
+      "instance": "65",
+      "prefab": "AdvertBoardBattery01",
+      "meshes": 6
+    },
+    {
+      "instance": "66",
+      "prefab": "AdvertBoardRepair01",
+      "meshes": 6
+    },
+    {
+      "instance": "67",
+      "prefab": "TriggerBox_ChargeBattery_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "68",
+      "prefab": "TriggerBox_RepairPropellers_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "69",
+      "prefab": "ASLLightBeam01",
+      "meshes": 1
+    },
+    {
+      "instance": "70",
+      "prefab": "ASLLightBeam01",
+      "meshes": 1
+    },
+    {
+      "instance": "-1",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "-1",
+      "prefab": "TapeWhiteRed01",
+      "meshes": 1,
+      "sourceRibbon": true
+    },
+    {
+      "instance": "71",
+      "prefab": "AirflagLiftoffFinishDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "72",
+      "prefab": "AirflagLiftoffFinishDark01",
+      "meshes": 1
+    },
+    {
+      "instance": "73",
+      "prefab": "ASLLightBeam01",
+      "meshes": 1
+    },
+    {
+      "instance": "74",
+      "prefab": "ASLLightBeam01",
+      "meshes": 1
+    },
+    {
+      "instance": "76",
+      "prefab": "DirectionArrowWhite01",
+      "meshes": 1
+    },
+    {
+      "instance": "77",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "78",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "79",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "80",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "81",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "82",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "83",
+      "prefab": "ASLLightBeam01",
+      "meshes": 1
+    },
+    {
+      "instance": "84",
+      "prefab": "ASLLightBeam01",
+      "meshes": 1
+    },
+    {
+      "instance": "85",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "86",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "87",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "88",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "89",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "90",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    }
+  ],
+  "lodTriangles": [
+    101716,
+    53220,
+    47516
+  ],
+  "cells": 18,
+  "propMeshes": 204,
+  "ribbonMeshes": 4,
+  "ribbonTriangles": 784
+}

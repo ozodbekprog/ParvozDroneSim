@@ -1,0 +1,38 @@
+{
+  "id": "metal_tool_chest",
+  "title": "Metal Tool Chest",
+  "authors": {
+    "Yann Kervran": "Rigging",
+    "John Hutcheson": "Modeling & Texturing"
+  },
+  "source": "https://polyhaven.com/a/metal_tool_chest",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "include": {
+      "textures/metal_tool_chest_nor_gl_1k.exr": {
+        "size": 1366038,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/metal_tool_chest/metal_tool_chest_nor_gl_1k.exr",
+        "md5": "3e4e13fa7036015348a30378948d9b74"
+      },
+      "textures/metal_tool_chest_metal_1k.exr": {
+        "size": 186387,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/metal_tool_chest/metal_tool_chest_metal_1k.exr",
+        "md5": "5a59c7842b5a6e3406e9a1a4a74b936f"
+      },
+      "textures/metal_tool_chest_diff_1k.jpg": {
+        "size": 552016,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_tool_chest/metal_tool_chest_diff_1k.jpg",
+        "md5": "4deaf0af07e8cadbfbd4975b49f597df"
+      },
+      "textures/metal_tool_chest_rough_1k.exr": {
+        "size": 1076551,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/metal_tool_chest/metal_tool_chest_rough_1k.exr",
+        "md5": "85a7e8699e090ce8bf28fe95a403e4fc"
+      }
+    },
+    "size": 799220,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/metal_tool_chest/metal_tool_chest_1k.blend",
+    "md5": "274be84f73efcd93137f48252da1a5c2"
+  }
+}

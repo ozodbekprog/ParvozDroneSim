@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-26T07:11:16.809Z",
+  "head": "e17cacb0c4a0ab7a46b6f693b614038b52d67c08",
+  "revision": "85331b4bc0057c68",
+  "scope": "Read-only catalog and source audit. Byte lengths are canonical/generated resource sizes, not measured compressed HTTP bytes. GLB-only floors assume identity transfer at a sustained stated bit rate and exclude every other phase. No production requests or hardware benchmarks.",
+  "maps": [
+    {
+      "id": "hangar-c03-demo",
+      "objects": 2857,
+      "lodSelectors": 2857,
+      "distinctModelDeliveries": 1,
+      "modelBytes": 270304988,
+      "collisionJsonBytes": 27242548,
+      "glbIdentityTransferFloorSecondsAt5Mbps": 432.4879808,
+      "glbIdentityTransferFloorSecondsAt20Mbps": 108.1219952
+    },
+    {
+      "id": "liftoff-arena-demo",
+      "objects": 1526,
+      "lodSelectors": 1526,
+      "distinctModelDeliveries": 1,
+      "modelBytes": 173899476,
+      "collisionJsonBytes": 22687777,
+      "glbIdentityTransferFloorSecondsAt5Mbps": 278.2391616,
+      "glbIdentityTransferFloorSecondsAt20Mbps": 69.5597904
+    },
+    {
+      "id": "liftoff-pine-valley-demo",
+      "objects": 1108,
+      "lodSelectors": 1108,
+      "distinctModelDeliveries": 1,
+      "modelBytes": 136088540,
+      "collisionJsonBytes": 102990054,
+      "glbIdentityTransferFloorSecondsAt5Mbps": 217.741664,
+      "glbIdentityTransferFloorSecondsAt20Mbps": 54.435416
+    },
+    {
+      "id": "liftoff-the-green-demo",
+      "objects": 4126,
+      "lodSelectors": 4126,
+      "distinctModelDeliveries": 1,
+      "modelBytes": 263294924,
+      "collisionJsonBytes": 138107819,
+      "glbIdentityTransferFloorSecondsAt5Mbps": 421.2718784,
+      "glbIdentityTransferFloorSecondsAt20Mbps": 105.3179696
+    },
+    {
+      "id": "minus-two-demo",
+      "objects": 46,
+      "lodSelectors": 46,
+      "distinctModelDeliveries": 1,
+      "modelBytes": 26340900,
+      "collisionJsonBytes": 4516888,
+      "glbIdentityTransferFloorSecondsAt5Mbps": 42.14544,
+      "glbIdentityTransferFloorSecondsAt20Mbps": 10.53636
+    }
+  ]
+}

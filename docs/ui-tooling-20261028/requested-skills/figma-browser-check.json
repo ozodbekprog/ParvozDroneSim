@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Tashkent",
+  "url": "http://127.0.0.1:2574/",
+  "source": "prepared/hangar-editable.html",
+  "allImagesLoaded": true,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "cardNames": [
+    "Armattan Chameleon 5″",
+    "Armattan Gecko 3″",
+    "Dquad Addiction",
+    "Kestrel 5",
+    "Luma 5",
+    "Luma 5 Copy 1"
+  ],
+  "cardsWithoutOverflow": true,
+  "domTextPresent": true,
+  "fontStatus": "loaded",
+  "imageCount": 7,
+  "inspectorWithoutOverflow": true,
+  "comparisonSwitchesPassed": true,
+  "screenshot": "figma-browser-preview.png",
+  "figmaWebAttempt": {
+    "url": "https://www.figma.com/login?is_not_gen_0=true",
+    "result": "Figma login page; no authenticated web editor"
+  },
+  "figmaFileCreated": false,
+  "gameModified": false,
+  "oracleModified": false
+}

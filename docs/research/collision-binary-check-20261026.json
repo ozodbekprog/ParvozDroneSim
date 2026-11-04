@@ -1,0 +1,1409 @@
+{
+  "checkedAt": "2026-10-26T09:45:20.4761396Z",
+  "cpu": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+  "benchmark": {
+    "checkedAt": "2026-10-26T08:34:51.58Z",
+    "node": "v24.15.0",
+    "method": "Each timing sample uses a fresh Node process and an actual worker transfer/install. Alternating arm order. Warm OS disk cache; not browser network, frame time, GPU or UHD 620 acceptance. maxRSS is process high-water including worker; arrayBuffers/heap are main-isolate samples, not all worker memory. Gzip bytes are offline comparisons, not measured network time.",
+    "repeats": 3,
+    "parity": [
+      {
+        "map": "hangar-c03-demo",
+        "allArraysByteIdentical": true,
+        "colliderMetadataIdentical": true,
+        "contactAndSweepQueries": 540,
+        "jsonBytes": 27242548,
+        "binaryBytes": 11216584,
+        "jsonGzipBytes": 2308582,
+        "binaryGzipBytes": 2113355
+      },
+      {
+        "map": "liftoff-arena-demo",
+        "allArraysByteIdentical": true,
+        "colliderMetadataIdentical": true,
+        "contactAndSweepQueries": 676,
+        "jsonBytes": 22687777,
+        "binaryBytes": 10117784,
+        "jsonGzipBytes": 2271039,
+        "binaryGzipBytes": 2037483
+      },
+      {
+        "map": "liftoff-pine-valley-demo",
+        "allArraysByteIdentical": true,
+        "colliderMetadataIdentical": true,
+        "contactAndSweepQueries": 700,
+        "jsonBytes": 102990054,
+        "binaryBytes": 46282160,
+        "jsonGzipBytes": 5927878,
+        "binaryGzipBytes": 6280411
+      },
+      {
+        "map": "liftoff-the-green-demo",
+        "allArraysByteIdentical": true,
+        "colliderMetadataIdentical": true,
+        "contactAndSweepQueries": 718,
+        "jsonBytes": 138107819,
+        "binaryBytes": 62571648,
+        "jsonGzipBytes": 9412566,
+        "binaryGzipBytes": 10007394
+      },
+      {
+        "map": "minus-two-demo",
+        "allArraysByteIdentical": true,
+        "colliderMetadataIdentical": true,
+        "contactAndSweepQueries": 26,
+        "jsonBytes": 4516888,
+        "binaryBytes": 1815688,
+        "jsonGzipBytes": 405890,
+        "binaryGzipBytes": 399505
+      }
+    ],
+    "samples": [
+      {
+        "map": "hangar-c03-demo",
+        "format": "json",
+        "inputBytes": 27242548,
+        "readMs": 10.786000000000001,
+        "copyMs": 5.1577000000000055,
+        "preparationMs": 449.95449999999994,
+        "totalMs": 460.74049999999994,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 99.41360000000003,
+          "buildMs": 146.15999999999997,
+          "inputBytes": 27242548
+        },
+        "colliders": 9757,
+        "baseline": {
+          "rss": 128008192,
+          "heapTotal": 54370304,
+          "heapUsed": 44193968,
+          "external": 32328354,
+          "arrayBuffers": 27281199
+        },
+        "active": {
+          "rss": 162967552,
+          "heapTotal": 61624320,
+          "heapUsed": 42110072,
+          "external": 41323418,
+          "arrayBuffers": 27281163
+        },
+        "maxRSSBytes": 220778496,
+        "repeat": 0
+      },
+      {
+        "map": "hangar-c03-demo",
+        "format": "binary",
+        "inputBytes": 11216584,
+        "readMs": 4.465699999999998,
+        "copyMs": 1.9745000000000061,
+        "preparationMs": 362.5735000000001,
+        "totalMs": 367.03920000000005,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 196.79070000000002,
+          "buildMs": 0,
+          "inputBytes": 11216584
+        },
+        "colliders": 9757,
+        "baseline": {
+          "rss": 111882240,
+          "heapTotal": 54632448,
+          "heapUsed": 44192320,
+          "external": 16302390,
+          "arrayBuffers": 11255235
+        },
+        "active": {
+          "rss": 140677120,
+          "heapTotal": 62713856,
+          "heapUsed": 39364248,
+          "external": 27518978,
+          "arrayBuffers": 22471783
+        },
+        "maxRSSBytes": 173780992,
+        "repeat": 0
+      },
+      {
+        "map": "hangar-c03-demo",
+        "format": "binary",
+        "inputBytes": 11216584,
+        "readMs": 4.3416,
+        "copyMs": 2.0015999999999963,
+        "preparationMs": 365.1095,
+        "totalMs": 369.4511,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 188.8757,
+          "buildMs": 0,
+          "inputBytes": 11216584
+        },
+        "colliders": 9757,
+        "baseline": {
+          "rss": 112009216,
+          "heapTotal": 54370304,
+          "heapUsed": 44226072,
+          "external": 16302390,
+          "arrayBuffers": 11255235
+        },
+        "active": {
+          "rss": 140427264,
+          "heapTotal": 62451712,
+          "heapUsed": 39411816,
+          "external": 27518978,
+          "arrayBuffers": 22471783
+        },
+        "maxRSSBytes": 173211648,
+        "repeat": 1
+      },
+      {
+        "map": "hangar-c03-demo",
+        "format": "json",
+        "inputBytes": 27242548,
+        "readMs": 9.460800000000006,
+        "copyMs": 4.909600000000012,
+        "preparationMs": 445.6239999999999,
+        "totalMs": 455.0847999999999,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 111.89910000000003,
+          "buildMs": 154.58429999999998,
+          "inputBytes": 27242548
+        },
+        "colliders": 9757,
+        "baseline": {
+          "rss": 127766528,
+          "heapTotal": 54632448,
+          "heapUsed": 44234064,
+          "external": 32328354,
+          "arrayBuffers": 27281199
+        },
+        "active": {
+          "rss": 162263040,
+          "heapTotal": 62283776,
+          "heapUsed": 41116640,
+          "external": 41323418,
+          "arrayBuffers": 27281163
+        },
+        "maxRSSBytes": 220209152,
+        "repeat": 1
+      },
+      {
+        "map": "hangar-c03-demo",
+        "format": "json",
+        "inputBytes": 27242548,
+        "readMs": 9.073300000000017,
+        "copyMs": 4.650300000000016,
+        "preparationMs": 440.5404,
+        "totalMs": 449.6137,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 95.9853,
+          "buildMs": 148.84609999999998,
+          "inputBytes": 27242548
+        },
+        "colliders": 9757,
+        "baseline": {
+          "rss": 128057344,
+          "heapTotal": 54632448,
+          "heapUsed": 44247616,
+          "external": 32328354,
+          "arrayBuffers": 27281199
+        },
+        "active": {
+          "rss": 162914304,
+          "heapTotal": 62021632,
+          "heapUsed": 40838472,
+          "external": 41323418,
+          "arrayBuffers": 27281163
+        },
+        "maxRSSBytes": 221495296,
+        "repeat": 2
+      },
+      {
+        "map": "hangar-c03-demo",
+        "format": "binary",
+        "inputBytes": 11216584,
+        "readMs": 3.8109000000000037,
+        "copyMs": 2.2516999999999996,
+        "preparationMs": 357.1047,
+        "totalMs": 360.9156,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 173.95420000000001,
+          "buildMs": 0,
+          "inputBytes": 11216584
+        },
+        "colliders": 9757,
+        "baseline": {
+          "rss": 112025600,
+          "heapTotal": 54632448,
+          "heapUsed": 44197640,
+          "external": 16302390,
+          "arrayBuffers": 11255235
+        },
+        "active": {
+          "rss": 138969088,
+          "heapTotal": 62189568,
+          "heapUsed": 40170336,
+          "external": 27518978,
+          "arrayBuffers": 22471783
+        },
+        "maxRSSBytes": 173174784,
+        "repeat": 2
+      },
+      {
+        "map": "liftoff-arena-demo",
+        "format": "json",
+        "inputBytes": 22687777,
+        "readMs": 8.357500000000016,
+        "copyMs": 3.879599999999982,
+        "preparationMs": 386.4640999999999,
+        "totalMs": 394.82159999999993,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 81.31039999999999,
+          "buildMs": 94.8594,
+          "inputBytes": 22687777
+        },
+        "colliders": 15563,
+        "baseline": {
+          "rss": 123338752,
+          "heapTotal": 54632448,
+          "heapUsed": 44222456,
+          "external": 27773583,
+          "arrayBuffers": 22726428
+        },
+        "active": {
+          "rss": 175529984,
+          "heapTotal": 101576704,
+          "heapUsed": 62032848,
+          "external": 34454827,
+          "arrayBuffers": 22726392
+        },
+        "maxRSSBytes": 225640448,
+        "repeat": 0
+      },
+      {
+        "map": "liftoff-arena-demo",
+        "format": "binary",
+        "inputBytes": 10117784,
+        "readMs": 4.310099999999977,
+        "copyMs": 2.23539999999997,
+        "preparationMs": 500.31910000000005,
+        "totalMs": 504.6292,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 222.72180000000003,
+          "buildMs": 0,
+          "inputBytes": 10117784
+        },
+        "colliders": 15563,
+        "baseline": {
+          "rss": 110862336,
+          "heapTotal": 54632448,
+          "heapUsed": 44218544,
+          "external": 15203590,
+          "arrayBuffers": 10156435
+        },
+        "active": {
+          "rss": 149786624,
+          "heapTotal": 102486016,
+          "heapUsed": 54516480,
+          "external": 25321378,
+          "arrayBuffers": 20274183
+        },
+        "maxRSSBytes": 178851840,
+        "repeat": 0
+      },
+      {
+        "map": "liftoff-arena-demo",
+        "format": "binary",
+        "inputBytes": 10117784,
+        "readMs": 4.0186999999999955,
+        "copyMs": 1.8670000000000186,
+        "preparationMs": 414.6734,
+        "totalMs": 418.6921,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 179.1413,
+          "buildMs": 0,
+          "inputBytes": 10117784
+        },
+        "colliders": 15563,
+        "baseline": {
+          "rss": 110661632,
+          "heapTotal": 54632448,
+          "heapUsed": 44206112,
+          "external": 15203590,
+          "arrayBuffers": 10156435
+        },
+        "active": {
+          "rss": 149090304,
+          "heapTotal": 102486016,
+          "heapUsed": 53871400,
+          "external": 25321378,
+          "arrayBuffers": 20274183
+        },
+        "maxRSSBytes": 179433472,
+        "repeat": 1
+      },
+      {
+        "map": "liftoff-arena-demo",
+        "format": "json",
+        "inputBytes": 22687777,
+        "readMs": 9.781199999999984,
+        "copyMs": 4.200299999999999,
+        "preparationMs": 483.0676000000001,
+        "totalMs": 492.8488000000001,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 93.14799999999997,
+          "buildMs": 108.279,
+          "inputBytes": 22687777
+        },
+        "colliders": 15563,
+        "baseline": {
+          "rss": 123547648,
+          "heapTotal": 54894592,
+          "heapUsed": 44187624,
+          "external": 27773583,
+          "arrayBuffers": 22726428
+        },
+        "active": {
+          "rss": 175398912,
+          "heapTotal": 101838848,
+          "heapUsed": 59717344,
+          "external": 34454827,
+          "arrayBuffers": 22726392
+        },
+        "maxRSSBytes": 225447936,
+        "repeat": 1
+      },
+      {
+        "map": "liftoff-arena-demo",
+        "format": "json",
+        "inputBytes": 22687777,
+        "readMs": 8.853399999999993,
+        "copyMs": 3.6376000000000204,
+        "preparationMs": 446.83680000000004,
+        "totalMs": 455.6902,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 111.69630000000001,
+          "buildMs": 111.9685,
+          "inputBytes": 22687777
+        },
+        "colliders": 15563,
+        "baseline": {
+          "rss": 123457536,
+          "heapTotal": 54632448,
+          "heapUsed": 44213160,
+          "external": 27773583,
+          "arrayBuffers": 22726428
+        },
+        "active": {
+          "rss": 175542272,
+          "heapTotal": 102100992,
+          "heapUsed": 59846320,
+          "external": 34454827,
+          "arrayBuffers": 22726392
+        },
+        "maxRSSBytes": 225775616,
+        "repeat": 2
+      },
+      {
+        "map": "liftoff-arena-demo",
+        "format": "binary",
+        "inputBytes": 10117784,
+        "readMs": 3.6957999999999913,
+        "copyMs": 1.8863000000000056,
+        "preparationMs": 424.1255,
+        "totalMs": 427.82129999999995,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 193.1868,
+          "buildMs": 0,
+          "inputBytes": 10117784
+        },
+        "colliders": 15563,
+        "baseline": {
+          "rss": 111063040,
+          "heapTotal": 54894592,
+          "heapUsed": 44213520,
+          "external": 15203590,
+          "arrayBuffers": 10156435
+        },
+        "active": {
+          "rss": 150802432,
+          "heapTotal": 102223872,
+          "heapUsed": 55671928,
+          "external": 25321378,
+          "arrayBuffers": 20274183
+        },
+        "maxRSSBytes": 179736576,
+        "repeat": 2
+      },
+      {
+        "map": "liftoff-pine-valley-demo",
+        "format": "json",
+        "inputBytes": 102990054,
+        "readMs": 42.06479999999999,
+        "copyMs": 21.939300000000003,
+        "preparationMs": 1243.658,
+        "totalMs": 1285.7228,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 364.2905,
+          "buildMs": 697.4302,
+          "inputBytes": 102990054
+        },
+        "colliders": 3426,
+        "baseline": {
+          "rss": 179228672,
+          "heapTotal": 54108160,
+          "heapUsed": 44222752,
+          "external": 108075860,
+          "arrayBuffers": 103028669
+        },
+        "active": {
+          "rss": 321409024,
+          "heapTotal": 60153856,
+          "heapUsed": 33538664,
+          "external": 153363616,
+          "arrayBuffers": 103028669
+        },
+        "maxRSSBytes": 575975424,
+        "repeat": 0
+      },
+      {
+        "map": "liftoff-pine-valley-demo",
+        "format": "binary",
+        "inputBytes": 46282160,
+        "readMs": 14.555200000000013,
+        "copyMs": 9.193600000000004,
+        "preparationMs": 1013.1314,
+        "totalMs": 1027.6866,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 837.4037,
+          "buildMs": 0,
+          "inputBytes": 46282160
+        },
+        "colliders": 3426,
+        "baseline": {
+          "rss": 147046400,
+          "heapTotal": 54370304,
+          "heapUsed": 44244432,
+          "external": 51367966,
+          "arrayBuffers": 46320811
+        },
+        "active": {
+          "rss": 201719808,
+          "heapTotal": 54386688,
+          "heapUsed": 34402224,
+          "external": 97650130,
+          "arrayBuffers": 92602935
+        },
+        "maxRSSBytes": 201723904,
+        "repeat": 0
+      },
+      {
+        "map": "liftoff-pine-valley-demo",
+        "format": "binary",
+        "inputBytes": 46282160,
+        "readMs": 22.723399999999998,
+        "copyMs": 11.989599999999996,
+        "preparationMs": 1658.8929,
+        "totalMs": 1681.6163000000001,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 1098.3137,
+          "buildMs": 0,
+          "inputBytes": 46282160
+        },
+        "colliders": 3426,
+        "baseline": {
+          "rss": 146931712,
+          "heapTotal": 54108160,
+          "heapUsed": 44235296,
+          "external": 51367966,
+          "arrayBuffers": 46320811
+        },
+        "active": {
+          "rss": 202047488,
+          "heapTotal": 54386688,
+          "heapUsed": 34376496,
+          "external": 97650130,
+          "arrayBuffers": 92602935
+        },
+        "maxRSSBytes": 202391552,
+        "repeat": 1
+      },
+      {
+        "map": "liftoff-pine-valley-demo",
+        "format": "json",
+        "inputBytes": 102990054,
+        "readMs": 31.384000000000015,
+        "copyMs": 17.488399999999984,
+        "preparationMs": 1114.0327,
+        "totalMs": 1145.4167,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 334.8602,
+          "buildMs": 610.9916999999999,
+          "inputBytes": 102990054
+        },
+        "colliders": 3426,
+        "baseline": {
+          "rss": 179122176,
+          "heapTotal": 54632448,
+          "heapUsed": 44208880,
+          "external": 108075860,
+          "arrayBuffers": 103028669
+        },
+        "active": {
+          "rss": 320098304,
+          "heapTotal": 59629568,
+          "heapUsed": 34121520,
+          "external": 153363616,
+          "arrayBuffers": 103028669
+        },
+        "maxRSSBytes": 575967232,
+        "repeat": 1
+      },
+      {
+        "map": "liftoff-pine-valley-demo",
+        "format": "json",
+        "inputBytes": 102990054,
+        "readMs": 31.355800000000016,
+        "copyMs": 18.282699999999977,
+        "preparationMs": 1067.8209000000002,
+        "totalMs": 1099.1767000000002,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 311.42289999999997,
+          "buildMs": 595.6297000000001,
+          "inputBytes": 102990054
+        },
+        "colliders": 3426,
+        "baseline": {
+          "rss": 179388416,
+          "heapTotal": 54632448,
+          "heapUsed": 44210216,
+          "external": 108075860,
+          "arrayBuffers": 103028669
+        },
+        "active": {
+          "rss": 321167360,
+          "heapTotal": 60678144,
+          "heapUsed": 33020168,
+          "external": 153363616,
+          "arrayBuffers": 103028669
+        },
+        "maxRSSBytes": 575700992,
+        "repeat": 2
+      },
+      {
+        "map": "liftoff-pine-valley-demo",
+        "format": "binary",
+        "inputBytes": 46282160,
+        "readMs": 27.501300000000015,
+        "copyMs": 15.328900000000004,
+        "preparationMs": 919.2493000000001,
+        "totalMs": 946.7506000000001,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 734.77,
+          "buildMs": 0,
+          "inputBytes": 46282160
+        },
+        "colliders": 3426,
+        "baseline": {
+          "rss": 147103744,
+          "heapTotal": 54370304,
+          "heapUsed": 44221616,
+          "external": 51367966,
+          "arrayBuffers": 46320811
+        },
+        "active": {
+          "rss": 202928128,
+          "heapTotal": 57794560,
+          "heapUsed": 26751608,
+          "external": 97650130,
+          "arrayBuffers": 92602935
+        },
+        "maxRSSBytes": 203718656,
+        "repeat": 2
+      },
+      {
+        "map": "liftoff-the-green-demo",
+        "format": "json",
+        "inputBytes": 138107819,
+        "readMs": 46.225300000000004,
+        "copyMs": 25.903599999999983,
+        "preparationMs": 1662.4479000000001,
+        "totalMs": 1708.6732000000002,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 497.09839999999997,
+          "buildMs": 794.2314,
+          "inputBytes": 138107819
+        },
+        "colliders": 20364,
+        "baseline": {
+          "rss": 214351872,
+          "heapTotal": 54632448,
+          "heapUsed": 44250880,
+          "external": 143193625,
+          "arrayBuffers": 138146434
+        },
+        "active": {
+          "rss": 386973696,
+          "heapTotal": 109686784,
+          "heapUsed": 56131392,
+          "external": 200724833,
+          "arrayBuffers": 138146434
+        },
+        "maxRSSBytes": 716435456,
+        "repeat": 0
+      },
+      {
+        "map": "liftoff-the-green-demo",
+        "format": "binary",
+        "inputBytes": 62571648,
+        "readMs": 19.510500000000008,
+        "copyMs": 11.839200000000005,
+        "preparationMs": 1105.1084,
+        "totalMs": 1124.6189000000002,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 828.0753,
+          "buildMs": 0,
+          "inputBytes": 62571648
+        },
+        "colliders": 20364,
+        "baseline": {
+          "rss": 163176448,
+          "heapTotal": 54370304,
+          "heapUsed": 44231968,
+          "external": 67657454,
+          "arrayBuffers": 62610299
+        },
+        "active": {
+          "rss": 288088064,
+          "heapTotal": 109821952,
+          "heapUsed": 58899080,
+          "external": 130229106,
+          "arrayBuffers": 125181911
+        },
+        "maxRSSBytes": 288198656,
+        "repeat": 0
+      },
+      {
+        "map": "liftoff-the-green-demo",
+        "format": "binary",
+        "inputBytes": 62571648,
+        "readMs": 19.207099999999997,
+        "copyMs": 13.932000000000016,
+        "preparationMs": 1045.7228,
+        "totalMs": 1064.9299,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 817.7358999999999,
+          "buildMs": 0,
+          "inputBytes": 62571648
+        },
+        "colliders": 20364,
+        "baseline": {
+          "rss": 163422208,
+          "heapTotal": 54894592,
+          "heapUsed": 44202000,
+          "external": 67657454,
+          "arrayBuffers": 62610299
+        },
+        "active": {
+          "rss": 288649216,
+          "heapTotal": 111394816,
+          "heapUsed": 58410360,
+          "external": 130229106,
+          "arrayBuffers": 125181911
+        },
+        "maxRSSBytes": 288796672,
+        "repeat": 1
+      },
+      {
+        "map": "liftoff-the-green-demo",
+        "format": "json",
+        "inputBytes": 138107819,
+        "readMs": 46.76909999999998,
+        "copyMs": 22.938199999999995,
+        "preparationMs": 1711.2373000000002,
+        "totalMs": 1758.0064000000002,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 440.6201,
+          "buildMs": 889.4232,
+          "inputBytes": 138107819
+        },
+        "colliders": 20364,
+        "baseline": {
+          "rss": 214126592,
+          "heapTotal": 54632448,
+          "heapUsed": 44188184,
+          "external": 143193625,
+          "arrayBuffers": 138146434
+        },
+        "active": {
+          "rss": 385925120,
+          "heapTotal": 110211072,
+          "heapUsed": 61061296,
+          "external": 200724833,
+          "arrayBuffers": 138146434
+        },
+        "maxRSSBytes": 716152832,
+        "repeat": 1
+      },
+      {
+        "map": "liftoff-the-green-demo",
+        "format": "json",
+        "inputBytes": 138107819,
+        "readMs": 69.3474,
+        "copyMs": 34.76519999999999,
+        "preparationMs": 1563.0769,
+        "totalMs": 1632.4243000000001,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 469.8884,
+          "buildMs": 800.0858999999999,
+          "inputBytes": 138107819
+        },
+        "colliders": 20364,
+        "baseline": {
+          "rss": 214351872,
+          "heapTotal": 54894592,
+          "heapUsed": 44260336,
+          "external": 143193625,
+          "arrayBuffers": 138146434
+        },
+        "active": {
+          "rss": 387153920,
+          "heapTotal": 112832512,
+          "heapUsed": 53792200,
+          "external": 200724833,
+          "arrayBuffers": 138146434
+        },
+        "maxRSSBytes": 716804096,
+        "repeat": 2
+      },
+      {
+        "map": "liftoff-the-green-demo",
+        "format": "binary",
+        "inputBytes": 62571648,
+        "readMs": 18.515299999999996,
+        "copyMs": 10.139600000000002,
+        "preparationMs": 1207.0841,
+        "totalMs": 1225.5994,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 912.9896999999999,
+          "buildMs": 0,
+          "inputBytes": 62571648
+        },
+        "colliders": 20364,
+        "baseline": {
+          "rss": 163524608,
+          "heapTotal": 54632448,
+          "heapUsed": 44217200,
+          "external": 67657454,
+          "arrayBuffers": 62610299
+        },
+        "active": {
+          "rss": 276402176,
+          "heapTotal": 113356800,
+          "heapUsed": 52744248,
+          "external": 130229106,
+          "arrayBuffers": 125181911
+        },
+        "maxRSSBytes": 276406272,
+        "repeat": 2
+      },
+      {
+        "map": "minus-two-demo",
+        "format": "json",
+        "inputBytes": 4516888,
+        "readMs": 1.6221999999999923,
+        "copyMs": 0.8075000000000045,
+        "preparationMs": 189.1747,
+        "totalMs": 190.7969,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 20.2012,
+          "buildMs": 64.61499999999998,
+          "inputBytes": 4516888
+        },
+        "colliders": 1449,
+        "baseline": {
+          "rss": 104996864,
+          "heapTotal": 54632448,
+          "heapUsed": 44225808,
+          "external": 9602694,
+          "arrayBuffers": 4555539
+        },
+        "active": {
+          "rss": 133316608,
+          "heapTotal": 79273984,
+          "heapUsed": 51156272,
+          "external": 11108638,
+          "arrayBuffers": 4555539
+        },
+        "maxRSSBytes": 151003136,
+        "repeat": 0
+      },
+      {
+        "map": "minus-two-demo",
+        "format": "binary",
+        "inputBytes": 1815688,
+        "readMs": 0.7824999999999989,
+        "copyMs": 0.3533000000000186,
+        "preparationMs": 146.23739999999998,
+        "totalMs": 147.01989999999998,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 36.16799999999998,
+          "buildMs": 0,
+          "inputBytes": 1815688
+        },
+        "colliders": 1449,
+        "baseline": {
+          "rss": 102592512,
+          "heapTotal": 54894592,
+          "heapUsed": 44195128,
+          "external": 6901494,
+          "arrayBuffers": 1854339
+        },
+        "active": {
+          "rss": 110129152,
+          "heapTotal": 56639488,
+          "heapUsed": 24906344,
+          "external": 8717222,
+          "arrayBuffers": 3669991
+        },
+        "maxRSSBytes": 144609280,
+        "repeat": 0
+      },
+      {
+        "map": "minus-two-demo",
+        "format": "binary",
+        "inputBytes": 1815688,
+        "readMs": 0.7689000000000021,
+        "copyMs": 0.30229999999997403,
+        "preparationMs": 146.6399,
+        "totalMs": 147.4088,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 34.55669999999998,
+          "buildMs": 0,
+          "inputBytes": 1815688
+        },
+        "colliders": 1449,
+        "baseline": {
+          "rss": 102645760,
+          "heapTotal": 54632448,
+          "heapUsed": 44179272,
+          "external": 6901494,
+          "arrayBuffers": 1854339
+        },
+        "active": {
+          "rss": 110796800,
+          "heapTotal": 56377344,
+          "heapUsed": 25175176,
+          "external": 8717222,
+          "arrayBuffers": 3669991
+        },
+        "maxRSSBytes": 144728064,
+        "repeat": 1
+      },
+      {
+        "map": "minus-two-demo",
+        "format": "json",
+        "inputBytes": 4516888,
+        "readMs": 1.575199999999981,
+        "copyMs": 0.734800000000007,
+        "preparationMs": 159.03370000000004,
+        "totalMs": 160.6089,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 17.23660000000001,
+          "buildMs": 51.28529999999998,
+          "inputBytes": 4516888
+        },
+        "colliders": 1449,
+        "baseline": {
+          "rss": 105226240,
+          "heapTotal": 54632448,
+          "heapUsed": 44200312,
+          "external": 9602694,
+          "arrayBuffers": 4555539
+        },
+        "active": {
+          "rss": 132493312,
+          "heapTotal": 79011840,
+          "heapUsed": 51308408,
+          "external": 11108638,
+          "arrayBuffers": 4555539
+        },
+        "maxRSSBytes": 150958080,
+        "repeat": 1
+      },
+      {
+        "map": "minus-two-demo",
+        "format": "json",
+        "inputBytes": 4516888,
+        "readMs": 1.8421999999999912,
+        "copyMs": 0.7864999999999895,
+        "preparationMs": 168.46439999999998,
+        "totalMs": 170.30659999999997,
+        "workerTiming": {
+          "format": "json",
+          "parseValidateMs": 19.942700000000002,
+          "buildMs": 52.3751,
+          "inputBytes": 4516888
+        },
+        "colliders": 1449,
+        "baseline": {
+          "rss": 105480192,
+          "heapTotal": 54632448,
+          "heapUsed": 44214080,
+          "external": 9602694,
+          "arrayBuffers": 4555539
+        },
+        "active": {
+          "rss": 132894720,
+          "heapTotal": 79273984,
+          "heapUsed": 51280512,
+          "external": 11108638,
+          "arrayBuffers": 4555539
+        },
+        "maxRSSBytes": 150564864,
+        "repeat": 2
+      },
+      {
+        "map": "minus-two-demo",
+        "format": "binary",
+        "inputBytes": 1815688,
+        "readMs": 0.811000000000007,
+        "copyMs": 0.3266999999999882,
+        "preparationMs": 155.42589999999998,
+        "totalMs": 156.2369,
+        "workerTiming": {
+          "format": "pcol-v1",
+          "parseValidateMs": 42.779600000000016,
+          "buildMs": 0,
+          "inputBytes": 1815688
+        },
+        "colliders": 1449,
+        "baseline": {
+          "rss": 102502400,
+          "heapTotal": 54370304,
+          "heapUsed": 44203608,
+          "external": 6901494,
+          "arrayBuffers": 1854339
+        },
+        "active": {
+          "rss": 110227456,
+          "heapTotal": 56901632,
+          "heapUsed": 24907504,
+          "external": 8717222,
+          "arrayBuffers": 3669991
+        },
+        "maxRSSBytes": 145084416,
+        "repeat": 2
+      }
+    ]
+  },
+  "browserMethod": "Isolated headless Chrome profile, local API with a new test database, local Vite. Functional worker/render/ownership checks only. No FPS, network-speed, native GPU memory or UHD 620 acceptance claim.",
+  "browserFlight": {
+    "kind": "complete-flight",
+    "state": {
+      "view": {
+        "threeRevision": "180",
+        "phases": [
+          {
+            "name": "Map download, parse, assembly and collisions",
+            "ms": 2128.7999999970198,
+            "valid": false,
+            "invalidReasons": [
+              "Document lost focus"
+            ],
+            "renderMs": 0,
+            "projectMs": 0,
+            "submitMs": 0,
+            "surfaceMs": 0,
+            "compileCalls": 0,
+            "maxCompileSliceMs": 0,
+            "maxRenderSliceMs": 0,
+            "slowRenders": [],
+            "draws": 1,
+            "triangles": 1
+          },
+          {
+            "name": "Aircraft download, parse and assembly",
+            "ms": 1891.1000000089407,
+            "valid": false,
+            "invalidReasons": [
+              "Document lost focus"
+            ],
+            "renderMs": 0,
+            "projectMs": 0,
+            "submitMs": 0,
+            "surfaceMs": 0,
+            "compileCalls": 0,
+            "maxCompileSliceMs": 0,
+            "maxRenderSliceMs": 0,
+            "slowRenders": [],
+            "draws": 1,
+            "triangles": 1
+          },
+          {
+            "name": "Surface and reflection preparation",
+            "ms": 7.899999991059303,
+            "valid": false,
+            "invalidReasons": [
+              "Document lost focus"
+            ],
+            "renderMs": 0,
+            "projectMs": 0,
+            "submitMs": 0,
+            "surfaceMs": 7.799999997019768,
+            "compileCalls": 0,
+            "maxCompileSliceMs": 0,
+            "maxRenderSliceMs": 0,
+            "slowRenders": [],
+            "draws": 1,
+            "triangles": 1
+          },
+          {
+            "name": "Initial visible texture uploads",
+            "ms": 25.200000002980232,
+            "valid": false,
+            "invalidReasons": [
+              "Document lost focus"
+            ],
+            "renderMs": 0,
+            "projectMs": 0,
+            "submitMs": 0,
+            "surfaceMs": 0,
+            "compileCalls": 0,
+            "maxCompileSliceMs": 0,
+            "maxRenderSliceMs": 0,
+            "slowRenders": [],
+            "draws": 0,
+            "triangles": 0
+          },
+          {
+            "name": "Geometry shader compilation",
+            "ms": 1043.2999999970198,
+            "valid": false,
+            "invalidReasons": [
+              "Document lost focus"
+            ],
+            "renderMs": 0,
+            "projectMs": 85.30000007152557,
+            "submitMs": 830.5000000149012,
+            "surfaceMs": 0,
+            "compileCalls": 65,
+            "maxCompileSliceMs": 35.400000005960464,
+            "maxRenderSliceMs": 0,
+            "slowRenders": [],
+            "draws": 0,
+            "triangles": 0
+          },
+          {
+            "name": "First rendered frame and post effects",
+            "ms": 97.1000000089407,
+            "valid": false,
+            "invalidReasons": [
+              "Document lost focus"
+            ],
+            "renderMs": 95.5,
+            "projectMs": 1.199999988079071,
+            "submitMs": 91.20000000298023,
+            "surfaceMs": 0,
+            "compileCalls": 0,
+            "maxCompileSliceMs": 0,
+            "maxRenderSliceMs": 95.5,
+            "slowRenders": [
+              {
+                "start": 6397.100000008941,
+                "ms": 95.5,
+                "object": "Scene"
+              }
+            ],
+            "draws": 182,
+            "triangles": 415799
+          },
+          {
+            "name": "First frame pipeline detail",
+            "pipelines": 1,
+            "pipelineMs": 31.600000008940697,
+            "objects": 178,
+            "top": [
+              {
+                "name": "",
+                "material": "Renderer_output",
+                "ms": 35.29999999701977
+              },
+              {
+                "name": "Runtime_HerasFencing01072",
+                "material": "HerasFencing01",
+                "ms": 3.2000000029802322
+              },
+              {
+                "name": "Runtime_HerasFencing01058",
+                "material": "HerasFencing01",
+                "ms": 1.2999999970197678
+              },
+              {
+                "name": "Runtime_HerasFencing01057",
+                "material": "HerasFencing01",
+                "ms": 1.2999999970197678
+              },
+              {
+                "name": "Runtime_AirgateLiftoffWhite01037",
+                "material": "AirgateLiftoffWhite01",
+                "ms": 1.2999999970197678
+              },
+              {
+                "name": "Runtime_HerasFencing01053",
+                "material": "HerasFencing01",
+                "ms": 1.2000000029802322
+              },
+              {
+                "name": "Runtime_AirgatePlasticFeet01026",
+                "material": "AirgatePlasticFeet01",
+                "ms": 1.2000000029802322
+              },
+              {
+                "name": "Runtime_LEDFlagGreen01020",
+                "material": "LEDFlagGreen01",
+                "ms": 1
+              },
+              {
+                "name": "Scenery batch 0",
+                "material": "FloorConcretePolished01",
+                "ms": 0.8999999910593033
+              },
+              {
+                "name": "Runtime_LEDFlagGreen01021",
+                "material": "LEDFlagGreen01",
+                "ms": 0.7000000029802322
+              },
+              {
+                "name": "Runtime_HerasFencing01059",
+                "material": "HerasFencing01",
+                "ms": 0.7000000029802322
+              },
+              {
+                "name": "Scenery instances 47",
+                "material": "FloorArrows01",
+                "ms": 0.7000000029802322
+              }
+            ]
+          }
+        ],
+        "hardware": {
+          "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F99) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "memoryGB": 16,
+          "mobile": false
+        },
+        "quality": "low",
+        "surface": {
+          "normalMaps": false,
+          "textureSize": 256
+        },
+        "batches": {
+          "meshes": 1130,
+          "batches": 109,
+          "ms": 133.20000000298023
+        },
+        "resources": {
+          "objects": 2856,
+          "meshes": 2217,
+          "geometries": 967,
+          "materials": 2108,
+          "instancedMeshes": 2,
+          "multiDrawBatches": 107,
+          "geometryAttributeBytes": 91252000,
+          "cpuBackingBufferBytes": 101179872,
+          "visibleAttributeBytes": 35469842,
+          "materialTextures": 113,
+          "textureFormats": [
+            {
+              "format": "RGBA_BPTC_Format",
+              "textures": 113,
+              "storedMipBytes": 9593200
+            }
+          ],
+          "materialTextureEstimate": {
+            "bytes": 9593200,
+            "mib": 9.148788452148438,
+            "textures": 113,
+            "unknown": 0,
+            "includesDriverOverhead": false
+          },
+          "scope": "Reachable subtree payloads including hidden LOD/source data; visible attributes are view-eligible, not measured GPU residency. Excludes driver/renderer/JS overhead, render targets and caches outside the subtree."
+        },
+        "batchResources": {
+          "objects": 110,
+          "meshes": 109,
+          "geometries": 109,
+          "materials": 109,
+          "instancedMeshes": 2,
+          "multiDrawBatches": 107,
+          "geometryAttributeBytes": 42355536,
+          "cpuBackingBufferBytes": 47354536,
+          "visibleAttributeBytes": 30240728,
+          "materialTextures": 56,
+          "textureFormats": [
+            {
+              "format": "RGBA_BPTC_Format",
+              "textures": 56,
+              "storedMipBytes": 4894848
+            }
+          ],
+          "materialTextureEstimate": {
+            "bytes": 4894848,
+            "mib": 4.6680908203125,
+            "textures": 56,
+            "unknown": 0,
+            "includesDriverOverhead": false
+          },
+          "scope": "Reachable subtree payloads including hidden LOD/source data; visible attributes are view-eligible, not measured GPU residency. Excludes driver/renderer/JS overhead, render targets and caches outside the subtree."
+        },
+        "cache": {
+          "idleBytes": 0,
+          "maxIdleBytes": 100663296,
+          "idleEntries": 0,
+          "entries": 5
+        },
+        "decoder": {
+          "workers": 1,
+          "fallback": false,
+          "active": 0,
+          "pending": 0,
+          "peakPending": 2268,
+          "peakBatchBytes": 8303420,
+          "maxBatchBytes": 8388608,
+          "maxBatchViews": 128,
+          "batches": 24,
+          "oversizedViews": 0,
+          "completed": 2795,
+          "canceled": 0
+        },
+        "texturePreparation": {
+          "selected": 58,
+          "initialized": 58,
+          "yields": 1,
+          "maxUploadMs": 1.6000000089406967,
+          "ms": 17.099999994039536,
+          "canceled": false
+        },
+        "models": [
+          {
+            "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+            "parses": 1,
+            "cacheHits": 138,
+            "readMs": 260.6000000089407,
+            "parseMs": 1670.7999999970198,
+            "lookupMs": 0.4999999850988388,
+            "cloneMs": 33.20000000298023,
+            "clones": 139
+          },
+          {
+            "url": "/content/assets/races/minus-two-demo-liftoff-01/props-bf67bda0f4a4e5a6.glb",
+            "parses": 1,
+            "cacheHits": 131,
+            "readMs": 58.79999999701977,
+            "parseMs": 893.7999999970198,
+            "lookupMs": 0.5999999791383743,
+            "cloneMs": 21.30000001192093,
+            "clones": 132
+          },
+          {
+            "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+            "parses": 1,
+            "cacheHits": 33,
+            "readMs": 144.40000000596046,
+            "parseMs": 1735.8999999910593,
+            "lookupMs": 0.09999999403953552,
+            "cloneMs": 2.2999999821186066,
+            "clones": 34
+          },
+          {
+            "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+            "parses": 1,
+            "cacheHits": 33,
+            "readMs": 100.5,
+            "parseMs": 1318.7000000029802,
+            "lookupMs": 0.09999999403953552,
+            "cloneMs": 2.2000000178813934,
+            "clones": 34
+          },
+          {
+            "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+            "parses": 1,
+            "cacheHits": 33,
+            "readMs": 50.5,
+            "parseMs": 822.2000000029802,
+            "lookupMs": 0,
+            "cloneMs": 2.5,
+            "clones": 34
+          }
+        ],
+        "backend": "WebGL2",
+        "framebuffer": [
+          1280,
+          720
+        ]
+      },
+      "collision": [
+        {
+          "url": "/content/assets/maps/minus-two-demo/collision-9b8eec648f4abcec.pcol",
+          "format": "pcol-v1",
+          "parseValidateMs": 128.20000000298023,
+          "buildMs": 0,
+          "inputBytes": 1815688,
+          "totalMs": 613.2000000029802,
+          "colliders": 1449,
+          "worker": true
+        },
+        {
+          "url": "/content/assets/races/minus-two-demo-liftoff-01/collision-a9661842f7b92ff1.pcol",
+          "format": "pcol-v1",
+          "parseValidateMs": 234.6000000089407,
+          "buildMs": 0,
+          "inputBytes": 4282624,
+          "totalMs": 697.5999999940395,
+          "colliders": 529,
+          "worker": true
+        }
+      ],
+      "installedMapColliders": 1449,
+      "renderFatal": false
+    },
+    "worker": {
+      "cancelName": "AbortError",
+      "sourceBufferBytes": 1815688,
+      "legacyColliders": 1449
+    },
+    "requests": [
+      "http://127.0.0.1:2598/content/assets/maps/minus-two-demo/collision-9b8eec648f4abcec.pcol"
+    ],
+    "errors": [],
+    "warnings": []
+  },
+  "revision": "0fe968941a806c66",
+  "protocol": 13,
+  "canonicalSourcesChanged": false,
+  "productionChanged": false
+}

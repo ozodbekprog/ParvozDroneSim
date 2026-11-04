@@ -1,0 +1,41 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "at": 45798.59999999963,
+  "probe": {
+    "start": 1792699934164,
+    "tasks": [
+      {
+        "at": 262.5,
+        "ms": 216
+      }
+    ],
+    "errors": [],
+    "marks": []
+  },
+  "view": "Подготовка полёта\n\nПодключение к серверу…\n\nPARVOZ\nDRONE SIMULATOR\n\nНе удалось подготовить главное меню\n\n0%\n\nПодключение к игровому серверу\n0:00\n\nНе удалось подключиться к серверу. Проверьте соединение и повторите попытку.\n\nПовторить",
+  "resources": [
+    {
+      "url": "/assets/index-7TSF7k3X.js",
+      "start": 200.5,
+      "ms": 0,
+      "bytes": 0,
+      "encoded": 783025,
+      "decoded": 8727791,
+      "cache": "cache",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/catalog?knownRevision=2132caf43c0e38df",
+      "start": 589.6999999992549,
+      "ms": 0,
+      "bytes": 0,
+      "encoded": 0,
+      "decoded": 0,
+      "cache": "",
+      "protocol": "",
+      "status": 0
+    }
+  ],
+  "condition": "Exact startup catalog request blocked by inspector; failure verified with Network.loadingFailed. Initial wildcard attempt rejected."
+}

@@ -1,0 +1,60 @@
+{
+  "map": "liftoff-pine-valley-demo",
+  "mode": "fpv",
+  "hardware": {
+    "gpu": "intel gen-9",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "low",
+  "samples": 288,
+  "frameMs": {
+    "median": 44.900000000001455,
+    "p95": 67.40000000000146,
+    "p99": 67.5,
+    "max": 67.5
+  },
+  "cpuMs": {
+    "median": 13.20000000006985,
+    "p95": 16.599999999976717,
+    "p99": 17.699999999953434,
+    "max": 18.699999999953434
+  },
+  "rendererMs": {
+    "median": 12.400000000023283,
+    "p95": 15.800000000046566,
+    "p99": 16.599999999976717,
+    "max": 17.800000000046566
+  },
+  "projectMs": {
+    "median": 1.5,
+    "p95": 2.199999999953434,
+    "p99": 2.5,
+    "max": 2.599999999976717
+  },
+  "submitMs": {
+    "median": 6.599999999976717,
+    "p95": 9.599999999860302,
+    "p99": 10.300000000046566,
+    "max": 11.099999999976717
+  },
+  "draws": {
+    "median": 2737,
+    "p95": 2737,
+    "p99": 2737,
+    "max": 2737
+  },
+  "triangles": {
+    "median": 5028148,
+    "p95": 5028148,
+    "p99": 5028148,
+    "max": 5028148
+  },
+  "backend": "WebGPU",
+  "framebuffer": [
+    1280,
+    720
+  ],
+  "adaptiveResolution": false,
+  "backendCorrection": "The old sample report hardcoded WebGL2; the observed load report and Intel gen-9 GPU confirm WebGPU."
+}

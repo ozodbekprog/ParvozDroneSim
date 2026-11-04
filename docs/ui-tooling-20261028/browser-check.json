@@ -1,0 +1,69 @@
+{
+  "background": "http://127.0.0.1:2573/assets/hangar.png",
+  "cards": [
+    {
+      "name": "Armattan Chameleon",
+      "selected": "false"
+    },
+    {
+      "name": "Armattan Gecko",
+      "selected": "false"
+    },
+    {
+      "name": "Dquad Addiction",
+      "selected": "false"
+    },
+    {
+      "name": "Kestrel 5",
+      "selected": "false"
+    },
+    {
+      "name": "Luma 5",
+      "selected": "false"
+    },
+    {
+      "name": "Luma 5 Copy 1",
+      "selected": "true"
+    }
+  ],
+  "option": "3",
+  "ready": "true",
+  "thumbnails": [
+    {
+      "height": 144,
+      "loaded": true,
+      "src": "drone-01.png",
+      "width": 256
+    },
+    {
+      "height": 144,
+      "loaded": true,
+      "src": "drone-02.png",
+      "width": 256
+    },
+    {
+      "height": 144,
+      "loaded": true,
+      "src": "drone-03.png",
+      "width": 256
+    },
+    {
+      "height": 144,
+      "loaded": true,
+      "src": "drone-04.png",
+      "width": 256
+    },
+    {
+      "height": 144,
+      "loaded": true,
+      "src": "drone-05.png",
+      "width": 256
+    },
+    {
+      "height": 144,
+      "loaded": true,
+      "src": "drone-05.png",
+      "width": 256
+    }
+  ]
+}

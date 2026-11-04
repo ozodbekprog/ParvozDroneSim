@@ -1,0 +1,56 @@
+{
+  "name": "Hangar C03",
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+  "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+  "permissionConfirmed": false,
+  "unityVersion": "2022.3.62f3",
+  "materialAdapters": {
+    "Standard": "PBR",
+    "Shader Forge/StandardTriplanarWorldSpace": "PBR using authored UVs; world-space triplanar blending is approximated",
+    "Horizon[ON]/Horizon[ON] Displacement": "Source base terrain color on authored UVs; world projection and shader displacement approximated",
+    "Nature/SpeedTree": "Static PBR with source alpha cutout and baked bark detail; secondary detail UV and wind approximated",
+    "Standard (Specular setup)": "Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+    "Standard Double Sided": "PBR with original textures and both faces",
+    "Shader Forge/StandardShaderUV3Occlusion": "PBR with baked lighting; UV3 occlusion approximated",
+    "Shader Forge/WaterShader": "Static source tint and combined normals; scrolling, depth fade and reflections approximated",
+    "Shader Forge/WaterShaderOpaque": "Static source tint and combined normals; scrolling, depth fade and reflections approximated"
+  },
+  "materialAudit": {
+    "file": "material-audit.json",
+    "checked": 165,
+    "failures": 0
+  },
+  "installedSource": "D:\\Programs\\Liftoff",
+  "scene": "Assets/Scenes/Environments/HangarC03/HangarC03.unity",
+  "recoveredOn": "2026-10-12",
+  "tools": [
+    "AssetRipper Free 2.0.0",
+    "Blender 5.1.0",
+    "Microsoft DirectXTex 2026.5",
+    "KTX-Software 4.4.2"
+  ],
+  "sceneBundleSha256": "3ecbe53e5ad9d17b8a0ea98fbaff36f4fd2a8a9da493462c3388cdf0cc8ae74a",
+  "changes": "Original scene layout and authored meshes retained; X handedness and UV orientation converted, HDR lightmaps sampled into vertex lighting with brighter ambient adaptation (1024 px bounded cache for new Arena assembly), browser PBR and KTX2 prepared. Spatial material LODs use 64 metre cells. Surface geometry retained at all levels; no COLLAPSE decimation. Seasonal event hierarchies excluded. Floor UVs retained at distance; small transparent overlays fade at the far LOD. Original courses use their authored frames and have separate SOURCE records. Practice and missions have separate IDs.",
+  "limitations": [
+    "Appearance is adapted rather than lossless.",
+    "Source sphere/capsule colliders currently use conservative oriented boxes.",
+    "Target FPS on UHD 620 has not been measured.",
+    "Shader Forge/StandardTriplanarWorldSpace: PBR using authored UVs; world-space triplanar blending is approximated",
+    "Horizon[ON]/Horizon[ON] Displacement: Source base terrain color on authored UVs; world projection and shader displacement approximated",
+    "Nature/SpeedTree: Static PBR with source alpha cutout and baked bark detail; secondary detail UV and wind approximated",
+    "Standard (Specular setup): Source gloss alpha converted to roughness; colored specular reflectance approximated by dielectric PBR",
+    "Shader Forge/StandardShaderUV3Occlusion: PBR with baked lighting; UV3 occlusion approximated",
+    "Shader Forge/WaterShader: Static source tint and combined normals; scrolling, depth fade and reflections approximated",
+    "Shader Forge/WaterShaderOpaque: Static source tint and combined normals; scrolling, depth fade and reflections approximated"
+  ],
+  "recovery": {
+    "objects": 1767,
+    "sourceTriangles": 4515150,
+    "totalTrianglesAcrossLods": 13468022,
+    "colliders": 9758,
+    "bundles": 39,
+    "modelBytes": 271087076
+  }
+}

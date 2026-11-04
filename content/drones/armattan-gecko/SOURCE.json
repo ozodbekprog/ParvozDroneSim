@@ -1,0 +1,21 @@
+{
+  "sourceGame": "Liftoff: FPV Drone Racing",
+  "source": "https://www.liftoff-game.com/",
+  "author": "LuGus Studios and original credited drone manufacturers",
+  "license": "Proprietary game content; redistribution permission unconfirmed",
+  "permissionConfirmed": false,
+  "testAuthorization": {
+    "date": "2026-10-14",
+    "scope": "User explicitly requested Gecko, Dquad and component customization, including them in the Oracle multiplayer test."
+  },
+  "changes": "Recovered authored meshes, mounting transforms and specifications; Blender assembly, texture-preserving PBR conversion and LOD export. Aerodynamics are calibrated simulation estimates, not manufacturer thrust measurements.",
+  "airframe": "Armattan Gecko 3\"",
+  "stockPartIds": {
+    "frame": "ArmattanGeckoFrame01",
+    "camera": "CameraRedotSplitMini01",
+    "battery": "AmpAgeBattery01",
+    "motors": "Bushmaster1507motor3600KV01",
+    "propellers": "Dal3050Propeller01"
+  },
+  "blueprintSha256": "b24b4076e54743d36d72745e1014789428aeee0e7706a2dd4ee2acaf24e92ece"
+}

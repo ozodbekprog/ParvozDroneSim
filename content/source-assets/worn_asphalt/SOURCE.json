@@ -1,0 +1,36 @@
+{
+  "id": "worn_asphalt",
+  "title": "Worn Asphalt",
+  "authors": {
+    "Amal Kumar": "All"
+  },
+  "source": "https://polyhaven.com/a/worn_asphalt",
+  "license": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "diff": {
+      "name": "worn_asphalt_diff_1k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/worn_asphalt/worn_asphalt_diff_1k.png",
+      "md5": "a0419417db6d18d664b76ddeb08af00e",
+      "size": 6455367
+    },
+    "nor_gl": {
+      "name": "worn_asphalt_nor_gl_1k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/worn_asphalt/worn_asphalt_nor_gl_1k.png",
+      "md5": "a9c610757917f067e01d50ea52ed16d1",
+      "size": 7112860
+    },
+    "rough": {
+      "name": "worn_asphalt_rough_1k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/worn_asphalt/worn_asphalt_rough_1k.png",
+      "md5": "54a1897848a959627bbe4709f108d784",
+      "size": 1757364
+    },
+    "ao": {
+      "name": "worn_asphalt_ao_1k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/worn_asphalt/worn_asphalt_ao_1k.png",
+      "md5": "b330300f1611f03cb01b40f157153988",
+      "size": 2052726
+    }
+  }
+}

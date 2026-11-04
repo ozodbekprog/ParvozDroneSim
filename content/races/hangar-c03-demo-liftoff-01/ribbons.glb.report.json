@@ -1,0 +1,21 @@
+{
+  "input": "C:\\DroneLiftoffUz\\data\\map-repair-20261031\\ribbon-delivery-inputs\\hangar-c03-demo-liftoff-01.glb",
+  "output": "content/races/hangar-c03-demo-liftoff-01/ribbons.glb",
+  "trianglesBeforeInstancing": 1708,
+  "meshPrimitives": 21,
+  "materials": 1,
+  "textures": [
+    {
+      "name": "TapeYellowBlack01",
+      "mimeType": "image/ktx2",
+      "size": [
+        256,
+        1024
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_texture_basisu",
+    "EXT_meshopt_compression"
+  ]
+}

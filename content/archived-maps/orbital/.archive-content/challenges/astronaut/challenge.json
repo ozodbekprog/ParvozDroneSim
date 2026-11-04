@@ -1,0 +1,8 @@
+{
+  "id": "astronaut",
+  "name": "New Horizon",
+  "map": "orbital",
+  "track": "orbital-arc",
+  "target": 350,
+  "reward": 300
+}

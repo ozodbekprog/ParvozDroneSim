@@ -1,0 +1,635 @@
+{
+  "retrievedAt": "2026-10-25T16:18:01.865Z",
+  "scope": "Public upstream metadata; not compatibility or performance validation. pushedAt includes non-code pushes. License identifiers are discovery metadata, not a dependency-license audit.",
+  "repositories": [
+    {
+      "name": "mrdoob/three.js",
+      "url": "https://api.github.com/repos/mrdoob/three.js",
+      "htmlUrl": "https://github.com/mrdoob/three.js",
+      "defaultBranch": "dev",
+      "pushedAt": "2026-10-25T12:38:11Z",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "name": "playcanvas/engine",
+      "url": "https://api.github.com/repos/playcanvas/engine",
+      "htmlUrl": "https://github.com/playcanvas/engine",
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-23T23:18:38Z",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "name": "BabylonJS/Babylon.js",
+      "url": "https://api.github.com/repos/BabylonJS/Babylon.js",
+      "htmlUrl": "https://github.com/BabylonJS/Babylon.js",
+      "defaultBranch": "master",
+      "pushedAt": "2026-10-23T00:00:36Z",
+      "archived": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "NASA-AMMOS/3DTilesRendererJS",
+      "url": "https://api.github.com/repos/NASA-AMMOS/3DTilesRendererJS",
+      "htmlUrl": "https://github.com/NASA-AMMOS/3DTilesRendererJS",
+      "defaultBranch": "master",
+      "pushedAt": "2026-10-22T12:27:51Z",
+      "archived": false,
+      "license": "Apache-2.0",
+      "retrievedAt": "2026-10-25T16:15:36.505Z",
+      "refreshError": "HTTP 403",
+      "refreshAttemptAt": "2026-10-25T16:18:01.865Z",
+      "note": "Earlier successful response from this research session retained after API refresh was rate-limited."
+    },
+    {
+      "name": "needle-tools/gltf-progressive",
+      "url": "https://api.github.com/repos/needle-tools/gltf-progressive",
+      "htmlUrl": "https://github.com/needle-tools/gltf-progressive",
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-15T15:22:20Z",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "name": "agargaro/instanced-mesh",
+      "url": "https://api.github.com/repos/agargaro/instanced-mesh",
+      "htmlUrl": "https://github.com/agargaro/instanced-mesh",
+      "defaultBranch": "master",
+      "pushedAt": "2026-10-06T10:05:55Z",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "name": "gkjohnson/three-mesh-bvh",
+      "url": "https://api.github.com/repos/gkjohnson/three-mesh-bvh",
+      "htmlUrl": "https://github.com/gkjohnson/three-mesh-bvh",
+      "defaultBranch": "master",
+      "pushedAt": "2026-10-22T12:46:15Z",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "name": "donmccurdy/glTF-Transform",
+      "url": "https://api.github.com/repos/donmccurdy/glTF-Transform",
+      "htmlUrl": "https://github.com/donmccurdy/glTF-Transform",
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-20T11:41:51Z",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "name": "zeux/meshoptimizer",
+      "url": "https://api.github.com/repos/zeux/meshoptimizer",
+      "htmlUrl": "https://github.com/zeux/meshoptimizer",
+      "defaultBranch": "master",
+      "pushedAt": "2026-10-14T17:27:17Z",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "name": "KhronosGroup/KTX-Software",
+      "url": "https://api.github.com/repos/KhronosGroup/KTX-Software",
+      "htmlUrl": "https://github.com/KhronosGroup/KTX-Software",
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-25T10:30:26Z",
+      "archived": false,
+      "license": "NOASSERTION"
+    },
+    {
+      "name": "brendan-duncan/webgpu_inspector",
+      "url": "https://api.github.com/repos/brendan-duncan/webgpu_inspector",
+      "htmlUrl": "https://github.com/brendan-duncan/webgpu_inspector",
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-21T22:57:37Z",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "name": "greggman/webgl-memory",
+      "url": "https://api.github.com/repos/greggman/webgl-memory",
+      "htmlUrl": "https://github.com/greggman/webgl-memory",
+      "defaultBranch": "main",
+      "pushedAt": "2026-01-27T01:13:25Z",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "name": "dimforge/rapier.js",
+      "url": "https://api.github.com/repos/dimforge/rapier.js",
+      "htmlUrl": "https://github.com/dimforge/rapier.js",
+      "defaultBranch": "master",
+      "pushedAt": "2026-07-12T16:55:48Z",
+      "archived": true,
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "dimforge/rapier",
+      "url": "https://api.github.com/repos/dimforge/rapier",
+      "htmlUrl": "https://github.com/dimforge/rapier",
+      "defaultBranch": "master",
+      "pushedAt": "2026-10-10T12:08:59Z",
+      "archived": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "jrouwe/JoltPhysics.js",
+      "url": "https://api.github.com/repos/jrouwe/JoltPhysics.js",
+      "htmlUrl": "https://github.com/jrouwe/JoltPhysics.js",
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-23T15:06:56Z",
+      "archived": false,
+      "license": "MIT"
+    },
+    {
+      "name": "NateTheGreatt/bitECS",
+      "url": "https://api.github.com/repos/NateTheGreatt/bitECS",
+      "htmlUrl": "https://github.com/NateTheGreatt/bitECS",
+      "defaultBranch": "main",
+      "pushedAt": "2026-08-24T15:31:37Z",
+      "archived": false,
+      "license": "MPL-2.0",
+      "retrievedAt": "2026-10-25T16:15:36.505Z",
+      "refreshError": "HTTP 403",
+      "refreshAttemptAt": "2026-10-25T16:18:01.865Z",
+      "note": "Earlier successful response from this research session retained after API refresh was rate-limited."
+    },
+    {
+      "name": "Scthe/nanite-webgpu",
+      "url": "https://api.github.com/repos/Scthe/nanite-webgpu",
+      "htmlUrl": "https://github.com/Scthe/nanite-webgpu",
+      "defaultBranch": "master",
+      "pushedAt": "2026-05-09T23:01:20Z",
+      "archived": false,
+      "license": "MIT",
+      "retrievedAt": "2026-10-25T16:15:36.505Z",
+      "refreshError": "HTTP 403",
+      "refreshAttemptAt": "2026-10-25T16:18:01.865Z",
+      "note": "Earlier successful response from this research session retained after API refresh was rate-limited."
+    },
+    {
+      "name": "swift502/Sketchbook",
+      "url": "https://api.github.com/repos/swift502/Sketchbook",
+      "htmlUrl": "https://github.com/swift502/Sketchbook",
+      "defaultBranch": "master",
+      "pushedAt": "2024-10-10T18:31:21Z",
+      "archived": true,
+      "license": "MIT",
+      "retrievedAt": "2026-10-25T16:15:36.505Z",
+      "refreshError": "HTTP 403",
+      "refreshAttemptAt": "2026-10-25T16:18:01.865Z",
+      "note": "Earlier successful response from this research session retained after API refresh was rate-limited."
+    },
+    {
+      "name": "pmndrs/react-three-fiber",
+      "url": "https://api.github.com/repos/pmndrs/react-three-fiber",
+      "htmlUrl": "https://github.com/pmndrs/react-three-fiber",
+      "defaultBranch": "master",
+      "pushedAt": "2026-10-21T15:24:39Z",
+      "archived": false,
+      "license": "MIT",
+      "retrievedAt": "2026-10-25T16:15:36.505Z",
+      "refreshError": "HTTP 403",
+      "refreshAttemptAt": "2026-10-25T16:18:01.865Z",
+      "note": "Earlier successful response from this research session retained after API refresh was rate-limited."
+    },
+    {
+      "name": "cocos/cocos-engine",
+      "url": "https://api.github.com/repos/cocos/cocos-engine",
+      "htmlUrl": "https://github.com/cocos/cocos-engine",
+      "defaultBranch": "v3.8.9",
+      "pushedAt": "2026-10-23T07:08:47Z",
+      "archived": false,
+      "license": "NOASSERTION",
+      "retrievedAt": "2026-10-25T16:15:36.505Z",
+      "refreshError": "HTTP 403",
+      "refreshAttemptAt": "2026-10-25T16:18:01.865Z",
+      "note": "Earlier successful response from this research session retained after API refresh was rate-limited."
+    },
+    {
+      "name": "BabylonJS/Spector.js",
+      "url": "https://api.github.com/repos/BabylonJS/Spector.js",
+      "htmlUrl": "https://github.com/BabylonJS/Spector.js",
+      "defaultBranch": "master",
+      "pushedAt": "2026-10-22T01:08:06Z",
+      "archived": false,
+      "license": "MIT",
+      "retrievedAt": "2026-10-25T16:15:36.505Z",
+      "refreshError": "HTTP 403",
+      "refreshAttemptAt": "2026-10-25T16:18:01.865Z",
+      "note": "Earlier successful response from this research session retained after API refresh was rate-limited."
+    }
+  ],
+  "registry": [
+    {
+      "name": "three",
+      "url": "https://registry.npmjs.org/three",
+      "latestTag": "0.186.1",
+      "publishedAt": "2026-09-24T14:42:21.301Z",
+      "distTags": {
+        "latest": "0.186.1"
+      },
+      "gitHead": "9b4a2ac29c63ccb43fd51c5661f2f873ac2c39b8",
+      "license": "MIT",
+      "unpackedBytes": 20443256,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "playcanvas",
+      "url": "https://registry.npmjs.org/playcanvas",
+      "latestTag": "2.23.3",
+      "publishedAt": "2026-10-15T15:41:11.219Z",
+      "distTags": {
+        "lts": "1.77.0",
+        "alpha": "2.22.0-alpha.9156.3",
+        "preview": "2.23.0-preview.0",
+        "latest": "2.23.3",
+        "beta": "2.24.0-beta.22"
+      },
+      "gitHead": "b7655d8fccc1284678af8f098b26b0725e20dd3a",
+      "license": "MIT",
+      "engines": {
+        "node": ">=18.3.0"
+      },
+      "unpackedBytes": 90102780,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "@babylonjs/core",
+      "url": "https://registry.npmjs.org/%40babylonjs%2Fcore",
+      "latestTag": "9.32.0",
+      "publishedAt": "2026-10-22T08:06:52.909Z",
+      "distTags": {
+        "preview": "5.0.0-rc.13",
+        "alpha": "6.34.0-alpha.0",
+        "latest": "9.32.0"
+      },
+      "gitHead": "40751ac63d9f364f91ce06ac9544fbfa52730d7f",
+      "license": "Apache-2.0",
+      "unpackedBytes": 72627536,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "3d-tiles-renderer",
+      "url": "https://registry.npmjs.org/3d-tiles-renderer",
+      "latestTag": "0.5.3",
+      "publishedAt": "2026-09-18T08:55:47.488Z",
+      "distTags": {
+        "latest": "0.5.3"
+      },
+      "gitHead": "476ed6be569ad31290772f540f4f153e00a6935b",
+      "license": "Apache-2.0",
+      "peerDependencies": {
+        "react": "^18.3.1 || ^19.0.0",
+        "three": ">=0.167.0",
+        "react-dom": "^18.3.1 || ^19.0.0",
+        "@babylonjs/core": ">=8.0.0",
+        "@babylonjs/loaders": ">=8.0.0",
+        "@react-three/fiber": "^8.17.9 || ^9.0.0"
+      },
+      "peerDependenciesMeta": {
+        "react": {
+          "optional": true
+        },
+        "three": {
+          "optional": true
+        },
+        "react-dom": {
+          "optional": true
+        },
+        "@babylonjs/core": {
+          "optional": true
+        },
+        "@babylonjs/loaders": {
+          "optional": true
+        },
+        "@react-three/fiber": {
+          "optional": true
+        }
+      },
+      "unpackedBytes": 3508248,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "@needle-tools/gltf-progressive",
+      "url": "https://registry.npmjs.org/%40needle-tools%2Fgltf-progressive",
+      "latestTag": "4.0.0-alpha.8",
+      "publishedAt": "2026-10-15T15:33:34.575Z",
+      "distTags": {
+        "rc": "3.5.0-rc",
+        "canary": "3.6.0-canary.51f6448",
+        "next": "3.4.0-next.f4acc24",
+        "version-3.4": "3.4.0-beta.4",
+        "stable": "3.6.2",
+        "latest": "4.0.0-alpha.8"
+      },
+      "gitHead": "f3698da5f8d1a3329d44310cc587633d7b262ddd",
+      "stableAlternative": {
+        "version": "3.6.2",
+        "gitHead": "9e524f199dfb8055e7229032acd5abcb002b4720",
+        "publishedAt": "2026-10-12T10:24:03.635Z"
+      },
+      "license": "MIT",
+      "peerDependencies": {
+        "three": "*"
+      },
+      "unpackedBytes": 603803,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "@three.ez/instanced-mesh",
+      "url": "https://registry.npmjs.org/%40three.ez%2Finstanced-mesh",
+      "latestTag": "0.3.16",
+      "publishedAt": "2026-07-26T08:53:14.381Z",
+      "distTags": {
+        "latest": "0.3.16",
+        "beta": "1.0.0-beta.0"
+      },
+      "gitHead": "78f5a94e63ad45aa32fadce82490c275cb617fff",
+      "license": "MIT",
+      "peerDependencies": {
+        "three": ">=0.159.0"
+      },
+      "unpackedBytes": 873117,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "three-mesh-bvh",
+      "url": "https://registry.npmjs.org/three-mesh-bvh",
+      "latestTag": "0.9.16",
+      "publishedAt": "2026-10-08T05:46:08.080Z",
+      "distTags": {
+        "latest": "0.9.16"
+      },
+      "gitHead": "79dd84170de5066bcadff155a2d78fd243b1b14b",
+      "license": "MIT",
+      "peerDependencies": {
+        "three": ">= 0.159.0"
+      },
+      "unpackedBytes": 2331285,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "@gltf-transform/core",
+      "url": "https://registry.npmjs.org/%40gltf-transform%2Fcore",
+      "latestTag": "4.5.1",
+      "publishedAt": "2026-09-28T12:51:13.194Z",
+      "distTags": {
+        "next": "4.4.0-alpha.1",
+        "latest": "4.5.1"
+      },
+      "gitHead": "41156dfa2324ac6c44ddf0a40ec0da194c4731d6",
+      "license": "MIT",
+      "unpackedBytes": 1842648,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "meshoptimizer",
+      "url": "https://registry.npmjs.org/meshoptimizer",
+      "latestTag": "1.3.0",
+      "publishedAt": "2026-09-25T15:42:07.109Z",
+      "distTags": {
+        "latest": "1.3.0"
+      },
+      "license": "MIT",
+      "unpackedBytes": 313134,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "ktx-parse",
+      "url": "https://registry.npmjs.org/ktx-parse",
+      "latestTag": "2.0.0",
+      "publishedAt": "2026-09-05T16:03:33.656Z",
+      "distTags": {
+        "alpha": "1.0.0-alpha.0",
+        "latest": "2.0.0"
+      },
+      "gitHead": "e77629768ae2800f689f079d5af944015174b280",
+      "license": "MIT",
+      "unpackedBytes": 202473,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "@dimforge/rapier3d-compat",
+      "url": "https://registry.npmjs.org/%40dimforge%2Frapier3d-compat",
+      "latestTag": "0.21.0",
+      "publishedAt": "2026-09-25T08:46:23.636Z",
+      "distTags": {
+        "latest": "0.21.0",
+        "canary": "0.0.0-b716d37-20260925"
+      },
+      "gitHead": "b716d375efc0201003f0cd9ef7168eee0b62c177",
+      "license": "Apache-2.0",
+      "unpackedBytes": 15038573,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "jolt-physics",
+      "url": "https://registry.npmjs.org/jolt-physics",
+      "latestTag": "1.1.1",
+      "publishedAt": "2026-10-23T15:08:29.683Z",
+      "distTags": {
+        "latest": "1.1.1"
+      },
+      "gitHead": "cccf9d568e8cbae1569ba8e1a24de731591ba0a8",
+      "license": "MIT",
+      "unpackedBytes": 46705042,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "bitecs",
+      "url": "https://registry.npmjs.org/bitecs",
+      "latestTag": "0.4.0",
+      "publishedAt": "2025-12-06T23:15:32.017Z",
+      "distTags": {
+        "alpha": "0.3.16-3-alpha1",
+        "latest": "0.4.0"
+      },
+      "license": "MPL-2.0",
+      "unpackedBytes": 1752971,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "webgl-memory",
+      "url": "https://registry.npmjs.org/webgl-memory",
+      "latestTag": "1.1.3",
+      "publishedAt": "2026-01-27T01:13:50.738Z",
+      "distTags": {
+        "latest": "1.1.3"
+      },
+      "gitHead": "7ae1611ddbb6730cb947f75a6a591b6c4181b89a",
+      "license": "MIT",
+      "unpackedBytes": 63258,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    },
+    {
+      "name": "spectorjs",
+      "url": "https://registry.npmjs.org/spectorjs",
+      "latestTag": "0.9.33",
+      "publishedAt": "2026-09-14T16:42:22.919Z",
+      "distTags": {
+        "latest": "0.9.33"
+      },
+      "gitHead": "d06dc348ccf84884a3a2c1033eae3b38ab55678e",
+      "license": "MIT",
+      "unpackedBytes": 1411656,
+      "note": "Registry unpacked size is not browser bundle size or network transfer."
+    }
+  ],
+  "sourceChecks": [
+    {
+      "name": "3d-tiles-renderer",
+      "version": "0.5.3",
+      "path": "src/three/plugins/index.js",
+      "url": "https://raw.githubusercontent.com/NASA-AMMOS/3DTilesRendererJS/476ed6be569ad31290772f540f4f153e00a6935b/src/three/plugins/index.js",
+      "sha256": "aafe4144e9f4c1a2fbe3f726821b1777cb0cd6e5eed21eb04862a83023059e85",
+      "lineCount": 44,
+      "matches": {
+        "WebGLRenderer": [],
+        "WebGPURenderer": [],
+        "onBeforeCompile": [],
+        "maxBytesSize": [],
+        "UnloadTilesPlugin": [
+          7
+        ],
+        "LoadRegionPlugin": [
+          13
+        ],
+        "BatchedTilesPlugin": [
+          9
+        ],
+        "AbortSignal": [],
+        "dispose(": []
+      },
+      "note": "Literal source anchors only. Presence/absence does not prove feature support or incompatibility."
+    },
+    {
+      "name": "3d-tiles-renderer",
+      "version": "0.5.3",
+      "path": "src/core/renderer/utilities/LRUCache.js",
+      "url": "https://raw.githubusercontent.com/NASA-AMMOS/3DTilesRendererJS/476ed6be569ad31290772f540f4f153e00a6935b/src/core/renderer/utilities/LRUCache.js",
+      "sha256": "8ea1c5f3579b63b7bae84c5e03f0644be0f4c0ad75e9cc6bf7753b4aca4eb06a",
+      "lineCount": 506,
+      "matches": {
+        "WebGLRenderer": [],
+        "WebGPURenderer": [],
+        "onBeforeCompile": [],
+        "maxBytesSize": [
+          89,
+          107,
+          137,
+          346,
+          357,
+          405,
+          414
+        ],
+        "UnloadTilesPlugin": [],
+        "LoadRegionPlugin": [],
+        "BatchedTilesPlugin": [],
+        "AbortSignal": [],
+        "dispose(": []
+      },
+      "note": "Literal source anchors only. Presence/absence does not prove feature support or incompatibility."
+    },
+    {
+      "name": "@three.ez/instanced-mesh",
+      "version": "0.3.16",
+      "path": "src/core/InstancedMesh2.ts",
+      "url": "https://raw.githubusercontent.com/agargaro/instanced-mesh/78f5a94e63ad45aa32fadce82490c275cb617fff/src/core/InstancedMesh2.ts",
+      "sha256": "4bd33cafc0951caf98a64d8913a935d3e77fe3747e4a631133bb29ad3ab90157",
+      "lineCount": 889,
+      "matches": {
+        "WebGLRenderer": [
+          1,
+          48,
+          179,
+          194,
+          278,
+          294,
+          315,
+          319,
+          325,
+          334,
+          436,
+          473,
+          483
+        ],
+        "WebGPURenderer": [],
+        "onBeforeCompile": [
+          194,
+          436,
+          437,
+          476,
+          479,
+          487,
+          489
+        ],
+        "maxBytesSize": [],
+        "UnloadTilesPlugin": [],
+        "LoadRegionPlugin": [],
+        "BatchedTilesPlugin": [],
+        "AbortSignal": [],
+        "dispose(": [
+          851,
+          854,
+          855,
+          856,
+          857,
+          858
+        ]
+      },
+      "note": "Literal source anchors only. Presence/absence does not prove feature support or incompatibility."
+    },
+    {
+      "name": "@needle-tools/gltf-progressive",
+      "version": "4.0.0-alpha.8",
+      "path": "src/lods.manager.ts",
+      "url": "https://raw.githubusercontent.com/needle-tools/gltf-progressive/f3698da5f8d1a3329d44310cc587633d7b262ddd/src/lods.manager.ts",
+      "sha256": "bb72cd2ddff0c1311ef7d9adaaa2e476995a7ce242f7dece3b3b41670edf591b",
+      "lineCount": 1103,
+      "matches": {
+        "WebGLRenderer": [
+          287,
+          289,
+          709
+        ],
+        "WebGPURenderer": [
+          704
+        ],
+        "onBeforeCompile": [],
+        "maxBytesSize": [],
+        "UnloadTilesPlugin": [],
+        "LoadRegionPlugin": [],
+        "BatchedTilesPlugin": [],
+        "AbortSignal": [
+          412
+        ],
+        "dispose(": []
+      },
+      "note": "Literal source anchors only. Presence/absence does not prove feature support or incompatibility."
+    },
+    {
+      "name": "@needle-tools/gltf-progressive",
+      "version": "4.0.0-alpha.8",
+      "path": "src/loaders.ts",
+      "url": "https://raw.githubusercontent.com/needle-tools/gltf-progressive/f3698da5f8d1a3329d44310cc587633d7b262ddd/src/loaders.ts",
+      "sha256": "1dbadbc545d2eae554443658d544d4a4dba6dd51c9cb6901c7674e58fd1c8385",
+      "lineCount": 230,
+      "matches": {
+        "WebGLRenderer": [],
+        "WebGPURenderer": [],
+        "onBeforeCompile": [],
+        "maxBytesSize": [],
+        "UnloadTilesPlugin": [],
+        "LoadRegionPlugin": [],
+        "BatchedTilesPlugin": [],
+        "AbortSignal": [],
+        "dispose(": [
+          113,
+          114
+        ]
+      },
+      "note": "Literal source anchors only. Presence/absence does not prove feature support or incompatibility."
+    }
+  ]
+}

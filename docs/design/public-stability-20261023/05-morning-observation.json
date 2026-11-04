@@ -1,0 +1,43 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "observedAt": "2026-10-23T04:01:58.054Z",
+  "documentElapsedMs": 28030156.1,
+  "readyMs": 507875.5999999996,
+  "probeErrors": [],
+  "visibleState": "Подготовка полёта\n\nПодключение к серверу…\n\nPARVOZ\nDRONE SIMULATOR\n\nГотово\n\n100%\nИграть\nВойти",
+  "assets": [
+    {
+      "path": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "startMs": 20583.699999999255,
+      "durationMs": 482345.5,
+      "transferBytes": 26341200,
+      "cache": "",
+      "status": 200
+    },
+    {
+      "path": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "startMs": 20583.900000000373,
+      "durationMs": 95694.90000000037,
+      "transferBytes": 396962,
+      "cache": "",
+      "status": 200
+    },
+    {
+      "path": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "startMs": 20584,
+      "durationMs": 333362.9000000004,
+      "transferBytes": 11030504,
+      "cache": "",
+      "status": 200
+    },
+    {
+      "path": "/content/assets/drones/kestrel/source-f34a43818bab7bc0.json",
+      "startMs": 116295.69999999925,
+      "durationMs": 7307,
+      "transferBytes": 1088,
+      "cache": "",
+      "status": 200
+    }
+  ],
+  "conditions": "Originally cold, limit 5Mbps/160ms. Browser unattended/occluded overnight; eventual Ready does not establish a valid foreground timing acceptance."
+}

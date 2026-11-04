@@ -1,0 +1,10 @@
+{
+  "title": "Racing drone (Lite Graphics Version)",
+  "author": "BlueMesh",
+  "source": "https://skfb.ly/6zBPO",
+  "mirror": "https://raw.githubusercontent.com/mqnc/propwash/HEAD/assets/drones/racing_drone_lite_graphics_version.glb",
+  "license": "CC-BY-4.0",
+  "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+  "attributionEvidence": "https://github.com/mqnc/propwash#attributions",
+  "modifications": "None in original.glb. Derived Kestrel assets record their modifications separately."
+}

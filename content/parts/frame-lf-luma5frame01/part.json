@@ -1,0 +1,29 @@
+{
+  "id": "lf-luma5frame01",
+  "category": "frame",
+  "name": "Luma 5 frame",
+  "sourcePartId": "Luma5Frame01",
+  "sourceSpecs": {
+    "weight": 0.219,
+    "batteryAtBottom": 0,
+    "maxPropellerSize": 5.1,
+    "hasDragOverride": 0,
+    "dragOverrideValue": 0.82
+  },
+  "physicalSize": [
+    0.16649963451288607,
+    0.025,
+    0.16649963451288607
+  ],
+  "compatibleDrones": [
+    "luma-5"
+  ],
+  "mass": 0,
+  "thrust": 1,
+  "response": 1,
+  "drag": 1,
+  "duration": 1,
+  "durability": 1,
+  "cost": 0,
+  "materials": []
+}

@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Parvoz — map and camera repair checks</title>
+<style>body{margin:0;background:#171b20;color:#eee;font:14px system-ui}header{padding:12px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}label{display:flex;gap:6px;align-items:center}button,select{font:inherit;padding:6px}#view{height:70vh;min-height:400px}pre{white-space:pre-wrap;padding:12px;margin:0}p{margin:0;padding:0 12px 12px;color:#bbc5cf}</style>
+<header><label>Map <select id="map"></select></label><label>Track <select id="track"></select></label><label>Camera <select id="camera"><option value="orbit">Inspect scenery</option><option value="chase">Dynamic chase</option><option value="chase-rigid">Rigid chase</option></select></label><label>Quality <select id="quality"><option value="low">Low</option><option value="ultra">Ultra</option></select></label><button id="load">Load selected scene</button><button id="crash" disabled>Run crash tumble</button><button id="reset" disabled>Reset drone</button><button id="next" disabled>Next checkpoint</button><button id="save" disabled>Save report</button></header>
+<p>Isolated developer checks using the real game renderer and assets. Drag to inspect; wheel to zoom. Fixed 1280×720 framebuffer. No production player data or public UI changes.</p>
+<header><label>Position <input id="position" value="-80,1.5,-8"></label><label>Look at <input id="target" value="-85.785,1.2,-9.861"></label><button id="inspect">Apply inspection view</button></header>
+<div id="view"></div><pre id="status">Choose a scene and load it.</pre><script type="module" src="./scene-repair.js"></script></html>

@@ -1,0 +1,150 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "at": 370245.5,
+  "probe": {
+    "start": 1792699415193,
+    "tasks": [
+      {
+        "at": 15790.200000001118,
+        "ms": 124
+      },
+      {
+        "at": 34435.90000000037,
+        "ms": 129
+      },
+      {
+        "at": 34565.300000000745,
+        "ms": 59
+      },
+      {
+        "at": 45485.90000000037,
+        "ms": 103
+      },
+      {
+        "at": 47593.5,
+        "ms": 90
+      },
+      {
+        "at": 47694.70000000112,
+        "ms": 77
+      },
+      {
+        "at": 338814.30000000075,
+        "ms": 278
+      },
+      {
+        "at": 341562.80000000075,
+        "ms": 264
+      },
+      {
+        "at": 342927.5999999996,
+        "ms": 132
+      },
+      {
+        "at": 343539.7000000011,
+        "ms": 50
+      },
+      {
+        "at": 343729.0999999996,
+        "ms": 70
+      },
+      {
+        "at": 345010.30000000075,
+        "ms": 59
+      },
+      {
+        "at": 345069.80000000075,
+        "ms": 152
+      },
+      {
+        "at": 356614.80000000075,
+        "ms": 82
+      }
+    ],
+    "errors": [],
+    "marks": [],
+    "ready": 345673.30000000075
+  },
+  "view": "PARVOZ\nDRONE SIMULATOR\nG\nGuest 4483\nПолёт\nМультиплеер\nАнгар\nКарьера\nЛётная школа\nИспытание недели\nПовторы\nНастройки\nMinus Two\nПодземная парковка\nЗагрузки",
+  "resources": [
+    {
+      "url": "/assets/index-7TSF7k3X.js",
+      "start": 398.30000000074506,
+      "ms": 15363.099999999627,
+      "bytes": 783325,
+      "encoded": 783025,
+      "decoded": 8727791,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/catalog?knownRevision=2132caf43c0e38df",
+      "start": 16114.900000000373,
+      "ms": 3410.4000000003725,
+      "bytes": 517,
+      "encoded": 217,
+      "decoded": 217,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/api/me",
+      "start": 19525.800000000745,
+      "ms": 4458.9000000003725,
+      "bytes": 1005,
+      "encoded": 705,
+      "decoded": 1467,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "start": 24026.800000000745,
+      "ms": 314750.69999999925,
+      "bytes": 26341200,
+      "encoded": 26340900,
+      "decoded": 26340900,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "start": 24027,
+      "ms": 42328.20000000112,
+      "bytes": 396962,
+      "encoded": 396662,
+      "decoded": 4516888,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "start": 24027.800000000745,
+      "ms": 238689,
+      "bytes": 11030504,
+      "encoded": 11030204,
+      "decoded": 11030204,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    },
+    {
+      "url": "/content/assets/drones/kestrel/source-f34a43818bab7bc0.json",
+      "start": 66379.40000000037,
+      "ms": 3229.699999999255,
+      "bytes": 1088,
+      "encoded": 788,
+      "decoded": 1399,
+      "cache": "",
+      "protocol": "h2",
+      "status": 200
+    }
+  ],
+  "readyMs": 345673.3,
+  "condition": "Cold Edge, HTTP and optional encoded cache cleared, retained cache empty. No emulation during readiness. Network-unlimited command sent after Ready."
+}

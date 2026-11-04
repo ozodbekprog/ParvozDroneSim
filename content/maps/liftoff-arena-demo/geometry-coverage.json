@@ -1,0 +1,35 @@
+{
+  "input": "data/liftoff-arena-demo-recovery/model.glb",
+  "output": "data/liftoff-arena-demo-recovery/audit-delivery.glb",
+  "deliverySha256": "03d2a5c9b431e06b32d3580867a5fa631857268bbda624b4c51426f1d3235bc7",
+  "sourceTriangles": 1698882,
+  "surfaceProbes": 22645,
+  "gridSpacingMetres": 16,
+  "sampling": "deterministic spatial grid; not exhaustive surface coverage",
+  "levels": [
+    {
+      "lod": 0,
+      "triangles": 1698277,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    },
+    {
+      "lod": 1,
+      "triangles": 1698277,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    },
+    {
+      "lod": 2,
+      "triangles": 1698304,
+      "missingSurfaces": 0,
+      "movedSurfaces": 0,
+      "examples": [],
+      "movedExamples": []
+    }
+  ]
+}

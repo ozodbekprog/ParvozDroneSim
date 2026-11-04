@@ -1,0 +1,13 @@
+{
+  "drone": "armattan-gecko",
+  "hidden": [
+    "Antenna_AntennaFatshark01_0"
+  ],
+  "nodes": [
+    {
+      "name": "Antenna_AntennaFatshark01_0",
+      "visible": false,
+      "own": false
+    }
+  ]
+}

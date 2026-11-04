@@ -1,0 +1,21 @@
+<!doctype html><html><meta charset="utf-8"><title>Import visual check</title><style>html,body{margin:0;background:#101820;color:white;font:14px sans-serif}#view{width:1280px;height:720px}output{position:absolute;top:8px;left:8px;background:#0009;padding:5px}canvas{display:block}</style><div id="view"></div><output id="status">Loading authored preview…</output><script type="module">
+import * as THREE from 'three';
+import {World} from '../src/world.js';
+import {GRAPHICS_PRESETS} from '../src/graphics-settings.js';
+const params=new URLSearchParams(location.search),id=params.get('id')||'hangar-c03-demo',status=document.querySelector('output');
+if(params.has('thumbnail'))status.style.visibility='hidden';
+const world=new World(document.querySelector('#view'),false,{forceWebGL:params.has('webgl')});
+await world.ready;
+world.setGraphics({...GRAPHICS_PRESETS.low,quality:'low',resolution:1,fixedResolution:[1280,720],adaptiveResolution:false});
+world.presentation='preview';world.scene.background=new THREE.Color('#596575');
+world.scene.add(new THREE.HemisphereLight('#e4edff','#66675e',2.0));const sun=new THREE.DirectionalLight('#fff5e9',2);sun.position.set(-20,35,25);world.scene.add(sun);
+const position=JSON.parse(params.get('position')||'[0,1.6,-8]'),target=JSON.parse(params.get('target')||'[0,1.2,4]');
+world.camera.fov=58;world.camera.updateProjectionMatrix();world.inspectionCamera={position,target};
+try {
+  if(params.has('probe'))await world.addContentObjects([{model:'/content/assets/qa/'+id+'-probe.glb'}]);
+  else if(params.has('drone'))await world.addContentObjects([{model:'/content/assets/qa/'+id+'.glb'}]);
+  else {await world.load(id,params.get('track')||undefined,{presentation:'preview'});world.inspectionCamera={position,target};}
+  await world.prepareGraphics();let frames=0;
+  world.startAnimation(now=>{world.renderer.info.reset();world.render(now);if(++frames>2){const r=world.renderer.info.render;status.textContent=`READY · ${r.triangles} triangles · ${r.drawCalls ?? r.calls} calls · 1280×720 · ${world.renderer.backend.isWebGLBackend?'WebGL2':'WebGPU'}`;status.dataset.ready='true';}});
+}catch(error){status.textContent=error.message;status.dataset.error='true';}
+</script></html>

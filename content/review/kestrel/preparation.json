@@ -1,0 +1,24 @@
+{
+  "sourceTriangles": 41044,
+  "rotors": [
+    "Rotor_0",
+    "Rotor_1",
+    "Rotor_2",
+    "Rotor_3"
+  ],
+  "scale": 0.005858905892081779,
+  "levels": [
+    {
+      "name": "hangar",
+      "triangles": 37783
+    },
+    {
+      "name": "low",
+      "triangles": 10363
+    },
+    {
+      "name": "far",
+      "triangles": 2321
+    }
+  ]
+}

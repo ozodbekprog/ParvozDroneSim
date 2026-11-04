@@ -1,0 +1,8 @@
+{
+  "id": "sprinter",
+  "name": "Redline Run",
+  "map": "canyon",
+  "track": "canyon-run",
+  "target": 289,
+  "reward": 180
+}

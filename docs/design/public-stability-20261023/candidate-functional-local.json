@@ -1,0 +1,268 @@
+{
+  "capturedAt": "2026-10-23T09:38:31.396Z",
+  "scope": "Local candidate diagnostics; not public acceptance",
+  "client": "http://127.0.0.1:2569/assets/index-99QjUIgP.js",
+  "marks": [
+    {
+      "name": "home",
+      "at": 31360.700000000186
+    },
+    {
+      "name": "settings-complete",
+      "at": 60630.60000000009,
+      "assetRequests": 0
+    },
+    {
+      "name": "hangar-open",
+      "at": 70195.1000000001
+    },
+    {
+      "name": "hangar-cancelled",
+      "at": 80052.3999999999
+    },
+    {
+      "name": "hangar-reopen",
+      "at": 103118.30000000028
+    },
+    {
+      "name": "first-flight-start",
+      "at": 143423.5
+    }
+  ],
+  "errors": [],
+  "visibility": [],
+  "tasks": [
+    {
+      "at": 581.2000000001863,
+      "ms": 240
+    },
+    {
+      "at": 872.7000000001863,
+      "ms": 133
+    },
+    {
+      "at": 9062.700000000186,
+      "ms": 71
+    },
+    {
+      "at": 31088.399999999907,
+      "ms": 64
+    },
+    {
+      "at": 72677.1000000001,
+      "ms": 226
+    },
+    {
+      "at": 103987.30000000028,
+      "ms": 256
+    },
+    {
+      "at": 104413.3999999999,
+      "ms": 61
+    },
+    {
+      "at": 104477.30000000028,
+      "ms": 61
+    },
+    {
+      "at": 104673.20000000019,
+      "ms": 268
+    },
+    {
+      "at": 104943.6000000001,
+      "ms": 55
+    },
+    {
+      "at": 105931.5,
+      "ms": 378
+    },
+    {
+      "at": 106310.30000000028,
+      "ms": 835
+    },
+    {
+      "at": 107283.1000000001,
+      "ms": 65
+    },
+    {
+      "at": 107734.1000000001,
+      "ms": 56
+    },
+    {
+      "at": 144164.8999999999,
+      "ms": 808
+    },
+    {
+      "at": 145400.1000000001,
+      "ms": 78
+    },
+    {
+      "at": 145486.5,
+      "ms": 354
+    },
+    {
+      "at": 155591,
+      "ms": 71
+    },
+    {
+      "at": 163509.3999999999,
+      "ms": 51
+    }
+  ],
+  "resources": [
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "start": 70307,
+      "ms": 9486.399999999907,
+      "network": 300,
+      "status": 0,
+      "encoded": 0
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "start": 70307.5,
+      "ms": 2368.2000000001863,
+      "network": 406190,
+      "status": 200,
+      "encoded": 405890
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "start": 70307.80000000028,
+      "ms": 9509.69999999972,
+      "network": 300,
+      "status": 0,
+      "encoded": 0
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "start": 104310,
+      "ms": 362.39999999990687,
+      "network": 23867548,
+      "status": 200,
+      "encoded": 23867248
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "start": 104310.5,
+      "ms": 99.8000000002794,
+      "network": 922344,
+      "status": 200,
+      "encoded": 922044
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "start": 107145.8999999999,
+      "ms": 136.3000000002794,
+      "network": 11030504,
+      "status": 200,
+      "encoded": 11030204
+    },
+    {
+      "url": "/content/assets/drones/armattan-chameleon/thumbnail-18db4e5afc46b458.png",
+      "start": 109311.30000000028,
+      "ms": 14.299999999813735,
+      "network": 7760,
+      "status": 200,
+      "encoded": 7460
+    },
+    {
+      "url": "/content/assets/drones/armattan-gecko/thumbnail-bd595666b18ef47c.png",
+      "start": 109311.3999999999,
+      "ms": 14.900000000372529,
+      "network": 9501,
+      "status": 200,
+      "encoded": 9201
+    },
+    {
+      "url": "/content/assets/drones/dquad-addiction/thumbnail-ea0186cc6a4e8ec4.png",
+      "start": 109311.5,
+      "ms": 13.899999999906868,
+      "network": 8420,
+      "status": 200,
+      "encoded": 8120
+    },
+    {
+      "url": "/content/assets/drones/kestrel/thumbnail-602d58ee87e1b714.png",
+      "start": 109311.6000000001,
+      "ms": 18.799999999813735,
+      "network": 7456,
+      "status": 200,
+      "encoded": 7156
+    },
+    {
+      "url": "/content/assets/drones/luma-5/thumbnail-6098bac019b24ee7.png",
+      "start": 109311.70000000019,
+      "ms": 18.5,
+      "network": 8187,
+      "status": 200,
+      "encoded": 7887
+    },
+    {
+      "url": "/content/assets/maps/hangar-c03-demo/thumbnail-28b7f936f8211309.png",
+      "start": 135414.1000000001,
+      "ms": 12,
+      "network": 207852,
+      "status": 200,
+      "encoded": 207552
+    },
+    {
+      "url": "/content/assets/maps/liftoff-arena-demo/thumbnail-b6322ccf86a7fa75.png",
+      "start": 135414.5,
+      "ms": 14.200000000186265,
+      "network": 263307,
+      "status": 200,
+      "encoded": 263007
+    },
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/thumbnail-fb217f599e7d9d48.png",
+      "start": 135414.8999999999,
+      "ms": 14.700000000186265,
+      "network": 152093,
+      "status": 200,
+      "encoded": 151793
+    },
+    {
+      "url": "/content/assets/maps/liftoff-the-green-demo/thumbnail-6208126024749332.png",
+      "start": 135415.1000000001,
+      "ms": 13.299999999813735,
+      "network": 55565,
+      "status": 200,
+      "encoded": 55265
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/thumbnail-6de46fd92fc8c91e.jpg",
+      "start": 135415.6000000001,
+      "ms": 16.899999999906868,
+      "network": 66989,
+      "status": 200,
+      "encoded": 66689
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "start": 145188,
+      "ms": 179.89999999990687,
+      "network": 10517200,
+      "status": 200,
+      "encoded": 10516900
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "start": 145188.5,
+      "ms": 158.20000000018626,
+      "network": 10299548,
+      "status": 200,
+      "encoded": 10299248
+    },
+    {
+      "url": "/content/assets/drones/kestrel/source-f34a43818bab7bc0.json",
+      "start": 145188.7000000002,
+      "ms": 25.199999999720603,
+      "network": 1032,
+      "status": 200,
+      "encoded": 732
+    }
+  ],
+  "adaptiveResolution": true,
+  "firstFlightInputObserved": "Angle mode, pitch 15deg, 10km/h; not an FPS acceptance run"
+}

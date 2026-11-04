@@ -1,0 +1,45 @@
+{
+  "id": "orbital",
+  "name": "Orbit One",
+  "region": "Space Hangar",
+  "theme": "custom",
+  "seed": 741,
+  "description": "An experimental low-gravity arena above the atmosphere.",
+  "sky": "#0c1424",
+  "fog": "#1b2b40",
+  "ground": "#677b8f",
+  "sun": "#d2e9ff",
+  "sunPosition": [
+    30,
+    100,
+    60
+  ],
+  "cloudColor": "#8ba7b8",
+  "wind": [
+    0,
+    0,
+    0
+  ],
+  "gravity": 0.55,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "orbital",
+  "groundPlane": false,
+  "indoor": true,
+  "fogDensity": 0.0005,
+  "bounds": {
+    "min": [
+      -185,
+      -0.606,
+      -185
+    ],
+    "max": [
+      185,
+      43,
+      185
+    ]
+  }
+}

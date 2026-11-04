@@ -1,0 +1,138 @@
+{
+  "bundle": "91ae649189dc99ac2421ab1579d40caa.bundle",
+  "props": {
+    "m_Props": [
+      {
+        "m_Name": "_MainTex",
+        "m_Description": "Base (RGB)",
+        "m_Attributes": [
+          "LM_Albedo",
+          "LM_Transparency"
+        ],
+        "m_Type": 4,
+        "m_Flags": 0,
+        "m_DefValue[0]": 0.0,
+        "m_DefValue[1]": 0.0,
+        "m_DefValue[2]": 0.0,
+        "m_DefValue[3]": 0.0,
+        "m_DefTexture": {
+          "m_DefaultName": "white",
+          "m_TexDim": 2
+        }
+      },
+      {
+        "m_Name": "_Cutoff",
+        "m_Description": "Alpha cutoff",
+        "m_Attributes": [
+          "LM_TransparencyCutOff"
+        ],
+        "m_Type": 3,
+        "m_Flags": 0,
+        "m_DefValue[0]": 0.30000001192092896,
+        "m_DefValue[1]": 0.0,
+        "m_DefValue[2]": 1.0,
+        "m_DefValue[3]": 0.0,
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        }
+      },
+      {
+        "m_Name": "_BumpTransSpecMap",
+        "m_Description": "Normal (GA) Trans(R) Smoothness(B)",
+        "m_Attributes": [
+          "LM_Glossiness"
+        ],
+        "m_Type": 4,
+        "m_Flags": 0,
+        "m_DefValue[0]": 0.0,
+        "m_DefValue[1]": 0.0,
+        "m_DefValue[2]": 0.0,
+        "m_DefValue[3]": 0.0,
+        "m_DefTexture": {
+          "m_DefaultName": "bump",
+          "m_TexDim": 2
+        }
+      },
+      {
+        "m_Name": "_SpecularReflectivity",
+        "m_Description": "Specular Reflectivity",
+        "m_Attributes": [
+          "LM_Specular"
+        ],
+        "m_Type": 0,
+        "m_Flags": 0,
+        "m_DefValue[0]": 0.20000000298023224,
+        "m_DefValue[1]": 0.20000000298023224,
+        "m_DefValue[2]": 0.20000000298023224,
+        "m_DefValue[3]": 1.0,
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        }
+      },
+      {
+        "m_Name": "_TranslucencyColor",
+        "m_Description": "Translucency Color",
+        "m_Attributes": [],
+        "m_Type": 0,
+        "m_Flags": 0,
+        "m_DefValue[0]": 0.7300000190734863,
+        "m_DefValue[1]": 0.8500000238418579,
+        "m_DefValue[2]": 0.4099999964237213,
+        "m_DefValue[3]": 1.0,
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        }
+      },
+      {
+        "m_Name": "_TranslucencyViewDependency",
+        "m_Description": "Translucency View Dependency",
+        "m_Attributes": [],
+        "m_Type": 3,
+        "m_Flags": 0,
+        "m_DefValue[0]": 0.5,
+        "m_DefValue[1]": 0.0,
+        "m_DefValue[2]": 1.0,
+        "m_DefValue[3]": 0.0,
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        }
+      },
+      {
+        "m_Name": "_LeafTurbulence",
+        "m_Description": "Leaf Turbulence",
+        "m_Attributes": [],
+        "m_Type": 3,
+        "m_Flags": 0,
+        "m_DefValue[0]": 0.5,
+        "m_DefValue[1]": 0.0,
+        "m_DefValue[2]": 1.0,
+        "m_DefValue[3]": 0.0,
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        }
+      },
+      {
+        "m_Name": "_BendingControls",
+        "m_Description": "Bending Parameters",
+        "m_Attributes": [
+          "KeywordEnum(Vertex Colors, Vertex Colors And UV4)"
+        ],
+        "m_Type": 2,
+        "m_Flags": 0,
+        "m_DefValue[0]": 0.0,
+        "m_DefValue[1]": 0.0,
+        "m_DefValue[2]": 0.0,
+        "m_DefValue[3]": 0.0,
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        }
+      }
+    ]
+  }
+}

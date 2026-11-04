@@ -1,0 +1,14 @@
+[
+  {
+    "name": "hangar",
+    "triangles": 37988
+  },
+  {
+    "name": "low",
+    "triangles": 10987
+  },
+  {
+    "name": "far",
+    "triangles": 2580
+  }
+]

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 220">
+  <rect width="780" height="220" rx="24" fill="#182330"/>
+  <g transform="translate(34 50) scale(1.5)" fill="none">
+    <path d="M12 17h17L40 45 51 17h17L40 69Z" fill="#ffae70"/>
+    <path d="m12 17 28 12 28-12M40 29v16" stroke="#182330" stroke-width="3"/>
+    <path d="m6 43 11 9m57-9-11 9" stroke="#78d8df" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="183" y="132" fill="#edf2f6" font-family="Arial,sans-serif" font-size="79" font-weight="700" letter-spacing="9">VECTOR</text>
+  <text x="189" y="169" fill="#78d8df" font-family="Arial,sans-serif" font-size="16" letter-spacing="5">FPV FLIGHT SIMULATOR</text>
+</svg>

@@ -1,0 +1,66 @@
+[
+  {
+    "path": "evidence/public-hangar-background.png",
+    "bytes": 1218889,
+    "width": 1920,
+    "height": 1080,
+    "hasAlpha": false,
+    "sha256": "946781fccc9951c42e75651bd4ee399e20d874e203c11ceb349240c9cb8175f9"
+  },
+  {
+    "path": "evidence/public-hangar-ui.png",
+    "bytes": 1203063,
+    "width": 1920,
+    "height": 1080,
+    "hasAlpha": false,
+    "sha256": "04231fc70e0091859a25fb9580119758ac54efe1eced448ccf12c9afaa1461cd"
+  },
+  {
+    "path": "generated/01.png",
+    "bytes": 629665,
+    "width": 1672,
+    "height": 941,
+    "hasAlpha": true,
+    "sha256": "c466ac93af2e74048c9b735e3624bd92c2a81bd7d5e9ed7dbbcf3e9e9ac8a94d"
+  },
+  {
+    "path": "generated/02.png",
+    "bytes": 609164,
+    "width": 1672,
+    "height": 941,
+    "hasAlpha": true,
+    "sha256": "5fd46c10ee58cf4fef30084a57cd6ab392ebcb4d76fe527553bbdb26960754fb"
+  },
+  {
+    "path": "generated/03.png",
+    "bytes": 567219,
+    "width": 1672,
+    "height": 941,
+    "hasAlpha": true,
+    "sha256": "53e0299e8d93545baabb287e607b5948b958d9cc055675db3e43403a5672b7b3"
+  },
+  {
+    "path": "previews/01.png",
+    "bytes": 1384896,
+    "width": 1920,
+    "height": 1080,
+    "hasAlpha": false,
+    "sha256": "e72f80b3a7bb83cef3d079dc2d0c50915497e3771c30102ef8abe7cd232e1486"
+  },
+  {
+    "path": "previews/02.png",
+    "bytes": 1426058,
+    "width": 1920,
+    "height": 1080,
+    "hasAlpha": false,
+    "sha256": "f4b8035aa7557d44340e927d301eb1adc3e7d36132a4e508303f04ce665a1480"
+  },
+  {
+    "path": "previews/03.png",
+    "bytes": 1446448,
+    "width": 1920,
+    "height": 1080,
+    "hasAlpha": false,
+    "sha256": "35a46bfdb5f171da6cec7e874ab11cb11215127f9cba79be062fe03df498a90d"
+  }
+]

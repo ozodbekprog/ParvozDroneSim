@@ -1,0 +1,29 @@
+{
+  "id": "lf-dquad-addiction-frame01",
+  "category": "frame",
+  "name": "Dquad Addiction frame",
+  "sourcePartId": "DquadAddictionFrame01",
+  "sourceSpecs": {
+    "weight": 0.096,
+    "batteryAtBottom": 1,
+    "maxPropellerSize": 5,
+    "hasDragOverride": 0,
+    "dragOverrideValue": 0.82
+  },
+  "physicalSize": [
+    0.15615021729622366,
+    0.025,
+    0.15615021729622366
+  ],
+  "compatibleDrones": [
+    "dquad-addiction"
+  ],
+  "mass": 0,
+  "thrust": 1,
+  "response": 1,
+  "drag": 1,
+  "duration": 1,
+  "durability": 1,
+  "cost": 0,
+  "materials": []
+}

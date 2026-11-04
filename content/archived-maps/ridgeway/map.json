@@ -1,0 +1,414 @@
+{
+  "id": "ridgeway",
+  "name": "Ridgeway Pass",
+  "region": "Highland Service Road",
+  "theme": "custom",
+  "sky": "#9bc2d4",
+  "fog": "#a9bdc3",
+  "ground": "#727d65",
+  "sun": "#ffedc3",
+  "sunPosition": [
+    60,
+    75,
+    -30
+  ],
+  "wind": [
+    1.2,
+    0,
+    0.6
+  ],
+  "description": "A switchback course over a mountain service road, with a bridge, shelter and ridgeline pylons.",
+  "seed": 800,
+  "cloudColor": "#a9bdc3",
+  "gravity": 1,
+  "model": "model.glb",
+  "colliders": [],
+  "objects": [],
+  "collisionFile": "collision.json",
+  "environment": "ridgeway",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.54,
+      -440
+    ],
+    "max": [
+      440,
+      33.75,
+      440
+    ]
+  },
+  "tracks": [
+    {
+      "id": "ridgeway-bridge-run",
+      "name": "Ridgeway Bridge Run",
+      "laps": 1,
+      "spawn": {
+        "position": [
+          -93.980003,
+          5.4,
+          -37.360001
+        ],
+        "yaw": 2.8023
+      },
+      "gates": [
+        {
+          "position": [
+            -86,
+            5.4,
+            -60
+          ],
+          "yaw": 2.8023,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -14,
+            6.75,
+            -34
+          ],
+          "yaw": 1.292497,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            40,
+            6.75,
+            -24
+          ],
+          "yaw": 1.161359,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            92,
+            6.75,
+            12
+          ],
+          "yaw": 0.023805,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            42,
+            5.4,
+            60
+          ],
+          "yaw": -1.195156,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -50,
+            5.4,
+            68
+          ],
+          "yaw": -2.323948,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ridgeway-switchback",
+      "name": "Ridgeway Switchback",
+      "laps": 2,
+      "spawn": {
+        "position": [
+          -119.400002,
+          5.4,
+          -45.599998
+        ],
+        "yaw": 2.44485
+      },
+      "gates": [
+        {
+          "position": [
+            -104,
+            5.4,
+            -64
+          ],
+          "yaw": 2.44485,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -26,
+            6.75,
+            -70
+          ],
+          "yaw": 1.486658,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            62,
+            8.1,
+            -50
+          ],
+          "yaw": 1.084554,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            114,
+            6.75,
+            4
+          ],
+          "yaw": -0.054491,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            56,
+            6.75,
+            60
+          ],
+          "yaw": -1.134169,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -36,
+            5.4,
+            74
+          ],
+          "yaw": -1.763497,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -108,
+            5.4,
+            28
+          ],
+          "yaw": -2.683759,
+          "width": 9,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    }
+  ],
+  "bundledChallenges": [
+    {
+      "id": "ridgeway-bridge-precision",
+      "name": "Bridge Precision",
+      "map": "ridgeway",
+      "track": "ridgeway-bridge-run",
+      "target": 219,
+      "reward": 230,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Follow the pale service road to the next bend."
+        },
+        {
+          "afterGate": 2,
+          "text": "Use the bridge and shelter as turn markers; keep room from the pylons."
+        },
+        {
+          "afterGate": 4,
+          "text": "On the return leg, set up wide before the downhill gate."
+        }
+      ]
+    },
+    {
+      "id": "ridgeway-first-ascent",
+      "name": "First Ascent",
+      "map": "ridgeway",
+      "track": "ridgeway-switchback",
+      "target": 438,
+      "reward": 180,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Follow the pale service road to the next bend."
+        },
+        {
+          "afterGate": 2,
+          "text": "Use the bridge and shelter as turn markers; keep room from the pylons."
+        },
+        {
+          "afterGate": 4,
+          "text": "On the return leg, set up wide before the downhill gate."
+        }
+      ]
+    },
+    {
+      "id": "ridgeway-return-line",
+      "name": "Return Line",
+      "map": "ridgeway",
+      "track": "ridgeway-bridge-run",
+      "target": 184,
+      "reward": 350,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Follow the pale service road to the next bend."
+        },
+        {
+          "afterGate": 2,
+          "text": "Use the bridge and shelter as turn markers; keep room from the pylons."
+        },
+        {
+          "afterGate": 4,
+          "text": "On the return leg, set up wide before the downhill gate."
+        }
+      ]
+    },
+    {
+      "id": "ridgeway-summit-shift",
+      "name": "Summit Shift",
+      "map": "ridgeway",
+      "track": "ridgeway-switchback",
+      "target": 341,
+      "reward": 300,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Follow the pale service road to the next bend."
+        },
+        {
+          "afterGate": 2,
+          "text": "Use the bridge and shelter as turn markers; keep room from the pylons."
+        },
+        {
+          "afterGate": 4,
+          "text": "On the return leg, set up wide before the downhill gate."
+        }
+      ]
+    }
+  ],
+  "bundledTutorials": [
+    {
+      "id": "ridgeway-road-reading",
+      "name": "Reading the Road",
+      "map": "ridgeway",
+      "track": "ridgeway-bridge-run",
+      "steps": [
+        {
+          "text": "Use the pale switchback road as a guide and leave space around the pylons. Select NEXT STEP when ready.",
+          "objective": "manual",
+          "target": 0,
+          "duration": 0
+        },
+        {
+          "text": "Fly through the first gate in its forward direction.",
+          "objective": "gate",
+          "target": 0,
+          "duration": 0
+        },
+        {
+          "text": "Keep the landmark in view and pass the second gate.",
+          "objective": "gate",
+          "target": 1,
+          "duration": 0
+        },
+        {
+          "text": "Continue to the third gate and stabilize.",
+          "objective": "gate",
+          "target": 2,
+          "duration": 0
+        },
+        {
+          "text": "Reduce speed and land clear of structures.",
+          "objective": "land",
+          "target": 0,
+          "duration": 2
+        }
+      ]
+    }
+  ]
+}

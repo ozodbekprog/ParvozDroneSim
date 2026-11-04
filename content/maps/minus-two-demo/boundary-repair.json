@@ -1,0 +1,96 @@
+{
+  "map": "minus-two-demo",
+  "policy": "Only source LevelWalls collision is retired. Physical scenery remains solid.",
+  "before": 1449,
+  "after": 1445,
+  "removed": [
+    {
+      "source": "14756",
+      "path": "LevelWalls/LevelWall",
+      "index": 309,
+      "shape": {
+        "position": [
+          126,
+          0,
+          0
+        ],
+        "size": [
+          299.9999735373365,
+          50,
+          0.9999999117911215
+        ],
+        "rotation": [
+          0,
+          -1.570796277373336,
+          0
+        ]
+      }
+    },
+    {
+      "source": "14983",
+      "path": "LevelWalls/LevelWall (3)",
+      "index": 510,
+      "shape": {
+        "position": [
+          31.500202,
+          0,
+          58.6
+        ],
+        "size": [
+          299.99994000072957,
+          50,
+          1.0000000000024318
+        ],
+        "rotation": [
+          -3.141592653589793,
+          -0.0000022053715999964247,
+          -3.141592653589793
+        ]
+      }
+    },
+    {
+      "source": "15071",
+      "path": "LevelWalls/LevelWall (2)",
+      "index": 589,
+      "shape": {
+        "position": [
+          31.499792,
+          0,
+          -105.8
+        ],
+        "size": [
+          299.99988000072955,
+          50,
+          1.0000000000024318
+        ],
+        "rotation": [
+          -3.141592653589793,
+          -0.0000022053715999964247,
+          -3.141592653589793
+        ]
+      }
+    },
+    {
+      "source": "15379",
+      "path": "LevelWalls/LevelWall (1)",
+      "index": 857,
+      "shape": {
+        "position": [
+          -63,
+          0,
+          0
+        ],
+        "size": [
+          299.99991353734174,
+          50,
+          0.9999999117911215
+        ],
+        "rotation": [
+          0,
+          -1.57079627517576,
+          0
+        ]
+      }
+    }
+  ]
+}

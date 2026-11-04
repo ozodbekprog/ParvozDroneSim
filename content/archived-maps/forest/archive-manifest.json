@@ -1,0 +1,136 @@
+{
+  "id": "forest",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "380b398d38ad8b1cd8b0fbdff86177f8b2a4d630b168cbe6eb239f4cc5540556"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "09781d0df31ecf58fb051fd3eff36a758f9a9228b4fca9b8de00e9363e7c7dbd"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "865fd35577de46536b7cd2495275b9a509d1d621cc83488125d104ff415b33e2"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "4f26595bfae79194e3b36fb5996e05dfb362cc2811edd99e1488c4121f62cb7b"
+    },
+    {
+      "file": "map.json",
+      "sha256": "3aaa0770b75f647fd94cf2575f3ea485d775cbc57afcb69741a98d76d24ecdee"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "d0b2044219540ffde4fa5f345ed86dd7f2eeecc5171a0fcbd1268ce3b2820918"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-forest-color.png",
+      "sha256": "09fb7a1e5491b6420dc16b661c62dc2b899b620e12036e1cba836097f19ba226"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-forest-normal.png",
+      "sha256": "50692bdcdcb5722eb650b6d8f5f832c04ccf46efa7bee5ac0a62901844b2f632"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-forest-color.png",
+      "sha256": "f914d2ebd4c27b66793a179dd082bf8e827086faa51c0de83ffbda1cfd9de168"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-forest-normal.png",
+      "sha256": "5139f15e6437d6e9d7fd1bf6ab34d61e637361998e83efd6e01e25527999b209"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-timber-forest-color.png",
+      "sha256": "c791e1b83c46155c9fa041b123b2292f721585ba5217989eb90521a3cde2b160"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-timber-forest-normal.png",
+      "sha256": "67d3de36343384f18e9bfa1290929deeaf88496ab66087d54248505a15e1951f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-brushed-steel-color.png",
+      "sha256": "4283961066162ce301ef0576f753ca88a3992646821880150becdf5bdbb8417a"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-brushed-steel-normal.png",
+      "sha256": "d351fafd80ffc46e969dfd7db716e14109bac60201a2cf1a90f8c88d3cad344e"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-cut-timber-color.png",
+      "sha256": "c78a5e44c84459bcb26f1d55cef4bcd7271c7dec8aa327ec7595130186ce5dec"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-cut-timber-normal.png",
+      "sha256": "82eaa88b4a82b03c42b325631fa023a92eb92a8b2c993ec29b9e1e7ee27d9bcb"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-natural-stone-color.png",
+      "sha256": "2d50a82e4c18f062b18566341dd3e2006f95f8da2776e1006e5e857d9c6a08f3"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-natural-stone-normal.png",
+      "sha256": "d8cf280259e503f0cb17ecbb2a30a22d17454408ee1af821cd7c1bdf92b3b1a7"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-pale-stone-stratum-color.png",
+      "sha256": "423306b4dc52d9eba111932d8e9f9491331191a29f022a6b6f955676b33f2062"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-pale-stone-stratum-normal.png",
+      "sha256": "65d77c73b7a9c7658110cbdcc8a8263d48535fef33600b7330855388f62c68e0"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-rubber-and-asphalt-color.png",
+      "sha256": "f43f64521a1a251dbb8db36ee6edc9c052288d45f5153ab0e2542e268a9f2f22"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-rubber-and-asphalt-normal.png",
+      "sha256": "e7c42caf33cfefe9f6129bf06854c4db8f8870011efe000d8e22d973f0896eb0"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-sandstone-stratum-color.png",
+      "sha256": "752f55c95be386bd00f19b16406b6398cc41eb2e803e872c26fbf9d7fbd4168e"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-sandstone-stratum-normal.png",
+      "sha256": "e901c333beb6da6d090e107882d357d91c25ca8957c3fb2532ae7e6dc863a437"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-timber-color.png",
+      "sha256": "ee7114c1858b64aef0d0fbe7bd9b94254468607acc50769b15efdefd8b42902c"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-timber-normal.png",
+      "sha256": "06d8053c8d4b16e0b81c0ee6e4f20d0aebf1c553247219031693833897cf7b83"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-warm-plaster-color.png",
+      "sha256": "6bedd7e9857e8646106c4152f2a15a6483f7e2abe7b777c0e32ea3b910e27cef"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-forest-warm-plaster-normal.png",
+      "sha256": "1b3502abe8f52a2fe18af3d14c8858be1104f20eff96d31853faf4adb8fee20d"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "58e8822e11d27bae0ba9555059ac35a5224cf3664dd8f01fbbceae5bec2ab232"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "184411d2a4f54b45994a90f16f55ed3c199d9210271a15dcb8c299ce5c416278"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "forest-thread"
+    ],
+    "challenges": [
+      "threader"
+    ],
+    "tutorials": []
+  },
+  "restore": "Copy this entire folder to content/maps/forest, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

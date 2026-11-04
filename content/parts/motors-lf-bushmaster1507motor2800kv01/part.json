@@ -1,0 +1,146 @@
+{
+  "id": "lf-bushmaster1507motor2800kv01",
+  "category": "motors",
+  "name": "Bushmaster 1507 · 2800KV",
+  "sourcePartId": "Bushmaster1507motor2800KV01",
+  "sourceSpecs": {
+    "weight": 0.016,
+    "size": 1507,
+    "diameter": 15,
+    "StatorLength": 7,
+    "velocityConstant": 2800,
+    "maxPower": 150,
+    "maxBatteryCells": 6,
+    "noLoadI": 0.5,
+    "noLoadV": 10,
+    "internalResistance": 0.2,
+    "invertedDirection": 0
+  },
+  "physicalSize": [
+    0.024199996143579483,
+    0.03137167467502877,
+    0.024199996143579483
+  ],
+  "mass": 0,
+  "thrust": 1,
+  "response": 1,
+  "drag": 1,
+  "duration": 1,
+  "durability": 1,
+  "cost": 0,
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": [],
+  "compatibleDrones": [
+    "armattan-gecko"
+  ],
+  "model": "../../shared-assets/liftoff-drone-parts/hangar-delivery.glb",
+  "modelNode": "Part_Bushmaster1507motor2800KV01",
+  "modelLods": [
+    {
+      "model": "../../shared-assets/liftoff-drone-parts/hangar-delivery.glb",
+      "distance": 0,
+      "modelNode": "Part_Bushmaster1507motor2800KV01"
+    },
+    {
+      "model": "../../shared-assets/liftoff-drone-parts/low-delivery.glb",
+      "distance": 12,
+      "modelNode": "Part_Bushmaster1507motor2800KV01"
+    },
+    {
+      "model": "../../shared-assets/liftoff-drone-parts/far-delivery.glb",
+      "distance": 40,
+      "modelNode": "Part_Bushmaster1507motor2800KV01"
+    }
+  ],
+  "lowLod": 1,
+  "mountMatrixByDrone": {
+    "luma-5": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "armattan-chameleon": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "armattan-gecko": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "dquad-addiction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "propellerMountMatrixByBuild": {},
+  "assetLicense": "Proprietary game content; redistribution permission unconfirmed",
+  "assetCredit": "LuGus Studios and original credited drone manufacturers",
+  "assetSource": "https://www.liftoff-game.com/",
+  "attributionFile": "../../shared-assets/liftoff-drone-parts/SOURCE.json",
+  "localOnly": true
+}

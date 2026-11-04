@@ -1,0 +1,16 @@
+{
+  "description": "Browser-based FPV drone simulator with flight lessons, racing, multiplayer and a tuning workshop. Uzbek, Russian and English.",
+  "homepage": "https://parvoz-drone-sim.duckdns.org/",
+  "topics": [
+    "fpv",
+    "drone-simulator",
+    "flight-simulator",
+    "browser-game",
+    "threejs",
+    "webgpu",
+    "webgl2",
+    "multiplayer",
+    "javascript",
+    "uzbekistan"
+  ]
+}

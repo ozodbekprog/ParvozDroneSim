@@ -1,0 +1,128 @@
+{
+  "id": "orbital",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "0ce1484485ab6e20f659dbdf5321640295cfd710b9fba3a054c7326ab024fbe7"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "06eb5b47807c2eed58c4ff3e44b575935bda48d392a62bc16f8a58e26f35b9e4"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "9908eedfa3b961295e926386f23c6e4ca7ec59c37d95ea138877e2ebd4589683"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "ce2d2c5870acdeb184b8f14a6db7f87b841b6269142a9441ab4c520c0b214b9b"
+    },
+    {
+      "file": "map.json",
+      "sha256": "77ab2574861547cb2da3f233cf7b21095080618c9332b1ff2281f21ddf57f0da"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "845f4e36568b8bd826f2c333b2614c3e03879692d0ac65bdeacd12ecfe5b98ec"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-orbital-color.png",
+      "sha256": "564094c87ed041000bc4e75a992846066cf891f5a51c7c826178dda6cdac1a8c"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-orbital-normal.png",
+      "sha256": "bd3f056a9152f8735ce963c2966ffda63285c57e51330be09ce87a13b0aa55a1"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-orbital-color.png",
+      "sha256": "171524440695db52a5c79391d076c5c03832e16dec2ecd5efbb84199fd5363af"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-orbital-normal.png",
+      "sha256": "c622ae01667f2931abce8389ff74a139ab52c5bcf997146de07e2033dc508162"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-brushed-steel-color.png",
+      "sha256": "170c28e455d3bdc7a9a874b53af15103efdc99cf9a8c6e394e63b674a32c9324"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-brushed-steel-normal.png",
+      "sha256": "317caeddf2d3cbc7b4cb083fba8b92badbeda343d11d90797ec756e310df7fee"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-cut-timber-color.png",
+      "sha256": "cf951bdf4fb8d8077473f10f31542bc3d71643171bb46efee986d703125c1faa"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-cut-timber-normal.png",
+      "sha256": "98ccc5f595fb37af6316939f78a513b08f3b79a939e03b32898f26e464bd2099"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-natural-stone-color.png",
+      "sha256": "e093e5047ccdf0aa99acb35efdfa2a6de1512a99deac6f09f2d52a4d91cead3f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-natural-stone-normal.png",
+      "sha256": "d432199dd1503cc2461a2f0ff46083032aae2f28bf46fea41c4110cd86122edd"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-pale-stone-stratum-color.png",
+      "sha256": "b0545a922e47ea6e3ea263cf2797e30ea2e7bb26e297f3b3b794792584bb0e86"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-pale-stone-stratum-normal.png",
+      "sha256": "350f554b7ab1fa990dc46712a6ba4d052755a53a218e9253b6b2e1d761f87418"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-rubber-and-asphalt-color.png",
+      "sha256": "5caa2c7919d104ff99d9316dcebffa6a4df19c200a758a68788724fb987ba5c9"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-rubber-and-asphalt-normal.png",
+      "sha256": "b40ef65e6d3991678b44ab1c49b4678537403c1fcba5f589a5e813de2ce3b056"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-sandstone-stratum-color.png",
+      "sha256": "e043a4e03550d845059529c55b75ce1821cb29b0ff178d1cd71702a773e93ed1"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-sandstone-stratum-normal.png",
+      "sha256": "0a4dafefd7718053d5e59b55a7e0ebd38e9b7d11f8bd806946159859215d4573"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-timber-color.png",
+      "sha256": "54489611dd94db401d26a704d98e152418057427435d48575fc76c99c781ee80"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-timber-normal.png",
+      "sha256": "ed1afdc729d813a4a44ef589c6271c3bd1b72abd5a04081848053d497846e32d"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-warm-plaster-color.png",
+      "sha256": "ab9d706c0815c8cde31987df122553d453db6fdbf9c5b8d8985a6903c66516b7"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-orbital-warm-plaster-normal.png",
+      "sha256": "27fa5a84221070685c33b6e19987113eba9f22f2d0305af957ea722142995e43"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "55f2197173b85fc92033355ba57f9946039e456bb4ea77ff5ecbbe7e5ac77d92"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "84dde82c106333b977471a5c6660b28738afab5f88d3dcf66358b14cd9cfb0e2"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "orbital-arc"
+    ],
+    "challenges": [
+      "astronaut"
+    ],
+    "tutorials": []
+  },
+  "restore": "Copy this entire folder to content/maps/orbital, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

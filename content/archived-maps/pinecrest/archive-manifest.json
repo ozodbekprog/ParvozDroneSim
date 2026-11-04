@@ -1,0 +1,142 @@
+{
+  "id": "pinecrest",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "22b8a0b0b1c9d0c2befd42aa1a56fa336bd5ecaa74d6c43855ce6bab7315b7fd"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "77702d7ad27c1e45b83ee3e63242a705f7b0360ef4034da8988d9051f5efbfb8"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "6f39b341bc32af1f267be8fee0684dcdabb3cb135ec6ee6c47c59efc739a1ced"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "f01b75fe4807e6779a58e7f184e50d30ff3df4557d34ab25da720f3703e3e547"
+    },
+    {
+      "file": "map.json",
+      "sha256": "136bc7a7c93e78bced4781f829065eae06695fd5c5fda6baddb52fa6862b26b2"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "1f3071c48f13ab5a419280eb869b2208604740b60ed635a0d47104fde0a9fbc3"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-pinecrest-color.png",
+      "sha256": "2cdac50fffd3f94ad587bca8435d896cab9fec981b95c551f2f3b843f887f225"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-pinecrest-normal.png",
+      "sha256": "5ccba05b0662e53aabc14645b8854671466662a13631e3ffdb7d704d28352eff"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-pinecrest-color.png",
+      "sha256": "688bd8cb1d929528fb017d789127d5adca52eedc5bfb29a5c5a6d067ccaccf41"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-pinecrest-normal.png",
+      "sha256": "41ca3af8d684b0f3a732e7149130b916f38afcb6f98559837f61e7c2a3ca4bfc"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-timber-pinecrest-color.png",
+      "sha256": "98ffc46152776c389975e7502f89af86a87b492083a0d7e30319a48604c0595f"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-timber-pinecrest-normal.png",
+      "sha256": "f78e5fdc3a243d9018d8736819b7db9da7bbf445d7898f9df067fbe64f80bbb4"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-brushed-steel-color.png",
+      "sha256": "4b31eb260ee694b49d87ef4a5ead1c90bb466cc8c0fdd000d7e59f640e26857a"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-brushed-steel-normal.png",
+      "sha256": "f729f7a1d033c91eaa12a03c4eab1f0057ee62a5d6a2fc83df7ea4ed10186b0f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-cut-timber-color.png",
+      "sha256": "f429c83cff7f5f143cc7426545456f1a616495ea1730637111b3675a78e4c6c8"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-cut-timber-normal.png",
+      "sha256": "f6fb0858f1f4a8b205c642d51bd1b01c8c1d51b579f3cad3fb648aba953edf2d"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-natural-stone-color.png",
+      "sha256": "c620bfb4a06f0fb35107b106c08445098fd923cb33dab50b6e6ce9e2afcb0166"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-natural-stone-normal.png",
+      "sha256": "f8b43712af0c4c2374c0fa7d809e785890426f3c4cdcc3e133d26c808c3464f0"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-pale-stone-stratum-color.png",
+      "sha256": "c544f8638e955c8de52a623c31bd71057b35c24c9e21e1d92d1a68eafaf72bc3"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-pale-stone-stratum-normal.png",
+      "sha256": "e0233694a6951bfae5120872ffc927f0c934e8623b0fcb64161394e6a0fd917e"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-rubber-and-asphalt-color.png",
+      "sha256": "18f20f840ed17bbc9ecb1d7167244d246d6369bebc7ef96bc76ac859e5fb4525"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-rubber-and-asphalt-normal.png",
+      "sha256": "8dc9d876d91e1dde65b4324b2a5b73e3fdbdb5f04add7ddd3ee8fc5d80faec28"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-sandstone-stratum-color.png",
+      "sha256": "5eacafb274f0ce0773ab3024e8a3b0a7bf08a9596db28fb907d987dbbf5491e8"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-sandstone-stratum-normal.png",
+      "sha256": "15cbb99d749340885ecc016a5d053ee4e4ab5031e22b87b4db531d58ed07407b"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-timber-color.png",
+      "sha256": "c5bb819f43710b1ace9301129b18625f88c9ed7383e02ab34c67b6b23ec74ac7"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-timber-normal.png",
+      "sha256": "288b3571f61964e111359e1e17c47063176a595def340c22f78119924f544c98"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-warm-plaster-color.png",
+      "sha256": "f671171d7634a8199c7c4069caafe08a9db746aec0ea2f53e9e1d6c4427b99a4"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-pinecrest-warm-plaster-normal.png",
+      "sha256": "f42395e7146c56fd77e80652d5124b42626f4f745bbe1bc496572f99ce139570"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "58e8822e11d27bae0ba9555059ac35a5224cf3664dd8f01fbbceae5bec2ab232"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "80481dd4fa1a137b1965f946e657c3677417cd9b2016282f836b5ec423adb537"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "pinecrest-canopy-loop",
+      "pinecrest-creek-run"
+    ],
+    "challenges": [
+      "pinecrest-creek-crossing",
+      "pinecrest-forest-sprint",
+      "pinecrest-lookout-line",
+      "pinecrest-ranger-patrol"
+    ],
+    "tutorials": [
+      "pinecrest-landmark-flight"
+    ]
+  },
+  "restore": "Copy this entire folder to content/maps/pinecrest, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

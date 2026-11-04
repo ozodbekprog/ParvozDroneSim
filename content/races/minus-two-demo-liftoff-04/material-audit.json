@@ -1,0 +1,190 @@
+{
+  "map": "minus-two-demo",
+  "model": "content/races/minus-two-demo-liftoff-04/props.glb",
+  "checked": 14,
+  "failures": [],
+  "materials": [
+    {
+      "name": "AdvertBoardBattery01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "AdvertBoardFrame01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ASLLightsGreen01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "CrowdControlBarrier01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "FlagCrowdControlBarrierConrad01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "AdvertBoardRepair01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ASLLightsPurple01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "LEDCubeRed01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "AirgateBig240H300B01luGusStudios01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": true,
+      "occlusion": true,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "AirgatePlasticFeet01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ASLLightsBlue01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "LEDCubeBlue01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": true,
+      "roughness": false,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "SpawnPoint01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": false,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    },
+    {
+      "name": "ASLLightsRed01",
+      "shader": "Standard",
+      "adapter": "PBR",
+      "sourceMode": 0,
+      "alpha": 1,
+      "normal": false,
+      "roughness": true,
+      "occlusion": false,
+      "unsupported": [],
+      "errors": []
+    }
+  ],
+  "excludedShaderMaterials": [
+    {
+      "name": "TriggerCheckpoint01",
+      "shader": "Project/TriggerBoxNew"
+    },
+    {
+      "name": "TriggerRechargeBattery01",
+      "shader": "Project/TriggerBoxNew"
+    },
+    {
+      "name": "TriggerRepairPropellers01",
+      "shader": "Project/TriggerBoxNew"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "phases": [
+    {
+      "name": "Map download, parse, assembly and collisions",
+      "ms": 9236.599999999627,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Aircraft download, parse and assembly",
+      "ms": 1164.2999999988824,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Surface and reflection preparation",
+      "ms": 55.399999998509884,
+      "renderMs": 0,
+      "projectMs": 0,
+      "submitMs": 0,
+      "draws": 1,
+      "triangles": 1
+    },
+    {
+      "name": "Geometry shader compilation",
+      "ms": 6141.199999999255,
+      "renderMs": 0,
+      "projectMs": 383.40000000037253,
+      "submitMs": 5630.4000000003725,
+      "draws": 0,
+      "triangles": 0
+    },
+    {
+      "name": "First rendered frame and post effects",
+      "ms": 274.2999999988824,
+      "renderMs": 273.19999999925494,
+      "projectMs": 1.599999999627471,
+      "submitMs": 267.7000000011176,
+      "draws": 352,
+      "triangles": 5028148
+    },
+    {
+      "name": "First frame pipeline detail",
+      "pipelines": 1,
+      "pipelineMs": 230,
+      "objects": 368,
+      "top": [
+        {
+          "name": "",
+          "material": "Renderer_output",
+          "ms": 233.40000000037253
+        },
+        {
+          "name": "Scenery batch 166",
+          "material": "Branches_0.022",
+          "ms": 1
+        },
+        {
+          "name": "",
+          "material": "",
+          "ms": 0.8000000007450581
+        },
+        {
+          "name": "Runtime_OSB10001002",
+          "material": "OSB10001",
+          "ms": 0.8000000007450581
+        },
+        {
+          "name": "Scenery batch 270",
+          "material": "Ironworks distance baked color",
+          "ms": 0.6999999992549419
+        },
+        {
+          "name": "Far_working_Runtime_GlassDirty01",
+          "material": "GlassDirty01",
+          "ms": 0.5
+        },
+        {
+          "name": "Scenery batch 326",
+          "material": "Leaves_0.001",
+          "ms": 0.40000000037252903
+        },
+        {
+          "name": "Scenery batch 256",
+          "material": "Optimized Leaf Material.001",
+          "ms": 0.30000000074505806
+        },
+        {
+          "name": "Scenery batch 200",
+          "material": "Branches_0.016",
+          "ms": 0.30000000074505806
+        },
+        {
+          "name": "Runtime_NoticeBoardFrame01002",
+          "material": "NoticeBoardFrame01",
+          "ms": 0.30000000074505806
+        },
+        {
+          "name": "Runtime_AirgateLiftoffFinishWhite01003",
+          "material": "AirgateLiftoffFinishWhite01",
+          "ms": 0.30000000074505806
+        },
+        {
+          "name": "Scenery batch 282",
+          "material": "VegetationFern01_AFS",
+          "ms": 0.30000000074505806
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "memoryGB": 16,
+    "mobile": false
+  },
+  "quality": "low",
+  "surface": {
+    "normalMaps": false,
+    "textureSize": 256
+  },
+  "batches": {
+    "meshes": 22292,
+    "batches": 481,
+    "ms": 1157.4000000003725
+  },
+  "cache": {
+    "idleBytes": 0,
+    "maxIdleBytes": 100663296,
+    "idleEntries": 0,
+    "entries": 5
+  },
+  "models": [
+    {
+      "url": "/content/assets/maps/liftoff-pine-valley-demo/model-86db6d5ba657a81a.glb",
+      "parses": 1,
+      "cacheHits": 3324,
+      "readMs": 3235.5,
+      "parseMs": 4242.799999998882,
+      "lookupMs": 9.000000005587935,
+      "cloneMs": 410.79999999143183,
+      "clones": 3325
+    },
+    {
+      "url": "/content/assets/races/liftoff-pine-valley-demo-liftoff-01/props-3cb6b41363fd48f8.glb",
+      "parses": 1,
+      "cacheHits": 71,
+      "readMs": 34.79999999888241,
+      "parseMs": 3160.60000000149,
+      "lookupMs": 0.4000000022351742,
+      "cloneMs": 3.699999999254942,
+      "clones": 72
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 134.19999999925494,
+      "parseMs": 883.0999999996275,
+      "lookupMs": 0.09999999962747097,
+      "cloneMs": 2.2999999932944775,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/low-fd0d6a46d56f1335.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 63,
+      "parseMs": 423,
+      "lookupMs": 0.09999999962747097,
+      "cloneMs": 2.8000000044703484,
+      "clones": 34
+    },
+    {
+      "url": "/content/assets/drones/kestrel/far-dc40f92fdcd5ae59.glb",
+      "parses": 1,
+      "cacheHits": 33,
+      "readMs": 102.80000000074506,
+      "parseMs": 614,
+      "lookupMs": 0.09999999962747097,
+      "cloneMs": 136.40000000223517,
+      "clones": 34
+    }
+  ],
+  "backend": "WebGL2",
+  "framebuffer": [
+    1280,
+    720
+  ]
+}

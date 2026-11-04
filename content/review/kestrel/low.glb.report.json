@@ -1,0 +1,71 @@
+{
+  "input": "data/art-build/kestrel/low.raw.glb",
+  "output": "content/review/kestrel/low.glb",
+  "trianglesBeforeInstancing": 10363,
+  "meshPrimitives": 18,
+  "materials": 2,
+  "textures": [
+    {
+      "name": "Image_3",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_0",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_1",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_6",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_7",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_4",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Image_5",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_materials_emissive_strength",
+    "KHR_texture_basisu",
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ]
+}

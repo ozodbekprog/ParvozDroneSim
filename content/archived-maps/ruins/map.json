@@ -1,0 +1,201 @@
+{
+  "id": "ruins",
+  "name": "Afterlight",
+  "region": "Urban Ruins",
+  "theme": "custom",
+  "seed": 205,
+  "description": "Thread the remnants of a city block in late afternoon light.",
+  "sky": "#9eb4bc",
+  "fog": "#a9aba5",
+  "ground": "#746e66",
+  "sun": "#ffe0b0",
+  "sunPosition": [
+    83,
+    44,
+    -26
+  ],
+  "cloudColor": "#d8d0bb",
+  "wind": [
+    0.8,
+    0,
+    -0.3
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "ruins",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.39,
+      -440
+    ],
+    "max": [
+      440,
+      46.173,
+      440
+    ]
+  },
+  "tracks": [
+    {
+      "id": "ruins-route",
+      "name": "Broken Skyline",
+      "laps": 2,
+      "gates": [
+        {
+          "position": [
+            0,
+            6.75,
+            36
+          ],
+          "yaw": 1.441094,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            46,
+            9.45,
+            42
+          ],
+          "yaw": 2.279422,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            88,
+            13.5,
+            6
+          ],
+          "yaw": 2.904744,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            102,
+            8.1,
+            -52
+          ],
+          "yaw": -1.901892,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            38,
+            5.4,
+            -74
+          ],
+          "yaw": -1.325818,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -26,
+            8.1,
+            -58
+          ],
+          "yaw": -0.743756,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -72,
+            10.8,
+            -8
+          ],
+          "yaw": 0.386876,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -50,
+            6.75,
+            46
+          ],
+          "yaw": 1.768192,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ],
+      "spawn": {
+        "position": [
+          -23.79841,
+          6.75,
+          32.895859
+        ],
+        "yaw": 1.441094
+      }
+    }
+  ],
+  "bundledChallenges": [
+    {
+      "id": "explorer",
+      "name": "Beyond the Walls",
+      "map": "ruins",
+      "track": "ruins-route",
+      "target": 280,
+      "reward": 150
+    }
+  ],
+  "bundledTutorials": []
+}

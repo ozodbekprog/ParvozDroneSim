@@ -1,0 +1,21 @@
+{
+  "id": "lf-antenna-blank",
+  "category": "antenna",
+  "name": "No separate antenna",
+  "compatibleDrones": [
+    "armattan-gecko"
+  ],
+  "sourcePartId": "AntennaBlank",
+  "sourceSpecs": {
+    "weight": 0,
+    "isAngled": false
+  },
+  "physicalSize": [
+    0.001,
+    0.001,
+    0.001
+  ],
+  "mass": 0,
+  "cost": 0,
+  "materials": []
+}

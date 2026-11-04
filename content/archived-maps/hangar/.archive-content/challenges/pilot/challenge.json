@@ -1,0 +1,8 @@
+{
+  "id": "pilot",
+  "name": "Hangar Ace",
+  "map": "hangar",
+  "track": "hangar-circuit",
+  "target": 263,
+  "reward": 130
+}

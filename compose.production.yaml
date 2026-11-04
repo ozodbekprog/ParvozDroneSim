@@ -1,0 +1,50 @@
+name: liftoff
+
+services:
+  game:
+    build: .
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 2567
+      DATA_DIR: /data
+      TRUST_PROXY: "1"
+      MAX_MULTIPLAYER_PLAYERS: ${MAX_MULTIPLAYER_PLAYERS:-20}
+    expose:
+      - "2567"
+    init: true
+    volumes:
+      - game-data:/data
+      - ./public/content/assets:/app/public/content/assets:ro
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      game:
+        condition: service_healthy
+    environment:
+      GAME_DOMAIN: ${GAME_DOMAIN:?Set GAME_DOMAIN in deploy/production.env}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./public:/srv/public:ro
+      - ./dist:/srv/dist:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  game-data:
+  caddy-data:
+  caddy-config:

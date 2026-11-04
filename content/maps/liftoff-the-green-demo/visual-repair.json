@@ -1,0 +1,112 @@
+{
+  "map": "liftoff-the-green-demo",
+  "shadowOnlySourceObjects": 0,
+  "previewSourceHierarchy": "FreezeFrameFinish",
+  "removedPrimitives": 1,
+  "repairedDistanceCells": 17,
+  "models": [
+    {
+      "file": "content/maps/liftoff-the-green-demo/model.glb",
+      "neutralized": [
+        "LiftoffFlagCrowdControlBarrier01",
+        "AirflagLiftoffSlalomDark01",
+        "LuGusStoneLogoOFF01",
+        "VideoWallScreensPCLogo01",
+        "AirflagLiftoffFinishDark01"
+      ],
+      "bytesBefore": 249770870,
+      "bytesAfter": 247465658,
+      "removedImages": 13
+    },
+    {
+      "file": "content/races/liftoff-the-green-demo-liftoff-01/props.glb",
+      "neutralized": [
+        "AirflagLiftoffFinishDark01",
+        "HerasFencingClothLiftoffWhite01",
+        "AirflagLiftoffFinishWhite01",
+        "InflatatableGateLiftoff01"
+      ],
+      "bytesBefore": 9495986,
+      "bytesAfter": 7590594,
+      "removedImages": 10
+    },
+    {
+      "file": "content/races/liftoff-the-green-demo-liftoff-02/props.glb",
+      "neutralized": [
+        "AirflagLiftoffSlalomDark01"
+      ],
+      "bytesBefore": 15170938,
+      "bytesAfter": 14620550,
+      "removedImages": 3
+    },
+    {
+      "file": "content/races/liftoff-the-green-demo-liftoff-03/props.glb",
+      "neutralized": [
+        "AirflagLiftoffSlalomDark01"
+      ],
+      "bytesBefore": 11789794,
+      "bytesAfter": 11239394,
+      "removedImages": 3
+    },
+    {
+      "file": "content/races/liftoff-the-green-demo-liftoff-04/props.glb",
+      "neutralized": [
+        "AirflagLiftoffSlalomDark01",
+        "LiftoffFlagCrowdControlBarrier01",
+        "InflatableArchBrandless01"
+      ],
+      "bytesBefore": 13072986,
+      "bytesAfter": 12660924,
+      "removedImages": 4,
+      "additionalBrandingPass": {
+        "file": "content/races/liftoff-the-green-demo-liftoff-04/props.glb",
+        "neutralized": [
+          "InflatableArchBrandless01"
+        ],
+        "bytesBefore": 12663602,
+        "bytesAfter": 12204202,
+        "removedImages": 4
+      }
+    },
+    {
+      "file": "content/races/liftoff-the-green-demo-liftoff-05/props.glb",
+      "neutralized": [
+        "AirflagLiftoffFinishDark01",
+        "LiftoffFlagCrowdControlBarrier01",
+        "InflatableArchBrandless01"
+      ],
+      "bytesBefore": 5171126,
+      "bytesAfter": 4191472,
+      "removedImages": 6,
+      "additionalBrandingPass": {
+        "file": "content/races/liftoff-the-green-demo-liftoff-05/props.glb",
+        "neutralized": [
+          "InflatableArchBrandless01"
+        ],
+        "bytesBefore": 4489070,
+        "bytesAfter": 4029670,
+        "removedImages": 4
+      }
+    },
+    {
+      "file": "content/races/liftoff-the-green-demo-liftoff-06/props.glb",
+      "neutralized": [
+        "AirflagLiftoffSlalomDark01",
+        "HerasFencingClothLiftoffWhite01",
+        "InflatableArchBrandless01"
+      ],
+      "bytesBefore": 26253834,
+      "bytesAfter": 25513644,
+      "removedImages": 6,
+      "additionalBrandingPass": {
+        "file": "content/races/liftoff-the-green-demo-liftoff-06/props.glb",
+        "neutralized": [
+          "InflatableArchBrandless01"
+        ],
+        "bytesBefore": 25279122,
+        "bytesAfter": 24819722,
+        "removedImages": 4
+      }
+    }
+  ]
+}

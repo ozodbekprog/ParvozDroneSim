@@ -1,0 +1,85 @@
+{
+  "map": "hangar-c03-demo",
+  "track": "hangar-c03-demo-first-flight",
+  "id": "flight-03-yaw-orientation",
+  "name": "Turn without drifting",
+  "topic": "Yaw and orientation",
+  "order": 30,
+  "description": "Rotate the nose while keeping a steady position and height.",
+  "steps": [
+    {
+      "text": "Use Angle mode. Yaw turns the nose. After a turn, pitch and roll follow the new direction; the controls have not reversed.",
+      "objective": "manual",
+      "target": 0,
+      "duration": 0,
+      "title": "Understand yaw and orientation"
+    },
+    {
+      "text": "Hover in the marker and face the original takeoff direction.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        1.71,
+        0.7091341614723206
+      ],
+      "radius": 1.5,
+      "maxSpeed": 1,
+      "heading": -1.6317709978489148,
+      "headingTolerance": 0.26,
+      "flightMode": "angle",
+      "title": "Face the takeoff direction",
+      "airborne": true
+    },
+    {
+      "text": "Yaw right by a quarter turn while staying inside the marker. Release yaw when facing the new direction.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        1.71,
+        0.7091341614723206
+      ],
+      "radius": 1.5,
+      "maxSpeed": 1,
+      "heading": 3.080617982535775,
+      "headingTolerance": 0.26,
+      "flightMode": "angle",
+      "title": "Turn right without drifting",
+      "airborne": true
+    },
+    {
+      "text": "Yaw back to the original direction and stop drifting.",
+      "objective": "reach",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        1.71,
+        0.7091341614723206
+      ],
+      "radius": 1.5,
+      "maxSpeed": 1,
+      "heading": -1.6317709978489148,
+      "headingTolerance": 0.26,
+      "flightMode": "angle",
+      "title": "Turn back and settle",
+      "airborne": true
+    },
+    {
+      "text": "Return to the start marker. Level the drone, lower throttle gently and hold a stopped landing for two seconds.",
+      "objective": "land",
+      "target": 0,
+      "duration": 2,
+      "position": [
+        -88.40730285644531,
+        -0.03999900817871094,
+        0.7091341614723206
+      ],
+      "radius": 3,
+      "title": "Land at the start"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-15",
+  "windowsScale": "150% unchanged",
+  "method": "Full game viewport measured in DOM before capture; native screenshot pixels, no resizing",
+  "release": "20261015-ui-01",
+  "sourceCommit": "befc562886ad7ab2120bf8140f9ff2ff87b2accb",
+  "entries": [
+    {
+      "file": "01-home.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 90332,
+      "sha256": "1daa117bf682add9285716492ea1e4f8753844564a65322d8022e0447c0f53fc"
+    },
+    {
+      "file": "02-hangar.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 140072,
+      "sha256": "513e17b61037fdd1bad53b46cbe51b6edb0721f8395b6af61d9316387f51e385"
+    },
+    {
+      "file": "03-workbench-parts.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 135696,
+      "sha256": "b179bd4b539a654783fbdc1f00eb39291c8b89e101b7f3e540e7b510318562e0"
+    },
+    {
+      "file": "04-workbench-tuning.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 133907,
+      "sha256": "1c346ec030ee5a7535854e3eb130e6e1a5baaa2cff192392b701f3cb9b711027"
+    },
+    {
+      "file": "05-settings-controls.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 71341,
+      "sha256": "3f97e8c15a8e1b9ecb42101ff9afc681117b65152f957688356753ea8f809040"
+    },
+    {
+      "file": "06-settings-graphics.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 79069,
+      "sha256": "6ab21d6f29566735362d6241c6446634a9f02520e1bac5a6045a414960130cf3"
+    },
+    {
+      "file": "07-flight-setup.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 109990,
+      "sha256": "7c8404f078e0be46d83fd0d06b54cd6bae3e66d0f3f1fa2af519915f8b925371"
+    },
+    {
+      "file": "08-multiplayer.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 66379,
+      "sha256": "78647a430000d1849d126bbdb9e4c8f1fb4e2f55dce5b51a628860e1220280d5"
+    },
+    {
+      "file": "09-create-room.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 56894,
+      "sha256": "b18d5775a591380e7a454d15bcf6459937cbd07ba3bb0308af0732b8482c2407"
+    },
+    {
+      "file": "10-loading.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 42544,
+      "sha256": "2f4256bc2b9924ef5460ca8b4d08b56c8b5dc09da5410538834349c3162539f6"
+    },
+    {
+      "file": "11-flight-hud.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 97568,
+      "sha256": "465bef318da554bb5a564d35e7077b977f5fe3ecc8cd562d2b1cc8917a56e60f"
+    },
+    {
+      "file": "12-home-720.png",
+      "width": 1280,
+      "height": 720,
+      "source": "local candidate",
+      "bytes": 53585,
+      "sha256": "03aed77f62292a5a174affde63220df12e12f3a65dd9a2e0312b2dc0dc373de7"
+    },
+    {
+      "file": "13-hangar-720.png",
+      "width": 1280,
+      "height": 720,
+      "source": "local candidate",
+      "bytes": 84517,
+      "sha256": "5bbe06065ca3eb30ccf703cccfcd3f6aa4c25c740394392827a2065c55217a1a"
+    },
+    {
+      "file": "14-settings-720.png",
+      "width": 1280,
+      "height": 720,
+      "source": "local candidate",
+      "bytes": 46648,
+      "sha256": "7884404ea0e60c0f70b9ec4652fe19834fab26a318ba14f4b83c07f987906493"
+    },
+    {
+      "file": "15-results.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 59790,
+      "sha256": "3fb275f6cb3e2001c0338b71d2d1e75713b91faa6f0792604fe8bb2f49f9ea82"
+    },
+    {
+      "file": "16-countdown.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 89696,
+      "sha256": "dfd71e3cc4726f212b8b00b11952e7936808fb64199255d3b96f34cc5c7f1ea2"
+    },
+    {
+      "file": "17-controls-720.png",
+      "width": 1280,
+      "height": 720,
+      "source": "local candidate",
+      "bytes": 44400,
+      "sha256": "542b3041c935325b15cf837e743fb99dfc9fc3fe3d684e02a0ef9ce62ee670f2"
+    },
+    {
+      "file": "18-flight-menu.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 56502,
+      "sha256": "d6e87ee7a78d90dcf7addad11d600000d6d68615b76cb68764ef9d213afc8d75"
+    },
+    {
+      "file": "19-lobby.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 41829,
+      "sha256": "867978fad55687f62feadf3d1c78768ae6114c8938a6c9a2da1cd72a7f97fced"
+    },
+    {
+      "file": "20-profile.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "local candidate",
+      "bytes": 59233,
+      "sha256": "aaa49b33fd0224db91e92a77789a50da83c8cfc043e47753a930ed22334809f5"
+    },
+    {
+      "file": "21-settings-720-bottom.png",
+      "width": 1280,
+      "height": 720,
+      "source": "local candidate",
+      "bytes": 48038,
+      "sha256": "25f5cb975e24b0f5b7919bfe3c6b1533845dd77e257bc8024de1159442c10737"
+    },
+    {
+      "file": "22-public-home.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "public Oracle 20261015-ui-01",
+      "bytes": 90083,
+      "sha256": "8124cfc9635708c96dba07c8bf50544b50ba9188f8827e6585ada807ba360935"
+    },
+    {
+      "file": "23-public-settings.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "public Oracle 20261015-ui-01",
+      "bytes": 79050,
+      "sha256": "11ac1855b8ce0e35b54183e2f755d0f9e803c1ad1200e57d8a07f1352622838f"
+    },
+    {
+      "file": "24-public-workbench.png",
+      "width": 1920,
+      "height": 1080,
+      "source": "public Oracle 20261015-ui-01",
+      "bytes": 137505,
+      "sha256": "fbcfcc9cd43d46b3cc016d886fe6187b6ff44a9fd99ae830d75452fc394aa386"
+    }
+  ]
+}

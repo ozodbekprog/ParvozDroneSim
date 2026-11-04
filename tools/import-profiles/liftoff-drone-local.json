@@ -1,0 +1,199 @@
+{
+  "adapter": "liftoff-unity-2022",
+  "id": "liftoff-drone-local",
+  "nodePrefix": "LiftoffDrone",
+  "staging": "data/liftoff-drone-recovery",
+  "source": "D:/Programs/Liftoff",
+  "catalogPath": "Liftoff_Data/StreamingAssets/aa/catalog.json",
+  "bundlesPath": "Liftoff_Data/StreamingAssets/aa/StandaloneWindows64",
+  "roots": [
+    "Assets/Scenes/Environments/MinusTwo/MinusTwo.unity",
+    "Assets/Project/ScriptableObjects/Environments/CommonInfo/MinusTwo.asset",
+    "Assets/Project/ScriptableObjects/Environments/DefaultVariants/MinusTwo_Default.asset"
+  ],
+  "assetRipperUrl": "http://127.0.0.1:2578",
+  "blender": "D:/Programs/Blender Foundation/Blender 5.1/blender.exe",
+  "textureSize": 512,
+  "materialAdapters": {
+    "Standard": "PBR",
+    "Shader Forge/StandardTriplanarWorldSpace": "PBR using authored UVs; world-space triplanar blending is approximated"
+  },
+  "excludeObjectPrefixes": [
+    "Christmas",
+    "Halloween",
+    "Easter",
+    "Valentines",
+    "StPatrick",
+    "SaintPatrick",
+    "Snowman",
+    "Heart",
+    "GoldenEgg",
+    "PotofGold",
+    "Rainbow",
+    "AprilFools",
+    "CombinedCharacter",
+    "PlayerDummy",
+    "DroneDummy"
+  ],
+  "probe": {
+    "position": [
+      -15.752,
+      1.4,
+      -66.501
+    ],
+    "target": [
+      -15.752,
+      1.4,
+      -48
+    ],
+    "radius": 22
+  },
+  "lod": {
+    "cellSize": 24,
+    "ratios": [
+      0.6,
+      0.3
+    ],
+    "distances": [
+      0,
+      16,
+      22
+    ],
+    "lowLod": 1,
+    "preserveGeometry": true,
+    "planarDissolve": true,
+    "texturedFarMaterials": [
+      "Floor"
+    ]
+  },
+  "map": {
+    "name": "Minus Two - Demo",
+    "region": "Liftoff temporary content",
+    "theme": "custom",
+    "environment": "industrial",
+    "description": "Temporary third-party Liftoff map for a demo: garage aisles, parking bays, service doors and overhead utilities.",
+    "sky": "#2d3339",
+    "fog": "#32383c",
+    "ground": "#868d8f",
+    "sun": "#ffffff",
+    "sunPosition": [
+      -20,
+      35,
+      25
+    ],
+    "ambientIntensity": 1.8,
+    "sunIntensity": 0.6,
+    "wind": [
+      0,
+      0,
+      0
+    ],
+    "gravity": 1,
+    "fogDensity": 0,
+    "groundPlane": false,
+    "indoor": true
+  },
+  "course": {
+    "id": "minus-two-demo-garage-loop",
+    "name": "Garage Loop",
+    "laps": 1,
+    "spawn": {
+      "position": [
+        -15.752,
+        0.25,
+        -66.501
+      ],
+      "yaw": 0
+    },
+    "gridBounds": [
+      -41,
+      111,
+      -80,
+      22
+    ],
+    "floorY": 0,
+    "clearanceHeight": 1.3,
+    "gateY": 1.2,
+    "width": 2.8,
+    "height": 1.6,
+    "minimumGates": 5,
+    "waypoints": [
+      [
+        -15.752,
+        -66.501
+      ],
+      [
+        -16,
+        -45
+      ],
+      [
+        3,
+        -45
+      ],
+      [
+        3,
+        -20
+      ],
+      [
+        12,
+        -20
+      ],
+      [
+        12,
+        -55
+      ],
+      [
+        -8,
+        -55
+      ],
+      [
+        -8,
+        -67
+      ],
+      [
+        -16,
+        -67
+      ]
+    ],
+    "practiceId": "minus-two-demo-first-flight",
+    "practiceName": "First Garage Flight",
+    "practiceCount": 3
+  },
+  "tutorial": {
+    "id": "minus-two-demo-basics",
+    "name": "Minus Two: Takeoff, Gates and Landing",
+    "altitude": 1,
+    "duration": 2
+  },
+  "challenge": {
+    "id": "minus-two-demo-timed-loop",
+    "name": "Minus Two: Garage Against the Clock",
+    "description": "Complete our garage course within ninety seconds. Follow the gate arrows through the parking aisles.",
+    "target": 90,
+    "reward": 200,
+    "hints": [
+      {
+        "afterGate": 0,
+        "text": "Keep the drone level below the ceiling utilities."
+      },
+      {
+        "afterGate": 2,
+        "text": "Use the wide aisles for turns; watch the next gate arrow."
+      },
+      {
+        "afterGate": 5,
+        "text": "Return through the parking bays towards the starting aisle."
+      }
+    ]
+  },
+  "provenance": {
+    "name": "Minus Two",
+    "sourceGame": "Liftoff: FPV Drone Racing",
+    "source": "https://www.liftoff-game.com/",
+    "author": "Original Liftoff content: LuGus Studios and credited content providers; individual asset authors not established by recovery.",
+    "license": "Proprietary game content; no license permitting reuse or redistribution has been established.",
+    "permissionConfirmed": false,
+    "unityVersion": "2022.3.62f3"
+  },
+  "cacheLocation": "D:/DroneLiftoffUz-import-temp/preserved-cache/data-liftoff-drone-recovery"
+}

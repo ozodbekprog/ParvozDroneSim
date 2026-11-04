@@ -1,0 +1,21 @@
+{
+  "id": "smooth",
+  "name": "Smooth 2208",
+  "mass": 0.04,
+  "thrust": 1.06,
+  "response": 0.88,
+  "cost": 220,
+  "category": "motors",
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": []
+}

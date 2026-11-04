@@ -1,0 +1,45 @@
+{
+  "id": "harborworks",
+  "name": "Harborworks",
+  "region": "Tidewater Industrial Port",
+  "theme": "custom",
+  "seed": 927,
+  "description": "A working tidal port: thread the tool-lined workshop, dive beneath yellow quay cranes and weave stacked containers beside the harbour beacon.",
+  "sky": "#a9c2cc",
+  "fog": "#a9bcc2",
+  "ground": "#8b9189",
+  "sun": "#fff1d5",
+  "sunPosition": [
+    -55,
+    85,
+    35
+  ],
+  "cloudColor": "#e1e8e6",
+  "wind": [
+    0.55,
+    0,
+    0.25
+  ],
+  "gravity": 1,
+  "groundPlane": false,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "environment": "harborworks",
+  "atmosphereIdentity": "harborworks",
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -8,
+      -440
+    ],
+    "max": [
+      440,
+      49,
+      440
+    ]
+  },
+  "model": "model.glb",
+  "collisionFile": "collision.json"
+}

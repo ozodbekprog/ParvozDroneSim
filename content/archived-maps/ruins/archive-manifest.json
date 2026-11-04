@@ -1,0 +1,136 @@
+{
+  "id": "ruins",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "9d270748829784bbd546c7af67f40fc236afa708ed63b4b92c06ae74dc54808d"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "84d50aa970354389652bc5a05f89a4395060cb690d271a1a818f1d508712fc19"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "364dd4ceeeef96354b9f03d6f6f698837612299498fd5e920a8b6f3ba3e2fa9a"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "08798e4d34f4a5399d9ef97780bfa2219f5a8ef2c3b64c6322386c2adef6e22e"
+    },
+    {
+      "file": "map.json",
+      "sha256": "4db967346713308195a59192430019cec637b0886a5c8f24dcd9256c58570799"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "fae30114eff8146b287b5bb5b594384ec72b20d000152279bf9ee8098806aea3"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-ruins-color.png",
+      "sha256": "d89469421c08739c4aee1e5468990d354b19c012895376261aaece7554504486"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-ruins-normal.png",
+      "sha256": "54ac94dd0afdebb4a625274a027848e88deacf6e8a153631aa558d31eaf45797"
+    },
+    {
+      "file": "textures/blender-painted/fpv-natural-stone-ruins-color.png",
+      "sha256": "de396dfa11461a5d62ce0c7d4fdbbba303926d64075648ab713dacbf938e371c"
+    },
+    {
+      "file": "textures/blender-painted/fpv-natural-stone-ruins-normal.png",
+      "sha256": "1b072c465f299e8639d6d87f58a389b16fe7653a291b3f4c0997fd8b97ba2c6d"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-ruins-color.png",
+      "sha256": "d1b6bb6d2de954f26efb40b348429a3c0de1797d498a28a2e924d453ba4629c7"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-ruins-normal.png",
+      "sha256": "d432b079f1adc9d857bdc9a308b7eff55a6dc70cde933a2e08d684d22cfae65e"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-brushed-steel-color.png",
+      "sha256": "7305f579273c45f2238197664a354d49b00d3be23f09948beba26040171dd139"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-brushed-steel-normal.png",
+      "sha256": "792f57eafc25ac9fe38ad94d57013bb368d579350922f4395e68376e0053f808"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-cut-timber-color.png",
+      "sha256": "da0a2f42370d63ab8824a7c7b27a825f087bd05de4e7a0944910c08b41deced3"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-cut-timber-normal.png",
+      "sha256": "b095d79a16f9507172a40f9d3668f0c372a9c3ccc94c32093a8cb3420b09cd93"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-natural-stone-color.png",
+      "sha256": "27dbb2e158326df76670c17bc56c3b2298b05708c52906a99b9023fcda59d201"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-natural-stone-normal.png",
+      "sha256": "0c28ab51c77b336d42c6510d6af6148ed1836992e51dce5d6962c27d01681be6"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-pale-stone-stratum-color.png",
+      "sha256": "99e9d421a20e3c00ebfb800e0f3ffebc216752368d7fd81213acd51b64b8f830"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-pale-stone-stratum-normal.png",
+      "sha256": "3e12f3079b2ce7188af7ed2b05ac9b7f9881e41b559e8c06ab748c6b26053a05"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-rubber-and-asphalt-color.png",
+      "sha256": "f0b414d246d35fa312bab88ec945392b863b44099e83156116be27df3d5bee0e"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-rubber-and-asphalt-normal.png",
+      "sha256": "8346fbc3d5ed0266023a18044609c366930236823c99a0cf43473e01a52beb44"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-sandstone-stratum-color.png",
+      "sha256": "ce33976492d72511dc2583044dc23ca1ac81241077ccd241cb0299f36fa89262"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-sandstone-stratum-normal.png",
+      "sha256": "e3fc34738e4985ba48739e25c0703e720dfa7d8c3a34ca1664f61dd3808fc69a"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-timber-color.png",
+      "sha256": "1712a04a9e90c002dff075e8d8cc176a7cdd756d1cc3a6931b693e15bfc20079"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-timber-normal.png",
+      "sha256": "c69d7e8f52665ecc8356b6b2a1c729ccc078ed4bced90410b225370b7bc2feb9"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-warm-plaster-color.png",
+      "sha256": "c81d1fa30078c32c7a80e02ba282ad8176ae54f756998ed3dedbe65be62659db"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-ruins-warm-plaster-normal.png",
+      "sha256": "82ab1a1c4f27fde73f6066aac41937950c8558249f307c3224e6c5fbf8345dd6"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "55f2197173b85fc92033355ba57f9946039e456bb4ea77ff5ecbbe7e5ac77d92"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "5340ae22b0bee59467d519a35e8362676f83cba018d48dd236b222c1616d6440"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "ruins-route"
+    ],
+    "challenges": [
+      "explorer"
+    ],
+    "tutorials": []
+  },
+  "restore": "Copy this entire folder to content/maps/ruins, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

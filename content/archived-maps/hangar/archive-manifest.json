@@ -1,0 +1,134 @@
+{
+  "id": "hangar",
+  "created": "2026-10-10",
+  "inventory": [
+    {
+      "file": "authoring.json",
+      "sha256": "f832aed8d3ea0febc4ad445956544b002a142d549272d8689a4be3f25e7f905a"
+    },
+    {
+      "file": "collision.json",
+      "sha256": "6487e7fd8086c009e95682b6de506f6fdd1e4a2742bf42342448949ee7da03da"
+    },
+    {
+      "file": "map.blend",
+      "sha256": "ae1645d1f8e90ec8827ab17d29864f5365403dcd053f0ea2082959b5dd2f2723"
+    },
+    {
+      "file": "map.blend1",
+      "sha256": "b669d05250c81537852bc0548f51c166d93ed2ad16d53bfeb836c0816a26fa79"
+    },
+    {
+      "file": "map.json",
+      "sha256": "e6c7e11c1352db1e1720a31fd561ce492c04f90b355440da60458a420a067148"
+    },
+    {
+      "file": "model.glb",
+      "sha256": "2995763dd9e180095f671a8e0b1215b35271fe878a32f40c7dde186da0ac36d7"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-hangar-color.png",
+      "sha256": "78a416047dd66e84f37a83fc4934d1b6ea3bbf824549ac430f283c7fb3f501f5"
+    },
+    {
+      "file": "textures/blender-painted/fpv-galvanized-metal-hangar-normal.png",
+      "sha256": "261ee0b085306f1ac01aa12ba6cf49dcba09e1e198302887c06f31b52b9e2ab4"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-hangar-color.png",
+      "sha256": "00c5d7ebb65846ee2fd7eb666ca78f67db678856c6f918a9a82d8ef0e71857a9"
+    },
+    {
+      "file": "textures/blender-painted/fpv-weathered-concrete-hangar-normal.png",
+      "sha256": "d9214e58873a58f0d867be0030805a12a0cf55c3f774f3044c737f02ca579fa0"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-brushed-steel-color.png",
+      "sha256": "65d0b6b2a734ec473675fa224469d681fe82171fedd0a53168b7927e5bce4743"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-brushed-steel-normal.png",
+      "sha256": "bcd8cc8d583b094a1f81c23c1a94f94dcb5eca8ba40d2414bd178f3d17a4393f"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-cut-timber-color.png",
+      "sha256": "dd35fd147104d0cc22d3209230f65023acad3b932f0ab0b1d99599f253006093"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-cut-timber-normal.png",
+      "sha256": "b750afca13dbbc8c9442c600548d1bdc265f480f7583ad422bb13a4ce5114292"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-natural-stone-color.png",
+      "sha256": "fcaf08c00e90d43b84f6ede34c8ca700cb47496f57b2d4da0b13e0016f7a5a73"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-natural-stone-normal.png",
+      "sha256": "fbd1118183fed17aa92465b87ea984e5046fbfb986701e69f2eb62925acd5f08"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-pale-stone-stratum-color.png",
+      "sha256": "318a14e081976312ffc84d484c92f97158bb73c8621d4744ee560eac2b2eed25"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-pale-stone-stratum-normal.png",
+      "sha256": "cbe66b29b4780cba5d9cab0cf9e740adb25fc76d1e95a0ff5d2e674470896ae8"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-rubber-and-asphalt-color.png",
+      "sha256": "64019cca637530a64e2a7a7aaba264be5d47ba62196b8e4cff930e89dfa21036"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-rubber-and-asphalt-normal.png",
+      "sha256": "395f14baa7fd8152df2ec563495f14edfdd095b2bca8699870d82cc56b2023f0"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-sandstone-stratum-color.png",
+      "sha256": "7562358ad3bfdfe491d7ea5b23b3312577457bcd3c6e41040d83b2057dc4a6e9"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-sandstone-stratum-normal.png",
+      "sha256": "87081e19bd307dcd0c2775331046d21b729e15c36a94f9601604d646bb28fe53"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-timber-color.png",
+      "sha256": "fa193c1c140997c1bebfab0b0a0b38ac1619631345e575846e855f3bdde1a1f4"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-timber-normal.png",
+      "sha256": "50bc0f61fb910ea42e01c6128ad3c3b3483bb2823ad2f79746b100c55b5dd70e"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-warm-plaster-color.png",
+      "sha256": "edf8656630acacba2b6c19ef064c14829fc2756e315791c4e334de1abfbfec22"
+    },
+    {
+      "file": "textures/blender-painted/mcp-authored-hangar-warm-plaster-normal.png",
+      "sha256": "6f50f6a3d3b5824363082bf5c5b69f3553748357653eccfc10b8a0cfa214b77d"
+    },
+    {
+      "file": "textures/fpv-ground.png",
+      "sha256": "55f2197173b85fc92033355ba57f9946039e456bb4ea77ff5ecbbe7e5ac77d92"
+    },
+    {
+      "file": "thumbnail.png",
+      "sha256": "e7c26eacfca227af3a84dbdb2003ff6d477ce58a774a097702c191727c4474b1"
+    }
+  ],
+  "bundles": {
+    "races": [
+      "hangar-cadet",
+      "hangar-circuit",
+      "hangar-sprint"
+    ],
+    "challenges": [
+      "cadet",
+      "pilot"
+    ],
+    "tutorials": [
+      "first-hover",
+      "gate-basics"
+    ]
+  },
+  "restore": "Copy this entire folder to content/maps/hangar, then run npm run content:sync. Bundled courses, missions and lessons install automatically."
+}

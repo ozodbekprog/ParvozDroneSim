@@ -1,0 +1,835 @@
+{
+  "id": "minus-two-demo-liftoff-04",
+  "blueprints": 164,
+  "visibleInstances": 146,
+  "meshes": 317,
+  "colliders": 822,
+  "inventory": [
+    {
+      "instance": "1",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "2",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "3",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "4",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "5",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "6",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "7",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "8",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "9",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "10",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "11",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "171",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "170",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "14",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "15",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "17",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "18",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "19",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "20",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "21",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "23",
+      "prefab": "AirgateSmall150H210B01LuGusStudios01",
+      "meshes": 2
+    },
+    {
+      "instance": "25",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "26",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "27",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "28",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "29",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "30",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "31",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "32",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "33",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "34",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "35",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "36",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "37",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "38",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "39",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "40",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "41",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "42",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "124",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "45",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "46",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "47",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "48",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "49",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "50",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "51",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "52",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "53",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "205",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "55",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "56",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "57",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "59",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "60",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "61",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "186",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "179",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "178",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "69",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "182",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "71",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "72",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "73",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "74",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "75",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "76",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "78",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "79",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "82",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "83",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "84",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "85",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "86",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "87",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "88",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "89",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "90",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "91",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "92",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "93",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "96",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "97",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "98",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "99",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "100",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "101",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "102",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "103",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "104",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "105",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "106",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "107",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "108",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "110",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "111",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "117",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "118",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "119",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "120",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "125",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "131",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "132",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "135",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "136",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "137",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "138",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "142",
+      "prefab": "CheckpointBox5mX5m01",
+      "meshes": 0
+    },
+    {
+      "instance": "143",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "144",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "145",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "146",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "147",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "148",
+      "prefab": "LEDCube01Red",
+      "meshes": 3
+    },
+    {
+      "instance": "149",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "150",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "151",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "152",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "153",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "154",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "155",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "156",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "157",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "158",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "159",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "160",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "161",
+      "prefab": "TriggerBox_ChargeBattery_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "162",
+      "prefab": "TriggerBox_RepairPropellers_1mX1m01",
+      "meshes": 0
+    },
+    {
+      "instance": "164",
+      "prefab": "SpawnPointSingle01",
+      "meshes": 2
+    },
+    {
+      "instance": "165",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "166",
+      "prefab": "LEDCube01Blue",
+      "meshes": 3
+    },
+    {
+      "instance": "167",
+      "prefab": "ASLLightBeam01",
+      "meshes": 1
+    },
+    {
+      "instance": "168",
+      "prefab": "ASLLightBeam01",
+      "meshes": 1
+    },
+    {
+      "instance": "169",
+      "prefab": "ASLLightCurveInner04",
+      "meshes": 1
+    },
+    {
+      "instance": "172",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "173",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "174",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "175",
+      "prefab": "ASLLightCurveOuter04",
+      "meshes": 1
+    },
+    {
+      "instance": "176",
+      "prefab": "ASLLightCurveInner04",
+      "meshes": 1
+    },
+    {
+      "instance": "177",
+      "prefab": "ASLLightCurveInner04",
+      "meshes": 1
+    },
+    {
+      "instance": "181",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "183",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "185",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "187",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "188",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "189",
+      "prefab": "ASLLightBeam02",
+      "meshes": 1
+    },
+    {
+      "instance": "190",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "191",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "192",
+      "prefab": "ASLLightBeam03",
+      "meshes": 1
+    },
+    {
+      "instance": "194",
+      "prefab": "AdvertBoardBattery01",
+      "meshes": 6
+    },
+    {
+      "instance": "195",
+      "prefab": "AdvertBoardRepair01",
+      "meshes": 6
+    },
+    {
+      "instance": "196",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "197",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "198",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "199",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "200",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "201",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "202",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "203",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "206",
+      "prefab": "ConradCrowdControlBarrier01",
+      "meshes": 2
+    },
+    {
+      "instance": "207",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "208",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "209",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    },
+    {
+      "instance": "210",
+      "prefab": "CheckpointBoxFlexible01",
+      "meshes": 0
+    }
+  ],
+  "lodTriangles": [
+    147421,
+    140445,
+    137157
+  ],
+  "cells": 44
+}

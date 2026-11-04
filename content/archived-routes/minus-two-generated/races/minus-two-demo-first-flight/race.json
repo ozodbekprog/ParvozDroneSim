@@ -1,0 +1,64 @@
+{
+  "id": "minus-two-demo-first-flight",
+  "name": "First Garage Flight",
+  "map": "minus-two-demo",
+  "laps": 1,
+  "spawn": {
+    "position": [
+      -15.752,
+      0.25,
+      -66.501
+    ],
+    "yaw": 0
+  },
+  "gates": [
+    {
+      "position": [
+        -16,
+        1.2,
+        -61
+      ],
+      "yaw": 0,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        -16,
+        1.2,
+        -51
+      ],
+      "yaw": 0,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    },
+    {
+      "position": [
+        -12,
+        1.2,
+        -45
+      ],
+      "yaw": 1.5707963267948966,
+      "width": 2.8,
+      "height": 1.6,
+      "gateClass": "open",
+      "frameThickness": 0.12,
+      "support": {
+        "type": "ground",
+        "baseY": 0
+      }
+    }
+  ]
+}

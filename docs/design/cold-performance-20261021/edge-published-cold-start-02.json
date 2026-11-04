@@ -1,0 +1,210 @@
+{
+  "url": "https://parvoz-drone-sim.duckdns.org/",
+  "conditions": {
+    "httpCacheCleared": true,
+    "optionalAssetCacheDeleted": true,
+    "retainedCacheObservedEmpty": true,
+    "driverShaderCacheNotReset": true
+  },
+  "proof": {
+    "timeOrigin": 1792573205404.3,
+    "observerStartedAt": 2096.1000000089407,
+    "longTasks": [
+      {
+        "startTime": 1873.300000011921,
+        "duration": 110
+      },
+      {
+        "startTime": 6216.600000008941,
+        "duration": 316
+      },
+      {
+        "startTime": 7334,
+        "duration": 209
+      },
+      {
+        "startTime": 7834.5,
+        "duration": 64
+      }
+    ],
+    "stages": [
+      {
+        "at": 2096.2000000029802,
+        "text": "Подключение",
+        "phase": "Подключение к игровому серверу"
+      },
+      {
+        "at": 2686.5,
+        "text": "Загрузка",
+        "phase": "Загрузка карты и дрона для главного меню"
+      },
+      {
+        "at": 6171.300000011921,
+        "text": "Подготовка",
+        "phase": "Обработка сцены главного меню"
+      },
+      {
+        "at": 7543.100000008941,
+        "text": "Подготовка",
+        "phase": "Подготовка модели дрона"
+      },
+      {
+        "at": 7824.800000011921,
+        "text": "Подготовка",
+        "phase": "Подготовка графики"
+      },
+      {
+        "at": 8467.300000011921,
+        "text": "Готово",
+        "phase": ""
+      }
+    ],
+    "readyAt": 8467.300000011921
+  },
+  "resources": [
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/index-7TSF7k3X.js",
+      "startTime": 223.30000001192093,
+      "duration": 1623,
+      "transferSize": 783325,
+      "encodedBodySize": 783025,
+      "decodedBodySize": 8727791,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/index-Cv6GxX5N.css",
+      "startTime": 223.80000001192093,
+      "duration": 632.2999999970198,
+      "transferSize": 33822,
+      "encodedBodySize": 33522,
+      "decodedBodySize": 150397,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/minus-two-BB_Om9zB.jpg",
+      "startTime": 1982.9000000059605,
+      "duration": 229.09999999403954,
+      "transferSize": 317195,
+      "encodedBodySize": 316895,
+      "decodedBodySize": 316895,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/parvoz-mark-DiniIOH5.svg",
+      "startTime": 1983,
+      "duration": 198.1000000089407,
+      "transferSize": 1096,
+      "encodedBodySize": 796,
+      "decodedBodySize": 1427,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/Regular-BLENfjE4.woff2",
+      "startTime": 1983.5,
+      "duration": 394,
+      "transferSize": 154100,
+      "encodedBodySize": 153800,
+      "decodedBodySize": 153800,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/Semibold-CtyxlVHQ.woff2",
+      "startTime": 1983.5,
+      "duration": 394.1000000089407,
+      "transferSize": 155924,
+      "encodedBodySize": 155624,
+      "decodedBodySize": 155624,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/api/catalog",
+      "startTime": 2194,
+      "duration": 196.70000000298023,
+      "transferSize": 517,
+      "encodedBodySize": 217,
+      "decodedBodySize": 217,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/dm-sans-latin-400-normal-CW0RaeGs.woff2",
+      "startTime": 2225.2000000029802,
+      "duration": 203.1000000089407,
+      "transferSize": 14500,
+      "encodedBodySize": 14200,
+      "decodedBodySize": 14200,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/parvoz-mark-DiniIOH5.svg",
+      "startTime": 2433.5,
+      "duration": 4,
+      "transferSize": 0,
+      "encodedBodySize": 796,
+      "decodedBodySize": 1427,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/parvoz-mark-DiniIOH5.svg",
+      "startTime": 2461.300000011921,
+      "duration": 3.7999999970197678,
+      "transferSize": 0,
+      "encodedBodySize": 796,
+      "decodedBodySize": 1427,
+      "deliveryType": "cache"
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/the-green-D_BVkOMs.jpg",
+      "startTime": 2686.7000000029802,
+      "duration": 406.20000000298023,
+      "transferSize": 632396,
+      "encodedBodySize": 632096,
+      "decodedBodySize": 632096,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/assets/pine-valley-BT0nSk8m.jpg",
+      "startTime": 2686.800000011921,
+      "duration": 413.8999999910593,
+      "transferSize": 824503,
+      "encodedBodySize": 824203,
+      "decodedBodySize": 824203,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "startTime": 2698.300000011921,
+      "duration": 3471.8999999910593,
+      "transferSize": 26341200,
+      "encodedBodySize": 26340900,
+      "decodedBodySize": 26340900,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/content/assets/maps/minus-two-demo/collision-b80c3f0fa6b22002.json",
+      "startTime": 2698.5,
+      "duration": 1199.5,
+      "transferSize": 396962,
+      "encodedBodySize": 396662,
+      "decodedBodySize": 4516888,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "startTime": 2698.6000000089407,
+      "duration": 2230.5,
+      "transferSize": 11030504,
+      "encodedBodySize": 11030204,
+      "decodedBodySize": 11030204,
+      "deliveryType": ""
+    },
+    {
+      "url": "https://parvoz-drone-sim.duckdns.org/content/assets/drones/kestrel/source-f34a43818bab7bc0.json",
+      "startTime": 3921.300000011921,
+      "duration": 343.19999998807907,
+      "transferSize": 1088,
+      "encodedBodySize": 788,
+      "decodedBodySize": 1399,
+      "deliveryType": ""
+    }
+  ]
+}

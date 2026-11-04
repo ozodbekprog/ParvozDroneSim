@@ -1,0 +1,144 @@
+{
+  "id": "neon-dash",
+  "name": "Midnight Dash",
+  "laps": 2,
+  "gates": [
+    {
+      "position": [
+        0.0,
+        6.75,
+        36.0
+      ],
+      "yaw": 1.325818,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        56.0,
+        8.1,
+        50.0
+      ],
+      "yaw": 2.544416,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        90.0,
+        12.15,
+        0.0
+      ],
+      "yaw": -2.570255,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        54.0,
+        6.75,
+        -56.0
+      ],
+      "yaw": -1.933341,
+      "width": 1.8,
+      "height": 1.6,
+      "gateClass": "precision-5",
+      "frameThickness": 0.1,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -4.0,
+        9.45,
+        -78.0
+      ],
+      "yaw": -0.982794,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -64.0,
+        8.1,
+        -38.0
+      ],
+      "yaw": -0.165149,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -74.0,
+        12.15,
+        22.0
+      ],
+      "yaw": 0.835357,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        -32.0,
+        6.75,
+        60.0
+      ],
+      "yaw": 2.214298,
+      "width": 3.0,
+      "height": 2.4,
+      "gateClass": "sport-7",
+      "frameThickness": 0.13,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ],
+  "spawn": {
+    "position": [
+      -23.283421,
+      6.75,
+      30.17914
+    ],
+    "yaw": 1.325818
+  },
+  "map": "neon"
+}

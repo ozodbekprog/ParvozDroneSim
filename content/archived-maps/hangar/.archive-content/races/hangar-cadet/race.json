@@ -1,0 +1,64 @@
+{
+  "id": "hangar-cadet",
+  "name": "Cadet line",
+  "map": "hangar",
+  "laps": 1,
+  "spawn": {
+    "position": [
+      0.0,
+      1.89,
+      -36.0
+    ],
+    "yaw": 0.0
+  },
+  "gates": [
+    {
+      "position": [
+        0.0,
+        4.05,
+        -4.0
+      ],
+      "yaw": 0.0,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        28.0,
+        5.4,
+        32.0
+      ],
+      "yaw": 0.5,
+      "width": 8.0,
+      "height": 6.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    },
+    {
+      "position": [
+        40.0,
+        4.05,
+        72.0
+      ],
+      "yaw": 0.0,
+      "width": 7.0,
+      "height": 5.0,
+      "gateClass": "open",
+      "frameThickness": 0.16,
+      "support": {
+        "type": "ground",
+        "baseY": 0.0
+      }
+    }
+  ]
+}

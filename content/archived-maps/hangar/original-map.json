@@ -1,0 +1,45 @@
+{
+  "id": "hangar",
+  "name": "Flight Academy",
+  "region": "Training Hangar",
+  "theme": "custom",
+  "seed": 112,
+  "description": "A bright aircraft hangar built for the first flight.",
+  "sky": "#8faebe",
+  "fog": "#a8b7bc",
+  "ground": "#93958f",
+  "sun": "#fff2d8",
+  "sunPosition": [
+    68,
+    95,
+    45
+  ],
+  "cloudColor": "#dce8ec",
+  "wind": [
+    0,
+    0,
+    0
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "hangar",
+  "groundPlane": false,
+  "indoor": true,
+  "fogDensity": 0.0005,
+  "bounds": {
+    "min": [
+      -185,
+      -0.674,
+      -185
+    ],
+    "max": [
+      185,
+      34,
+      185
+    ]
+  }
+}

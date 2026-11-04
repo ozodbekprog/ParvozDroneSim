@@ -1,0 +1,45 @@
+{
+  "id": "neon",
+  "name": "Nocturne",
+  "region": "Night City",
+  "theme": "custom",
+  "seed": 632,
+  "description": "Wet streets and luminous race gates under a night sky.",
+  "sky": "#0d182b",
+  "fog": "#26364d",
+  "ground": "#303943",
+  "sun": "#a7bce2",
+  "sunPosition": [
+    -45,
+    95,
+    45
+  ],
+  "cloudColor": "#60708e",
+  "wind": [
+    0.5,
+    0,
+    -0.5
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "neon",
+  "groundPlane": false,
+  "indoor": false,
+  "fogDensity": 0.0014,
+  "bounds": {
+    "min": [
+      -440,
+      -0.39,
+      -440
+    ],
+    "max": [
+      440,
+      106.05,
+      440
+    ]
+  }
+}

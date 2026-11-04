@@ -1,0 +1,37 @@
+{
+  "observedAt": "2026-10-31T18:31:51.148Z",
+  "branch": "codex/map-camera-repairs-20261031",
+  "revision": "18e829da005f6299",
+  "tests": {
+    "files": 158,
+    "passed": 687,
+    "failed": 0,
+    "finalGlbPolicyRerunPassed": 5
+  },
+  "materials": {
+    "models": 30,
+    "checked": 1429,
+    "failed": 0,
+    "untreatedPolicyMaterials": 0
+  },
+  "sourcePassages": {
+    "nativeTracks": 25,
+    "passed": 25
+  },
+  "ribbons": {
+    "courses": 17,
+    "count": 462,
+    "triangles": 62650
+  },
+  "acceptance": {
+    "run": "2026-10-31T18-19-14-517Z-17b0c1",
+    "build": "passed",
+    "content": "passed",
+    "serverSmoke": "passed",
+    "baselineChromeChecksObserved": 4,
+    "finalSignoff": "pending_quota_and_new_snapshot_after_collision_json_format_only",
+    "extraRealFlight": "download_interrupted_when_runner_stopped_server"
+  },
+  "deployment": "Oracle unchanged",
+  "targetHardware": "not_tested"
+}

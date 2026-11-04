@@ -1,0 +1,446 @@
+{
+  "id": "hangar",
+  "name": "Flight Academy",
+  "region": "Training Hangar",
+  "theme": "custom",
+  "seed": 112,
+  "description": "A bright aircraft hangar built for the first flight.",
+  "sky": "#8faebe",
+  "fog": "#a8b7bc",
+  "ground": "#93958f",
+  "sun": "#fff2d8",
+  "sunPosition": [
+    68,
+    95,
+    45
+  ],
+  "cloudColor": "#dce8ec",
+  "wind": [
+    0,
+    0,
+    0
+  ],
+  "gravity": 1,
+  "materials": [],
+  "colliders": [],
+  "objects": [],
+  "model": "model.glb",
+  "collisionFile": "collision.json",
+  "environment": "hangar",
+  "groundPlane": false,
+  "indoor": true,
+  "fogDensity": 0.0005,
+  "bounds": {
+    "min": [
+      -185,
+      -0.674,
+      -185
+    ],
+    "max": [
+      185,
+      34,
+      185
+    ]
+  },
+  "tracks": [
+    {
+      "id": "hangar-cadet",
+      "name": "Cadet line",
+      "laps": 1,
+      "spawn": {
+        "position": [
+          0,
+          1.89,
+          -36
+        ],
+        "yaw": 0
+      },
+      "gates": [
+        {
+          "position": [
+            0,
+            4.05,
+            -4
+          ],
+          "yaw": 0,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            28,
+            5.4,
+            32
+          ],
+          "yaw": 0.5,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            40,
+            4.05,
+            72
+          ],
+          "yaw": 0,
+          "width": 7,
+          "height": 5,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "hangar-circuit",
+      "name": "Hangar Circuit",
+      "laps": 2,
+      "gates": [
+        {
+          "position": [
+            0,
+            4.32,
+            28
+          ],
+          "yaw": 1.480136,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            44,
+            5.4,
+            32
+          ],
+          "yaw": 2.4417,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            76,
+            6.075,
+            -6
+          ],
+          "yaw": -2.607884,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            50,
+            4.725,
+            -50
+          ],
+          "yaw": -1.729452,
+          "width": 1.8,
+          "height": 1.6,
+          "gateClass": "precision-5",
+          "frameThickness": 0.1,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            0,
+            6.075,
+            -58
+          ],
+          "yaw": -1.343997,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -52,
+            5.4,
+            -46
+          ],
+          "yaw": -0.446106,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -74,
+            4.725,
+            0
+          ],
+          "yaw": 0.694738,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            -44,
+            4.725,
+            36
+          ],
+          "yaw": 1.75065,
+          "width": 3,
+          "height": 2.4,
+          "gateClass": "sport-7",
+          "frameThickness": 0.13,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ],
+      "spawn": {
+        "position": [
+          -23.90144,
+          4.32,
+          25.827141
+        ],
+        "yaw": 1.480136
+      }
+    },
+    {
+      "id": "hangar-sprint",
+      "name": "Hangar Sprint",
+      "laps": 1,
+      "gates": [
+        {
+          "position": [
+            0,
+            4.32,
+            28
+          ],
+          "yaw": 1.480136,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            44,
+            5.4,
+            32
+          ],
+          "yaw": 2.4417,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            76,
+            6.075,
+            -6
+          ],
+          "yaw": -2.607884,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            50,
+            4.725,
+            -50
+          ],
+          "yaw": -1.729452,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        },
+        {
+          "position": [
+            0,
+            6.075,
+            -58
+          ],
+          "yaw": -1.729452,
+          "width": 8,
+          "height": 6,
+          "gateClass": "open",
+          "frameThickness": 0.16,
+          "support": {
+            "type": "ground",
+            "baseY": 0
+          }
+        }
+      ],
+      "spawn": {
+        "position": [
+          -23.90144,
+          4.32,
+          25.827141
+        ],
+        "yaw": 1.480136
+      }
+    }
+  ],
+  "bundledChallenges": [
+    {
+      "id": "cadet",
+      "name": "First Lift",
+      "map": "hangar",
+      "track": "hangar-cadet",
+      "target": 201,
+      "reward": 100,
+      "hints": [
+        {
+          "afterGate": 0,
+          "text": "Lift off and follow the gold NEXT marker. The blue marker shows the following gate."
+        },
+        {
+          "afterGate": 1,
+          "text": "First gate complete. Look ahead to the next gate and make a gentle right turn."
+        },
+        {
+          "afterGate": 2,
+          "text": "Final gate. Keep your approach steady and fly through the opening."
+        }
+      ]
+    },
+    {
+      "id": "pilot",
+      "name": "Hangar Ace",
+      "map": "hangar",
+      "track": "hangar-circuit",
+      "target": 263,
+      "reward": 130
+    }
+  ],
+  "bundledTutorials": [
+    {
+      "id": "first-hover",
+      "name": "First hover",
+      "map": "hangar",
+      "track": "hangar-sprint",
+      "steps": [
+        {
+          "text": "Raise throttle slowly. Hold a hover above one meter.",
+          "objective": "altitude",
+          "target": 1,
+          "duration": 3
+        },
+        {
+          "text": "Gently pitch forward to gain speed.",
+          "objective": "speed",
+          "target": 2,
+          "duration": 2
+        },
+        {
+          "text": "Return throttle to zero and land.",
+          "objective": "land",
+          "target": 0,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "gate-basics",
+      "name": "Reading a race line",
+      "map": "hangar",
+      "track": "hangar-cadet",
+      "steps": [
+        {
+          "text": "Gold points to your current gate; blue points to the following gate. Lift off when ready, then choose NEXT STEP.",
+          "objective": "manual",
+          "target": 0,
+          "duration": 0
+        },
+        {
+          "text": "Fly through the first gate in the arrow's direction.",
+          "objective": "gate",
+          "target": 0,
+          "duration": 0
+        },
+        {
+          "text": "Turn right and pass the second gate.",
+          "objective": "gate",
+          "target": 1,
+          "duration": 0
+        },
+        {
+          "text": "Finish the line through the final gate.",
+          "objective": "gate",
+          "target": 2,
+          "duration": 0
+        },
+        {
+          "text": "Reduce speed, descend carefully and land.",
+          "objective": "land",
+          "target": 0,
+          "duration": 2
+        }
+      ]
+    }
+  ]
+}

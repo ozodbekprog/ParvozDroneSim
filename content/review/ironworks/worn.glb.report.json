@@ -1,0 +1,222 @@
+{
+  "input": "content/review/ironworks/worn.raw.glb",
+  "output": "content/review/ironworks/worn.glb",
+  "trianglesBeforeInstancing": 115644,
+  "meshPrimitives": 24,
+  "materials": 10,
+  "textures": [
+    {
+      "name": "modular_industrial_pipes_01_group01_nor_gl_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_industrial_pipes_01_group01_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_industrial_pipes_01_group01_metal-modular_industrial_pipes_01_group01_rough",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_industrial_pipes_01_group02_nor_gl_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_industrial_pipes_01_group02_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_industrial_pipes_01_group02_metal-modular_industrial_pipes_01_group02_rough",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "concrete_road_barrier_nor_gl",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "concrete_road_barrier_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "concrete_road_barrier_rough",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "metal_tool_chest_nor_gl",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "metal_tool_chest_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "metal_tool_chest_metal-metal_tool_chest_rough",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "concrete_floor_worn_001_nor_gl_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Ironworks courtyard baked AO-concrete_floor_worn_001_rough_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "concrete_floor_worn_001_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "concrete_floor_worn_001_ao_1k-concrete_floor_worn_001_rough_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_factory_facade_brick_nor_gl_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_factory_facade_brick_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_factory_facade_brick_rough_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_factory_facade_windows_nor_gl_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_factory_facade_windows_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_factory_facade_windows_rough_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_factory_facade_windows_diff-modular_factory_facade_windows_alpha",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_factory_facade_trim_01_nor_gl_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_factory_facade_trim_01_diff_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "modular_factory_facade_trim_01_rough_1k",
+      "mimeType": "image/ktx2",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "extensions": [
+    "KHR_texture_basisu",
+    "KHR_mesh_quantization",
+    "EXT_meshopt_compression"
+  ]
+}

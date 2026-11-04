@@ -1,0 +1,54 @@
+{
+  "scope": "Source-loader diagnosis; no public or FPS acceptance",
+  "models": [
+    {
+      "url": "/content/assets/maps/minus-two-demo/model-b937e910f9981b0a.glb",
+      "parses": 1,
+      "cacheHits": 138,
+      "readMs": 322.20000000018626,
+      "parseMs": 1251.1000000000931,
+      "lookupMs": 0.7000000001862645,
+      "cloneMs": 23.799999999348074,
+      "clones": 139
+    },
+    {
+      "url": "/content/assets/maps/minus-two-demo/delivery-87910eb6e6a5e197.glb",
+      "parses": 1,
+      "cacheHits": 0,
+      "readMs": 117.79999999981374,
+      "parseMs": 1124.4000000003725,
+      "lookupMs": 0,
+      "cloneMs": 1.599999999627471,
+      "clones": 1
+    },
+    {
+      "url": "/content/assets/drones/kestrel/hangar-5916cca55a137dcd.glb",
+      "parses": 1,
+      "cacheHits": 11,
+      "readMs": 88.10000000009313,
+      "parseMs": 779.8999999999069,
+      "lookupMs": 0,
+      "cloneMs": 1.2999999998137355,
+      "clones": 12
+    }
+  ],
+  "tasks": [
+    {
+      "at": 55770.10000000009,
+      "ms": 319
+    },
+    {
+      "at": 56946.200000000186,
+      "ms": 217
+    },
+    {
+      "at": 57234.299999999814,
+      "ms": 57
+    },
+    {
+      "at": 57291.5,
+      "ms": 474
+    }
+  ],
+  "meshopt": "http://127.0.0.1:5179/node_modules/.vite/deps/three_addons_libs_meshopt_decoder__module__js.js?v=ce40ab6a"
+}

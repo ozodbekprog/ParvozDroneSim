@@ -1,0 +1,44 @@
+{
+  "id": "triblade",
+  "name": "Tri-blade",
+  "mass": 0,
+  "thrust": 1,
+  "drag": 1,
+  "cost": 0,
+  "category": "propellers",
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1,
+  "materials": [],
+  "model": "../../drones/kestrel/hangar.glb",
+  "modelLods": [
+    {
+      "model": "../../drones/kestrel/hangar.glb",
+      "distance": 0
+    },
+    {
+      "model": "../../drones/kestrel/low.glb",
+      "distance": 3
+    },
+    {
+      "model": "../../drones/kestrel/far.glb",
+      "distance": 18
+    }
+  ],
+  "modelNode": "Template_Part_propellers_SCOUT",
+  "lowLod": 1,
+  "compatibleDrones": [
+    "kestrel"
+  ],
+  "assetLicense": "CC-BY-SA-4.0",
+  "visualVariant": "SCOUT",
+  "visualVariantNote": "Authored three-blade propeller"
+}

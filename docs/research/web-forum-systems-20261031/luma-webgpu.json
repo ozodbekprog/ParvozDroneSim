@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "threeRevision": "180",
+  "asset": "/content/assets/drones/luma-5/low-delivery-7a2745867c3531d2.glb",
+  "sourceHash": "7a2745867c3531d228cad725c0b001648424cedbe2f5c9ba7a7edad91769065a",
+  "width": 640,
+  "height": 360,
+  "geometryEqual": true,
+  "texturesEqual": true,
+  "differentPixels": 0,
+  "maxChannelDelta": 0,
+  "note": "Control-first observations; no target-hardware FPS claim.",
+  "results": [
+    {
+      "path": "Blob",
+      "backend": "WebGPU",
+      "loadMs": 960,
+      "imageBlobURLs": 31,
+      "geometries": 13,
+      "textures": 31,
+      "mipBytes": 10049680,
+      "geometryHash": "e48f2c16c8d74f2152aa668e301757d92b0676777266d2d99a65134763e55bf1",
+      "textureHash": "359ff847dfc37d77c8304a14e50ea0991d7fd4374bc9d8e0297a3ba3aa99dbf9",
+      "foregroundPixels": 8239,
+      "framebuffer": [
+        640,
+        360
+      ],
+      "contextLost": false
+    },
+    {
+      "path": "direct",
+      "backend": "WebGPU",
+      "loadMs": 851,
+      "imageBlobURLs": 0,
+      "geometries": 13,
+      "textures": 31,
+      "mipBytes": 10049680,
+      "geometryHash": "e48f2c16c8d74f2152aa668e301757d92b0676777266d2d99a65134763e55bf1",
+      "textureHash": "359ff847dfc37d77c8304a14e50ea0991d7fd4374bc9d8e0297a3ba3aa99dbf9",
+      "foregroundPixels": 8239,
+      "framebuffer": [
+        640,
+        360
+      ],
+      "contextLost": false
+    }
+  ]
+}
